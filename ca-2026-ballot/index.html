@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="icon" href="data:," />
+  <title>California 2026 Ballot Explainer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,650;8..60,760&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      color-scheme:light dark;
+      --paper:#f7f4ec;--sheet:#fffdf8;--ink:#17211d;--muted:#58635e;--line:#d8d4c9;
+      --red:#b63a2b;--red-soft:#f6e2dc;--blue:#205d7a;--blue-soft:#dfeef3;--gold:#d39a25;
+      --green:#267252;--green-soft:#e2f0e8;--shadow:0 16px 44px rgba(35,39,35,.08);
+    }
+    @media(prefers-color-scheme:dark){
+      :root{--paper:#101512;--sheet:#18201c;--ink:#f3f0e7;--muted:#b9c2bc;--line:#354039;
+        --red:#ef7c69;--red-soft:#412821;--blue:#78bddc;--blue-soft:#1b3642;--gold:#e9b955;
+        --green:#71c69d;--green-soft:#1c392d;--shadow:0 18px 48px rgba(0,0,0,.28)}
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.55}
+    button,input{font:inherit} a{color:var(--blue);text-underline-offset:3px} :focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+    .wrap{width:min(1120px,calc(100% - 36px));margin-inline:auto}
+    .hero{padding:clamp(42px,7vw,88px) 0 34px;border-bottom:1px solid var(--line);position:relative;overflow:hidden}
+    .hero:after{content:"";position:absolute;right:-90px;bottom:-125px;width:340px;height:340px;border:50px solid var(--red);border-radius:50%;opacity:.08;pointer-events:none}
+    .dateline{display:flex;align-items:center;gap:10px;color:var(--red);font-weight:700;font-size:.84rem;letter-spacing:.04em;margin-bottom:14px}
+    .dateline:before{content:"";width:34px;height:3px;background:var(--red)}
+    h1,h2,h3{font-family:"Source Serif 4",serif;line-height:1.08;margin:0}
+    h1{font-size:clamp(2.55rem,7vw,5.8rem);max-width:820px;letter-spacing:-.045em}
+    .hero-deck{font-size:clamp(1.05rem,2vw,1.35rem);max-width:760px;margin:20px 0 0;color:var(--muted)}
+    .hero-meta{display:flex;flex-wrap:wrap;gap:18px;margin-top:30px;color:var(--muted);font-size:.9rem}
+    .hero-meta b{color:var(--ink)}
+    .snapshot{background:var(--blue-soft);border-left:5px solid var(--blue);padding:13px 16px;margin:26px 0 0;max-width:850px;font-size:.88rem}
+    .snapshot strong{color:var(--blue)}
+    .overview{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;padding:28px 0 8px}
+    .brief,.conflict{background:var(--sheet);border:1px solid var(--line);box-shadow:var(--shadow);padding:24px}
+    .brief{border-radius:4px 22px 4px 4px}.conflict{border-radius:4px 4px 22px 4px}
+    .section-label{font-size:.78rem;font-weight:700;color:var(--red);letter-spacing:.06em;margin-bottom:8px}
+    .brief h2,.conflict h2{font-size:1.65rem;margin-bottom:10px}.brief p,.conflict p{color:var(--muted);margin:0}
+    .numbers{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);margin-top:18px;padding-top:16px;gap:12px}
+    .numbers strong{display:block;font-family:"Source Serif 4",serif;font-size:1.8rem;color:var(--red)}.numbers span{font-size:.78rem;color:var(--muted)}
+    .conflict-flow{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;margin:18px 0 12px;text-align:center}
+    .measure-chip{border:1px solid var(--line);padding:12px 8px;background:var(--paper);font-weight:700}.measure-chip small{display:block;color:var(--muted);font-weight:500}.versus{color:var(--red);font-weight:800}
+    .tools{padding:34px 0 14px;display:flex;justify-content:space-between;gap:18px;align-items:end}
+    .tools h2{font-size:clamp(2rem,4vw,3.15rem);letter-spacing:-.025em}.tools p{margin:6px 0 0;color:var(--muted)}
+    .search{width:min(360px,100%)}.search label{display:block;font-size:.78rem;font-weight:700;margin-bottom:6px;color:var(--muted)}
+    .search input{width:100%;background:var(--sheet);border:1px solid var(--line);color:var(--ink);padding:11px 13px;border-radius:3px}
+    .filters{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 24px}
+    .filter{border:1px solid var(--line);background:transparent;color:var(--ink);padding:8px 13px;border-radius:999px;cursor:pointer;font-size:.86rem;font-weight:600}
+    .filter[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding-bottom:48px}
+    .prop{background:var(--sheet);border:1px solid var(--line);border-radius:4px;overflow:hidden;min-width:0}
+    .prop[hidden]{display:none}.prop-head{width:100%;border:0;background:transparent;color:inherit;text-align:left;padding:20px;cursor:pointer;display:block}
+    .prop-top{display:flex;justify-content:space-between;gap:15px;align-items:flex-start}.prop-no{font-family:"Source Serif 4",serif;font-size:2.1rem;line-height:1;color:var(--red);white-space:nowrap}.prop-no small{font:600 .67rem "DM Sans";display:block;color:var(--muted);margin-bottom:3px;letter-spacing:.04em}
+    .chev{width:30px;height:30px;border:1px solid var(--line);display:grid;place-items:center;border-radius:50%;flex:0 0 auto;transition:transform .2s}.prop.open .chev{transform:rotate(45deg)}
+    .prop h3{font-size:1.35rem;margin:12px 0 10px}.one-line{margin:0;color:var(--muted);font-size:.95rem}
+    .tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}.tag{font-size:.72rem;font-weight:700;padding:4px 8px;border-radius:2px;background:var(--paper);border:1px solid var(--line)}.tag.lean{color:var(--muted)}.tag.lean.dem{background:var(--blue-soft);border-color:transparent;color:var(--blue)}.tag.lean.rep{background:var(--red-soft);border-color:transparent;color:var(--red)}.tag.money{background:var(--green-soft);border-color:transparent;color:var(--green)}
+    .details{border-top:1px solid var(--line);padding:0 20px 22px}.details[hidden]{display:none}
+    .vote-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding-top:18px}.vote{padding:14px;background:var(--paper);border-top:4px solid var(--green)}.vote.no{border-color:var(--red)}.vote b{display:block;font-size:.75rem;color:var(--green);margin-bottom:5px}.vote.no b{color:var(--red)}.vote p{font-size:.88rem;margin:0}
+    .cost{margin:16px 0;padding:14px;border:1px solid var(--line);background:var(--paper)}.cost b{font-size:.78rem;color:var(--muted);display:block;margin-bottom:4px}.cost strong{font-family:"Source Serif 4",serif;font-size:1.18rem}
+    .prop.open{grid-column:1/-1}
+    .flow-panel{margin:16px 0 18px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0}
+    .flow-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:13px}.flow-head h4{font-family:"Source Serif 4",serif;font-size:1.35rem;margin:0}.flow-head p{font-size:.78rem;color:var(--muted);margin:4px 0 0}
+    .flow-switch{display:flex;border:1px solid var(--line);border-radius:3px;overflow:hidden;flex:0 0 auto}.flow-toggle{border:0;border-right:1px solid var(--line);padding:7px 11px;background:var(--paper);color:var(--muted);font-size:.76rem;font-weight:700;cursor:pointer}.flow-toggle:last-child{border-right:0}.flow-toggle[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+    .sankey-wrap{background:var(--paper);border:1px solid var(--line);padding:10px 10px 8px;min-height:290px}.sankey-svg{display:block;width:100%;height:auto}.sankey-link{fill:none;stroke-opacity:.34}.sankey-node{fill:var(--sheet);stroke:var(--line);stroke-width:1.25}.sankey-node.pass{stroke:var(--green);stroke-width:2}.sankey-node.no{stroke:var(--red);stroke-width:2}.sankey-label{fill:var(--ink);font:700 12px "DM Sans",sans-serif}.sankey-sub{fill:var(--muted);font:500 10px "DM Sans",sans-serif}.sankey-col{fill:var(--muted);font:700 10px "DM Sans",sans-serif;letter-spacing:.08em}.sankey-empty{fill:var(--muted);font:600 14px "DM Sans",sans-serif}
+    .flow-caption{display:flex;justify-content:space-between;gap:14px;margin-top:8px;color:var(--muted);font-size:.74rem}.flow-caption b{color:var(--ink)}.mobile-flow{display:none}
+    .tag.flow-tag{background:var(--blue-soft);border-color:transparent;color:var(--blue)}
+    .procon{display:grid;grid-template-columns:1fr 1fr;gap:14px}.procon h4{font-size:.83rem;margin:0 0 7px}.procon ul{margin:0;padding-left:18px}.procon li{font-size:.86rem;margin:0 0 7px}
+    .poll{margin-top:17px}.poll-head{display:flex;justify-content:space-between;gap:12px;font-size:.78rem;color:var(--muted);margin-bottom:7px}.pollbar{height:11px;background:var(--line);display:flex;border-radius:999px;overflow:hidden}.pollbar .yes{background:var(--green)}.pollbar .no{background:var(--red)}.poll-note{font-size:.76rem;color:var(--muted);margin:6px 0 0}
+    .sources{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.source{font-size:.77rem;font-weight:700;text-decoration:none;border-bottom:1px solid var(--blue);padding-bottom:1px}
+    .empty{grid-column:1/-1;padding:40px;text-align:center;color:var(--muted);border:1px dashed var(--line)}
+    .method{border-top:1px solid var(--line);padding:32px 0 50px}.method-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.method h2{font-size:1.7rem;margin-bottom:8px}.method p{color:var(--muted);font-size:.9rem;margin:0}.method ul{font-size:.88rem;margin:8px 0 0;padding-left:18px}
+    .fineprint{font-size:.76rem!important;margin-top:16px!important}
+    .budget-summary{padding:34px 0 12px}.summary-heading{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:16px}.summary-heading h2{font-size:clamp(2rem,4.4vw,3.35rem);letter-spacing:-.025em;max-width:720px}.summary-heading p{margin:0;max-width:360px;color:var(--muted);font-size:.92rem}
+    .summary-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:14px;align-items:start}.summary-card{background:var(--sheet);border:1px solid var(--line);padding:22px;min-width:0}.summary-card:first-child{border-radius:4px 20px 4px 4px}.summary-card:nth-child(2){border-radius:4px 4px 20px 4px}.summary-card h3{font-size:1.45rem;margin-bottom:6px}.summary-card>p{font-size:.84rem;color:var(--muted);margin:0 0 16px}.budget-pies{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}.pie-card{display:grid;grid-template-columns:190px 1fr;gap:20px;align-items:center}.donut{display:block;width:180px;height:180px}.donut-bg{fill:none;stroke:var(--line);stroke-width:24}.donut-slice{fill:none;stroke-width:24;stroke-linecap:butt}.donut-total{fill:var(--ink);font:760 18px "Source Serif 4",serif;text-anchor:middle}.donut-sub{fill:var(--muted);font:600 9px "DM Sans",sans-serif;text-anchor:middle}.pie-legend{display:grid;gap:8px}.pie-key{display:grid;grid-template-columns:10px 1fr auto;gap:8px;align-items:center;font-size:.76rem}.pie-swatch{width:10px;height:10px;border-radius:50%}.pie-key b{font-size:.78rem}.pie-key span:last-child{color:var(--muted);text-align:right}.pie-foot{grid-column:1/-1;margin:2px 0 0!important;padding-top:10px;border-top:1px solid var(--line)}.impact-list{display:grid;gap:13px}.impact-row{display:grid;grid-template-columns:74px 1fr auto;gap:11px;align-items:center}.impact-label{font-weight:700;font-size:.82rem}.impact-track{height:10px;background:var(--line);border-radius:999px;overflow:hidden}.impact-bar{height:100%;background:var(--red)}.impact-value{text-align:right;font-size:.78rem;color:var(--muted);min-width:175px}.impact-value b{display:block;color:var(--ink);font-size:.86rem}.impact-note{margin-top:15px;padding-top:12px;border-top:1px solid var(--line);font-size:.78rem;color:var(--muted)}
+    .big-numbers{display:grid;gap:10px}.big-number{display:grid;grid-template-columns:100px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}.big-number:last-child{border-bottom:0}.big-number strong{font:760 1.35rem "Source Serif 4",serif;color:var(--blue)}.big-number b{display:block;font-size:.82rem}.big-number span{display:block;font-size:.75rem;color:var(--muted);margin-top:2px}.big-number.revenue strong{color:var(--green)}
+    .budget-flow-card{margin-top:14px;background:var(--sheet);border:1px solid var(--line);box-shadow:var(--shadow);padding:24px;border-radius:4px 4px 22px 4px}.budget-flow-head{display:flex;justify-content:space-between;gap:24px;align-items:start;margin-bottom:14px}.budget-flow-head h3{font-size:1.65rem;margin-bottom:5px}.budget-flow-head p{margin:0;color:var(--muted);font-size:.85rem;max-width:700px}.flow-kpis{display:flex;gap:18px;flex:0 0 auto}.flow-kpi strong{display:block;font:760 1.45rem "Source Serif 4",serif}.flow-kpi span{font-size:.72rem;color:var(--muted)}.flow-kpi.deficit strong{color:var(--red)}
+    .state-sankey{border:1px solid var(--line);background:var(--paper);padding:12px}.state-sankey svg{display:block;width:100%;height:auto}.state-link{fill:none;stroke:var(--blue);stroke-opacity:.25}.state-link.balance{stroke:var(--gold);stroke-opacity:.55}.state-link.out{stroke:var(--red);stroke-dasharray:7 5;stroke-opacity:.58}.state-node{fill:var(--sheet);stroke:var(--line);stroke-width:1.2}.state-node.total{stroke:var(--blue);stroke-width:2}.state-node.balance{stroke:var(--gold);stroke-width:2}.state-node.out{stroke:var(--red);stroke-width:2}.state-label{fill:var(--ink);font:700 11px "DM Sans",sans-serif}.state-sub{fill:var(--muted);font:500 9.5px "DM Sans",sans-serif}.state-col{fill:var(--muted);font:700 9.5px "DM Sans",sans-serif;letter-spacing:.07em}.state-mobile{display:none}.deficit-callout{display:flex;gap:14px;align-items:flex-start;margin-top:13px;background:var(--red-soft);padding:13px 15px;border-left:4px solid var(--red)}.deficit-callout strong{color:var(--red);white-space:nowrap}.deficit-callout span{font-size:.8rem;color:var(--muted)}.summary-sources{display:flex;flex-wrap:wrap;gap:12px;margin:12px 2px 0;font-size:.76rem;color:var(--muted)}.summary-sources a{font-weight:700}
+    .key-link{display:inline-block;margin-left:8px;font-weight:700;white-space:nowrap}.reference-key{padding:28px 0 10px;scroll-margin-top:18px}.reference-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:14px}.reference-heading h2{font-size:clamp(1.8rem,3.5vw,2.75rem);letter-spacing:-.02em}.reference-heading p{margin:0;max-width:420px;color:var(--muted);font-size:.88rem}.reference-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:14px}.reference-card{background:var(--sheet);border:1px solid var(--line);padding:22px;min-width:0}.reference-card:first-child{border-radius:4px 20px 4px 4px}.reference-card:last-child{border-radius:4px 4px 20px 4px}.reference-card h3{font-size:1.35rem;margin-bottom:12px}.term-list{display:grid;grid-template-columns:1fr 1fr;column-gap:24px;margin:0}.term-list div{padding:9px 0;border-top:1px solid var(--line)}.term-list dt{font-weight:700;font-size:.84rem}.term-list dd{margin:2px 0 0;color:var(--muted);font-size:.79rem}.reference-links{list-style:none;padding:0;margin:0;display:grid;gap:11px}.reference-links li{padding-bottom:11px;border-bottom:1px solid var(--line)}.reference-links li:last-child{border-bottom:0;padding-bottom:0}.reference-links a{font-weight:700;font-size:.86rem}.reference-links span{display:block;color:var(--muted);font-size:.76rem;margin-top:2px}.source-note{margin:14px 0 0;padding-top:12px;border-top:1px solid var(--line);font-size:.76rem;color:var(--muted)}
+    .back-to-guide{display:inline-block;margin-top:18px;font-size:.82rem;font-weight:700;text-decoration:none;border-bottom:1px solid var(--blue);padding-bottom:1px}
+    @media(max-width:780px){.overview,.grid,.method-grid,.summary-grid,.budget-pies,.reference-grid{grid-template-columns:1fr}.tools,.summary-heading,.budget-flow-head,.reference-heading{align-items:stretch;flex-direction:column}.search{width:100%}.hero{padding-top:38px}.hero:after{display:none}.flow-kpis{justify-content:flex-start}}
+    @media(max-width:520px){.wrap{width:min(100% - 24px,1120px)}h1{font-size:2.65rem}.hero-meta{display:grid;gap:7px}.key-link{display:block;margin:8px 0 0}.numbers{grid-template-columns:1fr 1fr}.numbers>div:last-child{grid-column:1/-1}.vote-grid,.procon,.term-list{grid-template-columns:1fr}.prop-head,.details{padding-left:16px;padding-right:16px}.conflict-flow{grid-template-columns:1fr}.versus{transform:rotate(90deg)}.flow-head{align-items:stretch;flex-direction:column}.flow-switch{align-self:stretch}.flow-toggle{flex:1}.sankey-svg{display:none}.mobile-flow{display:grid;gap:6px}.mobile-stage{display:grid;gap:6px}.mobile-col-label{font-size:.68rem;font-weight:700;letter-spacing:.06em;color:var(--muted);margin-top:3px}.mobile-node{background:var(--sheet);border:1px solid var(--line);padding:10px;font-size:.79rem;font-weight:700}.mobile-node span{display:block;color:var(--muted);font-weight:500;font-size:.72rem;margin-top:2px}.mobile-arrow{text-align:center;color:var(--blue);font-size:1.1rem;line-height:1}.sankey-wrap{min-height:0}.flow-caption{display:block}.flow-caption span{display:block;margin-top:4px}.summary-card,.budget-flow-card,.reference-card{padding:17px}.pie-card{grid-template-columns:1fr}.donut{margin:0 auto}.impact-row{grid-template-columns:62px 1fr}.impact-value{grid-column:2;text-align:left;min-width:0}.flow-kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}.state-sankey svg{display:none}.state-mobile{display:grid;gap:8px}.state-mobile-stage{display:grid;gap:6px}.state-mobile-title{font-size:.68rem;font-weight:700;letter-spacing:.06em;color:var(--muted);margin-top:3px}.state-mobile-node{background:var(--sheet);border:1px solid var(--line);padding:9px 10px;font-size:.78rem;font-weight:700}.state-mobile-node span{display:block;color:var(--muted);font-size:.71rem;font-weight:500}.state-mobile-arrow{text-align:center;color:var(--blue);font-weight:800}.deficit-callout{display:block}.deficit-callout strong{display:block;margin-bottom:4px}.summary-heading p,.reference-heading p{max-width:none}.big-number{grid-template-columns:92px 1fr}.big-number strong{font-size:1.18rem}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.chev{transition:none}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="dateline">California · General Election</div>
+      <h1>14 propositions.<br>One clear page.</h1>
+      <p class="hero-deck">What a Yes or No vote does, the strongest case on each side, partisan coalition signals, and fiscal scale—without telling you how to vote.</p>
+      <div class="hero-meta"><span><b>Election day</b> Tuesday, November 3, 2026</span><span><b>Budget baseline</b> $251.5B General Fund</span><span><b>Research snapshot</b> October 5, 2026</span></div>
+      <div class="snapshot"><strong>Read this first:</strong> party-lean labels describe the coalitions backing and opposing a measure, not the content of the measure itself. Polls are snapshots, not predictions. <a class="key-link" href="#sources-and-terms">Glossary &amp; sources ↓</a></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="budget-summary" aria-labelledby="fiscal-overview-title">
+      <div class="summary-heading">
+        <div><div class="section-label">FISCAL OVERVIEW</div><h2 id="fiscal-overview-title">What the ballot costs—against California’s budget</h2></div>
+        <p>Bond authorizations, yearly costs, and new revenue are different things. This summary keeps those scales separate.</p>
+      </div>
+      <div id="budget-pies" class="budget-pies" aria-label="California budget revenue and spending composition"></div>
+      <div class="summary-grid">
+        <article class="summary-card">
+          <h3>Largest yearly General Fund effects</h3>
+          <p>The bars compare direct annual costs and Prop 40’s possible revenue loss. Labels show each against General Fund and total state spending.</p>
+          <div id="impact-list" class="impact-list" aria-label="Largest annual proposition costs"></div>
+          <div id="impact-note" class="impact-note"></div>
+        </article>
+        <article class="summary-card">
+          <h3>Big dollar figures that are not yearly costs</h3>
+          <p>These amounts should not be added together: some are borrowing authority, some are revenue, and one is designed to be repaid by borrowers.</p>
+          <div id="big-numbers" class="big-numbers"></div>
+        </article>
+      </div>
+      <article class="budget-flow-card">
+        <div class="budget-flow-head">
+          <div><h3>How the 2026–27 General Fund flows</h3><p>Current-year revenues and transfers do not cover enacted spending on their own. The budget uses prior-year balances and other one-time resources to close the accounting gap.</p></div>
+          <div class="flow-kpis"><div class="flow-kpi"><strong id="revenue-kpi"></strong><span>revenue &amp; transfers</span></div><div class="flow-kpi"><strong id="spending-kpi"></strong><span>enacted spending</span></div><div class="flow-kpi deficit"><strong id="deficit-kpi"></strong><span>operating deficit</span></div></div>
+        </div>
+        <div id="state-sankey" class="state-sankey"></div>
+        <div class="deficit-callout"><strong id="deficit-callout-title"></strong><span id="deficit-callout-copy"></span></div>
+      </article>
+      <div class="summary-sources"><span>Figures: 2026–27 enacted budget, administration estimates through July 1, 2026.</span><a href="https://lao.ca.gov/Publications/Report/5197" target="_blank" rel="noopener">Legislative Analyst’s Office budget overview ↗</a><a href="https://ebudget.ca.gov/budget/m/2026-27/BudgetDetail" target="_blank" rel="noopener">California 2026–27 budget detail ↗</a></div>
+    </section>
+
+    <section id="ballot-guide" class="overview" aria-label="Ballot overview">
+      <div class="brief">
+        <div class="section-label">THE BALLOT AT A GLANCE</div>
+        <h2>The fiscal questions are not all alike.</h2>
+        <p>Bonds create years of debt service. Revenue bonds can be repaid by borrowers. Some measures change future tax authority without moving money today. Every card labels the type of impact so unlike numbers do not get flattened together.</p>
+        <div class="numbers"><div><strong>14</strong><span>statewide measures</span></div><div><strong>3</strong><span>direct bond measures</span></div><div><strong>$251.5B</strong><span>2026–27 General Fund</span></div></div>
+      </div>
+      <div class="conflict">
+        <div class="section-label">SPECIAL CASE</div>
+        <h2>Props 40, 41 &amp; 42 collide.</h2>
+        <p>Prop 40 creates the billionaire tax. Props 41 and 42 can block it. If conflicting measures pass, the one with more Yes votes controls.</p>
+        <div class="conflict-flow"><div class="measure-chip">Prop 40<small>creates tax</small></div><div class="versus">VS</div><div class="measure-chip">Props 41 / 42<small>can void it</small></div></div>
+      </div>
+    </section>
+
+    <section class="tools" aria-labelledby="guide-title">
+      <div><h2 id="guide-title">Pick a proposition</h2><p>Open any card to compare the money flow if it passes or fails, then review the arguments, polling, and official sources.</p></div>
+      <div class="search"><label for="search">Search the guide</label><input id="search" type="search" placeholder="Try housing, taxes, voting…" autocomplete="off"></div>
+    </section>
+    <div class="filters" aria-label="Filter propositions">
+      <button class="filter" data-filter="all" aria-pressed="true">All 14</button>
+      <button class="filter" data-filter="housing" aria-pressed="false">Housing</button>
+      <button class="filter" data-filter="taxes" aria-pressed="false">Taxes &amp; budget</button>
+      <button class="filter" data-filter="elections" aria-pressed="false">Elections</button>
+      <button class="filter" data-filter="health" aria-pressed="false">Health</button>
+      <button class="filter" data-filter="environment" aria-pressed="false">Environment</button>
+    </div>
+    <section id="grid" class="grid" aria-live="polite"></section>
+
+    <section class="method">
+      <div class="method-grid">
+        <div><h2>How this guide was built</h2><p>Vote effects and fiscal estimates come from California's official Voter Information Guide and the nonpartisan Legislative Analyst's Office. Coalition labels summarize publicly named supporters and opponents. Pros and cons are the best good-faith cases made by each side, condensed for clarity.</p></div>
+        <div><h2>How to use the numbers</h2><ul><li><b>Annual cost</b> is compared with the $251.477B enacted 2026–27 General Fund.</li><li><b>Authorization</b> is not the same as annual cost.</li><li><b>Unknown</b> means the LAO did not publish a defensible dollar estimate.</li></ul><p class="fineprint">This is a research snapshot, not an endorsement or a substitute for your county ballot instructions. Polling and campaign coalitions may change after October 5, 2026.</p></div>
+      </div>
+    </section>
+
+    <section id="sources-and-terms" class="reference-key" aria-labelledby="reference-key-title">
+      <div class="reference-heading">
+        <div><div class="section-label">READING KEY</div><h2 id="reference-key-title">Glossary &amp; references</h2></div>
+        <p>Decode the short forms used throughout the guide, then open the primary budget and polling sources.</p>
+      </div>
+      <div class="reference-grid">
+        <article class="reference-card">
+          <h3>Agencies, laws, and budget terms</h3>
+          <dl class="term-list">
+            <div><dt>LAO</dt><dd>California Legislative Analyst’s Office—the nonpartisan fiscal and policy adviser to the Legislature and the author of ballot-measure fiscal analyses.</dd></div>
+            <div><dt>PPIC</dt><dd>Public Policy Institute of California, whose Statewide Survey supplies many of the polling snapshots.</dd></div>
+            <div><dt>Berkeley IGS</dt><dd>Institute of Governmental Studies at UC Berkeley, which conducts the Berkeley IGS Poll.</dd></div>
+            <div><dt>FPPC</dt><dd>California Fair Political Practices Commission, the state agency for campaign-finance and government-ethics rules.</dd></div>
+            <div><dt>CEQA</dt><dd>California Environmental Quality Act, the state process for reviewing a project’s environmental effects.</dd></div>
+            <div><dt>CalHFA</dt><dd>California Housing Finance Agency, the state’s housing-finance agency.</dd></div>
+            <div><dt>CalVet</dt><dd>California Department of Veterans Affairs, which runs the state’s veteran home-loan program.</dd></div>
+            <div><dt>SEIU</dt><dd>Service Employees International Union, a labor organization named in some campaign coalitions.</dd></div>
+            <div><dt>GF / General Fund</dt><dd>The state’s main operating account, supported largely by personal income, sales, and corporation taxes.</dd></div>
+            <div><dt>Gann Limit</dt><dd>The common name for California’s constitutional limit on certain state and local appropriations.</dd></div>
+            <div><dt>K–12</dt><dd>Public education from kindergarten through 12th grade.</dd></div>
+          </dl>
+        </article>
+        <article class="reference-card">
+          <h3>Primary references</h3>
+          <ul class="reference-links">
+            <li><a href="https://lao.ca.gov/Publications/Report/5197" target="_blank" rel="noopener">LAO: 2026–27 spending plan ↗</a><span>Budget totals, revenue, spending, reserves, and structural balance.</span></li>
+            <li><a href="https://ebudget.ca.gov/budget/m/2026-27/BudgetDetail" target="_blank" rel="noopener">California Department of Finance: enacted budget detail ↗</a><span>Department-level General Fund, special-fund, bond-fund, and federal-fund figures.</span></li>
+            <li><a href="https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/" target="_blank" rel="noopener">PPIC Statewide Survey, September 2026 ↗</a><span>Likely-voter polling for most propositions shown in the cards.</span></li>
+            <li><a href="https://escholarship.org/uc/item/3w14s99c" target="_blank" rel="noopener">Berkeley IGS Poll, Release 2026-20 ↗</a><span>State ballot-proposition polling used where a card cites Berkeley IGS.</span></li>
+          </ul>
+          <p class="source-note">Open any proposition card for direct links to that measure’s California Secretary of State voter guide and official fiscal analysis. Poll links are included there too.</p>
+        </article>
+      </div>
+      <a class="back-to-guide" href="#ballot-guide">↑ Back to the ballot guide</a>
+    </section>
+
+  </main>
+
+  <script>
+  const budget2026={
+    revenueSources:[
+      {label:'Personal income tax',value:145.609},
+      {label:'Corporation tax',value:45.167},
+      {label:'Sales & use tax',value:35.598},
+      {label:'Insurance + other revenue',value:10.986}
+    ],
+    netTransfers:-10.605,
+    annualResources:226.754,
+    spending:[
+      {label:'Health & Human Services',value:93.675003},
+      {label:'K–12 education',value:91.091750},
+      {label:'Higher education',value:26.691050},
+      {label:'Corrections',value:14.447846},
+      {label:'Government, courts & executive',value:16.553565},
+      {label:'Other agencies & programs',value:9.018000}
+    ],
+    allFunds:[
+      {label:'General Fund',value:251.477,color:'var(--blue)'},
+      {label:'Special funds',value:95.129,color:'var(--green)'},
+      {label:'Bond funds',value:5.104,color:'var(--gold)'},
+      {label:'Federal funds',value:187.190,color:'var(--red)'}
+    ],
+    operatingDeficit:18.5
+  };
+  const annualImpacts=[
+    {prop:40,low:0,high:1,label:'Potential ongoing revenue loss under $1B / year',uncertain:true},
+    {prop:1,low:.5,high:.6,label:'$500–600M / year'},
+    {prop:38,low:.5,high:.6,label:'$500–600M / year'},
+    {prop:39,low:.02,high:.3,label:'Tens to low hundreds of millions / year'},
+    {prop:45,low:.08,high:.11,label:'High tens of millions; possibly over $100M / year'}
+  ];
+  const largeFiscalEffects=[
+    {prop:37,amount:25,prefix:'Up to ',kind:'Revenue-bond authority',note:'Borrower-repaid; LAO finds no direct state or local cost.'},
+    {prop:1,amount:11.25,kind:'General-obligation bond',note:'Housing authorization; General Fund repays most debt service.'},
+    {prop:38,amount:8.4,kind:'General-obligation bond',note:'Research authorization; General Fund debt service.'},
+    {prop:3,range:[5,15],suffix:'/yr',kind:'Revenue maintained after 2031',note:'Keeps current high-income tax rates rather than creating a present-day increase.',revenue:true},
+    {prop:40,text:'Tens of billions',kind:'Potential one-time revenue',note:'Collected over several years only if Prop 40 wins its conflict with Props 41 and 42.',revenue:true}
+  ];
+  const sum=arr=>arr.reduce((total,item)=>total+item.value,0);
+  const totalSpending=sum(budget2026.spending);
+  const totalAllFunds=sum(budget2026.allFunds);
+  const totalStateSpending=budget2026.allFunds.filter(d=>d.label==='General Fund'||d.label==='Special funds').reduce((total,item)=>total+item.value,0);
+  const grossRevenue=sum(budget2026.revenueSources);
+  const balanceUse=totalSpending-budget2026.annualResources;
+  const moneyB=value=>`$${value>=10?value.toFixed(1):value.toFixed(2).replace(/0$/,'')}B`;
+  const pct=value=>`${(value/totalSpending*100).toFixed(2)}%`;
+  const pctState=value=>`${(value/totalStateSpending*100).toFixed(2)}%`;
+  const pctAll=value=>`${(value/totalAllFunds*100).toFixed(2)}%`;
+  const chartColors=['var(--blue)','var(--red)','var(--gold)','var(--green)'];
+  function donutCard(title,subtitle,data,total,foot){
+    const r=64,c=2*Math.PI*r;
+    let offset=0;
+    const slices=data.map((d,i)=>{const len=d.value/total*c,markup=`<circle class="donut-slice" cx="90" cy="90" r="${r}" stroke="${d.color||chartColors[i%chartColors.length]}" stroke-dasharray="${len.toFixed(2)} ${(c-len).toFixed(2)}" stroke-dashoffset="${(-offset).toFixed(2)}"/>`;offset+=len;return markup}).join('');
+    const legend=data.map((d,i)=>`<div class="pie-key"><span class="pie-swatch" style="background:${d.color||chartColors[i%chartColors.length]}"></span><b>${d.label}</b><span>${moneyB(d.value)} · ${(d.value/total*100).toFixed(1)}%</span></div>`).join('');
+    return `<article class="summary-card pie-card"><svg class="donut" viewBox="0 0 180 180" role="img" aria-label="${title}: ${moneyB(total)} total"><circle class="donut-bg" cx="90" cy="90" r="${r}"/>${slices}<text class="donut-total" x="90" y="88">${moneyB(total)}</text><text class="donut-sub" x="90" y="105">${subtitle}</text></svg><div><h3>${title}</h3><div class="pie-legend">${legend}</div></div><p class="pie-foot">${foot}</p></article>`;
+  }
+  function renderSummary(){
+    const revenueData=budget2026.revenueSources.map((d,i)=>({...d,color:chartColors[i]}));
+    document.getElementById('budget-pies').innerHTML=donutCard('Where General Fund revenue comes from','gross revenue',revenueData,grossRevenue,`After ${moneyB(Math.abs(budget2026.netTransfers))} in net transfers and loans, current-year resources are ${moneyB(budget2026.annualResources)}.`)+donutCard('State + federal all-funds budget','all funds',budget2026.allFunds,totalAllFunds,`State spending alone—General Fund plus special funds—is ${moneyB(totalStateSpending)}; bond and federal funds bring the all-funds total to ${moneyB(totalAllFunds)}.`);
+    const maxImpact=Math.max(...annualImpacts.map(d=>d.high));
+    document.getElementById('impact-list').innerHTML=annualImpacts.map(d=>`<div class="impact-row"><div class="impact-label">Prop ${d.prop}</div><div class="impact-track" aria-hidden="true"><div class="impact-bar" style="width:${(d.high/maxImpact*100).toFixed(1)}%"></div></div><div class="impact-value"><b>${d.label}</b>${d.low?`${pct(d.low)}–`:d.uncertain?'under ':''}${pct(d.high)} GF · ${d.uncertain?'under ':''}${pctState(d.high)} state</div></div>`).join('');
+    const maxDirectCost=Math.max(...annualImpacts.filter(d=>!d.uncertain).map(d=>d.high));
+    document.getElementById('impact-note').innerHTML=`<b>Two scales:</b> the largest direct annual cost shown is ${moneyB(maxDirectCost)} (${pct(maxDirectCost)} of General Fund; ${pctState(maxDirectCost)} of state spending; ${pctAll(maxDirectCost)} of all funds including federal money). Prop 40 separately carries an uncertain ongoing revenue-loss risk below ${moneyB(maxImpact)} a year.`;
+    document.getElementById('big-numbers').innerHTML=largeFiscalEffects.map(d=>{const amount=d.text||(d.range?`${moneyB(d.range[0])}–${moneyB(d.range[1])}`:`${d.prefix||''}${moneyB(d.amount)}`)+(d.suffix||'');return `<div class="big-number${d.revenue?' revenue':''}"><strong>${amount}</strong><div><b>Prop ${d.prop} · ${d.kind}</b><span>${d.note}</span></div></div>`}).join('');
+    document.getElementById('revenue-kpi').textContent=moneyB(budget2026.annualResources);
+    document.getElementById('spending-kpi').textContent=moneyB(totalSpending);
+    document.getElementById('deficit-kpi').textContent=moneyB(budget2026.operatingDeficit);
+    document.getElementById('deficit-callout-title').textContent=`${moneyB(budget2026.operatingDeficit)} operating deficit`;
+    document.getElementById('deficit-callout-copy').textContent=`The Legislative Analyst’s Office (LAO) says the enacted budget is balanced cumulatively, but 2026–27 ongoing revenues fall short of ongoing spending. That structural gap is not the same as the simple ${moneyB(balanceUse)} difference between this year’s revenues and transfers and total appropriations.`;
+    document.getElementById('state-sankey').innerHTML=stateBudgetSvg()+stateBudgetMobile();
+  }
+  function stateBudgetSvg(){
+    const W=1040,H=550,nodeW=160,gap=7,scale=1.64;
+    const revX=10,poolX=245,totalX=500,spendX=870,startY=40;
+    let y=startY;
+    const rev=budget2026.revenueSources.map(d=>{const h=Math.max(34,d.value*scale),n={...d,x:revX,y,h};y+=h+gap;return n});
+    const grossH=grossRevenue*scale,gross={x:poolX,y:startY,w:nodeW,h:grossH};
+    const balance={x:poolX,y:startY+grossH+28,w:nodeW,h:Math.max(38,balanceUse*scale)};
+    const available={x:totalX,y:startY,w:nodeW,h:totalSpending*scale};
+    const transfer={x:totalX,y:startY+available.h+22,w:nodeW,h:34};
+    const spendTotalVisual=budget2026.spending.reduce((a,d)=>a+Math.max(35,d.value*scale),0)+gap*(budget2026.spending.length-1);
+    let sy=Math.max(30,(H-spendTotalVisual)/2);
+    const spend=budget2026.spending.map(d=>{const h=Math.max(35,d.value*scale),n={...d,x:spendX,y:sy,h};sy+=h+gap;return n});
+    const curve=(x1,y1,x2,y2,width,klass='')=>{const m=(x1+x2)/2;return `<path class="state-link ${klass}" d="M${x1} ${y1} C${m} ${y1} ${m} ${y2} ${x2} ${y2}" stroke-width="${Math.max(5,width*scale).toFixed(1)}"/>`};
+    let links='',revOffset=0;
+    rev.forEach(n=>{links+=curve(n.x+nodeW,n.y+n.h/2,gross.x,gross.y+revOffset+n.value*scale/2,n.value);revOffset+=n.value*scale});
+    links+=curve(gross.x+nodeW,gross.y+budget2026.annualResources*scale/2,available.x,available.y+budget2026.annualResources*scale/2,budget2026.annualResources);
+    links+=curve(gross.x+nodeW,gross.y+budget2026.annualResources*scale+Math.abs(budget2026.netTransfers)*scale/2,transfer.x,transfer.y+transfer.h/2,Math.abs(budget2026.netTransfers),'out');
+    links+=curve(balance.x+nodeW,balance.y+balance.h/2,available.x,available.y+budget2026.annualResources*scale+balanceUse*scale/2,balanceUse,'balance');
+    let outOffset=0;
+    spend.forEach(n=>{links+=curve(available.x+nodeW,available.y+outOffset+n.value*scale/2,n.x,n.y+n.h/2,n.value);outOffset+=n.value*scale});
+    const node=(n,title,sub,klass='')=>`<g><rect class="state-node ${klass}" x="${n.x}" y="${n.y}" width="${n.w||nodeW}" height="${n.h}" rx="3"/><text class="state-label" x="${n.x+9}" y="${n.y+16}">${title}</text><text class="state-sub" x="${n.x+9}" y="${n.y+30}">${sub}</text></g>`;
+    const revNodes=rev.map(n=>node(n,n.label,moneyB(n.value))).join('');
+    const spendNodes=spend.map(n=>node(n,n.label,moneyB(n.value))).join('');
+    return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="state-flow-title state-flow-desc"><title id="state-flow-title">California 2026–27 General Fund revenue and spending flow</title><desc id="state-flow-desc">Revenue sources total ${moneyB(grossRevenue)} before net transfers and loans. Current-year revenues and transfers total ${moneyB(budget2026.annualResources)}. Together with ${moneyB(balanceUse)} from prior-year balances and other resources, they fund ${moneyB(totalSpending)} in enacted spending across six grouped program areas.</desc><text class="state-col" x="${revX}" y="18">GROSS REVENUE</text><text class="state-col" x="${poolX}" y="18">POOL &amp; BALANCE</text><text class="state-col" x="${totalX}" y="18">AVAILABLE</text><text class="state-col" x="${spendX}" y="18">ENACTED SPENDING</text>${links}${revNodes}${node(gross,'Gross revenue',moneyB(grossRevenue),'total')}${node(balance,'Balance + other resources',moneyB(balanceUse),'balance')}${node(available,'Total General Fund',moneyB(totalSpending),'total')}${node(transfer,'Net transfers / loans',`−${moneyB(Math.abs(budget2026.netTransfers))}`,'out')}${spendNodes}</svg>`;
+  }
+  function stateBudgetMobile(){
+    const rev=budget2026.revenueSources.map(d=>`<div class="state-mobile-node">${d.label}<span>${moneyB(d.value)}</span></div>`).join('');
+    const spend=budget2026.spending.map(d=>`<div class="state-mobile-node">${d.label}<span>${moneyB(d.value)} · ${(d.value/totalSpending*100).toFixed(1)}%</span></div>`).join('');
+    return `<div class="state-mobile" aria-hidden="true"><div class="state-mobile-stage"><div class="state-mobile-title">GROSS REVENUE · ${moneyB(grossRevenue)}</div>${rev}<div class="state-mobile-node">Net transfers / loans<span>−${moneyB(Math.abs(budget2026.netTransfers))}</span></div></div><div class="state-mobile-arrow">↓</div><div class="state-mobile-stage"><div class="state-mobile-title">AVAILABLE TO SPEND</div><div class="state-mobile-node">Revenue &amp; transfers<span>${moneyB(budget2026.annualResources)}</span></div><div class="state-mobile-node">Balance + other resources<span>${moneyB(balanceUse)} accounting bridge</span></div></div><div class="state-mobile-arrow">↓</div><div class="state-mobile-stage"><div class="state-mobile-title">ENACTED SPENDING · ${moneyB(totalSpending)}</div>${spend}</div></div>`;
+  }
+  renderSummary();
+
+  const pollSources={
+    PPIC:{url:'https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/',label:'PPIC poll'},
+    IGS:{url:'https://escholarship.org/uc/item/3w14s99c',label:'Berkeley IGS poll'}
+  };
+  const props = [
+    {n:1,cat:['housing','taxes'],title:'Housing affordability bond',one:'Borrow $11.25B for affordable housing, homeownership help, and veteran loans.',yes:'California may issue $11.25B in bonds for housing programs and CalVet loans.',no:'The state may not issue these bonds.',cost:'$500–600M a year for about 25 years; about 0.20–0.24% of the General Fund. CalVet loans are borrower-repaid.',lean:'Democratic-leaning support; conservative opposition',type:'Bond · ongoing debt service',poll:[55,43,'PPIC, Sept. 2026'],pros:['Funds tens of thousands of affordable units and homeownership loans.','Uses an established bond model; veteran loans are expected to repay themselves.'],cons:['Principal plus interest commits General Fund dollars for a generation.','Subsidies may not address the land-use and construction constraints driving prices.'],sos:'https://voterguide.sos.ca.gov/propositions/1',lao:'https://lao.ca.gov/ballot/2026/prop1-110326.pdf'},
+    {n:2,cat:['taxes'],title:'Larger rainy-day fund',one:'Raises the reserve ceiling and extends required extra debt payments through 2040.',yes:'Rules would build higher reserves and continue extra debt payments for longer.',no:'Current reserve and debt-payment rules stay in place.',cost:'Structural change; no fixed dollar estimate. Current broadly usable reserves are about $20B.',lean:'Democratic-led, with labor and business support; conservative opposition',type:'Budget rules · no new tax',poll:[60,39,'PPIC, Sept. 2026'],pros:['Bigger reserves cushion school, health, and safety programs in recessions.','Longer debt paydown can reduce future interest costs.'],cons:['Locks up dollars that could be spent or returned during strong years.','Excluding deposits from the spending limit can make taxpayer rebates less likely.'],sos:'https://voterguide.sos.ca.gov/propositions/2/',lao:'https://lao.ca.gov/BallotAnalysis/Proposition?number=2&year=2026'},
+    {n:3,cat:['taxes'],title:'Permanent high-income tax rates',one:'Keeps the current top income-tax rates after their scheduled 2031 expiration.',yes:'Existing higher rates on roughly the top 2% of earners become permanent.',no:'Those higher rates expire in 2031; no one’s rate changes today.',cost:'Maintains $5–15B in annual revenue starting in 2031—about 2–6% of today’s General Fund.',lean:'Democratic / education-labor support; taxpayer and business opposition',type:'Revenue · ongoing',poll:[54,34,'Berkeley IGS, Sept. 2026'],pros:['Avoids a large 2031 funding cliff for schools, health care, and reserves.','Keeps current rates rather than raising them today.'],cons:['Makes a tax sold as temporary permanent.','Deepens reliance on volatile income from a small group of high earners.'],sos:'https://voterguide.sos.ca.gov/propositions/3/title-summary.htm',lao:'https://lao.ca.gov/ballot/2026/prop3-110326.pdf'},
+    {n:4,cat:['elections'],title:'Allow public campaign financing',one:'Repeals California’s ban so governments may later create voluntary public-financing programs.',yes:'State and local governments may create programs under spending and eligibility rules.',no:'The existing ban remains, except for charter cities with existing authority.',cost:'A few hundred thousand dollars a year for FPPC guidance; future program costs are unknown.',lean:'Democratic / reform-group support; conservative / taxpayer opposition',type:'Election rules · negligible direct cost',poll:[42,53,'PPIC, Sept. 2026'],pros:['Could amplify small donors and reduce candidates’ reliance on wealthy contributors.','Bars use of education, transportation, and public-safety earmarks.'],cons:['Uses taxpayer money for political campaigns.','The measure itself sets no overall cap on future programs.'],sos:'https://voterguide.sos.ca.gov/propositions/4/',lao:'https://lao.ca.gov/ballot/2026/prop4-110326.pdf'},
+    {n:5,cat:['elections'],title:'Change the recall replacement process',one:'Removes the same-day replacement vote from recalls of statewide officers.',yes:'A successful recall creates a vacancy filled by succession, appointment, or a later special election.',no:'Voters keep choosing removal and a replacement on the same ballot.',cost:'Rare-event savings or costs in the millions; net effect unknown and well below 0.1% of the budget.',lean:'Democratic / good-government support; Republican / election-integrity opposition',type:'Governance · rare-event cost',poll:[35,59,'PPIC, Sept. 2026'],pros:['Prevents a replacement from winning with a tiny plurality in a crowded field.','Makes the recall ballot simpler.'],cons:['Removes voters’ direct choice of a replacement at the recall election.','Appointments or later elections can leave voters with less immediate control.'],sos:'https://voterguide.sos.ca.gov/propositions/5/',lao:'https://lao.ca.gov/ballot/2026/prop5-110326.pdf'},
+    {n:37,cat:['housing'],title:'Middle-income homebuyer loan program',one:'Authorizes up to $25B in borrower-repaid revenue bonds for second mortgages on qualifying new homes.',yes:'CalHFA may offer fixed-rate second mortgages up to 17% of a qualifying new home’s price.',no:'The program is not created.',cost:'No direct state or local cost, according to the LAO; bonds are repaid by borrowers. $25B is the authorization ceiling.',lean:'Mostly Democratic coalition; opposition crosses ideological lines',type:'Revenue bonds · borrower-repaid',poll:[61,35,'PPIC, Sept. 2026'],pros:['Targets the down-payment barrier without General Fund debt service.','Only new construction qualifies, tying aid to added supply.'],cons:['Adds a second loan and may subsidize demand more than supply.','Below-market rates are not guaranteed; defaults remain a program risk.'],sos:'https://voterguide.sos.ca.gov/propositions/37/',lao:'https://lao.ca.gov/BallotAnalysis/Proposition?number=37&year=2026'},
+    {n:38,cat:['health','taxes'],title:'Immunology research bond',one:'Borrow $8.4B for immune-system research, split between one institute and a grant program.',yes:'California may issue $8.4B in bonds for immunology and immunotherapy research.',no:'The state may not issue these bonds.',cost:'$500–600M a year for about 20 years; about 0.20–0.24% of the General Fund, with uncertain research revenue offsets.',lean:'Cross-partisan patient-advocacy support; limited organized opposition',type:'Bond · ongoing debt service',poll:[55,42,'PPIC, Sept. 2026'],pros:['Funds research into cancer, Alzheimer’s, heart disease, and other conditions.','Includes audits, an admin cap, revenue sharing, and a California price discount.'],cons:['Taxpayers repay debt even if the research produces no marketable treatment.','Half of the money is directed to one selected institute.'],sos:'https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/38',lao:'https://www.lao.ca.gov/ballot/2026/prop38-110326.pdf'},
+    {n:39,cat:['elections'],title:'Voter identification requirement',one:'Requires government ID in person and ID digits on mail-ballot envelopes.',yes:'Voters provide additional identifying information every time they vote.',no:'Identity continues to be established primarily through the voter’s signature.',cost:'Tens to low hundreds of millions each year; roughly 0.01–0.12% of the General Fund.',lean:'Republican support; Democratic / voting-rights opposition',type:'Election administration · ongoing',poll:[39,52,'Berkeley IGS, Sept. 2026'],pros:['Adds an objective identity check and requires a free state voter-ID option.','Mandates regular citizenship-verification reporting and audits.'],cons:['Creates new error points that could invalidate eligible voters’ ballots.','Adds significant recurring cost without evidence of widespread voter fraud.'],sos:'https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/39',lao:'https://lao.ca.gov/ballot/2026/prop39-110326.pdf'},
+    {n:40,cat:['taxes','health'],title:'One-time billionaire wealth tax',one:'Taxes covered wealth above $1B at up to 5%, mainly for health care.',yes:'California collects a one-time 5% wealth tax from covered billionaires and trusts.',no:'The one-time wealth tax is not collected.',cost:'LAO: tens of billions over several years, with a possible ongoing income-tax loss under $1B a year.',lean:'Progressive-labor support; Governor, business, and broad institutional opposition',type:'Revenue · one-time, with ongoing risk',poll:[45,42,'Berkeley IGS, Sept. 2026'],pros:['Raises large one-time revenue mainly for health care after federal cuts.','Targets extreme wealth and bars replacement of existing program funding.'],cons:['Revenue is uncertain and could encourage wealthy taxpayers to leave.','One-time money does not permanently fund ongoing health programs.'],sos:'https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/40',lao:'https://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/40'},
+    {n:41,cat:['taxes'],title:'Tax-program audits and spending-limit rules',one:'Requires audits for new special taxes and blocks exemptions from the state spending limit.',yes:'New special-tax programs face pre-election and four-year audits; revenue stays under the Gann Limit.',no:'Auditor duties and spending-limit rules do not change.',cost:'Net effect unknown; audit costs likely low millions per year, mostly paid from new tax revenue.',lean:'Republican / taxpayer support; Democratic / SEIU opposition',type:'Tax rules · countermeasure to Prop 40',poll:[51,null,'PPIC, Sept. 2026; No share not published'],pros:['Adds independent review before and after voters approve special-tax programs.','Stops initiatives from carving revenue out of the voter-approved spending limit.'],cons:['Functions as a poison pill against Prop 40.','Adds recurring audit bureaucracy without guaranteeing recommendations are adopted.'],sos:'http://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/41',lao:'https://lao.ca.gov/BallotAnalysis/Proposition?number=41&year=2026'},
+    {n:42,cat:['taxes'],title:'Ban new personal-property and retroactive taxes',one:'Constitutionally blocks new state taxes on owning personal property and most retroactive taxes.',yes:'The state loses those tax options; conflicting taxes enacted after Jan. 1, 2026 are voided.',no:'The state keeps those future tax options.',cost:'Not quantifiable. The LAO says future revenue may not rise as much.',lean:'Republican / taxpayer support; Democratic / SEIU opposition',type:'Tax authority · countermeasure to Prop 40',poll:[54,43,'PPIC, Sept. 2026'],pros:['Treats retroactive taxation as unfair and provides predictable rules for savers and investors.','Prevents a new class of tax on merely owning assets.'],cons:['Permanently removes progressive revenue options from future voters and lawmakers.','Its immediate function is to nullify Prop 40 if it wins more Yes votes.'],sos:'http://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/42',lao:'https://lao.ca.gov/BallotAnalysis/Proposition?number=42&year=2026'},
+    {n:43,cat:['taxes'],title:'Two-thirds vote for local special taxes',one:'Raises the bar for citizen-proposed local special taxes from a majority to two-thirds.',yes:'Citizen initiatives face the same two-thirds threshold as government-proposed special taxes.',no:'Citizen-proposed local special taxes may still pass by simple majority.',cost:'Unknown; local tax revenue may not grow as much. This does not directly affect the state General Fund.',lean:'Business / taxpayer support; labor opposition, despite bipartisan legislative referral',type:'Local revenue · structural',poll:[null,null,'PPIC: below majority; exact topline unpublished'],pros:['Applies one threshold regardless of who proposes the special tax.','Protects a substantial minority from earmarked local tax increases.'],cons:['Lets one-third of voters block funding supported by nearly two-thirds.','Makes local services harder to fund through citizen initiatives.'],sos:'http://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/43',lao:'https://lao.ca.gov/BallotAnalysis/Proposition?number=43&year=2026'},
+    {n:44,cat:['health'],title:'90% spending rule for community clinics',one:'Requires nonprofit safety-net clinics to spend 90% of revenue on program services.',yes:'Covered clinics must meet the 90% standard or pay the shortfall as a penalty.',no:'The new spending requirement does not take effect.',cost:'Low tens of millions a year for enforcement, covered by fees on affected clinics.',lean:'Labor-vs-provider fight; no clean party split',type:'Regulation · fee-funded enforcement',poll:[34,61,'PPIC, Sept. 2026'],pros:['Directs more nonprofit clinic revenue toward patient care and charitable services.','Provides reporting, penalties, waivers, and a five-year cure period.'],cons:['A rigid ratio may squeeze necessary IT, facilities, translation, and administration.','Provider groups warn clinics could reduce services or close.'],sos:'http://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/44',lao:'https://lao.ca.gov/BallotAnalysis/Proposition?number=44&year=2026'},
+    {n:45,cat:['environment','housing'],title:'Fast-track environmental review',one:'Sets deadlines and narrows lawsuits for eligible housing, infrastructure, energy, and health projects.',yes:'Eligible projects may opt into faster CEQA review and court procedures.',no:'Current CEQA procedures continue.',cost:'High tens of millions, potentially over $100M a year, partly fee-funded; long-term effects unknown.',lean:'Business / developer support; environmental / labor opposition',type:'Process reform · ongoing implementation',poll:[49,46,'PPIC, Sept. 2026'],pros:['Could get housing and infrastructure built faster while keeping environmental standards.','Limits project-wide shutdowns when only one portion is out of compliance.'],cons:['Caps public input and narrows judicial and tribal review.','Could speed projects with significant environmental harms.'],sos:'http://quickguidetoprops.sos.ca.gov/propositions/2026-11-03/45',lao:'https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026'}
+  ];
+
+  const fiscalFlows={
+    1:{note:'Bond authorization, program funding, and repayment paths',pass:{title:'Passes: $11.25B becomes available and two repayment streams begin',scale:'Program widths reflect the $11.25B allocation; General Fund and veteran payments return principal and interest to bondholders.',stages:[[{t:'Bond investors',s:'$11.25B issued over time'},{t:'General Fund',s:'$500–600M/yr for ~25 years'},{t:'Veteran borrowers',s:'CalVet loan payments'}],[{t:'Housing bond',s:'$10B'},{t:'CalVet revenue bond',s:'$1.25B'},{t:'Bondholders repaid',s:'Principal and interest'}],[{t:'Housing programs',s:'$10B total'},{t:'Veteran home loans',s:'$1.25B'},{t:'Investor repayment',s:'From GF and borrowers'}]],links:[{a:0,b:0,c:0,w:10},{a:0,b:0,c:1,w:1.25},{a:0,b:1,c:2,w:1,u:true},{a:0,b:2,c:2,w:1,u:true},{a:1,b:0,c:0,w:10},{a:1,b:1,c:1,w:1.25},{a:1,b:2,c:2,w:1,u:true}]},fail:{title:'Fails: no new bond flow',scale:'Existing housing programs continue without this authorization.',stages:[[{t:'Bond authority',s:'Not approved'}],[{t:'New proceeds',s:'$0 from Prop 1'}],[{t:'New debt service',s:'$0 from Prop 1'}]],links:[{a:0,b:0,c:0,w:1},{a:1,b:0,c:0,w:1}] }},
+
+    2:{note:'Budget-rule change; LAO gives no fixed dollar amount',pass:{title:'Passes: a larger share can be held back',scale:'Schematic flow; the eventual dollars depend on future revenues.',stages:[[{t:'General Fund tax revenue',s:'Future strong-revenue years'}],[{t:'Reserve deposits',s:'Ceiling rises from 10% to 20%'},{t:'Extra debt payments',s:'Requirement extends to 2040'}],[{t:'Larger fiscal cushion',s:'Less money immediately available'}]],links:[{a:0,b:0,c:0,w:2},{a:0,b:0,c:1,w:1},{a:1,b:0,c:0,w:2},{a:1,b:1,c:0,w:1}]},fail:{title:'Fails: current budget rules remain',scale:'Schematic flow; no new fiscal rule is created.',stages:[[{t:'General Fund tax revenue',s:'Current rules'}],[{t:'Reserve deposits',s:'10% ceiling remains'},{t:'Extra debt payments',s:'Requirement ends in 2030'}],[{t:'Existing budget flexibility',s:'No Prop 2 change'}]],links:[{a:0,b:0,c:0,w:1},{a:0,b:0,c:1,w:1},{a:1,b:0,c:0,w:1},{a:1,b:1,c:0,w:1}]}},
+    3:{note:'Revenue change begins in 2031',pass:{title:'Passes: current top rates stay',scale:'Widths use LAO’s approximate 40/60 distribution.',stages:[[{t:'Top ~2% of earners',s:'Current higher rates continue'}],[{t:'$5–15B each year',s:'Revenue maintained after 2031'}],[{t:'Schools & colleges',s:'About 40%'},{t:'Other programs & reserves',s:'About 60%'}]],links:[{a:0,b:0,c:0,w:10},{a:1,b:0,c:0,w:4},{a:1,b:0,c:1,w:6}]},fail:{title:'Fails: the higher rates expire',scale:'No rate changes before 2031 under either outcome.',stages:[[{t:'Top ~2% of earners',s:'Higher rates expire in 2031'}],[{t:'Revenue not maintained',s:'$5–15B less each year'}],[{t:'Future budget choices',s:'Cuts, other revenue, or reserves'}]],links:[{a:0,b:0,c:0,w:1},{a:1,b:0,c:0,w:1}]}},
+    4:{note:'Permission first; any program needs separate action',pass:{title:'Passes: public financing becomes possible',scale:'Schematic flow; future program spending is unknown.',stages:[[{t:'Government funds',s:'Only if a program is later adopted'}],[{t:'Public campaign financing',s:'Optional future programs'},{t:'FPPC guidance',s:'A few hundred thousand $/yr'}],[{t:'Qualified candidates',s:'Under future eligibility rules'}]],links:[{a:0,b:0,c:0,w:3},{a:0,b:0,c:1,w:1},{a:1,b:0,c:0,w:3}]},fail:{title:'Fails: statewide ban remains',scale:'No new program or direct Prop 4 spending.',stages:[[{t:'Public money',s:'Statewide ban remains'}],[{t:'Campaign financing',s:'No new authority'}],[{t:'Direct Prop 4 cost',s:'$0'}]],links:[{a:0,b:0,c:0,w:1},{a:1,b:0,c:0,w:1}]}},
+    5:{note:'Recall elections are rare; net fiscal effect is unknown',pass:{title:'Passes: one recall question, then vacancy rules',scale:'Schematic flow; savings or costs could be millions.',stages:[[{t:'Election budgets',s:'Recall administration'}],[{t:'Shorter recall ballot',s:'Potential savings'},{t:'Later special election',s:'Potential added cost'}],[{t:'Net effect',s:'Unknown'}]],links:[{a:0,b:0,c:0,w:1},{a:0,b:0,c:1,w:1},{a:1,b:0,c:0,w:1},{a:1,b:1,c:0,w:1}]},fail:{title:'Fails: current two-part recall remains',scale:'Schematic flow; candidate count drives cost.',stages:[[{t:'Election budgets',s:'Recall administration'}],[{t:'Removal question',s:'Current process'},{t:'Replacement ballot',s:'Printed at same election'}],[{t:'Net effect',s:'No Prop 5 change'}]],links:[{a:0,b:0,c:0,w:1},{a:0,b:0,c:1,w:1},{a:1,b:0,c:0,w:1},{a:1,b:1,c:0,w:1}]}},
+    37:{note:'Revenue bonds are designed to be borrower-repaid',pass:{title:'Passes: a revolving home-loan channel opens',scale:'Width reflects the $25B authorization ceiling; borrower payments repay bondholders and can replenish the program.',stages:[[{t:'Revenue-bond investors',s:'Up to $25B'}],[{t:'CalHFA second mortgages',s:'Up to 17% of home price'}],[{t:'Eligible homebuyers',s:'Qualifying new homes'}],[{t:'Borrower repayments',s:'Back to CalHFA and bondholders'}]],links:[{a:0,b:0,c:0,w:25},{a:1,b:0,c:0,w:25},{a:2,b:0,c:0,w:25}]},fail:{title:'Fails: the loan program is not created',scale:'No direct state or local cost either way, per LAO.',stages:[[{t:'Revenue-bond authority',s:'Not approved'}],[{t:'New second mortgages',s:'$0 from Prop 37'}],[{t:'General Fund cost',s:'$0'}]],links:[{a:0,b:0,c:0,w:1},{a:1,b:0,c:0,w:1}]}},
+
+    38:{note:'Bond proceeds, annual repayment, and research allocation',pass:{title:'Passes: $8.4B funds research while the General Fund repays investors',scale:'Research proceeds split about 50/50; General Fund debt service goes to bondholders, not researchers.',stages:[[{t:'Bond investors',s:'Provide $8.4B'},{t:'General Fund',s:'$500–600M/yr for ~20 years'}],[{t:'Bond proceeds',s:'$8.4B for research'},{t:'Bondholders repaid',s:'Principal and interest'}],[{t:'Selected institute',s:'About $4.2B'},{t:'Competitive grants',s:'About $4.2B'}]],links:[{a:0,b:0,c:0,w:8.4},{a:0,b:1,c:1,w:1,u:true},{a:1,b:0,c:0,w:4.2},{a:1,b:0,c:1,w:4.2}]},fail:{title:'Fails: no new research bonds',scale:'No new Prop 38 debt service or research proceeds.',stages:[[{t:'Bond authority',s:'Not approved'}],[{t:'New proceeds',s:'$0 from Prop 38'}],[{t:'New debt service',s:'$0 from Prop 38'}]],links:[{a:0,b:0,c:0,w:1},{a:1,b:0,c:0,w:1}]}},
+
+    39:{note:'Election-administration spending',pass:{title:'Passes: new identification system is funded',scale:'Schematic allocation; LAO gives only a total range.',stages:[[{t:'State & local funds',s:'Tens to low hundreds of millions/yr'}],[{t:'ID checks & free cards',s:'New administration'},{t:'County verification',s:'Matching and reporting'},{t:'State audits',s:'Odd-numbered years'}],[{t:'Election system',s:'Ongoing operating cost'}]],links:[{a:0,b:0,c:0,w:2},{a:0,b:0,c:1,w:2},{a:0,b:0,c:2,w:1},{a:1,b:0,c:0,w:2},{a:1,b:1,c:0,w:2},{a:1,b:2,c:0,w:1}]},fail:{title:'Fails: signature-based system continues',scale:'No Prop 39 implementation cost.',stages:[[{t:'Existing election funds',s:'Current administration'}],[{t:'Signature verification',s:'Current process'}],[{t:'New Prop 39 cost',s:'$0'}]],links:[{a:0,b:0,c:0,w:1},{a:1,b:0,c:0,w:1}]}},
+    40:{note:'Prop 40 conflicts with Props 41 and 42; highest Yes vote controls',pass:{title:'Passes: the tax flows only if Prop 40 wins the conflict',scale:'The 90/10 branch is proportional. If Prop 41 or 42 has more Yes votes, Prop 40 is void and this revenue is $0.',cols:['BALLOT RESULT','CONFLICT RULE','CONTROLLING LAW','FISCAL RESULT'],stages:[[{t:'Prop 40 passes',s:'Alongside any passed rival'}],[{t:'Compare Yes votes',s:'40 vs. 41 and 42'}],[{t:'Prop 40 has more',s:'Wealth tax controls'},{t:'Prop 41 or 42 has more',s:'Countermeasure controls'}],[{t:'Tens of billions',s:'90% health · 10% food/education'},{t:'Prop 40 revenue',s:'$0 · tax is void'}]],links:[{a:0,b:0,c:0,w:1},{a:1,b:0,c:0,w:1},{a:1,b:0,c:1,w:1},{a:2,b:0,c:0,w:1},{a:2,b:1,c:1,w:1}]},fail:{title:'Fails: the one-time tax is not collected',scale:'No new revenue or earmarked spending from Prop 40.',stages:[[{t:'Covered wealth',s:'No Prop 40 tax'}],[{t:'New revenue',s:'$0'}],[{t:'Prop 40 programs',s:'$0'}]],links:[{a:0,b:0,c:0,w:1},{a:1,b:0,c:0,w:1}]}},
+
+    41:{note:'Audit costs plus a conflict rule with Prop 40',pass:{title:'Passes: audit rules begin; Prop 40 depends on which gets more Yes votes',scale:'Program and audit paths are schematic. In the conflict branch, Prop 40 money exists only when Prop 40 has more Yes votes.',stages:[[{t:'Future special-tax revenue',s:'New programs'},{t:'Prop 40 also passes',s:'One-time wealth tax'}],[{t:'Program allocation',s:'Under Gann Limit'},{t:'Audit allocation',s:'Low millions per year'},{t:'Compare Yes votes',s:'Prop 40 vs. 41'}],[{t:'Tax program spending',s:'Subject to review'},{t:'Audit administration',s:'Independent review'},{t:'If 40 has more Yes',s:'Prop 40 tax survives'},{t:'If 41 has more Yes',s:'Prop 40 tax is void'}]],links:[{a:0,b:0,c:0,w:5},{a:0,b:0,c:1,w:1},{a:0,b:1,c:2,w:2},{a:1,b:0,c:0,w:5},{a:1,b:1,c:1,w:1},{a:1,b:2,c:2,w:1},{a:1,b:2,c:3,w:1}]},fail:{title:'Fails: current spending-limit rules remain',scale:'Prop 41 cannot block Prop 40; Prop 42 can still do so if it passes with more Yes votes.',stages:[[{t:'Future special taxes',s:'Current rules'}],[{t:'No new audit mandate',s:'No Prop 41 cost'}],[{t:'Prop 40 conflict',s:'Only Prop 42 can still block it'}]],links:[{a:0,b:0,c:0,w:1},{a:1,b:0,c:0,w:1}]}},
+
+    42:{note:'Revenue authority plus a conflict rule with Prop 40',pass:{title:'Passes: tax limits begin; Prop 40 depends on which gets more Yes votes',scale:'Schematic flow; LAO gives no dollar estimate. Prop 40 money exists only when Prop 40 has more Yes votes.',stages:[[{t:'Future tax proposals',s:'Personal property or retroactive'},{t:'Prop 40 also passes',s:'One-time wealth tax'}],[{t:'New limits apply',s:'Future revenue may not grow as much'},{t:'Compare Yes votes',s:'Prop 40 vs. 42'}],[{t:'Restricted tax authority',s:'Applies going forward'},{t:'If 40 has more Yes',s:'Tens of billions · 90/10 uses'},{t:'If 42 has more Yes',s:'Prop 40 revenue is $0'}]],links:[{a:0,b:0,c:0,w:2},{a:0,b:1,c:1,w:2},{a:1,b:0,c:0,w:2},{a:1,b:1,c:1,w:1},{a:1,b:1,c:2,w:1}]},fail:{title:'Fails: the state keeps those tax options',scale:'Prop 42 cannot block Prop 40; Prop 41 can still do so if it passes with more Yes votes.',stages:[[{t:'Future tax proposals',s:'Remain legally available'}],[{t:'Voters or lawmakers',s:'Decide case by case'}],[{t:'Future state revenue',s:'No Prop 42 restriction'}]],links:[{a:0,b:0,c:0,w:1},{a:1,b:0,c:0,w:1}]}},
+
+    43:{note:'Local-government revenue; not the state General Fund',pass:{title:'Passes: a higher approval gate narrows future flow',scale:'Schematic flow; future local revenue loss is not quantifiable.',stages:[[{t:'Citizen special-tax proposal',s:'Local ballot'}],[{t:'Two-thirds approval',s:'66.7% required'}],[{t:'Local services',s:'Revenue flows only if threshold is met'}]],links:[{a:0,b:0,c:0,w:1},{a:1,b:0,c:0,w:1}]},fail:{title:'Fails: simple-majority route remains',scale:'Citizen initiatives may still pass with 50% + 1.',stages:[[{t:'Citizen special-tax proposal',s:'Local ballot'}],[{t:'Simple majority',s:'50% + 1 required'}],[{t:'Local services',s:'Revenue if approved'}]],links:[{a:0,b:0,c:0,w:1},{a:1,b:0,c:0,w:1}]}},
+    44:{note:'Clinic revenue allocation and fee-funded enforcement',pass:{title:'Passes: at least 90% goes to program services',scale:'The 90/10 widths are proportional; fees fund oversight, while only an under-spending shortfall creates a penalty.',stages:[[{t:'Clinic revenue',s:'100%'},{t:'Clinic fees',s:'Fund enforcement'},{t:'Under-spending shortfall',s:'Only if below 90%'}],[{t:'Program services',s:'At least 90%'},{t:'Other spending',s:'At most 10%'},{t:'Enforcement operations',s:'Low tens of millions/yr'},{t:'Penalty calculation',s:'Equal to the shortfall'}],[{t:'Patient & charitable services',s:'Required destination'},{t:'Allowed operating costs',s:'Within the 10% share'},{t:'State oversight',s:'Fee-funded'},{t:'Shortfall penalty',s:'Conditional payment'}]],links:[{a:0,b:0,c:0,w:90},{a:0,b:0,c:1,w:10},{a:0,b:1,c:2,w:5},{a:0,b:2,c:3,w:5},{a:1,b:0,c:0,w:90},{a:1,b:1,c:1,w:10},{a:1,b:2,c:2,w:5},{a:1,b:3,c:3,w:5}]},fail:{title:'Fails: no statewide 90% rule',scale:'Current clinic spending rules and oversight continue.',stages:[[{t:'Clinic revenue',s:'Current allocation choices'}],[{t:'Program & operating costs',s:'No Prop 44 ratio'}],[{t:'New Prop 44 enforcement',s:'$0'}]],links:[{a:0,b:0,c:0,w:1},{a:1,b:0,c:0,w:1}]}},
+
+
+    45:{note:'Implementation costs and fee offsets',pass:{title:'Passes: funding moves into a new fast-track process',scale:'Schematic flow; exact state/fee shares are not published.',stages:[[{t:'State & local funds',s:'High tens of millions, possibly >$100M/yr'},{t:'Applicant fees',s:'Partial offset'}],[{t:'Agency review',s:'Faster deadlines'},{t:'Court workload',s:'Accelerated cases'}],[{t:'Eligible projects',s:'Optional fast-track review'}]],links:[{a:0,b:0,c:0,w:2},{a:0,b:0,c:1,w:1},{a:0,b:1,c:0,w:1},{a:1,b:0,c:0,w:2},{a:1,b:1,c:0,w:1}]},fail:{title:'Fails: current CEQA process continues',scale:'No new Prop 45 implementation spending.',stages:[[{t:'Existing agency budgets',s:'Current funding'}],[{t:'Current CEQA review',s:'No fast-track deadlines'}],[{t:'Eligible projects',s:'Existing process'}]],links:[{a:0,b:0,c:0,w:1},{a:1,b:0,c:0,w:1}]}}
+  };
+
+  const grid=document.getElementById('grid');
+  let filter='all';
+  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+  function pollMarkup(p){
+    if(p.poll[0]===null) return `<div class="poll"><div class="poll-head"><span>Polling</span><b>${esc(p.poll[2])}</b></div></div>`;
+    const y=p.poll[0], n=p.poll[1], und=n===null?null:Math.max(0,100-y-n);
+    return `<div class="poll"><div class="poll-head"><span>Polling snapshot</span><b>${y}% Yes${n===null?'':` · ${n}% No`}</b></div><div class="pollbar" aria-label="${y}% Yes${n===null?'':`, ${n}% No`}"><span class="yes" style="width:${y}%"></span>${n===null?'':`<span class="no" style="width:${n}%"></span>`}</div><p class="poll-note">${esc(p.poll[2])}${und>0?` · ${und}% undecided/other`:''}</p></div>`;
+  }
+  const partyLean={1:'dem',2:'dem',3:'dem',4:'dem',5:'dem',37:'dem',39:'rep',40:'dem',41:'rep',42:'rep',43:'rep',45:'rep'};
+  const wrapWords=(text,max=24)=>{const words=String(text).split(' '),lines=[];let line='';words.forEach(word=>{if((line+' '+word).trim().length>max&&line){lines.push(line);line=word}else line=(line+' '+word).trim()});if(line)lines.push(line);return lines.slice(0,3)};
+  function sankeySvg(data,mode){
+    const W=760,H=280,stages=data.stages,nodeW=stages.length>3?150:184,nodeH=58,top=34,bottom=12;
+    const layouts=stages.map((nodes,i)=>{const usable=H-top-bottom;const gap=(usable-nodes.length*nodeH)/(nodes.length+1);const x=10+i*((W-20-nodeW)/(stages.length-1));return nodes.map((node,j)=>({x,y:top+gap+(nodeH+gap)*j,w:nodeW,h:nodeH,node}))});
+    const maxW=Math.max(1,...data.links.map(l=>l.w||1));
+    const paths=data.links.map(l=>{const s=layouts[l.a][l.b],t=layouts[l.a+1][l.c],x1=s.x+s.w,x2=t.x,y1=s.y+s.h/2,y2=t.y+t.h/2,m=(x1+x2)/2,sw=l.u?7:4+18*((l.w||1)/maxW);return `<path class="sankey-link" d="M ${x1} ${y1} C ${m} ${y1}, ${m} ${y2}, ${x2} ${y2}" stroke="${mode==='pass'?'var(--blue)':'var(--red)'}" stroke-width="${sw.toFixed(1)}"${l.u?' stroke-dasharray="8 5"':''}/>`}).join('');
+    const colNames=data.cols||(stages.length>3?['CAPITAL','LENDING','RECIPIENT','REPAYMENT']:['MONEY IN','MECHANISM','WHERE IT GOES']);
+    const cols=colNames.slice(0,stages.length).map((t,i)=>`<text class="sankey-col" x="${layouts[i][0].x}" y="16">${t}</text>`).join('');
+    const nodes=layouts.flat().map((n,i)=>{const title=wrapWords(n.node.t),sub=wrapWords(n.node.s,28);let y=n.y+18;const titleText=title.map((line,j)=>`<tspan x="${n.x+10}" y="${y+j*13}">${esc(line)}</tspan>`).join('');y+=title.length*13+2;const subText=sub.map((line,j)=>`<tspan x="${n.x+10}" y="${y+j*11}">${esc(line)}</tspan>`).join('');return `<g><rect class="sankey-node ${mode==='pass'?'pass':'no'}" x="${n.x}" y="${n.y}" width="${n.w}" height="${n.h}" rx="3"/><text class="sankey-label">${titleText}</text><text class="sankey-sub">${subText}</text></g>`}).join('');
+    const legend=data.links.some(l=>l.u)?'<text class="sankey-sub" x="10" y="274">Dashed repayment paths are not drawn to the allocation scale.</text>':'';
+    return `<svg class="sankey-svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(data.title)}"><title>${esc(data.title)}</title>${cols}${paths}${nodes}${legend}</svg>`;
+  }
+  function mobileFlow(data){const names=data.cols||(data.stages.length>3?['CAPITAL','LENDING','RECIPIENT','REPAYMENT']:['MONEY IN','MECHANISM','WHERE IT GOES']);return `<div class="mobile-flow" aria-hidden="true">${data.stages.map((stage,i)=>`${i?'<div class="mobile-arrow">↓</div>':''}<div class="mobile-stage"><div class="mobile-col-label">${names[i]}</div>${stage.map(n=>`<div class="mobile-node">${esc(n.t)}<span>${esc(n.s)}</span></div>`).join('')}</div>`).join('')}</div>`}
+  function flowPanel(p){const f=fiscalFlows[p.n],d=f.pass;return `<section class="flow-panel" aria-label="Fiscal flow comparison for Proposition ${p.n}"><div class="flow-head"><div><h4>Where the money moves</h4><p class="flow-status" aria-live="polite">${esc(d.title)}</p></div><div class="flow-switch" role="group" aria-label="Choose ballot outcome"><button class="flow-toggle" data-mode="pass" aria-pressed="true">If passed</button><button class="flow-toggle" data-mode="fail" aria-pressed="false">If rejected</button></div></div><div class="sankey-wrap" data-prop="${p.n}" data-mode="pass">${sankeySvg(d,'pass')}${mobileFlow(d)}</div><div class="flow-caption"><span><b>${esc(f.note)}</b></span><span class="flow-scale">${esc(d.scale)}</span></div></section>`}
+  function updateFlow(panel,mode){const n=Number(panel.querySelector('.sankey-wrap').dataset.prop),f=fiscalFlows[n],d=f[mode],wrap=panel.querySelector('.sankey-wrap');wrap.dataset.mode=mode;wrap.innerHTML=sankeySvg(d,mode)+mobileFlow(d);panel.querySelector('.flow-status').textContent=d.title;panel.querySelector('.flow-scale').textContent=d.scale;panel.querySelectorAll('.flow-toggle').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)))}
+  function card(p){
+    const pollSource=p.poll[2].includes('Berkeley IGS')?pollSources.IGS:pollSources.PPIC;
+    return `<article class="prop" data-cat="${p.cat.join(' ')}" data-search="${esc((p.title+' '+p.one+' '+p.cost+' '+p.lean+' '+p.cat.join(' ')).toLowerCase())}">
+      <button class="prop-head" aria-expanded="false" aria-controls="details-${p.n}">
+        <div class="prop-top"><div class="prop-no"><small>PROPOSITION</small>${p.n}</div><span class="chev" aria-hidden="true">+</span></div>
+        <h3>${esc(p.title)}</h3><p class="one-line">${esc(p.one)}</p>
+        <div class="tags"><span class="tag money">${esc(p.type)}</span><span class="tag flow-tag">Money-flow diagram</span><span class="tag lean ${partyLean[p.n]||''}">${esc(p.lean)}</span></div>
+      </button>
+      <div class="details" id="details-${p.n}" hidden>
+        <div class="vote-grid"><div class="vote"><b>A YES VOTE</b><p>${esc(p.yes)}</p></div><div class="vote no"><b>A NO VOTE</b><p>${esc(p.no)}</p></div></div>
+        <div class="cost"><b>FISCAL SCALE</b><strong>${esc(p.cost)}</strong></div>
+        ${flowPanel(p)}
+        <div class="procon"><div><h4>Best case for</h4><ul>${p.pros.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div><div><h4>Best case against</h4><ul>${p.cons.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div></div>
+        ${pollMarkup(p)}
+        <div class="sources" aria-label="Sources for Proposition ${p.n}"><a class="source" href="${p.sos}" target="_blank" rel="noopener">Secretary of State voter guide ↗</a><a class="source" href="${p.lao}" target="_blank" rel="noopener">Official fiscal analysis ↗</a><a class="source" href="${pollSource.url}" target="_blank" rel="noopener">${pollSource.label} ↗</a></div>
+      </div>
+    </article>`;
+  }
+  grid.innerHTML=props.map(card).join('')+'<div id="empty" class="empty" hidden>No propositions match that search.</div>';
+  function apply(){
+    const q=document.getElementById('search').value.trim().toLowerCase();let shown=0;
+    document.querySelectorAll('.prop').forEach(el=>{const okCat=filter==='all'||el.dataset.cat.split(' ').includes(filter);const okQ=!q||el.dataset.search.includes(q);el.hidden=!(okCat&&okQ);if(!el.hidden)shown++;});
+    document.getElementById('empty').hidden=shown!==0;
+  }
+  document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{filter=b.dataset.filter;document.querySelectorAll('.filter').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));apply()}));
+  document.getElementById('search').addEventListener('input',apply);
+  grid.addEventListener('click',e=>{const toggle=e.target.closest('.flow-toggle');if(toggle){updateFlow(toggle.closest('.flow-panel'),toggle.dataset.mode);return}const btn=e.target.closest('.prop-head');if(!btn)return;const prop=btn.closest('.prop');const details=prop.querySelector('.details');const open=btn.getAttribute('aria-expanded')==='true';btn.setAttribute('aria-expanded',String(!open));details.hidden=open;prop.classList.toggle('open',!open)});
+  </script>
+</body>
+</html>
