@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="What the California 2026 ballot explainer takes from official documents, what it calculates, and which points are still judgments. Record date October 5, 2026." />
+  <link rel="icon" href="data:," />
+  <title>Research record · California 2026 ballot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,650;8..60,760&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      color-scheme:light dark;
+      --paper:#f7f4ec;--sheet:#fffdf8;--ink:#17211d;--muted:#58635e;--line:#d8d4c9;
+      --red:#b63a2b;--red-soft:#f6e2dc;--blue:#205d7a;--blue-soft:#dfeef3;--gold:#8a6410;
+      --gold-soft:#f6edd6;--green:#267252;--green-soft:#e2f0e8;--shadow:0 16px 44px rgba(35,39,35,.08);
+    }
+    @media(prefers-color-scheme:dark){
+      :root{--paper:#101512;--sheet:#18201c;--ink:#f3f0e7;--muted:#b9c2bc;--line:#354039;
+        --red:#ef7c69;--red-soft:#412821;--blue:#78bddc;--blue-soft:#1b3642;--gold:#e9b955;
+        --gold-soft:#3a3018;--green:#71c69d;--green-soft:#1c392d;--shadow:0 18px 48px rgba(0,0,0,.28)}
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans","Segoe UI",sans-serif;line-height:1.55}
+    a{color:var(--blue);text-underline-offset:3px}
+    :focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+    .skip{position:absolute;left:12px;top:-40px;background:var(--ink);color:var(--paper);padding:8px 12px;z-index:5}
+    .skip:focus{top:12px}
+    .wrap{width:min(980px,calc(100% - 36px));margin-inline:auto}
+    h1,h2,h3,h4{font-family:"Source Serif 4",serif;line-height:1.12;margin:0}
+    h1{font-size:clamp(2.3rem,6vw,4.4rem);letter-spacing:-.04em;max-width:16ch}
+    h2{font-size:clamp(1.55rem,3vw,2.05rem);letter-spacing:-.02em}
+    h3{font-size:1.2rem}
+    p{margin:0 0 .8rem}
+    .dateline{display:flex;align-items:center;gap:10px;color:var(--red);font-weight:700;font-size:.84rem;letter-spacing:.04em;margin-bottom:14px}
+    .dateline:before{content:"";width:34px;height:3px;background:var(--red)}
+    .hero{padding:clamp(36px,6vw,72px) 0 28px;border-bottom:1px solid var(--line)}
+    .deck{font-size:clamp(1.05rem,2vw,1.28rem);max-width:68ch;color:var(--muted);margin-top:16px}
+    .meta{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:22px;color:var(--muted);font-size:.9rem}
+    .meta b{color:var(--ink);font-weight:650}
+    .note{background:var(--blue-soft);border-left:5px solid var(--blue);padding:14px 16px;margin:22px 0 0;max-width:74ch}
+    .note strong{color:var(--blue)}
+    section{padding:28px 0}
+    .section-label{font-size:.76rem;font-weight:700;letter-spacing:.07em;color:var(--red);margin-bottom:8px}
+    .lead{max-width:72ch;color:var(--muted)}
+    .key{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}
+    .key article,.card,.finding{background:var(--sheet);border:1px solid var(--line);box-shadow:var(--shadow)}
+    .key article{padding:16px 16px 14px}
+    .key h3{font-family:"DM Sans",sans-serif;font-size:.95rem;font-weight:700;margin-bottom:6px}
+    .key p,.card p{color:var(--muted);font-size:.92rem}
+    .tag{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.03em;padding:3px 8px;border-radius:2px;margin:0 6px 6px 0}
+    .tag.fact{background:var(--green-soft);color:var(--green)}
+    .tag.judgment{background:var(--gold-soft);color:var(--gold)}
+    .tag.grade{background:var(--blue-soft);color:var(--blue)}
+    .six{display:grid;gap:10px;margin-top:16px}
+    .six a{display:grid;grid-template-columns:auto 1fr;gap:12px;padding:14px 16px;background:var(--sheet);border:1px solid var(--line);text-decoration:none;color:inherit}
+    .six a:hover{border-color:var(--blue)}
+    .six b{font-family:"Source Serif 4",serif;font-size:1.4rem;color:var(--red);line-height:1}
+    .six span{display:block}
+    .six small{display:block;color:var(--muted);font-size:.86rem;margin-top:3px}
+    .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:2;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(8px);padding:10px 0;border-bottom:1px solid var(--line)}
+    .filters{display:flex;flex-wrap:wrap;gap:8px}
+    .filter,.textbtn{border:1px solid var(--line);background:transparent;color:var(--ink);padding:8px 13px;border-radius:999px;cursor:pointer;font:600 .86rem "DM Sans",sans-serif}
+    .filter[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+    .finding{padding:22px 22px 8px;margin:0 0 14px;scroll-margin-top:72px}
+    .finding header p{max-width:74ch}
+    .kicker{font-size:.76rem;font-weight:700;letter-spacing:.06em;color:var(--red);margin-bottom:6px}
+    .plain{font-size:1.05rem}
+    .other{background:var(--paper);border-left:4px solid var(--gold);padding:10px 12px;margin:12px 0 16px;font-size:.92rem}
+    .other b{color:var(--gold)}
+    details{border-top:1px solid var(--line);margin:0 -22px;padding:0 22px 8px}
+    summary{cursor:pointer;font-weight:700;padding:14px 0;list-style:none}
+    summary::-webkit-details-marker{display:none}
+    summary:before{content:"+";display:inline-block;width:1.2em;color:var(--red);font-weight:700}
+    details[open] summary:before{content:"–"}
+    .trail h3{margin:16px 0 8px;font-size:1.15rem}
+    .trail h4{font-family:"DM Sans",sans-serif;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:16px 0 6px}
+    blockquote{margin:0 0 12px;padding:12px 14px;background:var(--paper);border-left:4px solid var(--blue)}
+    blockquote p{margin:0;font-family:"Source Serif 4",serif;font-size:1.05rem}
+    blockquote footer{margin-top:8px;color:var(--muted);font-family:"DM Sans",sans-serif;font-size:.8rem}
+    pre{overflow:auto;background:var(--paper);border:1px solid var(--line);padding:12px 14px;font-size:.86rem;line-height:1.45;margin:0 0 12px}
+    table{width:100%;border-collapse:collapse;font-size:.88rem;margin:0 0 14px}
+    th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+    th{font-size:.75rem;letter-spacing:.04em;color:var(--muted)}
+    .scroll{overflow-x:auto}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .box{background:var(--paper);border:1px solid var(--line);padding:12px 14px}
+    .box h4{margin-top:0}
+    .box.fact{border-top:4px solid var(--green)}
+    .box.judgment{border-top:4px solid var(--gold)}
+    ul,ol{margin:0 0 12px;padding-left:1.2rem}
+    li{margin:.35rem 0}
+    .checked{list-style:none;padding:0;display:grid;gap:8px}
+    .checked li{background:var(--sheet);border:1px solid var(--line);padding:12px 14px}
+    .links{display:flex;flex-wrap:wrap;gap:8px 14px;font-size:.9rem}
+    footer.site{border-top:1px solid var(--line);padding:28px 0 48px;color:var(--muted);font-size:.9rem}
+    @media(max-width:780px){
+      .key,.split{grid-template-columns:1fr}
+      .hero{padding-top:32px}
+    }
+    @media(max-width:520px){
+      .wrap{width:min(100% - 24px,980px)}
+      .finding{padding:16px 16px 4px}
+      details{margin:0 -16px;padding:0 16px 8px}
+      .toolbar{align-items:stretch}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media print{
+      .toolbar,.skip{display:none}
+      details:not([open]) > :not(summary){display:block !important}
+      .finding,a{box-shadow:none}
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#findings">Skip to the findings</a>
+  <header class="hero">
+    <div class="wrap">
+      <div class="dateline">RESEARCH RECORD · OCTOBER 5, 2026</div>
+      <h1>What the ballot guide rests on</h1>
+      <p class="deck">A check of the California 2026 ballot explainer against the official voter-guide analyses, the enacted budget, and the pollsters’ own releases. It does not say how to vote. The guide’s ballot text was not changed. The guide links here from “How this guide was built.”</p>
+      <div class="meta">
+        <span><b>Election</b> Tuesday, November 3, 2026</span>
+        <span><b>Page checked</b> <a href="../index.html">ca-2026-ballot/index.html</a></span>
+        <span><b>Full chain</b> <a href="grok_research.md">grok_research.md</a></span>
+      </div>
+      <p class="note"><strong>How to read this.</strong> The sentence under each title is the conclusion in ordinary language. Open “Show the evidence” for the quotation, the arithmetic, the grade, and the strongest fair defense of the original wording. A document mismatch is labeled a fact. A choice about emphasis, color, or how to draw a chart is labeled a judgment.</p>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="wrap">
+        <div class="section-label">THE STANDARD</div>
+        <h2>Fact, judgment, and grade</h2>
+        <p class="lead">Two people who open the same document should get the same sentence. When they do, and the explainer says something else, that mismatch is a fact. When the documents support more than one reasonable sentence, the choice between them is a judgment. A judgment can be well supported. It is still not a measurement.</p>
+        <div class="key">
+          <article>
+            <span class="tag fact">Fact</span>
+            <h3>Settled by a document or a repeated calculation</h3>
+            <p>Example: the poll release prints 44 percent no, and the card says that share was not published.</p>
+          </article>
+          <article>
+            <span class="tag judgment">Judgment</span>
+            <h3>A reading, a weight, or a chart choice</h3>
+            <p>Example: whether one party color can stand for a coalition that is split. The endorsements are facts. The color is a judgment.</p>
+          </article>
+          <article>
+            <span class="tag grade">Grades A, B, C</span>
+            <h3>How close the quotation is</h3>
+            <p><b>A</b> opened and quoted here. <b>B</b> recorded from the primary document in this review, and not re-opened while the research file was written. <b>C</b> arithmetic from A or B inputs.</p>
+          </article>
+        </div>
+        <details class="finding" style="margin-top:14px">
+          <summary>How the check was done</summary>
+          <div class="trail">
+            <p>Every sentence and number a reader can see was treated as a claim: the hero, the budget charts, the fourteen cards, the yes and no lines, the flow diagrams, the pro and con bullets, the poll figures, the coalition labels, the color assigned in code, the glossary, and the source links.</p>
+            <p>Pro and con boxes are labeled as each side’s case. A bullet there was graded as a false finding only when it stated a document fact the cited document does not support. A value judgment inside a labeled argument box was left as argument. Titles, one-liners, cost lines, type tags, chart labels, colors, and the overview were held to the standard of a neutral description.</p>
+            <h3>Source order</h3>
+            <p>A lower source was not allowed to override a higher one.</p>
+            <ol>
+              <li>The statute or constitutional text, and the official title and summary prepared for the ballot.</li>
+              <li>The Legislative Analyst’s Office ballot analysis, and the LAO overview of the enacted 2026–27 budget, Report 5197, August 26, 2026.</li>
+              <li>Department of Finance enacted schedules and the public budget overview. These are the administration’s estimates through July 1, 2026. Report 5197 uses those estimates and says so.</li>
+              <li>The pollster’s own release: question wording, population, dates, sample size, and topline.</li>
+              <li>Official argument signers in the voter guide, and published endorsement lists.</li>
+              <li>News and advocacy pages, only to identify who said something, and labeled as secondary.</li>
+            </ol>
+            <p>The June 25, 2026 Secretary of State qualification press release prints an earlier fiscal estimate for several initiatives. The voter-guide analysis is later. Where they differ, the voter-guide analysis is the estimate a ballot explainer should use. The page does that on the items checked.</p>
+            <h3>Arithmetic</h3>
+            <p>Page figures stored in billions were converted to dollars by multiplying by 1,000,000,000. LAO table figures are in millions of dollars. Schedule 8 and Schedule 9 figures are in thousands of dollars. The unit is named at each step.</p>
+            <p>Percentages use the page’s own expenditure total unless a step says otherwise. The page function is <code>pct(value) = (value / totalSpending * 100).toFixed(2)</code>. <code>toFixed(2)</code> rounds to two decimal places. That rounding is part of the Proposition 39 finding.</p>
+            <h3>The local checker</h3>
+            <p>On October 5, 2026, <code>python3 tools/verify_fiscal/verify_fiscal.py</code> exited with status 1. It reads the explainer and compares it with <code>tools/verify_fiscal/official_fiscal_2026.json</code>. It does not download anything. The only failure was the words “CalVet revenue bond.” Warnings covered the $18.5 billion rounding, the government-bar label, and the Proposition 39 and 45 endpoints.</p>
+            <p>The same chain, in long form, is <a href="grok_research.md">grok_research.md</a>.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-label">START HERE</div>
+        <h2>Six things worth knowing before the rest</h2>
+        <p class="lead">These are the places where a careful reader of either persuasion should not have to take the explainer’s wording on trust. The first five are mismatches with a named document or a named calculation. The sixth is a real sentence in the Analyst’s report that rounds an administration figure. Party colors are listed after the six, because a color is a judgment about facts, not a false total.</p>
+        <div class="six">
+          <a href="#tax-base"><b>1</b><span>The billionaire tax is 5 percent of net worth<small>Real estate and retirement accounts are generally excluded. “Above $1 billion” can be read as a tax only on the extra dollars.</small></span></a>
+          <a href="#conflict"><b>2</b><span>A court would still have to find the conflict<small>The constitution uses the higher yes-vote count. The Analyst says Propositions 41 or 42 could stop 40. The explainer states the block as automatic.</small></span></a>
+          <a href="#polls-41-43"><b>3</b><span>Two poll notes deny numbers the pollster printed<small>PPIC: Proposition 41 is 51 / 44. Proposition 43 is 43 / 51. The cards say those shares were not published.</small></span></a>
+          <a href="#veterans-bond"><b>4</b><span>The veterans piece is a general-obligation bond<small>Borrowers have covered it in practice. The flow chart calls it a revenue bond. Proposition 37 is the revenue-bond measure.</small></span></a>
+          <a href="#chart-endpoints"><b>5</b><span>Two bars use endpoints the Analyst did not print<small>$20–$300 million and $80–$110 million are the page’s picture of words. Proposition 39’s costs are state and local.</small></span></a>
+          <a href="#two-deficits"><b>6</b><span>$18.5 billion and $18.335 billion are both in the record<small>The Analyst wrote $18.5 billion. The administration’s cell is −$18.335 billion. A third figure, $24.7 billion, is a different gap.</small></span></a>
+        </div>
+        <p class="other" style="margin-top:14px"><b>Separate from those six.</b> The Democratic color on Proposition 40 and the Republican color on Proposition 43 follow state-party endorsements and flatten coalitions that are split. That is a judgment about which fact to emphasize. It is not a math error. The same is true of the word “election-integrity” on Proposition 5 and the type-tag word “countermeasure” on 41 and 42.</p>
+      </div>
+    </section>
+
+    <section id="findings">
+      <div class="wrap">
+        <div class="toolbar">
+          <div class="filters" role="group" aria-label="Filter findings">
+            <button class="filter" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter" type="button" data-filter="fact" aria-pressed="false">Facts</button>
+            <button class="filter" type="button" data-filter="judgment" aria-pressed="false">Judgments</button>
+          </div>
+          <button class="textbtn" type="button" id="open-all">Open every trail</button>
+        </div>
+        <p class="lead" id="filter-note">Showing every finding. Facts and judgments are often in the same card, because the documents are facts and the wording choice is a judgment.</p>
+        <noscript><p class="lead">Without JavaScript, every finding stays visible. The filters only hide cards. They do not change the text.</p></noscript>
+
+        <article class="finding" id="tax-base" data-show="fact judgment">
+          <header>
+            <p class="kicker">PROPOSITION 40 · TAX BASE</p>
+            <h2>The 5 percent applies to net worth</h2>
+            <p class="plain">The Legislative Analyst says billionaires who were California residents on January 1, 2026 would pay a one-time tax equal to 5 percent of their net worth. Real estate, pensions, and retirement accounts generally would be excluded. The explainer’s one-liner says “covered wealth above $1B at up to 5%.”</p>
+            <p class="other"><b>Other reading.</b> “Above $1B” can identify who is taxed, and “up to 5%” can be the rate on covered wealth. That defense still leaves the exclusions out, and it has to fight the ordinary reading of a tax “above $1 billion at 5 percent,” which is a tax on the excess.</p>
+          </header>
+          <details>
+            <summary>Show the evidence</summary>
+            <div class="trail">
+              <h4>What the explainer says · grade A</h4>
+              <blockquote><p>Taxes covered wealth above $1B at up to 5%, mainly for health care.</p><footer>One-line summary on the explainer.</footer></blockquote>
+              <blockquote><p>California collects a one-time 5% wealth tax from covered billionaires and trusts.</p><footer>Yes box. Closer to the official yes statement. It adds trusts, which the Attorney General title includes and the LAO yes statement does not.</footer></blockquote>
+              <h4>What the Analyst says · grade A</h4>
+              <blockquote><p>Under Proposition 40, billionaires who were residents of California on January 1, 2026 would have to pay a one-time state tax equal to 5 percent of their net worth. The tax would be due in 2027. Taxpayers would have the option to spread the payments over five years but would have to pay more to do so. Real estate, pensions, and retirement accounts generally would be excluded from the tax.</p><footer>LAO analysis, proposal section. <a href="https://lao.ca.gov/BallotAnalysis/Proposition?number=40&year=2026">lao.ca.gov, Proposition 40, 2026</a>.</footer></blockquote>
+              <blockquote><p>The state would collect a one-time tax from billionaires equal to 5 percent of their wealth.</p><footer>Official yes statement on the same LAO page.</footer></blockquote>
+              <h4>What the Attorney General title said at qualification · grade A</h4>
+              <blockquote><p>Imposes one-time tax of up to 5% on taxpayers and trusts with covered assets valued over $1 billion; covered assets include businesses, securities, art, collectibles, and intellectual property, but exclude real property and some pensions and retirement accounts.</p><footer>Secretary of State certification press release, June 25, 2026. “Up to 5%” is the official sign that the title does not describe the rate as flat. The LAO narrative says “5 percent of their net worth” and does not print a phase-in table.</footer></blockquote>
+              <h4>Why the two English readings are different amounts · grade C</h4>
+              <p>This illustration is not an official tax bill. It shows the gap between the two readings of the one-liner.</p>
+              <pre>Reading A, whole net worth:  0.05 × $2,000,000,000 = $100,000,000
+Reading B, only the excess:  0.05 × ($2,000,000,000 − $1,000,000,000) = $50,000,000
+Difference:                   $50,000,000</pre>
+              <p>Near $1.1 billion the two readings differ by much more than half, because the excess is small and the whole fortune is not. A fortune held as real estate is largely outside the tax under both official summaries. The one-liner does not say that.</p>
+              <div class="split">
+                <div class="box fact"><h4>Fact</h4><p>The LAO sentence is “5 percent of their net worth.” The Attorney General title is “up to 5%” on taxpayers and trusts with covered assets over $1 billion, with stated exclusions. The one-liner says “covered wealth above $1B at up to 5%.” The illustration’s two products are $100 million and $50 million.</p></div>
+                <div class="box judgment"><h4>Judgment</h4><p>Whether every reader must take “above $1B” to mean “only the dollars above $1 billion.” The fair defense is the “who is taxed” reading above. The correction that does not depend on that dispute is to use the LAO’s own words: 5 percent of net worth, with real estate and some retirement accounts excluded.</p></div>
+              </div>
+              <h4>Not established in this record</h4>
+              <p>The exact phase-in between $1 billion and $1.1 billion. Secondary descriptions of the proposed law give that schedule. The proposed-law PDF was not re-read for the research file. “Up to 5%” remains the official sign in the Attorney General title. The LAO analysis voters are pointed to says 5 percent of net worth and does not print the phase-in.</p>
+            </div>
+          </details>
+        </article>
+
+        <article class="finding" id="conflict" data-show="fact judgment">
+          <header>
+            <p class="kicker">PROPOSITIONS 40, 41, AND 42 · CONFLICT</p>
+            <h2>The rule is real. The block is not yet automatic.</h2>
+            <p class="plain">If two measures on the same ballot both pass and their provisions conflict, the one with the higher number of yes votes prevails. A measure that fails does not enter that comparison. The explainer is right about that direction. It states that 41 or 42 voids 40. The Analyst says a court could find the conflict, and that 40 could then be stopped.</p>
+            <p class="other"><b>Other reading.</b> Propositions 41 and 42 each tell the reader, in their own official summaries, that a conflicting measure on the same ballot is void if this one receives more affirmative votes. A reader can treat that clause as mandatory once a conflict and a higher yes total exist. A reader who follows the Analyst can say the conflict itself is what a court has to find. Both sentences should be available. The overview currently gives only the certain version.</p>
+          </header>
+          <details>
+            <summary>Show the evidence</summary>
+            <div class="trail">
+              <h4>What the explainer says · grade A</h4>
+              <blockquote><p>Prop 40 creates the billionaire tax. Props 41 and 42 can block it. If conflicting measures pass, the one with more Yes votes controls.</p><footer>Overview. The flow says that if 41 or 42 has more yes votes, Proposition 40 revenue is $0 and the tax is void.</footer></blockquote>
+              <h4>The constitution · grade A</h4>
+              <blockquote><p>If provisions of two or more measures approved at the same election conflict, the provisions of the measure receiving the highest number of affirmative votes shall prevail.</p><footer>California Constitution, Article II, section 10(b), as displayed by the Legislature’s code site. Highest yes count, not the higher percentage, and not whichever measure was chaptered later. Only measures that were approved are compared.</footer></blockquote>
+              <h4>What the Analyst says · grade A</h4>
+              <blockquote><p>If Proposition 41 or 42 on this same ballot receive more “yes” votes than Proposition 40, then Proposition 40 could be stopped from becoming law even if it gets yes votes from a majority of voters. This is because the courts could find that Proposition 41 or 42 conflict with Proposition 40.</p><footer>Same LAO Proposition 40 analysis. The word “could” appears twice.</footer></blockquote>
+              <h4>What 41 and 42 say about themselves · grade B</h4>
+              <p>The Attorney General summaries, recorded from the voter guide in this review and not re-opened while the research file was written, each say that another measure on the same ballot is void if it conflicts and if this measure receives more affirmative votes. Those sentences still depend on a conflict existing.</p>
+              <div class="split">
+                <div class="box fact"><h4>Fact</h4><p>Section 10(b) uses the highest number of affirmative votes. The LAO says “could be stopped” and “the courts could find.” The explainer states the block as automatic.</p></div>
+                <div class="box judgment"><h4>Judgment</h4><p>How certain to sound before a court has ruled. The measures’ text and the Analyst’s “could” answer different questions. Printing only one of them is the presentation choice.</p></div>
+              </div>
+            </div>
+          </details>
+        </article>
+
+        <article class="finding" id="polls-41-43" data-show="fact">
+          <header>
+            <p class="kicker">PROPOSITIONS 41 AND 43 · PPIC</p>
+            <h2>The missing poll numbers are on the page the cards cite</h2>
+            <p class="plain">The Proposition 41 card says the no share was not published. PPIC printed 51 percent yes, 44 percent no, and 5 percent don’t know. The Proposition 43 card says the exact topline was unpublished. PPIC printed 43 percent yes and 51 percent no. “Below majority” is true of that 43. “Unpublished” is not.</p>
+            <p class="other"><b>Other reading.</b> There is no other reading of whether those shares are in the PPIC release. Which poll to feature when two pollsters disagree is a separate judgment, covered with the other twelve cards.</p>
+          </header>
+          <details>
+            <summary>Show the evidence</summary>
+            <div class="trail">
+              <h4>What the explainer says · grade A</h4>
+              <ul>
+                <li>Proposition 41: yes 51, no left blank, note “PPIC, Sept. 2026; No share not published.”</li>
+                <li>Proposition 43: both shares blank, note “PPIC: below majority; exact topline unpublished.”</li>
+              </ul>
+              <h4>What PPIC printed · grade A</h4>
+              <p>Fieldwork September 4–10, 2026. The methodology block: 1,745 adults. The likely-voter margin is ±3.8 percentage points for 1,103 likely voters. Proposition questions are labeled likely voters only. Source: <a href="https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/">PPIC Statewide Survey, September 2026</a>.</p>
+              <ul>
+                <li>Proposition 41 narrative: “would vote yes (51%, 44% no).” The questionnaire block on the same page prints 51% yes, 44% no, 5% don’t know.</li>
+                <li>Proposition 43 narrative: “Forty-three percent of likely voters say they would vote yes … 51 percent would vote no.”</li>
+              </ul>
+              <div class="split">
+                <div class="box fact"><h4>Fact</h4><p>The 51 on Proposition 41 matches. The statement that the no share was not published does not. Proposition 43’s exact yes and no shares are in the publication the card cites. This does not depend on which side one favors.</p></div>
+                <div class="box judgment"><h4>Judgment</h4><p>None about whether the shares exist.</p></div>
+              </div>
+            </div>
+          </details>
+        </article>
+
+        <article class="finding" id="other-polls" data-show="fact judgment">
+          <header>
+            <p class="kicker">THE OTHER TWELVE CARDS · POLLS</p>
+            <h2>Where the card names PPIC, the pair matches PPIC</h2>
+            <p class="plain">The twelve remaining yes/no pairs match the pollster the card names. Berkeley cards do not match PPIC, which is what should happen if the card is citing Berkeley. On some PPIC cards the leftover “undecided” is one point away from the published don’t-know, because the page subtracts yes and no from 100 and PPIC’s own categories can sum to 99 or 101.</p>
+            <p class="other"><b>Other reading.</b> A one-point remainder is visible and small next to a ±3.8 point margin. It is not the same kind of error as saying a published number was unpublished. Whether a card that cites one pollster must also show the other is an editorial judgment. Berkeley’s fieldwork, September 15–20, is later than PPIC’s September 4–10 wave. The three Berkeley cards differ from the PPIC pairs in the table. That release was not re-opened while the research file was written.</p>
+          </header>
+          <details>
+            <summary>Show the evidence</summary>
+            <div class="trail">
+              <h4>PPIC likely voters, same publication · grade A</h4>
+              <div class="scroll">
+                <table>
+                  <thead><tr><th>Prop.</th><th>PPIC yes</th><th>PPIC no</th><th>Card</th><th>Card’s named source</th></tr></thead>
+                  <tbody>
+                    <tr><td>1</td><td>55</td><td>43</td><td>55 / 43</td><td>PPIC</td></tr>
+                    <tr><td>2</td><td>60</td><td>39</td><td>60 / 39</td><td>PPIC</td></tr>
+                    <tr><td>3</td><td>58</td><td>40</td><td>54 / 34</td><td>Berkeley IGS</td></tr>
+                    <tr><td>4</td><td>42</td><td>53</td><td>42 / 53</td><td>PPIC</td></tr>
+                    <tr><td>5</td><td>35</td><td>59</td><td>35 / 59</td><td>PPIC</td></tr>
+                    <tr><td>37</td><td>61</td><td>35</td><td>61 / 35</td><td>PPIC</td></tr>
+                    <tr><td>38</td><td>55</td><td>42</td><td>55 / 42</td><td>PPIC</td></tr>
+                    <tr><td>39</td><td>43</td><td>55</td><td>39 / 52</td><td>Berkeley IGS</td></tr>
+                    <tr><td>40</td><td>52</td><td>46</td><td>45 / 42</td><td>Berkeley IGS</td></tr>
+                    <tr><td>42</td><td>54</td><td>43</td><td>54 / 43</td><td>PPIC</td></tr>
+                    <tr><td>44</td><td>34</td><td>61</td><td>34 / 61</td><td>PPIC</td></tr>
+                    <tr><td>45</td><td>49</td><td>46</td><td>49 / 46</td><td>PPIC</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <h4>Berkeley IGS Release #2026-20 · grade B</h4>
+              <p>September 25, 2026, fieldwork September 15–20. Read from the release PDF in this review and not re-opened while the research file was written. Recorded likely-voter toplines for the three Berkeley cards: Proposition 3, 54 yes / 34 no / 13 undecided; Proposition 39, 39 / 52 / 9; Proposition 40, 45 / 42 / 13. The explainer cites eScholarship item <a href="https://escholarship.org/uc/item/3w14s99c">3w14s99c</a>. This review identified that item as Release #2026-20. A fact-checker should open the PDF again before treating these three pairs as re-confirmed. The research file does not use any other Berkeley topline as a correction.</p>
+              <h4>The one-point remainder · grade A for the code, grade C for the subtraction</h4>
+              <p>When both shares are numbers, the page computes <code>Math.max(0, 100 - yes - no)</code>. PPIC says numbers may not add to 100 because of rounding. Where the published three-way sum is 99 or 101, the page’s remainder is one point away from the published don’t-know. The review recorded that for Propositions 3, 5, 37, 42, and 44.</p>
+              <div class="split">
+                <div class="box fact"><h4>Fact</h4><p>The PPIC column was read from the publication. The Berkeley cards match the release as recorded. The one-point remainder follows from the code plus ordinary rounding.</p></div>
+                <div class="box judgment"><h4>Judgment</h4><p>Whether that one point needs a correction, and whether a card should show both pollsters when they disagree. The second choice matters more, because several gaps are larger than the margin of either survey.</p></div>
+              </div>
+            </div>
+          </details>
+        </article>
+
+        <article class="finding" id="veterans-bond" data-show="fact judgment">
+          <header>
+            <p class="kicker">PROPOSITION 1 · THE VETERANS PIECE</p>
+            <h2>Both pieces are general-obligation bonds</h2>
+            <p class="plain">Proposition 1 allows $11.25 billion of general-obligation bonds. The General Fund repays the $10 billion housing piece. Veterans’ home-loan payments have covered the $1.25 billion piece, so that piece has operated at no direct cost to the state. The flow chart still labels it “CalVet revenue bond.”</p>
+            <p class="other"><b>Other reading.</b> The practical repayment is real, and another line on the page already says the loans are borrower-repaid. A loose label can look harmless for that reason. The legal form is still a general-obligation bond. The page already has a revenue-bond measure, Proposition 37, so the same words for both teach the wrong distinction.</p>
+          </header>
+          <details>
+            <summary>Show the evidence</summary>
+            <div class="trail">
+              <h4>What the explainer says · grade A</h4>
+              <p>The flow contains “CalVet revenue bond” with the subtitle “$1.25B.” A separate card says “Prop 1 · $11.25B · General-obligation bond” and “General Fund repays most debt service.” The cost line says “$500–600M a year for about 25 years” and “CalVet loans are borrower-repaid.”</p>
+              <h4>What the Analyst says · grade A</h4>
+              <blockquote><p>Proposition 1 allows the state to sell $11.25 billion in general obligation bonds for housing purposes. This amount consists of (1) a $10 billion bond for a variety of state housing programs that would be repaid by the General Fund and (2) a $1.25 billion bond that would be repaid by veterans’ payments on their home loans.</p><footer><a href="https://lao.ca.gov/BallotAnalysis/Proposition?number=1&year=2026">LAO, Proposition 1, 2026</a>.</footer></blockquote>
+              <p>The fiscal section says the General Fund cost of the $10 billion housing bond would be “$500 million to $600 million annually for about 25 years,” about 0.25 percent of the General Fund budget. On the veterans piece, payments “have always covered the amount owed on the bonds, meaning the program has always operated at no direct cost to the state.” The background section says the existing veterans program “sells general obligation bonds.”</p>
+              <h4>The pledge language · grade B</h4>
+              <p>The proposed-law review recorded Military and Veterans Code section 998.754(a): the veterans bonds “shall be and constitute a valid and legally binding general obligation of the State of California, and the full faith and credit of the State of California is hereby pledged.” That PDF was not re-opened for the research file. The LAO sentences are enough to reject the label “revenue bond.” The statute citation is the additional pledge language.</p>
+              <h4>The contrast with Proposition 37 · grade B</h4>
+              <p>Proposition 37’s LAO analysis, recorded in this review, authorizes revenue bonds, with a statutory legend that the bond is payable from program funds and is not a debt or a pledge of the state’s faith and credit. The page calls Proposition 37 a revenue-bond authority. That label matches. The same words on the Proposition 1 veterans piece do not.</p>
+              <div class="split">
+                <div class="box fact"><h4>Fact</h4><p>The LAO calls the $11.25 billion general-obligation bonds and splits repayment $10 billion / $1.25 billion. The page’s flow says “CalVet revenue bond.” This is the only failure in the local fiscal checker.</p></div>
+                <div class="box judgment"><h4>Judgment</h4><p>Whether the label is harmless because borrowers repay it in practice. The repayment history is a fact. The instrument’s name is a different fact. The big-number card, which already says general-obligation, is the label that matches the Analyst.</p></div>
+              </div>
+            </div>
+          </details>
+        </article>
+
+        <article class="finding" id="debt-service" data-show="fact judgment">
+          <header>
+            <p class="kicker">PROPOSITIONS 1, 3, AND 38 · PERCENT OF THE GENERAL FUND</p>
+            <h2>The dollars are the Analyst’s. The percentages are the page’s division.</h2>
+            <p class="plain">Propositions 1 and 38 cost $500 million to $600 million a year on the Analyst’s page. The explainer’s “about 0.20–0.24%” is those dollars divided by the $251.477 billion General Fund. Proposition 3’s “about 2–6%” is $5 billion to $15 billion divided by the same baseline. The Analyst prints “about 0.25 percent” for the two bonds and prints no percentage for Proposition 3.</p>
+            <p class="other"><b>Other reading.</b> The quotients are close to the Analyst’s round “0.25 percent,” and the page’s method note says it is making this comparison. They are a defect only if a reader thinks the Analyst published 0.20–0.24. The underlying cost is the same. Labeling them as the page’s comparison removes the ambiguity.</p>
+          </header>
+          <details>
+            <summary>Show the evidence</summary>
+            <div class="trail">
+              <h4>Analyst dollar ranges · grade A</h4>
+              <ul>
+                <li>Proposition 1: $500 million to $600 million a year for about 25 years, “about 0.25 percent.”</li>
+                <li>Proposition 38: “$500 million to $600 million annually for about 20 years,” also “about one-quarter of 1 percent (0.25 percent).” <a href="https://lao.ca.gov/BallotAnalysis/Proposition?number=38&year=2026">LAO, Proposition 38</a>.</li>
+                <li>Proposition 3: “between $5 billion and $15 billion each year.” No General Fund percentage. “The top 2 percent of California taxpayers pay these higher rates.” “Roughly 40 percent of the funding would go to schools and community colleges. The rest would go to other state programs.” <a href="https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026">LAO, Proposition 3</a>.</li>
+              </ul>
+              <h4>The page’s division · grade C</h4>
+              <p>Denominator: $251,477,000,000, the enacted 2026–27 General Fund expenditure total named in the method note.</p>
+              <pre>500,000,000 / 251,477,000,000 = 0.00198825 = 0.1988%, which rounds to 0.20%
+600,000,000 / 251,477,000,000 = 0.00238590 = 0.2386%, which rounds to 0.24%
+5,000,000,000 / 251,477,000,000 = 0.0198825 = 1.99%, which the page calls about 2%
+15,000,000,000 / 251,477,000,000 = 0.0596476 = 5.96%, which the page calls about 6%
+0.0025 × 251,477,000,000 = 628,692,500</pre>
+              <p>The Analyst’s “about 0.25 percent” is a round description of a cost whose top is $600 million, not a statement that debt service runs up to $629 million. Using revenue ($226.754 billion) instead of spending would make $600 million about 0.26 percent. The page’s choice of the expenditure total matches its method note and the Analyst’s habit of comparing bond cost with the General Fund budget.</p>
+              <h4>A later document, not an earlier one · grade A</h4>
+              <p>The June 25 qualification press release said the immunology bond would cost “about $500 million annually for 25 years.” The voter-guide analysis opened for this check says $500–$600 million for about 20 years. The page follows the voter-guide analysis. That is the later document written for this ballot. The check does not “correct” the page back to the June estimate.</p>
+              <div class="split">
+                <div class="box fact"><h4>Fact</h4><p>The quotients above. The LAO phrases “0.25 percent,” “$5 billion and $15 billion,” and “top 2 percent of California taxpayers.” The 60 percent that is not for schools is for other state programs. The LAO does not dedicate it to health care.</p></div>
+                <div class="box judgment"><h4>Judgment</h4><p>Whether a more precise quotient beside a round “0.25 percent” needs a correction. The risk is attribution, not the dollars.</p></div>
+              </div>
+            </div>
+          </details>
+        </article>
+
+        <article class="finding" id="chart-endpoints" data-show="fact judgment">
+          <header>
+            <p class="kicker">PROPOSITIONS 39 AND 45 · ANNUAL-IMPACT BARS</p>
+            <h2>The words track the Analyst. The bar ends do not.</h2>
+            <p class="plain">Proposition 39’s bar runs from $20 million to $300 million and the card says roughly 0.01–0.12 percent of the General Fund. The Analyst said state and local costs of tens of millions to low hundreds of millions a year, less than 0.25 percent of the General Fund, and did not print $20 million or $300 million. Proposition 45’s bar runs from $80 million to $110 million. The Analyst said initial costs in the high tens of millions, potentially over $100 million, with no floor and no ceiling.</p>
+            <p class="other"><b>Other reading.</b> A chart has to have a width. Choosing $20 million and $300 million as a picture of “tens to low hundreds” can be an illustration. Drawing it as the Analyst’s bounds, on a chart titled as General Fund effects, is the step that overclaims. Proposition 39’s costs are state and local. The same is true of stopping Proposition 45 at $110 million when the Analyst said the cost could exceed $100 million and that the longer-term effect is uncertain but potentially more significant.</p>
+          </header>
+          <details>
+            <summary>Show the evidence</summary>
+            <div class="trail">
+              <h4>What the script stores · grade A</h4>
+              <p>In <code>annualImpacts</code>, the units are billions. Proposition 39: low 0.02, high 0.3, label “Tens to low hundreds of millions / year.” Proposition 45: low 0.08, high 0.11, label “High tens of millions; possibly over $100M / year.” So the bar ends are $20 million, $300 million, $80 million, and $110 million.</p>
+              <h4>Proposition 39 · grade B for the LAO sentence, grade A for the June release</h4>
+              <p>The fiscal review recorded this LAO sentence: state and local costs “each year by tens of millions of dollars to low hundreds of millions of dollars,” representing “less than one-quarter of 1 percent (0.25 percent)” of the General Fund. The June 25 qualification press release uses the same annual range and also mentions one-time preparation costs in the tens of millions. Neither document prints $20 million or $300 million.</p>
+              <h4>How 0.01–0.12% was produced · grade C</h4>
+              <p>The six spending categories sum to 251.477214 billion dollars:</p>
+              <pre>93.675003 + 91.091750 + 26.691050 + 14.447846 + 16.553565 + 9.018000
+= 251.477214
+
+0.02 / 251.477214 × 100 = 0.007953
+toFixed(2) of 0.007953 = "0.01"
+
+0.30 / 251.477214 × 100 = 0.11930
+toFixed(2) of 0.11930 = "0.12"</pre>
+              <p>The card’s “roughly 0.01–0.12%” is what that function prints. The unrounded low end is about 0.008 percent, so the printed 0.01 looks about twice the unrounded quotient. The Analyst’s only percentage is “less than 0.25 percent,” which on this baseline is just under $629 million. The page’s $300 million high end is inside that description and narrower than it. The chart heading calls the rows “General Fund effects.”</p>
+              <h4>Proposition 45 · grade A</h4>
+              <blockquote><p>These costs likely would be in the high tens of millions of dollars annually, potentially exceeding $100 million annually.</p><footer><a href="https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026">LAO, Proposition 45, 2026</a>. The same section says the costs are initial, for state and local governments including courts, that fees would cover some of them, and that after the initial period some costs likely decline. The longer-term effect is “uncertain but potentially more significant.”</footer></blockquote>
+              <div class="split">
+                <div class="box fact"><h4>Fact</h4><p>The LAO sentences do not contain the four endpoints. The endpoints are in the page’s script. The <code>toFixed</code> result is 0.01 and 0.12. The unrounded low percentage is about 0.008.</p></div>
+                <div class="box judgment"><h4>Judgment</h4><p>An illustration of “tens” and “low hundreds” is allowed if it is labeled as a picture. Presenting those ends as the Analyst’s range, and placing state-and-local costs on a General Fund chart, is the overclaim.</p></div>
+              </div>
+            </div>
+          </details>
+        </article>
+
+        <article class="finding" id="budget-totals" data-show="fact judgment">
+          <header>
+            <p class="kicker">THE 2026–27 BUDGET · TOTALS</p>
+            <h2>The big budget lines match the Analyst’s tables</h2>
+            <p class="plain">General Fund expenditures of $251.477 billion and revenues and transfers of $226.754 billion are the enacted-plan figures in LAO Report 5197. The tax lines match Figure 4. The all-funds slices match Figure 5. Two small gaps are rounding: revenue components sit $1 million above the official total, and the six spending bars sit $5,000 above Schedule 9. The $16.554 billion “Government, courts &amp; executive” bar adds up. The name hides retiree health, pensions, and a negative school-funding reconciliation.</p>
+            <p class="other"><b>Other reading.</b> “Government” can be read broadly enough to cover many of those items. “Courts &amp; executive” cannot carry retiree health and a Proposition 98 reconciliation. Renaming the bar is the correction. Changing the $16.554 billion would make the bar wrong. “State spending” on the page is General Fund plus special funds, about $346.6 billion, which matches the Analyst’s budget-total idea. The Department of Finance phrase “total state funds” is about $351.7 billion because it also counts bond funds. The page says which two pieces it adds. The sentence has to keep that definition or the two official totals get confused.</p>
+          </header>
+          <details>
+            <summary>Show the evidence</summary>
+            <div class="trail">
+              <h4>Report 5197, August 26, 2026 · grade A</h4>
+              <p>Administration estimates of actions through July 1, 2026. That is the vintage the page names. <a href="https://lao.ca.gov/Publications/Report/5197">LAO, The 2026-27 Budget: Overview of the Spending Plan</a>. Figures in millions of dollars.</p>
+              <div class="scroll">
+                <table>
+                  <caption>Figure 3, 2026–27 enacted</caption>
+                  <tbody>
+                    <tr><td>Revenues and transfers</td><td>226,754</td></tr>
+                    <tr><td>Expenditures</td><td>251,477</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="scroll">
+                <table>
+                  <caption>Figure 4, 2026–27</caption>
+                  <tbody>
+                    <tr><td>Personal income tax</td><td>145,609</td></tr>
+                    <tr><td>Sales and use tax</td><td>35,598</td></tr>
+                    <tr><td>Corporation tax</td><td>45,167</td></tr>
+                    <tr><td>Insurance tax</td><td>4,728</td></tr>
+                    <tr><td>Other revenues</td><td>6,258</td></tr>
+                    <tr><td>Transfers and loans</td><td>−10,605</td></tr>
+                    <tr><td>Totals, revenues and transfers</td><td>226,754</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <p>The page stores insurance plus other as 10.986 billion. That is the Analyst’s 4,728 plus 6,258, in billions.</p>
+              <div class="scroll">
+                <table>
+                  <caption>Figure 5, 2026–27</caption>
+                  <tbody>
+                    <tr><td>General Fund</td><td>251,477</td></tr>
+                    <tr><td>Special funds</td><td>95,129</td></tr>
+                    <tr><td>Bond funds</td><td>5,104</td></tr>
+                    <tr><td>Federal funds</td><td>187,190</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <h4>The $1 million revenue residual · grade C, with Schedule 8 at grade B</h4>
+              <pre>145,609 + 35,598 + 45,167 + 4,728 + 6,258 = 237,360
+237,360 + (−10,605) = 226,755</pre>
+              <p>The total line in the same figure is 226,754. After rounding to the million, the components are $1 million higher than the total. The page stores both the rounded components and the official total. The difference is that $1 million. It is not a missing tax.</p>
+              <p>Schedule 8, in thousands, was read in the budget review and not re-opened for the research file: gross revenue $237,358.829 million, transfers −$10,604.697 million, revenues and transfers $226,754.132 million. At that precision, gross revenue plus transfers equals revenues and transfers. The $1 million gap appears only after the lines are rounded.</p>
+              <h4>All-funds addition · grade C</h4>
+              <pre>251,477 + 95,129 = 346,606
+346,606 + 5,104 = 351,710
+351,710 + 187,190 = 538,900</pre>
+              <p>The LAO text says total state spending, including special funds, reaches about $347 billion, and all-funds spending is roughly $539 billion. The Department of Finance overview, grade B, says total state funds are about $351.7 billion and counts bond funds in that phrase. The page’s state-spending figure is the first sum, $346.606 billion.</p>
+              <h4>Spending categories · grade B names, grade C addition</h4>
+              <p>The Department of Finance overview chart lists K–12 $91,092 million, Health and Human Services $93,675 million, higher education $26,691 million, corrections $14,448 million, and other $25,571 million.</p>
+              <pre>91,092 + 93,675 + 26,691 + 14,448 + 25,571 = 251,477</pre>
+              <p>The page’s four large categories match those lines at the million. Its two “other” bars are 16.553565 and 9.018000.</p>
+              <pre>16.553565 + 9.018000 = 25.571565</pre>
+              <p>That is $0.565 million above the chart’s $25,571 million “other,” before a further $5,000 rounding. The budget review reconstructed the bars from Schedule 9. Health and Human Services is the section plus the agency secretary: 93,394,388 + 280,615 = 93,675,003 thousand dollars. K–12 is the section plus ScholarShare: 90,902,498 + 189,252 = 91,091,750 thousand dollars. Higher education is 26,691,050 thousand. Corrections is 14,447,846 thousand.</p>
+              <p>“Government, courts &amp; executive” is three groups: Legislative, Judicial, and Executive 7,083,302; Government Operations 5,149,671; General Government 4,320,592.</p>
+              <pre>7,083,302 + 5,149,671 + 4,320,592 = 16,553,565 thousand dollars</pre>
+              <p>General Government, in that reconstruction, includes retiree health and dental 3,205,158, supplemental pension payments 556,000, and a Proposition 98 reconciliation of −1,066,131, among other items. The dollar total matches. The words do not describe retiree health, pensions, agriculture, veterans, or a negative school-funding reconciliation.</p>
+              <p>“Other agencies” is six groups that sum to 9,017,995 thousand dollars. The page stores 9.018 billion, that sum rounded to the nearest million. The extra $5,000 is why the six page bars sum to $251,477,214,000 while Schedule 9 expenditures are $251,477,209,000. Both screen displays round to $251.5 billion. The row titles are grade B until those PDFs are opened again. The addition of the recorded rows is grade C and matches the page and the LAO millions.</p>
+              <div class="split">
+                <div class="box fact"><h4>Fact</h4><p>The LAO millions match the page’s stored budget lines. The $1 million revenue residual and the $5,000 spending residual are rounding. The $16.554 billion equals the three agency groups named above.</p></div>
+                <div class="box judgment"><h4>Judgment</h4><p>Whether “Government, courts &amp; executive” is an acceptable short name. The dollars should stay. The name should say what the three groups actually contain, or stop at “government.”</p></div>
+              </div>
+            </div>
+          </details>
+        </article>
+
+        <article class="finding" id="two-deficits" data-show="fact judgment">
+          <header>
+            <p class="kicker">DEFICITS AND RESERVES</p>
+            <h2>Three different billions, each attached to a real definition</h2>
+            <p class="plain">Spending minus this year’s revenues and transfers is $24.723 billion. That is the same amount the Special Fund for Economic Uncertainties is drawn down, from $29.223 billion to $4.500 billion. The operating deficit is smaller because a $6.388 billion deposit in a temporary holding account is added back. That account is not a reserve. The administration’s operating-deficit cell is −$18.335 billion. The Analyst’s prose says $18.5 billion. The page copies the Analyst’s sentence and correctly says this is not the same thing as the $24.7 billion gap.</p>
+            <p class="other"><b>Other reading.</b> $18.5 billion is a real sentence, and attributing it to the Analyst is the right attribution. It is also $165 million above the administration’s cell, and the nearest tenth of $18.335 billion is $18.3 billion. Keeping $18.5 billion alone forces a rounding choice. Showing $18.5 billion as the Analyst’s rounding of −$18.335 billion does not. “About $20 billion” of broadly usable reserves matches the Budget Stabilization Account plus the uncertainty reserve, $19.570 billion. It does not match that pair plus the $9.2 billion school reserve.</p>
+          </header>
+          <details>
+            <summary>Show the evidence</summary>
+            <div class="trail">
+              <h4>The simple gap and the reserve draw · grade C from grade A millions</h4>
+              <pre>251,477 − 226,754 = 24,723 million dollars = $24.723 billion
+29,223 − 4,500 = 24,723</pre>
+              <p>Report 5197 says the budget draws down the elevated prior-year balance and “is balanced on a cumulative basis” because it uses that balance. The page’s bridge displays as $24.7 billion.</p>
+              <h4>The operating deficit · grade A for the sentence, grade B for the cell</h4>
+              <p>Report 5197 says “the administration estimates an $18.5 billion operating deficit in 2026–27.” It also says the budget deposits $6.4 billion into the Temporary Surplus Holding Account, to be withdrawn in 2027–28, and that neither the LAO nor the Department of Finance treats that account as a reserve.</p>
+              <p>The Department of Finance multiyear row “Operating Surplus/Deficit with BSA Transfer” was recorded as −$18,335 million. Rebuilt from the LAO millions plus the $6,388 million holding-account deposit printed on the Department of Finance overview chart:</p>
+              <pre>226,754 + 6,388 = 233,142
+251,477 − 233,142 = 18,335
+24,723 − 18,335 = 6,388</pre>
+              <p>The $6,388 million is inside “revenues and transfers” as a negative transfer, so it widens the simple gap. The operating-deficit definition adds it back. $18,335 million is $18.335 billion. The difference between that cell and the Analyst’s $18.5 billion is $165 million.</p>
+              <h4>Reserves at the end of 2026–27 · grade A</h4>
+              <pre>Budget Stabilization Account                 15,070
+Special Fund for Economic Uncertainties       4,500
+Sum                                          19,570 million dollars = $19.570 billion</pre>
+              <p>The same section says the school reserve would be $9.2 billion. Adding it produces about $28.8 billion, which is a different pile. The $19.570 billion figure is an end-of-year estimate under the enacted plan, not a cash count on October 5.</p>
+              <h4>Proposition 2’s two rule changes · grade A</h4>
+              <p>Report 5197: the cap would rise from 10 percent to 20 percent of General Fund tax revenues, and extra debt payments set to expire in 2030 would run through 2040. The page’s description of those two rules matches.</p>
+              <div class="split">
+                <div class="box fact"><h4>Fact</h4><p>$24.723 billion, $18.335 billion, $6.388 billion, and $19.570 billion are the products above. “$18.5 billion” is the Analyst’s sentence about the administration’s estimate.</p></div>
+                <div class="box judgment"><h4>Judgment</h4><p>Which deficit to put in a headline. Both are real and they measure different things. The page already says they differ. The remaining choice is whether to show the administration’s cell beside the Analyst’s rounding.</p></div>
+              </div>
+            </div>
+          </details>
+        </article>
+
+        <article class="finding" id="short-lines" data-show="fact judgment">
+          <header>
+            <p class="kicker">SHORT LINES THAT DROP A CONDITION</p>
+            <h2>A one-line summary left out who is covered, or when a rule starts</h2>
+            <p class="plain">These are smaller than the six items above. Each omitted or extra condition is a sentence in an official summary. A one-line summary cannot carry every condition. The ones here change who is covered, what voids a ballot, or when a rule starts.</p>
+            <p class="other"><b>Other reading.</b> Condensing is the point of an explainer. The fair test is whether a reader who relied only on the short line would be wrong about coverage, a voided ballot, or a start date. If yes, the condition belongs in the yes/no line or the sentence under it. Leaving it out is an editorial cut a fact-checker can name. It is not evidence that the rest of the card was invented.</p>
+          </header>
+          <details>
+            <summary>Show the evidence</summary>
+            <div class="trail">
+              <h4>Proposition 4 · grade B</h4>
+              <p>The Attorney General summary says the current ban on public financing has an exception “in charter cities and counties.” The page’s no-vote line says “charter cities.” Counties are omitted. The LAO cost, “a few hundred thousand dollars each year” for Fair Political Practices Commission guidance, matches the page. The measure sets no program and no overall dollar cap. That part of the con box matches the LAO.</p>
+              <h4>Proposition 5 · grade B</h4>
+              <p>The official title says statewide officers. The page repeats the title. The amended constitutional section is Article II, section 15, and the LAO analysis also describes the vacancy rules for legislative seats. Lieutenant-governor succession is the rule for the governor. If the recall falls early in the term, a special election follows. The short line is right about the title and incomplete about the offices.</p>
+              <h4>Proposition 39 · grade B for the mechanics, grade A for the qualification summary</h4>
+              <p>Mail voters must provide the last four digits of the identification number they designated at registration. The Attorney General summary uses a mismatched number — Social Security digits when the registration designated a driver-license number — as an example of a ballot that would not count. The page says “ID digits” and does not say a mismatch voids the ballot.</p>
+              <h4>Proposition 42 · grade B</h4>
+              <p>The Attorney General date is taxes that are “enacted or take effect on or after January 1, 2026.” The page says “enacted after Jan. 1, 2026.” Taking effect on that date is part of the trigger. The LAO fiscal line is that future revenue may not rise as much. “Progressive revenue options,” in the con box, is wider than a ban on new taxes on personal property and on defined retroactive taxes. That width is a characterization inside an argument box.</p>
+              <h4>Proposition 43 · grade B</h4>
+              <p>The LAO says the two-thirds threshold applies beginning January 1, 2027, to new, increased, or extended local special taxes proposed by voters. The page says the bar rises from a majority to two-thirds. The start date and the coverage of extensions are omitted. The voter guide prints the legislative vote on ACA 22 as Senate 35–1 and Assembly 68–2.</p>
+              <h4>Proposition 44 · grade B</h4>
+              <p>The 90 percent rule, a penalty equal to the shortfall, fee-funded enforcement “in the low tens of millions,” waivers, and a refund if the clinic complies within five years match the official summaries. The LAO also says other state and local costs are uncertain, including higher Medi-Cal costs and possible closures, and that these clinics currently report spending about 80 percent of revenue on health care. The page’s cost line is the enforcement piece only.</p>
+              <h4>Proposition 45’s yes line · grade A</h4>
+              <p>The LAO says applicants may use the new procedures or the existing ones. That supports “may opt into.” The same analysis also says the measure limits the agency to one alternative developed by the applicant, assesses impacts under the rules in place when the application is submitted, limits tribal consultation to federally recognized California tribes, limits how long comments are accepted, and limits what a court can consider and can stop. “Faster” is true as far as deadlines. It does not carry those other changes.</p>
+              <div class="split">
+                <div class="box fact"><h4>Fact</h4><p>Each omitted or extra condition above is a sentence in the named official summary, at the grade stated on that item.</p></div>
+                <div class="box judgment"><h4>Judgment</h4><p>How much a short line must carry. The cuts listed here are the ones that change the legal reach, not the ones that only drop an example.</p></div>
+              </div>
+            </div>
+          </details>
+        </article>
+
+        <article class="finding" id="colors" data-show="fact judgment">
+          <header>
+            <p class="kicker">COALITION COLORS</p>
+            <h2>The color is a judgment. The signer list is the fact.</h2>
+            <p class="plain">The page says party-lean labels describe coalitions, not the content of a measure. A single color cannot carry a split. On Proposition 40, the state Democratic Party is recorded as Yes, and the Democratic governor, teachers, building trades, and several health groups are on the no side. On Proposition 43, the Republican Party is recorded as Yes on a measure a Democratic author sent to the ballot with a near-unanimous vote. Dropping the color where the split is the story, and keeping the names, is the correction that does not pretend a coalition is a party.</p>
+            <p class="other"><b>Other reading.</b> The color can mean “this is the state party’s current endorsement,” which is a documented fact. On 40, that defense follows the California Democratic Party and still misses the governor and the labor split. The card’s “progressive-labor support” misses the same split. On 43, the defense is that red describes who is campaigning now. The criticism is that a red card on a Democratic-authored, near-unanimous referral tells the reader the origin was partisan. The card’s sentence already discloses a bipartisan referral. The color keeps one of the two facts.</p>
+          </header>
+          <details>
+            <summary>Show the evidence</summary>
+            <div class="trail">
+              <p>The grid was recorded from the UC Berkeley IGS compilation checked September 28, 2026, and from voter-guide signer lists. It was not re-opened while the research file was written. Grade B. Y is support, N is opposition, NP is a stated neutral.</p>
+              <div class="scroll">
+                <table>
+                  <thead><tr><th>Group</th><th>40</th><th>43</th><th>45</th><th>1</th><th>5</th><th>44</th></tr></thead>
+                  <tbody>
+                    <tr><td>California Democratic Party</td><td>Y</td><td>N</td><td>N</td><td>Y</td><td>Y</td><td>N</td></tr>
+                    <tr><td>California Republican Party</td><td>N</td><td>Y</td><td>Y</td><td>NP</td><td>N</td><td>N</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <h4>Proposition 40</h4>
+              <p>The yes argument is signed by an SEIU-UHW leader, a Planned Parenthood patient-access worker, and a member of an AFT local. The no argument is signed by the California Medical Association, the California Primary Care Association, and the California School Boards Association, and it names Governor Gavin Newsom, the Democratic and Republican candidates for governor, the California Teachers Association, the building trades, carpenters, and firefighters among the opponents. The color in the code is Democratic.</p>
+              <h4>Proposition 43</h4>
+              <p>ACA 22, author Assemblymember Buffy Wicks, a Democrat. Assembly 68–2. Senate 35–1. Grade B, voter guide and bill history. The campaign supporters named in the quick reference are taxpayer and business groups. The named opponents are labor organizations. The state parties are Republican Yes and Democratic No. The color is Republican.</p>
+              <h4>Proposition 5</h4>
+              <p>The no argument is signed by Senate Minority Leader Brian Jones and Assemblymember Joe Patterson. Their argument, as recorded, does not use the phrase “election integrity.” The yes argument is signed by the League of Women Voters, California Common Cause, and a former Fair Political Practices Commission chair. “Election-integrity” is a frame added by the page. Naming the offices is the description that does not adopt a slogan.</p>
+              <h4>Proposition 45</h4>
+              <p>The Republican color matches the recorded party split. The quick-reference supporters are the California Children’s Hospital Association, the California Water Association, and the California Council for Affordable Housing. The opponents include environmental organizations. “Developer” is a shorthand for a coalition whose named supporters are hospitals, water, and affordable housing. The interest-group sentence is the more specific fact.</p>
+              <h4>Proposition 1</h4>
+              <p>The state Republican Party is recorded as neutral, and no argument against was filed. Howard Jarvis Taxpayers Association is recorded as opposed. “Conservative opposition” is real and narrower than a party campaign. The Democratic color describes the support side. It is the softest of the Democratic colors.</p>
+              <h4>Propositions 38 and 44</h4>
+              <p>Both are uncolored. On 38, both major parties are recorded as Yes. On 44, both are recorded as No, and the fight is labor against provider groups. Leaving them uncolored matches those records.</p>
+              <div class="split">
+                <div class="box fact"><h4>Fact</h4><p>The signer names, the ACA 22 vote counts, and the party grid, at grade B. The color assignments are in the page’s code, grade A.</p></div>
+                <div class="box judgment"><h4>Judgment</h4><p>Which fact the color should emphasize when the party, the governor, the author, and the donors are not on the same side. A color that tracks a party endorsement is defensible only if the card also shows the split. One color with no split stated presents a judgment as a classification.</p></div>
+              </div>
+            </div>
+          </details>
+        </article>
+
+        <article class="finding" id="argument-boxes" data-show="fact judgment">
+          <header>
+            <p class="kicker">ARGUMENT BOXES AND TYPE TAGS</p>
+            <h2>A labeled argument can be a case. A type tag is read as a fact.</h2>
+            <p class="plain">“Poison pill” sits in a con box, where a side’s characterization belongs. “Countermeasure to Prop 40” sits in the type tag, outside the argument boxes, where it reads as classification. “Keeping environmental standards” in the Proposition 45 pro box conflicts with the Analyst’s list of what the new procedure changes. “Without evidence of widespread voter fraud” is the page’s argument on Proposition 39. The Analyst does not discuss fraud. “After federal cuts” on Proposition 40 is campaign reasoning inside a pro box.</p>
+            <p class="other"><b>Other reading.</b> A defender of the Proposition 45 line can say CEQA still applies, so standards are kept in that sense. The Analyst’s list is the more specific account of what changes: one alternative, standards frozen at the application date, narrower tribal consultation, a capped comment period, and a narrower court remedy. On Proposition 40, official opposition arguments do say 41 and 42 were written to undo the tax. That purpose claim belongs with the arguments. The measures themselves are written as general rules. Each can affect 40 if it passes with more yes votes.</p>
+          </header>
+          <details>
+            <summary>Show the evidence</summary>
+            <div class="trail">
+              <h4>Proposition 45, pro box · grade A for the Analyst and the page</h4>
+              <p>“Could get housing and infrastructure built faster while keeping environmental standards.” The speed clause is a possible result, not a measured one. The conflict with the Analyst is the standards clause. See the Proposition 45 conditions in the short-lines finding.</p>
+              <h4>Proposition 39, con box · grade B</h4>
+              <p>“Without evidence of widespread voter fraud.” The LAO analysis does not discuss fraud incidence. The official argument against, as recorded, calls the measure costly and unnecessary. It does not use the fraud sentence. The sentence is the page’s argument, inside an argument box. It is not an LAO finding.</p>
+              <h4>Proposition 40, pro box</h4>
+              <p>“After federal cuts” is not in the LAO analysis or the Attorney General bullets opened for this check (grade A for those documents). The quick-guide pro argument uses that rationale (grade B). Inside a pro box, it is campaign reasoning. It should not migrate into the neutral summary.</p>
+              <h4>Where the loaded words sit · grade A</h4>
+              <p>“Poison pill” is in the con box. “Countermeasure to Prop 40” is in the type tag. The official opposition arguments assert that the measures were designed to undo the billionaire tax. That purpose is an argument. The type tag currently states it as the kind of measure.</p>
+              <div class="split">
+                <div class="box fact"><h4>Fact</h4><p>The Analyst’s Proposition 45 list does not say environmental standards are unchanged. The Analyst’s Proposition 39 analysis does not discuss fraud incidence. “After federal cuts” is not an LAO finding. The type tag is outside the argument boxes.</p></div>
+                <div class="box judgment"><h4>Judgment</h4><p>How hard a labeled pro or con box should be graded. This review graded those boxes as arguments unless they state a document fact the document does not support or contradict the Analyst while sounding like a finding. The type tag does not get that allowance, because nothing on the card marks it as one side’s language.</p></div>
+              </div>
+            </div>
+          </details>
+        </article>
+      </div>
+    </section>
+
+    <section id="survived">
+      <div class="wrap">
+        <div class="section-label">WHAT CHECKED OUT</div>
+        <h2>Claims that match the document named</h2>
+        <p class="lead">A fact-check that lists only mismatches overstates how much of the guide is in dispute. These were checked and match. Grades are A unless the research file marks them otherwise. The full wording is in <a href="grok_research.md">grok_research.md</a>, section 4.</p>
+        <ul class="checked">
+          <li>November 3, 2026 is the statewide general election. The Secretary of State certified 14 measures on June 25, 2026: Propositions 1, 2, 3, 4, 5, 37, 38, 39, 40, 41, 42, 43, 44, and 45. Five were placed by the Legislature and nine qualified as initiatives. Nothing numbered 6 through 36 is on this ballot.</li>
+          <li>The stored budget lines match LAO Figures 3, 4, and 5, including the $1 million and $5,000 rounding residuals described above.</li>
+          <li>Proposition 1’s $11.25 billion, the $10 / $1.25 split, and $500–$600 million a year for about 25 years. The flow’s legal name for the veterans piece is the part that does not match.</li>
+          <li>Proposition 2’s cap, from 10 percent to 20 percent, and extra debt payments extended from a 2030 expiration through 2040.</li>
+          <li>Proposition 3’s $5–$15 billion, the 2031 expiration in the LAO yes/no statement, the top 2 percent, and the roughly 40 / 60 split between schools and community colleges and other state programs.</li>
+          <li>Proposition 37’s ceiling of $25 billion in revenue bonds, loans up to 17 percent of the price, and the LAO finding of no direct state or local cost.</li>
+          <li>Proposition 38’s $8.4 billion, $500–$600 million a year for about 20 years, about half to one institute and half to grants, a 2 percent state administration cap, a 20 percent California price discount, and 10 percent of discovery revenue to the state until the bonds are repaid.</li>
+          <li>Proposition 40’s “tens of billions” over several years, a possible ongoing income-tax loss of less than $1 billion a year, and the 90 percent health-care share. The LAO puts administration of the tax inside the other 10 percent, together with education and food assistance. The LAO publishes no tighter revenue range.</li>
+          <li>Proposition 1’s “tens of thousands” of homes. The LAO says up to 40,000 multifamily rental units, about 2,500 farmworker units, about 1,200 university beds, and up to 40,000 homeownership households.</li>
+          <li>The glossary’s short definitions, including “Gann Limit” as a common name for the 1979 state spending limit. The official summaries say “state spending limit.”</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="limits">
+      <div class="wrap">
+        <div class="section-label">LIMITS</div>
+        <h2>What this record does not settle</h2>
+        <p class="lead">These are open because the document was not quoted section by section in the research file, or because the question is not a fact about the explainer. They are not silent findings.</p>
+        <ul>
+          <li>The Proposition 40 phase-in formula and the trust-by-trust threshold, until the proposed-law PDF is quoted section by section.</li>
+          <li>Berkeley Release #2026-20’s toplines, until that PDF is opened again. They are grade B.</li>
+          <li>Schedule 8 and Schedule 9 row titles, until those PDFs are opened again. The sums were re-added from the recorded rows. Grade B on the names, grade C on the addition.</li>
+          <li>Which committees raised the most money. No FPPC dollar ranking was pulled.</li>
+          <li>Any poll released after the PPIC and Berkeley waves, except as a reminder that snapshots move. An October 4 survey was reported in the polling review and was not re-read, so its toplines are not used as corrections.</li>
+          <li>How anyone should vote.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="repeat">
+      <div class="wrap">
+        <div class="section-label">REPEAT THE CHECK</div>
+        <h2>Five steps, in order</h2>
+        <ol>
+          <li>Open <a href="../index.html">the explainer</a> and search for the sentence named in the finding.</li>
+          <li>Open the URL in that finding and search for the quotation.</li>
+          <li>Repeat the arithmetic in the same units. Billions on the page, millions in the LAO tables, thousands in Schedules 8 and 9.</li>
+          <li>Decide whether the remaining step is a fact about those two texts or a judgment about emphasis.</li>
+          <li>Run <code>python3 tools/verify_fiscal/verify_fiscal.py</code> for the budget lines, the bond label, and the chart endpoints. The pins are in <code>tools/verify_fiscal/official_fiscal_2026.json</code>. The script does not use the network.</li>
+        </ol>
+        <p>A correction that cannot survive steps 2 and 3 should be dropped. A judgment that is labeled as a fact should be relabeled, even when the judgment is reasonable.</p>
+        <div class="links">
+          <a href="grok_research.md">Long-form research record</a>
+          <a href="../index.html">Ballot explainer</a>
+          <a href="https://lao.ca.gov/Publications/Report/5197">LAO Report 5197</a>
+          <a href="https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/">PPIC, September 2026</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <p>Record date October 5, 2026. This page is the public version of <a href="grok_research.md">grok_research.md</a>. It checks one explainer. It is not an endorsement, a voter guide, or a substitute for the county ballot. Grade B items were recorded from the primary document during the review and were not re-opened while the research file was written.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var filters = document.querySelectorAll(".filter");
+      var cards = document.querySelectorAll("[data-show]");
+      var note = document.getElementById("filter-note");
+      filters.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var mode = btn.getAttribute("data-filter");
+          filters.forEach(function (b) { b.setAttribute("aria-pressed", b === btn ? "true" : "false"); });
+          cards.forEach(function (card) {
+            var kinds = card.getAttribute("data-show").split(" ");
+            card.hidden = mode !== "all" && kinds.indexOf(mode) === -1;
+          });
+          if (note) note.textContent = mode === "all"
+            ? "Showing every finding. Facts and judgments are often in the same card, because the documents are facts and the wording choice is a judgment."
+            : mode === "fact"
+            ? "Showing cards that contain a document or arithmetic fact. Open the trail to see the judgment beside it."
+            : "Showing cards that contain a judgment. The documents underneath those judgments stay in the trail.";
+        });
+      });
+      var toggle = document.getElementById("open-all");
+      if (toggle) {
+        toggle.addEventListener("click", function () {
+          var all = Array.prototype.slice.call(document.querySelectorAll("details"));
+          var open = all.some(function (d) { return !d.open; });
+          all.forEach(function (d) { d.open = open; });
+          toggle.textContent = open ? "Close every trail" : "Open every trail";
+        });
+      }
+    }());
+  </script>
+</body>
+</html>
