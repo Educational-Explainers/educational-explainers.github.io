@@ -1,0 +1,129 @@
+{
+  "snapshot": "2026-10-05",
+  "election": "2026-11-03",
+  "notes": "Pinned from primary documents. Dollar amounts are exact where the source publishes them. LAO Report 5197 uses administration estimates of budget actions through July 1, 2026, and rounds Schedule 8 and Schedule 9 to the nearest million. The page cites that LAO report and the enacted budget.",
+  "sources": {
+    "lao_spending_plan": "https://lao.ca.gov/Publications/Report/5197",
+    "schedule_8": "https://ebudget.ca.gov/2026-27/pdf/Enacted/BudgetSummary/BS_SCH8.pdf",
+    "schedule_9": "https://ebudget.ca.gov/2026-27/pdf/Enacted/BudgetSummary/BS_SCH9.pdf",
+    "schedule_10": "https://ebudget.ca.gov/2026-27/pdf/Enacted/BudgetSummary/BS_SCH10.pdf",
+    "ebudget_overview": "https://ebudget.ca.gov/budget/e/2026-27/BudgetOverview",
+    "multiyear": "https://www.ebudget.ca.gov/reference/MultiYearProjection.pdf",
+    "lao_prop_1": "https://lao.ca.gov/BallotAnalysis/Proposition?number=1&year=2026",
+    "lao_prop_3": "https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026",
+    "lao_prop_38": "https://lao.ca.gov/BallotAnalysis/Proposition?number=38&year=2026",
+    "lao_prop_39": "https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026",
+    "lao_prop_40": "https://lao.ca.gov/BallotAnalysis/Proposition?number=40&year=2026",
+    "lao_prop_45": "https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026"
+  },
+  "general_fund_millions": {
+    "personal_income_tax": {"lao": 145609, "schedule_8_thousands": 145608654},
+    "corporation_tax": {"lao": 45167, "schedule_8_thousands": 45166625},
+    "sales_and_use_tax": {"lao": 35598, "schedule_8_thousands": 35598189},
+    "insurance_tax": {"lao": 4728, "schedule_8_thousands": 4727503},
+    "other_revenues": {"lao": 6258, "schedule_8_thousands": 6257858},
+    "transfers_and_loans": {"lao": -10605, "schedule_8_thousands": -10604697},
+    "revenues_and_transfers": {"lao": 226754, "schedule_8_thousands": 226754132},
+    "expenditures": {"lao": 251477, "schedule_9_thousands": 251477209},
+    "tsha_deposit": {"dof_chart_millions": 6388, "note": "Temporary Surplus Holding Account deposit, withdrawn in 2027-28. LAO text rounds this to $6.4 billion."},
+    "bsa_transfer": {"dof_chart_millions": 3574},
+    "operating_deficit": {
+      "dof_millions": 18335,
+      "lao_prose_billions": 18.5,
+      "definition": "Department of Finance row 'Operating Surplus/Deficit with BSA Transfer.' Equals expenditures minus revenues and transfers after adding back the Temporary Surplus Holding Account deposit. 251477 - (226754 + 6388) = 18335."
+    },
+    "sfeu_end_2026_27_millions": 4500,
+    "bsa_end_2026_27_millions": 15070,
+    "reserves_bsa_plus_sfeu_millions": 19570,
+    "school_reserve_billions": 9.2
+  },
+  "all_funds_millions": {
+    "general_fund": {"lao": 251477, "schedule_9_thousands": 251477209},
+    "special_funds": {"lao": 95129, "schedule_9_thousands": 95129056},
+    "bond_funds": {"lao": 5104, "schedule_9_thousands": 5103532, "schedule_column": "Selected Bond Funds"},
+    "federal_funds": {"lao": 187190, "schedule_9_thousands": 187189993}
+  },
+  "spending_thousands": {
+    "health_and_human_services": {"page_key": "Health & Human Services", "official": 93675003, "how": "Schedule 9 Health and Human Services section 93,394,388 plus the agency secretary 280,615."},
+    "k12": {"page_key": "K–12 education", "official": 91091750, "how": "Schedule 9 K-12 section 90,902,498 plus ScholarShare 189,252. Matches the Department of Finance chart's K-12 line of $91,092 million."},
+    "higher_education": {"page_key": "Higher education", "official": 26691050, "how": "Schedule 9 higher-education section."},
+    "corrections": {"page_key": "Corrections", "official": 14447846, "how": "Schedule 9 corrections section. The Department of Finance chart rounds to $14,448 million."},
+    "government_courts_executive": {
+      "page_key": "Government, courts & executive",
+      "official": 16553565,
+      "parts_thousands": {
+        "legislative_judicial_executive_after_secretary_moves": 7083302,
+        "government_operations": 5149671,
+        "general_government": 4320592
+      },
+      "general_government_includes_thousands": {
+        "retiree_health_and_dental": 3205158,
+        "supplemental_pension_payments": 556000,
+        "department_of_veterans_affairs": 597452,
+        "proposition_98_reconciliation": -1066131
+      },
+      "how": "Sum of three enacted agency groups. The label describes only part of the bar. General Government also contains retiree health, pension payments, veterans, agriculture, the military, tax relief, and a negative Proposition 98 reconciliation."
+    },
+    "other_agencies": {
+      "page_key": "Other agencies & programs",
+      "official": 9017995,
+      "parts_thousands": {
+        "business_and_consumer_services": 15700,
+        "environmental_protection": 268656,
+        "housing_and_homelessness": 1689848,
+        "labor_and_workforce": 1022247,
+        "natural_resources": 4949343,
+        "transportation": 1072201
+      },
+      "how": "Six remaining Schedule 9 agency groups, including their secretaries. The page stores 9.018, which is this sum rounded to the nearest million."
+    }
+  },
+  "propositions": {
+    "1": {
+      "authorization_billions": 11.25,
+      "general_obligation": true,
+      "housing_billions": 10,
+      "veterans_billions": 1.25,
+      "veterans_instrument": "general obligation bond repaid by veteran borrowers, full faith and credit pledged",
+      "annual_cost_millions": [500, 600],
+      "years": 25,
+      "lao_share_of_general_fund": "about 0.25 percent",
+      "lao_units": "up to 40,000 multifamily rental units, about 2,500 farmworker units, about 1,200 university beds, and up to 40,000 homeownership households"
+    },
+    "3": {
+      "annual_revenue_maintained_billions": [5, 15],
+      "who": "top 2 percent of California taxpayers",
+      "allocation": "Roughly 40 percent to schools and community colleges. The rest to other state programs, part of it to reserves.",
+      "lao_published_percent_of_general_fund": null
+    },
+    "38": {
+      "authorization_billions": 8.4,
+      "general_obligation": true,
+      "annual_cost_millions": [500, 600],
+      "years": 20,
+      "lao_share_of_general_fund": "about 0.25 percent",
+      "split": "About half to one institute selected by the California Department of Public Health and half to competitive grants. At least $4.2 billion of the bond is for cancer, heart disease, and Alzheimer's research."
+    },
+    "39": {
+      "annual_cost_words": "tens of millions to low hundreds of millions of state and local costs each year",
+      "lao_share_of_general_fund": "less than 0.25 percent",
+      "published_dollar_endpoints_millions": null,
+      "payer": "state and local governments"
+    },
+    "40": {
+      "rate": "5 percent of net worth, described by the Attorney General as a tax of up to 5 percent",
+      "base": "net worth of covered taxpayers with covered assets over $1 billion, excluding real property and some retirement assets",
+      "one_time_revenue_words": "tens of billions of dollars spread over several years",
+      "ongoing_income_tax_loss_words": "less than $1 billion per year",
+      "published_tighter_range": null,
+      "allocation": "90 percent health care; the rest education, food assistance, and administration of the tax",
+      "conflict": "If Proposition 41 or 42 receives more yes votes, courts could find a conflict and Proposition 40 could be stopped."
+    },
+    "45": {
+      "initial_cost_words": "high tens of millions of dollars annually, potentially exceeding $100 million, for state and local governments including courts",
+      "published_dollar_endpoints_millions": null,
+      "fees": "partly covered; no share published",
+      "duration": "initial period of the first several years; some costs likely decline afterward; longer-term effect uncertain"
+    }
+  }
+}
