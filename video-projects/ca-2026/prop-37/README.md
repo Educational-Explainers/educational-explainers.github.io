@@ -72,3 +72,20 @@ The export includes an FCP7 XML with 26 separate picture clips and continuous na
 - The website currently has no printable-checklist feature, so the CTA invites viewers to read the explanation and sources without promising a checklist.
 
 Remaining limits: fixed 720p canvas, modest path-tracing editor, no automatic cloud asset synchronization, no photorealistic motion generation, and human review is still required for research and scene design. These are deliberate boundaries of this first tested workflow.
+
+## Timed rehearsal prompter
+
+The review page now links to `teleprompter.html`: centered phrases, word underlining, upcoming text, a three-second start/resume lead-in, WAIT countdowns, pace adjustment, mirror mode, fullscreen and optional reference narration. Silent mode is suitable for rehearsing or recording with a separate recorder; this page does not record the microphone. Timing is a guide, not a requirement for the new recording.
+
+The canonical script is preserved. Existing transcription timestamps anchor matched words; 49 corrected or expanded words have interpolated timing, including spoken numbers. All 72 phrase cues retain the original script order. Browser checks exercised start, pause, wait countdown, word highlighting, pace, mirror and completion.
+
+`teleprompter-timed.txt` gives suggested phrase start times. `teleprompter.lrc` contains line-level karaoke cues; compatibility depends on the receiving app. `teleprompter-timed.json` provides word timing and estimated-timing flags for a custom importer. These project files are versioned here. The generic browser view and exporter live in the tools repository.
+
+Regenerate without rendering video:
+
+```bash
+# Run from ampytech-video-gen-tools, with PYTHONPATH set to its src directory.
+python -m ampy_video.sketchbook.prompter --project /path/to/educational-explainers.github.io/video-projects/ca-2026/prop-37/project.json --output /path/to/rendered/prop-37
+```
+
+Full video builds also export the prompter whenever `prompter_words` is set. After recording a new voice, use newly aligned timestamps rather than the old reference timings. At 100% pace, suggested times match the existing video; slower rehearsal settings deliberately do not.

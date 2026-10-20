@@ -2761,5 +2761,6 @@
       "frames": 287
     }
   ],
-  "schema_version": 1
+  "schema_version": 1,
+  "prompter_words": "words-global.json"
 }
