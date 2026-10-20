@@ -1,163 +1,235 @@
 1
-00:00:00,000 --> 00:00:04,560
-Proposition three is about whether existing higher income-tax rates should
+00:00:00,000 --> 00:00:07,140
+Proposition three is about whether existing higher income-tax rates
 
 2
-00:00:04,560 --> 00:00:10,060
-expire. Voters approved these rates in twenty twelve and extended them in
+00:00:07,140 --> 00:00:07,720
+should expire.
 
 3
-00:00:10,060 --> 00:00:14,560
-twenty sixteen. They are now scheduled to end after twenty thirty. The
+00:00:08,740 --> 00:00:11,720
+Voters approved these rates in twenty twelve and extended
 
 4
-00:00:14,560 --> 00:00:18,200
-additional rates apply to roughly the highest-earning two percent of
+00:00:11,720 --> 00:00:12,940
+them in twenty sixteen.
 
 5
-00:00:18,200 --> 00:00:24,080
-taxpayers. This is a tax on income, such as wages or investment profits,
+00:00:13,700 --> 00:00:15,960
+They are now scheduled to end after twenty thirty.
 
 6
-00:00:24,080 --> 00:00:29,060
-rather than a tax on everything someone owns. Proposition three would make
+00:00:16,840 --> 00:00:19,720
+The additional rates apply to roughly the highest-earning two
 
 7
-00:00:29,060 --> 00:00:33,280
-those higher rates permanent. It would keep the current system beyond its
+00:00:19,720 --> 00:00:21,580
+percent of taxpayers.
 
 8
-00:00:33,280 --> 00:00:37,740
-scheduled expiration, rather than introducing a new increase in everybody’s
+00:00:22,040 --> 00:00:24,200
+This is a tax on income, such as wages
 
 9
-00:00:37,740 --> 00:00:38,720
-rate today.
+00:00:24,200 --> 00:00:27,760
+or investment profits, rather than a tax on everything
 
 10
-00:00:39,333 --> 00:00:43,873
-Imagine a teacher planning future classes and support services. If an
+00:00:27,760 --> 00:00:28,740
+someone owns.
 
 11
-00:00:43,873 --> 00:00:48,353
-existing revenue stream ends, a budget planner must consider cuts,
+00:00:28,740 --> 00:00:32,640
+Proposition three would make those higher rates permanent.
 
 12
-00:00:48,353 --> 00:00:53,533
-replacement taxes, or other funding. Keeping that revenue can avoid that
+00:00:33,340 --> 00:00:35,880
+It would keep the current system beyond its scheduled
 
 13
-00:00:53,533 --> 00:00:58,673
-particular gap, but does not promise any school a specific staffing level.
+00:00:35,880 --> 00:00:41,060
+expiration, rather than introducing a new increase in everybody’s
 
 14
-00:00:58,673 --> 00:01:01,273
-School budgets depend on the wider state budget.
+00:00:41,060 --> 00:00:41,700
+rate today.
 
 15
-00:01:01,800 --> 00:01:06,040
-The analyst estimates five to fifteen billion dollars of annual revenue
+00:00:42,400 --> 00:00:45,800
+Imagine a teacher planning future classes and support services.
 
 16
-00:01:06,040 --> 00:01:11,040
-maintained after the scheduled expiration. The wide range reflects the
+00:00:46,260 --> 00:00:49,520
+If an existing revenue stream ends, a budget planner
 
 17
-00:01:11,040 --> 00:01:15,720
-volatile incomes and investment gains of high earners. It is not a
+00:00:49,520 --> 00:00:53,260
+must consider cuts, replacement taxes, or other funding.
 
 18
-00:01:15,720 --> 00:01:20,480
-guaranteed fifteen billion every year. Roughly forty percent would support
+00:00:53,280 --> 00:00:57,420
+Keeping that revenue can avoid that particular gap, but
 
 19
-00:01:20,480 --> 00:01:25,100
-schools and community colleges. The remainder supports other state programs
+00:00:57,420 --> 00:01:00,740
+does not promise any school a specific staffing level.
 
 20
-00:01:25,100 --> 00:01:29,900
-and reserves. Those shares describe the analyst’s estimate, rather than a
+00:01:01,340 --> 00:01:03,960
+School budgets depend on the wider state budget.
 
 21
-00:01:29,900 --> 00:01:34,620
-promise that every dollar goes to classroom instruction. A no vote does not
+00:01:04,480 --> 00:01:08,060
+The analyst estimates five to fifteen billion dollars of
 
 22
-00:01:34,620 --> 00:01:39,353
-lower rates immediately. The scheduled expiration would still occur in
+00:01:08,060 --> 00:01:11,320
+annual revenue maintained after the scheduled expiration.
 
 23
-00:01:39,353 --> 00:01:43,460
-twenty thirty-one. Comparing yes and no therefore means comparing future
+00:01:12,120 --> 00:01:15,240
+The wide range reflects the volatile incomes and investment
 
 24
-00:01:43,460 --> 00:01:46,320
-budgets, not just this year’s tax bill.
+00:01:15,240 --> 00:01:16,820
+gains of high earners.
 
 25
-00:01:46,800 --> 00:01:51,040
-A voter might prefer protecting existing revenue for education and other
+00:01:17,580 --> 00:01:20,600
+It is not a guaranteed fifteen billion every year.
 
 26
-00:01:51,040 --> 00:01:56,660
-services, with the additional tax concentrated on high earners. Making the
+00:01:20,860 --> 00:01:25,100
+Roughly forty percent would support schools and community colleges.
 
 27
-00:01:56,660 --> 00:02:01,140
-rates permanent removes repeated expiration deadlines, though it does not
+00:01:25,500 --> 00:01:28,720
+The remainder supports other state programs and reserves.
 
 28
-00:02:01,140 --> 00:02:02,900
-make the revenue itself predictable.
+00:01:29,500 --> 00:01:32,780
+Those shares describe the analyst’s estimate, rather than a
 
 29
-00:02:03,567 --> 00:02:07,827
-You might ask whether a temporary tax should stay permanent. A skeptical
+00:01:32,780 --> 00:01:35,820
+promise that every dollar goes to classroom instruction.
 
 30
-00:02:07,827 --> 00:02:12,227
-voter could want the state to honor the sunset or reduce reliance on a
+00:01:36,580 --> 00:01:39,240
+A no vote does not lower rates immediately.
 
 31
-00:02:12,227 --> 00:02:17,327
-small, volatile tax base. They may worry about effects on investment or
+00:01:39,780 --> 00:01:43,260
+The scheduled expiration would still occur in twenty thirty-one.
 
 32
-00:02:17,327 --> 00:02:22,267
-where high earners live. The size of behavioral effects is uncertain.
+00:01:43,900 --> 00:01:47,080
+Comparing yes and no therefore means comparing future budgets,
 
 33
-00:02:22,900 --> 00:02:28,180
-In the September PPIC survey of likely voters, 58 percent said yes, 40
+00:01:47,580 --> 00:01:49,400
+not just this year’s tax bill.
 
 34
-00:02:28,180 --> 00:02:33,340
-percent no, and 2 percent were unsure. These are dated survey results, not
+00:01:49,700 --> 00:01:53,240
+A voter might prefer protecting existing revenue for education
 
 35
-00:02:33,340 --> 00:02:39,080
-votes already cast. A later September Berkeley survey found 54 percent yes,
+00:01:53,240 --> 00:01:57,600
+and other services, with the additional tax concentrated on
 
 36
-00:02:39,080 --> 00:02:44,560
-34 percent no, and 13 percent undecided. Question wording and methods
+00:01:57,600 --> 00:01:58,260
+high earners.
 
 37
-00:02:44,560 --> 00:02:49,000
-differ, so comparing polls does not by itself establish a trend.
+00:01:58,920 --> 00:02:03,740
+Making the rates permanent removes repeated expiration deadlines, though
 
 38
-00:02:49,533 --> 00:02:53,813
-Yes makes the current higher rates permanent; no preserves their scheduled
+00:02:03,740 --> 00:02:06,280
+it does not make the revenue itself predictable.
 
 39
-00:02:53,813 --> 00:02:59,073
-expiration. Visit our website for the fuller explanation, source links, and
+00:02:07,140 --> 00:02:09,420
+You might ask whether a temporary tax should stay
 
 40
-00:02:59,073 --> 00:03:03,353
-official voter guide. Compare the tradeoffs, then make your own informed
+00:02:09,420 --> 00:02:09,760
+permanent.
 
 41
-00:03:03,353 --> 00:03:04,233
-choice.
+00:02:10,540 --> 00:02:13,280
+A skeptical voter could want the state to honor
+
+42
+00:02:13,280 --> 00:02:16,240
+the sunset or reduce reliance on a small, volatile
+
+43
+00:02:16,240 --> 00:02:17,220
+tax base.
+
+44
+00:02:17,600 --> 00:02:20,780
+They may worry about effects on investment or where
+
+45
+00:02:20,780 --> 00:02:22,300
+high earners live.
+
+46
+00:02:22,820 --> 00:02:25,080
+The size of behavioral effects is uncertain.
+
+47
+00:02:25,980 --> 00:02:29,340
+In the September PPIC survey of likely voters, 58
+
+48
+00:02:29,340 --> 00:02:32,940
+percent said yes, 40 percent no, and 2 percent
+
+49
+00:02:32,940 --> 00:02:33,500
+were unsure.
+
+50
+00:02:34,180 --> 00:02:37,460
+These are dated survey results, not votes already cast.
+
+51
+00:02:38,080 --> 00:02:41,540
+A later September Berkeley survey found 54 percent yes,
+
+52
+00:02:41,960 --> 00:02:44,980
+34 percent no, and 13 percent undecided.
+
+53
+00:02:45,880 --> 00:02:49,400
+Question wording and methods differ, so comparing polls does
+
+54
+00:02:49,400 --> 00:02:51,620
+not by itself establish a trend.
+
+55
+00:02:52,520 --> 00:02:56,460
+Yes makes the current higher rates permanent; no preserves
+
+56
+00:02:56,800 --> 00:02:57,560
+their scheduled expiration.
+
+57
+00:02:58,220 --> 00:03:01,600
+Visit our website for the fuller explanation, source links,
+
+58
+00:03:01,600 --> 00:03:03,220
+and official voter guide.
+
+59
+00:03:03,740 --> 00:03:07,100
+Compare the tradeoffs, then make your own informed choice.

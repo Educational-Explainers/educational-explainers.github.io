@@ -3,10 +3,10 @@
   "number": 45,
   "title": "Prop 45 \u2014 Faster project review: what would change and what is at stake?",
   "fps": 30,
-  "frames": 6080,
+  "frames": 6179,
   "checked": "2026-10-19",
-  "narration": "asset://af363c56a9f336429d6fcd0b12641e6f99ce6fbc1887aa8a8a57cbea9eb63e35.wav",
-  "prompter_words": "words-global.json",
+  "narration": "asset://5aa1c231951f6172871c22bfdde0168197f4870d3fbabf693377182dc35511c7.wav",
+  "prompter_words": "words-human.json",
   "script": [
     {
       "name": "The big picture",
@@ -85,7 +85,7 @@
       "title": "Why review projects before construction?",
       "chapter": "The big picture",
       "start_frame": 0,
-      "frames": 664,
+      "frames": 733,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -95,8 +95,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.49676204819277114,
           "serif": true
         },
         {
@@ -105,8 +105,8 @@
           "x": 225.0,
           "y": 240,
           "size": 110,
-          "at": 0.3,
-          "duration": 1.2,
+          "at": 0.33117469879518074,
+          "duration": 1.324698795180723,
           "color": "teal",
           "hand": true
         },
@@ -117,8 +117,8 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 0.8,
-          "duration": 0.45
+          "at": 0.883132530120482,
+          "duration": 0.49676204819277114
         },
         {
           "kind": "icon",
@@ -126,8 +126,8 @@
           "x": 585.0,
           "y": 240,
           "size": 110,
-          "at": 7.011111111111111,
-          "duration": 1.2,
+          "at": 7.739675368139224,
+          "duration": 1.324698795180723,
           "color": "teal",
           "hand": true
         },
@@ -138,8 +138,8 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 7.511111111111111,
-          "duration": 0.45
+          "at": 8.291633199464526,
+          "duration": 0.49676204819277114
         },
         {
           "kind": "icon",
@@ -147,8 +147,8 @@
           "x": 945.0,
           "y": 240,
           "size": 110,
-          "at": 13.722222222222223,
-          "duration": 1.2,
+          "at": 15.148176037483267,
+          "duration": 1.324698795180723,
           "color": "teal",
           "hand": true
         },
@@ -159,20 +159,20 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 14.222222222222223,
-          "duration": 0.45
+          "at": 15.700133868808571,
+          "duration": 0.49676204819277114
         }
       ],
       "anchor": {
-        "phrase": "Proposition 45 changes environmental review"
+        "phrase": "Proposition forty-five changes environmental review for"
       }
     },
     {
       "id": "02",
       "title": "An optional route for eligible projects",
       "chapter": "The big picture",
-      "start_frame": 664,
-      "frames": 508,
+      "start_frame": 733,
+      "frames": 523,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -182,8 +182,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.4632874015748032,
           "serif": true
         },
         {
@@ -195,8 +195,9 @@
             565,
             405
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -205,8 +206,8 @@
           "y": 200,
           "size": 28,
           "width": 530,
-          "at": 0.35,
-          "duration": 0.45
+          "at": 0.36033464566929135,
+          "duration": 0.4632874015748032
         },
         {
           "kind": "stroke",
@@ -222,8 +223,8 @@
               ]
             ]
           ],
-          "at": 0.85,
-          "duration": 0.75,
+          "at": 0.8750984251968504,
+          "duration": 0.7721456692913385,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -235,8 +236,8 @@
           "y": 332,
           "size": 28,
           "width": 530,
-          "at": 5.3277777777777775,
-          "duration": 0.45
+          "at": 5.4850940507436565,
+          "duration": 0.4632874015748032
         },
         {
           "kind": "stroke",
@@ -252,8 +253,8 @@
               ]
             ]
           ],
-          "at": 5.8277777777777775,
-          "duration": 0.75,
+          "at": 5.999857830271216,
+          "duration": 0.7721456692913385,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -265,8 +266,8 @@
           "y": 464,
           "size": 28,
           "width": 530,
-          "at": 10.305555555555555,
-          "duration": 0.45
+          "at": 10.609853455818023,
+          "duration": 0.4632874015748032
         },
         {
           "kind": "stroke",
@@ -282,23 +283,23 @@
               ]
             ]
           ],
-          "at": 10.805555555555555,
-          "duration": 0.75,
+          "at": 11.124617235345582,
+          "duration": 0.7721456692913385,
           "hand": true,
           "color": "gold",
           "width": 2.5
         }
       ],
       "anchor": {
-        "phrase": "The proposal offers an optional"
+        "phrase": "The proposal offers an optional faster"
       }
     },
     {
       "id": "03",
       "title": "A project moves from plans to review",
       "chapter": "An illustrative example",
-      "start_frame": 1172,
-      "frames": 119,
+      "start_frame": 1256,
+      "frames": 125,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -308,8 +309,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.47268907563025214,
           "serif": true
         },
         {
@@ -321,20 +322,21 @@
             980,
             430
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         }
       ],
       "anchor": {
-        "phrase": "Imagine a planner preparing a"
+        "phrase": "Imagine a planner preparing a new"
       }
     },
     {
       "id": "04",
       "title": "Two legitimate goals to weigh",
       "chapter": "An illustrative example",
-      "start_frame": 1291,
-      "frames": 470,
+      "start_frame": 1381,
+      "frames": 466,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -344,8 +346,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.4461702127659575,
           "serif": true
         },
         {
@@ -354,8 +356,8 @@
           "x": 315.0,
           "y": 240,
           "size": 110,
-          "at": 0.3,
-          "duration": 1.2,
+          "at": 0.2974468085106383,
+          "duration": 1.1897872340425533,
           "color": "teal",
           "hand": true
         },
@@ -366,8 +368,8 @@
           "y": 410,
           "size": 25,
           "width": 500,
-          "at": 0.8,
-          "duration": 0.45
+          "at": 0.7931914893617023,
+          "duration": 0.4461702127659575
         },
         {
           "kind": "icon",
@@ -375,8 +377,8 @@
           "x": 855.0,
           "y": 240,
           "size": 110,
-          "at": 7.133333333333333,
-          "duration": 1.2,
+          "at": 7.072624113475177,
+          "duration": 1.1897872340425533,
           "color": "teal",
           "hand": true
         },
@@ -387,20 +389,20 @@
           "y": 410,
           "size": 25,
           "width": 500,
-          "at": 7.633333333333333,
-          "duration": 0.45
+          "at": 7.568368794326242,
+          "duration": 0.4461702127659575
         }
       ],
       "anchor": {
-        "phrase": "Residents may want homes built"
+        "phrase": "Residents may want homes built sooner"
       }
     },
     {
       "id": "05",
       "title": "Review affects more than the applicant",
       "chapter": "An illustrative example",
-      "start_frame": 1761,
-      "frames": 110,
+      "start_frame": 1847,
+      "frames": 99,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -410,8 +412,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.40499999999999997,
           "serif": true
         },
         {
@@ -423,20 +425,21 @@
             980,
             430
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         }
       ],
       "anchor": {
-        "phrase": "The surrounding community lives with"
+        "phrase": "The surrounding community lives with the"
       }
     },
     {
       "id": "06",
       "title": "A deadline with enforcement options",
       "chapter": "How it would work",
-      "start_frame": 1871,
-      "frames": 607,
+      "start_frame": 1946,
+      "frames": 600,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -446,8 +449,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.44481054365733114,
           "serif": true
         },
         {
@@ -456,8 +459,8 @@
           "x": 225.0,
           "y": 240,
           "size": 110,
-          "at": 0.3,
-          "duration": 1.2,
+          "at": 0.29654036243822074,
+          "duration": 1.186161449752883,
           "color": "teal",
           "hand": true
         },
@@ -468,8 +471,8 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 0.8,
-          "duration": 0.45
+          "at": 0.7907742998352553,
+          "duration": 0.44481054365733114
         },
         {
           "kind": "icon",
@@ -477,8 +480,8 @@
           "x": 585.0,
           "y": 240,
           "size": 110,
-          "at": 6.377777777777778,
-          "duration": 1.2,
+          "at": 6.304228445908842,
+          "duration": 1.186161449752883,
           "color": "teal",
           "hand": true
         },
@@ -489,8 +492,8 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 6.877777777777778,
-          "duration": 0.45
+          "at": 6.798462383305877,
+          "duration": 0.44481054365733114
         },
         {
           "kind": "icon",
@@ -498,8 +501,8 @@
           "x": 945.0,
           "y": 240,
           "size": 110,
-          "at": 12.455555555555557,
-          "duration": 1.2,
+          "at": 12.311916529379463,
+          "duration": 1.186161449752883,
           "color": "teal",
           "hand": true
         },
@@ -510,20 +513,20 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 12.955555555555557,
-          "duration": 0.45
+          "at": 12.806150466776497,
+          "duration": 0.44481054365733114
         }
       ],
       "anchor": {
-        "phrase": "For projects using the new"
+        "phrase": "For projects using the new route,"
       }
     },
     {
       "id": "07",
       "title": "What review would examine",
       "chapter": "How it would work",
-      "start_frame": 2478,
-      "frames": 472,
+      "start_frame": 2546,
+      "frames": 476,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -533,8 +536,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.45381355932203393,
           "serif": true
         },
         {
@@ -546,8 +549,9 @@
             565,
             405
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -556,8 +560,8 @@
           "y": 200,
           "size": 28,
           "width": 530,
-          "at": 0.35,
-          "duration": 0.45
+          "at": 0.3529661016949152,
+          "duration": 0.45381355932203393
         },
         {
           "kind": "stroke",
@@ -573,8 +577,8 @@
               ]
             ]
           ],
-          "at": 0.85,
-          "duration": 0.75,
+          "at": 0.8572033898305085,
+          "duration": 0.7563559322033899,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -586,8 +590,8 @@
           "y": 332,
           "size": 28,
           "width": 530,
-          "at": 4.927777777777777,
-          "duration": 0.45
+          "at": 4.969538606403013,
+          "duration": 0.45381355932203393
         },
         {
           "kind": "stroke",
@@ -603,8 +607,8 @@
               ]
             ]
           ],
-          "at": 5.427777777777777,
-          "duration": 0.75,
+          "at": 5.473775894538606,
+          "duration": 0.7563559322033899,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -616,8 +620,8 @@
           "y": 464,
           "size": 28,
           "width": 530,
-          "at": 9.505555555555555,
-          "duration": 0.45
+          "at": 9.58611111111111,
+          "duration": 0.45381355932203393
         },
         {
           "kind": "stroke",
@@ -633,23 +637,23 @@
               ]
             ]
           ],
-          "at": 10.005555555555555,
-          "duration": 0.75,
+          "at": 10.090348399246704,
+          "duration": 0.7563559322033899,
           "hand": true,
           "color": "gold",
           "width": 2.5
         }
       ],
       "anchor": {
-        "phrase": "Review would use standards in"
+        "phrase": "Review would use standards in place"
       }
     },
     {
       "id": "08",
       "title": "Court review would also change",
       "chapter": "How it would work",
-      "start_frame": 2950,
-      "frames": 473,
+      "start_frame": 3022,
+      "frames": 476,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -659,8 +663,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.4528541226215645,
           "serif": true
         },
         {
@@ -672,8 +676,9 @@
             565,
             405
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -682,8 +687,8 @@
           "y": 200,
           "size": 28,
           "width": 530,
-          "at": 0.35,
-          "duration": 0.45
+          "at": 0.35221987315010567,
+          "duration": 0.4528541226215645
         },
         {
           "kind": "stroke",
@@ -699,8 +704,8 @@
               ]
             ]
           ],
-          "at": 0.85,
-          "duration": 0.75,
+          "at": 0.8553911205073995,
+          "duration": 0.7547568710359408,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -712,8 +717,8 @@
           "y": 332,
           "size": 28,
           "width": 530,
-          "at": 7.233333333333333,
-          "duration": 0.45
+          "at": 7.279210711768851,
+          "duration": 0.4528541226215645
         },
         {
           "kind": "stroke",
@@ -729,23 +734,23 @@
               ]
             ]
           ],
-          "at": 7.733333333333333,
-          "duration": 0.75,
+          "at": 7.782381959126146,
+          "duration": 0.7547568710359408,
           "hand": true,
           "color": "gold",
           "width": 2.5
         }
       ],
       "anchor": {
-        "phrase": "Courts would have less scope"
+        "phrase": "Courts would have less scope to"
       }
     },
     {
       "id": "09",
       "title": "Costs and possible savings",
       "chapter": "How it would work",
-      "start_frame": 3423,
-      "frames": 513,
+      "start_frame": 3498,
+      "frames": 527,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -755,8 +760,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.46228070175438596,
           "serif": true
         },
         {
@@ -768,8 +773,9 @@
             565,
             405
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -778,8 +784,8 @@
           "y": 200,
           "size": 28,
           "width": 530,
-          "at": 0.35,
-          "duration": 0.45
+          "at": 0.3595516569200779,
+          "duration": 0.46228070175438596
         },
         {
           "kind": "stroke",
@@ -795,8 +801,8 @@
               ]
             ]
           ],
-          "at": 0.85,
-          "duration": 0.75,
+          "at": 0.8731968810916179,
+          "duration": 0.77046783625731,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -808,8 +814,8 @@
           "y": 332,
           "size": 28,
           "width": 530,
-          "at": 5.383333333333334,
-          "duration": 0.45
+          "at": 5.530246913580247,
+          "duration": 0.46228070175438596
         },
         {
           "kind": "stroke",
@@ -825,8 +831,8 @@
               ]
             ]
           ],
-          "at": 5.883333333333334,
-          "duration": 0.75,
+          "at": 6.0438921377517865,
+          "duration": 0.77046783625731,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -838,8 +844,8 @@
           "y": 464,
           "size": 28,
           "width": 530,
-          "at": 10.416666666666668,
-          "duration": 0.45
+          "at": 10.700942170240417,
+          "duration": 0.46228070175438596
         },
         {
           "kind": "stroke",
@@ -855,23 +861,23 @@
               ]
             ]
           ],
-          "at": 10.916666666666668,
-          "duration": 0.75,
+          "at": 11.214587394411957,
+          "duration": 0.77046783625731,
           "hand": true,
           "color": "gold",
           "width": 2.5
         }
       ],
       "anchor": {
-        "phrase": "Initial government costs could reach"
+        "phrase": "Initial government costs could reach the"
       }
     },
     {
       "id": "10",
       "title": "The case for YES",
       "chapter": "Why someone might vote yes",
-      "start_frame": 3936,
-      "frames": 545,
+      "start_frame": 4025,
+      "frames": 542,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -881,8 +887,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.44752293577981656,
           "serif": true
         },
         {
@@ -894,8 +900,9 @@
             565,
             405
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -904,8 +911,8 @@
           "y": 200,
           "size": 28,
           "width": 530,
-          "at": 0.35,
-          "duration": 0.45
+          "at": 0.3480733944954128,
+          "duration": 0.44752293577981656
         },
         {
           "kind": "stroke",
@@ -921,8 +928,8 @@
               ]
             ]
           ],
-          "at": 0.85,
-          "duration": 0.75,
+          "at": 0.8453211009174311,
+          "duration": 0.7458715596330275,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -934,8 +941,8 @@
           "y": 332,
           "size": 28,
           "width": 530,
-          "at": 8.433333333333334,
-          "duration": 0.45
+          "at": 8.386911314984708,
+          "duration": 0.44752293577981656
         },
         {
           "kind": "stroke",
@@ -951,23 +958,23 @@
               ]
             ]
           ],
-          "at": 8.933333333333334,
-          "duration": 0.75,
+          "at": 8.884159021406727,
+          "duration": 0.7458715596330275,
           "hand": true,
           "color": "gold",
           "width": 2.5
         }
       ],
       "anchor": {
-        "phrase": "A voter might support more"
+        "phrase": "A voter might support more predictable"
       }
     },
     {
       "id": "11",
       "title": "Your question: enough time for scrutiny?",
       "chapter": "Why someone might vote no",
-      "start_frame": 4481,
-      "frames": 113,
+      "start_frame": 4567,
+      "frames": 91,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -977,8 +984,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.36238938053097347,
           "serif": true
         },
         {
@@ -990,20 +997,21 @@
             980,
             430
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         }
       ],
       "anchor": {
-        "phrase": "You might ask what evidence"
+        "phrase": "You might ask what evidence or"
       }
     },
     {
       "id": "12",
       "title": "The case for NO",
       "chapter": "Why someone might vote no",
-      "start_frame": 4594,
-      "frames": 592,
+      "start_frame": 4658,
+      "frames": 619,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -1013,8 +1021,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.47052364864864865,
           "serif": true
         },
         {
@@ -1026,8 +1034,9 @@
             565,
             405
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -1036,8 +1045,8 @@
           "y": 200,
           "size": 28,
           "width": 530,
-          "at": 0.35,
-          "duration": 0.45
+          "at": 0.3659628378378378,
+          "duration": 0.47052364864864865
         },
         {
           "kind": "stroke",
@@ -1053,8 +1062,8 @@
               ]
             ]
           ],
-          "at": 0.85,
-          "duration": 0.75,
+          "at": 0.8887668918918918,
+          "duration": 0.784206081081081,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -1066,8 +1075,8 @@
           "y": 332,
           "size": 28,
           "width": 530,
-          "at": 9.216666666666667,
-          "duration": 0.45
+          "at": 9.637021396396396,
+          "duration": 0.47052364864864865
         },
         {
           "kind": "stroke",
@@ -1083,23 +1092,23 @@
               ]
             ]
           ],
-          "at": 9.716666666666667,
-          "duration": 0.75,
+          "at": 10.15982545045045,
+          "duration": 0.784206081081081,
           "hand": true,
           "color": "gold",
           "width": 2.5
         }
       ],
       "anchor": {
-        "phrase": "Another voter could object to"
+        "phrase": "Another voter could object to fewer"
       }
     },
     {
       "id": "13",
       "title": "September snapshot: PPIC",
       "chapter": "What polling indicates",
-      "start_frame": 5186,
-      "frames": 408,
+      "start_frame": 5277,
+      "frames": 389,
       "source": "PPIC \u00b7 Sept 4\u201310, 2026 \u00b7 likely voters \u00b7 \u00b13.8 points",
       "elements": [
         {
@@ -1109,8 +1118,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.42904411764705885,
           "serif": true
         },
         {
@@ -1120,8 +1129,8 @@
           "y": 200,
           "size": 25,
           "width": 1080,
-          "at": 0.5,
-          "duration": 0.45
+          "at": 0.47671568627450983,
+          "duration": 0.42904411764705885
         },
         {
           "kind": "bar",
@@ -1134,8 +1143,8 @@
           "value": 49.0,
           "maximum": 100,
           "color": "teal",
-          "at": 0.9,
-          "duration": 0.9
+          "at": 0.8580882352941177,
+          "duration": 0.8580882352941177
         },
         {
           "kind": "text",
@@ -1144,8 +1153,8 @@
           "y": 312,
           "size": 25,
           "width": 1080,
-          "at": 4.033333333333333,
-          "duration": 0.45
+          "at": 3.8455065359477127,
+          "duration": 0.42904411764705885
         },
         {
           "kind": "bar",
@@ -1158,8 +1167,8 @@
           "value": 46.0,
           "maximum": 100,
           "color": "coral",
-          "at": 4.433333333333334,
-          "duration": 0.9
+          "at": 4.226879084967321,
+          "duration": 0.8580882352941177
         },
         {
           "kind": "text",
@@ -1168,8 +1177,8 @@
           "y": 424,
           "size": 25,
           "width": 1080,
-          "at": 7.566666666666666,
-          "duration": 0.45
+          "at": 7.214297385620915,
+          "duration": 0.42904411764705885
         },
         {
           "kind": "bar",
@@ -1182,8 +1191,8 @@
           "value": 5.0,
           "maximum": 100,
           "color": "gold",
-          "at": 7.966666666666667,
-          "duration": 0.9
+          "at": 7.595669934640523,
+          "duration": 0.8580882352941177
         },
         {
           "kind": "text",
@@ -1192,20 +1201,20 @@
           "y": 570,
           "size": 21,
           "width": 1080,
-          "at": 8,
-          "duration": 0.45
+          "at": 7.627450980392157,
+          "duration": 0.42904411764705885
         }
       ],
       "anchor": {
-        "phrase": "In the September PPIC survey"
+        "phrase": "In the September PPIC survey of"
       }
     },
     {
       "id": "14",
       "title": "Explore the full explanation",
       "chapter": "Make your own decision",
-      "start_frame": 5594,
-      "frames": 486,
+      "start_frame": 5666,
+      "frames": 513,
       "source": "Visit the website and official voter guide before making your decision",
       "elements": [
         {
@@ -1215,8 +1224,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.4750000000000001,
           "serif": true
         },
         {
@@ -1228,8 +1237,9 @@
             540,
             400
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -1238,8 +1248,8 @@
           "y": 205,
           "size": 28,
           "width": 560,
-          "at": 0.2,
-          "duration": 0.45
+          "at": 0.21111111111111114,
+          "duration": 0.4750000000000001
         },
         {
           "kind": "text",
@@ -1248,8 +1258,8 @@
           "y": 315,
           "size": 28,
           "width": 560,
-          "at": 2,
-          "duration": 0.45
+          "at": 2.111111111111111,
+          "duration": 0.4750000000000001
         },
         {
           "kind": "stroke",
@@ -1265,8 +1275,8 @@
               ]
             ]
           ],
-          "at": 3,
-          "duration": 1,
+          "at": 3.166666666666667,
+          "duration": 1.0555555555555556,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -1278,8 +1288,8 @@
           "y": 455,
           "size": 25,
           "width": 650,
-          "at": 1,
-          "duration": 0.45
+          "at": 1.0555555555555556,
+          "duration": 0.4750000000000001
         },
         {
           "kind": "text",
@@ -1288,17 +1298,37 @@
           "y": 505,
           "size": 29,
           "width": 650,
-          "at": 1,
-          "duration": 0.45,
+          "at": 1.0555555555555556,
+          "duration": 0.4750000000000001,
           "color": "teal"
         }
       ],
       "anchor": {
-        "phrase": "Yes creates the optional new"
+        "phrase": "Yes creates the optional new procedures;"
       }
     }
   ],
   "pencil_gain_db": 16,
   "captions_srt": "captions.srt",
-  "captions_vtt": "captions.vtt"
+  "captions_vtt": "captions.vtt",
+  "recording": {
+    "status": "aligned_cleaned_needs_review",
+    "source": "asset://072cadf620832be743f8f2b82076f5d16d8687b8860f6a12d1fafa675314866f.m4a",
+    "take_id": "Prop 45 \u2014 Faster project review: what would change and what is at stake?-2026-10-20T22-36-25-259Z",
+    "script_sha256": "3ef77e776f51aaeabe5206a3eabc5fb0d010a284c05fc421d7433ecf63869a03",
+    "browser_origin": "http://localhost:8877",
+    "approved_at": "2026-10-20T22:39:56.092Z",
+    "selection_basis": "browser_approved",
+    "processing": {
+      "filter": "afftdn=nr=6:nf=-45",
+      "original_preserved": true,
+      "master": "asset://5aa1c231951f6172871c22bfdde0168197f4870d3fbabf693377182dc35511c7.wav",
+      "no_speech_trim": true
+    },
+    "alignment": {
+      "method": "local ASR word timing with canonical interpolation for scene anchors",
+      "estimated_words": 29,
+      "review_required": true
+    }
+  }
 }

@@ -1,0 +1,162 @@
+[
+  {
+    "script": "thirty-seven",
+    "recognized": "37",
+    "start": 0.6
+  },
+  {
+    "script": "it",
+    "recognized": "with",
+    "start": 9.02
+  },
+  {
+    "script": "twenty-five",
+    "recognized": "$25",
+    "start": 20.6
+  },
+  {
+    "script": "dollars",
+    "recognized": "",
+    "start": 21.58
+  },
+  {
+    "script": "Homebuyers\u2019",
+    "recognized": "Home buyers'",
+    "start": 23.78
+  },
+  {
+    "script": "this",
+    "recognized": "the",
+    "start": 30.92
+  },
+  {
+    "script": "newly",
+    "recognized": "new",
+    "start": 33.76
+  },
+  {
+    "script": "six hundred thousand dollars, three percent",
+    "recognized": "$600 ,000, 3 %",
+    "start": 37.3
+  },
+  {
+    "script": "eighteen thousand dollars.",
+    "recognized": "$18 ,000.",
+    "start": 40.32
+  },
+  {
+    "script": "seventeen percent",
+    "recognized": "17 %",
+    "start": 43.18
+  },
+  {
+    "script": "one hundred two thousand.",
+    "recognized": "$102 ,000.",
+    "start": 45.0
+  },
+  {
+    "script": "eighty percent",
+    "recognized": "80 %",
+    "start": 48.12
+  },
+  {
+    "script": "four hundred eighty thousand.",
+    "recognized": "$480 ,000.",
+    "start": 49.82
+  },
+  {
+    "script": "loan",
+    "recognized": "loans",
+    "start": 55.72
+  },
+  {
+    "script": "Borrowers",
+    "recognized": "Porrowers",
+    "start": 68.58
+  },
+  {
+    "script": "owner-occupancy,",
+    "recognized": "owner occupancy,",
+    "start": 72.8
+  },
+  {
+    "script": "county-based",
+    "recognized": "county -based",
+    "start": 82.2
+  },
+  {
+    "script": "one",
+    "recognized": "$1",
+    "start": 84.82
+  },
+  {
+    "script": "one and a half",
+    "recognized": "$1 .5",
+    "start": 86.06
+  },
+  {
+    "script": "dollars,",
+    "recognized": "",
+    "start": 87.06
+  },
+  {
+    "script": "two hundred and forty-five thousand",
+    "recognized": "245 ,000",
+    "start": 93.96
+  },
+  {
+    "script": "qualified-builder",
+    "recognized": "qualified builder",
+    "start": 107.14
+  },
+  {
+    "script": "construction-defect",
+    "recognized": "construction defect",
+    "start": 112.26
+  },
+  {
+    "script": "New-home",
+    "recognized": "New home",
+    "start": 148.58
+  },
+  {
+    "script": "construction-defect tradeoff.",
+    "recognized": "construction defect trade off.",
+    "start": 166.22
+  },
+  {
+    "script": "PPIC",
+    "recognized": "PBIC",
+    "start": 175.34
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 178.38
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 180.52
+  },
+  {
+    "script": "percent were",
+    "recognized": "% for",
+    "start": 182.18
+  },
+  {
+    "script": "fuller",
+    "recognized": "full",
+    "start": 197.2
+  },
+  {
+    "script": "voter",
+    "recognized": "water",
+    "start": 199.76
+  },
+  {
+    "script": "tradeoffs,",
+    "recognized": "trade offs,",
+    "start": 201.4
+  }
+]

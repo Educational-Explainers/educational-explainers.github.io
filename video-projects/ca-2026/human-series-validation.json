@@ -1,0 +1,542 @@
+{
+  "date": "2026-10-20",
+  "recording_origin": "http://localhost:8877",
+  "original_takes_backed_up": 18,
+  "propositions": 14,
+  "noise_reduction": "afftdn=nr=6:nf=-45",
+  "projects": [
+    {
+      "project": "prop-01",
+      "frames": 5553,
+      "seconds": 185.1,
+      "take_id": "Prop 1 \u2014 Housing bonds: what would the money buy?-2026-10-20T21-13-02-847Z",
+      "source": "asset://27187c0096a30cf0dc5ce68d9430d65346116fc5ead96861bd0110ac41956397.m4a",
+      "narration": "asset://a6678a0465db52d022d29afc626ed5f553884703d2ed4ed70ea19332b9f86430.wav",
+      "scenes": 15,
+      "export_validation": {
+        "explainer.mp4": {
+          "frames": 5553,
+          "video_duration": "185.106315",
+          "audio_duration": "185.100000",
+          "decode": "passed"
+        },
+        "narration-only.mp4": {
+          "frames": 5553,
+          "video_duration": "185.106315",
+          "audio_duration": "185.100000",
+          "decode": "passed"
+        },
+        "audio": {
+          "narration_sha256": "a6678a0465db52d022d29afc626ed5f553884703d2ed4ed70ea19332b9f86430",
+          "sample_count": 4442400,
+          "additive_mix_error": 0.0,
+          "mix_peak_dbfs": -5.981436729431152,
+          "pencil_active_seconds": 21.866666666666667,
+          "policy": "continuous narration; no fades, auto-leveling, or ducking"
+        },
+        "manifest": {
+          "scenes": 15,
+          "frames": 5553,
+          "seconds": 185.1,
+          "valid": true
+        }
+      },
+      "status": "cleaned_human_narration_rendered_needs_listening_review"
+    },
+    {
+      "project": "prop-02",
+      "frames": 5355,
+      "seconds": 178.5,
+      "take_id": "Prop 2 \u2014 Rainy-day reserves: save more, or spend now?-2026-10-20T21-43-18-293Z",
+      "source": "asset://0db0d9a184a836a9f6129fcdff0ba967bd4fd0830f6a05b2d34ec20755b7c35a.m4a",
+      "narration": "asset://4a5eefdac061561d1fba15c880f7c89ccd428f0ef74134a40130576141d0f181.wav",
+      "scenes": 14,
+      "export_validation": {
+        "explainer.mp4": {
+          "frames": 5355,
+          "video_duration": "178.504687",
+          "audio_duration": "178.500000",
+          "decode": "passed"
+        },
+        "narration-only.mp4": {
+          "frames": 5355,
+          "video_duration": "178.504687",
+          "audio_duration": "178.500000",
+          "decode": "passed"
+        },
+        "audio": {
+          "narration_sha256": "4a5eefdac061561d1fba15c880f7c89ccd428f0ef74134a40130576141d0f181",
+          "sample_count": 4284000,
+          "additive_mix_error": 0.0,
+          "mix_peak_dbfs": -6.3109869956970215,
+          "pencil_active_seconds": 18.766666666666666,
+          "policy": "continuous narration; no fades, auto-leveling, or ducking"
+        },
+        "manifest": {
+          "scenes": 14,
+          "frames": 5355,
+          "seconds": 178.5,
+          "valid": true
+        }
+      },
+      "status": "cleaned_human_narration_rendered_needs_listening_review"
+    },
+    {
+      "project": "prop-03",
+      "frames": 5639,
+      "seconds": 187.96666666666667,
+      "take_id": "Prop 3 \u2014 High-income taxes: keep the rates after 2030?-2026-10-20T21-46-55-383Z",
+      "source": "asset://ea0b970688f504471fb22cc8bbc0d604718835f9c9a3f9859372ae3e541fd166.m4a",
+      "narration": "asset://4df7298bf6f31fd9a9706d2a04cf30e4f86e2f5ccfffc515ee9bddb2b2c818cb.wav",
+      "scenes": 15,
+      "export_validation": {
+        "explainer.mp4": {
+          "frames": 5639,
+          "video_duration": "187.971354",
+          "audio_duration": "187.966667",
+          "decode": "passed"
+        },
+        "narration-only.mp4": {
+          "frames": 5639,
+          "video_duration": "187.971354",
+          "audio_duration": "187.966667",
+          "decode": "passed"
+        },
+        "audio": {
+          "narration_sha256": "4df7298bf6f31fd9a9706d2a04cf30e4f86e2f5ccfffc515ee9bddb2b2c818cb",
+          "sample_count": 4511200,
+          "additive_mix_error": 0.0,
+          "mix_peak_dbfs": -6.127455234527588,
+          "pencil_active_seconds": 17.5,
+          "policy": "continuous narration; no fades, auto-leveling, or ducking"
+        },
+        "manifest": {
+          "scenes": 15,
+          "frames": 5639,
+          "seconds": 187.96666666666667,
+          "valid": true
+        }
+      },
+      "status": "cleaned_human_narration_rendered_needs_listening_review"
+    },
+    {
+      "project": "prop-04",
+      "frames": 6071,
+      "seconds": 202.36666666666667,
+      "take_id": "Prop 4 \u2014 Public campaign financing: what would change?-2026-10-20T21-50-33-381Z",
+      "source": "asset://22592711b292f1c8458e5d0b60955d7f77edb7cb598e3726136cc20d99b48ae9.m4a",
+      "narration": "asset://17460319b76ece45ad4fc8d7e92c46c70025e61ff73097bc3b34044efb2acd6c.wav",
+      "scenes": 21,
+      "export_validation": {
+        "explainer.mp4": {
+          "frames": 6071,
+          "video_duration": "202.373698",
+          "audio_duration": "202.366667",
+          "decode": "passed"
+        },
+        "narration-only.mp4": {
+          "frames": 6071,
+          "video_duration": "202.373698",
+          "audio_duration": "202.366667",
+          "decode": "passed"
+        },
+        "audio": {
+          "narration_sha256": "17460319b76ece45ad4fc8d7e92c46c70025e61ff73097bc3b34044efb2acd6c",
+          "sample_count": 4856800,
+          "additive_mix_error": 0.0,
+          "mix_peak_dbfs": -6.208309650421143,
+          "pencil_active_seconds": 33.4,
+          "policy": "continuous narration; no fades, auto-leveling, or ducking"
+        },
+        "manifest": {
+          "scenes": 21,
+          "frames": 6071,
+          "seconds": 202.36666666666667,
+          "valid": true
+        }
+      },
+      "status": "cleaned_human_narration_rendered_needs_listening_review"
+    },
+    {
+      "project": "prop-05",
+      "frames": 5279,
+      "seconds": 175.96666666666667,
+      "take_id": "Prop 5 \u2014 Recall elections: who replaces a removed official?-2026-10-20T21-56-29-123Z",
+      "source": "asset://2deab2989fd5a86bc13bbbd63882f2773358321397e1b202ad36f0a95654745c.m4a",
+      "narration": "asset://21c8fef0de9b2f03c1d729799443f8e2cc3f3f250e25a57a3bfde6a8caa2ca39.wav",
+      "scenes": 14,
+      "export_validation": {
+        "explainer.mp4": {
+          "frames": 5279,
+          "video_duration": "175.971029",
+          "audio_duration": "175.966667",
+          "decode": "passed"
+        },
+        "narration-only.mp4": {
+          "frames": 5279,
+          "video_duration": "175.971029",
+          "audio_duration": "175.966667",
+          "decode": "passed"
+        },
+        "audio": {
+          "narration_sha256": "21c8fef0de9b2f03c1d729799443f8e2cc3f3f250e25a57a3bfde6a8caa2ca39",
+          "sample_count": 4223200,
+          "additive_mix_error": 0.0,
+          "mix_peak_dbfs": -7.0341691970825195,
+          "pencil_active_seconds": 20.733333333333334,
+          "policy": "continuous narration; no fades, auto-leveling, or ducking"
+        },
+        "manifest": {
+          "scenes": 14,
+          "frames": 5279,
+          "seconds": 175.96666666666667,
+          "valid": true
+        }
+      },
+      "status": "cleaned_human_narration_rendered_needs_listening_review"
+    },
+    {
+      "project": "prop-37",
+      "frames": 6158,
+      "seconds": 205.26666666666668,
+      "take_id": "Prop 37 \u2014 Sketchbook explainer-2026-10-20T22-00-01-629Z",
+      "source": "asset://bbf7e78b18943c2cca1003d2c7ba3ddd79ed38f6a989a01499e0da49e227a380.m4a",
+      "narration": "asset://fe0e3e755e227e05fbd855d69739510f2d294dbd6510d13d83883be0f776666b.wav",
+      "scenes": 26,
+      "export_validation": {
+        "explainer.mp4": {
+          "frames": 6158,
+          "video_duration": "205.275326",
+          "audio_duration": "205.266667",
+          "decode": "passed"
+        },
+        "narration-only.mp4": {
+          "frames": 6158,
+          "video_duration": "205.275326",
+          "audio_duration": "205.266667",
+          "decode": "passed"
+        },
+        "audio": {
+          "narration_sha256": "fe0e3e755e227e05fbd855d69739510f2d294dbd6510d13d83883be0f776666b",
+          "sample_count": 4926400,
+          "additive_mix_error": 0.0,
+          "mix_peak_dbfs": -6.313013076782227,
+          "pencil_active_seconds": 44.1,
+          "policy": "continuous narration; no fades, auto-leveling, or ducking"
+        },
+        "manifest": {
+          "scenes": 26,
+          "frames": 6158,
+          "seconds": 205.26666666666668,
+          "valid": true
+        }
+      },
+      "status": "cleaned_human_narration_rendered_needs_listening_review"
+    },
+    {
+      "project": "prop-38",
+      "frames": 5317,
+      "seconds": 177.23333333333332,
+      "take_id": "Prop 38 \u2014 Medical research bonds: potential discoveries, certain debt?-2026-10-20T22-04-07-155Z",
+      "source": "asset://e8995b4f070de2c0eda321951cba6e9fd90a7e0018507ab3119301be15fd45c4.m4a",
+      "narration": "asset://fbb8a957ae18802d3506bf76f5969bcc840d30576744f6ecd06f7d7e6409b78e.wav",
+      "scenes": 13,
+      "export_validation": {
+        "explainer.mp4": {
+          "frames": 5317,
+          "video_duration": "177.237305",
+          "audio_duration": "177.233000",
+          "decode": "passed"
+        },
+        "narration-only.mp4": {
+          "frames": 5317,
+          "video_duration": "177.237305",
+          "audio_duration": "177.233000",
+          "decode": "passed"
+        },
+        "audio": {
+          "narration_sha256": "fbb8a957ae18802d3506bf76f5969bcc840d30576744f6ecd06f7d7e6409b78e",
+          "sample_count": 4253600,
+          "additive_mix_error": 0.0,
+          "mix_peak_dbfs": -6.444490432739258,
+          "pencil_active_seconds": 19.366666666666667,
+          "policy": "continuous narration; no fades, auto-leveling, or ducking"
+        },
+        "manifest": {
+          "scenes": 13,
+          "frames": 5317,
+          "seconds": 177.23333333333332,
+          "valid": true
+        }
+      },
+      "status": "cleaned_human_narration_rendered_needs_listening_review"
+    },
+    {
+      "project": "prop-39",
+      "frames": 6737,
+      "seconds": 224.56666666666666,
+      "take_id": "Prop 39 \u2014 Voter identification: what changes when you cast a ballot?-2026-10-20T22-08-49-032Z",
+      "source": "asset://260f0e7c960c8e9ba7ce39aade7964ea6e76d7d013ae99b8c550b6fa8c097edc.m4a",
+      "narration": "asset://347ee6e0262db264232edfdeab1f681e225c6b1793ead681badca05b0d7fff38.wav",
+      "scenes": 16,
+      "export_validation": {
+        "explainer.mp4": {
+          "frames": 6737,
+          "video_duration": "224.572331",
+          "audio_duration": "224.566667",
+          "decode": "passed"
+        },
+        "narration-only.mp4": {
+          "frames": 6737,
+          "video_duration": "224.572331",
+          "audio_duration": "224.566667",
+          "decode": "passed"
+        },
+        "audio": {
+          "narration_sha256": "347ee6e0262db264232edfdeab1f681e225c6b1793ead681badca05b0d7fff38",
+          "sample_count": 5389600,
+          "additive_mix_error": 0.0,
+          "mix_peak_dbfs": -6.328548431396484,
+          "pencil_active_seconds": 22.2,
+          "policy": "continuous narration; no fades, auto-leveling, or ducking"
+        },
+        "manifest": {
+          "scenes": 16,
+          "frames": 6737,
+          "seconds": 224.56666666666666,
+          "valid": true
+        }
+      },
+      "status": "cleaned_human_narration_rendered_needs_listening_review"
+    },
+    {
+      "project": "prop-40",
+      "frames": 7052,
+      "seconds": 235.06666666666666,
+      "take_id": "Prop 40 \u2014 The billionaire wealth tax: what is taxed and where does it go?-2026-10-20T22-12-54-819Z",
+      "source": "asset://95a6ba8c33ac005196b2bffbdfccfa728230c204050e74cc50b1c0a5148a46f9.m4a",
+      "narration": "asset://1b4319bd8d542defeb4ce273be4902d16b977da4cb057ccc9fb1caf276527a27.wav",
+      "scenes": 17,
+      "export_validation": {
+        "explainer.mp4": {
+          "frames": 7052,
+          "video_duration": "235.074023",
+          "audio_duration": "235.066667",
+          "decode": "passed"
+        },
+        "narration-only.mp4": {
+          "frames": 7052,
+          "video_duration": "235.074023",
+          "audio_duration": "235.066667",
+          "decode": "passed"
+        },
+        "audio": {
+          "narration_sha256": "1b4319bd8d542defeb4ce273be4902d16b977da4cb057ccc9fb1caf276527a27",
+          "sample_count": 5641600,
+          "additive_mix_error": 0.0,
+          "mix_peak_dbfs": -6.024125099182129,
+          "pencil_active_seconds": 18.8,
+          "policy": "continuous narration; no fades, auto-leveling, or ducking"
+        },
+        "manifest": {
+          "scenes": 17,
+          "frames": 7052,
+          "seconds": 235.06666666666666,
+          "valid": true
+        }
+      },
+      "status": "cleaned_human_narration_rendered_needs_listening_review"
+    },
+    {
+      "project": "prop-41",
+      "frames": 6177,
+      "seconds": 205.9,
+      "take_id": "Prop 41 \u2014 Tax audits and spending limits: more than an oversight measure-2026-10-20T22-17-09-197Z",
+      "source": "asset://4d86e0f3334601264d37fc8894539c783d475030336a31adb72f0f662424f87a.m4a",
+      "narration": "asset://c71011d688583868175822162820160de83219ceea703bcdd7a6435bb324a97c.wav",
+      "scenes": 16,
+      "export_validation": {
+        "explainer.mp4": {
+          "frames": 6177,
+          "video_duration": "205.905339",
+          "audio_duration": "205.900000",
+          "decode": "passed"
+        },
+        "narration-only.mp4": {
+          "frames": 6177,
+          "video_duration": "205.905339",
+          "audio_duration": "205.900000",
+          "decode": "passed"
+        },
+        "audio": {
+          "narration_sha256": "c71011d688583868175822162820160de83219ceea703bcdd7a6435bb324a97c",
+          "sample_count": 4941600,
+          "additive_mix_error": 0.0,
+          "mix_peak_dbfs": -5.924496173858643,
+          "pencil_active_seconds": 26.633333333333333,
+          "policy": "continuous narration; no fades, auto-leveling, or ducking"
+        },
+        "manifest": {
+          "scenes": 16,
+          "frames": 6177,
+          "seconds": 205.9,
+          "valid": true
+        }
+      },
+      "status": "cleaned_human_narration_rendered_needs_listening_review"
+    },
+    {
+      "project": "prop-42",
+      "frames": 6017,
+      "seconds": 200.56666666666666,
+      "take_id": "Prop 42 \u2014 Taxes on assets: what future options would be restricted?-2026-10-20T22-20-58-982Z",
+      "source": "asset://71eaab6d772a3979bc745674d1b2919a08d3215d6807a62e930654fab8c0cdf2.m4a",
+      "narration": "asset://5e28e8fc47bde9608431955d8dc84878457e82dff7e1b0cdd4b42c69554bb9e5.wav",
+      "scenes": 15,
+      "export_validation": {
+        "explainer.mp4": {
+          "frames": 6017,
+          "video_duration": "200.571029",
+          "audio_duration": "200.566667",
+          "decode": "passed"
+        },
+        "narration-only.mp4": {
+          "frames": 6017,
+          "video_duration": "200.571029",
+          "audio_duration": "200.566667",
+          "decode": "passed"
+        },
+        "audio": {
+          "narration_sha256": "5e28e8fc47bde9608431955d8dc84878457e82dff7e1b0cdd4b42c69554bb9e5",
+          "sample_count": 4813600,
+          "additive_mix_error": 0.0,
+          "mix_peak_dbfs": -6.394591331481934,
+          "pencil_active_seconds": 23.1,
+          "policy": "continuous narration; no fades, auto-leveling, or ducking"
+        },
+        "manifest": {
+          "scenes": 15,
+          "frames": 6017,
+          "seconds": 200.56666666666666,
+          "valid": true
+        }
+      },
+      "status": "cleaned_human_narration_rendered_needs_listening_review"
+    },
+    {
+      "project": "prop-43",
+      "frames": 5528,
+      "seconds": 184.26666666666668,
+      "take_id": "Prop 43 \u2014 Local special taxes: when is a majority enough?-2026-10-20T22-24-56-464Z",
+      "source": "asset://56323836627c6f3a819831ee645651de13cb9c0b95a2e5eda601dbcea6bd7f05.m4a",
+      "narration": "asset://9c0a626304d66563081513c05ae3930697c015b53b1d7ae4a3b936e2d55e127c.wav",
+      "scenes": 14,
+      "export_validation": {
+        "explainer.mp4": {
+          "frames": 5528,
+          "video_duration": "184.270312",
+          "audio_duration": "184.266667",
+          "decode": "passed"
+        },
+        "narration-only.mp4": {
+          "frames": 5528,
+          "video_duration": "184.270312",
+          "audio_duration": "184.266667",
+          "decode": "passed"
+        },
+        "audio": {
+          "narration_sha256": "9c0a626304d66563081513c05ae3930697c015b53b1d7ae4a3b936e2d55e127c",
+          "sample_count": 4422400,
+          "additive_mix_error": 0.0,
+          "mix_peak_dbfs": -5.7353925704956055,
+          "pencil_active_seconds": 15.2,
+          "policy": "continuous narration; no fades, auto-leveling, or ducking"
+        },
+        "manifest": {
+          "scenes": 14,
+          "frames": 5528,
+          "seconds": 184.26666666666668,
+          "valid": true
+        }
+      },
+      "status": "cleaned_human_narration_rendered_needs_listening_review"
+    },
+    {
+      "project": "prop-44",
+      "frames": 5222,
+      "seconds": 174.06666666666666,
+      "take_id": "Prop 44 \u2014 Clinic spending: what would a 90 percent rule do?-2026-10-20T22-28-19-456Z",
+      "source": "asset://21ba31b3feece8ee45576a2ae1956d4e541b6e34b1eca7a7c3358aedfaf16236.m4a",
+      "narration": "asset://20f6e6f193a3648fc42d3f67a6e4821df8d85eb16a222ff7e3420af1e9a557e1.wav",
+      "scenes": 13,
+      "export_validation": {
+        "explainer.mp4": {
+          "frames": 5222,
+          "video_duration": "174.072656",
+          "audio_duration": "174.066667",
+          "decode": "passed"
+        },
+        "narration-only.mp4": {
+          "frames": 5222,
+          "video_duration": "174.072656",
+          "audio_duration": "174.066667",
+          "decode": "passed"
+        },
+        "audio": {
+          "narration_sha256": "20f6e6f193a3648fc42d3f67a6e4821df8d85eb16a222ff7e3420af1e9a557e1",
+          "sample_count": 4177600,
+          "additive_mix_error": 0.0,
+          "mix_peak_dbfs": -5.833518981933594,
+          "pencil_active_seconds": 14.833333333333334,
+          "policy": "continuous narration; no fades, auto-leveling, or ducking"
+        },
+        "manifest": {
+          "scenes": 13,
+          "frames": 5222,
+          "seconds": 174.06666666666666,
+          "valid": true
+        }
+      },
+      "status": "cleaned_human_narration_rendered_needs_listening_review"
+    },
+    {
+      "project": "prop-45",
+      "frames": 6179,
+      "seconds": 205.96666666666667,
+      "take_id": "Prop 45 \u2014 Faster project review: what would change and what is at stake?-2026-10-20T22-36-25-259Z",
+      "source": "asset://072cadf620832be743f8f2b82076f5d16d8687b8860f6a12d1fafa675314866f.m4a",
+      "narration": "asset://5aa1c231951f6172871c22bfdde0168197f4870d3fbabf693377182dc35511c7.wav",
+      "scenes": 14,
+      "export_validation": {
+        "explainer.mp4": {
+          "frames": 6179,
+          "video_duration": "205.972005",
+          "audio_duration": "205.966667",
+          "decode": "passed"
+        },
+        "narration-only.mp4": {
+          "frames": 6179,
+          "video_duration": "205.972005",
+          "audio_duration": "205.966667",
+          "decode": "passed"
+        },
+        "audio": {
+          "narration_sha256": "5aa1c231951f6172871c22bfdde0168197f4870d3fbabf693377182dc35511c7",
+          "sample_count": 4943200,
+          "additive_mix_error": 0.0,
+          "mix_peak_dbfs": -5.936775207519531,
+          "pencil_active_seconds": 22.366666666666667,
+          "policy": "continuous narration; no fades, auto-leveling, or ducking"
+        },
+        "manifest": {
+          "scenes": 14,
+          "frames": 6179,
+          "seconds": 205.96666666666667,
+          "valid": true
+        }
+      },
+      "status": "cleaned_human_narration_rendered_needs_listening_review"
+    }
+  ],
+  "review_note": "Captions use the matching canonical script and new speech timings; ASR discrepancies are retained in per-project alignment-review.json. Potential millions/billions discrepancy near 1:45 in Prop 5 needs listening review."
+}

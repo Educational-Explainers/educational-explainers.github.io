@@ -1,0 +1,2480 @@
+[
+  {
+    "text": "Proposition",
+    "start": 0.0,
+    "end": 0.88,
+    "estimated": false
+  },
+  {
+    "text": "forty-three",
+    "start": 0.88,
+    "end": 4.32,
+    "estimated": true
+  },
+  {
+    "text": "changes",
+    "start": 4.32,
+    "end": 4.88,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 4.88,
+    "end": 5.08,
+    "estimated": false
+  },
+  {
+    "text": "vote",
+    "start": 5.08,
+    "end": 5.24,
+    "estimated": false
+  },
+  {
+    "text": "threshold",
+    "start": 5.24,
+    "end": 5.74,
+    "estimated": false
+  },
+  {
+    "text": "for",
+    "start": 5.74,
+    "end": 6.12,
+    "estimated": false
+  },
+  {
+    "text": "certain",
+    "start": 6.12,
+    "end": 6.44,
+    "estimated": false
+  },
+  {
+    "text": "local",
+    "start": 6.44,
+    "end": 6.9,
+    "estimated": false
+  },
+  {
+    "text": "taxes.",
+    "start": 6.9,
+    "end": 7.3,
+    "estimated": false
+  },
+  {
+    "text": "A",
+    "start": 8.14,
+    "end": 8.18,
+    "estimated": false
+  },
+  {
+    "text": "special",
+    "start": 8.18,
+    "end": 8.42,
+    "estimated": false
+  },
+  {
+    "text": "tax",
+    "start": 8.42,
+    "end": 8.84,
+    "estimated": false
+  },
+  {
+    "text": "pays",
+    "start": 8.84,
+    "end": 9.18,
+    "estimated": true
+  },
+  {
+    "text": "for",
+    "start": 9.18,
+    "end": 9.54,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 9.54,
+    "end": 9.76,
+    "estimated": false
+  },
+  {
+    "text": "specified",
+    "start": 9.76,
+    "end": 10.1,
+    "estimated": false
+  },
+  {
+    "text": "purpose,",
+    "start": 10.1,
+    "end": 10.7,
+    "estimated": false
+  },
+  {
+    "text": "such",
+    "start": 11.02,
+    "end": 11.02,
+    "estimated": false
+  },
+  {
+    "text": "as",
+    "start": 11.02,
+    "end": 11.18,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 11.18,
+    "end": 11.28,
+    "estimated": false
+  },
+  {
+    "text": "local",
+    "start": 11.28,
+    "end": 11.46,
+    "estimated": false
+  },
+  {
+    "text": "service.",
+    "start": 11.46,
+    "end": 11.94,
+    "estimated": false
+  },
+  {
+    "text": "A",
+    "start": 12.48,
+    "end": 12.54,
+    "estimated": false
+  },
+  {
+    "text": "general",
+    "start": 12.54,
+    "end": 12.78,
+    "estimated": false
+  },
+  {
+    "text": "tax",
+    "start": 12.78,
+    "end": 13.12,
+    "estimated": false
+  },
+  {
+    "text": "supports",
+    "start": 13.12,
+    "end": 13.62,
+    "estimated": false
+  },
+  {
+    "text": "general",
+    "start": 13.62,
+    "end": 14.04,
+    "estimated": false
+  },
+  {
+    "text": "government",
+    "start": 14.04,
+    "end": 14.6,
+    "estimated": false
+  },
+  {
+    "text": "spending.",
+    "start": 14.6,
+    "end": 14.98,
+    "estimated": false
+  },
+  {
+    "text": "This",
+    "start": 16.02,
+    "end": 16.1,
+    "estimated": false
+  },
+  {
+    "text": "measure",
+    "start": 16.1,
+    "end": 16.38,
+    "estimated": false
+  },
+  {
+    "text": "focuses",
+    "start": 16.38,
+    "end": 16.96,
+    "estimated": false
+  },
+  {
+    "text": "on",
+    "start": 16.96,
+    "end": 17.42,
+    "estimated": false
+  },
+  {
+    "text": "special",
+    "start": 17.42,
+    "end": 17.74,
+    "estimated": false
+  },
+  {
+    "text": "taxes",
+    "start": 17.74,
+    "end": 18.38,
+    "estimated": false
+  },
+  {
+    "text": "proposed",
+    "start": 18.38,
+    "end": 18.78,
+    "estimated": false
+  },
+  {
+    "text": "by",
+    "start": 18.78,
+    "end": 19.42,
+    "estimated": false
+  },
+  {
+    "text": "voters.",
+    "start": 19.42,
+    "end": 19.78,
+    "estimated": false
+  },
+  {
+    "text": "Government-proposed",
+    "start": 21.06,
+    "end": 21.46,
+    "estimated": true
+  },
+  {
+    "text": "local",
+    "start": 21.46,
+    "end": 22.08,
+    "estimated": false
+  },
+  {
+    "text": "special",
+    "start": 22.08,
+    "end": 22.48,
+    "estimated": false
+  },
+  {
+    "text": "taxes",
+    "start": 22.48,
+    "end": 23.02,
+    "estimated": false
+  },
+  {
+    "text": "generally",
+    "start": 23.02,
+    "end": 23.62,
+    "estimated": false
+  },
+  {
+    "text": "need",
+    "start": 23.62,
+    "end": 24.02,
+    "estimated": false
+  },
+  {
+    "text": "two-thirds",
+    "start": 24.02,
+    "end": 24.76,
+    "estimated": true
+  },
+  {
+    "text": "approval.",
+    "start": 24.76,
+    "end": 25.1,
+    "estimated": false
+  },
+  {
+    "text": "Court",
+    "start": 26.02,
+    "end": 26.36,
+    "estimated": false
+  },
+  {
+    "text": "decisions",
+    "start": 26.36,
+    "end": 26.66,
+    "estimated": false
+  },
+  {
+    "text": "allow",
+    "start": 26.66,
+    "end": 27.44,
+    "estimated": false
+  },
+  {
+    "text": "voter-proposed",
+    "start": 27.44,
+    "end": 28.38,
+    "estimated": true
+  },
+  {
+    "text": "special",
+    "start": 28.38,
+    "end": 28.88,
+    "estimated": false
+  },
+  {
+    "text": "taxes",
+    "start": 28.88,
+    "end": 29.46,
+    "estimated": false
+  },
+  {
+    "text": "to",
+    "start": 29.46,
+    "end": 29.72,
+    "estimated": false
+  },
+  {
+    "text": "pass",
+    "start": 29.72,
+    "end": 29.96,
+    "estimated": false
+  },
+  {
+    "text": "by",
+    "start": 29.96,
+    "end": 30.34,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 30.34,
+    "end": 30.84,
+    "estimated": false
+  },
+  {
+    "text": "simple",
+    "start": 30.84,
+    "end": 31.08,
+    "estimated": false
+  },
+  {
+    "text": "majority.",
+    "start": 31.08,
+    "end": 31.64,
+    "estimated": false
+  },
+  {
+    "text": "Proposition",
+    "start": 32.66,
+    "end": 32.94,
+    "estimated": false
+  },
+  {
+    "text": "forty-three",
+    "start": 32.94,
+    "end": 33.8,
+    "estimated": true
+  },
+  {
+    "text": "would",
+    "start": 33.8,
+    "end": 35.0,
+    "estimated": false
+  },
+  {
+    "text": "require",
+    "start": 35.0,
+    "end": 35.52,
+    "estimated": false
+  },
+  {
+    "text": "two-thirds",
+    "start": 35.52,
+    "end": 36.16,
+    "estimated": true
+  },
+  {
+    "text": "for",
+    "start": 36.16,
+    "end": 36.38,
+    "estimated": false
+  },
+  {
+    "text": "those",
+    "start": 36.38,
+    "end": 36.54,
+    "estimated": false
+  },
+  {
+    "text": "voter",
+    "start": 36.54,
+    "end": 36.8,
+    "estimated": true
+  },
+  {
+    "text": "proposals",
+    "start": 36.8,
+    "end": 37.36,
+    "estimated": false
+  },
+  {
+    "text": "too.",
+    "start": 37.36,
+    "end": 37.82,
+    "estimated": false
+  },
+  {
+    "text": "Imagine",
+    "start": 38.48,
+    "end": 38.74,
+    "estimated": false
+  },
+  {
+    "text": "residents",
+    "start": 38.74,
+    "end": 39.22,
+    "estimated": false
+  },
+  {
+    "text": "discussing",
+    "start": 39.22,
+    "end": 39.94,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 39.94,
+    "end": 40.18,
+    "estimated": false
+  },
+  {
+    "text": "proposal",
+    "start": 40.18,
+    "end": 40.46,
+    "estimated": false
+  },
+  {
+    "text": "for",
+    "start": 40.46,
+    "end": 40.84,
+    "estimated": false
+  },
+  {
+    "text": "local",
+    "start": 40.84,
+    "end": 41.04,
+    "estimated": false
+  },
+  {
+    "text": "services.",
+    "start": 41.04,
+    "end": 41.6,
+    "estimated": false
+  },
+  {
+    "text": "Suppose",
+    "start": 41.94,
+    "end": 42.18,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 42.18,
+    "end": 42.54,
+    "estimated": true
+  },
+  {
+    "text": "hundred",
+    "start": 42.54,
+    "end": 42.9,
+    "estimated": true
+  },
+  {
+    "text": "people",
+    "start": 42.9,
+    "end": 43.6,
+    "estimated": false
+  },
+  {
+    "text": "vote",
+    "start": 43.6,
+    "end": 43.88,
+    "estimated": false
+  },
+  {
+    "text": "on",
+    "start": 43.88,
+    "end": 44.14,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 44.14,
+    "end": 44.22,
+    "estimated": false
+  },
+  {
+    "text": "citizen-proposed",
+    "start": 44.22,
+    "end": 44.98,
+    "estimated": true
+  },
+  {
+    "text": "special",
+    "start": 44.98,
+    "end": 45.44,
+    "estimated": false
+  },
+  {
+    "text": "tax,",
+    "start": 45.44,
+    "end": 46.04,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 46.04,
+    "end": 46.56,
+    "estimated": false
+  },
+  {
+    "text": "sixty",
+    "start": 46.56,
+    "end": 46.82,
+    "estimated": true
+  },
+  {
+    "text": "vote",
+    "start": 46.82,
+    "end": 47.28,
+    "estimated": false
+  },
+  {
+    "text": "yes.",
+    "start": 47.28,
+    "end": 47.6,
+    "estimated": false
+  },
+  {
+    "text": "That",
+    "start": 47.84,
+    "end": 47.92,
+    "estimated": false
+  },
+  {
+    "text": "is",
+    "start": 47.92,
+    "end": 48.04,
+    "estimated": false
+  },
+  {
+    "text": "enough",
+    "start": 48.04,
+    "end": 48.34,
+    "estimated": false
+  },
+  {
+    "text": "for",
+    "start": 48.34,
+    "end": 48.62,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 48.62,
+    "end": 48.74,
+    "estimated": false
+  },
+  {
+    "text": "simple",
+    "start": 48.74,
+    "end": 48.96,
+    "estimated": false
+  },
+  {
+    "text": "majority.",
+    "start": 48.96,
+    "end": 49.32,
+    "estimated": false
+  },
+  {
+    "text": "It",
+    "start": 49.32,
+    "end": 50.14,
+    "estimated": false
+  },
+  {
+    "text": "is",
+    "start": 50.14,
+    "end": 50.24,
+    "estimated": false
+  },
+  {
+    "text": "short",
+    "start": 50.24,
+    "end": 50.52,
+    "estimated": false
+  },
+  {
+    "text": "of",
+    "start": 50.52,
+    "end": 50.78,
+    "estimated": false
+  },
+  {
+    "text": "two-thirds,",
+    "start": 50.78,
+    "end": 51.3,
+    "estimated": true
+  },
+  {
+    "text": "so",
+    "start": 51.54,
+    "end": 51.58,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 51.58,
+    "end": 51.68,
+    "estimated": false
+  },
+  {
+    "text": "same",
+    "start": 51.68,
+    "end": 51.9,
+    "estimated": false
+  },
+  {
+    "text": "proposal",
+    "start": 51.9,
+    "end": 52.24,
+    "estimated": false
+  },
+  {
+    "text": "would",
+    "start": 52.24,
+    "end": 52.7,
+    "estimated": false
+  },
+  {
+    "text": "fail",
+    "start": 52.7,
+    "end": 53.18,
+    "estimated": false
+  },
+  {
+    "text": "under",
+    "start": 53.18,
+    "end": 53.68,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 53.68,
+    "end": 53.88,
+    "estimated": false
+  },
+  {
+    "text": "new",
+    "start": 53.88,
+    "end": 54.04,
+    "estimated": false
+  },
+  {
+    "text": "requirement.",
+    "start": 54.04,
+    "end": 54.44,
+    "estimated": false
+  },
+  {
+    "text": "Local",
+    "start": 55.54,
+    "end": 55.8,
+    "estimated": false
+  },
+  {
+    "text": "services",
+    "start": 55.8,
+    "end": 56.28,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 56.28,
+    "end": 56.86,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 56.86,
+    "end": 56.98,
+    "estimated": false
+  },
+  {
+    "text": "tax",
+    "start": 56.98,
+    "end": 57.16,
+    "estimated": false
+  },
+  {
+    "text": "burden",
+    "start": 57.16,
+    "end": 57.62,
+    "estimated": false
+  },
+  {
+    "text": "are",
+    "start": 57.62,
+    "end": 58.04,
+    "estimated": false
+  },
+  {
+    "text": "both",
+    "start": 58.04,
+    "end": 58.36,
+    "estimated": false
+  },
+  {
+    "text": "at",
+    "start": 58.36,
+    "end": 58.7,
+    "estimated": false
+  },
+  {
+    "text": "stake.",
+    "start": 58.7,
+    "end": 59.08,
+    "estimated": false
+  },
+  {
+    "text": "Beginning",
+    "start": 60.02,
+    "end": 60.36,
+    "estimated": false
+  },
+  {
+    "text": "January",
+    "start": 60.36,
+    "end": 60.82,
+    "estimated": false
+  },
+  {
+    "text": "first,",
+    "start": 60.82,
+    "end": 61.29333333333334,
+    "estimated": true
+  },
+  {
+    "text": "twenty",
+    "start": 61.29333333333334,
+    "end": 61.766666666666666,
+    "estimated": true
+  },
+  {
+    "text": "twenty-seven,",
+    "start": 61.766666666666666,
+    "end": 62.24,
+    "estimated": true
+  },
+  {
+    "text": "the",
+    "start": 62.44,
+    "end": 62.46,
+    "estimated": false
+  },
+  {
+    "text": "higher",
+    "start": 62.46,
+    "end": 62.74,
+    "estimated": false
+  },
+  {
+    "text": "threshold",
+    "start": 62.74,
+    "end": 63.2,
+    "estimated": false
+  },
+  {
+    "text": "would",
+    "start": 63.2,
+    "end": 63.7,
+    "estimated": false
+  },
+  {
+    "text": "apply",
+    "start": 63.7,
+    "end": 64.1,
+    "estimated": false
+  },
+  {
+    "text": "to",
+    "start": 64.1,
+    "end": 64.42,
+    "estimated": false
+  },
+  {
+    "text": "new,",
+    "start": 64.42,
+    "end": 64.72,
+    "estimated": false
+  },
+  {
+    "text": "increased,",
+    "start": 64.96,
+    "end": 65.32,
+    "estimated": false
+  },
+  {
+    "text": "or",
+    "start": 65.32,
+    "end": 65.76,
+    "estimated": false
+  },
+  {
+    "text": "extended",
+    "start": 65.76,
+    "end": 66.26,
+    "estimated": false
+  },
+  {
+    "text": "local",
+    "start": 66.26,
+    "end": 67.08,
+    "estimated": false
+  },
+  {
+    "text": "special",
+    "start": 67.08,
+    "end": 67.52,
+    "estimated": false
+  },
+  {
+    "text": "taxes",
+    "start": 67.52,
+    "end": 68.14,
+    "estimated": false
+  },
+  {
+    "text": "proposed",
+    "start": 68.14,
+    "end": 68.52,
+    "estimated": false
+  },
+  {
+    "text": "by",
+    "start": 68.52,
+    "end": 69.14,
+    "estimated": false
+  },
+  {
+    "text": "voters.",
+    "start": 69.14,
+    "end": 69.42,
+    "estimated": false
+  },
+  {
+    "text": "An",
+    "start": 70.32,
+    "end": 70.4,
+    "estimated": false
+  },
+  {
+    "text": "extension",
+    "start": 70.4,
+    "end": 70.84,
+    "estimated": false
+  },
+  {
+    "text": "matters",
+    "start": 70.84,
+    "end": 71.38,
+    "estimated": false
+  },
+  {
+    "text": "because",
+    "start": 71.38,
+    "end": 71.8,
+    "estimated": false
+  },
+  {
+    "text": "some",
+    "start": 71.8,
+    "end": 72.1,
+    "estimated": false
+  },
+  {
+    "text": "existing",
+    "start": 72.1,
+    "end": 72.28,
+    "estimated": false
+  },
+  {
+    "text": "taxes",
+    "start": 72.28,
+    "end": 72.94,
+    "estimated": false
+  },
+  {
+    "text": "expire",
+    "start": 72.94,
+    "end": 73.62,
+    "estimated": false
+  },
+  {
+    "text": "unless",
+    "start": 73.62,
+    "end": 74.18,
+    "estimated": false
+  },
+  {
+    "text": "voters",
+    "start": 74.18,
+    "end": 74.76,
+    "estimated": false
+  },
+  {
+    "text": "renew",
+    "start": 74.76,
+    "end": 75.1,
+    "estimated": false
+  },
+  {
+    "text": "them.",
+    "start": 75.1,
+    "end": 75.44,
+    "estimated": false
+  },
+  {
+    "text": "The",
+    "start": 75.44,
+    "end": 76.28,
+    "estimated": false
+  },
+  {
+    "text": "proposition",
+    "start": 76.28,
+    "end": 76.84,
+    "estimated": false
+  },
+  {
+    "text": "does",
+    "start": 76.84,
+    "end": 77.3,
+    "estimated": false
+  },
+  {
+    "text": "not",
+    "start": 77.3,
+    "end": 77.58,
+    "estimated": false
+  },
+  {
+    "text": "set",
+    "start": 77.58,
+    "end": 78.0,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 78.0,
+    "end": 78.24,
+    "estimated": false
+  },
+  {
+    "text": "new",
+    "start": 78.24,
+    "end": 78.42,
+    "estimated": false
+  },
+  {
+    "text": "tax",
+    "start": 78.42,
+    "end": 78.68,
+    "estimated": false
+  },
+  {
+    "text": "rate",
+    "start": 78.68,
+    "end": 79.08,
+    "estimated": false
+  },
+  {
+    "text": "or",
+    "start": 79.08,
+    "end": 79.34,
+    "estimated": false
+  },
+  {
+    "text": "immediately",
+    "start": 79.34,
+    "end": 79.68,
+    "estimated": false
+  },
+  {
+    "text": "cancel",
+    "start": 79.68,
+    "end": 80.22,
+    "estimated": false
+  },
+  {
+    "text": "every",
+    "start": 80.22,
+    "end": 80.76,
+    "estimated": false
+  },
+  {
+    "text": "existing",
+    "start": 80.76,
+    "end": 81.2,
+    "estimated": false
+  },
+  {
+    "text": "tax.",
+    "start": 81.2,
+    "end": 81.64,
+    "estimated": false
+  },
+  {
+    "text": "It",
+    "start": 82.14,
+    "end": 82.18,
+    "estimated": false
+  },
+  {
+    "text": "changes",
+    "start": 82.18,
+    "end": 82.58,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 82.58,
+    "end": 82.8,
+    "estimated": false
+  },
+  {
+    "text": "hurdle",
+    "start": 82.8,
+    "end": 83.08,
+    "estimated": false
+  },
+  {
+    "text": "future",
+    "start": 83.08,
+    "end": 83.54,
+    "estimated": false
+  },
+  {
+    "text": "proposals",
+    "start": 83.54,
+    "end": 84.14,
+    "estimated": false
+  },
+  {
+    "text": "must",
+    "start": 84.14,
+    "end": 84.56,
+    "estimated": false
+  },
+  {
+    "text": "clear.",
+    "start": 84.56,
+    "end": 84.9,
+    "estimated": false
+  },
+  {
+    "text": "Voters",
+    "start": 85.78,
+    "end": 86.16,
+    "estimated": true
+  },
+  {
+    "text": "would",
+    "start": 86.16,
+    "end": 86.52,
+    "estimated": false
+  },
+  {
+    "text": "still",
+    "start": 86.52,
+    "end": 86.86,
+    "estimated": false
+  },
+  {
+    "text": "decide",
+    "start": 86.86,
+    "end": 87.22,
+    "estimated": false
+  },
+  {
+    "text": "whether",
+    "start": 87.22,
+    "end": 87.68,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 87.68,
+    "end": 87.78,
+    "estimated": false
+  },
+  {
+    "text": "particular",
+    "start": 87.78,
+    "end": 88.02,
+    "estimated": false
+  },
+  {
+    "text": "tax",
+    "start": 88.02,
+    "end": 88.56,
+    "estimated": false
+  },
+  {
+    "text": "deserves",
+    "start": 88.56,
+    "end": 88.8,
+    "estimated": false
+  },
+  {
+    "text": "support.",
+    "start": 88.8,
+    "end": 89.48,
+    "estimated": false
+  },
+  {
+    "text": "The",
+    "start": 90.68,
+    "end": 90.94,
+    "estimated": false
+  },
+  {
+    "text": "analyst",
+    "start": 90.94,
+    "end": 91.18,
+    "estimated": false
+  },
+  {
+    "text": "expects",
+    "start": 91.18,
+    "end": 91.68,
+    "estimated": false
+  },
+  {
+    "text": "local",
+    "start": 91.68,
+    "end": 92.32,
+    "estimated": false
+  },
+  {
+    "text": "revenue",
+    "start": 92.32,
+    "end": 92.94,
+    "estimated": false
+  },
+  {
+    "text": "could",
+    "start": 92.94,
+    "end": 93.32,
+    "estimated": true
+  },
+  {
+    "text": "be",
+    "start": 93.32,
+    "end": 93.42,
+    "estimated": false
+  },
+  {
+    "text": "lower",
+    "start": 93.42,
+    "end": 93.72,
+    "estimated": false
+  },
+  {
+    "text": "than",
+    "start": 93.72,
+    "end": 94.14,
+    "estimated": false
+  },
+  {
+    "text": "it",
+    "start": 94.14,
+    "end": 94.78,
+    "estimated": false
+  },
+  {
+    "text": "otherwise",
+    "start": 94.78,
+    "end": 95.2,
+    "estimated": false
+  },
+  {
+    "text": "would",
+    "start": 95.2,
+    "end": 95.54,
+    "estimated": false
+  },
+  {
+    "text": "be,",
+    "start": 95.54,
+    "end": 95.72,
+    "estimated": false
+  },
+  {
+    "text": "but",
+    "start": 95.72,
+    "end": 95.9,
+    "estimated": false
+  },
+  {
+    "text": "gives",
+    "start": 95.9,
+    "end": 96.04,
+    "estimated": false
+  },
+  {
+    "text": "no",
+    "start": 96.04,
+    "end": 96.34,
+    "estimated": false
+  },
+  {
+    "text": "fixed",
+    "start": 96.34,
+    "end": 96.56,
+    "estimated": false
+  },
+  {
+    "text": "amount.",
+    "start": 96.56,
+    "end": 96.86,
+    "estimated": false
+  },
+  {
+    "text": "The",
+    "start": 97.58,
+    "end": 97.72,
+    "estimated": false
+  },
+  {
+    "text": "effect",
+    "start": 97.72,
+    "end": 97.92,
+    "estimated": false
+  },
+  {
+    "text": "depends",
+    "start": 97.92,
+    "end": 98.32,
+    "estimated": false
+  },
+  {
+    "text": "on",
+    "start": 98.32,
+    "end": 98.72,
+    "estimated": false
+  },
+  {
+    "text": "which",
+    "start": 98.72,
+    "end": 99.0,
+    "estimated": false
+  },
+  {
+    "text": "future",
+    "start": 99.0,
+    "end": 99.38,
+    "estimated": false
+  },
+  {
+    "text": "measures",
+    "start": 99.38,
+    "end": 100.08,
+    "estimated": false
+  },
+  {
+    "text": "receive",
+    "start": 100.08,
+    "end": 100.86,
+    "estimated": false
+  },
+  {
+    "text": "majority",
+    "start": 100.86,
+    "end": 101.3,
+    "estimated": false
+  },
+  {
+    "text": "support",
+    "start": 101.3,
+    "end": 101.96,
+    "estimated": false
+  },
+  {
+    "text": "but",
+    "start": 101.96,
+    "end": 102.26,
+    "estimated": false
+  },
+  {
+    "text": "fall",
+    "start": 102.26,
+    "end": 102.48,
+    "estimated": false
+  },
+  {
+    "text": "short",
+    "start": 102.48,
+    "end": 102.86,
+    "estimated": false
+  },
+  {
+    "text": "of",
+    "start": 102.86,
+    "end": 103.04,
+    "estimated": false
+  },
+  {
+    "text": "two-thirds.",
+    "start": 103.04,
+    "end": 103.5,
+    "estimated": true
+  },
+  {
+    "text": "A",
+    "start": 103.5,
+    "end": 104.18,
+    "estimated": false
+  },
+  {
+    "text": "voter",
+    "start": 104.18,
+    "end": 104.36,
+    "estimated": false
+  },
+  {
+    "text": "might",
+    "start": 104.36,
+    "end": 104.66,
+    "estimated": false
+  },
+  {
+    "text": "want",
+    "start": 104.66,
+    "end": 104.92,
+    "estimated": false
+  },
+  {
+    "text": "broad",
+    "start": 104.92,
+    "end": 105.22,
+    "estimated": false
+  },
+  {
+    "text": "agreement",
+    "start": 105.22,
+    "end": 105.78,
+    "estimated": false
+  },
+  {
+    "text": "before",
+    "start": 105.78,
+    "end": 106.1,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 106.1,
+    "end": 106.28,
+    "estimated": false
+  },
+  {
+    "text": "dedicated",
+    "start": 106.28,
+    "end": 106.7,
+    "estimated": false
+  },
+  {
+    "text": "local",
+    "start": 106.7,
+    "end": 107.02,
+    "estimated": false
+  },
+  {
+    "text": "tax",
+    "start": 107.02,
+    "end": 107.5,
+    "estimated": false
+  },
+  {
+    "text": "takes",
+    "start": 107.5,
+    "end": 107.94,
+    "estimated": false
+  },
+  {
+    "text": "effect,",
+    "start": 107.94,
+    "end": 108.28,
+    "estimated": false
+  },
+  {
+    "text": "regardless",
+    "start": 108.92,
+    "end": 109.22,
+    "estimated": false
+  },
+  {
+    "text": "of",
+    "start": 109.22,
+    "end": 109.62,
+    "estimated": false
+  },
+  {
+    "text": "whether",
+    "start": 109.62,
+    "end": 109.84,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 109.84,
+    "end": 110.16,
+    "estimated": false
+  },
+  {
+    "text": "council",
+    "start": 110.16,
+    "end": 110.6,
+    "estimated": true
+  },
+  {
+    "text": "or",
+    "start": 110.6,
+    "end": 110.9,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 110.9,
+    "end": 111.0,
+    "estimated": false
+  },
+  {
+    "text": "citizen",
+    "start": 111.0,
+    "end": 111.28,
+    "estimated": false
+  },
+  {
+    "text": "group",
+    "start": 111.28,
+    "end": 111.72,
+    "estimated": false
+  },
+  {
+    "text": "proposes",
+    "start": 111.72,
+    "end": 112.28,
+    "estimated": false
+  },
+  {
+    "text": "it.",
+    "start": 112.28,
+    "end": 112.54,
+    "estimated": false
+  },
+  {
+    "text": "They",
+    "start": 114.1,
+    "end": 114.3,
+    "estimated": false
+  },
+  {
+    "text": "may",
+    "start": 114.3,
+    "end": 114.4,
+    "estimated": false
+  },
+  {
+    "text": "see",
+    "start": 114.4,
+    "end": 114.62,
+    "estimated": false
+  },
+  {
+    "text": "one",
+    "start": 114.62,
+    "end": 114.84,
+    "estimated": false
+  },
+  {
+    "text": "consistent",
+    "start": 114.84,
+    "end": 115.16,
+    "estimated": false
+  },
+  {
+    "text": "threshold",
+    "start": 115.16,
+    "end": 115.74,
+    "estimated": false
+  },
+  {
+    "text": "as",
+    "start": 115.74,
+    "end": 116.1,
+    "estimated": false
+  },
+  {
+    "text": "protection",
+    "start": 116.1,
+    "end": 116.36,
+    "estimated": false
+  },
+  {
+    "text": "for",
+    "start": 116.36,
+    "end": 116.96,
+    "estimated": false
+  },
+  {
+    "text": "taxpayers",
+    "start": 116.96,
+    "end": 117.38,
+    "estimated": false
+  },
+  {
+    "text": "who",
+    "start": 117.38,
+    "end": 118.0,
+    "estimated": false
+  },
+  {
+    "text": "would",
+    "start": 118.0,
+    "end": 118.14,
+    "estimated": false
+  },
+  {
+    "text": "have",
+    "start": 118.14,
+    "end": 118.4,
+    "estimated": false
+  },
+  {
+    "text": "to",
+    "start": 118.4,
+    "end": 118.62,
+    "estimated": false
+  },
+  {
+    "text": "pay",
+    "start": 118.62,
+    "end": 118.88,
+    "estimated": false
+  },
+  {
+    "text": "despite",
+    "start": 118.88,
+    "end": 119.1,
+    "estimated": false
+  },
+  {
+    "text": "voting",
+    "start": 119.1,
+    "end": 119.84,
+    "estimated": false
+  },
+  {
+    "text": "no.",
+    "start": 119.84,
+    "end": 120.1,
+    "estimated": false
+  },
+  {
+    "text": "You",
+    "start": 120.58,
+    "end": 120.9,
+    "estimated": false
+  },
+  {
+    "text": "might",
+    "start": 120.9,
+    "end": 121.04,
+    "estimated": false
+  },
+  {
+    "text": "ask",
+    "start": 121.04,
+    "end": 121.4,
+    "estimated": false
+  },
+  {
+    "text": "how",
+    "start": 121.4,
+    "end": 121.64,
+    "estimated": false
+  },
+  {
+    "text": "much",
+    "start": 121.64,
+    "end": 121.8,
+    "estimated": false
+  },
+  {
+    "text": "power",
+    "start": 121.8,
+    "end": 122.16,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 122.16,
+    "end": 122.56,
+    "estimated": false
+  },
+  {
+    "text": "minority",
+    "start": 122.56,
+    "end": 123.0,
+    "estimated": false
+  },
+  {
+    "text": "should",
+    "start": 123.0,
+    "end": 123.56,
+    "estimated": false
+  },
+  {
+    "text": "have.",
+    "start": 123.56,
+    "end": 123.88,
+    "estimated": false
+  },
+  {
+    "text": "Another",
+    "start": 124.44,
+    "end": 125.02,
+    "estimated": false
+  },
+  {
+    "text": "voter",
+    "start": 125.02,
+    "end": 125.3,
+    "estimated": false
+  },
+  {
+    "text": "could",
+    "start": 125.3,
+    "end": 125.58,
+    "estimated": false
+  },
+  {
+    "text": "object",
+    "start": 125.58,
+    "end": 125.88,
+    "estimated": false
+  },
+  {
+    "text": "that",
+    "start": 125.88,
+    "end": 126.18,
+    "estimated": false
+  },
+  {
+    "text": "more",
+    "start": 126.18,
+    "end": 126.42,
+    "estimated": false
+  },
+  {
+    "text": "than",
+    "start": 126.42,
+    "end": 126.66,
+    "estimated": false
+  },
+  {
+    "text": "half",
+    "start": 126.66,
+    "end": 126.92,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 126.92,
+    "end": 127.16,
+    "estimated": false
+  },
+  {
+    "text": "community",
+    "start": 127.16,
+    "end": 127.4,
+    "estimated": false
+  },
+  {
+    "text": "may",
+    "start": 127.4,
+    "end": 128.16,
+    "estimated": false
+  },
+  {
+    "text": "support",
+    "start": 128.16,
+    "end": 128.46,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 128.46,
+    "end": 128.78,
+    "estimated": false
+  },
+  {
+    "text": "service",
+    "start": 128.78,
+    "end": 129.16,
+    "estimated": false
+  },
+  {
+    "text": "but",
+    "start": 129.16,
+    "end": 129.72,
+    "estimated": false
+  },
+  {
+    "text": "still",
+    "start": 129.72,
+    "end": 130.04,
+    "estimated": false
+  },
+  {
+    "text": "be",
+    "start": 130.04,
+    "end": 130.18,
+    "estimated": false
+  },
+  {
+    "text": "unable",
+    "start": 130.18,
+    "end": 130.46,
+    "estimated": false
+  },
+  {
+    "text": "to",
+    "start": 130.46,
+    "end": 130.74,
+    "estimated": false
+  },
+  {
+    "text": "fund",
+    "start": 130.74,
+    "end": 130.96,
+    "estimated": false
+  },
+  {
+    "text": "it.",
+    "start": 130.96,
+    "end": 131.16,
+    "estimated": false
+  },
+  {
+    "text": "In",
+    "start": 131.16,
+    "end": 131.62,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 131.62,
+    "end": 131.74,
+    "estimated": false
+  },
+  {
+    "text": "example,",
+    "start": 131.74,
+    "end": 132.08,
+    "estimated": false
+  },
+  {
+    "text": "forty",
+    "start": 132.76,
+    "end": 132.92,
+    "estimated": true
+  },
+  {
+    "text": "no",
+    "start": 132.92,
+    "end": 133.28,
+    "estimated": false
+  },
+  {
+    "text": "votes",
+    "start": 133.28,
+    "end": 133.58,
+    "estimated": false
+  },
+  {
+    "text": "block",
+    "start": 133.58,
+    "end": 133.94,
+    "estimated": false
+  },
+  {
+    "text": "sixty",
+    "start": 133.94,
+    "end": 134.58,
+    "estimated": true
+  },
+  {
+    "text": "yes",
+    "start": 134.58,
+    "end": 135.02,
+    "estimated": false
+  },
+  {
+    "text": "votes.",
+    "start": 135.02,
+    "end": 135.32,
+    "estimated": false
+  },
+  {
+    "text": "A",
+    "start": 136.06,
+    "end": 136.1,
+    "estimated": false
+  },
+  {
+    "text": "higher",
+    "start": 136.1,
+    "end": 136.36,
+    "estimated": false
+  },
+  {
+    "text": "hurdle",
+    "start": 136.36,
+    "end": 136.76,
+    "estimated": false
+  },
+  {
+    "text": "can",
+    "start": 136.76,
+    "end": 137.1,
+    "estimated": false
+  },
+  {
+    "text": "protect",
+    "start": 137.1,
+    "end": 137.42,
+    "estimated": false
+  },
+  {
+    "text": "dissenters",
+    "start": 137.42,
+    "end": 138.12,
+    "estimated": false
+  },
+  {
+    "text": "while",
+    "start": 138.12,
+    "end": 138.34,
+    "estimated": false
+  },
+  {
+    "text": "making",
+    "start": 138.34,
+    "end": 138.64,
+    "estimated": false
+  },
+  {
+    "text": "collective",
+    "start": 138.64,
+    "end": 139.14,
+    "estimated": false
+  },
+  {
+    "text": "action",
+    "start": 139.14,
+    "end": 139.46,
+    "estimated": false
+  },
+  {
+    "text": "harder.",
+    "start": 139.46,
+    "end": 140.02,
+    "estimated": false
+  },
+  {
+    "text": "In",
+    "start": 140.78,
+    "end": 140.78,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 140.78,
+    "end": 140.88,
+    "estimated": false
+  },
+  {
+    "text": "September",
+    "start": 140.88,
+    "end": 141.18,
+    "estimated": false
+  },
+  {
+    "text": "PPIC",
+    "start": 141.18,
+    "end": 141.88,
+    "estimated": false
+  },
+  {
+    "text": "survey",
+    "start": 141.88,
+    "end": 142.32,
+    "estimated": false
+  },
+  {
+    "text": "of",
+    "start": 142.32,
+    "end": 142.58,
+    "estimated": false
+  },
+  {
+    "text": "likely",
+    "start": 142.58,
+    "end": 142.98,
+    "estimated": true
+  },
+  {
+    "text": "voters,",
+    "start": 142.98,
+    "end": 143.18,
+    "estimated": false
+  },
+  {
+    "text": "43",
+    "start": 143.6,
+    "end": 143.76,
+    "estimated": false
+  },
+  {
+    "text": "percent",
+    "start": 143.76,
+    "end": 144.42,
+    "estimated": true
+  },
+  {
+    "text": "said",
+    "start": 144.42,
+    "end": 144.72,
+    "estimated": false
+  },
+  {
+    "text": "yes,",
+    "start": 144.72,
+    "end": 145.1,
+    "estimated": false
+  },
+  {
+    "text": "51",
+    "start": 145.6,
+    "end": 145.8,
+    "estimated": false
+  },
+  {
+    "text": "percent",
+    "start": 145.8,
+    "end": 146.36,
+    "estimated": true
+  },
+  {
+    "text": "no,",
+    "start": 146.36,
+    "end": 146.68,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 146.68,
+    "end": 146.94,
+    "estimated": false
+  },
+  {
+    "text": "6",
+    "start": 146.94,
+    "end": 147.16,
+    "estimated": false
+  },
+  {
+    "text": "percent",
+    "start": 147.16,
+    "end": 147.68,
+    "estimated": true
+  },
+  {
+    "text": "were",
+    "start": 147.68,
+    "end": 147.86,
+    "estimated": false
+  },
+  {
+    "text": "unsure.",
+    "start": 147.86,
+    "end": 148.08,
+    "estimated": false
+  },
+  {
+    "text": "These",
+    "start": 149.02,
+    "end": 149.18,
+    "estimated": false
+  },
+  {
+    "text": "are",
+    "start": 149.18,
+    "end": 149.36,
+    "estimated": false
+  },
+  {
+    "text": "dated",
+    "start": 149.36,
+    "end": 149.54,
+    "estimated": true
+  },
+  {
+    "text": "survey",
+    "start": 149.54,
+    "end": 150.06,
+    "estimated": false
+  },
+  {
+    "text": "results,",
+    "start": 150.06,
+    "end": 150.86,
+    "estimated": false
+  },
+  {
+    "text": "not",
+    "start": 150.86,
+    "end": 151.28,
+    "estimated": false
+  },
+  {
+    "text": "votes",
+    "start": 151.28,
+    "end": 151.56,
+    "estimated": false
+  },
+  {
+    "text": "already",
+    "start": 151.56,
+    "end": 152.04,
+    "estimated": false
+  },
+  {
+    "text": "cast.",
+    "start": 152.04,
+    "end": 152.39,
+    "estimated": true
+  },
+  {
+    "text": "A",
+    "start": 153.06,
+    "end": 153.1,
+    "estimated": false
+  },
+  {
+    "text": "later",
+    "start": 153.1,
+    "end": 153.38,
+    "estimated": true
+  },
+  {
+    "text": "September",
+    "start": 153.38,
+    "end": 153.78,
+    "estimated": false
+  },
+  {
+    "text": "Berkeley",
+    "start": 153.78,
+    "end": 154.08,
+    "estimated": false
+  },
+  {
+    "text": "survey",
+    "start": 154.08,
+    "end": 154.66,
+    "estimated": false
+  },
+  {
+    "text": "found",
+    "start": 154.66,
+    "end": 154.92,
+    "estimated": false
+  },
+  {
+    "text": "31",
+    "start": 154.92,
+    "end": 155.34,
+    "estimated": false
+  },
+  {
+    "text": "percent",
+    "start": 155.34,
+    "end": 155.84,
+    "estimated": true
+  },
+  {
+    "text": "yes,",
+    "start": 155.84,
+    "end": 156.16,
+    "estimated": false
+  },
+  {
+    "text": "40",
+    "start": 156.54,
+    "end": 156.8,
+    "estimated": false
+  },
+  {
+    "text": "percent",
+    "start": 156.8,
+    "end": 157.2,
+    "estimated": true
+  },
+  {
+    "text": "no,",
+    "start": 157.2,
+    "end": 157.56,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 157.56,
+    "end": 157.92,
+    "estimated": false
+  },
+  {
+    "text": "29",
+    "start": 157.92,
+    "end": 158.26,
+    "estimated": false
+  },
+  {
+    "text": "percent",
+    "start": 158.84,
+    "end": 159.13,
+    "estimated": true
+  },
+  {
+    "text": "undecided.",
+    "start": 159.13,
+    "end": 159.42,
+    "estimated": true
+  },
+  {
+    "text": "Question",
+    "start": 159.42,
+    "end": 160.38,
+    "estimated": false
+  },
+  {
+    "text": "wording",
+    "start": 160.38,
+    "end": 160.98,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 160.98,
+    "end": 161.24,
+    "estimated": false
+  },
+  {
+    "text": "methods",
+    "start": 161.24,
+    "end": 161.66,
+    "estimated": false
+  },
+  {
+    "text": "differ,",
+    "start": 161.66,
+    "end": 162.0,
+    "estimated": false
+  },
+  {
+    "text": "so",
+    "start": 162.0,
+    "end": 162.42,
+    "estimated": false
+  },
+  {
+    "text": "comparing",
+    "start": 162.42,
+    "end": 162.84,
+    "estimated": false
+  },
+  {
+    "text": "polls",
+    "start": 162.84,
+    "end": 163.18,
+    "estimated": false
+  },
+  {
+    "text": "does",
+    "start": 163.18,
+    "end": 163.54,
+    "estimated": false
+  },
+  {
+    "text": "not",
+    "start": 163.54,
+    "end": 163.76,
+    "estimated": false
+  },
+  {
+    "text": "by",
+    "start": 163.76,
+    "end": 164.0,
+    "estimated": false
+  },
+  {
+    "text": "itself",
+    "start": 164.0,
+    "end": 164.42,
+    "estimated": false
+  },
+  {
+    "text": "establish",
+    "start": 164.42,
+    "end": 164.98,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 164.98,
+    "end": 165.2,
+    "estimated": false
+  },
+  {
+    "text": "trend.",
+    "start": 165.2,
+    "end": 165.48,
+    "estimated": false
+  },
+  {
+    "text": "Yes",
+    "start": 166.32,
+    "end": 166.72,
+    "estimated": false
+  },
+  {
+    "text": "raises",
+    "start": 166.76,
+    "end": 167.22,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 167.22,
+    "end": 167.54,
+    "estimated": false
+  },
+  {
+    "text": "threshold",
+    "start": 167.54,
+    "end": 167.96,
+    "estimated": false
+  },
+  {
+    "text": "for",
+    "start": 167.96,
+    "end": 168.32,
+    "estimated": false
+  },
+  {
+    "text": "these",
+    "start": 168.32,
+    "end": 168.64,
+    "estimated": false
+  },
+  {
+    "text": "voter-proposed",
+    "start": 168.64,
+    "end": 169.38,
+    "estimated": true
+  },
+  {
+    "text": "special",
+    "start": 169.38,
+    "end": 169.78,
+    "estimated": false
+  },
+  {
+    "text": "taxes;",
+    "start": 169.78,
+    "end": 170.44,
+    "estimated": false
+  },
+  {
+    "text": "no",
+    "start": 171.46,
+    "end": 171.48,
+    "estimated": false
+  },
+  {
+    "text": "retains",
+    "start": 171.48,
+    "end": 172.14,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 172.14,
+    "end": 172.78,
+    "estimated": false
+  },
+  {
+    "text": "current",
+    "start": 172.78,
+    "end": 173.08,
+    "estimated": false
+  },
+  {
+    "text": "majority",
+    "start": 173.08,
+    "end": 173.64,
+    "estimated": false
+  },
+  {
+    "text": "route.",
+    "start": 173.64,
+    "end": 174.2,
+    "estimated": false
+  },
+  {
+    "text": "Visit",
+    "start": 174.92,
+    "end": 175.16,
+    "estimated": false
+  },
+  {
+    "text": "our",
+    "start": 175.16,
+    "end": 175.58,
+    "estimated": false
+  },
+  {
+    "text": "website",
+    "start": 175.58,
+    "end": 175.94,
+    "estimated": false
+  },
+  {
+    "text": "for",
+    "start": 175.94,
+    "end": 176.22,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 176.22,
+    "end": 176.32,
+    "estimated": false
+  },
+  {
+    "text": "fuller",
+    "start": 176.32,
+    "end": 176.5,
+    "estimated": false
+  },
+  {
+    "text": "explanation,",
+    "start": 176.5,
+    "end": 176.98,
+    "estimated": false
+  },
+  {
+    "text": "source",
+    "start": 177.68,
+    "end": 177.78,
+    "estimated": false
+  },
+  {
+    "text": "links,",
+    "start": 177.78,
+    "end": 178.14,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 178.14,
+    "end": 178.44,
+    "estimated": false
+  },
+  {
+    "text": "official",
+    "start": 178.44,
+    "end": 178.66,
+    "estimated": false
+  },
+  {
+    "text": "voter",
+    "start": 178.66,
+    "end": 179.16,
+    "estimated": true
+  },
+  {
+    "text": "guide.",
+    "start": 179.16,
+    "end": 179.52,
+    "estimated": false
+  },
+  {
+    "text": "Compare",
+    "start": 179.96,
+    "end": 180.2,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 180.2,
+    "end": 180.52,
+    "estimated": false
+  },
+  {
+    "text": "tradeoffs,",
+    "start": 180.52,
+    "end": 180.96,
+    "estimated": true
+  },
+  {
+    "text": "then",
+    "start": 180.96,
+    "end": 181.3,
+    "estimated": false
+  },
+  {
+    "text": "make",
+    "start": 181.3,
+    "end": 181.56,
+    "estimated": false
+  },
+  {
+    "text": "your",
+    "start": 181.56,
+    "end": 181.74,
+    "estimated": false
+  },
+  {
+    "text": "own",
+    "start": 181.74,
+    "end": 182.1,
+    "estimated": false
+  },
+  {
+    "text": "informed",
+    "start": 182.1,
+    "end": 182.54,
+    "estimated": false
+  },
+  {
+    "text": "choice.",
+    "start": 182.54,
+    "end": 183.14,
+    "estimated": false
+  }
+]

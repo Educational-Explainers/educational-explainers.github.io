@@ -1,0 +1,2330 @@
+[
+  {
+    "text": "Proposition",
+    "start": 0.0,
+    "end": 0.16,
+    "estimated": false
+  },
+  {
+    "text": "thirty-eight",
+    "start": 0.16,
+    "end": 4.5,
+    "estimated": true
+  },
+  {
+    "text": "asks",
+    "start": 4.5,
+    "end": 4.76,
+    "estimated": false
+  },
+  {
+    "text": "California",
+    "start": 4.76,
+    "end": 5.26,
+    "estimated": false
+  },
+  {
+    "text": "to",
+    "start": 5.26,
+    "end": 5.6,
+    "estimated": false
+  },
+  {
+    "text": "borrow",
+    "start": 5.6,
+    "end": 5.86,
+    "estimated": false
+  },
+  {
+    "text": "eight",
+    "start": 5.86,
+    "end": 6.2,
+    "estimated": true
+  },
+  {
+    "text": "point",
+    "start": 6.2,
+    "end": 6.54,
+    "estimated": true
+  },
+  {
+    "text": "four",
+    "start": 6.54,
+    "end": 6.88,
+    "estimated": true
+  },
+  {
+    "text": "billion",
+    "start": 6.88,
+    "end": 7.1,
+    "estimated": false
+  },
+  {
+    "text": "dollars",
+    "start": 7.1,
+    "end": 7.1,
+    "estimated": true
+  },
+  {
+    "text": "for",
+    "start": 7.1,
+    "end": 7.72,
+    "estimated": false
+  },
+  {
+    "text": "immunology",
+    "start": 7.72,
+    "end": 8.38,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 8.38,
+    "end": 8.7,
+    "estimated": false
+  },
+  {
+    "text": "immunotherapy",
+    "start": 8.7,
+    "end": 9.56,
+    "estimated": false
+  },
+  {
+    "text": "research.",
+    "start": 9.56,
+    "end": 9.98,
+    "estimated": false
+  },
+  {
+    "text": "Immunology",
+    "start": 10.54,
+    "end": 10.98,
+    "estimated": false
+  },
+  {
+    "text": "studies",
+    "start": 10.98,
+    "end": 11.42,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 11.42,
+    "end": 11.76,
+    "estimated": false
+  },
+  {
+    "text": "immune",
+    "start": 11.76,
+    "end": 12.04,
+    "estimated": false
+  },
+  {
+    "text": "system;",
+    "start": 12.04,
+    "end": 12.56,
+    "estimated": false
+  },
+  {
+    "text": "immunotherapy",
+    "start": 13.06,
+    "end": 13.64,
+    "estimated": false
+  },
+  {
+    "text": "aims",
+    "start": 13.64,
+    "end": 14.22,
+    "estimated": false
+  },
+  {
+    "text": "to",
+    "start": 14.22,
+    "end": 14.56,
+    "estimated": false
+  },
+  {
+    "text": "use",
+    "start": 14.56,
+    "end": 14.84,
+    "estimated": false
+  },
+  {
+    "text": "it",
+    "start": 14.84,
+    "end": 15.08,
+    "estimated": false
+  },
+  {
+    "text": "to",
+    "start": 15.08,
+    "end": 15.58,
+    "estimated": false
+  },
+  {
+    "text": "fight",
+    "start": 15.58,
+    "end": 15.9,
+    "estimated": false
+  },
+  {
+    "text": "disease.",
+    "start": 15.9,
+    "end": 16.44,
+    "estimated": false
+  },
+  {
+    "text": "This",
+    "start": 17.32,
+    "end": 17.58,
+    "estimated": false
+  },
+  {
+    "text": "funds",
+    "start": 17.58,
+    "end": 17.94,
+    "estimated": false
+  },
+  {
+    "text": "research,",
+    "start": 17.94,
+    "end": 18.5,
+    "estimated": false
+  },
+  {
+    "text": "not",
+    "start": 18.94,
+    "end": 19.32,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 19.32,
+    "end": 19.56,
+    "estimated": false
+  },
+  {
+    "text": "guaranteed",
+    "start": 19.56,
+    "end": 19.98,
+    "estimated": false
+  },
+  {
+    "text": "new",
+    "start": 19.98,
+    "end": 20.44,
+    "estimated": false
+  },
+  {
+    "text": "treatment.",
+    "start": 20.44,
+    "end": 20.88,
+    "estimated": false
+  },
+  {
+    "text": "Universities,",
+    "start": 21.42,
+    "end": 22.12,
+    "estimated": false
+  },
+  {
+    "text": "businesses,",
+    "start": 22.92,
+    "end": 23.4,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 23.4,
+    "end": 24.26,
+    "estimated": false
+  },
+  {
+    "text": "governments",
+    "start": 24.26,
+    "end": 24.6,
+    "estimated": false
+  },
+  {
+    "text": "already",
+    "start": 24.6,
+    "end": 25.34,
+    "estimated": false
+  },
+  {
+    "text": "fund",
+    "start": 25.34,
+    "end": 25.72,
+    "estimated": false
+  },
+  {
+    "text": "medical",
+    "start": 25.72,
+    "end": 26.06,
+    "estimated": false
+  },
+  {
+    "text": "research.",
+    "start": 26.06,
+    "end": 26.72,
+    "estimated": false
+  },
+  {
+    "text": "Many",
+    "start": 27.2,
+    "end": 27.36,
+    "estimated": false
+  },
+  {
+    "text": "projects",
+    "start": 27.36,
+    "end": 27.9,
+    "estimated": false
+  },
+  {
+    "text": "never",
+    "start": 27.9,
+    "end": 28.36,
+    "estimated": false
+  },
+  {
+    "text": "become",
+    "start": 28.36,
+    "end": 28.84,
+    "estimated": false
+  },
+  {
+    "text": "approved",
+    "start": 28.84,
+    "end": 29.18,
+    "estimated": false
+  },
+  {
+    "text": "treatments.",
+    "start": 29.18,
+    "end": 29.88,
+    "estimated": false
+  },
+  {
+    "text": "A",
+    "start": 30.32,
+    "end": 30.34,
+    "estimated": false
+  },
+  {
+    "text": "research",
+    "start": 30.34,
+    "end": 30.72,
+    "estimated": false
+  },
+  {
+    "text": "bond",
+    "start": 30.72,
+    "end": 31.1,
+    "estimated": false
+  },
+  {
+    "text": "supplies",
+    "start": 31.1,
+    "end": 31.6,
+    "estimated": false
+  },
+  {
+    "text": "money",
+    "start": 31.6,
+    "end": 32.14,
+    "estimated": false
+  },
+  {
+    "text": "now,",
+    "start": 32.14,
+    "end": 32.5,
+    "estimated": false
+  },
+  {
+    "text": "while",
+    "start": 32.86,
+    "end": 33.04,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 33.04,
+    "end": 33.18,
+    "estimated": false
+  },
+  {
+    "text": "state",
+    "start": 33.18,
+    "end": 33.5,
+    "estimated": false
+  },
+  {
+    "text": "repays",
+    "start": 33.5,
+    "end": 34.28,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 34.28,
+    "end": 34.52,
+    "estimated": false
+  },
+  {
+    "text": "borrowing",
+    "start": 34.52,
+    "end": 34.86,
+    "estimated": false
+  },
+  {
+    "text": "with",
+    "start": 34.86,
+    "end": 35.14,
+    "estimated": false
+  },
+  {
+    "text": "interest",
+    "start": 35.14,
+    "end": 35.54,
+    "estimated": false
+  },
+  {
+    "text": "over",
+    "start": 35.54,
+    "end": 35.9,
+    "estimated": false
+  },
+  {
+    "text": "time.",
+    "start": 35.9,
+    "end": 36.22,
+    "estimated": false
+  },
+  {
+    "text": "Imagine",
+    "start": 36.72,
+    "end": 37.24,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 37.24,
+    "end": 37.4,
+    "estimated": false
+  },
+  {
+    "text": "scientist",
+    "start": 37.4,
+    "end": 37.8,
+    "estimated": false
+  },
+  {
+    "text": "studying",
+    "start": 37.8,
+    "end": 38.24,
+    "estimated": false
+  },
+  {
+    "text": "immune",
+    "start": 38.24,
+    "end": 38.56,
+    "estimated": false
+  },
+  {
+    "text": "cells.",
+    "start": 38.56,
+    "end": 39.04,
+    "estimated": false
+  },
+  {
+    "text": "A",
+    "start": 39.48,
+    "end": 39.5,
+    "estimated": false
+  },
+  {
+    "text": "promising",
+    "start": 39.5,
+    "end": 39.88,
+    "estimated": false
+  },
+  {
+    "text": "laboratory",
+    "start": 39.88,
+    "end": 40.84,
+    "estimated": false
+  },
+  {
+    "text": "result",
+    "start": 40.84,
+    "end": 41.7,
+    "estimated": false
+  },
+  {
+    "text": "still",
+    "start": 41.7,
+    "end": 42.12,
+    "estimated": false
+  },
+  {
+    "text": "needs",
+    "start": 42.12,
+    "end": 42.38,
+    "estimated": false
+  },
+  {
+    "text": "testing",
+    "start": 42.38,
+    "end": 42.84,
+    "estimated": false
+  },
+  {
+    "text": "for",
+    "start": 42.84,
+    "end": 43.14,
+    "estimated": false
+  },
+  {
+    "text": "safety",
+    "start": 43.14,
+    "end": 43.64,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 43.64,
+    "end": 43.92,
+    "estimated": false
+  },
+  {
+    "text": "effectiveness.",
+    "start": 43.92,
+    "end": 44.18,
+    "estimated": false
+  },
+  {
+    "text": "Some",
+    "start": 45.1,
+    "end": 45.36,
+    "estimated": false
+  },
+  {
+    "text": "ideas",
+    "start": 45.36,
+    "end": 45.84,
+    "estimated": false
+  },
+  {
+    "text": "fail,",
+    "start": 45.84,
+    "end": 46.22,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 46.22,
+    "end": 46.5,
+    "estimated": false
+  },
+  {
+    "text": "successful",
+    "start": 46.5,
+    "end": 46.86,
+    "estimated": false
+  },
+  {
+    "text": "ones",
+    "start": 46.86,
+    "end": 47.28,
+    "estimated": false
+  },
+  {
+    "text": "can",
+    "start": 47.28,
+    "end": 47.6,
+    "estimated": false
+  },
+  {
+    "text": "take",
+    "start": 47.6,
+    "end": 47.84,
+    "estimated": false
+  },
+  {
+    "text": "years.",
+    "start": 47.84,
+    "end": 48.22,
+    "estimated": false
+  },
+  {
+    "text": "Funding",
+    "start": 48.8,
+    "end": 49.08,
+    "estimated": false
+  },
+  {
+    "text": "more",
+    "start": 49.08,
+    "end": 49.46,
+    "estimated": false
+  },
+  {
+    "text": "work",
+    "start": 49.46,
+    "end": 49.84,
+    "estimated": false
+  },
+  {
+    "text": "can",
+    "start": 49.84,
+    "end": 50.0,
+    "estimated": false
+  },
+  {
+    "text": "create",
+    "start": 50.0,
+    "end": 50.3,
+    "estimated": false
+  },
+  {
+    "text": "opportunities",
+    "start": 50.3,
+    "end": 50.86,
+    "estimated": false
+  },
+  {
+    "text": "without",
+    "start": 50.86,
+    "end": 51.58,
+    "estimated": false
+  },
+  {
+    "text": "letting",
+    "start": 51.58,
+    "end": 52.0,
+    "estimated": false
+  },
+  {
+    "text": "anyone",
+    "start": 52.0,
+    "end": 52.56,
+    "estimated": false
+  },
+  {
+    "text": "honestly",
+    "start": 52.56,
+    "end": 53.04,
+    "estimated": false
+  },
+  {
+    "text": "promise",
+    "start": 53.04,
+    "end": 53.66,
+    "estimated": false
+  },
+  {
+    "text": "when",
+    "start": 53.66,
+    "end": 54.3,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 54.3,
+    "end": 54.58,
+    "estimated": false
+  },
+  {
+    "text": "patient",
+    "start": 54.58,
+    "end": 54.94,
+    "estimated": false
+  },
+  {
+    "text": "will",
+    "start": 54.94,
+    "end": 55.22,
+    "estimated": false
+  },
+  {
+    "text": "benefit.",
+    "start": 55.22,
+    "end": 55.6,
+    "estimated": false
+  },
+  {
+    "text": "Research",
+    "start": 56.18,
+    "end": 56.48,
+    "estimated": false
+  },
+  {
+    "text": "teams",
+    "start": 56.48,
+    "end": 56.9,
+    "estimated": false
+  },
+  {
+    "text": "need",
+    "start": 56.9,
+    "end": 57.22,
+    "estimated": false
+  },
+  {
+    "text": "facilities,",
+    "start": 57.22,
+    "end": 57.66,
+    "estimated": false
+  },
+  {
+    "text": "people,",
+    "start": 57.92,
+    "end": 58.32,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 58.32,
+    "end": 58.84,
+    "estimated": false
+  },
+  {
+    "text": "sustained",
+    "start": 58.84,
+    "end": 59.2,
+    "estimated": false
+  },
+  {
+    "text": "funding.",
+    "start": 59.2,
+    "end": 59.66,
+    "estimated": false
+  },
+  {
+    "text": "About",
+    "start": 60.24,
+    "end": 60.38,
+    "estimated": false
+  },
+  {
+    "text": "half",
+    "start": 60.38,
+    "end": 60.72,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 60.72,
+    "end": 60.94,
+    "estimated": false
+  },
+  {
+    "text": "money",
+    "start": 60.94,
+    "end": 61.16,
+    "estimated": false
+  },
+  {
+    "text": "would",
+    "start": 61.16,
+    "end": 61.4,
+    "estimated": false
+  },
+  {
+    "text": "go",
+    "start": 61.4,
+    "end": 61.66,
+    "estimated": false
+  },
+  {
+    "text": "to",
+    "start": 61.66,
+    "end": 61.84,
+    "estimated": false
+  },
+  {
+    "text": "one",
+    "start": 61.84,
+    "end": 62.14,
+    "estimated": false
+  },
+  {
+    "text": "qualifying",
+    "start": 62.14,
+    "end": 62.48,
+    "estimated": false
+  },
+  {
+    "text": "research",
+    "start": 62.48,
+    "end": 63.2,
+    "estimated": false
+  },
+  {
+    "text": "institute",
+    "start": 63.2,
+    "end": 63.92,
+    "estimated": false
+  },
+  {
+    "text": "selected",
+    "start": 63.92,
+    "end": 64.62,
+    "estimated": false
+  },
+  {
+    "text": "by",
+    "start": 64.62,
+    "end": 64.98,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 64.98,
+    "end": 65.12,
+    "estimated": false
+  },
+  {
+    "text": "state.",
+    "start": 65.12,
+    "end": 65.36,
+    "estimated": false
+  },
+  {
+    "text": "The",
+    "start": 65.92,
+    "end": 66.0,
+    "estimated": false
+  },
+  {
+    "text": "other",
+    "start": 66.0,
+    "end": 66.14,
+    "estimated": false
+  },
+  {
+    "text": "half",
+    "start": 66.14,
+    "end": 66.42,
+    "estimated": false
+  },
+  {
+    "text": "would",
+    "start": 66.42,
+    "end": 66.64,
+    "estimated": false
+  },
+  {
+    "text": "support",
+    "start": 66.64,
+    "end": 66.94,
+    "estimated": false
+  },
+  {
+    "text": "competitive",
+    "start": 66.94,
+    "end": 67.5,
+    "estimated": false
+  },
+  {
+    "text": "grants",
+    "start": 67.5,
+    "end": 68.04,
+    "estimated": false
+  },
+  {
+    "text": "through",
+    "start": 68.04,
+    "end": 68.72,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 68.72,
+    "end": 68.82,
+    "estimated": false
+  },
+  {
+    "text": "council",
+    "start": 68.82,
+    "end": 69.22,
+    "estimated": false
+  },
+  {
+    "text": "of",
+    "start": 69.22,
+    "end": 69.52,
+    "estimated": false
+  },
+  {
+    "text": "research",
+    "start": 69.52,
+    "end": 69.78,
+    "estimated": false
+  },
+  {
+    "text": "institutions.",
+    "start": 69.78,
+    "end": 70.66,
+    "estimated": false
+  },
+  {
+    "text": "Reporting",
+    "start": 71.08,
+    "end": 71.56,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 71.56,
+    "end": 71.84,
+    "estimated": false
+  },
+  {
+    "text": "financial",
+    "start": 71.84,
+    "end": 72.24,
+    "estimated": false
+  },
+  {
+    "text": "audits",
+    "start": 72.24,
+    "end": 72.7,
+    "estimated": false
+  },
+  {
+    "text": "are",
+    "start": 72.7,
+    "end": 73.04,
+    "estimated": false
+  },
+  {
+    "text": "required.",
+    "start": 73.04,
+    "end": 73.34,
+    "estimated": false
+  },
+  {
+    "text": "At",
+    "start": 73.8,
+    "end": 73.88,
+    "estimated": false
+  },
+  {
+    "text": "least",
+    "start": 73.88,
+    "end": 74.02,
+    "estimated": false
+  },
+  {
+    "text": "four",
+    "start": 74.02,
+    "end": 74.38,
+    "estimated": true
+  },
+  {
+    "text": "point",
+    "start": 74.38,
+    "end": 74.74,
+    "estimated": true
+  },
+  {
+    "text": "two",
+    "start": 74.74,
+    "end": 75.1,
+    "estimated": true
+  },
+  {
+    "text": "billion",
+    "start": 75.1,
+    "end": 75.34,
+    "estimated": false
+  },
+  {
+    "text": "dollars",
+    "start": 75.34,
+    "end": 75.34,
+    "estimated": true
+  },
+  {
+    "text": "must",
+    "start": 75.34,
+    "end": 76.12,
+    "estimated": false
+  },
+  {
+    "text": "support",
+    "start": 76.12,
+    "end": 76.6,
+    "estimated": false
+  },
+  {
+    "text": "research",
+    "start": 76.6,
+    "end": 77.0,
+    "estimated": false
+  },
+  {
+    "text": "on",
+    "start": 77.0,
+    "end": 77.64,
+    "estimated": false
+  },
+  {
+    "text": "cancer,",
+    "start": 77.64,
+    "end": 78.16,
+    "estimated": false
+  },
+  {
+    "text": "heart",
+    "start": 78.16,
+    "end": 79.02,
+    "estimated": false
+  },
+  {
+    "text": "disease,",
+    "start": 79.02,
+    "end": 79.36,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 79.36,
+    "end": 80.0,
+    "estimated": false
+  },
+  {
+    "text": "Alzheimer\u2019s",
+    "start": 80.0,
+    "end": 80.68,
+    "estimated": false
+  },
+  {
+    "text": "disease.",
+    "start": 80.68,
+    "end": 80.88,
+    "estimated": false
+  },
+  {
+    "text": "Treatments",
+    "start": 81.48,
+    "end": 82.1,
+    "estimated": false
+  },
+  {
+    "text": "developed",
+    "start": 82.1,
+    "end": 82.52,
+    "estimated": false
+  },
+  {
+    "text": "with",
+    "start": 82.52,
+    "end": 82.98,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 82.98,
+    "end": 83.12,
+    "estimated": false
+  },
+  {
+    "text": "funding",
+    "start": 83.12,
+    "end": 83.46,
+    "estimated": false
+  },
+  {
+    "text": "generally",
+    "start": 83.46,
+    "end": 84.04,
+    "estimated": false
+  },
+  {
+    "text": "must",
+    "start": 84.04,
+    "end": 84.4,
+    "estimated": false
+  },
+  {
+    "text": "be",
+    "start": 84.4,
+    "end": 84.62,
+    "estimated": false
+  },
+  {
+    "text": "offered",
+    "start": 84.62,
+    "end": 84.98,
+    "estimated": false
+  },
+  {
+    "text": "at",
+    "start": 84.98,
+    "end": 85.26,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 85.26,
+    "end": 85.34,
+    "estimated": false
+  },
+  {
+    "text": "twenty",
+    "start": 85.34,
+    "end": 85.5,
+    "estimated": true
+  },
+  {
+    "text": "percent",
+    "start": 85.5,
+    "end": 85.66,
+    "estimated": true
+  },
+  {
+    "text": "discount",
+    "start": 86.06,
+    "end": 86.62,
+    "estimated": false
+  },
+  {
+    "text": "in",
+    "start": 86.62,
+    "end": 86.88,
+    "estimated": false
+  },
+  {
+    "text": "California.",
+    "start": 86.88,
+    "end": 87.2,
+    "estimated": false
+  },
+  {
+    "text": "A",
+    "start": 88.08,
+    "end": 88.16,
+    "estimated": false
+  },
+  {
+    "text": "discount",
+    "start": 88.16,
+    "end": 88.52,
+    "estimated": false
+  },
+  {
+    "text": "matters",
+    "start": 88.52,
+    "end": 89.1,
+    "estimated": false
+  },
+  {
+    "text": "only",
+    "start": 89.1,
+    "end": 89.54,
+    "estimated": false
+  },
+  {
+    "text": "if",
+    "start": 89.54,
+    "end": 89.9,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 89.9,
+    "end": 90.1,
+    "estimated": false
+  },
+  {
+    "text": "treatment",
+    "start": 90.1,
+    "end": 90.48,
+    "estimated": false
+  },
+  {
+    "text": "reaches",
+    "start": 90.48,
+    "end": 91.0,
+    "estimated": false
+  },
+  {
+    "text": "patients.",
+    "start": 91.0,
+    "end": 91.24,
+    "estimated": false
+  },
+  {
+    "text": "The",
+    "start": 92.02,
+    "end": 92.1,
+    "estimated": false
+  },
+  {
+    "text": "analyst",
+    "start": 92.1,
+    "end": 92.36,
+    "estimated": false
+  },
+  {
+    "text": "estimates",
+    "start": 92.36,
+    "end": 92.94,
+    "estimated": false
+  },
+  {
+    "text": "five",
+    "start": 92.94,
+    "end": 93.19999999999999,
+    "estimated": true
+  },
+  {
+    "text": "hundred",
+    "start": 93.19999999999999,
+    "end": 93.46,
+    "estimated": true
+  },
+  {
+    "text": "to",
+    "start": 93.46,
+    "end": 93.8,
+    "estimated": false
+  },
+  {
+    "text": "six",
+    "start": 93.8,
+    "end": 93.93,
+    "estimated": true
+  },
+  {
+    "text": "hundred",
+    "start": 93.93,
+    "end": 94.06,
+    "estimated": true
+  },
+  {
+    "text": "million",
+    "start": 94.06,
+    "end": 94.64,
+    "estimated": false
+  },
+  {
+    "text": "dollars",
+    "start": 94.64,
+    "end": 94.64,
+    "estimated": true
+  },
+  {
+    "text": "a",
+    "start": 94.64,
+    "end": 95.28,
+    "estimated": false
+  },
+  {
+    "text": "year",
+    "start": 95.28,
+    "end": 95.58,
+    "estimated": false
+  },
+  {
+    "text": "in",
+    "start": 95.58,
+    "end": 95.9,
+    "estimated": false
+  },
+  {
+    "text": "General",
+    "start": 95.9,
+    "end": 96.22,
+    "estimated": false
+  },
+  {
+    "text": "Fund",
+    "start": 96.22,
+    "end": 96.52,
+    "estimated": false
+  },
+  {
+    "text": "repayments",
+    "start": 96.52,
+    "end": 97.2,
+    "estimated": false
+  },
+  {
+    "text": "for",
+    "start": 97.2,
+    "end": 97.74,
+    "estimated": false
+  },
+  {
+    "text": "about",
+    "start": 97.74,
+    "end": 98.04,
+    "estimated": false
+  },
+  {
+    "text": "twenty",
+    "start": 98.04,
+    "end": 98.6,
+    "estimated": true
+  },
+  {
+    "text": "years.",
+    "start": 98.6,
+    "end": 99.02,
+    "estimated": false
+  },
+  {
+    "text": "Revenue",
+    "start": 99.52,
+    "end": 99.76,
+    "estimated": false
+  },
+  {
+    "text": "from",
+    "start": 99.76,
+    "end": 100.18,
+    "estimated": false
+  },
+  {
+    "text": "discoveries",
+    "start": 100.18,
+    "end": 100.42,
+    "estimated": false
+  },
+  {
+    "text": "could",
+    "start": 101.08,
+    "end": 101.1,
+    "estimated": true
+  },
+  {
+    "text": "offset",
+    "start": 101.1,
+    "end": 101.28,
+    "estimated": false
+  },
+  {
+    "text": "costs,",
+    "start": 101.28,
+    "end": 101.82,
+    "estimated": false
+  },
+  {
+    "text": "but",
+    "start": 102.3,
+    "end": 102.42,
+    "estimated": false
+  },
+  {
+    "text": "its",
+    "start": 102.42,
+    "end": 102.52,
+    "estimated": false
+  },
+  {
+    "text": "amount",
+    "start": 102.52,
+    "end": 102.88,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 102.88,
+    "end": 103.1,
+    "estimated": false
+  },
+  {
+    "text": "timing",
+    "start": 103.1,
+    "end": 103.38,
+    "estimated": false
+  },
+  {
+    "text": "are",
+    "start": 103.38,
+    "end": 103.72,
+    "estimated": false
+  },
+  {
+    "text": "uncertain",
+    "start": 103.72,
+    "end": 104.08,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 104.08,
+    "end": 104.54,
+    "estimated": false
+  },
+  {
+    "text": "could",
+    "start": 104.54,
+    "end": 104.7,
+    "estimated": false
+  },
+  {
+    "text": "take",
+    "start": 104.7,
+    "end": 104.94,
+    "estimated": false
+  },
+  {
+    "text": "decades.",
+    "start": 104.94,
+    "end": 105.42,
+    "estimated": false
+  },
+  {
+    "text": "A",
+    "start": 105.42,
+    "end": 106.04,
+    "estimated": false
+  },
+  {
+    "text": "voter",
+    "start": 106.04,
+    "end": 106.62,
+    "estimated": false
+  },
+  {
+    "text": "might",
+    "start": 106.62,
+    "end": 107.0,
+    "estimated": false
+  },
+  {
+    "text": "see",
+    "start": 107.0,
+    "end": 107.22,
+    "estimated": false
+  },
+  {
+    "text": "long-term",
+    "start": 107.22,
+    "end": 107.88,
+    "estimated": true
+  },
+  {
+    "text": "public",
+    "start": 107.88,
+    "end": 108.22,
+    "estimated": false
+  },
+  {
+    "text": "research",
+    "start": 108.22,
+    "end": 108.68,
+    "estimated": false
+  },
+  {
+    "text": "as",
+    "start": 108.68,
+    "end": 109.14,
+    "estimated": false
+  },
+  {
+    "text": "worth",
+    "start": 109.14,
+    "end": 109.5,
+    "estimated": false
+  },
+  {
+    "text": "supporting",
+    "start": 109.5,
+    "end": 110.34,
+    "estimated": false
+  },
+  {
+    "text": "even",
+    "start": 110.34,
+    "end": 110.92,
+    "estimated": false
+  },
+  {
+    "text": "when",
+    "start": 110.92,
+    "end": 111.2,
+    "estimated": false
+  },
+  {
+    "text": "returns",
+    "start": 111.2,
+    "end": 111.62,
+    "estimated": false
+  },
+  {
+    "text": "are",
+    "start": 111.62,
+    "end": 112.0,
+    "estimated": false
+  },
+  {
+    "text": "uncertain.",
+    "start": 112.0,
+    "end": 112.52,
+    "estimated": false
+  },
+  {
+    "text": "Discoveries",
+    "start": 113.06,
+    "end": 113.72,
+    "estimated": false
+  },
+  {
+    "text": "could",
+    "start": 113.72,
+    "end": 113.92,
+    "estimated": false
+  },
+  {
+    "text": "improve",
+    "start": 113.92,
+    "end": 114.2,
+    "estimated": false
+  },
+  {
+    "text": "lives",
+    "start": 114.2,
+    "end": 114.62,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 114.62,
+    "end": 115.02,
+    "estimated": false
+  },
+  {
+    "text": "build",
+    "start": 115.02,
+    "end": 115.32,
+    "estimated": false
+  },
+  {
+    "text": "scientific",
+    "start": 115.32,
+    "end": 115.84,
+    "estimated": false
+  },
+  {
+    "text": "capacity.",
+    "start": 115.84,
+    "end": 116.52,
+    "estimated": false
+  },
+  {
+    "text": "They",
+    "start": 117.22,
+    "end": 117.38,
+    "estimated": false
+  },
+  {
+    "text": "may",
+    "start": 117.38,
+    "end": 117.56,
+    "estimated": false
+  },
+  {
+    "text": "accept",
+    "start": 117.56,
+    "end": 118.04,
+    "estimated": false
+  },
+  {
+    "text": "borrowing",
+    "start": 118.04,
+    "end": 118.68,
+    "estimated": false
+  },
+  {
+    "text": "because",
+    "start": 118.68,
+    "end": 119.26,
+    "estimated": false
+  },
+  {
+    "text": "waiting",
+    "start": 119.26,
+    "end": 119.86,
+    "estimated": false
+  },
+  {
+    "text": "for",
+    "start": 119.86,
+    "end": 120.16,
+    "estimated": false
+  },
+  {
+    "text": "annual",
+    "start": 120.16,
+    "end": 120.48,
+    "estimated": false
+  },
+  {
+    "text": "funding",
+    "start": 120.48,
+    "end": 120.96,
+    "estimated": false
+  },
+  {
+    "text": "also",
+    "start": 120.96,
+    "end": 121.46,
+    "estimated": false
+  },
+  {
+    "text": "has",
+    "start": 121.46,
+    "end": 121.74,
+    "estimated": false
+  },
+  {
+    "text": "an",
+    "start": 121.74,
+    "end": 121.96,
+    "estimated": false
+  },
+  {
+    "text": "opportunity",
+    "start": 121.96,
+    "end": 122.4,
+    "estimated": false
+  },
+  {
+    "text": "cost.",
+    "start": 122.4,
+    "end": 122.9,
+    "estimated": false
+  },
+  {
+    "text": "You",
+    "start": 123.66,
+    "end": 123.72,
+    "estimated": false
+  },
+  {
+    "text": "might",
+    "start": 123.72,
+    "end": 123.88,
+    "estimated": false
+  },
+  {
+    "text": "ask",
+    "start": 123.88,
+    "end": 124.34,
+    "estimated": false
+  },
+  {
+    "text": "whether",
+    "start": 124.34,
+    "end": 124.54,
+    "estimated": false
+  },
+  {
+    "text": "this",
+    "start": 124.54,
+    "end": 124.8,
+    "estimated": false
+  },
+  {
+    "text": "is",
+    "start": 124.8,
+    "end": 124.9,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 124.9,
+    "end": 125.06,
+    "estimated": false
+  },
+  {
+    "text": "best",
+    "start": 125.06,
+    "end": 125.32,
+    "estimated": false
+  },
+  {
+    "text": "research",
+    "start": 125.32,
+    "end": 125.58,
+    "estimated": false
+  },
+  {
+    "text": "investment.",
+    "start": 125.58,
+    "end": 126.4,
+    "estimated": false
+  },
+  {
+    "text": "Another",
+    "start": 127.06,
+    "end": 127.48,
+    "estimated": false
+  },
+  {
+    "text": "voter",
+    "start": 127.48,
+    "end": 127.82,
+    "estimated": true
+  },
+  {
+    "text": "could",
+    "start": 127.82,
+    "end": 128.08,
+    "estimated": false
+  },
+  {
+    "text": "object",
+    "start": 128.08,
+    "end": 128.42,
+    "estimated": false
+  },
+  {
+    "text": "to",
+    "start": 128.42,
+    "end": 128.74,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 128.74,
+    "end": 128.84,
+    "estimated": false
+  },
+  {
+    "text": "debt,",
+    "start": 128.84,
+    "end": 129.08,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 129.52,
+    "end": 129.58,
+    "estimated": false
+  },
+  {
+    "text": "concentration",
+    "start": 129.58,
+    "end": 129.92,
+    "estimated": false
+  },
+  {
+    "text": "of",
+    "start": 129.92,
+    "end": 130.46,
+    "estimated": false
+  },
+  {
+    "text": "funding",
+    "start": 130.46,
+    "end": 130.74,
+    "estimated": false
+  },
+  {
+    "text": "in",
+    "start": 130.74,
+    "end": 131.08,
+    "estimated": false
+  },
+  {
+    "text": "one",
+    "start": 131.08,
+    "end": 131.3,
+    "estimated": false
+  },
+  {
+    "text": "institute,",
+    "start": 131.3,
+    "end": 131.86,
+    "estimated": false
+  },
+  {
+    "text": "or",
+    "start": 131.86,
+    "end": 132.3,
+    "estimated": false
+  },
+  {
+    "text": "committing",
+    "start": 132.3,
+    "end": 132.6,
+    "estimated": false
+  },
+  {
+    "text": "money",
+    "start": 132.6,
+    "end": 133.02,
+    "estimated": false
+  },
+  {
+    "text": "before",
+    "start": 133.02,
+    "end": 133.5,
+    "estimated": false
+  },
+  {
+    "text": "knowing",
+    "start": 133.5,
+    "end": 133.9,
+    "estimated": false
+  },
+  {
+    "text": "results.",
+    "start": 133.9,
+    "end": 134.28,
+    "estimated": false
+  },
+  {
+    "text": "They",
+    "start": 135.08,
+    "end": 135.16,
+    "estimated": false
+  },
+  {
+    "text": "might",
+    "start": 135.16,
+    "end": 135.36,
+    "estimated": false
+  },
+  {
+    "text": "favor",
+    "start": 135.36,
+    "end": 135.68,
+    "estimated": false
+  },
+  {
+    "text": "broader",
+    "start": 135.68,
+    "end": 136.2,
+    "estimated": false
+  },
+  {
+    "text": "competition",
+    "start": 136.2,
+    "end": 136.66,
+    "estimated": false
+  },
+  {
+    "text": "or",
+    "start": 136.66,
+    "end": 137.28,
+    "estimated": false
+  },
+  {
+    "text": "other",
+    "start": 137.28,
+    "end": 137.54,
+    "estimated": false
+  },
+  {
+    "text": "health",
+    "start": 137.54,
+    "end": 137.94,
+    "estimated": false
+  },
+  {
+    "text": "priorities.",
+    "start": 137.94,
+    "end": 138.28,
+    "estimated": false
+  },
+  {
+    "text": "The",
+    "start": 139.22,
+    "end": 139.32,
+    "estimated": false
+  },
+  {
+    "text": "possibility",
+    "start": 139.32,
+    "end": 139.7,
+    "estimated": false
+  },
+  {
+    "text": "of",
+    "start": 139.7,
+    "end": 140.22,
+    "estimated": false
+  },
+  {
+    "text": "royalties",
+    "start": 140.22,
+    "end": 140.46,
+    "estimated": false
+  },
+  {
+    "text": "should",
+    "start": 140.46,
+    "end": 141.14,
+    "estimated": false
+  },
+  {
+    "text": "not",
+    "start": 141.14,
+    "end": 141.44,
+    "estimated": false
+  },
+  {
+    "text": "be",
+    "start": 141.44,
+    "end": 141.66,
+    "estimated": false
+  },
+  {
+    "text": "treated",
+    "start": 141.66,
+    "end": 142.0,
+    "estimated": false
+  },
+  {
+    "text": "as",
+    "start": 142.0,
+    "end": 142.32,
+    "estimated": false
+  },
+  {
+    "text": "a",
+    "start": 142.32,
+    "end": 142.44,
+    "estimated": false
+  },
+  {
+    "text": "promise",
+    "start": 142.44,
+    "end": 142.76,
+    "estimated": false
+  },
+  {
+    "text": "that",
+    "start": 142.76,
+    "end": 143.44,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 143.44,
+    "end": 143.54,
+    "estimated": false
+  },
+  {
+    "text": "bond",
+    "start": 143.54,
+    "end": 143.82,
+    "estimated": false
+  },
+  {
+    "text": "pays",
+    "start": 143.82,
+    "end": 144.16,
+    "estimated": false
+  },
+  {
+    "text": "for",
+    "start": 144.16,
+    "end": 144.44,
+    "estimated": false
+  },
+  {
+    "text": "itself.",
+    "start": 144.44,
+    "end": 144.7,
+    "estimated": false
+  },
+  {
+    "text": "In",
+    "start": 145.5,
+    "end": 145.58,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 145.58,
+    "end": 145.68,
+    "estimated": false
+  },
+  {
+    "text": "September",
+    "start": 145.68,
+    "end": 146.1,
+    "estimated": false
+  },
+  {
+    "text": "PPIC",
+    "start": 146.1,
+    "end": 146.92,
+    "estimated": false
+  },
+  {
+    "text": "survey",
+    "start": 146.92,
+    "end": 147.42,
+    "estimated": false
+  },
+  {
+    "text": "of",
+    "start": 147.42,
+    "end": 147.74,
+    "estimated": false
+  },
+  {
+    "text": "likely",
+    "start": 147.74,
+    "end": 147.94,
+    "estimated": false
+  },
+  {
+    "text": "voters,",
+    "start": 147.94,
+    "end": 148.46,
+    "estimated": false
+  },
+  {
+    "text": "55",
+    "start": 149.06,
+    "end": 149.42,
+    "estimated": false
+  },
+  {
+    "text": "percent",
+    "start": 149.42,
+    "end": 150.12,
+    "estimated": true
+  },
+  {
+    "text": "said",
+    "start": 150.12,
+    "end": 150.56,
+    "estimated": false
+  },
+  {
+    "text": "yes,",
+    "start": 150.56,
+    "end": 150.88,
+    "estimated": false
+  },
+  {
+    "text": "42",
+    "start": 151.38,
+    "end": 151.6,
+    "estimated": false
+  },
+  {
+    "text": "percent",
+    "start": 151.6,
+    "end": 152.22,
+    "estimated": true
+  },
+  {
+    "text": "no,",
+    "start": 152.22,
+    "end": 152.7,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 152.7,
+    "end": 153.06,
+    "estimated": false
+  },
+  {
+    "text": "3",
+    "start": 153.06,
+    "end": 153.36,
+    "estimated": false
+  },
+  {
+    "text": "percent",
+    "start": 153.36,
+    "end": 153.82,
+    "estimated": true
+  },
+  {
+    "text": "were",
+    "start": 153.82,
+    "end": 154.02,
+    "estimated": false
+  },
+  {
+    "text": "unsure.",
+    "start": 154.02,
+    "end": 154.38,
+    "estimated": false
+  },
+  {
+    "text": "These",
+    "start": 155.16,
+    "end": 155.52,
+    "estimated": false
+  },
+  {
+    "text": "are",
+    "start": 155.52,
+    "end": 155.78,
+    "estimated": false
+  },
+  {
+    "text": "dated",
+    "start": 155.78,
+    "end": 156.12,
+    "estimated": false
+  },
+  {
+    "text": "survey",
+    "start": 156.12,
+    "end": 156.54,
+    "estimated": false
+  },
+  {
+    "text": "results,",
+    "start": 156.54,
+    "end": 157.1,
+    "estimated": false
+  },
+  {
+    "text": "not",
+    "start": 157.46,
+    "end": 157.62,
+    "estimated": false
+  },
+  {
+    "text": "votes",
+    "start": 157.62,
+    "end": 157.88,
+    "estimated": false
+  },
+  {
+    "text": "already",
+    "start": 157.88,
+    "end": 158.42,
+    "estimated": false
+  },
+  {
+    "text": "cast.",
+    "start": 158.42,
+    "end": 158.84,
+    "estimated": false
+  },
+  {
+    "text": "Yes",
+    "start": 159.5,
+    "end": 159.82,
+    "estimated": false
+  },
+  {
+    "text": "authorizes",
+    "start": 160.12,
+    "end": 160.64,
+    "estimated": false
+  },
+  {
+    "text": "this",
+    "start": 160.64,
+    "end": 160.9,
+    "estimated": false
+  },
+  {
+    "text": "research",
+    "start": 160.9,
+    "end": 161.34,
+    "estimated": false
+  },
+  {
+    "text": "borrowing;",
+    "start": 161.34,
+    "end": 161.66,
+    "estimated": false
+  },
+  {
+    "text": "no",
+    "start": 161.66,
+    "end": 162.6,
+    "estimated": true
+  },
+  {
+    "text": "rejects",
+    "start": 162.6,
+    "end": 163.2,
+    "estimated": false
+  },
+  {
+    "text": "this",
+    "start": 163.2,
+    "end": 163.52,
+    "estimated": false
+  },
+  {
+    "text": "bond",
+    "start": 163.52,
+    "end": 163.84,
+    "estimated": false
+  },
+  {
+    "text": "without",
+    "start": 163.84,
+    "end": 164.12,
+    "estimated": false
+  },
+  {
+    "text": "ending",
+    "start": 165.5,
+    "end": 165.88,
+    "estimated": false
+  },
+  {
+    "text": "existing",
+    "start": 165.88,
+    "end": 166.36,
+    "estimated": false
+  },
+  {
+    "text": "medical",
+    "start": 166.36,
+    "end": 166.78,
+    "estimated": false
+  },
+  {
+    "text": "research.",
+    "start": 166.78,
+    "end": 167.42,
+    "estimated": false
+  },
+  {
+    "text": "Visit",
+    "start": 167.76,
+    "end": 167.8,
+    "estimated": false
+  },
+  {
+    "text": "our",
+    "start": 167.8,
+    "end": 168.14,
+    "estimated": false
+  },
+  {
+    "text": "website",
+    "start": 168.14,
+    "end": 168.42,
+    "estimated": false
+  },
+  {
+    "text": "for",
+    "start": 168.42,
+    "end": 168.78,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 168.78,
+    "end": 168.88,
+    "estimated": false
+  },
+  {
+    "text": "fuller",
+    "start": 168.88,
+    "end": 169.16,
+    "estimated": false
+  },
+  {
+    "text": "explanation,",
+    "start": 169.16,
+    "end": 169.74,
+    "estimated": false
+  },
+  {
+    "text": "source",
+    "start": 170.18,
+    "end": 170.4,
+    "estimated": false
+  },
+  {
+    "text": "links,",
+    "start": 170.4,
+    "end": 170.8,
+    "estimated": false
+  },
+  {
+    "text": "and",
+    "start": 170.8,
+    "end": 171.2,
+    "estimated": false
+  },
+  {
+    "text": "official",
+    "start": 171.2,
+    "end": 171.5,
+    "estimated": false
+  },
+  {
+    "text": "voter",
+    "start": 171.5,
+    "end": 171.92,
+    "estimated": false
+  },
+  {
+    "text": "guide.",
+    "start": 171.92,
+    "end": 172.34,
+    "estimated": false
+  },
+  {
+    "text": "Compare",
+    "start": 173.06,
+    "end": 173.06,
+    "estimated": false
+  },
+  {
+    "text": "the",
+    "start": 173.06,
+    "end": 173.42,
+    "estimated": false
+  },
+  {
+    "text": "tradeoffs,",
+    "start": 173.42,
+    "end": 173.92,
+    "estimated": true
+  },
+  {
+    "text": "then",
+    "start": 173.92,
+    "end": 174.24,
+    "estimated": false
+  },
+  {
+    "text": "make",
+    "start": 174.24,
+    "end": 174.52,
+    "estimated": false
+  },
+  {
+    "text": "your",
+    "start": 174.52,
+    "end": 174.72,
+    "estimated": false
+  },
+  {
+    "text": "own",
+    "start": 174.72,
+    "end": 175.14,
+    "estimated": false
+  },
+  {
+    "text": "informed",
+    "start": 175.14,
+    "end": 175.5,
+    "estimated": false
+  },
+  {
+    "text": "choice.",
+    "start": 175.5,
+    "end": 176.26,
+    "estimated": false
+  }
+]

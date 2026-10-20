@@ -1,151 +1,235 @@
 1
-00:00:00,000 --> 00:00:04,420
-Proposition forty-four sets a spending rule for private nonprofit safety-net
+00:00:03,140 --> 00:00:06,960
+Proposition forty-four sets a spending rule for private nonprofit
 
 2
-00:00:04,420 --> 00:00:09,440
-clinics. These clinics serve many low-income and uninsured patients. The
+00:00:06,960 --> 00:00:08,140
+safety-net clinics.
 
 3
-00:00:09,440 --> 00:00:14,480
-proposal does not apply the same rule to every doctor, hospital, or publicly
+00:00:08,860 --> 00:00:11,840
+These clinics serve many low-income and uninsured patients.
 
 4
-00:00:14,480 --> 00:00:18,860
-operated clinic. Covered clinics would have to spend at least ninety percent
+00:00:12,300 --> 00:00:14,360
+The proposal does not apply the same rule to
 
 5
-00:00:18,860 --> 00:00:23,360
-of annual revenue on health care services, leaving no more than ten percent
+00:00:14,360 --> 00:00:17,840
+every doctor, hospital, or publicly operated clinic.
 
 6
-00:00:23,360 --> 00:00:27,820
-for other expenses. The attorney general would define the categories in more
+00:00:18,540 --> 00:00:21,120
+Covered clinics would have to spend at least ninety
 
 7
-00:00:27,820 --> 00:00:28,340
-detail.
+00:00:21,120 --> 00:00:25,200
+percent of annual revenue on health care services, leaving
 
 8
-00:00:28,933 --> 00:00:33,113
-Imagine a clinic manager planning next year’s budget. For a hypothetical
+00:00:25,200 --> 00:00:27,340
+no more than ten percent for other expenses.
 
 9
-00:00:33,113 --> 00:00:38,033
-clinic receiving ten million dollars, the ninety percent minimum is nine
+00:00:28,000 --> 00:00:30,680
+The attorney general would define the categories in more
 
 10
-00:00:38,033 --> 00:00:43,013
-million dollars. If qualifying spending is eight million, the shortfall is
+00:00:30,680 --> 00:00:31,000
+detail.
 
 11
-00:00:43,013 --> 00:00:48,193
-one million. This is arithmetic to explain the rule, not a real clinic’s
+00:00:31,700 --> 00:00:34,320
+Imagine a clinic manager planning next year’s budget.
 
 12
-00:00:48,193 --> 00:00:52,533
-budget. A nurse depends on both care resources and working systems.
+00:00:34,320 --> 00:00:38,240
+For a hypothetical clinic receiving ten million dollars, the
 
 13
-00:00:53,133 --> 00:00:57,553
-A clinic falling short would owe a penalty equal to the shortfall. It could
+00:00:38,240 --> 00:00:41,640
+ninety percent minimum is nine million dollars.
 
 14
-00:00:57,553 --> 00:01:02,213
-recover that money by complying within five years. Temporary waivers would
+00:00:41,640 --> 00:00:45,520
+If qualifying spending is eight million, the shortfall is
 
 15
-00:01:02,213 --> 00:01:06,413
-be available in some circumstances. The rule therefore has enforcement
+00:00:45,520 --> 00:00:46,160
+one million.
 
 16
-00:01:06,413 --> 00:01:11,333
-mechanisms as well as a target. Which costs qualify matters. An
+00:00:47,080 --> 00:00:49,760
+This is arithmetic to explain the rule, not a
 
 17
-00:01:11,333 --> 00:01:16,013
-administrative label is not proof that an expense is wasteful; scheduling,
+00:00:49,760 --> 00:00:50,720
+real clinic’s budget.
 
 18
-00:01:16,013 --> 00:01:20,653
-records, and other systems can support care. Final definitions affect how
+00:00:51,140 --> 00:00:54,500
+A nurse depends on both care resources and working
 
 19
-00:01:20,653 --> 00:01:25,173
-clinics would change their budgets. The analyst estimates enforcement costs
+00:00:54,500 --> 00:00:55,060
+systems.
 
 20
-00:01:25,173 --> 00:01:30,133
-in the low tens of millions of dollars each year, funded by fees on affected
+00:00:55,960 --> 00:00:58,940
+A clinic falling short would owe a penalty equal
 
 21
-00:01:30,133 --> 00:01:36,053
-clinics. Other public costs are uncertain and depend on how clinics respond,
+00:00:58,940 --> 00:00:59,660
+to the shortfall.
 
 22
-00:01:36,053 --> 00:01:38,913
-including whether some reduce operations or close.
+00:01:00,160 --> 00:01:02,620
+It could recover that money by complying within five
 
 23
-00:01:39,567 --> 00:01:44,287
-A voter might want a larger share of clinic revenue devoted to services for
+00:01:02,620 --> 00:01:02,980
+years.
 
 24
-00:01:44,287 --> 00:01:49,087
-patients, with reporting and consequences for falling short. They may
+00:01:03,740 --> 00:01:06,700
+Temporary waivers would be available in some circumstances.
 
 25
-00:01:49,087 --> 00:01:54,267
-believe a clear minimum is a useful accountability tool. Reaching a ratio,
+00:01:07,620 --> 00:01:10,900
+The rule therefore has enforcement mechanisms as well as
 
 26
-00:01:54,267 --> 00:01:58,307
-however, does not by itself measure quality or outcomes.
+00:01:10,900 --> 00:01:11,440
+a target.
 
 27
-00:01:58,933 --> 00:02:03,253
-You might ask whether one ratio fits different clinics. Another voter could
+00:01:12,100 --> 00:01:13,860
+Which costs qualify matters.
 
 28
-00:02:03,253 --> 00:02:08,633
-worry that a rigid limit constrains necessary support costs, adds fees, or
+00:01:14,460 --> 00:01:16,910
+An administrative label is not proof that an expense
 
 29
-00:02:08,633 --> 00:02:13,133
-makes some clinics financially fragile. A clinic can improve its reported
+00:01:16,910 --> 00:01:21,670
+is wasteful; scheduling, records, and other systems can support
 
 30
-00:02:13,133 --> 00:02:18,593
-ratio in different ways; the important outcome is access to effective care,
+00:01:21,670 --> 00:01:21,950
+care.
 
 31
-00:02:18,593 --> 00:02:20,493
-not only the percentage on a report.
+00:01:22,330 --> 00:01:25,330
+Final definitions affect how clinics would change their budgets.
 
 32
-00:02:21,100 --> 00:02:26,820
-In the September PPIC survey of likely voters, 34 percent said yes, 61
+00:01:25,730 --> 00:01:28,590
+The analyst estimates enforcement costs in the low tens
 
 33
-00:02:26,820 --> 00:02:32,860
-percent no, and 6 percent were unsure. These are dated survey results, not
+00:01:28,590 --> 00:01:31,670
+of millions of dollars each year, funded by fees
 
 34
-00:02:32,860 --> 00:02:33,960
-votes already cast.
+00:01:31,670 --> 00:01:33,410
+on affected clinics.
 
 35
-00:02:34,600 --> 00:02:39,440
-Yes adopts the new spending rule; no leaves existing reporting and spending
+00:01:34,210 --> 00:01:36,850
+Other public costs are uncertain and depend on how
 
 36
-00:02:39,440 --> 00:02:44,340
-requirements in place. Visit our website for the fuller explanation, source
+00:01:36,850 --> 00:01:41,330
+clinics respond, including whether some reduce operations or close.
 
 37
-00:02:44,340 --> 00:02:49,200
-links, and official voter guide. Compare the tradeoffs, then make your own
+00:01:42,110 --> 00:01:44,370
+A voter might want a larger share of clinic
 
 38
-00:02:49,200 --> 00:02:50,240
-informed choice.
+00:01:44,370 --> 00:01:48,010
+revenue devoted to services for patients, with reporting and
+
+39
+00:01:48,010 --> 00:01:49,710
+consequences for falling short.
+
+40
+00:01:50,450 --> 00:01:53,010
+They may believe a clear minimum is a useful
+
+41
+00:01:53,010 --> 00:01:54,370
+accountability tool.
+
+42
+00:01:55,330 --> 00:01:59,090
+Reaching a ratio, however, does not by itself measure
+
+43
+00:01:59,090 --> 00:02:00,510
+quality or outcomes.
+
+44
+00:02:01,250 --> 00:02:04,150
+You might ask whether one ratio fits different clinics.
+
+45
+00:02:04,930 --> 00:02:07,990
+Another voter could worry that a rigid limit constrains
+
+46
+00:02:07,990 --> 00:02:12,230
+necessary support costs, adds fees, or makes some clinics
+
+47
+00:02:12,230 --> 00:02:13,290
+financially fragile.
+
+48
+00:02:14,090 --> 00:02:17,010
+A clinic can improve its reported ratio in different
+
+49
+00:02:17,010 --> 00:02:20,950
+ways; the important outcome is access to effective care,
+
+50
+00:02:21,450 --> 00:02:23,650
+not only the percentage on a report.
+
+51
+00:02:24,270 --> 00:02:27,170
+In the September PPIC survey of likely voters, 34
+
+52
+00:02:27,170 --> 00:02:30,810
+percent said yes, 61 percent no, and 6 percent
+
+53
+00:02:30,810 --> 00:02:31,310
+were unsure.
+
+54
+00:02:32,030 --> 00:02:35,810
+These are dated survey results, not votes already cast.
+
+55
+00:02:36,490 --> 00:02:40,770
+Yes adopts the new spending rule; no leaves existing
+
+56
+00:02:40,770 --> 00:02:43,250
+reporting and spending requirements in place.
+
+57
+00:02:44,230 --> 00:02:47,390
+Visit our website for the fuller explanation, source links,
+
+58
+00:02:47,390 --> 00:02:48,970
+and official voter guide.
+
+59
+00:02:49,630 --> 00:02:52,850
+Compare the tradeoffs, then make your own informed choice.

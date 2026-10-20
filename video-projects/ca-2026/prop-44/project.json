@@ -3,10 +3,10 @@
   "number": 44,
   "title": "Prop 44 \u2014 Clinic spending: what would a 90 percent rule do?",
   "fps": 30,
-  "frames": 5126,
+  "frames": 5222,
   "checked": "2026-10-19",
-  "narration": "asset://4b47216f34b02fbbeb2bcf433317ed902433471cd2eb3480cf3fa3583eb05d7a.wav",
-  "prompter_words": "words-global.json",
+  "narration": "asset://20f6e6f193a3648fc42d3f67a6e4821df8d85eb16a222ff7e3420af1e9a557e1.wav",
+  "prompter_words": "words-human.json",
   "script": [
     {
       "name": "The big picture",
@@ -85,7 +85,7 @@
       "title": "Which clinics are covered?",
       "chapter": "The big picture",
       "start_frame": 0,
-      "frames": 492,
+      "frames": 556,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -95,8 +95,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.5085365853658538,
           "serif": true
         },
         {
@@ -108,8 +108,9 @@
             565,
             405
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -118,8 +119,8 @@
           "y": 200,
           "size": 28,
           "width": 530,
-          "at": 0.35,
-          "duration": 0.45
+          "at": 0.39552845528455294,
+          "duration": 0.5085365853658538
         },
         {
           "kind": "stroke",
@@ -135,8 +136,8 @@
               ]
             ]
           ],
-          "at": 0.85,
-          "duration": 0.75,
+          "at": 0.960569105691057,
+          "duration": 0.8475609756097563,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -148,8 +149,8 @@
           "y": 332,
           "size": 28,
           "width": 530,
-          "at": 7.549999999999999,
-          "duration": 0.45
+          "at": 8.53211382113821,
+          "duration": 0.5085365853658538
         },
         {
           "kind": "stroke",
@@ -165,23 +166,23 @@
               ]
             ]
           ],
-          "at": 8.049999999999999,
-          "duration": 0.75,
+          "at": 9.097154471544716,
+          "duration": 0.8475609756097563,
           "hand": true,
           "color": "gold",
           "width": 2.5
         }
       ],
       "anchor": {
-        "phrase": "Proposition 44 sets a spending"
+        "phrase": "Proposition forty-four sets a spending rule"
       }
     },
     {
       "id": "02",
       "title": "A rule based on revenue",
       "chapter": "The big picture",
-      "start_frame": 492,
-      "frames": 376,
+      "start_frame": 556,
+      "frames": 395,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -191,8 +192,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.47273936170212766,
           "serif": true
         },
         {
@@ -204,8 +205,9 @@
             380,
             360
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -214,8 +216,8 @@
           "y": 200,
           "size": 25,
           "width": 710,
-          "at": 0.5,
-          "duration": 0.45
+          "at": 0.5252659574468085,
+          "duration": 0.47273936170212766
         },
         {
           "kind": "bar",
@@ -228,8 +230,8 @@
           "value": 90.0,
           "maximum": 100,
           "color": "teal",
-          "at": 0.9,
-          "duration": 0.9
+          "at": 0.9454787234042553,
+          "duration": 0.9454787234042553
         },
         {
           "kind": "text",
@@ -238,8 +240,8 @@
           "y": 312,
           "size": 25,
           "width": 710,
-          "at": 5.266666666666667,
-          "duration": 0.45
+          "at": 5.532801418439716,
+          "duration": 0.47273936170212766
         },
         {
           "kind": "bar",
@@ -252,8 +254,8 @@
           "value": 10.0,
           "maximum": 100,
           "color": "blue",
-          "at": 5.666666666666667,
-          "duration": 0.9
+          "at": 5.953014184397164,
+          "duration": 0.9454787234042553
         },
         {
           "kind": "text",
@@ -262,21 +264,21 @@
           "y": 570,
           "size": 21,
           "width": 700,
-          "at": 0.2,
-          "duration": 0.45,
+          "at": 0.21010638297872342,
+          "duration": 0.47273936170212766,
           "color": "muted"
         }
       ],
       "anchor": {
-        "phrase": "Covered clinics would have to"
+        "phrase": "Covered clinics would have to spend"
       }
     },
     {
       "id": "03",
       "title": "A clinic must balance several kinds of cost",
       "chapter": "An illustrative example",
-      "start_frame": 868,
-      "frames": 111,
+      "start_frame": 951,
+      "frames": 79,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -286,8 +288,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.3202702702702703,
           "serif": true
         },
         {
@@ -299,20 +301,21 @@
             980,
             430
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         }
       ],
       "anchor": {
-        "phrase": "Imagine a clinic manager planning"
+        "phrase": "Imagine a clinic manager planning next"
       }
     },
     {
       "id": "04",
       "title": "A $10 million illustration",
       "chapter": "An illustrative example",
-      "start_frame": 979,
-      "frames": 497,
+      "start_frame": 1030,
+      "frames": 504,
       "source": "Illustrative arithmetic, not a promised outcome \u00b7 official analysis for policy details",
       "elements": [
         {
@@ -322,8 +325,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.45633802816901414,
           "serif": true
         },
         {
@@ -335,8 +338,9 @@
             430,
             390
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -345,8 +349,8 @@
           "y": 210,
           "size": 31,
           "width": 690,
-          "at": 0.4,
-          "duration": 0.45,
+          "at": 0.4056338028169015,
+          "duration": 0.45633802816901414,
           "color": "ink",
           "bold": true
         },
@@ -364,8 +368,8 @@
               ]
             ]
           ],
-          "at": 1.2000000000000002,
-          "duration": 1,
+          "at": 1.2169014084507044,
+          "duration": 1.0140845070422535,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -377,8 +381,8 @@
           "y": 335,
           "size": 31,
           "width": 690,
-          "at": 5.2555555555555555,
-          "duration": 0.45,
+          "at": 5.329577464788732,
+          "duration": 0.45633802816901414,
           "color": "teal",
           "bold": true
         },
@@ -389,22 +393,22 @@
           "y": 460,
           "size": 24,
           "width": 690,
-          "at": 10.11111111111111,
-          "duration": 0.45,
+          "at": 10.253521126760564,
+          "duration": 0.45633802816901414,
           "color": "ink",
           "bold": false
         }
       ],
       "anchor": {
-        "phrase": "For a hypothetical clinic receiving"
+        "phrase": "For a hypothetical clinic receiving ten"
       }
     },
     {
       "id": "05",
       "title": "Patient care needs supporting operations",
       "chapter": "An illustrative example",
-      "start_frame": 1476,
-      "frames": 118,
+      "start_frame": 1534,
+      "frames": 145,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -414,8 +418,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.5529661016949152,
           "serif": true
         },
         {
@@ -427,20 +431,21 @@
             980,
             430
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         }
       ],
       "anchor": {
-        "phrase": "A nurse depends on both"
+        "phrase": "A nurse depends on both care"
       }
     },
     {
       "id": "06",
       "title": "What happens when a clinic falls short?",
       "chapter": "How it would work",
-      "start_frame": 1594,
-      "frames": 474,
+      "start_frame": 1679,
+      "frames": 484,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -450,8 +455,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.4594936708860759,
           "serif": true
         },
         {
@@ -460,8 +465,8 @@
           "x": 225.0,
           "y": 240,
           "size": 110,
-          "at": 0.3,
-          "duration": 1.2,
+          "at": 0.3063291139240506,
+          "duration": 1.2253164556962024,
           "color": "teal",
           "hand": true
         },
@@ -472,8 +477,8 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 0.8,
-          "duration": 0.45
+          "at": 0.8168776371308016,
+          "duration": 0.4594936708860759
         },
         {
           "kind": "icon",
@@ -481,8 +486,8 @@
           "x": 585.0,
           "y": 240,
           "size": 110,
-          "at": 4.9,
-          "duration": 1.2,
+          "at": 5.003375527426161,
+          "duration": 1.2253164556962024,
           "color": "teal",
           "hand": true
         },
@@ -493,8 +498,8 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 5.4,
-          "duration": 0.45
+          "at": 5.5139240506329115,
+          "duration": 0.4594936708860759
         },
         {
           "kind": "icon",
@@ -502,8 +507,8 @@
           "x": 945.0,
           "y": 240,
           "size": 110,
-          "at": 9.500000000000002,
-          "duration": 1.2,
+          "at": 9.70042194092827,
+          "duration": 1.2253164556962024,
           "color": "teal",
           "hand": true
         },
@@ -514,20 +519,20 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 10.000000000000002,
-          "duration": 0.45
+          "at": 10.210970464135023,
+          "duration": 0.4594936708860759
         }
       ],
       "anchor": {
-        "phrase": "A clinic falling short would"
+        "phrase": "A clinic falling short would owe"
       }
     },
     {
       "id": "07",
       "title": "Why definitions matter",
       "chapter": "How it would work",
-      "start_frame": 2068,
-      "frames": 395,
+      "start_frame": 2163,
+      "frames": 409,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -537,8 +542,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.4659493670886076,
           "serif": true
         },
         {
@@ -550,8 +555,9 @@
             565,
             405
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -560,8 +566,8 @@
           "y": 200,
           "size": 28,
           "width": 530,
-          "at": 0.35,
-          "duration": 0.45
+          "at": 0.36240506329113925,
+          "duration": 0.4659493670886076
         },
         {
           "kind": "stroke",
@@ -577,8 +583,8 @@
               ]
             ]
           ],
-          "at": 0.85,
-          "duration": 0.75,
+          "at": 0.8801265822784811,
+          "duration": 0.7765822784810127,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -590,8 +596,8 @@
           "y": 332,
           "size": 28,
           "width": 530,
-          "at": 5.933333333333333,
-          "duration": 0.45
+          "at": 6.143628691983122,
+          "duration": 0.4659493670886076
         },
         {
           "kind": "stroke",
@@ -607,23 +613,23 @@
               ]
             ]
           ],
-          "at": 6.433333333333333,
-          "duration": 0.75,
+          "at": 6.661350210970463,
+          "duration": 0.7765822784810127,
           "hand": true,
           "color": "gold",
           "width": 2.5
         }
       ],
       "anchor": {
-        "phrase": "which costs qualify matters. An"
+        "phrase": "Which costs qualify matters. An administrative"
       }
     },
     {
       "id": "08",
       "title": "Who funds enforcement?",
       "chapter": "How it would work",
-      "start_frame": 2463,
-      "frames": 524,
+      "start_frame": 2572,
+      "frames": 491,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -633,8 +639,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.4216603053435115,
           "serif": true
         },
         {
@@ -646,8 +652,9 @@
             565,
             405
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -656,8 +663,8 @@
           "y": 200,
           "size": 28,
           "width": 530,
-          "at": 0.35,
-          "duration": 0.45
+          "at": 0.3279580152671756,
+          "duration": 0.4216603053435115
         },
         {
           "kind": "stroke",
@@ -673,8 +680,8 @@
               ]
             ]
           ],
-          "at": 0.85,
-          "duration": 0.75,
+          "at": 0.796469465648855,
+          "duration": 0.7027671755725192,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -686,8 +693,8 @@
           "y": 332,
           "size": 28,
           "width": 530,
-          "at": 5.505555555555555,
-          "duration": 0.45
+          "at": 5.158831636980492,
+          "duration": 0.4216603053435115
         },
         {
           "kind": "stroke",
@@ -703,8 +710,8 @@
               ]
             ]
           ],
-          "at": 6.005555555555555,
-          "duration": 0.75,
+          "at": 5.6273430873621715,
+          "duration": 0.7027671755725192,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -716,8 +723,8 @@
           "y": 464,
           "size": 28,
           "width": 530,
-          "at": 10.66111111111111,
-          "duration": 0.45
+          "at": 9.989705258693808,
+          "duration": 0.4216603053435115
         },
         {
           "kind": "stroke",
@@ -733,23 +740,23 @@
               ]
             ]
           ],
-          "at": 11.16111111111111,
-          "duration": 0.75,
+          "at": 10.458216709075488,
+          "duration": 0.7027671755725192,
           "hand": true,
           "color": "gold",
           "width": 2.5
         }
       ],
       "anchor": {
-        "phrase": "The analyst estimates enforcement costs"
+        "phrase": "The analyst estimates enforcement costs in"
       }
     },
     {
       "id": "09",
       "title": "The case for YES",
       "chapter": "Why someone might vote yes",
-      "start_frame": 2987,
-      "frames": 581,
+      "start_frame": 3063,
+      "frames": 575,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -759,8 +766,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.44535283993115315,
           "serif": true
         },
         {
@@ -772,8 +779,9 @@
             565,
             405
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -782,8 +790,8 @@
           "y": 200,
           "size": 28,
           "width": 530,
-          "at": 0.35,
-          "duration": 0.45
+          "at": 0.3463855421686747,
+          "duration": 0.44535283993115315
         },
         {
           "kind": "stroke",
@@ -799,8 +807,8 @@
               ]
             ]
           ],
-          "at": 0.85,
-          "duration": 0.75,
+          "at": 0.8412220309810672,
+          "duration": 0.7422547332185886,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -812,8 +820,8 @@
           "y": 332,
           "size": 28,
           "width": 530,
-          "at": 9.033333333333333,
-          "duration": 0.45
+          "at": 8.940045897877223,
+          "duration": 0.44535283993115315
         },
         {
           "kind": "stroke",
@@ -829,23 +837,23 @@
               ]
             ]
           ],
-          "at": 9.533333333333333,
-          "duration": 0.75,
+          "at": 9.434882386689615,
+          "duration": 0.7422547332185886,
           "hand": true,
           "color": "gold",
           "width": 2.5
         }
       ],
       "anchor": {
-        "phrase": "A voter might want a"
+        "phrase": "A voter might want a larger"
       }
     },
     {
       "id": "10",
       "title": "Your question: better care or less flexibility?",
       "chapter": "Why someone might vote no",
-      "start_frame": 3568,
-      "frames": 106,
+      "start_frame": 3638,
+      "frames": 110,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -855,8 +863,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.4669811320754717,
           "serif": true
         },
         {
@@ -868,20 +876,21 @@
             980,
             430
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         }
       ],
       "anchor": {
-        "phrase": "You might ask whether one"
+        "phrase": "You might ask whether one ratio"
       }
     },
     {
       "id": "11",
       "title": "The case for NO",
       "chapter": "Why someone might vote no",
-      "start_frame": 3674,
-      "frames": 559,
+      "start_frame": 3748,
+      "frames": 580,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -891,8 +900,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.46690518783542034,
           "serif": true
         },
         {
@@ -904,8 +913,9 @@
             565,
             405
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -914,8 +924,8 @@
           "y": 200,
           "size": 28,
           "width": 530,
-          "at": 0.35,
-          "duration": 0.45
+          "at": 0.36314847942754913,
+          "duration": 0.46690518783542034
         },
         {
           "kind": "stroke",
@@ -931,8 +941,8 @@
               ]
             ]
           ],
-          "at": 0.85,
-          "duration": 0.75,
+          "at": 0.8819320214669052,
+          "duration": 0.778175313059034,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -944,8 +954,8 @@
           "y": 332,
           "size": 28,
           "width": 530,
-          "at": 5.894444444444444,
-          "duration": 0.45
+          "at": 6.115881534486185,
+          "duration": 0.46690518783542034
         },
         {
           "kind": "stroke",
@@ -961,8 +971,8 @@
               ]
             ]
           ],
-          "at": 6.394444444444444,
-          "duration": 0.75,
+          "at": 6.6346650765255415,
+          "duration": 0.778175313059034,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -974,8 +984,8 @@
           "y": 464,
           "size": 28,
           "width": 530,
-          "at": 11.438888888888888,
-          "duration": 0.45
+          "at": 11.868614589544821,
+          "duration": 0.46690518783542034
         },
         {
           "kind": "stroke",
@@ -991,23 +1001,23 @@
               ]
             ]
           ],
-          "at": 11.938888888888888,
-          "duration": 0.75,
+          "at": 12.387398131584177,
+          "duration": 0.778175313059034,
           "hand": true,
           "color": "gold",
           "width": 2.5
         }
       ],
       "anchor": {
-        "phrase": "Another voter could worry that"
+        "phrase": "Another voter could worry that a"
       }
     },
     {
       "id": "12",
       "title": "September snapshot: PPIC",
       "chapter": "What polling indicates",
-      "start_frame": 4233,
-      "frames": 405,
+      "start_frame": 4328,
+      "frames": 367,
       "source": "PPIC \u00b7 Sept 4\u201310, 2026 \u00b7 likely voters \u00b7 \u00b13.8 points",
       "elements": [
         {
@@ -1017,8 +1027,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.4077777777777778,
           "serif": true
         },
         {
@@ -1028,8 +1038,8 @@
           "y": 200,
           "size": 25,
           "width": 1080,
-          "at": 0.5,
-          "duration": 0.45
+          "at": 0.4530864197530864,
+          "duration": 0.4077777777777778
         },
         {
           "kind": "bar",
@@ -1042,8 +1052,8 @@
           "value": 34.0,
           "maximum": 100,
           "color": "teal",
-          "at": 0.9,
-          "duration": 0.9
+          "at": 0.8155555555555556,
+          "duration": 0.8155555555555556
         },
         {
           "kind": "text",
@@ -1052,8 +1062,8 @@
           "y": 312,
           "size": 25,
           "width": 1080,
-          "at": 4.0,
-          "duration": 0.45
+          "at": 3.624691358024691,
+          "duration": 0.4077777777777778
         },
         {
           "kind": "bar",
@@ -1066,8 +1076,8 @@
           "value": 61.0,
           "maximum": 100,
           "color": "coral",
-          "at": 4.4,
-          "duration": 0.9
+          "at": 3.9871604938271608,
+          "duration": 0.8155555555555556
         },
         {
           "kind": "text",
@@ -1076,8 +1086,8 @@
           "y": 424,
           "size": 25,
           "width": 1080,
-          "at": 7.5,
-          "duration": 0.45
+          "at": 6.796296296296297,
+          "duration": 0.4077777777777778
         },
         {
           "kind": "bar",
@@ -1090,8 +1100,8 @@
           "value": 6.0,
           "maximum": 100,
           "color": "gold",
-          "at": 7.9,
-          "duration": 0.9
+          "at": 7.1587654320987655,
+          "duration": 0.8155555555555556
         },
         {
           "kind": "text",
@@ -1100,20 +1110,20 @@
           "y": 570,
           "size": 21,
           "width": 1080,
-          "at": 8,
-          "duration": 0.45
+          "at": 7.249382716049382,
+          "duration": 0.4077777777777778
         }
       ],
       "anchor": {
-        "phrase": "In the September PPIC survey"
+        "phrase": "In the September PPIC survey of"
       }
     },
     {
       "id": "13",
       "title": "Explore the full explanation",
       "chapter": "Make your own decision",
-      "start_frame": 4638,
-      "frames": 488,
+      "start_frame": 4695,
+      "frames": 527,
       "source": "Visit the website and official voter guide before making your decision",
       "elements": [
         {
@@ -1123,8 +1133,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.4859631147540984,
           "serif": true
         },
         {
@@ -1136,8 +1146,9 @@
             540,
             400
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -1146,8 +1157,8 @@
           "y": 205,
           "size": 28,
           "width": 560,
-          "at": 0.2,
-          "duration": 0.45
+          "at": 0.21598360655737708,
+          "duration": 0.4859631147540984
         },
         {
           "kind": "text",
@@ -1156,8 +1167,8 @@
           "y": 315,
           "size": 28,
           "width": 560,
-          "at": 2,
-          "duration": 0.45
+          "at": 2.1598360655737707,
+          "duration": 0.4859631147540984
         },
         {
           "kind": "stroke",
@@ -1173,8 +1184,8 @@
               ]
             ]
           ],
-          "at": 3,
-          "duration": 1,
+          "at": 3.239754098360656,
+          "duration": 1.0799180327868854,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -1186,8 +1197,8 @@
           "y": 455,
           "size": 25,
           "width": 650,
-          "at": 1,
-          "duration": 0.45
+          "at": 1.0799180327868854,
+          "duration": 0.4859631147540984
         },
         {
           "kind": "text",
@@ -1196,17 +1207,37 @@
           "y": 505,
           "size": 29,
           "width": 650,
-          "at": 1,
-          "duration": 0.45,
+          "at": 1.0799180327868854,
+          "duration": 0.4859631147540984,
           "color": "teal"
         }
       ],
       "anchor": {
-        "phrase": "Yes, adopts the new spending"
+        "phrase": "Yes adopts the new spending rule;"
       }
     }
   ],
   "pencil_gain_db": 16,
   "captions_srt": "captions.srt",
-  "captions_vtt": "captions.vtt"
+  "captions_vtt": "captions.vtt",
+  "recording": {
+    "status": "aligned_cleaned_needs_review",
+    "source": "asset://21ba31b3feece8ee45576a2ae1956d4e541b6e34b1eca7a7c3358aedfaf16236.m4a",
+    "take_id": "Prop 44 \u2014 Clinic spending: what would a 90 percent rule do?-2026-10-20T22-28-19-456Z",
+    "script_sha256": "c4e666af277cf28f78161a9e62a80af7cbe6d1211846e475991491674766e661",
+    "browser_origin": "http://localhost:8877",
+    "approved_at": "2026-10-20T22:31:16.737Z",
+    "selection_basis": "browser_approved",
+    "processing": {
+      "filter": "afftdn=nr=6:nf=-45",
+      "original_preserved": true,
+      "master": "asset://20f6e6f193a3648fc42d3f67a6e4821df8d85eb16a222ff7e3420af1e9a557e1.wav",
+      "no_speech_trim": true
+    },
+    "alignment": {
+      "method": "local ASR word timing with canonical interpolation for scene anchors",
+      "estimated_words": 31,
+      "review_required": true
+    }
+  }
 }

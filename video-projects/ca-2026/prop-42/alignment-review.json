@@ -1,0 +1,92 @@
+[
+  {
+    "script": "forty-two",
+    "recognized": "42",
+    "start": 4.14
+  },
+  {
+    "script": "",
+    "recognized": "a",
+    "start": 39.36
+  },
+  {
+    "script": "forty-two",
+    "recognized": "42",
+    "start": 102.66
+  },
+  {
+    "script": "forty\u2019s",
+    "recognized": "40's",
+    "start": 104.3
+  },
+  {
+    "script": "forty-two",
+    "recognized": "42",
+    "start": 107.94
+  },
+  {
+    "script": "object",
+    "recognized": "objects",
+    "start": 122.22
+  },
+  {
+    "script": "wealth-based",
+    "recognized": "well -based",
+    "start": 144.7
+  },
+  {
+    "script": "forty.",
+    "recognized": "40.",
+    "start": 149.66
+  },
+  {
+    "script": "PPIC",
+    "recognized": "PBIC",
+    "start": 156.4
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 159.02
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 160.64
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 162.08
+  },
+  {
+    "script": "already cast.",
+    "recognized": "or drug costs.",
+    "start": 166.48
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 170.4
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 171.72
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 173.08
+  },
+  {
+    "script": "voter",
+    "recognized": "water",
+    "start": 194.14
+  },
+  {
+    "script": "tradeoffs,",
+    "recognized": "trade -offs",
+    "start": 196.1
+  }
+]

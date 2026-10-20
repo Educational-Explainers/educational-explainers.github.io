@@ -1,199 +1,291 @@
 1
-00:00:00,000 --> 00:00:05,320
-Proposition forty proposes a one-time tax on very large fortunes. Wealth
+00:00:00,000 --> 00:00:07,180
+Proposition forty proposes a one-time tax on very large
 
 2
-00:00:05,320 --> 00:00:10,820
-means assets minus debts; income means earnings over a period. A person can
+00:00:07,180 --> 00:00:07,820
+fortunes.
 
 3
-00:00:10,820 --> 00:00:15,840
-own valuable company shares without receiving that value as cash income that
+00:00:08,360 --> 00:00:12,360
+Wealth means assets minus debts; income means earnings over
 
 4
-00:00:15,840 --> 00:00:20,320
-year. The proposal reaches up to five percent of covered net worth for
+00:00:12,360 --> 00:00:12,840
+a period.
 
 5
-00:00:20,320 --> 00:00:25,820
-certain billionaires tied to California residency on January first, twenty
+00:00:13,120 --> 00:00:16,600
+A person can own valuable company shares without receiving
 
 6
-00:00:25,820 --> 00:00:30,350
-twenty-six. It is not simply five percent of the amount above one billion
+00:00:16,600 --> 00:00:18,960
+that value as cash income that year.
 
 7
-00:00:30,350 --> 00:00:36,020
-dollars. Real estate and some retirement assets are generally excluded.
+00:00:19,520 --> 00:00:22,740
+The proposal reaches up to five percent of covered
 
 8
-00:00:36,020 --> 00:00:40,480
-Payment is due in twenty twenty-seven, with a more expensive option to
+00:00:22,740 --> 00:00:26,790
+net worth for certain billionaires tied to California residency
 
 9
-00:00:40,480 --> 00:00:45,040
-spread payments across five years. The detailed valuation and threshold
+00:00:26,790 --> 00:00:29,000
+on January first, twenty twenty-six.
 
 10
-00:00:45,040 --> 00:00:46,080
-rules matter.
+00:00:29,720 --> 00:00:32,120
+It is not simply five percent of the amount
 
 11
-00:00:46,567 --> 00:00:51,107
-Imagine a clinic planning services that need reliable funding. If a
+00:00:32,120 --> 00:00:34,000
+above one billion dollars.
 
 12
-00:00:51,107 --> 00:00:56,247
-hypothetical taxpayer has two billion dollars of covered taxable wealth and
+00:00:34,000 --> 00:00:38,100
+Real estate and some retirement assets are generally excluded.
 
 13
-00:00:56,247 --> 00:01:01,467
-the full five percent rate applies, the tax is one hundred million dollars.
+00:00:38,580 --> 00:00:41,600
+Payment is due in twenty twenty-seven, with a more
 
 14
-00:01:01,467 --> 00:01:06,447
-That is an illustration, not the calculation for every billionaire. A budget
+00:00:41,600 --> 00:00:45,160
+expensive option to spread payments across five years.
 
 15
-00:01:06,447 --> 00:01:11,227
-planner considers how long new money lasts. Ninety percent of revenue is
+00:00:45,840 --> 00:00:48,880
+The detailed valuation and threshold rules matter.
 
 16
-00:01:11,227 --> 00:01:16,507
-directed to health care; the remainder supports education, food assistance,
+00:00:49,880 --> 00:00:52,880
+Imagine a clinic planning services that need reliable funding.
 
 17
-00:01:16,507 --> 00:01:21,487
-and administration. A one-time collection spread over years still does not
+00:00:53,240 --> 00:00:56,460
+If a hypothetical taxpayer has two billion dollars of
 
 18
-00:01:21,487 --> 00:01:24,147
-become a permanent annual revenue stream.
+00:00:56,460 --> 00:01:00,340
+covered taxable wealth and the full five percent rate
 
 19
-00:01:24,600 --> 00:01:28,980
-The analyst expects temporary revenue totaling tens of billions, but the
+00:01:00,340 --> 00:01:04,600
+applies, the tax is one hundred million dollars.
 
 20
-00:01:28,980 --> 00:01:34,980
-amount is hard to predict. Asset values, taxpayer responses, collection, and
+00:01:04,600 --> 00:01:07,940
+That is an illustration, not the calculation for every
 
 21
-00:01:34,980 --> 00:01:39,820
-legal challenges create uncertainty. Administration could cost tens of
+00:01:07,940 --> 00:01:08,280
+billionaire.
 
 22
-00:01:39,820 --> 00:01:44,000
-millions annually for several years. There could also be an ongoing
+00:01:09,060 --> 00:01:11,900
+A budget planner considers how long new money lasts.
 
 23
-00:01:44,000 --> 00:01:49,120
-income-tax loss if wealthy residents change their behavior or leave. The
+00:01:11,900 --> 00:01:14,500
+Ninety percent of revenue is directed to health care;
 
 24
-00:01:49,120 --> 00:01:53,520
-analyst estimates that possible loss at less than one billion dollars per
+00:01:15,320 --> 00:01:19,620
+the remainder supports education, food assistance, and administration.
 
 25
-00:01:53,520 --> 00:01:58,560
-year. It is a different effect from the one-time wealth-tax revenue. Props
+00:01:20,420 --> 00:01:23,700
+A one-time collection spread over years still does not
 
 26
-00:01:58,560 --> 00:02:02,580
-forty-one and forty-two could block this measure if a conflicting measure
+00:01:23,700 --> 00:01:26,440
+become a permanent annual revenue stream.
 
 27
-00:02:02,580 --> 00:02:07,100
-passes with more yes votes. The legal interaction could require court
+00:01:27,360 --> 00:01:31,020
+The analyst expects temporary revenue totaling tens of billions,
 
 28
-00:02:07,100 --> 00:02:11,960
-interpretation. Passing fifty percent is therefore not the only issue to
+00:01:31,640 --> 00:01:33,400
+but the amount is hard to predict.
 
 29
-00:02:11,960 --> 00:02:12,320
-watch.
+00:01:33,860 --> 00:01:39,120
+Asset values, taxpayer responses, collection, and legal challenges create
 
 30
-00:02:12,900 --> 00:02:17,120
-A voter might see concentrated wealth as a source of funding for health care
+00:01:39,120 --> 00:01:39,740
+uncertainty.
 
 31
-00:02:17,120 --> 00:02:22,700
-and other needs without broadly raising taxes. They may judge a temporary
+00:01:40,600 --> 00:01:43,940
+Administration could cost tens of millions annually for several
 
 32
-00:02:22,700 --> 00:02:27,760
-infusion worthwhile, even though it cannot solve every long-term funding
+00:01:43,940 --> 00:01:44,540
+years.
 
 33
-00:02:27,760 --> 00:02:28,280
-problem.
+00:01:45,220 --> 00:01:48,420
+There could also be an ongoing income-tax loss if
 
 34
-00:02:28,767 --> 00:02:33,307
-You might question the economic and legal consequences. Another voter could
+00:01:48,420 --> 00:01:51,380
+wealthy residents change their behavior or leave.
 
 35
-00:02:33,307 --> 00:02:38,787
-object to taxing assets that are hard to sell or value, the residency date,
+00:01:52,040 --> 00:01:55,000
+The analyst estimates that possible loss at less than
 
 36
-00:02:38,787 --> 00:02:43,467
-or risks to investment and future tax receipts. They may prefer recurring
+00:01:55,000 --> 00:01:56,520
+one billion dollars per year.
 
 37
-00:02:43,467 --> 00:02:48,587
-funding with fewer collection uncertainties. These concerns do not establish
+00:01:57,160 --> 00:02:00,060
+It is a different effect from the one-time wealth-tax
 
 38
-00:02:48,587 --> 00:02:51,607
-that every dollar of projected revenue disappears.
+00:02:00,060 --> 00:02:00,800
+revenue.
 
 39
-00:02:52,433 --> 00:02:57,953
-In the September PPIC survey of likely voters, 52 percent said yes, 46
+00:02:00,800 --> 00:02:05,540
+Props forty-one and forty-two could block this measure if
 
 40
-00:02:57,953 --> 00:03:03,573
-percent no, and 2 percent were unsure. These are dated survey results, not
+00:02:05,540 --> 00:02:08,060
+a conflicting measure passes with more yes votes.
 
 41
-00:03:03,573 --> 00:03:09,653
-votes already cast. A later September Berkeley survey found 45 percent yes,
+00:02:08,480 --> 00:02:10,500
+The legal interaction could require court interpretation.
 
 42
-00:03:09,653 --> 00:03:14,993
-42 percent no, and 13 percent undecided. Question wording and methods
+00:02:11,600 --> 00:02:14,520
+Passing fifty percent is therefore not the only issue
 
 43
-00:03:14,993 --> 00:03:20,393
-differ, so comparing polls does not by itself establish a trend. The
+00:02:14,520 --> 00:02:15,020
+to watch.
 
 44
-00:03:20,393 --> 00:03:25,793
-Independent Voter Project survey ending October second found 38 percent yes
+00:02:15,840 --> 00:02:18,400
+A voter might see concentrated wealth as a source
 
 45
-00:03:25,793 --> 00:03:31,593
-and 42 percent no. Its methods and wording differ again. The disagreement is
+00:02:18,400 --> 00:02:21,300
+of funding for health care and other needs without
 
 46
-00:03:31,593 --> 00:03:34,973
-a reason for caution, not a reason to declare a winner.
+00:02:21,300 --> 00:02:22,660
+broadly raising taxes.
 
 47
-00:03:35,500 --> 00:03:40,800
-Yes adopts the proposed tax, subject to the legal outcome; no rejects this
+00:02:23,580 --> 00:02:28,080
+They may judge a temporary infusion worthwhile, even though
 
 48
-00:03:40,800 --> 00:03:45,980
-one-time levy. Visit our website for the fuller explanation, source links,
+00:02:28,080 --> 00:02:31,020
+it cannot solve every long-term funding problem.
 
 49
-00:03:45,980 --> 00:03:50,360
-and official voter guide. Compare the tradeoffs, then make your own informed
+00:02:31,660 --> 00:02:34,340
+You might question the economic and legal consequences.
 
 50
-00:03:50,360 --> 00:03:51,240
-choice.
+00:02:34,900 --> 00:02:38,460
+Another voter could object to taxing assets that are
+
+51
+00:02:38,460 --> 00:02:42,040
+hard to sell or value, the residency date, or
+
+52
+00:02:42,040 --> 00:02:44,280
+risks to investment and future tax receipts.
+
+53
+00:02:44,980 --> 00:02:48,860
+They may prefer recurring funding with fewer collection uncertainties.
+
+54
+00:02:49,440 --> 00:02:52,740
+These concerns do not establish that every dollar of
+
+55
+00:02:52,740 --> 00:02:54,440
+projected revenue disappears.
+
+56
+00:02:55,160 --> 00:02:58,540
+In the September PPIC survey of likely voters, 52
+
+57
+00:02:58,540 --> 00:03:02,400
+percent said yes, 46 percent no, and 2 percent
+
+58
+00:03:02,400 --> 00:03:02,840
+were unsure.
+
+59
+00:03:03,480 --> 00:03:06,920
+These are dated survey results, not votes already cast.
+
+60
+00:03:07,540 --> 00:03:11,200
+A later September Berkeley survey found 45 percent yes,
+
+61
+00:03:11,200 --> 00:03:14,540
+42 percent no, and 13 percent undecided.
+
+62
+00:03:15,340 --> 00:03:18,920
+Question wording and methods differ, so comparing polls does
+
+63
+00:03:18,920 --> 00:03:20,980
+not by itself establish a trend.
+
+64
+00:03:22,900 --> 00:03:26,660
+The Independent Voter Project survey ending October second found
+
+65
+00:03:26,660 --> 00:03:30,140
+38 percent yes and 42 percent no.
+
+66
+00:03:30,640 --> 00:03:32,820
+Its methods and wording differ again.
+
+67
+00:03:33,520 --> 00:03:36,280
+The disagreement is a reason for caution, not a
+
+68
+00:03:36,280 --> 00:03:37,560
+reason to declare a winner.
+
+69
+00:03:38,380 --> 00:03:41,100
+Yes adopts the proposed tax, subject to the legal
+
+70
+00:03:41,100 --> 00:03:44,520
+outcome; no rejects this one-time levy.
+
+71
+00:03:45,380 --> 00:03:48,600
+Visit our website for the fuller explanation, source links,
+
+72
+00:03:48,600 --> 00:03:50,060
+and official voter guide.
+
+73
+00:03:50,300 --> 00:03:54,160
+Compare the tradeoffs, then make your own informed choice.

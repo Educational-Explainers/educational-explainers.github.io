@@ -3,3015 +3,2985 @@
   "script_sha256": "3ef77e776f51aaeabe5206a3eabc5fb0d010a284c05fc421d7433ecf63869a03",
   "reference_audio": "narration-only.mp4",
   "title": "Prop 45 \u2014 Faster project review: what would change and what is at stake?",
-  "duration": 202.66666666666666,
+  "duration": 205.96666666666667,
   "chapters": [
     {
       "name": "The big picture",
-      "start": 0.0
+      "start": 2.6799999999999993
     },
     {
       "name": "An illustrative example",
-      "start": 39.06666666666667
+      "start": 41.88
     },
     {
       "name": "How it would work",
-      "start": 62.36666666666667
+      "start": 64.88
     },
     {
       "name": "Why someone might vote yes",
-      "start": 131.2
+      "start": 134.18
     },
     {
       "name": "Why someone might vote no",
-      "start": 149.36666666666667
+      "start": 152.22
     },
     {
       "name": "What polling indicates",
-      "start": 172.86666666666667
+      "start": 175.9
     },
     {
       "name": "Make your own decision",
-      "start": 186.46666666666667
+      "start": 188.86
     }
   ],
   "cues": [
     {
-      "start": 0.0,
-      "end": 5.76,
+      "start": 2.6799999999999993,
+      "end": 8.14,
       "words": [
         {
           "text": "Proposition",
-          "start": 0.0,
-          "end": 0.5,
+          "start": 2.6799999999999993,
+          "end": 3.64,
           "estimated": false
         },
         {
           "text": "forty-five",
-          "start": 0.5,
-          "end": 1.12,
-          "estimated": true
-        },
-        {
-          "text": "changes",
-          "start": 1.12,
-          "end": 2.14,
-          "estimated": false
-        },
-        {
-          "text": "environmental",
-          "start": 2.14,
-          "end": 2.82,
-          "estimated": false
-        },
-        {
-          "text": "review",
-          "start": 2.82,
-          "end": 3.7,
-          "estimated": false
-        },
-        {
-          "text": "for",
-          "start": 3.7,
-          "end": 4.06,
-          "estimated": false
-        },
-        {
-          "text": "eligible",
-          "start": 4.06,
+          "start": 3.64,
           "end": 4.36,
           "estimated": false
         },
         {
-          "text": "construction",
+          "text": "changes",
           "start": 4.36,
-          "end": 4.9,
+          "end": 4.84,
+          "estimated": false
+        },
+        {
+          "text": "environmental",
+          "start": 4.84,
+          "end": 5.22,
+          "estimated": false
+        },
+        {
+          "text": "review",
+          "start": 5.22,
+          "end": 5.9,
+          "estimated": false
+        },
+        {
+          "text": "for",
+          "start": 5.9,
+          "end": 6.24,
+          "estimated": false
+        },
+        {
+          "text": "eligible",
+          "start": 6.24,
+          "end": 6.48,
+          "estimated": false
+        },
+        {
+          "text": "construction",
+          "start": 6.48,
+          "end": 6.98,
           "estimated": false
         },
         {
           "text": "projects.",
-          "start": 4.9,
-          "end": 5.76,
+          "start": 6.98,
+          "end": 8.14,
           "estimated": false
         }
       ]
     },
     {
-      "start": 6.52,
-      "end": 12.0,
+      "start": 8.58,
+      "end": 13.82,
       "words": [
         {
           "text": "California\u2019s",
-          "start": 6.52,
-          "end": 7.5,
+          "start": 8.58,
+          "end": 9.48,
           "estimated": false
         },
         {
           "text": "environmental",
-          "start": 7.5,
-          "end": 7.9,
+          "start": 9.48,
+          "end": 9.78,
           "estimated": false
         },
         {
           "text": "quality",
-          "start": 7.9,
-          "end": 8.88,
+          "start": 9.78,
+          "end": 10.96,
           "estimated": false
         },
         {
           "text": "law",
-          "start": 8.88,
-          "end": 9.32,
+          "start": 10.96,
+          "end": 11.44,
           "estimated": false
         },
         {
           "text": "requires",
-          "start": 9.32,
-          "end": 10.04,
+          "start": 11.44,
+          "end": 11.82,
           "estimated": false
         },
         {
           "text": "agencies",
-          "start": 10.04,
-          "end": 10.64,
+          "start": 11.82,
+          "end": 12.54,
           "estimated": false
         },
         {
           "text": "to",
-          "start": 10.64,
-          "end": 11.16,
+          "start": 12.54,
+          "end": 12.9,
           "estimated": false
         },
         {
           "text": "examine",
-          "start": 11.16,
-          "end": 11.62,
+          "start": 12.9,
+          "end": 13.34,
           "estimated": false
         },
         {
           "text": "significant",
-          "start": 11.62,
-          "end": 12.0,
+          "start": 13.34,
+          "end": 13.82,
           "estimated": false
         }
       ]
     },
     {
-      "start": 12.0,
-      "end": 14.74,
+      "start": 13.82,
+      "end": 16.9,
       "words": [
         {
           "text": "impacts",
-          "start": 12.0,
-          "end": 12.86,
+          "start": 13.82,
+          "end": 14.58,
           "estimated": false
         },
         {
           "text": "before",
-          "start": 12.86,
-          "end": 13.42,
+          "start": 14.58,
+          "end": 15.16,
           "estimated": false
         },
         {
           "text": "approving",
-          "start": 13.42,
-          "end": 13.94,
+          "start": 15.16,
+          "end": 16.0,
           "estimated": false
         },
         {
           "text": "many",
-          "start": 13.94,
-          "end": 14.16,
+          "start": 16.0,
+          "end": 16.26,
           "estimated": false
         },
         {
           "text": "projects.",
-          "start": 14.16,
-          "end": 14.74,
+          "start": 16.26,
+          "end": 16.9,
           "estimated": false
         }
       ]
     },
     {
-      "start": 15.3,
-      "end": 18.12,
+      "start": 17.72,
+      "end": 22.48,
       "words": [
         {
           "text": "Review",
-          "start": 15.3,
-          "end": 15.74,
+          "start": 17.72,
+          "end": 18.42,
           "estimated": false
         },
         {
           "text": "can",
-          "start": 15.74,
-          "end": 16.14,
+          "start": 18.42,
+          "end": 18.78,
           "estimated": false
         },
         {
           "text": "identify",
-          "start": 16.14,
-          "end": 16.54,
+          "start": 18.78,
+          "end": 19.14,
           "estimated": false
         },
         {
           "text": "harms",
-          "start": 16.54,
-          "end": 17.16,
+          "start": 19.14,
+          "end": 19.82,
           "estimated": false
         },
         {
           "text": "and",
-          "start": 17.16,
-          "end": 17.54,
+          "start": 19.82,
+          "end": 20.3,
           "estimated": false
         },
         {
           "text": "alternatives,",
-          "start": 17.54,
-          "end": 18.12,
+          "start": 20.3,
+          "end": 21.04,
           "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 18.66,
-      "end": 21.42,
-      "words": [
+        },
         {
           "text": "while",
-          "start": 18.66,
-          "end": 18.96,
+          "start": 21.04,
+          "end": 21.78,
           "estimated": false
         },
         {
           "text": "delay",
-          "start": 18.96,
-          "end": 19.22,
+          "start": 21.78,
+          "end": 22.16,
           "estimated": false
         },
         {
           "text": "can",
-          "start": 19.22,
-          "end": 19.54,
-          "estimated": false
-        },
-        {
-          "text": "also",
-          "start": 19.54,
-          "end": 19.8,
-          "estimated": false
-        },
-        {
-          "text": "make",
-          "start": 19.8,
-          "end": 20.18,
-          "estimated": false
-        },
-        {
-          "text": "projects",
-          "start": 20.18,
-          "end": 20.66,
-          "estimated": false
-        },
-        {
-          "text": "more",
-          "start": 20.66,
-          "end": 21.0,
-          "estimated": false
-        },
-        {
-          "text": "costly.",
-          "start": 21.0,
-          "end": 21.42,
+          "start": 22.16,
+          "end": 22.48,
           "estimated": false
         }
       ]
     },
     {
-      "start": 22.12,
-      "end": 25.4,
+      "start": 22.48,
+      "end": 24.42,
       "words": [
         {
-          "text": "The",
-          "start": 22.12,
-          "end": 22.14,
+          "text": "also",
+          "start": 22.48,
+          "end": 22.72,
           "estimated": false
         },
         {
-          "text": "proposal",
-          "start": 22.14,
-          "end": 22.4,
-          "estimated": false
-        },
-        {
-          "text": "offers",
-          "start": 22.4,
+          "text": "make",
+          "start": 22.72,
           "end": 23.1,
           "estimated": false
         },
         {
-          "text": "an",
-          "start": 23.1,
-          "end": 23.3,
-          "estimated": false
-        },
-        {
-          "text": "optional",
-          "start": 23.3,
-          "end": 23.8,
-          "estimated": false
-        },
-        {
-          "text": "faster",
-          "start": 23.8,
-          "end": 24.3,
-          "estimated": false
-        },
-        {
-          "text": "process",
-          "start": 24.3,
-          "end": 24.74,
-          "estimated": false
-        },
-        {
-          "text": "for",
-          "start": 24.74,
-          "end": 25.0,
-          "estimated": false
-        },
-        {
-          "text": "specified",
-          "start": 25.0,
-          "end": 25.4,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 25.4,
-      "end": 27.9,
-      "words": [
-        {
-          "text": "projects,",
-          "start": 25.4,
-          "end": 26.18,
-          "estimated": false
-        },
-        {
-          "text": "including",
-          "start": 26.66,
-          "end": 27.08,
-          "estimated": false
-        },
-        {
-          "text": "many",
-          "start": 27.08,
-          "end": 27.42,
-          "estimated": false
-        },
-        {
-          "text": "housing,",
-          "start": 27.42,
-          "end": 27.9,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 28.5,
-      "end": 29.14,
-      "words": [
-        {
-          "text": "transportation,",
-          "start": 28.5,
-          "end": 29.14,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 29.88,
-      "end": 32.26,
-      "words": [
-        {
-          "text": "water,",
-          "start": 29.88,
-          "end": 30.16,
-          "estimated": false
-        },
-        {
-          "text": "health,",
-          "start": 30.56,
-          "end": 30.78,
-          "estimated": false
-        },
-        {
-          "text": "and",
-          "start": 31.06,
-          "end": 31.06,
-          "estimated": false
-        },
-        {
-          "text": "clean-energy",
-          "start": 31.06,
-          "end": 31.6,
-          "estimated": true
-        },
-        {
-          "text": "projects.",
-          "start": 31.6,
-          "end": 32.26,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 33.04,
-      "end": 35.72,
-      "words": [
-        {
-          "text": "It",
-          "start": 33.04,
-          "end": 33.14,
-          "estimated": false
-        },
-        {
-          "text": "changes",
-          "start": 33.14,
-          "end": 33.46,
-          "estimated": false
-        },
-        {
-          "text": "deadlines",
-          "start": 33.46,
-          "end": 33.98,
-          "estimated": false
-        },
-        {
-          "text": "and",
-          "start": 33.98,
-          "end": 34.44,
-          "estimated": false
-        },
-        {
-          "text": "the",
-          "start": 34.44,
-          "end": 34.56,
-          "estimated": false
-        },
-        {
-          "text": "scope",
-          "start": 34.56,
-          "end": 34.8,
-          "estimated": false
-        },
-        {
-          "text": "of",
-          "start": 34.8,
-          "end": 35.08,
-          "estimated": false
-        },
-        {
-          "text": "review",
-          "start": 35.08,
-          "end": 35.48,
-          "estimated": false
-        },
-        {
-          "text": "and",
-          "start": 35.48,
-          "end": 35.72,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 35.72,
-      "end": 36.1,
-      "words": [
-        {
-          "text": "litigation,",
-          "start": 35.72,
-          "end": 36.1,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 36.76,
-      "end": 38.3,
-      "words": [
-        {
-          "text": "not",
-          "start": 36.76,
-          "end": 37.0,
-          "estimated": false
-        },
-        {
-          "text": "just",
-          "start": 37.0,
-          "end": 37.22,
-          "estimated": false
-        },
-        {
-          "text": "the",
-          "start": 37.22,
-          "end": 37.42,
-          "estimated": false
-        },
-        {
-          "text": "speed",
-          "start": 37.42,
-          "end": 37.76,
-          "estimated": false
-        },
-        {
-          "text": "of",
-          "start": 37.76,
-          "end": 37.9,
-          "estimated": false
-        },
-        {
-          "text": "paperwork.",
-          "start": 37.9,
-          "end": 38.3,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 39.06666666666667,
-      "end": 42.16666666666667,
-      "words": [
-        {
-          "text": "Imagine",
-          "start": 39.06666666666667,
-          "end": 39.58666666666667,
-          "estimated": false
-        },
-        {
-          "text": "a",
-          "start": 39.58666666666667,
-          "end": 39.78666666666667,
-          "estimated": false
-        },
-        {
-          "text": "planner",
-          "start": 39.78666666666667,
-          "end": 40.16666666666667,
-          "estimated": false
-        },
-        {
-          "text": "preparing",
-          "start": 40.16666666666667,
-          "end": 40.54666666666667,
-          "estimated": false
-        },
-        {
-          "text": "a",
-          "start": 40.54666666666667,
-          "end": 40.92666666666667,
-          "estimated": false
-        },
-        {
-          "text": "new",
-          "start": 40.92666666666667,
-          "end": 41.06666666666667,
-          "estimated": false
-        },
-        {
-          "text": "housing",
-          "start": 41.06666666666667,
-          "end": 41.34666666666667,
-          "estimated": false
-        },
-        {
-          "text": "project.",
-          "start": 41.34666666666667,
-          "end": 42.16666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 43.04666666666667,
-      "end": 45.66666666666667,
-      "words": [
-        {
-          "text": "Residents",
-          "start": 43.04666666666667,
-          "end": 43.04666666666667,
-          "estimated": false
-        },
-        {
-          "text": "may",
-          "start": 43.04666666666667,
-          "end": 43.42666666666667,
-          "estimated": false
-        },
-        {
-          "text": "want",
-          "start": 43.42666666666667,
-          "end": 43.66666666666667,
-          "estimated": false
-        },
-        {
-          "text": "homes",
-          "start": 43.66666666666667,
-          "end": 43.98666666666667,
-          "estimated": false
-        },
-        {
-          "text": "built",
-          "start": 43.98666666666667,
-          "end": 44.30666666666667,
-          "estimated": false
-        },
-        {
-          "text": "sooner",
-          "start": 44.30666666666667,
-          "end": 44.68666666666667,
-          "estimated": false
-        },
-        {
-          "text": "but",
-          "start": 44.68666666666667,
-          "end": 45.02666666666667,
-          "estimated": false
-        },
-        {
-          "text": "also",
-          "start": 45.02666666666667,
-          "end": 45.20666666666667,
-          "estimated": false
-        },
-        {
-          "text": "want",
-          "start": 45.20666666666667,
-          "end": 45.66666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 45.66666666666667,
-      "end": 46.82666666666667,
-      "words": [
-        {
-          "text": "traffic,",
-          "start": 45.66666666666667,
-          "end": 46.14666666666667,
-          "estimated": false
-        },
-        {
-          "text": "water,",
-          "start": 46.56666666666667,
-          "end": 46.82666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 47.42666666666667,
-      "end": 49.28666666666667,
-      "words": [
-        {
-          "text": "and",
-          "start": 47.42666666666667,
-          "end": 47.44666666666667,
-          "estimated": false
-        },
-        {
-          "text": "environmental",
-          "start": 47.44666666666667,
-          "end": 47.906666666666666,
-          "estimated": false
-        },
-        {
-          "text": "impacts",
-          "start": 47.906666666666666,
-          "end": 48.66666666666667,
-          "estimated": false
-        },
-        {
-          "text": "examined.",
-          "start": 48.66666666666667,
-          "end": 49.28666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 50.14666666666667,
-      "end": 51.18666666666667,
-      "words": [
-        {
-          "text": "Those",
-          "start": 50.14666666666667,
-          "end": 50.226666666666674,
-          "estimated": false
-        },
-        {
-          "text": "goals",
-          "start": 50.226666666666674,
-          "end": 50.50666666666667,
-          "estimated": false
-        },
-        {
-          "text": "can",
-          "start": 50.50666666666667,
-          "end": 50.866666666666674,
-          "estimated": false
-        },
-        {
-          "text": "overlap.",
-          "start": 50.866666666666674,
-          "end": 51.18666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 52.10666666666667,
-      "end": 55.10666666666667,
-      "words": [
-        {
-          "text": "The",
-          "start": 52.10666666666667,
-          "end": 52.18666666666667,
-          "estimated": false
-        },
-        {
-          "text": "disagreement",
-          "start": 52.18666666666667,
-          "end": 52.52666666666667,
-          "estimated": false
-        },
-        {
-          "text": "is",
-          "start": 52.52666666666667,
-          "end": 53.00666666666667,
-          "estimated": false
-        },
-        {
-          "text": "whether",
-          "start": 53.00666666666667,
-          "end": 53.16666666666667,
-          "estimated": false
-        },
-        {
-          "text": "the",
-          "start": 53.16666666666667,
-          "end": 53.42666666666667,
-          "estimated": false
-        },
-        {
-          "text": "proposed",
-          "start": 53.42666666666667,
-          "end": 53.70666666666667,
-          "estimated": false
-        },
-        {
-          "text": "process",
-          "start": 53.70666666666667,
-          "end": 54.44666666666667,
-          "estimated": false
-        },
-        {
-          "text": "keeps",
-          "start": 54.44666666666667,
-          "end": 54.74666666666667,
-          "estimated": false
-        },
-        {
-          "text": "enough",
-          "start": 54.74666666666667,
-          "end": 55.10666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 55.10666666666667,
-      "end": 57.84666666666667,
-      "words": [
-        {
-          "text": "scrutiny",
-          "start": 55.10666666666667,
-          "end": 55.52666666666667,
-          "estimated": false
-        },
-        {
-          "text": "while",
-          "start": 55.52666666666667,
-          "end": 56.16666666666667,
-          "estimated": false
-        },
-        {
-          "text": "reducing",
-          "start": 56.16666666666667,
-          "end": 56.60666666666667,
-          "estimated": false
-        },
-        {
-          "text": "avoidable",
-          "start": 56.60666666666667,
-          "end": 57.44666666666667,
-          "estimated": false
-        },
-        {
-          "text": "delay.",
-          "start": 57.44666666666667,
-          "end": 57.84666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 58.68666666666667,
-      "end": 61.52666666666667,
-      "words": [
-        {
-          "text": "The",
-          "start": 58.68666666666667,
-          "end": 58.766666666666666,
-          "estimated": false
-        },
-        {
-          "text": "surrounding",
-          "start": 58.766666666666666,
-          "end": 59.14666666666667,
-          "estimated": false
-        },
-        {
-          "text": "community",
-          "start": 59.14666666666667,
-          "end": 59.82666666666667,
-          "estimated": false
-        },
-        {
-          "text": "lives",
-          "start": 59.82666666666667,
-          "end": 60.14666666666667,
-          "estimated": false
-        },
-        {
-          "text": "with",
-          "start": 60.14666666666667,
-          "end": 60.58666666666667,
-          "estimated": false
-        },
-        {
-          "text": "the",
-          "start": 60.58666666666667,
-          "end": 60.70666666666667,
-          "estimated": false
-        },
-        {
-          "text": "completed",
-          "start": 60.70666666666667,
-          "end": 61.14666666666667,
-          "estimated": false
-        },
-        {
-          "text": "project.",
-          "start": 61.14666666666667,
-          "end": 61.52666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 62.36666666666667,
-      "end": 63.946666666666665,
-      "words": [
-        {
-          "text": "For",
-          "start": 62.36666666666667,
-          "end": 62.626666666666665,
-          "estimated": false
-        },
-        {
           "text": "projects",
-          "start": 62.626666666666665,
-          "end": 63.026666666666664,
-          "estimated": false
-        },
-        {
-          "text": "using",
-          "start": 63.026666666666664,
-          "end": 63.306666666666665,
-          "estimated": false
-        },
-        {
-          "text": "the",
-          "start": 63.306666666666665,
-          "end": 63.586666666666666,
-          "estimated": false
-        },
-        {
-          "text": "new",
-          "start": 63.586666666666666,
-          "end": 63.72666666666667,
-          "estimated": false
-        },
-        {
-          "text": "route,",
-          "start": 63.72666666666667,
-          "end": 63.946666666666665,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 64.46666666666667,
-      "end": 68.34666666666666,
-      "words": [
-        {
-          "text": "agencies",
-          "start": 64.46666666666667,
-          "end": 64.84666666666666,
-          "estimated": false
-        },
-        {
-          "text": "would",
-          "start": 64.84666666666666,
-          "end": 65.30666666666667,
-          "estimated": false
-        },
-        {
-          "text": "set",
-          "start": 65.30666666666667,
-          "end": 65.52666666666667,
-          "estimated": false
-        },
-        {
-          "text": "application",
-          "start": 65.52666666666667,
-          "end": 66.04666666666667,
-          "estimated": false
-        },
-        {
-          "text": "requirements",
-          "start": 66.04666666666667,
-          "end": 66.86666666666667,
-          "estimated": false
-        },
-        {
-          "text": "upfront",
-          "start": 66.86666666666667,
-          "end": 67.38666666666667,
-          "estimated": true
-        },
-        {
-          "text": "and",
-          "start": 67.38666666666667,
-          "end": 67.76666666666667,
-          "estimated": false
-        },
-        {
-          "text": "face",
-          "start": 67.76666666666667,
-          "end": 67.98666666666666,
-          "estimated": false
-        },
-        {
-          "text": "tighter",
-          "start": 67.98666666666666,
-          "end": 68.34666666666666,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 68.34666666666666,
-      "end": 68.82666666666667,
-      "words": [
-        {
-          "text": "deadlines.",
-          "start": 68.34666666666666,
-          "end": 68.82666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 69.70666666666666,
-      "end": 70.12666666666667,
-      "words": [
-        {
-          "text": "For",
-          "start": 69.70666666666666,
-          "end": 69.82666666666667,
-          "estimated": false
-        },
-        {
-          "text": "example,",
-          "start": 69.82666666666667,
-          "end": 70.12666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 70.66666666666667,
-      "end": 76.60666666666667,
-      "words": [
-        {
-          "text": "missing",
-          "start": 70.66666666666667,
-          "end": 71.04666666666667,
-          "estimated": false
-        },
-        {
-          "text": "a",
-          "start": 71.04666666666667,
-          "end": 71.22666666666666,
-          "estimated": false
-        },
-        {
-          "text": "three-hundred-sixty-five-business-day",
-          "start": 71.22666666666666,
-          "end": 72.95666666666666,
-          "estimated": true
-        },
-        {
-          "text": "environmental-report",
-          "start": 72.95666666666666,
-          "end": 74.68666666666667,
-          "estimated": true
-        },
-        {
-          "text": "deadline",
-          "start": 74.68666666666667,
-          "end": 75.10666666666667,
-          "estimated": false
-        },
-        {
-          "text": "could",
-          "start": 75.10666666666667,
-          "end": 75.76666666666667,
-          "estimated": false
-        },
-        {
-          "text": "trigger",
-          "start": 75.76666666666667,
-          "end": 76.06666666666666,
-          "estimated": false
-        },
-        {
-          "text": "a",
-          "start": 76.06666666666666,
-          "end": 76.32666666666667,
-          "estimated": false
-        },
-        {
-          "text": "hearing",
-          "start": 76.32666666666667,
-          "end": 76.60666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 76.60666666666667,
-      "end": 78.78666666666666,
-      "words": [
-        {
-          "text": "request",
-          "start": 76.60666666666667,
-          "end": 77.14666666666666,
-          "estimated": false
-        },
-        {
-          "text": "and",
-          "start": 77.14666666666666,
-          "end": 77.76666666666667,
-          "estimated": false
-        },
-        {
-          "text": "potentially",
-          "start": 77.76666666666667,
-          "end": 78.20666666666666,
-          "estimated": false
-        },
-        {
-          "text": "a",
-          "start": 78.20666666666666,
-          "end": 78.46666666666667,
-          "estimated": false
-        },
-        {
-          "text": "lawsuit.",
-          "start": 78.46666666666667,
-          "end": 78.78666666666666,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 79.64666666666668,
-      "end": 82.08666666666667,
-      "words": [
-        {
-          "text": "It",
-          "start": 79.64666666666668,
-          "end": 79.70666666666666,
-          "estimated": false
-        },
-        {
-          "text": "is",
-          "start": 79.70666666666666,
-          "end": 79.80666666666667,
-          "estimated": false
-        },
-        {
-          "text": "not",
-          "start": 79.80666666666667,
-          "end": 79.98666666666666,
-          "estimated": false
-        },
-        {
-          "text": "automatic",
-          "start": 79.98666666666666,
-          "end": 80.46666666666667,
-          "estimated": false
-        },
-        {
-          "text": "approval",
-          "start": 80.46666666666667,
-          "end": 81.02666666666667,
-          "estimated": false
-        },
-        {
-          "text": "after",
-          "start": 81.02666666666667,
-          "end": 81.56666666666666,
-          "estimated": false
-        },
-        {
-          "text": "a",
-          "start": 81.56666666666666,
-          "end": 81.76666666666667,
-          "estimated": false
-        },
-        {
-          "text": "year.",
-          "start": 81.76666666666667,
-          "end": 82.08666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 82.60666666666667,
-      "end": 85.42666666666666,
-      "words": [
-        {
-          "text": "Review",
-          "start": 82.60666666666667,
-          "end": 82.94666666666666,
-          "estimated": false
-        },
-        {
-          "text": "would",
-          "start": 82.94666666666666,
-          "end": 83.22666666666666,
-          "estimated": false
-        },
-        {
-          "text": "use",
-          "start": 83.22666666666666,
-          "end": 83.42666666666666,
-          "estimated": false
-        },
-        {
-          "text": "standards",
-          "start": 83.42666666666666,
-          "end": 83.90666666666667,
-          "estimated": false
-        },
-        {
-          "text": "in",
-          "start": 83.90666666666667,
-          "end": 84.24666666666667,
-          "estimated": false
-        },
-        {
-          "text": "place",
-          "start": 84.24666666666667,
-          "end": 84.56666666666666,
-          "estimated": false
-        },
-        {
-          "text": "when",
-          "start": 84.56666666666666,
-          "end": 84.88666666666667,
-          "estimated": false
-        },
-        {
-          "text": "the",
-          "start": 84.88666666666667,
-          "end": 85.00666666666666,
-          "estimated": false
-        },
-        {
-          "text": "application",
-          "start": 85.00666666666666,
-          "end": 85.42666666666666,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 85.42666666666666,
-      "end": 86.28666666666666,
-      "words": [
-        {
-          "text": "is",
-          "start": 85.42666666666666,
-          "end": 85.90666666666667,
-          "estimated": false
-        },
-        {
-          "text": "submitted.",
-          "start": 85.90666666666667,
-          "end": 86.28666666666666,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 86.88666666666667,
-      "end": 89.74666666666667,
-      "words": [
-        {
-          "text": "The",
-          "start": 86.88666666666667,
-          "end": 86.94666666666666,
-          "estimated": false
-        },
-        {
-          "text": "applicant",
-          "start": 86.94666666666666,
-          "end": 87.26666666666667,
-          "estimated": false
-        },
-        {
-          "text": "could",
-          "start": 87.26666666666667,
-          "end": 87.56666666666666,
-          "estimated": false
-        },
-        {
-          "text": "offer",
-          "start": 87.56666666666666,
-          "end": 87.98666666666666,
-          "estimated": false
-        },
-        {
-          "text": "one",
-          "start": 87.98666666666666,
-          "end": 88.26666666666667,
-          "estimated": false
-        },
-        {
-          "text": "alternative",
-          "start": 88.26666666666667,
-          "end": 88.82666666666667,
-          "estimated": false
-        },
-        {
-          "text": "instead",
-          "start": 88.82666666666667,
-          "end": 89.36666666666667,
-          "estimated": false
-        },
-        {
-          "text": "of",
-          "start": 89.36666666666667,
-          "end": 89.68666666666667,
-          "estimated": false
-        },
-        {
-          "text": "an",
-          "start": 89.68666666666667,
-          "end": 89.74666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 89.74666666666667,
-      "end": 91.16666666666667,
-      "words": [
-        {
-          "text": "agency",
-          "start": 89.74666666666667,
-          "end": 90.28666666666666,
-          "estimated": false
-        },
-        {
-          "text": "developing",
-          "start": 90.28666666666666,
-          "end": 90.64666666666668,
-          "estimated": false
-        },
-        {
-          "text": "several.",
-          "start": 90.64666666666668,
-          "end": 91.16666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 92.02666666666667,
-      "end": 96.22666666666666,
-      "words": [
-        {
-          "text": "Public-comment",
-          "start": 92.02666666666667,
-          "end": 92.56666666666666,
-          "estimated": true
-        },
-        {
-          "text": "periods",
-          "start": 92.56666666666666,
-          "end": 93.10666666666667,
-          "estimated": false
-        },
-        {
-          "text": "would",
-          "start": 93.10666666666667,
-          "end": 93.46666666666667,
-          "estimated": false
-        },
-        {
-          "text": "have",
-          "start": 93.46666666666667,
-          "end": 93.60666666666667,
-          "estimated": false
-        },
-        {
-          "text": "maximums,",
-          "start": 93.60666666666667,
-          "end": 94.44666666666666,
-          "estimated": false
-        },
-        {
-          "text": "and",
-          "start": 94.44666666666666,
-          "end": 94.84666666666666,
-          "estimated": false
-        },
-        {
-          "text": "required",
-          "start": 94.84666666666666,
-          "end": 95.20666666666668,
-          "estimated": false
-        },
-        {
-          "text": "tribal",
-          "start": 95.20666666666668,
-          "end": 95.70666666666668,
-          "estimated": false
-        },
-        {
-          "text": "consultation",
-          "start": 95.70666666666668,
-          "end": 96.22666666666666,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 96.22666666666666,
-      "end": 97.54666666666667,
-      "words": [
-        {
-          "text": "would",
-          "start": 96.22666666666666,
-          "end": 97.02666666666667,
-          "estimated": false
-        },
-        {
-          "text": "be",
-          "start": 97.02666666666667,
-          "end": 97.18666666666667,
-          "estimated": false
-        },
-        {
-          "text": "narrower.",
-          "start": 97.18666666666667,
-          "end": 97.54666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 98.34666666666666,
-      "end": 101.40666666666667,
-      "words": [
-        {
-          "text": "Courts",
-          "start": 98.34666666666666,
-          "end": 98.64666666666668,
-          "estimated": false
-        },
-        {
-          "text": "would",
-          "start": 98.64666666666668,
-          "end": 98.94666666666666,
-          "estimated": false
-        },
-        {
-          "text": "have",
-          "start": 98.94666666666666,
-          "end": 99.02666666666667,
-          "estimated": false
-        },
-        {
-          "text": "less",
-          "start": 99.02666666666667,
-          "end": 99.26666666666667,
-          "estimated": false
-        },
-        {
-          "text": "scope",
-          "start": 99.26666666666667,
-          "end": 99.60666666666667,
-          "estimated": false
-        },
-        {
-          "text": "to",
-          "start": 99.60666666666667,
-          "end": 99.86666666666667,
-          "estimated": false
-        },
-        {
-          "text": "review",
-          "start": 99.86666666666667,
-          "end": 100.10666666666667,
-          "estimated": false
-        },
-        {
-          "text": "challenges",
-          "start": 100.10666666666667,
-          "end": 100.62666666666667,
-          "estimated": false
-        },
-        {
-          "text": "and",
-          "start": 100.62666666666667,
-          "end": 101.40666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 101.40666666666667,
-      "end": 104.54666666666667,
-      "words": [
-        {
-          "text": "could",
-          "start": 101.40666666666667,
-          "end": 101.56666666666666,
-          "estimated": false
-        },
-        {
-          "text": "stop",
-          "start": 101.56666666666666,
-          "end": 101.90666666666667,
-          "estimated": false
-        },
-        {
-          "text": "the",
-          "start": 101.90666666666667,
-          "end": 102.12666666666667,
-          "estimated": false
-        },
-        {
-          "text": "noncompliant",
-          "start": 102.12666666666667,
-          "end": 102.98666666666666,
-          "estimated": true
-        },
-        {
-          "text": "portion",
-          "start": 102.98666666666666,
-          "end": 103.44666666666666,
-          "estimated": false
-        },
-        {
-          "text": "rather",
-          "start": 103.44666666666666,
-          "end": 103.98666666666666,
-          "estimated": false
-        },
-        {
-          "text": "than",
-          "start": 103.98666666666666,
-          "end": 104.28666666666666,
-          "estimated": false
-        },
-        {
-          "text": "the",
-          "start": 104.28666666666666,
-          "end": 104.36666666666667,
-          "estimated": false
-        },
-        {
-          "text": "whole",
-          "start": 104.36666666666667,
-          "end": 104.54666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 104.54666666666667,
-      "end": 105.12666666666667,
-      "words": [
-        {
-          "text": "project.",
-          "start": 104.54666666666667,
-          "end": 105.12666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 105.84666666666666,
-      "end": 108.40666666666667,
-      "words": [
-        {
-          "text": "Other",
-          "start": 105.84666666666666,
-          "end": 106.00666666666666,
-          "estimated": false
-        },
-        {
-          "text": "permits",
-          "start": 106.00666666666666,
-          "end": 106.28666666666666,
-          "estimated": false
-        },
-        {
-          "text": "and",
-          "start": 106.28666666666666,
-          "end": 106.64666666666668,
-          "estimated": false
-        },
-        {
-          "text": "legal",
-          "start": 106.64666666666668,
-          "end": 106.88666666666667,
-          "estimated": false
-        },
-        {
-          "text": "requirements",
-          "start": 106.88666666666667,
-          "end": 107.60666666666667,
-          "estimated": false
-        },
-        {
-          "text": "still",
-          "start": 107.60666666666667,
-          "end": 107.96666666666667,
-          "estimated": false
-        },
-        {
-          "text": "matter.",
-          "start": 107.96666666666667,
-          "end": 108.40666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 108.82666666666667,
-      "end": 112.12666666666667,
-      "words": [
-        {
-          "text": "Faster",
-          "start": 108.82666666666667,
-          "end": 109.00666666666666,
-          "estimated": false
-        },
-        {
-          "text": "review",
-          "start": 109.00666666666666,
-          "end": 109.42666666666668,
-          "estimated": false
-        },
-        {
-          "text": "does",
-          "start": 109.42666666666668,
-          "end": 109.74666666666667,
-          "estimated": false
-        },
-        {
-          "text": "not",
-          "start": 109.74666666666667,
-          "end": 109.94666666666666,
-          "estimated": false
-        },
-        {
-          "text": "mean",
-          "start": 109.94666666666666,
-          "end": 110.20666666666668,
-          "estimated": false
-        },
-        {
-          "text": "every",
-          "start": 110.20666666666668,
-          "end": 110.50666666666666,
-          "estimated": false
-        },
-        {
-          "text": "project",
-          "start": 110.50666666666666,
-          "end": 111.06666666666666,
-          "estimated": false
-        },
-        {
-          "text": "becomes",
-          "start": 111.06666666666666,
-          "end": 111.56666666666666,
-          "estimated": false
-        },
-        {
-          "text": "buildable",
-          "start": 111.56666666666666,
-          "end": 112.12666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 112.12666666666667,
-      "end": 112.84666666666666,
-      "words": [
-        {
-          "text": "or",
-          "start": 112.12666666666667,
-          "end": 112.42666666666668,
-          "estimated": false
-        },
-        {
-          "text": "affordable.",
-          "start": 112.42666666666668,
-          "end": 112.84666666666666,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 114.08666666666667,
-      "end": 116.52666666666667,
-      "words": [
-        {
-          "text": "Initial",
-          "start": 114.08666666666667,
-          "end": 114.08666666666667,
-          "estimated": false
-        },
-        {
-          "text": "government",
-          "start": 114.08666666666667,
-          "end": 114.44666666666666,
-          "estimated": false
-        },
-        {
-          "text": "costs",
-          "start": 114.44666666666666,
-          "end": 114.82666666666667,
-          "estimated": false
-        },
-        {
-          "text": "could",
-          "start": 114.82666666666667,
-          "end": 115.22666666666666,
-          "estimated": false
-        },
-        {
-          "text": "reach",
-          "start": 115.22666666666666,
-          "end": 115.48666666666666,
-          "estimated": false
-        },
-        {
-          "text": "the",
-          "start": 115.48666666666666,
-          "end": 115.68666666666667,
-          "estimated": false
-        },
-        {
-          "text": "high",
-          "start": 115.68666666666667,
-          "end": 115.88666666666667,
-          "estimated": false
-        },
-        {
-          "text": "tens",
-          "start": 115.88666666666667,
-          "end": 116.28666666666666,
-          "estimated": false
-        },
-        {
-          "text": "of",
-          "start": 116.28666666666666,
-          "end": 116.52666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 116.52666666666667,
-      "end": 117.40666666666667,
-      "words": [
-        {
-          "text": "millions",
-          "start": 116.52666666666667,
-          "end": 116.80666666666667,
-          "estimated": false
-        },
-        {
-          "text": "annually,",
-          "start": 116.80666666666667,
-          "end": 117.40666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 117.98666666666666,
-      "end": 121.68666666666667,
-      "words": [
-        {
-          "text": "potentially",
-          "start": 117.98666666666666,
-          "end": 118.34666666666666,
-          "estimated": false
-        },
-        {
-          "text": "over",
-          "start": 118.34666666666666,
-          "end": 118.84666666666666,
-          "estimated": false
-        },
-        {
-          "text": "one",
-          "start": 118.84666666666666,
-          "end": 119.05666666666667,
-          "estimated": true
-        },
-        {
-          "text": "hundred",
-          "start": 119.05666666666667,
-          "end": 119.26666666666667,
-          "estimated": true
-        },
-        {
-          "text": "million,",
-          "start": 119.26666666666667,
-          "end": 119.74666666666667,
-          "estimated": false
-        },
-        {
-          "text": "partly",
-          "start": 120.24666666666667,
-          "end": 120.56666666666666,
-          "estimated": false
-        },
-        {
-          "text": "covered",
-          "start": 120.56666666666666,
-          "end": 121.02666666666667,
-          "estimated": false
-        },
-        {
-          "text": "by",
-          "start": 121.02666666666667,
-          "end": 121.30666666666667,
-          "estimated": false
-        },
-        {
-          "text": "fees.",
-          "start": 121.30666666666667,
-          "end": 121.68666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 122.56666666666666,
-      "end": 124.34666666666666,
-      "words": [
-        {
-          "text": "Longer-term",
-          "start": 122.56666666666666,
-          "end": 123.20666666666668,
-          "estimated": true
-        },
-        {
-          "text": "effects",
-          "start": 123.20666666666668,
-          "end": 123.64666666666668,
-          "estimated": false
-        },
-        {
-          "text": "are",
-          "start": 123.64666666666668,
-          "end": 123.88666666666667,
-          "estimated": false
-        },
-        {
-          "text": "uncertain:",
-          "start": 123.88666666666667,
-          "end": 124.34666666666666,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 125.12666666666667,
-      "end": 129.44666666666666,
-      "words": [
-        {
-          "text": "faster",
-          "start": 125.12666666666667,
-          "end": 125.32666666666667,
-          "estimated": false
-        },
-        {
-          "text": "construction",
-          "start": 125.32666666666667,
-          "end": 125.72666666666666,
-          "estimated": false
-        },
-        {
-          "text": "may",
-          "start": 125.72666666666666,
-          "end": 126.34666666666666,
-          "estimated": false
-        },
-        {
-          "text": "save",
-          "start": 126.34666666666666,
-          "end": 126.66666666666666,
-          "estimated": false
-        },
-        {
-          "text": "money,",
-          "start": 126.66666666666666,
-          "end": 127.04666666666668,
-          "estimated": false
-        },
-        {
-          "text": "while",
-          "start": 127.04666666666668,
-          "end": 127.70666666666668,
-          "estimated": false
-        },
-        {
-          "text": "additional",
-          "start": 127.70666666666668,
-          "end": 128.08666666666667,
-          "estimated": false
-        },
-        {
-          "text": "environmental",
-          "start": 128.08666666666667,
-          "end": 128.70666666666668,
-          "estimated": false
-        },
-        {
-          "text": "harm",
-          "start": 128.70666666666668,
-          "end": 129.44666666666666,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 129.44666666666666,
-      "end": 130.48666666666668,
-      "words": [
-        {
-          "text": "could",
-          "start": 129.44666666666666,
-          "end": 129.72666666666666,
-          "estimated": false
-        },
-        {
-          "text": "create",
-          "start": 129.72666666666666,
-          "end": 130.06666666666666,
-          "estimated": false
-        },
-        {
-          "text": "costs.",
-          "start": 130.06666666666666,
-          "end": 130.48666666666668,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 131.2,
-      "end": 134.61999999999998,
-      "words": [
-        {
-          "text": "A",
-          "start": 131.2,
-          "end": 131.48,
-          "estimated": false
-        },
-        {
-          "text": "voter",
-          "start": 131.48,
-          "end": 131.72,
-          "estimated": false
-        },
-        {
-          "text": "might",
-          "start": 131.72,
-          "end": 132.04,
-          "estimated": false
-        },
-        {
-          "text": "support",
-          "start": 132.04,
-          "end": 132.39999999999998,
+          "start": 23.1,
+          "end": 23.6,
           "estimated": false
         },
         {
           "text": "more",
-          "start": 132.39999999999998,
-          "end": 132.85999999999999,
-          "estimated": false
-        },
-        {
-          "text": "predictable",
-          "start": 132.85999999999999,
-          "end": 133.23999999999998,
-          "estimated": false
-        },
-        {
-          "text": "schedules",
-          "start": 133.23999999999998,
-          "end": 133.95999999999998,
-          "estimated": false
-        },
-        {
-          "text": "and",
-          "start": 133.95999999999998,
-          "end": 134.33999999999997,
-          "estimated": false
-        },
-        {
-          "text": "fewer",
-          "start": 134.33999999999997,
-          "end": 134.61999999999998,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 134.61999999999998,
-      "end": 139.5,
-      "words": [
-        {
-          "text": "project-wide",
-          "start": 134.61999999999998,
-          "end": 135.57999999999998,
-          "estimated": true
-        },
-        {
-          "text": "shutdowns,",
-          "start": 135.57999999999998,
-          "end": 136.56,
-          "estimated": false
-        },
-        {
-          "text": "hoping",
-          "start": 136.76,
-          "end": 137.06,
-          "estimated": false
-        },
-        {
-          "text": "to",
-          "start": 137.06,
-          "end": 137.35999999999999,
-          "estimated": false
-        },
-        {
-          "text": "deliver",
-          "start": 137.35999999999999,
-          "end": 137.66,
-          "estimated": false
-        },
-        {
-          "text": "homes",
-          "start": 137.66,
-          "end": 138.17999999999998,
-          "estimated": false
-        },
-        {
-          "text": "and",
-          "start": 138.17999999999998,
-          "end": 138.56,
-          "estimated": false
-        },
-        {
-          "text": "infrastructure",
-          "start": 138.56,
-          "end": 138.88,
-          "estimated": false
-        },
-        {
-          "text": "sooner.",
-          "start": 138.88,
-          "end": 139.5,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 140.33999999999997,
-      "end": 142.11999999999998,
-      "words": [
-        {
-          "text": "They",
-          "start": 140.33999999999997,
-          "end": 140.42,
-          "estimated": false
-        },
-        {
-          "text": "may",
-          "start": 140.42,
-          "end": 140.54,
-          "estimated": false
-        },
-        {
-          "text": "judge",
-          "start": 140.54,
-          "end": 140.94,
-          "estimated": false
-        },
-        {
-          "text": "delay",
-          "start": 140.94,
-          "end": 141.29999999999998,
-          "estimated": false
-        },
-        {
-          "text": "itself",
-          "start": 141.29999999999998,
-          "end": 141.79999999999998,
+          "start": 23.6,
+          "end": 23.96,
           "estimated": false
         },
         {
           "text": "costly.",
-          "start": 141.79999999999998,
-          "end": 142.11999999999998,
+          "start": 23.96,
+          "end": 24.42,
           "estimated": false
         }
       ]
     },
     {
-      "start": 143.1,
-      "end": 146.17999999999998,
-      "words": [
-        {
-          "text": "That",
-          "start": 143.1,
-          "end": 143.17999999999998,
-          "estimated": false
-        },
-        {
-          "text": "benefit",
-          "start": 143.17999999999998,
-          "end": 143.6,
-          "estimated": false
-        },
-        {
-          "text": "depends",
-          "start": 143.6,
-          "end": 143.89999999999998,
-          "estimated": false
-        },
-        {
-          "text": "on",
-          "start": 143.89999999999998,
-          "end": 144.32,
-          "estimated": false
-        },
-        {
-          "text": "actual",
-          "start": 144.32,
-          "end": 144.56,
-          "estimated": false
-        },
-        {
-          "text": "projects",
-          "start": 144.56,
-          "end": 145.28,
-          "estimated": false
-        },
-        {
-          "text": "moving",
-          "start": 145.28,
-          "end": 145.64,
-          "estimated": false
-        },
-        {
-          "text": "forward,",
-          "start": 145.64,
-          "end": 146.17999999999998,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 146.76,
-      "end": 148.62,
-      "words": [
-        {
-          "text": "not",
-          "start": 146.76,
-          "end": 146.89999999999998,
-          "estimated": false
-        },
-        {
-          "text": "merely",
-          "start": 146.89999999999998,
-          "end": 147.22,
-          "estimated": false
-        },
-        {
-          "text": "shorter",
-          "start": 147.22,
-          "end": 147.7,
-          "estimated": false
-        },
-        {
-          "text": "review",
-          "start": 147.7,
-          "end": 147.98,
-          "estimated": false
-        },
-        {
-          "text": "documents.",
-          "start": 147.98,
-          "end": 148.62,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 149.36666666666667,
-      "end": 151.90666666666667,
-      "words": [
-        {
-          "text": "You",
-          "start": 149.36666666666667,
-          "end": 149.60666666666668,
-          "estimated": false
-        },
-        {
-          "text": "might",
-          "start": 149.60666666666668,
-          "end": 149.74666666666667,
-          "estimated": false
-        },
-        {
-          "text": "ask",
-          "start": 149.74666666666667,
-          "end": 150.08666666666667,
-          "estimated": false
-        },
-        {
-          "text": "what",
-          "start": 150.08666666666667,
-          "end": 150.36666666666667,
-          "estimated": false
-        },
-        {
-          "text": "evidence",
-          "start": 150.36666666666667,
-          "end": 150.66666666666669,
-          "estimated": false
-        },
-        {
-          "text": "or",
-          "start": 150.66666666666669,
-          "end": 151.06666666666666,
-          "estimated": false
-        },
-        {
-          "text": "voices",
-          "start": 151.06666666666666,
-          "end": 151.48666666666668,
-          "estimated": false
-        },
-        {
-          "text": "could",
-          "start": 151.48666666666668,
-          "end": 151.78666666666666,
-          "estimated": false
-        },
-        {
-          "text": "be",
-          "start": 151.78666666666666,
-          "end": 151.90666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 151.90666666666667,
-      "end": 152.12666666666667,
-      "words": [
-        {
-          "text": "missed.",
-          "start": 151.90666666666667,
-          "end": 152.12666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 153.12666666666667,
-      "end": 155.30666666666667,
-      "words": [
-        {
-          "text": "Another",
-          "start": 153.12666666666667,
-          "end": 153.12666666666667,
-          "estimated": false
-        },
-        {
-          "text": "voter",
-          "start": 153.12666666666667,
-          "end": 153.40666666666667,
-          "estimated": false
-        },
-        {
-          "text": "could",
-          "start": 153.40666666666667,
-          "end": 153.7266666666667,
-          "estimated": false
-        },
-        {
-          "text": "object",
-          "start": 153.7266666666667,
-          "end": 154.00666666666666,
-          "estimated": false
-        },
-        {
-          "text": "to",
-          "start": 154.00666666666666,
-          "end": 154.32666666666668,
-          "estimated": false
-        },
-        {
-          "text": "fewer",
-          "start": 154.32666666666668,
-          "end": 154.64666666666668,
-          "estimated": false
-        },
-        {
-          "text": "alternatives,",
-          "start": 154.64666666666668,
-          "end": 155.30666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 156.04666666666668,
-      "end": 157.30666666666667,
-      "words": [
-        {
-          "text": "tighter",
-          "start": 156.04666666666668,
-          "end": 156.26666666666668,
-          "estimated": false
-        },
-        {
-          "text": "public",
-          "start": 156.26666666666668,
-          "end": 156.66666666666669,
-          "estimated": false
-        },
-        {
-          "text": "participation,",
-          "start": 156.66666666666669,
-          "end": 157.30666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 158.12666666666667,
-      "end": 160.24666666666667,
-      "words": [
-        {
-          "text": "or",
-          "start": 158.12666666666667,
-          "end": 158.24666666666667,
-          "estimated": false
-        },
-        {
-          "text": "narrower",
-          "start": 158.24666666666667,
-          "end": 158.82666666666668,
-          "estimated": false
-        },
-        {
-          "text": "court",
-          "start": 158.82666666666668,
-          "end": 159.24666666666667,
-          "estimated": false
-        },
-        {
-          "text": "and",
-          "start": 159.24666666666667,
-          "end": 159.48666666666668,
-          "estimated": false
-        },
-        {
-          "text": "tribal",
-          "start": 159.48666666666668,
-          "end": 159.80666666666667,
-          "estimated": false
-        },
-        {
-          "text": "review.",
-          "start": 159.80666666666667,
-          "end": 160.24666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 161.06666666666666,
-      "end": 164.00666666666666,
-      "words": [
-        {
-          "text": "They",
-          "start": 161.06666666666666,
-          "end": 161.16666666666669,
-          "estimated": false
-        },
-        {
-          "text": "may",
-          "start": 161.16666666666669,
-          "end": 161.30666666666667,
-          "estimated": false
-        },
-        {
-          "text": "worry",
-          "start": 161.30666666666667,
-          "end": 161.66666666666669,
-          "estimated": false
-        },
-        {
-          "text": "that",
-          "start": 161.66666666666669,
-          "end": 161.90666666666667,
-          "estimated": false
-        },
-        {
-          "text": "faster",
-          "start": 161.90666666666667,
-          "end": 162.18666666666667,
-          "estimated": false
-        },
-        {
-          "text": "decisions",
-          "start": 162.18666666666667,
-          "end": 162.78666666666666,
-          "estimated": false
-        },
-        {
-          "text": "shift",
-          "start": 162.78666666666666,
-          "end": 163.24666666666667,
-          "estimated": false
-        },
-        {
-          "text": "costs",
-          "start": 163.24666666666667,
-          "end": 163.60666666666668,
-          "estimated": false
-        },
-        {
-          "text": "onto",
-          "start": 163.60666666666668,
-          "end": 164.00666666666666,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 164.00666666666666,
-      "end": 165.68666666666667,
-      "words": [
-        {
-          "text": "communities",
-          "start": 164.00666666666666,
-          "end": 164.52666666666667,
-          "estimated": false
-        },
-        {
-          "text": "or",
-          "start": 164.52666666666667,
-          "end": 165.02666666666667,
-          "estimated": false
-        },
-        {
-          "text": "the",
-          "start": 165.02666666666667,
-          "end": 165.26666666666668,
-          "estimated": false
-        },
-        {
-          "text": "environment.",
-          "start": 165.26666666666668,
-          "end": 165.68666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 166.62666666666667,
-      "end": 169.66666666666669,
+      "start": 24.42,
+      "end": 28.38,
       "words": [
         {
           "text": "The",
-          "start": 166.62666666666667,
-          "end": 166.7266666666667,
+          "start": 24.42,
+          "end": 25.02,
           "estimated": false
         },
         {
-          "text": "question",
-          "start": 166.7266666666667,
-          "end": 167.10666666666668,
+          "text": "proposal",
+          "start": 25.02,
+          "end": 25.32,
           "estimated": false
         },
         {
-          "text": "is",
-          "start": 167.10666666666668,
-          "end": 167.58666666666667,
+          "text": "offers",
+          "start": 25.32,
+          "end": 25.96,
           "estimated": false
         },
         {
-          "text": "the",
-          "start": 167.58666666666667,
-          "end": 167.74666666666667,
-          "estimated": false
-        },
-        {
-          "text": "balance",
-          "start": 167.74666666666667,
-          "end": 168.12666666666667,
-          "estimated": false
-        },
-        {
-          "text": "of",
-          "start": 168.12666666666667,
-          "end": 168.38666666666668,
-          "estimated": false
-        },
-        {
-          "text": "speed",
-          "start": 168.38666666666668,
-          "end": 168.7266666666667,
-          "estimated": false
-        },
-        {
-          "text": "and",
-          "start": 168.7266666666667,
-          "end": 169.08666666666667,
-          "estimated": false
-        },
-        {
-          "text": "accountability,",
-          "start": 169.08666666666667,
-          "end": 169.66666666666669,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 170.42666666666668,
-      "end": 172.32666666666668,
-      "words": [
-        {
-          "text": "not",
-          "start": 170.42666666666668,
-          "end": 170.54666666666668,
-          "estimated": false
-        },
-        {
-          "text": "whether",
-          "start": 170.54666666666668,
-          "end": 170.7866666666667,
-          "estimated": false
-        },
-        {
-          "text": "review",
-          "start": 170.7866666666667,
-          "end": 171.18666666666667,
-          "estimated": false
-        },
-        {
-          "text": "should",
-          "start": 171.18666666666667,
-          "end": 171.48666666666668,
-          "estimated": false
-        },
-        {
-          "text": "exist",
-          "start": 171.48666666666668,
-          "end": 171.7266666666667,
-          "estimated": false
-        },
-        {
-          "text": "at",
-          "start": 171.7266666666667,
-          "end": 172.04666666666668,
-          "estimated": false
-        },
-        {
-          "text": "all.",
-          "start": 172.04666666666668,
-          "end": 172.32666666666668,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 172.86666666666667,
-      "end": 175.60666666666668,
-      "words": [
-        {
-          "text": "In",
-          "start": 172.86666666666667,
-          "end": 173.16666666666669,
-          "estimated": false
-        },
-        {
-          "text": "the",
-          "start": 173.16666666666669,
-          "end": 173.26666666666668,
-          "estimated": false
-        },
-        {
-          "text": "September",
-          "start": 173.26666666666668,
-          "end": 173.66666666666669,
-          "estimated": false
-        },
-        {
-          "text": "PPIC",
-          "start": 173.66666666666669,
-          "end": 174.24666666666667,
-          "estimated": false
-        },
-        {
-          "text": "survey",
-          "start": 174.24666666666667,
-          "end": 174.50666666666666,
-          "estimated": false
-        },
-        {
-          "text": "of",
-          "start": 174.50666666666666,
-          "end": 174.86666666666667,
-          "estimated": false
-        },
-        {
-          "text": "likely",
-          "start": 174.86666666666667,
-          "end": 175.06666666666666,
-          "estimated": false
-        },
-        {
-          "text": "voters,",
-          "start": 175.06666666666666,
-          "end": 175.60666666666668,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 176.32666666666668,
-      "end": 177.70666666666668,
-      "words": [
-        {
-          "text": "49",
-          "start": 176.32666666666668,
-          "end": 176.52666666666667,
-          "estimated": false
-        },
-        {
-          "text": "percent",
-          "start": 176.52666666666667,
-          "end": 177.16666666666669,
-          "estimated": true
-        },
-        {
-          "text": "said",
-          "start": 177.16666666666669,
-          "end": 177.42666666666668,
-          "estimated": false
-        },
-        {
-          "text": "yes,",
-          "start": 177.42666666666668,
-          "end": 177.70666666666668,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 178.30666666666667,
-      "end": 179.50666666666666,
-      "words": [
-        {
-          "text": "46",
-          "start": 178.30666666666667,
-          "end": 178.50666666666666,
-          "estimated": false
-        },
-        {
-          "text": "percent",
-          "start": 178.50666666666666,
-          "end": 179.16666666666669,
-          "estimated": true
-        },
-        {
-          "text": "no,",
-          "start": 179.16666666666669,
-          "end": 179.50666666666666,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 180.02666666666667,
-      "end": 181.36666666666667,
-      "words": [
-        {
-          "text": "and",
-          "start": 180.02666666666667,
-          "end": 180.10666666666668,
-          "estimated": false
-        },
-        {
-          "text": "5",
-          "start": 180.10666666666668,
-          "end": 180.46666666666667,
-          "estimated": false
-        },
-        {
-          "text": "percent",
-          "start": 180.46666666666667,
-          "end": 180.90666666666667,
-          "estimated": true
-        },
-        {
-          "text": "were",
-          "start": 180.90666666666667,
-          "end": 181.14666666666668,
-          "estimated": false
-        },
-        {
-          "text": "unsure.",
-          "start": 181.14666666666668,
-          "end": 181.36666666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 182.40666666666667,
-      "end": 183.98666666666668,
-      "words": [
-        {
-          "text": "These",
-          "start": 182.40666666666667,
-          "end": 182.56666666666666,
-          "estimated": false
-        },
-        {
-          "text": "are",
-          "start": 182.56666666666666,
-          "end": 182.80666666666667,
-          "estimated": false
-        },
-        {
-          "text": "dated",
-          "start": 182.80666666666667,
-          "end": 183.06666666666666,
-          "estimated": false
-        },
-        {
-          "text": "survey",
-          "start": 183.06666666666666,
-          "end": 183.48666666666668,
-          "estimated": false
-        },
-        {
-          "text": "results,",
-          "start": 183.48666666666668,
-          "end": 183.98666666666668,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 184.52666666666667,
-      "end": 185.7266666666667,
-      "words": [
-        {
-          "text": "not",
-          "start": 184.52666666666667,
-          "end": 184.68666666666667,
-          "estimated": false
-        },
-        {
-          "text": "votes",
-          "start": 184.68666666666667,
-          "end": 184.92666666666668,
-          "estimated": false
-        },
-        {
-          "text": "already",
-          "start": 184.92666666666668,
-          "end": 185.40666666666667,
-          "estimated": false
-        },
-        {
-          "text": "cast.",
-          "start": 185.40666666666667,
-          "end": 185.7266666666667,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 186.46666666666667,
-      "end": 188.70666666666668,
-      "words": [
-        {
-          "text": "Yes",
-          "start": 186.46666666666667,
-          "end": 186.78666666666666,
-          "estimated": false
-        },
-        {
-          "text": "creates",
-          "start": 186.78666666666666,
-          "end": 187.18666666666667,
-          "estimated": false
-        },
-        {
-          "text": "the",
-          "start": 187.18666666666667,
-          "end": 187.50666666666666,
+          "text": "an",
+          "start": 25.96,
+          "end": 26.18,
           "estimated": false
         },
         {
           "text": "optional",
-          "start": 187.50666666666666,
-          "end": 187.88666666666666,
+          "start": 26.18,
+          "end": 26.52,
           "estimated": false
         },
         {
-          "text": "new",
-          "start": 187.88666666666666,
-          "end": 188.20666666666668,
+          "text": "faster",
+          "start": 26.52,
+          "end": 26.86,
           "estimated": false
         },
         {
-          "text": "procedures;",
-          "start": 188.20666666666668,
-          "end": 188.70666666666668,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 189.60666666666665,
-      "end": 192.10666666666665,
-      "words": [
-        {
-          "text": "no",
-          "start": 189.60666666666665,
-          "end": 189.62666666666667,
-          "estimated": false
-        },
-        {
-          "text": "keeps",
-          "start": 189.62666666666667,
-          "end": 189.92666666666668,
-          "estimated": false
-        },
-        {
-          "text": "existing",
-          "start": 189.92666666666668,
-          "end": 190.56666666666666,
-          "estimated": false
-        },
-        {
-          "text": "review",
-          "start": 190.56666666666666,
-          "end": 190.96666666666667,
-          "estimated": false
-        },
-        {
-          "text": "and",
-          "start": 190.96666666666667,
-          "end": 191.32666666666668,
-          "estimated": false
-        },
-        {
-          "text": "challenge",
-          "start": 191.32666666666668,
-          "end": 191.66666666666666,
-          "estimated": false
-        },
-        {
-          "text": "procedures.",
-          "start": 191.66666666666666,
-          "end": 192.10666666666665,
-          "estimated": false
-        }
-      ]
-    },
-    {
-      "start": 193.38666666666666,
-      "end": 195.26666666666668,
-      "words": [
-        {
-          "text": "Visit",
-          "start": 193.38666666666666,
-          "end": 193.38666666666666,
-          "estimated": false
-        },
-        {
-          "text": "our",
-          "start": 193.38666666666666,
-          "end": 193.60666666666665,
-          "estimated": false
-        },
-        {
-          "text": "website",
-          "start": 193.60666666666665,
-          "end": 193.90666666666667,
+          "text": "process",
+          "start": 26.86,
+          "end": 27.46,
           "estimated": false
         },
         {
           "text": "for",
-          "start": 193.90666666666667,
-          "end": 194.28666666666666,
+          "start": 27.46,
+          "end": 27.82,
           "estimated": false
         },
         {
-          "text": "the",
-          "start": 194.28666666666666,
-          "end": 194.38666666666666,
-          "estimated": false
-        },
-        {
-          "text": "fuller",
-          "start": 194.38666666666666,
-          "end": 194.64666666666668,
-          "estimated": false
-        },
-        {
-          "text": "explanation,",
-          "start": 194.64666666666668,
-          "end": 195.26666666666668,
+          "text": "specified",
+          "start": 27.82,
+          "end": 28.38,
           "estimated": false
         }
       ]
     },
     {
-      "start": 195.90666666666667,
-      "end": 197.90666666666667,
+      "start": 28.38,
+      "end": 30.38,
       "words": [
         {
-          "text": "source",
-          "start": 195.90666666666667,
-          "end": 196.08666666666667,
+          "text": "projects,",
+          "start": 28.38,
+          "end": 28.9,
           "estimated": false
         },
         {
-          "text": "links,",
-          "start": 196.08666666666667,
-          "end": 196.46666666666667,
+          "text": "including",
+          "start": 28.9,
+          "end": 29.7,
+          "estimated": false
+        },
+        {
+          "text": "many",
+          "start": 29.7,
+          "end": 30.0,
+          "estimated": false
+        },
+        {
+          "text": "housing,",
+          "start": 30.0,
+          "end": 30.38,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 30.98,
+      "end": 31.38,
+      "words": [
+        {
+          "text": "transportation,",
+          "start": 30.98,
+          "end": 31.38,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 32.26,
+      "end": 32.54,
+      "words": [
+        {
+          "text": "water,",
+          "start": 32.26,
+          "end": 32.54,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 33.12,
+      "end": 34.94,
+      "words": [
+        {
+          "text": "health,",
+          "start": 33.12,
+          "end": 33.24,
           "estimated": false
         },
         {
           "text": "and",
-          "start": 196.46666666666667,
-          "end": 196.86666666666667,
+          "start": 33.24,
+          "end": 33.6,
           "estimated": false
         },
         {
-          "text": "official",
-          "start": 196.86666666666667,
-          "end": 197.10666666666668,
+          "text": "clean-energy",
+          "start": 33.6,
+          "end": 34.36,
           "estimated": false
         },
         {
-          "text": "voter",
-          "start": 197.10666666666668,
-          "end": 197.44666666666666,
-          "estimated": false
-        },
-        {
-          "text": "guide.",
-          "start": 197.44666666666666,
-          "end": 197.90666666666667,
+          "text": "projects.",
+          "start": 34.36,
+          "end": 34.94,
           "estimated": false
         }
       ]
     },
     {
-      "start": 198.90666666666667,
-      "end": 199.56666666666666,
+      "start": 35.7,
+      "end": 38.22,
       "words": [
         {
-          "text": "Compare",
-          "start": 198.90666666666667,
-          "end": 198.90666666666667,
+          "text": "It",
+          "start": 35.7,
+          "end": 35.76,
+          "estimated": false
+        },
+        {
+          "text": "changes",
+          "start": 35.76,
+          "end": 36.0,
+          "estimated": false
+        },
+        {
+          "text": "deadlines",
+          "start": 36.0,
+          "end": 36.5,
+          "estimated": false
+        },
+        {
+          "text": "and",
+          "start": 36.5,
+          "end": 36.92,
           "estimated": false
         },
         {
           "text": "the",
-          "start": 198.90666666666667,
-          "end": 199.10666666666668,
+          "start": 36.92,
+          "end": 37.02,
           "estimated": false
         },
         {
-          "text": "tradeoffs,",
-          "start": 199.10666666666668,
-          "end": 199.56666666666666,
-          "estimated": true
+          "text": "scope",
+          "start": 37.02,
+          "end": 37.28,
+          "estimated": false
+        },
+        {
+          "text": "of",
+          "start": 37.28,
+          "end": 37.5,
+          "estimated": false
+        },
+        {
+          "text": "review",
+          "start": 37.5,
+          "end": 37.9,
+          "estimated": false
+        },
+        {
+          "text": "and",
+          "start": 37.9,
+          "end": 38.22,
+          "estimated": false
         }
       ]
     },
     {
-      "start": 200.18666666666667,
-      "end": 201.96666666666667,
+      "start": 38.22,
+      "end": 38.58,
       "words": [
         {
+          "text": "litigation,",
+          "start": 38.22,
+          "end": 38.58,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 39.38,
+      "end": 41.28,
+      "words": [
+        {
+          "text": "not",
+          "start": 39.38,
+          "end": 40.06,
+          "estimated": false
+        },
+        {
+          "text": "just",
+          "start": 40.06,
+          "end": 40.26,
+          "estimated": false
+        },
+        {
+          "text": "the",
+          "start": 40.26,
+          "end": 40.44,
+          "estimated": false
+        },
+        {
+          "text": "speed",
+          "start": 40.44,
+          "end": 40.7,
+          "estimated": false
+        },
+        {
+          "text": "of",
+          "start": 40.7,
+          "end": 40.92,
+          "estimated": false
+        },
+        {
+          "text": "paperwork.",
+          "start": 40.92,
+          "end": 41.28,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 41.88,
+      "end": 45.4,
+      "words": [
+        {
+          "text": "Imagine",
+          "start": 41.88,
+          "end": 42.08,
+          "estimated": false
+        },
+        {
+          "text": "a",
+          "start": 42.08,
+          "end": 42.4,
+          "estimated": false
+        },
+        {
+          "text": "planner",
+          "start": 42.4,
+          "end": 42.74,
+          "estimated": false
+        },
+        {
+          "text": "preparing",
+          "start": 42.74,
+          "end": 44.16,
+          "estimated": false
+        },
+        {
+          "text": "a",
+          "start": 44.16,
+          "end": 44.38,
+          "estimated": false
+        },
+        {
+          "text": "new",
+          "start": 44.38,
+          "end": 44.54,
+          "estimated": false
+        },
+        {
+          "text": "housing",
+          "start": 44.54,
+          "end": 44.82,
+          "estimated": false
+        },
+        {
+          "text": "project.",
+          "start": 44.82,
+          "end": 45.4,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 46.04,
+      "end": 48.82,
+      "words": [
+        {
+          "text": "Residents",
+          "start": 46.04,
+          "end": 46.16,
+          "estimated": false
+        },
+        {
+          "text": "may",
+          "start": 46.16,
+          "end": 46.58,
+          "estimated": false
+        },
+        {
+          "text": "want",
+          "start": 46.58,
+          "end": 46.84,
+          "estimated": false
+        },
+        {
+          "text": "homes",
+          "start": 46.84,
+          "end": 47.14,
+          "estimated": false
+        },
+        {
+          "text": "built",
+          "start": 47.16,
+          "end": 47.58,
+          "estimated": false
+        },
+        {
+          "text": "sooner",
+          "start": 47.58,
+          "end": 48.02,
+          "estimated": false
+        },
+        {
+          "text": "but",
+          "start": 48.02,
+          "end": 48.24,
+          "estimated": false
+        },
+        {
+          "text": "also",
+          "start": 48.24,
+          "end": 48.44,
+          "estimated": false
+        },
+        {
+          "text": "want",
+          "start": 48.44,
+          "end": 48.82,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 48.82,
+      "end": 52.02,
+      "words": [
+        {
+          "text": "traffic,",
+          "start": 48.82,
+          "end": 49.34,
+          "estimated": false
+        },
+        {
+          "text": "water,",
+          "start": 49.62,
+          "end": 49.8,
+          "estimated": false
+        },
+        {
+          "text": "and",
+          "start": 49.8,
+          "end": 50.44,
+          "estimated": false
+        },
+        {
+          "text": "environmental",
+          "start": 50.44,
+          "end": 50.74,
+          "estimated": false
+        },
+        {
+          "text": "impacts",
+          "start": 50.74,
+          "end": 51.56,
+          "estimated": false
+        },
+        {
+          "text": "examined.",
+          "start": 51.56,
+          "end": 52.02,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 52.68,
+      "end": 53.96,
+      "words": [
+        {
+          "text": "Those",
+          "start": 52.68,
+          "end": 53.06,
+          "estimated": false
+        },
+        {
+          "text": "goals",
+          "start": 53.06,
+          "end": 53.36,
+          "estimated": false
+        },
+        {
+          "text": "can",
+          "start": 53.36,
+          "end": 53.64,
+          "estimated": false
+        },
+        {
+          "text": "overlap.",
+          "start": 53.64,
+          "end": 53.96,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 54.56,
+      "end": 57.84,
+      "words": [
+        {
+          "text": "The",
+          "start": 54.56,
+          "end": 54.64,
+          "estimated": false
+        },
+        {
+          "text": "disagreement",
+          "start": 54.64,
+          "end": 55.02,
+          "estimated": false
+        },
+        {
+          "text": "is",
+          "start": 55.02,
+          "end": 55.44,
+          "estimated": false
+        },
+        {
+          "text": "whether",
+          "start": 55.44,
+          "end": 55.64,
+          "estimated": false
+        },
+        {
+          "text": "the",
+          "start": 55.64,
+          "end": 55.9,
+          "estimated": false
+        },
+        {
+          "text": "proposed",
+          "start": 55.9,
+          "end": 56.26,
+          "estimated": false
+        },
+        {
+          "text": "process",
+          "start": 56.26,
+          "end": 57.0,
+          "estimated": false
+        },
+        {
+          "text": "keeps",
+          "start": 57.0,
+          "end": 57.38,
+          "estimated": false
+        },
+        {
+          "text": "enough",
+          "start": 57.38,
+          "end": 57.84,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 57.84,
+      "end": 60.74,
+      "words": [
+        {
+          "text": "scrutiny",
+          "start": 57.84,
+          "end": 58.28,
+          "estimated": false
+        },
+        {
+          "text": "while",
+          "start": 58.28,
+          "end": 59.14,
+          "estimated": false
+        },
+        {
+          "text": "reducing",
+          "start": 59.14,
+          "end": 59.56,
+          "estimated": false
+        },
+        {
+          "text": "avoidable",
+          "start": 59.56,
+          "end": 60.38,
+          "estimated": false
+        },
+        {
+          "text": "delay.",
+          "start": 60.38,
+          "end": 60.74,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 61.56,
+      "end": 64.34,
+      "words": [
+        {
+          "text": "The",
+          "start": 61.56,
+          "end": 61.7,
+          "estimated": false
+        },
+        {
+          "text": "surrounding",
+          "start": 61.7,
+          "end": 61.94,
+          "estimated": false
+        },
+        {
+          "text": "community",
+          "start": 61.94,
+          "end": 62.6,
+          "estimated": false
+        },
+        {
+          "text": "lives",
+          "start": 62.6,
+          "end": 62.98,
+          "estimated": false
+        },
+        {
+          "text": "with",
+          "start": 62.98,
+          "end": 63.38,
+          "estimated": false
+        },
+        {
+          "text": "the",
+          "start": 63.38,
+          "end": 63.46,
+          "estimated": false
+        },
+        {
+          "text": "completed",
+          "start": 63.46,
+          "end": 63.8,
+          "estimated": false
+        },
+        {
+          "text": "project.",
+          "start": 63.8,
+          "end": 64.34,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 64.88,
+      "end": 68.22,
+      "words": [
+        {
+          "text": "For",
+          "start": 64.88,
+          "end": 65.08,
+          "estimated": false
+        },
+        {
+          "text": "projects",
+          "start": 65.08,
+          "end": 65.46,
+          "estimated": false
+        },
+        {
+          "text": "using",
+          "start": 65.46,
+          "end": 65.78,
+          "estimated": false
+        },
+        {
+          "text": "the",
+          "start": 65.78,
+          "end": 66.14,
+          "estimated": false
+        },
+        {
+          "text": "new",
+          "start": 66.14,
+          "end": 66.3,
+          "estimated": false
+        },
+        {
+          "text": "route,",
+          "start": 66.3,
+          "end": 66.62,
+          "estimated": false
+        },
+        {
+          "text": "agencies",
+          "start": 67.06,
+          "end": 67.44,
+          "estimated": false
+        },
+        {
+          "text": "would",
+          "start": 67.44,
+          "end": 67.96,
+          "estimated": false
+        },
+        {
+          "text": "set",
+          "start": 67.96,
+          "end": 68.22,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 68.22,
+      "end": 71.78,
+      "words": [
+        {
+          "text": "application",
+          "start": 68.22,
+          "end": 68.82,
+          "estimated": false
+        },
+        {
+          "text": "requirements",
+          "start": 68.82,
+          "end": 69.5,
+          "estimated": false
+        },
+        {
+          "text": "upfront",
+          "start": 69.5,
+          "end": 70.3,
+          "estimated": false
+        },
+        {
+          "text": "and",
+          "start": 70.3,
+          "end": 70.64,
+          "estimated": false
+        },
+        {
+          "text": "face",
+          "start": 70.64,
+          "end": 70.88,
+          "estimated": false
+        },
+        {
+          "text": "tighter",
+          "start": 70.88,
+          "end": 71.2,
+          "estimated": false
+        },
+        {
+          "text": "deadlines.",
+          "start": 71.2,
+          "end": 71.78,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 71.78,
+      "end": 78.82,
+      "words": [
+        {
+          "text": "For",
+          "start": 71.78,
+          "end": 72.58,
+          "estimated": false
+        },
+        {
+          "text": "example,",
+          "start": 72.58,
+          "end": 72.92,
+          "estimated": false
+        },
+        {
+          "text": "missing",
+          "start": 73.38,
+          "end": 73.76,
+          "estimated": false
+        },
+        {
+          "text": "a",
+          "start": 73.76,
+          "end": 73.98,
+          "estimated": false
+        },
+        {
+          "text": "three-hundred-sixty-five-business-day",
+          "start": 73.98,
+          "end": 75.65,
+          "estimated": false
+        },
+        {
+          "text": "environmental-report",
+          "start": 75.65,
+          "end": 77.32,
+          "estimated": false
+        },
+        {
+          "text": "deadline",
+          "start": 77.32,
+          "end": 77.84,
+          "estimated": false
+        },
+        {
+          "text": "could",
+          "start": 77.84,
+          "end": 78.44,
+          "estimated": false
+        },
+        {
+          "text": "trigger",
+          "start": 78.44,
+          "end": 78.82,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 78.82,
+      "end": 81.76,
+      "words": [
+        {
+          "text": "a",
+          "start": 78.82,
+          "end": 79.12,
+          "estimated": false
+        },
+        {
+          "text": "hearing",
+          "start": 79.12,
+          "end": 79.48,
+          "estimated": false
+        },
+        {
+          "text": "request",
+          "start": 79.48,
+          "end": 80.18,
+          "estimated": false
+        },
+        {
+          "text": "and",
+          "start": 80.18,
+          "end": 80.64,
+          "estimated": false
+        },
+        {
+          "text": "potentially",
+          "start": 80.64,
+          "end": 81.04,
+          "estimated": false
+        },
+        {
+          "text": "a",
+          "start": 81.04,
+          "end": 81.44,
+          "estimated": false
+        },
+        {
+          "text": "lawsuit.",
+          "start": 81.44,
+          "end": 81.76,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 82.5,
+      "end": 84.86,
+      "words": [
+        {
+          "text": "It",
+          "start": 82.5,
+          "end": 82.6,
+          "estimated": false
+        },
+        {
+          "text": "is",
+          "start": 82.6,
+          "end": 82.72,
+          "estimated": false
+        },
+        {
+          "text": "not",
+          "start": 82.72,
+          "end": 82.94,
+          "estimated": false
+        },
+        {
+          "text": "automatic",
+          "start": 82.94,
+          "end": 83.4,
+          "estimated": false
+        },
+        {
+          "text": "approval",
+          "start": 83.4,
+          "end": 84.02,
+          "estimated": false
+        },
+        {
+          "text": "after",
+          "start": 84.02,
+          "end": 84.56,
+          "estimated": false
+        },
+        {
+          "text": "a",
+          "start": 84.56,
+          "end": 84.71000000000001,
+          "estimated": false
+        },
+        {
+          "text": "year.",
+          "start": 84.71000000000001,
+          "end": 84.86,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 84.86,
+      "end": 88.5,
+      "words": [
+        {
+          "text": "Review",
+          "start": 84.86,
+          "end": 85.64,
+          "estimated": false
+        },
+        {
+          "text": "would",
+          "start": 85.64,
+          "end": 86.0,
+          "estimated": false
+        },
+        {
+          "text": "use",
+          "start": 86.0,
+          "end": 86.24,
+          "estimated": false
+        },
+        {
+          "text": "standards",
+          "start": 86.24,
+          "end": 86.62,
+          "estimated": false
+        },
+        {
+          "text": "in",
+          "start": 86.62,
+          "end": 87.0,
+          "estimated": false
+        },
+        {
+          "text": "place",
+          "start": 87.0,
+          "end": 87.28,
+          "estimated": false
+        },
+        {
+          "text": "when",
+          "start": 87.28,
+          "end": 87.88,
+          "estimated": false
+        },
+        {
+          "text": "the",
+          "start": 87.88,
+          "end": 88.06,
+          "estimated": false
+        },
+        {
+          "text": "application",
+          "start": 88.06,
+          "end": 88.5,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 88.5,
+      "end": 89.28,
+      "words": [
+        {
+          "text": "is",
+          "start": 88.5,
+          "end": 88.9,
+          "estimated": false
+        },
+        {
+          "text": "submitted.",
+          "start": 88.9,
+          "end": 89.28,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 89.92,
+      "end": 92.9,
+      "words": [
+        {
+          "text": "The",
+          "start": 89.92,
+          "end": 90.02,
+          "estimated": false
+        },
+        {
+          "text": "applicant",
+          "start": 90.02,
+          "end": 90.28,
+          "estimated": false
+        },
+        {
+          "text": "could",
+          "start": 90.28,
+          "end": 90.64,
+          "estimated": false
+        },
+        {
+          "text": "offer",
+          "start": 90.64,
+          "end": 91.0,
+          "estimated": false
+        },
+        {
+          "text": "one",
+          "start": 91.0,
+          "end": 91.42,
+          "estimated": false
+        },
+        {
+          "text": "alternative",
+          "start": 91.42,
+          "end": 92.02,
+          "estimated": false
+        },
+        {
+          "text": "instead",
+          "start": 92.02,
+          "end": 92.54,
+          "estimated": false
+        },
+        {
+          "text": "of",
+          "start": 92.54,
+          "end": 92.8,
+          "estimated": false
+        },
+        {
+          "text": "an",
+          "start": 92.8,
+          "end": 92.9,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 92.9,
+      "end": 94.52,
+      "words": [
+        {
+          "text": "agency",
+          "start": 92.9,
+          "end": 93.5,
+          "estimated": false
+        },
+        {
+          "text": "developing",
+          "start": 93.5,
+          "end": 93.92,
+          "estimated": false
+        },
+        {
+          "text": "several.",
+          "start": 93.92,
+          "end": 94.52,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 95.18,
+      "end": 99.16,
+      "words": [
+        {
+          "text": "Public-comment",
+          "start": 95.18,
+          "end": 95.86,
+          "estimated": false
+        },
+        {
+          "text": "periods",
+          "start": 95.86,
+          "end": 96.28,
+          "estimated": false
+        },
+        {
+          "text": "would",
+          "start": 96.28,
+          "end": 96.74,
+          "estimated": false
+        },
+        {
+          "text": "have",
+          "start": 96.74,
+          "end": 96.98,
+          "estimated": false
+        },
+        {
+          "text": "maximums,",
+          "start": 96.98,
+          "end": 97.74,
+          "estimated": false
+        },
+        {
+          "text": "and",
+          "start": 97.74,
+          "end": 97.86,
+          "estimated": false
+        },
+        {
+          "text": "required",
+          "start": 97.86,
+          "end": 98.18,
+          "estimated": false
+        },
+        {
+          "text": "tribal",
+          "start": 98.18,
+          "end": 98.82,
+          "estimated": false
+        },
+        {
+          "text": "consultation",
+          "start": 98.82,
+          "end": 99.16,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 99.16,
+      "end": 100.74,
+      "words": [
+        {
+          "text": "would",
+          "start": 99.16,
+          "end": 100.14,
+          "estimated": false
+        },
+        {
+          "text": "be",
+          "start": 100.14,
+          "end": 100.38,
+          "estimated": false
+        },
+        {
+          "text": "narrower.",
+          "start": 100.38,
+          "end": 100.74,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 100.74,
+      "end": 104.46,
+      "words": [
+        {
+          "text": "Courts",
+          "start": 100.74,
+          "end": 101.66,
+          "estimated": false
+        },
+        {
+          "text": "would",
+          "start": 101.66,
+          "end": 102.02,
+          "estimated": false
+        },
+        {
+          "text": "have",
+          "start": 102.02,
+          "end": 102.24,
+          "estimated": false
+        },
+        {
+          "text": "less",
+          "start": 102.24,
+          "end": 102.52,
+          "estimated": false
+        },
+        {
+          "text": "scope",
+          "start": 102.52,
+          "end": 102.88,
+          "estimated": false
+        },
+        {
+          "text": "to",
+          "start": 102.88,
+          "end": 103.1,
+          "estimated": false
+        },
+        {
+          "text": "review",
+          "start": 103.1,
+          "end": 103.32,
+          "estimated": false
+        },
+        {
+          "text": "challenges",
+          "start": 103.32,
+          "end": 103.74,
+          "estimated": false
+        },
+        {
+          "text": "and",
+          "start": 103.74,
+          "end": 104.46,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 104.46,
+      "end": 107.64,
+      "words": [
+        {
+          "text": "could",
+          "start": 104.46,
+          "end": 104.58,
+          "estimated": false
+        },
+        {
+          "text": "stop",
+          "start": 104.58,
+          "end": 104.96,
+          "estimated": false
+        },
+        {
+          "text": "the",
+          "start": 104.96,
+          "end": 105.22,
+          "estimated": false
+        },
+        {
+          "text": "noncompliant",
+          "start": 105.22,
+          "end": 106.3,
+          "estimated": false
+        },
+        {
+          "text": "portion",
+          "start": 106.3,
+          "end": 106.72,
+          "estimated": false
+        },
+        {
+          "text": "rather",
+          "start": 106.72,
+          "end": 107.0,
+          "estimated": false
+        },
+        {
+          "text": "than",
+          "start": 107.0,
+          "end": 107.34,
+          "estimated": false
+        },
+        {
+          "text": "the",
+          "start": 107.34,
+          "end": 107.42,
+          "estimated": false
+        },
+        {
+          "text": "whole",
+          "start": 107.42,
+          "end": 107.64,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 107.64,
+      "end": 108.2,
+      "words": [
+        {
+          "text": "project.",
+          "start": 107.64,
+          "end": 108.2,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 108.9,
+      "end": 111.32,
+      "words": [
+        {
+          "text": "Other",
+          "start": 108.9,
+          "end": 109.12,
+          "estimated": false
+        },
+        {
+          "text": "permits",
+          "start": 109.12,
+          "end": 109.4,
+          "estimated": false
+        },
+        {
+          "text": "and",
+          "start": 109.4,
+          "end": 109.78,
+          "estimated": false
+        },
+        {
+          "text": "legal",
+          "start": 109.78,
+          "end": 110.0,
+          "estimated": false
+        },
+        {
+          "text": "requirements",
+          "start": 110.0,
+          "end": 110.58,
+          "estimated": false
+        },
+        {
+          "text": "still",
+          "start": 110.58,
+          "end": 110.94,
+          "estimated": false
+        },
+        {
+          "text": "matter.",
+          "start": 110.94,
+          "end": 111.32,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 111.84,
+      "end": 115.22,
+      "words": [
+        {
+          "text": "Faster",
+          "start": 111.84,
+          "end": 112.14,
+          "estimated": false
+        },
+        {
+          "text": "review",
+          "start": 112.14,
+          "end": 112.62,
+          "estimated": false
+        },
+        {
+          "text": "does",
+          "start": 112.62,
+          "end": 112.88,
+          "estimated": false
+        },
+        {
+          "text": "not",
+          "start": 112.88,
+          "end": 113.12,
+          "estimated": false
+        },
+        {
+          "text": "mean",
+          "start": 113.12,
+          "end": 113.4,
+          "estimated": false
+        },
+        {
+          "text": "every",
+          "start": 113.4,
+          "end": 113.74,
+          "estimated": false
+        },
+        {
+          "text": "project",
+          "start": 113.74,
+          "end": 114.26,
+          "estimated": false
+        },
+        {
+          "text": "becomes",
+          "start": 114.26,
+          "end": 114.66,
+          "estimated": false
+        },
+        {
+          "text": "buildable",
+          "start": 114.66,
+          "end": 115.22,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 115.22,
+      "end": 115.86,
+      "words": [
+        {
+          "text": "or",
+          "start": 115.22,
+          "end": 115.54,
+          "estimated": false
+        },
+        {
+          "text": "affordable.",
+          "start": 115.54,
+          "end": 115.86,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 116.6,
+      "end": 119.5,
+      "words": [
+        {
+          "text": "Initial",
+          "start": 116.6,
+          "end": 117.04,
+          "estimated": false
+        },
+        {
+          "text": "government",
+          "start": 117.04,
+          "end": 117.38,
+          "estimated": false
+        },
+        {
+          "text": "costs",
+          "start": 117.38,
+          "end": 117.8,
+          "estimated": false
+        },
+        {
+          "text": "could",
+          "start": 117.8,
+          "end": 118.08,
+          "estimated": false
+        },
+        {
+          "text": "reach",
+          "start": 118.08,
+          "end": 118.36,
+          "estimated": false
+        },
+        {
+          "text": "the",
+          "start": 118.36,
+          "end": 118.64,
+          "estimated": false
+        },
+        {
+          "text": "high",
+          "start": 118.64,
+          "end": 118.86,
+          "estimated": false
+        },
+        {
+          "text": "tens",
+          "start": 118.86,
+          "end": 119.26,
+          "estimated": false
+        },
+        {
+          "text": "of",
+          "start": 119.26,
+          "end": 119.5,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 119.5,
+      "end": 120.36,
+      "words": [
+        {
+          "text": "millions",
+          "start": 119.5,
+          "end": 119.76,
+          "estimated": false
+        },
+        {
+          "text": "annually,",
+          "start": 119.76,
+          "end": 120.36,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 120.96,
+      "end": 124.68,
+      "words": [
+        {
+          "text": "potentially",
+          "start": 120.96,
+          "end": 121.36,
+          "estimated": false
+        },
+        {
+          "text": "over",
+          "start": 121.36,
+          "end": 121.76,
+          "estimated": false
+        },
+        {
+          "text": "one",
+          "start": 121.76,
+          "end": 122.06,
+          "estimated": false
+        },
+        {
+          "text": "hundred",
+          "start": 122.06,
+          "end": 122.36,
+          "estimated": false
+        },
+        {
+          "text": "million,",
+          "start": 122.36,
+          "end": 122.8,
+          "estimated": false
+        },
+        {
+          "text": "partly",
+          "start": 123.26,
+          "end": 123.68,
+          "estimated": false
+        },
+        {
+          "text": "covered",
+          "start": 123.68,
+          "end": 124.06,
+          "estimated": false
+        },
+        {
+          "text": "by",
+          "start": 124.06,
+          "end": 124.38,
+          "estimated": false
+        },
+        {
+          "text": "fees.",
+          "start": 124.38,
+          "end": 124.68,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 125.3,
+      "end": 126.8,
+      "words": [
+        {
+          "text": "Longer-term",
+          "start": 125.3,
+          "end": 125.86,
+          "estimated": false
+        },
+        {
+          "text": "effects",
+          "start": 125.86,
+          "end": 126.2,
+          "estimated": false
+        },
+        {
+          "text": "are",
+          "start": 126.2,
+          "end": 126.52,
+          "estimated": false
+        },
+        {
+          "text": "uncertain:",
+          "start": 126.52,
+          "end": 126.8,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 127.63999999999999,
+      "end": 131.84,
+      "words": [
+        {
+          "text": "faster",
+          "start": 127.63999999999999,
+          "end": 128.04,
+          "estimated": false
+        },
+        {
+          "text": "construction",
+          "start": 128.04,
+          "end": 128.44,
+          "estimated": false
+        },
+        {
+          "text": "may",
+          "start": 128.44,
+          "end": 129.0,
+          "estimated": false
+        },
+        {
+          "text": "save",
+          "start": 129.0,
+          "end": 129.26,
+          "estimated": false
+        },
+        {
+          "text": "money,",
+          "start": 129.26,
+          "end": 129.92,
+          "estimated": false
+        },
+        {
+          "text": "while",
+          "start": 129.92,
+          "end": 130.3,
+          "estimated": false
+        },
+        {
+          "text": "additional",
+          "start": 130.3,
+          "end": 130.6,
+          "estimated": false
+        },
+        {
+          "text": "environmental",
+          "start": 130.6,
+          "end": 131.12,
+          "estimated": false
+        },
+        {
+          "text": "harm",
+          "start": 131.12,
+          "end": 131.84,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 131.84,
+      "end": 133.12,
+      "words": [
+        {
+          "text": "could",
+          "start": 131.84,
+          "end": 132.36,
+          "estimated": false
+        },
+        {
+          "text": "create",
+          "start": 132.36,
+          "end": 132.74,
+          "estimated": false
+        },
+        {
+          "text": "costs.",
+          "start": 132.74,
+          "end": 133.12,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 134.18,
+      "end": 137.38,
+      "words": [
+        {
+          "text": "A",
+          "start": 134.18,
+          "end": 134.34,
+          "estimated": false
+        },
+        {
+          "text": "voter",
+          "start": 134.34,
+          "end": 134.52,
+          "estimated": false
+        },
+        {
+          "text": "might",
+          "start": 134.52,
+          "end": 134.74,
+          "estimated": false
+        },
+        {
+          "text": "support",
+          "start": 134.74,
+          "end": 135.0,
+          "estimated": false
+        },
+        {
+          "text": "more",
+          "start": 135.0,
+          "end": 135.42,
+          "estimated": false
+        },
+        {
+          "text": "predictable",
+          "start": 135.42,
+          "end": 135.82,
+          "estimated": false
+        },
+        {
+          "text": "schedules",
+          "start": 135.82,
+          "end": 136.64,
+          "estimated": false
+        },
+        {
+          "text": "and",
+          "start": 136.64,
+          "end": 137.1,
+          "estimated": false
+        },
+        {
+          "text": "fewer",
+          "start": 137.1,
+          "end": 137.38,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 137.38,
+      "end": 142.08,
+      "words": [
+        {
+          "text": "project-wide",
+          "start": 137.38,
+          "end": 138.3,
+          "estimated": false
+        },
+        {
+          "text": "shutdowns,",
+          "start": 138.3,
+          "end": 139.16,
+          "estimated": false
+        },
+        {
+          "text": "hoping",
+          "start": 139.4,
+          "end": 139.72,
+          "estimated": false
+        },
+        {
+          "text": "to",
+          "start": 139.72,
+          "end": 139.96,
+          "estimated": false
+        },
+        {
+          "text": "deliver",
+          "start": 139.96,
+          "end": 140.24,
+          "estimated": false
+        },
+        {
+          "text": "homes",
+          "start": 140.24,
+          "end": 140.68,
+          "estimated": false
+        },
+        {
+          "text": "and",
+          "start": 140.68,
+          "end": 141.04,
+          "estimated": false
+        },
+        {
+          "text": "infrastructure",
+          "start": 141.04,
+          "end": 141.34,
+          "estimated": false
+        },
+        {
+          "text": "sooner.",
+          "start": 141.34,
+          "end": 142.08,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 142.78,
+      "end": 145.1,
+      "words": [
+        {
+          "text": "They",
+          "start": 142.78,
+          "end": 143.02,
+          "estimated": false
+        },
+        {
+          "text": "may",
+          "start": 143.02,
+          "end": 143.16,
+          "estimated": false
+        },
+        {
+          "text": "judge",
+          "start": 143.16,
+          "end": 143.5,
+          "estimated": false
+        },
+        {
+          "text": "delay",
+          "start": 143.5,
+          "end": 143.94,
+          "estimated": false
+        },
+        {
+          "text": "itself",
+          "start": 143.94,
+          "end": 144.46,
+          "estimated": false
+        },
+        {
+          "text": "costly.",
+          "start": 144.46,
+          "end": 145.1,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 145.86,
+      "end": 148.82,
+      "words": [
+        {
+          "text": "That",
+          "start": 145.86,
+          "end": 145.86,
+          "estimated": false
+        },
+        {
+          "text": "benefit",
+          "start": 145.86,
+          "end": 146.34,
+          "estimated": false
+        },
+        {
+          "text": "depends",
+          "start": 146.34,
+          "end": 146.78,
+          "estimated": false
+        },
+        {
+          "text": "on",
+          "start": 146.78,
+          "end": 147.02,
+          "estimated": false
+        },
+        {
+          "text": "actual",
+          "start": 147.02,
+          "end": 147.36,
+          "estimated": false
+        },
+        {
+          "text": "projects",
+          "start": 147.36,
+          "end": 147.94,
+          "estimated": false
+        },
+        {
+          "text": "moving",
+          "start": 147.94,
+          "end": 148.3,
+          "estimated": false
+        },
+        {
+          "text": "forward,",
+          "start": 148.3,
+          "end": 148.82,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 149.34,
+      "end": 151.56,
+      "words": [
+        {
+          "text": "not",
+          "start": 149.34,
+          "end": 149.66,
+          "estimated": false
+        },
+        {
+          "text": "merely",
+          "start": 149.66,
+          "end": 149.96,
+          "estimated": false
+        },
+        {
+          "text": "shorter",
+          "start": 149.96,
+          "end": 150.48,
+          "estimated": false
+        },
+        {
+          "text": "review",
+          "start": 150.48,
+          "end": 151.0,
+          "estimated": false
+        },
+        {
+          "text": "documents.",
+          "start": 151.0,
+          "end": 151.56,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 152.22,
+      "end": 154.86,
+      "words": [
+        {
+          "text": "You",
+          "start": 152.22,
+          "end": 152.3,
+          "estimated": false
+        },
+        {
+          "text": "might",
+          "start": 152.3,
+          "end": 152.44,
+          "estimated": false
+        },
+        {
+          "text": "ask",
+          "start": 152.44,
+          "end": 152.8,
+          "estimated": false
+        },
+        {
+          "text": "what",
+          "start": 152.8,
+          "end": 153.22,
+          "estimated": false
+        },
+        {
+          "text": "evidence",
+          "start": 153.22,
+          "end": 153.66,
+          "estimated": false
+        },
+        {
+          "text": "or",
+          "start": 153.66,
+          "end": 153.94,
+          "estimated": false
+        },
+        {
+          "text": "voices",
+          "start": 153.94,
+          "end": 154.28,
+          "estimated": false
+        },
+        {
+          "text": "could",
+          "start": 154.28,
+          "end": 154.66,
+          "estimated": false
+        },
+        {
+          "text": "be",
+          "start": 154.66,
+          "end": 154.86,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 154.86,
+      "end": 155.26,
+      "words": [
+        {
+          "text": "missed.",
+          "start": 154.86,
+          "end": 155.26,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 155.26,
+      "end": 159.66,
+      "words": [
+        {
+          "text": "Another",
+          "start": 155.26,
+          "end": 156.22,
+          "estimated": false
+        },
+        {
+          "text": "voter",
+          "start": 156.22,
+          "end": 156.56,
+          "estimated": false
+        },
+        {
+          "text": "could",
+          "start": 156.56,
+          "end": 156.9,
+          "estimated": false
+        },
+        {
+          "text": "object",
+          "start": 156.9,
+          "end": 157.28,
+          "estimated": false
+        },
+        {
+          "text": "to",
+          "start": 157.28,
+          "end": 157.56,
+          "estimated": false
+        },
+        {
+          "text": "fewer",
+          "start": 157.56,
+          "end": 157.8,
+          "estimated": false
+        },
+        {
+          "text": "alternatives,",
+          "start": 157.8,
+          "end": 158.44,
+          "estimated": false
+        },
+        {
+          "text": "tighter",
+          "start": 158.94,
+          "end": 159.32,
+          "estimated": false
+        },
+        {
+          "text": "public",
+          "start": 159.32,
+          "end": 159.66,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 159.66,
+      "end": 163.16,
+      "words": [
+        {
+          "text": "participation,",
+          "start": 159.66,
+          "end": 160.38,
+          "estimated": false
+        },
+        {
+          "text": "or",
+          "start": 160.38,
+          "end": 161.1,
+          "estimated": false
+        },
+        {
+          "text": "narrower",
+          "start": 161.1,
+          "end": 161.52,
+          "estimated": false
+        },
+        {
+          "text": "court",
+          "start": 161.52,
+          "end": 162.2,
+          "estimated": false
+        },
+        {
+          "text": "and",
+          "start": 162.2,
+          "end": 162.48,
+          "estimated": false
+        },
+        {
+          "text": "tribal",
+          "start": 162.48,
+          "end": 162.74,
+          "estimated": false
+        },
+        {
+          "text": "review.",
+          "start": 162.74,
+          "end": 163.16,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 163.72,
+      "end": 167.08,
+      "words": [
+        {
+          "text": "They",
+          "start": 163.72,
+          "end": 163.94,
+          "estimated": false
+        },
+        {
+          "text": "may",
+          "start": 163.94,
+          "end": 164.08,
+          "estimated": false
+        },
+        {
+          "text": "worry",
+          "start": 164.08,
+          "end": 164.5,
+          "estimated": false
+        },
+        {
+          "text": "that",
+          "start": 164.5,
+          "end": 165.08,
+          "estimated": false
+        },
+        {
+          "text": "faster",
+          "start": 165.08,
+          "end": 165.4,
+          "estimated": false
+        },
+        {
+          "text": "decisions",
+          "start": 165.4,
+          "end": 166.06,
+          "estimated": false
+        },
+        {
+          "text": "shift",
+          "start": 166.06,
+          "end": 166.42,
+          "estimated": false
+        },
+        {
+          "text": "costs",
+          "start": 166.42,
+          "end": 166.74,
+          "estimated": false
+        },
+        {
+          "text": "onto",
+          "start": 166.74,
+          "end": 167.08,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 167.08,
+      "end": 168.5,
+      "words": [
+        {
+          "text": "communities",
+          "start": 167.08,
+          "end": 167.54,
+          "estimated": false
+        },
+        {
+          "text": "or",
+          "start": 167.54,
+          "end": 168.12,
+          "estimated": false
+        },
+        {
+          "text": "the",
+          "start": 168.12,
+          "end": 168.28,
+          "estimated": false
+        },
+        {
+          "text": "environment.",
+          "start": 168.28,
+          "end": 168.5,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 169.42,
+      "end": 171.88,
+      "words": [
+        {
+          "text": "The",
+          "start": 169.42,
+          "end": 169.54,
+          "estimated": false
+        },
+        {
+          "text": "question",
+          "start": 169.54,
+          "end": 169.72,
+          "estimated": false
+        },
+        {
+          "text": "is",
+          "start": 169.72,
+          "end": 170.08,
+          "estimated": false
+        },
+        {
+          "text": "the",
+          "start": 170.08,
+          "end": 170.2,
+          "estimated": false
+        },
+        {
+          "text": "balance",
+          "start": 170.2,
+          "end": 170.5,
+          "estimated": false
+        },
+        {
+          "text": "of",
+          "start": 170.5,
+          "end": 170.74,
+          "estimated": false
+        },
+        {
+          "text": "speed",
+          "start": 170.74,
+          "end": 171.04,
+          "estimated": false
+        },
+        {
+          "text": "and",
+          "start": 171.04,
+          "end": 171.42,
+          "estimated": false
+        },
+        {
+          "text": "accountability,",
+          "start": 171.42,
+          "end": 171.88,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 172.54,
+      "end": 175.22,
+      "words": [
+        {
+          "text": "not",
+          "start": 172.54,
+          "end": 173.06,
+          "estimated": false
+        },
+        {
+          "text": "whether",
+          "start": 173.06,
+          "end": 173.5,
+          "estimated": false
+        },
+        {
+          "text": "review",
+          "start": 173.5,
+          "end": 173.88,
+          "estimated": false
+        },
+        {
+          "text": "should",
+          "start": 173.88,
+          "end": 174.18,
+          "estimated": false
+        },
+        {
+          "text": "exist",
+          "start": 174.18,
+          "end": 174.52,
+          "estimated": false
+        },
+        {
+          "text": "at",
+          "start": 174.52,
+          "end": 175.04,
+          "estimated": false
+        },
+        {
+          "text": "all.",
+          "start": 175.04,
+          "end": 175.22,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 175.9,
+      "end": 179.48,
+      "words": [
+        {
+          "text": "In",
+          "start": 175.9,
+          "end": 175.96,
+          "estimated": false
+        },
+        {
+          "text": "the",
+          "start": 175.96,
+          "end": 176.04,
+          "estimated": false
+        },
+        {
+          "text": "September",
+          "start": 176.04,
+          "end": 176.34,
+          "estimated": false
+        },
+        {
+          "text": "PPIC",
+          "start": 176.34,
+          "end": 177.12,
+          "estimated": false
+        },
+        {
+          "text": "survey",
+          "start": 177.12,
+          "end": 177.78,
+          "estimated": false
+        },
+        {
+          "text": "of",
+          "start": 177.78,
+          "end": 178.16,
+          "estimated": false
+        },
+        {
+          "text": "likely",
+          "start": 178.16,
+          "end": 178.4,
+          "estimated": false
+        },
+        {
+          "text": "voters,",
+          "start": 178.4,
+          "end": 178.86,
+          "estimated": false
+        },
+        {
+          "text": "49",
+          "start": 179.22,
+          "end": 179.48,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 179.48,
+      "end": 183.38,
+      "words": [
+        {
+          "text": "percent",
+          "start": 179.48,
+          "end": 180.02,
+          "estimated": false
+        },
+        {
+          "text": "said",
+          "start": 180.02,
+          "end": 180.36,
+          "estimated": false
+        },
+        {
+          "text": "yes,",
+          "start": 180.36,
+          "end": 180.68,
+          "estimated": false
+        },
+        {
+          "text": "46",
+          "start": 181.12,
+          "end": 181.4,
+          "estimated": false
+        },
+        {
+          "text": "percent",
+          "start": 181.4,
+          "end": 182.02,
+          "estimated": false
+        },
+        {
+          "text": "no,",
+          "start": 182.02,
+          "end": 182.38,
+          "estimated": false
+        },
+        {
+          "text": "and",
+          "start": 182.38,
+          "end": 182.66,
+          "estimated": false
+        },
+        {
+          "text": "5",
+          "start": 182.66,
+          "end": 182.92,
+          "estimated": false
+        },
+        {
+          "text": "percent",
+          "start": 182.92,
+          "end": 183.38,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 183.38,
+      "end": 183.92,
+      "words": [
+        {
+          "text": "were",
+          "start": 183.38,
+          "end": 183.64,
+          "estimated": false
+        },
+        {
+          "text": "unsure.",
+          "start": 183.64,
+          "end": 183.92,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 183.92,
+      "end": 186.24,
+      "words": [
+        {
+          "text": "These",
+          "start": 183.92,
+          "end": 184.9,
+          "estimated": false
+        },
+        {
+          "text": "are",
+          "start": 184.9,
+          "end": 185.14,
+          "estimated": false
+        },
+        {
+          "text": "dated",
+          "start": 185.14,
+          "end": 185.4,
+          "estimated": false
+        },
+        {
+          "text": "survey",
+          "start": 185.4,
+          "end": 185.76,
+          "estimated": false
+        },
+        {
+          "text": "results,",
+          "start": 185.76,
+          "end": 186.24,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 186.76,
+      "end": 188.16,
+      "words": [
+        {
+          "text": "not",
+          "start": 186.76,
+          "end": 186.86,
+          "estimated": false
+        },
+        {
+          "text": "votes",
+          "start": 186.86,
+          "end": 187.38,
+          "estimated": false
+        },
+        {
+          "text": "already",
+          "start": 187.38,
+          "end": 187.7,
+          "estimated": false
+        },
+        {
+          "text": "cast.",
+          "start": 187.7,
+          "end": 188.16,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 188.86,
+      "end": 191.42,
+      "words": [
+        {
+          "text": "Yes",
+          "start": 188.86,
+          "end": 189.18,
+          "estimated": false
+        },
+        {
+          "text": "creates",
+          "start": 189.2,
+          "end": 189.7,
+          "estimated": false
+        },
+        {
+          "text": "the",
+          "start": 189.7,
+          "end": 190.22,
+          "estimated": false
+        },
+        {
+          "text": "optional",
+          "start": 190.22,
+          "end": 190.56,
+          "estimated": false
+        },
+        {
+          "text": "new",
+          "start": 190.56,
+          "end": 190.94,
+          "estimated": false
+        },
+        {
+          "text": "procedures;",
+          "start": 190.94,
+          "end": 191.42,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 192.32,
+      "end": 194.92,
+      "words": [
+        {
+          "text": "no",
+          "start": 192.32,
+          "end": 192.4,
+          "estimated": false
+        },
+        {
+          "text": "keeps",
+          "start": 192.4,
+          "end": 192.74,
+          "estimated": false
+        },
+        {
+          "text": "existing",
+          "start": 192.74,
+          "end": 193.42,
+          "estimated": false
+        },
+        {
+          "text": "review",
+          "start": 193.42,
+          "end": 193.82,
+          "estimated": false
+        },
+        {
+          "text": "and",
+          "start": 193.82,
+          "end": 194.12,
+          "estimated": false
+        },
+        {
+          "text": "challenge",
+          "start": 194.12,
+          "end": 194.52,
+          "estimated": false
+        },
+        {
+          "text": "procedures.",
+          "start": 194.52,
+          "end": 194.92,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 195.96,
+      "end": 197.64,
+      "words": [
+        {
+          "text": "Visit",
+          "start": 195.96,
+          "end": 195.96,
+          "estimated": false
+        },
+        {
+          "text": "our",
+          "start": 195.96,
+          "end": 196.14,
+          "estimated": false
+        },
+        {
+          "text": "website",
+          "start": 196.14,
+          "end": 196.42,
+          "estimated": false
+        },
+        {
+          "text": "for",
+          "start": 196.42,
+          "end": 196.82,
+          "estimated": false
+        },
+        {
+          "text": "the",
+          "start": 196.82,
+          "end": 196.92,
+          "estimated": false
+        },
+        {
+          "text": "fuller",
+          "start": 196.92,
+          "end": 197.1,
+          "estimated": false
+        },
+        {
+          "text": "explanation,",
+          "start": 197.1,
+          "end": 197.64,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 198.42,
+      "end": 200.76,
+      "words": [
+        {
+          "text": "source",
+          "start": 198.42,
+          "end": 198.5,
+          "estimated": false
+        },
+        {
+          "text": "links,",
+          "start": 198.5,
+          "end": 198.84,
+          "estimated": false
+        },
+        {
+          "text": "and",
+          "start": 198.84,
+          "end": 199.3,
+          "estimated": false
+        },
+        {
+          "text": "official",
+          "start": 199.3,
+          "end": 199.6,
+          "estimated": false
+        },
+        {
+          "text": "voter",
+          "start": 199.6,
+          "end": 200.4,
+          "estimated": false
+        },
+        {
+          "text": "guide.",
+          "start": 200.4,
+          "end": 200.76,
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "start": 201.44,
+      "end": 204.54,
+      "words": [
+        {
+          "text": "Compare",
+          "start": 201.44,
+          "end": 201.46,
+          "estimated": false
+        },
+        {
+          "text": "the",
+          "start": 201.46,
+          "end": 201.68,
+          "estimated": false
+        },
+        {
+          "text": "tradeoffs,",
+          "start": 201.68,
+          "end": 202.14,
+          "estimated": false
+        },
+        {
           "text": "then",
-          "start": 200.18666666666667,
-          "end": 200.22666666666666,
+          "start": 202.6,
+          "end": 202.72,
           "estimated": false
         },
         {
           "text": "make",
-          "start": 200.22666666666666,
-          "end": 200.44666666666666,
+          "start": 202.72,
+          "end": 202.96,
           "estimated": false
         },
         {
           "text": "your",
-          "start": 200.44666666666666,
-          "end": 200.64666666666668,
+          "start": 202.96,
+          "end": 203.18,
           "estimated": false
         },
         {
           "text": "own",
-          "start": 200.64666666666668,
-          "end": 201.02666666666667,
+          "start": 203.18,
+          "end": 203.46,
           "estimated": false
         },
         {
           "text": "informed",
-          "start": 201.02666666666667,
-          "end": 201.20666666666668,
+          "start": 203.46,
+          "end": 203.82,
           "estimated": false
         },
         {
           "text": "choice.",
-          "start": 201.20666666666668,
-          "end": 201.96666666666667,
+          "start": 203.82,
+          "end": 204.54,
           "estimated": false
         }
       ]
     }
   ],
-  "estimated_words": 15,
+  "estimated_words": 0,
   "note": "Suggested pacing from the existing narration. Highlight timing is approximate, especially for corrected words and spoken numbers. Read naturally; the video can be retimed to the new recording."
 }

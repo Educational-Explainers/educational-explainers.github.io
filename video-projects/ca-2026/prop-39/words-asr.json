@@ -1,0 +1,2422 @@
+[
+  {
+    "start": 2.8399999999999928,
+    "end": 3.679999999999996,
+    "word": " Proposition"
+  },
+  {
+    "start": 3.679999999999996,
+    "end": 4.52,
+    "word": " 39"
+  },
+  {
+    "start": 4.52,
+    "end": 4.76,
+    "word": " would"
+  },
+  {
+    "start": 4.76,
+    "end": 4.96,
+    "word": " add"
+  },
+  {
+    "start": 4.96,
+    "end": 5.4,
+    "word": " identification"
+  },
+  {
+    "start": 5.4,
+    "end": 6.28,
+    "word": " requirements"
+  },
+  {
+    "start": 6.28,
+    "end": 6.76,
+    "word": " each"
+  },
+  {
+    "start": 6.76,
+    "end": 7.04,
+    "word": " time"
+  },
+  {
+    "start": 7.04,
+    "end": 7.78,
+    "word": " Californians"
+  },
+  {
+    "start": 7.78,
+    "end": 8.12,
+    "word": " vote."
+  },
+  {
+    "start": 9.26,
+    "end": 9.64,
+    "word": " Citizenship"
+  },
+  {
+    "start": 9.64,
+    "end": 10.08,
+    "word": " is"
+  },
+  {
+    "start": 10.08,
+    "end": 10.4,
+    "word": " already"
+  },
+  {
+    "start": 10.4,
+    "end": 10.9,
+    "word": " required"
+  },
+  {
+    "start": 10.9,
+    "end": 11.16,
+    "word": " for"
+  },
+  {
+    "start": 11.16,
+    "end": 11.46,
+    "word": " state"
+  },
+  {
+    "start": 11.46,
+    "end": 11.7,
+    "word": " and"
+  },
+  {
+    "start": 11.7,
+    "end": 12.0,
+    "word": " federal"
+  },
+  {
+    "start": 12.0,
+    "end": 12.52,
+    "word": " elections."
+  },
+  {
+    "start": 13.38,
+    "end": 13.38,
+    "word": " The"
+  },
+  {
+    "start": 13.38,
+    "end": 13.6,
+    "word": " question"
+  },
+  {
+    "start": 13.6,
+    "end": 14.06,
+    "word": " is"
+  },
+  {
+    "start": 14.06,
+    "end": 14.34,
+    "word": " how"
+  },
+  {
+    "start": 14.34,
+    "end": 14.88,
+    "word": " identity"
+  },
+  {
+    "start": 14.88,
+    "end": 15.22,
+    "word": " and"
+  },
+  {
+    "start": 15.22,
+    "end": 15.54,
+    "word": " eligibility"
+  },
+  {
+    "start": 15.54,
+    "end": 16.14,
+    "word": " are"
+  },
+  {
+    "start": 16.14,
+    "end": 16.38,
+    "word": " checked,"
+  },
+  {
+    "start": 16.86,
+    "end": 17.22,
+    "word": " not"
+  },
+  {
+    "start": 17.22,
+    "end": 17.72,
+    "word": " whether"
+  },
+  {
+    "start": 17.72,
+    "end": 18.02,
+    "word": " those"
+  },
+  {
+    "start": 18.02,
+    "end": 18.52,
+    "word": " elections"
+  },
+  {
+    "start": 18.52,
+    "end": 18.82,
+    "word": " should"
+  },
+  {
+    "start": 18.82,
+    "end": 19.3,
+    "word": " allow"
+  },
+  {
+    "start": 19.3,
+    "end": 19.68,
+    "word": " non"
+  },
+  {
+    "start": 19.68,
+    "end": 20.1,
+    "word": "-citizens"
+  },
+  {
+    "start": 20.1,
+    "end": 20.54,
+    "word": " to"
+  },
+  {
+    "start": 20.54,
+    "end": 20.78,
+    "word": " vote."
+  },
+  {
+    "start": 21.72,
+    "end": 21.72,
+    "word": " Today"
+  },
+  {
+    "start": 21.72,
+    "end": 22.14,
+    "word": " registration"
+  },
+  {
+    "start": 22.14,
+    "end": 22.86,
+    "word": " uses"
+  },
+  {
+    "start": 22.86,
+    "end": 23.32,
+    "word": " identification,"
+  },
+  {
+    "start": 24.86,
+    "end": 24.92,
+    "word": " information,"
+  },
+  {
+    "start": 25.82,
+    "end": 25.82,
+    "word": " most"
+  },
+  {
+    "start": 25.82,
+    "end": 26.14,
+    "word": " in"
+  },
+  {
+    "start": 26.14,
+    "end": 26.48,
+    "word": "-person"
+  },
+  {
+    "start": 26.48,
+    "end": 27.0,
+    "word": " voters"
+  },
+  {
+    "start": 27.0,
+    "end": 27.44,
+    "word": " sign"
+  },
+  {
+    "start": 27.44,
+    "end": 27.64,
+    "word": " a"
+  },
+  {
+    "start": 27.64,
+    "end": 27.94,
+    "word": " roster,"
+  },
+  {
+    "start": 28.58,
+    "end": 28.6,
+    "word": " mail"
+  },
+  {
+    "start": 28.6,
+    "end": 29.08,
+    "word": " voters"
+  },
+  {
+    "start": 29.08,
+    "end": 29.46,
+    "word": " sign"
+  },
+  {
+    "start": 29.46,
+    "end": 29.66,
+    "word": " their"
+  },
+  {
+    "start": 29.66,
+    "end": 30.04,
+    "word": " ballot"
+  },
+  {
+    "start": 30.04,
+    "end": 30.4,
+    "word": " envelope"
+  },
+  {
+    "start": 30.4,
+    "end": 31.16,
+    "word": " and"
+  },
+  {
+    "start": 31.16,
+    "end": 31.56,
+    "word": " election"
+  },
+  {
+    "start": 31.56,
+    "end": 32.04,
+    "word": " officials"
+  },
+  {
+    "start": 32.04,
+    "end": 32.64,
+    "word": " check"
+  },
+  {
+    "start": 32.64,
+    "end": 32.86,
+    "word": " that"
+  },
+  {
+    "start": 32.86,
+    "end": 33.3,
+    "word": " signature."
+  },
+  {
+    "start": 33.9,
+    "end": 33.96,
+    "word": " The"
+  },
+  {
+    "start": 33.96,
+    "end": 34.28,
+    "word": " proposal"
+  },
+  {
+    "start": 34.28,
+    "end": 34.72,
+    "word": " would"
+  },
+  {
+    "start": 34.72,
+    "end": 35.08,
+    "word": " add"
+  },
+  {
+    "start": 35.08,
+    "end": 35.56,
+    "word": " government"
+  },
+  {
+    "start": 35.56,
+    "end": 36.18,
+    "word": " identification"
+  },
+  {
+    "start": 36.18,
+    "end": 36.76,
+    "word": " checks"
+  },
+  {
+    "start": 36.76,
+    "end": 37.36,
+    "word": " before"
+  },
+  {
+    "start": 37.36,
+    "end": 37.94,
+    "word": " ballots"
+  },
+  {
+    "start": 37.94,
+    "end": 38.38,
+    "word": " are"
+  },
+  {
+    "start": 38.38,
+    "end": 38.78,
+    "word": " counted."
+  },
+  {
+    "start": 39.36,
+    "end": 39.68,
+    "word": " Imagine"
+  },
+  {
+    "start": 39.68,
+    "end": 39.86,
+    "word": " a"
+  },
+  {
+    "start": 39.86,
+    "end": 40.12,
+    "word": " voter"
+  },
+  {
+    "start": 40.12,
+    "end": 40.54,
+    "word": " preparing"
+  },
+  {
+    "start": 40.54,
+    "end": 40.88,
+    "word": " a"
+  },
+  {
+    "start": 40.88,
+    "end": 41.1,
+    "word": " mail"
+  },
+  {
+    "start": 41.1,
+    "end": 41.42,
+    "word": " ballot"
+  },
+  {
+    "start": 41.42,
+    "end": 41.72,
+    "word": " at"
+  },
+  {
+    "start": 41.72,
+    "end": 41.98,
+    "word": " home."
+  },
+  {
+    "start": 42.54,
+    "end": 42.62,
+    "word": " Under"
+  },
+  {
+    "start": 42.62,
+    "end": 42.8,
+    "word": " the"
+  },
+  {
+    "start": 42.8,
+    "end": 43.18,
+    "word": " proposal,"
+  },
+  {
+    "start": 43.52,
+    "end": 43.6,
+    "word": " that"
+  },
+  {
+    "start": 43.6,
+    "end": 43.92,
+    "word": " voter"
+  },
+  {
+    "start": 43.92,
+    "end": 44.2,
+    "word": " would"
+  },
+  {
+    "start": 44.2,
+    "end": 44.54,
+    "word": " select"
+  },
+  {
+    "start": 44.54,
+    "end": 44.84,
+    "word": " a"
+  },
+  {
+    "start": 44.84,
+    "end": 45.2,
+    "word": " government"
+  },
+  {
+    "start": 45.2,
+    "end": 45.66,
+    "word": "-issued"
+  },
+  {
+    "start": 45.66,
+    "end": 46.34,
+    "word": " identification"
+  },
+  {
+    "start": 46.34,
+    "end": 47.06,
+    "word": " in"
+  },
+  {
+    "start": 47.06,
+    "end": 47.22,
+    "word": " their"
+  },
+  {
+    "start": 47.22,
+    "end": 47.64,
+    "word": " registration."
+  },
+  {
+    "start": 48.9,
+    "end": 49.34,
+    "word": " Then"
+  },
+  {
+    "start": 49.34,
+    "end": 49.6,
+    "word": " write"
+  },
+  {
+    "start": 49.6,
+    "end": 49.98,
+    "word": " its"
+  },
+  {
+    "start": 49.98,
+    "end": 50.28,
+    "word": " last"
+  },
+  {
+    "start": 50.28,
+    "end": 50.62,
+    "word": " four"
+  },
+  {
+    "start": 50.62,
+    "end": 50.92,
+    "word": " digits"
+  },
+  {
+    "start": 50.92,
+    "end": 51.56,
+    "word": " on"
+  },
+  {
+    "start": 51.56,
+    "end": 51.76,
+    "word": " the"
+  },
+  {
+    "start": 51.76,
+    "end": 52.04,
+    "word": " ballot"
+  },
+  {
+    "start": 52.04,
+    "end": 52.38,
+    "word": " envelope."
+  },
+  {
+    "start": 53.22,
+    "end": 53.68,
+    "word": " Officials"
+  },
+  {
+    "start": 53.68,
+    "end": 54.04,
+    "word": " could"
+  },
+  {
+    "start": 54.04,
+    "end": 54.46,
+    "word": " compare"
+  },
+  {
+    "start": 54.46,
+    "end": 54.72,
+    "word": " those"
+  },
+  {
+    "start": 54.72,
+    "end": 55.0,
+    "word": " digits"
+  },
+  {
+    "start": 55.0,
+    "end": 55.26,
+    "word": " with"
+  },
+  {
+    "start": 55.26,
+    "end": 55.38,
+    "word": " the"
+  },
+  {
+    "start": 55.38,
+    "end": 55.68,
+    "word": " registration"
+  },
+  {
+    "start": 55.68,
+    "end": 56.24,
+    "word": " record."
+  },
+  {
+    "start": 56.24,
+    "end": 57.2,
+    "word": " An"
+  },
+  {
+    "start": 57.2,
+    "end": 57.46,
+    "word": " election"
+  },
+  {
+    "start": 57.46,
+    "end": 57.98,
+    "word": " worker"
+  },
+  {
+    "start": 57.98,
+    "end": 58.46,
+    "word": " helps"
+  },
+  {
+    "start": 58.46,
+    "end": 59.04,
+    "word": " explain"
+  },
+  {
+    "start": 59.04,
+    "end": 59.3,
+    "word": " the"
+  },
+  {
+    "start": 59.3,
+    "end": 59.64,
+    "word": " identification"
+  },
+  {
+    "start": 59.64,
+    "end": 60.54,
+    "word": " process."
+  },
+  {
+    "start": 61.24,
+    "end": 61.28,
+    "word": " An"
+  },
+  {
+    "start": 61.28,
+    "end": 61.5,
+    "word": " in"
+  },
+  {
+    "start": 61.5,
+    "end": 61.88,
+    "word": "-person"
+  },
+  {
+    "start": 61.88,
+    "end": 62.18,
+    "word": " voter"
+  },
+  {
+    "start": 62.18,
+    "end": 62.56,
+    "word": " would"
+  },
+  {
+    "start": 62.56,
+    "end": 63.04,
+    "word": " instead"
+  },
+  {
+    "start": 63.04,
+    "end": 63.74,
+    "word": " present"
+  },
+  {
+    "start": 63.74,
+    "end": 64.18,
+    "word": " government"
+  },
+  {
+    "start": 64.18,
+    "end": 64.58,
+    "word": "-issued"
+  },
+  {
+    "start": 64.58,
+    "end": 64.96,
+    "word": " identification."
+  },
+  {
+    "start": 65.94,
+    "end": 66.06,
+    "word": " The"
+  },
+  {
+    "start": 66.06,
+    "end": 66.28,
+    "word": " state"
+  },
+  {
+    "start": 66.28,
+    "end": 66.64,
+    "word": " must"
+  },
+  {
+    "start": 66.64,
+    "end": 67.1,
+    "word": " offer"
+  },
+  {
+    "start": 67.1,
+    "end": 67.3,
+    "word": " a"
+  },
+  {
+    "start": 67.3,
+    "end": 67.62,
+    "word": " free"
+  },
+  {
+    "start": 67.62,
+    "end": 68.04,
+    "word": " voter"
+  },
+  {
+    "start": 68.04,
+    "end": 68.66,
+    "word": " identification"
+  },
+  {
+    "start": 68.66,
+    "end": 69.4,
+    "word": " card"
+  },
+  {
+    "start": 69.4,
+    "end": 69.74,
+    "word": " on"
+  },
+  {
+    "start": 69.74,
+    "end": 70.12,
+    "word": " request."
+  },
+  {
+    "start": 71.1,
+    "end": 71.24,
+    "word": " The"
+  },
+  {
+    "start": 71.24,
+    "end": 71.44,
+    "word": " legislator"
+  },
+  {
+    "start": 71.44,
+    "end": 72.06,
+    "word": " would"
+  },
+  {
+    "start": 72.06,
+    "end": 72.4,
+    "word": " still"
+  },
+  {
+    "start": 72.4,
+    "end": 72.7,
+    "word": " have"
+  },
+  {
+    "start": 72.7,
+    "end": 72.86,
+    "word": " to"
+  },
+  {
+    "start": 72.86,
+    "end": 73.28,
+    "word": " clarify"
+  },
+  {
+    "start": 73.28,
+    "end": 73.9,
+    "word": " details,"
+  },
+  {
+    "start": 74.36,
+    "end": 74.66,
+    "word": " including"
+  },
+  {
+    "start": 74.66,
+    "end": 75.0,
+    "word": " which"
+  },
+  {
+    "start": 75.0,
+    "end": 75.42,
+    "word": " forms"
+  },
+  {
+    "start": 75.42,
+    "end": 75.76,
+    "word": " of"
+  },
+  {
+    "start": 75.76,
+    "end": 76.3,
+    "word": " identification"
+  },
+  {
+    "start": 76.3,
+    "end": 77.12,
+    "word": " qualify."
+  },
+  {
+    "start": 77.96,
+    "end": 78.34,
+    "word": " Officials"
+  },
+  {
+    "start": 78.34,
+    "end": 78.7,
+    "word": " would"
+  },
+  {
+    "start": 78.7,
+    "end": 78.92,
+    "word": " make"
+  },
+  {
+    "start": 78.92,
+    "end": 79.18,
+    "word": " best"
+  },
+  {
+    "start": 79.18,
+    "end": 79.7,
+    "word": " efforts"
+  },
+  {
+    "start": 79.7,
+    "end": 80.06,
+    "word": " using"
+  },
+  {
+    "start": 80.06,
+    "end": 80.44,
+    "word": " government"
+  },
+  {
+    "start": 80.44,
+    "end": 80.8,
+    "word": " data"
+  },
+  {
+    "start": 80.8,
+    "end": 81.4,
+    "word": " to"
+  },
+  {
+    "start": 81.4,
+    "end": 81.68,
+    "word": " verify"
+  },
+  {
+    "start": 81.68,
+    "end": 82.24,
+    "word": " citizenship"
+  },
+  {
+    "start": 82.24,
+    "end": 82.86,
+    "word": " on"
+  },
+  {
+    "start": 82.86,
+    "end": 83.12,
+    "word": " voter"
+  },
+  {
+    "start": 83.12,
+    "end": 83.62,
+    "word": " rolls,"
+  },
+  {
+    "start": 83.78,
+    "end": 84.06,
+    "word": " publish"
+  },
+  {
+    "start": 84.06,
+    "end": 84.6,
+    "word": " annual"
+  },
+  {
+    "start": 84.6,
+    "end": 84.98,
+    "word": " verification"
+  },
+  {
+    "start": 84.98,
+    "end": 85.52,
+    "word": " procedures"
+  },
+  {
+    "start": 85.52,
+    "end": 86.58,
+    "word": " and"
+  },
+  {
+    "start": 86.58,
+    "end": 86.9,
+    "word": " face"
+  },
+  {
+    "start": 86.9,
+    "end": 87.58,
+    "word": " state"
+  },
+  {
+    "start": 87.58,
+    "end": 87.92,
+    "word": " compliance"
+  },
+  {
+    "start": 87.92,
+    "end": 88.6,
+    "word": " audits"
+  },
+  {
+    "start": 88.6,
+    "end": 89.16,
+    "word": " every"
+  },
+  {
+    "start": 89.16,
+    "end": 89.44,
+    "word": " other"
+  },
+  {
+    "start": 89.44,
+    "end": 89.64,
+    "word": " year."
+  },
+  {
+    "start": 90.22,
+    "end": 90.42,
+    "word": " Those"
+  },
+  {
+    "start": 90.42,
+    "end": 90.66,
+    "word": " checks"
+  },
+  {
+    "start": 90.66,
+    "end": 90.98,
+    "word": " are"
+  },
+  {
+    "start": 90.98,
+    "end": 91.28,
+    "word": " separate"
+  },
+  {
+    "start": 91.28,
+    "end": 91.58,
+    "word": " from"
+  },
+  {
+    "start": 91.58,
+    "end": 91.94,
+    "word": " presenting"
+  },
+  {
+    "start": 91.94,
+    "end": 92.5,
+    "word": " identification"
+  },
+  {
+    "start": 92.5,
+    "end": 93.32,
+    "word": " at"
+  },
+  {
+    "start": 93.32,
+    "end": 93.44,
+    "word": " the"
+  },
+  {
+    "start": 93.44,
+    "end": 93.7,
+    "word": " polling"
+  },
+  {
+    "start": 93.7,
+    "end": 94.22,
+    "word": " place."
+  },
+  {
+    "start": 94.8,
+    "end": 94.88,
+    "word": " The"
+  },
+  {
+    "start": 94.88,
+    "end": 95.18,
+    "word": " analyst"
+  },
+  {
+    "start": 95.18,
+    "end": 95.86,
+    "word": " estimates"
+  },
+  {
+    "start": 95.86,
+    "end": 96.62,
+    "word": " annual"
+  },
+  {
+    "start": 96.62,
+    "end": 97.12,
+    "word": " state"
+  },
+  {
+    "start": 97.12,
+    "end": 97.36,
+    "word": " and"
+  },
+  {
+    "start": 97.36,
+    "end": 97.52,
+    "word": " local"
+  },
+  {
+    "start": 97.52,
+    "end": 97.96,
+    "word": " costs"
+  },
+  {
+    "start": 97.96,
+    "end": 98.26,
+    "word": " from"
+  },
+  {
+    "start": 98.26,
+    "end": 98.54,
+    "word": " tens"
+  },
+  {
+    "start": 98.54,
+    "end": 98.92,
+    "word": " of"
+  },
+  {
+    "start": 98.92,
+    "end": 99.22,
+    "word": " millions"
+  },
+  {
+    "start": 99.22,
+    "end": 99.68,
+    "word": " to"
+  },
+  {
+    "start": 99.68,
+    "end": 99.78,
+    "word": " the"
+  },
+  {
+    "start": 99.78,
+    "end": 100.02,
+    "word": " low"
+  },
+  {
+    "start": 100.02,
+    "end": 100.38,
+    "word": " hundreds"
+  },
+  {
+    "start": 100.38,
+    "end": 100.64,
+    "word": " of"
+  },
+  {
+    "start": 100.64,
+    "end": 100.94,
+    "word": " millions"
+  },
+  {
+    "start": 100.94,
+    "end": 101.26,
+    "word": " of"
+  },
+  {
+    "start": 101.26,
+    "end": 101.8,
+    "word": " dollars."
+  },
+  {
+    "start": 102.28,
+    "end": 102.74,
+    "word": " Card"
+  },
+  {
+    "start": 102.74,
+    "end": 103.18,
+    "word": " demand,"
+  },
+  {
+    "start": 103.52,
+    "end": 103.92,
+    "word": " implementation"
+  },
+  {
+    "start": 103.92,
+    "end": 104.5,
+    "word": " rules,"
+  },
+  {
+    "start": 104.94,
+    "end": 105.16,
+    "word": " staffing"
+  },
+  {
+    "start": 105.16,
+    "end": 105.62,
+    "word": " and"
+  },
+  {
+    "start": 105.62,
+    "end": 105.94,
+    "word": " technology"
+  },
+  {
+    "start": 105.94,
+    "end": 106.64,
+    "word": " choices"
+  },
+  {
+    "start": 106.64,
+    "end": 107.14,
+    "word": " affect"
+  },
+  {
+    "start": 107.14,
+    "end": 107.46,
+    "word": " the"
+  },
+  {
+    "start": 107.46,
+    "end": 107.74,
+    "word": " total."
+  },
+  {
+    "start": 108.38,
+    "end": 108.52,
+    "word": " A"
+  },
+  {
+    "start": 108.52,
+    "end": 108.76,
+    "word": " free"
+  },
+  {
+    "start": 108.76,
+    "end": 109.16,
+    "word": " card"
+  },
+  {
+    "start": 109.16,
+    "end": 109.52,
+    "word": " still"
+  },
+  {
+    "start": 109.52,
+    "end": 109.84,
+    "word": " costs"
+  },
+  {
+    "start": 109.84,
+    "end": 110.12,
+    "word": " government"
+  },
+  {
+    "start": 110.12,
+    "end": 110.56,
+    "word": " money"
+  },
+  {
+    "start": 110.56,
+    "end": 110.88,
+    "word": " to"
+  },
+  {
+    "start": 110.88,
+    "end": 111.18,
+    "word": " provide."
+  },
+  {
+    "start": 111.18,
+    "end": 111.58,
+    "word": " This"
+  },
+  {
+    "start": 111.58,
+    "end": 111.8,
+    "word": " is"
+  },
+  {
+    "start": 111.8,
+    "end": 112.02,
+    "word": " a"
+  },
+  {
+    "start": 112.02,
+    "end": 112.38,
+    "word": " proposed"
+  },
+  {
+    "start": 112.38,
+    "end": 112.84,
+    "word": " change,"
+  },
+  {
+    "start": 113.34,
+    "end": 113.52,
+    "word": " not"
+  },
+  {
+    "start": 113.52,
+    "end": 113.94,
+    "word": " instructions"
+  },
+  {
+    "start": 113.94,
+    "end": 114.6,
+    "word": " for"
+  },
+  {
+    "start": 114.6,
+    "end": 114.98,
+    "word": " casting"
+  },
+  {
+    "start": 114.98,
+    "end": 115.78,
+    "word": " your"
+  },
+  {
+    "start": 115.78,
+    "end": 116.34,
+    "word": " current"
+  },
+  {
+    "start": 116.34,
+    "end": 116.64,
+    "word": " ballot."
+  },
+  {
+    "start": 117.28,
+    "end": 117.38,
+    "word": " For"
+  },
+  {
+    "start": 117.38,
+    "end": 117.6,
+    "word": " voting"
+  },
+  {
+    "start": 117.6,
+    "end": 118.08,
+    "word": " today,"
+  },
+  {
+    "start": 118.3,
+    "end": 118.52,
+    "word": " use"
+  },
+  {
+    "start": 118.52,
+    "end": 118.7,
+    "word": " the"
+  },
+  {
+    "start": 118.7,
+    "end": 118.94,
+    "word": " official"
+  },
+  {
+    "start": 118.94,
+    "end": 119.54,
+    "word": " election"
+  },
+  {
+    "start": 119.54,
+    "end": 120.28,
+    "word": " instructions"
+  },
+  {
+    "start": 120.28,
+    "end": 120.8,
+    "word": " and"
+  },
+  {
+    "start": 120.8,
+    "end": 121.08,
+    "word": " your"
+  },
+  {
+    "start": 121.08,
+    "end": 121.46,
+    "word": " county"
+  },
+  {
+    "start": 121.46,
+    "end": 122.06,
+    "word": " elections"
+  },
+  {
+    "start": 122.06,
+    "end": 122.6,
+    "word": " office."
+  },
+  {
+    "start": 123.14,
+    "end": 123.24,
+    "word": " A"
+  },
+  {
+    "start": 123.24,
+    "end": 123.46,
+    "word": " voter"
+  },
+  {
+    "start": 123.46,
+    "end": 123.76,
+    "word": " might"
+  },
+  {
+    "start": 123.76,
+    "end": 124.22,
+    "word": " favor"
+  },
+  {
+    "start": 124.22,
+    "end": 124.66,
+    "word": " a"
+  },
+  {
+    "start": 124.66,
+    "end": 124.96,
+    "word": " consistent"
+  },
+  {
+    "start": 124.96,
+    "end": 125.64,
+    "word": " identification"
+  },
+  {
+    "start": 125.64,
+    "end": 126.22,
+    "word": " check"
+  },
+  {
+    "start": 126.22,
+    "end": 126.6,
+    "word": " as"
+  },
+  {
+    "start": 126.6,
+    "end": 126.96,
+    "word": " another"
+  },
+  {
+    "start": 126.96,
+    "end": 127.62,
+    "word": " verification"
+  },
+  {
+    "start": 127.62,
+    "end": 128.28,
+    "word": " layer"
+  },
+  {
+    "start": 128.28,
+    "end": 128.84,
+    "word": " and"
+  },
+  {
+    "start": 128.84,
+    "end": 128.94,
+    "word": " a"
+  },
+  {
+    "start": 128.94,
+    "end": 129.12,
+    "word": " way"
+  },
+  {
+    "start": 129.12,
+    "end": 129.3,
+    "word": " to"
+  },
+  {
+    "start": 129.3,
+    "end": 129.68,
+    "word": " strengthen"
+  },
+  {
+    "start": 129.68,
+    "end": 130.2,
+    "word": " confidence."
+  },
+  {
+    "start": 131.26,
+    "end": 131.48,
+    "word": " The"
+  },
+  {
+    "start": 131.48,
+    "end": 131.7,
+    "word": " free"
+  },
+  {
+    "start": 131.7,
+    "end": 132.0,
+    "word": " card"
+  },
+  {
+    "start": 132.0,
+    "end": 132.44,
+    "word": " provision"
+  },
+  {
+    "start": 132.44,
+    "end": 133.04,
+    "word": " addresses"
+  },
+  {
+    "start": 133.04,
+    "end": 133.3,
+    "word": " the"
+  },
+  {
+    "start": 133.3,
+    "end": 133.58,
+    "word": " purchase"
+  },
+  {
+    "start": 133.58,
+    "end": 134.04,
+    "word": " cost"
+  },
+  {
+    "start": 134.04,
+    "end": 134.28,
+    "word": " of"
+  },
+  {
+    "start": 134.28,
+    "end": 134.58,
+    "word": " identification."
+  },
+  {
+    "start": 135.68,
+    "end": 136.12,
+    "word": " Whether"
+  },
+  {
+    "start": 136.12,
+    "end": 136.3,
+    "word": " the"
+  },
+  {
+    "start": 136.3,
+    "end": 136.68,
+    "word": " additional"
+  },
+  {
+    "start": 136.68,
+    "end": 137.02,
+    "word": " checks"
+  },
+  {
+    "start": 137.02,
+    "end": 137.46,
+    "word": " deliver"
+  },
+  {
+    "start": 137.46,
+    "end": 138.04,
+    "word": " benefits,"
+  },
+  {
+    "start": 138.48,
+    "end": 139.06,
+    "word": " proportionate"
+  },
+  {
+    "start": 139.06,
+    "end": 139.24,
+    "word": " to"
+  },
+  {
+    "start": 139.24,
+    "end": 139.34,
+    "word": " the"
+  },
+  {
+    "start": 139.34,
+    "end": 139.56,
+    "word": " cost"
+  },
+  {
+    "start": 139.56,
+    "end": 140.0,
+    "word": " is"
+  },
+  {
+    "start": 140.0,
+    "end": 140.16,
+    "word": " the"
+  },
+  {
+    "start": 140.16,
+    "end": 140.64,
+    "word": " question"
+  },
+  {
+    "start": 140.64,
+    "end": 140.94,
+    "word": " to"
+  },
+  {
+    "start": 140.94,
+    "end": 141.16,
+    "word": " weigh."
+  },
+  {
+    "start": 141.74,
+    "end": 141.9,
+    "word": " You"
+  },
+  {
+    "start": 141.9,
+    "end": 142.08,
+    "word": " might"
+  },
+  {
+    "start": 142.08,
+    "end": 142.52,
+    "word": " ask"
+  },
+  {
+    "start": 142.52,
+    "end": 143.04,
+    "word": " what"
+  },
+  {
+    "start": 143.04,
+    "end": 143.4,
+    "word": " happens"
+  },
+  {
+    "start": 143.4,
+    "end": 143.68,
+    "word": " to"
+  },
+  {
+    "start": 143.68,
+    "end": 143.88,
+    "word": " eligible"
+  },
+  {
+    "start": 143.88,
+    "end": 144.48,
+    "word": " voters"
+  },
+  {
+    "start": 144.48,
+    "end": 145.0,
+    "word": " without"
+  },
+  {
+    "start": 145.0,
+    "end": 145.58,
+    "word": " documents."
+  },
+  {
+    "start": 146.38,
+    "end": 146.42,
+    "word": " A"
+  },
+  {
+    "start": 146.42,
+    "end": 146.8,
+    "word": " skeptical"
+  },
+  {
+    "start": 146.8,
+    "end": 147.28,
+    "word": " voter"
+  },
+  {
+    "start": 147.28,
+    "end": 147.56,
+    "word": " could"
+  },
+  {
+    "start": 147.56,
+    "end": 147.9,
+    "word": " worry"
+  },
+  {
+    "start": 147.9,
+    "end": 148.26,
+    "word": " about"
+  },
+  {
+    "start": 148.26,
+    "end": 149.18,
+    "word": " administrative"
+  },
+  {
+    "start": 149.18,
+    "end": 150.12,
+    "word": " mistakes"
+  },
+  {
+    "start": 150.12,
+    "end": 150.34,
+    "word": " obtaining"
+  },
+  {
+    "start": 150.34,
+    "end": 151.3,
+    "word": " documents"
+  },
+  {
+    "start": 151.3,
+    "end": 151.86,
+    "word": " or"
+  },
+  {
+    "start": 151.86,
+    "end": 152.28,
+    "word": " navigating"
+  },
+  {
+    "start": 152.28,
+    "end": 152.72,
+    "word": " new"
+  },
+  {
+    "start": 152.72,
+    "end": 153.2,
+    "word": " rules."
+  },
+  {
+    "start": 153.48,
+    "end": 153.48,
+    "word": " A"
+  },
+  {
+    "start": 153.48,
+    "end": 153.76,
+    "word": " free"
+  },
+  {
+    "start": 153.76,
+    "end": 154.22,
+    "word": " card"
+  },
+  {
+    "start": 154.22,
+    "end": 154.46,
+    "word": " does"
+  },
+  {
+    "start": 154.46,
+    "end": 154.68,
+    "word": " not"
+  },
+  {
+    "start": 154.68,
+    "end": 155.12,
+    "word": " remove"
+  },
+  {
+    "start": 155.12,
+    "end": 155.78,
+    "word": " every"
+  },
+  {
+    "start": 155.78,
+    "end": 156.46,
+    "word": " time"
+  },
+  {
+    "start": 156.46,
+    "end": 156.78,
+    "word": " or"
+  },
+  {
+    "start": 156.78,
+    "end": 157.12,
+    "word": " paperwork"
+  },
+  {
+    "start": 157.12,
+    "end": 157.96,
+    "word": " burden."
+  },
+  {
+    "start": 158.72,
+    "end": 159.1,
+    "word": " Existing"
+  },
+  {
+    "start": 159.1,
+    "end": 159.48,
+    "word": " checks"
+  },
+  {
+    "start": 159.48,
+    "end": 159.92,
+    "word": " already"
+  },
+  {
+    "start": 159.92,
+    "end": 160.32,
+    "word": " operate"
+  },
+  {
+    "start": 160.32,
+    "end": 160.62,
+    "word": " so"
+  },
+  {
+    "start": 160.62,
+    "end": 161.04,
+    "word": " opponents"
+  },
+  {
+    "start": 161.04,
+    "end": 161.42,
+    "word": " question"
+  },
+  {
+    "start": 161.42,
+    "end": 161.8,
+    "word": " the"
+  },
+  {
+    "start": 161.8,
+    "end": 161.96,
+    "word": " extra"
+  },
+  {
+    "start": 161.96,
+    "end": 162.48,
+    "word": " system's"
+  },
+  {
+    "start": 162.48,
+    "end": 163.04,
+    "word": " necessity"
+  },
+  {
+    "start": 163.04,
+    "end": 163.56,
+    "word": " and"
+  },
+  {
+    "start": 163.56,
+    "end": 163.74,
+    "word": " its"
+  },
+  {
+    "start": 163.74,
+    "end": 164.02,
+    "word": " effect"
+  },
+  {
+    "start": 164.02,
+    "end": 164.32,
+    "word": " on"
+  },
+  {
+    "start": 164.32,
+    "end": 164.64,
+    "word": " access."
+  },
+  {
+    "start": 164.64,
+    "end": 165.48,
+    "word": " In"
+  },
+  {
+    "start": 165.48,
+    "end": 165.6,
+    "word": " the"
+  },
+  {
+    "start": 165.6,
+    "end": 165.88,
+    "word": " September"
+  },
+  {
+    "start": 165.88,
+    "end": 166.56,
+    "word": " PBIC"
+  },
+  {
+    "start": 166.56,
+    "end": 166.96,
+    "word": " survey"
+  },
+  {
+    "start": 166.96,
+    "end": 167.28,
+    "word": " of"
+  },
+  {
+    "start": 167.28,
+    "end": 167.48,
+    "word": " likely"
+  },
+  {
+    "start": 167.48,
+    "end": 167.96,
+    "word": " voters,"
+  },
+  {
+    "start": 168.32,
+    "end": 168.38,
+    "word": " 43"
+  },
+  {
+    "start": 168.38,
+    "end": 169.12,
+    "word": "%"
+  },
+  {
+    "start": 169.12,
+    "end": 169.52,
+    "word": " said"
+  },
+  {
+    "start": 169.52,
+    "end": 169.9,
+    "word": " yes,"
+  },
+  {
+    "start": 170.38,
+    "end": 170.72,
+    "word": " 55"
+  },
+  {
+    "start": 170.72,
+    "end": 171.32,
+    "word": "%"
+  },
+  {
+    "start": 171.32,
+    "end": 171.7,
+    "word": " no"
+  },
+  {
+    "start": 171.7,
+    "end": 171.92,
+    "word": " and"
+  },
+  {
+    "start": 171.92,
+    "end": 172.18,
+    "word": " 1"
+  },
+  {
+    "start": 172.18,
+    "end": 172.54,
+    "word": "%"
+  },
+  {
+    "start": 172.54,
+    "end": 172.84,
+    "word": " were"
+  },
+  {
+    "start": 172.84,
+    "end": 173.16,
+    "word": " unsure."
+  },
+  {
+    "start": 173.94,
+    "end": 174.16,
+    "word": " These"
+  },
+  {
+    "start": 174.16,
+    "end": 174.44,
+    "word": " are"
+  },
+  {
+    "start": 174.44,
+    "end": 174.66,
+    "word": " data"
+  },
+  {
+    "start": 174.66,
+    "end": 175.18,
+    "word": " survey"
+  },
+  {
+    "start": 175.18,
+    "end": 175.68,
+    "word": " results,"
+  },
+  {
+    "start": 175.96,
+    "end": 176.16,
+    "word": " not"
+  },
+  {
+    "start": 176.16,
+    "end": 176.48,
+    "word": " votes"
+  },
+  {
+    "start": 176.48,
+    "end": 176.98,
+    "word": " already"
+  },
+  {
+    "start": 176.98,
+    "end": 177.38,
+    "word": " cast."
+  },
+  {
+    "start": 177.86,
+    "end": 177.9,
+    "word": " A"
+  },
+  {
+    "start": 177.9,
+    "end": 178.16,
+    "word": " later"
+  },
+  {
+    "start": 178.16,
+    "end": 178.64,
+    "word": " September"
+  },
+  {
+    "start": 178.64,
+    "end": 179.04,
+    "word": " Berkeley"
+  },
+  {
+    "start": 179.04,
+    "end": 179.8,
+    "word": " survey"
+  },
+  {
+    "start": 179.8,
+    "end": 180.34,
+    "word": " found"
+  },
+  {
+    "start": 180.34,
+    "end": 180.96,
+    "word": " 39"
+  },
+  {
+    "start": 180.96,
+    "end": 181.66,
+    "word": "%"
+  },
+  {
+    "start": 181.66,
+    "end": 181.94,
+    "word": " yes,"
+  },
+  {
+    "start": 182.34,
+    "end": 182.72,
+    "word": " 52"
+  },
+  {
+    "start": 182.72,
+    "end": 183.28,
+    "word": "%"
+  },
+  {
+    "start": 183.28,
+    "end": 183.62,
+    "word": " no"
+  },
+  {
+    "start": 183.62,
+    "end": 183.92,
+    "word": " and"
+  },
+  {
+    "start": 183.92,
+    "end": 184.18,
+    "word": " 9"
+  },
+  {
+    "start": 184.18,
+    "end": 184.68,
+    "word": "%"
+  },
+  {
+    "start": 184.68,
+    "end": 185.04,
+    "word": " undecided."
+  },
+  {
+    "start": 185.94,
+    "end": 186.26,
+    "word": " Question"
+  },
+  {
+    "start": 186.26,
+    "end": 186.68,
+    "word": " wording"
+  },
+  {
+    "start": 186.68,
+    "end": 186.98,
+    "word": " and"
+  },
+  {
+    "start": 186.98,
+    "end": 187.32,
+    "word": " methods"
+  },
+  {
+    "start": 187.32,
+    "end": 187.66,
+    "word": " differ"
+  },
+  {
+    "start": 187.66,
+    "end": 188.1,
+    "word": " so"
+  },
+  {
+    "start": 188.1,
+    "end": 188.46,
+    "word": " comparing"
+  },
+  {
+    "start": 188.46,
+    "end": 188.84,
+    "word": " polls"
+  },
+  {
+    "start": 188.84,
+    "end": 189.22,
+    "word": " does"
+  },
+  {
+    "start": 189.22,
+    "end": 189.48,
+    "word": " not"
+  },
+  {
+    "start": 189.48,
+    "end": 189.74,
+    "word": " by"
+  },
+  {
+    "start": 189.74,
+    "end": 190.2,
+    "word": " itself"
+  },
+  {
+    "start": 190.2,
+    "end": 190.82,
+    "word": " establish"
+  },
+  {
+    "start": 190.82,
+    "end": 191.1,
+    "word": " a"
+  },
+  {
+    "start": 191.1,
+    "end": 191.36,
+    "word": " trend."
+  },
+  {
+    "start": 191.82,
+    "end": 192.22,
+    "word": " The"
+  },
+  {
+    "start": 192.22,
+    "end": 192.78,
+    "word": " independent"
+  },
+  {
+    "start": 192.78,
+    "end": 193.16,
+    "word": " voter"
+  },
+  {
+    "start": 193.16,
+    "end": 193.84,
+    "word": " project"
+  },
+  {
+    "start": 193.84,
+    "end": 194.22,
+    "word": " survey"
+  },
+  {
+    "start": 194.22,
+    "end": 194.8,
+    "word": " ending"
+  },
+  {
+    "start": 194.8,
+    "end": 195.26,
+    "word": " October"
+  },
+  {
+    "start": 195.26,
+    "end": 196.22,
+    "word": " 2nd"
+  },
+  {
+    "start": 196.22,
+    "end": 196.46,
+    "word": " found"
+  },
+  {
+    "start": 196.46,
+    "end": 197.08,
+    "word": " 43"
+  },
+  {
+    "start": 197.08,
+    "end": 197.66,
+    "word": "%"
+  },
+  {
+    "start": 197.66,
+    "end": 198.08,
+    "word": " yes"
+  },
+  {
+    "start": 198.08,
+    "end": 198.66,
+    "word": " and"
+  },
+  {
+    "start": 198.66,
+    "end": 198.98,
+    "word": " 40"
+  },
+  {
+    "start": 198.98,
+    "end": 199.44,
+    "word": "%"
+  },
+  {
+    "start": 199.44,
+    "end": 199.8,
+    "word": " no,"
+  },
+  {
+    "start": 200.14,
+    "end": 200.22,
+    "word": " its"
+  },
+  {
+    "start": 200.22,
+    "end": 200.66,
+    "word": " methods"
+  },
+  {
+    "start": 200.66,
+    "end": 200.96,
+    "word": " and"
+  },
+  {
+    "start": 200.96,
+    "end": 201.36,
+    "word": " wording"
+  },
+  {
+    "start": 201.36,
+    "end": 201.7,
+    "word": " differ"
+  },
+  {
+    "start": 201.7,
+    "end": 202.24,
+    "word": " again."
+  },
+  {
+    "start": 202.86,
+    "end": 202.96,
+    "word": " The"
+  },
+  {
+    "start": 202.96,
+    "end": 203.38,
+    "word": " disagreement"
+  },
+  {
+    "start": 203.38,
+    "end": 203.82,
+    "word": " is"
+  },
+  {
+    "start": 203.82,
+    "end": 203.94,
+    "word": " a"
+  },
+  {
+    "start": 203.94,
+    "end": 204.8,
+    "word": " reason"
+  },
+  {
+    "start": 204.8,
+    "end": 205.16,
+    "word": " for"
+  },
+  {
+    "start": 205.16,
+    "end": 205.42,
+    "word": " caution,"
+  },
+  {
+    "start": 205.88,
+    "end": 206.02,
+    "word": " not"
+  },
+  {
+    "start": 206.02,
+    "end": 206.22,
+    "word": " a"
+  },
+  {
+    "start": 206.22,
+    "end": 206.66,
+    "word": " reason"
+  },
+  {
+    "start": 206.66,
+    "end": 206.88,
+    "word": " to"
+  },
+  {
+    "start": 206.88,
+    "end": 207.18,
+    "word": " declare"
+  },
+  {
+    "start": 207.18,
+    "end": 207.48,
+    "word": " a"
+  },
+  {
+    "start": 207.48,
+    "end": 207.72,
+    "word": " winner."
+  },
+  {
+    "start": 208.14,
+    "end": 208.3,
+    "word": " Yes,"
+  },
+  {
+    "start": 208.58,
+    "end": 208.86,
+    "word": " adds"
+  },
+  {
+    "start": 208.86,
+    "end": 209.1,
+    "word": " the"
+  },
+  {
+    "start": 209.1,
+    "end": 209.38,
+    "word": " proposed"
+  },
+  {
+    "start": 209.38,
+    "end": 209.9,
+    "word": " requirements,"
+  },
+  {
+    "start": 210.78,
+    "end": 210.84,
+    "word": " nor"
+  },
+  {
+    "start": 210.84,
+    "end": 211.38,
+    "word": " retains"
+  },
+  {
+    "start": 211.38,
+    "end": 211.82,
+    "word": " the"
+  },
+  {
+    "start": 211.82,
+    "end": 212.04,
+    "word": " current"
+  },
+  {
+    "start": 212.04,
+    "end": 212.54,
+    "word": " identification"
+  },
+  {
+    "start": 212.54,
+    "end": 213.48,
+    "word": " framework."
+  },
+  {
+    "start": 214.18,
+    "end": 214.64,
+    "word": " Visit"
+  },
+  {
+    "start": 214.64,
+    "end": 214.84,
+    "word": " our"
+  },
+  {
+    "start": 214.84,
+    "end": 215.18,
+    "word": " website"
+  },
+  {
+    "start": 215.18,
+    "end": 215.58,
+    "word": " for"
+  },
+  {
+    "start": 215.58,
+    "end": 215.7,
+    "word": " the"
+  },
+  {
+    "start": 215.7,
+    "end": 215.92,
+    "word": " fuller"
+  },
+  {
+    "start": 215.92,
+    "end": 216.52,
+    "word": " explanation,"
+  },
+  {
+    "start": 217.32,
+    "end": 217.52,
+    "word": " source"
+  },
+  {
+    "start": 217.52,
+    "end": 217.94,
+    "word": " links"
+  },
+  {
+    "start": 217.94,
+    "end": 218.38,
+    "word": " and"
+  },
+  {
+    "start": 218.38,
+    "end": 218.64,
+    "word": " official"
+  },
+  {
+    "start": 218.64,
+    "end": 219.18,
+    "word": " voter"
+  },
+  {
+    "start": 219.18,
+    "end": 219.58,
+    "word": " guide."
+  },
+  {
+    "start": 219.58,
+    "end": 220.4,
+    "word": " Compare"
+  },
+  {
+    "start": 220.4,
+    "end": 220.6,
+    "word": " the"
+  },
+  {
+    "start": 220.6,
+    "end": 220.78,
+    "word": " trade"
+  },
+  {
+    "start": 220.78,
+    "end": 221.26,
+    "word": " offs"
+  },
+  {
+    "start": 221.26,
+    "end": 221.58,
+    "word": " then"
+  },
+  {
+    "start": 221.58,
+    "end": 221.88,
+    "word": " make"
+  },
+  {
+    "start": 221.88,
+    "end": 222.1,
+    "word": " your"
+  },
+  {
+    "start": 222.1,
+    "end": 222.36,
+    "word": " own"
+  },
+  {
+    "start": 222.36,
+    "end": 222.8,
+    "word": " informed"
+  },
+  {
+    "start": 222.8,
+    "end": 223.52,
+    "word": " choice."
+  }
+]

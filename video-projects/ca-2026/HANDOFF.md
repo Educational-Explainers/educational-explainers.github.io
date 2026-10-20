@@ -2,21 +2,33 @@
 
 Updated October 20, 2026. Start here after clearing conversation context.
 
+## Earlier session: Proposition 1 human narration trial (superseded)
+
+The latest full Prop 1 browser take (`2026-10-20T20-16-40-238Z`) was recovered and used for a trial. Original audio and provenance are preserved under `.video-production/human-preview/prop-01/`. This legacy take has no script-version hash or production approval; the canonical recording was unset at that time; the full-series update below now supersedes this trial. Review captions and delivery near 0:17 and 1:20 before finalizing.
+
+The user established DaVinci Resolve as the editable master for narration updates, with voice and sound effects on separate tracks. The existing project now contains **Prop 1 - Sketchbook C - Human Narration Trial**: 15 retimed scenes, 5495 frames at 30 fps, A1 **Narration - Human Take**, A2 **SFX - Pencil**. All 17 media items are online, with no gaps or overlaps. The prior timeline is retained. Project saved and backed up at `.video-production/resolve-backups/prop-01-human-trial-2026-10-20.drp` (media files remain separate). See `prop-01/resolve-human-trial-validation.json` for this trial's checks. Continue using separate Resolve tracks for future takes; do not flatten effects into the narration master.
+
+Local preview: `http://localhost:8877/prop-01-human-preview/`. This preview was rendered by the sketchbook pipeline; the new Resolve timeline has been structurally verified, not separately rendered or given final listening approval.
+
 ## Current state and next objective
 
-All 14 propositions already have full videos in the approved **Style C** sketchbook style, with existing AI narration. The remaining work is to record Arvind's wife, attach her approved takes to the scene graphs, align and retime each video, regenerate captions, review, and deliver the final collection. Do not rebuild the entire editorial structure or recreate all illustration assets from scratch.
+All 14 propositions now have full **Style C** videos using Arvind's wife's new recordings with the user-approved gentle noise reduction (`afftdn=nr=6:nf=-45`). All 18 original takes from **http://localhost:8877** were backed up and hash-verified in `.video-production/human-recordings/`. Thirteen selected takes were approved in the browser; Prop 1's sole new full take was selected under the user's conversation authorization, without fabricating a browser approval. All selected script hashes match the canonical scripts.
 
-Projects awaiting human narration: **01, 02, 03, 04, 05, 37, 38, 39, 40, 41, 42, 43, 44, 45**. No human take has been declared final or imported at this handoff. Browser test takes are not approvals for production. The real recording dashboard, followed by imported `project.json.recording`, tracks progress.
+Canonical `project.json` files now contain the cleaned audio asset, original recording provenance, retimed scenes, `words-human.json`, regenerated captions and teleprompter timings. Every project is `aligned_cleaned_needs_review`: renders and Resolve structures are verified, but final listening/content review is still required. Per-project `alignment-review.json` preserves ASR differences. Short-window checks recovered ASR omissions in Props 2 and 42. In Prop 5, listen near 1:45 to confirm “millions per recall”; two ASR passes heard “billions,” which could be recognition error or a reading slip. Do not silently rewrite the recording.
+
+All 14 cleaned timelines are saved in Resolve as **Prop N - Sketchbook C - Cleaned Human Narration**, with A1 **Narration - Cleaned Human Voice** and A2 **SFX - Pencil**. Readback verified complete scene coverage, matching durations, online media and no gaps/overlaps on either audio track. Backup: `.video-production/resolve-backups/cleaned-human-series-2026-10-20.drp`. See `resolve-human-series-validation.json` and `human-series-validation.json`. Web exports were made by the sketchbook pipeline, not re-rendered from Resolve.
+
+The default collection at **http://localhost:8877/** now links to all 14 cleaned human-narrated videos via `/human/prop-XX/`. Previous AI videos remain at `/index-ai.html`. Original AI scene graphs are backed up in `.video-production/ai-project-backup/`. Do not overwrite the old AI scene media used by the retained Resolve timelines. For future human-series builds, use output `.video-production/human-series`, not `.video-production/sketchbook/prop-XX`.
 
 ## Ownership and locations
 
 - Content repo: `/home/arvind/educational-explainers.github.io`. Each `video-projects/ca-2026/prop-XX/project.json` owns the script, scene graph, sources, cues and asset references. Keep project sources and timed teleprompter files here in Git.
 - Reusable tools repo: `/home/arvind/code/ampytech-video-gen-tools`; package `src/ampy_video/sketchbook`. Reuse it for future courses such as Bob-the-Robot; avoid ballot-specific logic in generic tools.
 - Media store: `~/.local/share/ampy-video/assets/`, configurable with `AMPY_VIDEO_ASSET_ROOT`. Generated media and voice recordings stay outside Git. References use `asset://<sha256>.<extension>`.
-- Existing review videos: `.video-production/sketchbook/prop-XX/explainer.mp4`; narration-only variant, scenes, captions, Resolve XML and validation sit beside them.
+- Current review videos: `.video-production/human-series/prop-XX/explainer.mp4`; narration-only variant, scenes, captions, Resolve XML and validation sit beside them. `.video-production/sketchbook/human` links to this output. Earlier AI versions remain in `.video-production/sketchbook/prop-XX/`.
 - Recording pack: `.video-production/recording-pack/`; portable `.video-production/ballot-recording-pack.zip`.
-- Existing asset backup: `.video-production/sketchbook/assets-bundle.zip`. Rebuild it after attaching new recordings; the tools now include `recording.source` in asset bundles.
-- Local review server: `http://localhost:8877/`. Recorder and tracker: **`http://localhost:8876/`**. These are local services, not public websites. Keep using the same browser, hostname and port: `127.0.0.1` and `localhost` have different browser storage.
+- Current asset backup: `.video-production/human-series/assets-bundle.zip` (35 assets including original and cleaned recordings). All 18 raw takes also remain backed up separately. Keep private recordings out of any public website upload.
+- Local review server: `http://localhost:8877/`. The actual full-series recordings are in Chrome at **`http://localhost:8877/`** (including `/prop-45/teleprompter.html`); **port 8876 contains only earlier tests**. The newer takes were missed initially because only port 8876 was checked. These are local services, not public websites. Keep using the same browser, hostname and port: `127.0.0.1` and `localhost` have different browser storage.
 - Existing Resolve project: **California Ballot 2026 - Narrated Explainers v3**. Timeline names: **Prop N - Sketchbook C - Timed Recording**; Prop 37: **Prop 37 - Sketchbook C - Full Pilot**. See `resolve-series-validation.json` for recorded checks, not a guarantee of current app state.
 
 ## Recording session for Arvind's wife
@@ -60,6 +72,7 @@ Older takes made before script-version tracking cannot be approved through this 
 
 ## Established creative requirements
 
+- Illustration motion preference (October 20): fade/rise/zoom in once over 1.4 seconds, then hold the image completely static. No repeated zoom, bounce, or slow resizing after the entrance. All 14 AI-narrated videos have now been rebuilt with this effect on all 152 illustrations across 223 scenes. Both export variants passed decode/duration checks, captions match source files, and all illustration layers were checked to settle to their original pixels and position. See `animation-rebuild-validation.json`. Collection: `http://localhost:8877/`. Narration, script, and timeline durations are unchanged. The shared renderer implements the opt-in `animation: fade-rise` image setting; preserve that tools-repo change with these project manifests. The new full human-narration series also uses this animation. The older isolated trial is superseded.
 - Use approved Style C: artistic ink/watercolor illustrations revealed with a pencil/hand, drawing sounds, and animated diagrams/charts. Keep text slides visual, not walls of text.
 - Structure: high-level background and what the proposition changes → concrete illustrative example → mechanism/details → reasons to vote yes → reasons to vote no → dated polling → CTA to visit the website and make a printable voting checklist.
 - Brisk, comprehensible narration. Questions should sound like a viewer/voter asking, not an artificially inserted “neighbor.”

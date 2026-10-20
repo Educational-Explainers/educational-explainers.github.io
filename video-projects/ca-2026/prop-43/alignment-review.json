@@ -1,0 +1,167 @@
+[
+  {
+    "script": "forty-three",
+    "recognized": "43",
+    "start": 0.88
+  },
+  {
+    "script": "pays",
+    "recognized": "base",
+    "start": 8.84
+  },
+  {
+    "script": "Government-proposed",
+    "recognized": "Government proposed",
+    "start": 21.06
+  },
+  {
+    "script": "two-thirds",
+    "recognized": "two -thirds",
+    "start": 24.02
+  },
+  {
+    "script": "voter-proposed",
+    "recognized": "water proposed",
+    "start": 27.44
+  },
+  {
+    "script": "",
+    "recognized": "A",
+    "start": 32.52
+  },
+  {
+    "script": "forty-three",
+    "recognized": "43",
+    "start": 32.94
+  },
+  {
+    "script": "two-thirds",
+    "recognized": "two -thirds",
+    "start": 35.52
+  },
+  {
+    "script": "voter",
+    "recognized": "water",
+    "start": 36.54
+  },
+  {
+    "script": "a hundred",
+    "recognized": "100",
+    "start": 42.18
+  },
+  {
+    "script": "citizen-proposed",
+    "recognized": "citizen proposed",
+    "start": 44.22
+  },
+  {
+    "script": "sixty",
+    "recognized": "60",
+    "start": 46.56
+  },
+  {
+    "script": "two-thirds,",
+    "recognized": "two -thirds,",
+    "start": 50.78
+  },
+  {
+    "script": "first, twenty twenty-seven,",
+    "recognized": "1st, 2027,",
+    "start": 60.82
+  },
+  {
+    "script": "Voters",
+    "recognized": "Waters",
+    "start": 85.78
+  },
+  {
+    "script": "could",
+    "recognized": "to",
+    "start": 92.94
+  },
+  {
+    "script": "two-thirds.",
+    "recognized": "two -thirds.",
+    "start": 103.04
+  },
+  {
+    "script": "council",
+    "recognized": "counsel",
+    "start": 110.16
+  },
+  {
+    "script": "forty",
+    "recognized": "40",
+    "start": 132.76
+  },
+  {
+    "script": "sixty",
+    "recognized": "60",
+    "start": 133.94
+  },
+  {
+    "script": "likely",
+    "recognized": "Lightly",
+    "start": 142.58
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 143.76
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 145.8
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 147.16
+  },
+  {
+    "script": "dated",
+    "recognized": "daily",
+    "start": 149.36
+  },
+  {
+    "script": "cast.",
+    "recognized": "casted.",
+    "start": 152.04
+  },
+  {
+    "script": "later",
+    "recognized": "latest",
+    "start": 153.1
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 155.34
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 156.8
+  },
+  {
+    "script": "percent undecided.",
+    "recognized": "% on the site.",
+    "start": 158.26
+  },
+  {
+    "script": "voter-proposed",
+    "recognized": "voter proposed",
+    "start": 168.64
+  },
+  {
+    "script": "voter",
+    "recognized": "water",
+    "start": 178.66
+  },
+  {
+    "script": "tradeoffs,",
+    "recognized": "trade -offs",
+    "start": 180.52
+  }
+]

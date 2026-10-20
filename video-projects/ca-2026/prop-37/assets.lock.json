@@ -25,8 +25,12 @@
   },
   {
     "role": "narration",
-    "sha256": "ae9c63cf19c71310a6ca079bc4ffb151de617c4fe5a6bee9a3f0d4de4e9b807b",
-    "file": "ae9c63cf19c71310a6ca079bc4ffb151de617c4fe5a6bee9a3f0d4de4e9b807b.wav",
-    "bytes": 14606502
+    "path": "asset://fe0e3e755e227e05fbd855d69739510f2d294dbd6510d13d83883be0f776666b.wav",
+    "sha256": "fe0e3e755e227e05fbd855d69739510f2d294dbd6510d13d83883be0f776666b"
+  },
+  {
+    "role": "recording.source",
+    "path": "asset://bbf7e78b18943c2cca1003d2c7ba3ddd79ed38f6a989a01499e0da49e227a380.m4a",
+    "sha256": "bbf7e78b18943c2cca1003d2c7ba3ddd79ed38f6a989a01499e0da49e227a380"
   }
 ]

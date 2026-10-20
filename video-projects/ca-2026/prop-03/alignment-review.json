@@ -1,0 +1,152 @@
+[
+  {
+    "script": "three",
+    "recognized": "3",
+    "start": 0.06
+  },
+  {
+    "script": "income-tax",
+    "recognized": "income tax",
+    "start": 5.92
+  },
+  {
+    "script": "Voters",
+    "recognized": "What is",
+    "start": 8.74
+  },
+  {
+    "script": "",
+    "recognized": "tax",
+    "start": 9.76
+  },
+  {
+    "script": "twenty twelve",
+    "recognized": "2012",
+    "start": 10.62
+  },
+  {
+    "script": "twenty sixteen.",
+    "recognized": "2016?",
+    "start": 12.34
+  },
+  {
+    "script": "twenty thirty.",
+    "recognized": "2030.",
+    "start": 15.44
+  },
+  {
+    "script": "highest-earning two percent",
+    "recognized": "highest earning 2 %",
+    "start": 18.8
+  },
+  {
+    "script": "taxpayers.",
+    "recognized": "tax payers.",
+    "start": 20.84
+  },
+  {
+    "script": "three",
+    "recognized": "3",
+    "start": 29.72
+  },
+  {
+    "script": "five",
+    "recognized": "$5",
+    "start": 65.44
+  },
+  {
+    "script": "fifteen",
+    "recognized": "$15",
+    "start": 66.2
+  },
+  {
+    "script": "dollars",
+    "recognized": "",
+    "start": 67.02
+  },
+  {
+    "script": "earners.",
+    "recognized": "honors.",
+    "start": 76.3
+  },
+  {
+    "script": "fifteen",
+    "recognized": "$15",
+    "start": 78.66
+  },
+  {
+    "script": "forty percent",
+    "recognized": "40%,",
+    "start": 81.22
+  },
+  {
+    "script": "twenty thirty-one.",
+    "recognized": "2031.",
+    "start": 102.12
+  },
+  {
+    "script": "tax bill.",
+    "recognized": "taxable.",
+    "start": 108.9
+  },
+  {
+    "script": "earners.",
+    "recognized": "honors.",
+    "start": 117.82
+  },
+  {
+    "script": "could",
+    "recognized": "would",
+    "start": 131.34
+  },
+  {
+    "script": "the",
+    "recognized": "that",
+    "start": 132.1
+  },
+  {
+    "script": "PPIC",
+    "recognized": "PBIC",
+    "start": 146.42
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 149.34
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 151.1
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 152.56
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 160.64
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 162.26
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 163.88
+  },
+  {
+    "script": "their scheduled",
+    "recognized": "yes, schedule",
+    "start": 176.8
+  },
+  {
+    "script": "tradeoffs,",
+    "recognized": "trade -offs,",
+    "start": 184.22
+  }
+]

@@ -1,179 +1,251 @@
 1
-00:00:00,000 --> 00:00:04,420
-Proposition thirty-seven creates a loan program for buyers of qualifying new
+00:00:00,000 --> 00:00:06,880
+Proposition thirty-seven creates a loan program for buyers of
 
 2
-00:00:04,420 --> 00:00:09,180
-homes. The problem it targets is the upfront cash needed to buy, not the
+00:00:06,880 --> 00:00:08,140
+qualifying new homes.
 
 3
-00:00:09,180 --> 00:00:14,580
-entire cost of housing. Assistance would be another loan, not free money.
+00:00:08,660 --> 00:00:11,480
+The problem it targets is the upfront cash needed
 
 4
-00:00:14,580 --> 00:00:18,130
-The state housing finance agency could issue up to twenty-five billion
+00:00:11,480 --> 00:00:13,920
+to buy, not the entire cost of housing.
 
 5
-00:00:18,130 --> 00:00:23,020
-dollars in revenue bonds. Homebuyers’ payments would repay investors and
+00:00:14,540 --> 00:00:17,080
+Assistance would be another loan, not free money.
 
 6
-00:00:23,020 --> 00:00:27,960
-administration. The analyst finds no direct state or local cost under this
+00:00:17,640 --> 00:00:20,600
+The state housing finance agency could issue up to
 
 7
-00:00:27,960 --> 00:00:28,320
-structure.
+00:00:20,600 --> 00:00:23,280
+twenty-five billion dollars in revenue bonds.
 
 8
-00:00:28,933 --> 00:00:33,833
-Imagine a family budgeting for a newly built home. For an illustrative home
+00:00:23,780 --> 00:00:26,680
+Homebuyers’ payments would repay investors and administration.
 
 9
-00:00:33,833 --> 00:00:37,973
-costing six hundred thousand dollars, three percent down is eighteen
+00:00:27,260 --> 00:00:30,620
+The analyst finds no direct state or local cost
 
 10
-00:00:37,973 --> 00:00:44,049
-thousand dollars. A loan covering seventeen percent would be one hundred two
+00:00:30,620 --> 00:00:31,360
+under this structure.
 
 11
-00:00:44,049 --> 00:00:48,333
-thousand. The remaining eighty percent is four hundred eighty thousand. That
+00:00:32,040 --> 00:00:34,680
+Imagine a family budgeting for a newly built home.
 
 12
-00:00:48,333 --> 00:00:52,533
-can reduce cash needed at closing, but the family still owes the assistance
+00:00:35,360 --> 00:00:38,713
+For an illustrative home costing six hundred thousand dollars,
 
 13
-00:00:52,533 --> 00:00:57,393
-loan as well as its main mortgage. Affordability depends on both monthly
+00:00:38,713 --> 00:00:41,360
+three percent down is eighteen thousand dollars.
 
 14
-00:00:57,393 --> 00:01:03,833
-payments, interest rates, taxes, insurance, and other costs. The program is
+00:00:42,140 --> 00:00:46,010
+A loan covering seventeen percent would be one hundred
 
 15
-00:01:03,833 --> 00:01:05,913
-tied to qualifying new housing.
+00:00:46,010 --> 00:00:47,020
+two thousand.
 
 16
-00:01:06,650 --> 00:01:11,420
-Borrowers must meet one year of California residency, owner-occupancy, and
+00:00:47,740 --> 00:00:51,420
+The remaining eighty percent is four hundred eighty thousand.
 
 17
-00:01:11,420 --> 00:01:16,560
-income rules, including an income ceiling tied to twice the area’s median.
+00:00:51,800 --> 00:00:54,120
+That can reduce cash needed at closing, but the
 
 18
-00:01:16,560 --> 00:01:21,060
-Homes must be qualifying first sales, with county-based price limits roughly
+00:00:54,120 --> 00:00:57,620
+family still owes the assistance loan as well as
 
 19
-00:01:21,060 --> 00:01:26,140
-around one million to one and a half million dollars, adjusted annually. How
+00:00:57,620 --> 00:00:58,440
+its main mortgage.
 
 20
-00:01:26,140 --> 00:01:30,500
-many loans could it fund? Using the example loan amount, the bond could
+00:00:59,000 --> 00:01:02,780
+Affordability depends on both monthly payments, interest rates, taxes,
 
 21
-00:01:30,500 --> 00:01:34,640
-support roughly two hundred and forty-five thousand loans. That is
+00:01:03,200 --> 00:01:05,060
+insurance, and other costs.
 
 22
-00:01:34,640 --> 00:01:40,260
-arithmetic, not an official forecast; actual loan sizes, issuance, and costs
+00:01:05,420 --> 00:01:07,940
+The program is tied to qualifying new housing.
 
 23
-00:01:40,260 --> 00:01:45,200
-matter. Developers can build eligible homes without using the optional
+00:01:08,580 --> 00:01:13,540
+Borrowers must meet one year of California residency, owner-occupancy,
 
 24
-00:01:45,200 --> 00:01:49,620
-qualified-builder route. That option pairs higher labor standards with
+00:01:14,440 --> 00:01:17,900
+and income rules, including an income ceiling tied to
 
 25
-00:01:49,620 --> 00:01:54,080
-different construction-defect rules. The measure does not directly guarantee
+00:01:17,900 --> 00:01:19,300
+twice the area’s median.
 
 26
-00:01:54,080 --> 00:01:56,560
-a particular number of homes will be built.
+00:01:19,300 --> 00:01:23,380
+Homes must be qualifying first sales, with county-based price
 
 27
-00:01:57,000 --> 00:02:01,700
-A voter might support helping households with adequate income but too little
+00:01:23,380 --> 00:01:26,570
+limits roughly around one million to one and a
 
 28
-00:02:01,700 --> 00:02:06,200
-saved cash. Restricting the assistance to new homes could encourage
+00:01:26,570 --> 00:01:28,460
+half million dollars, adjusted annually.
 
 29
-00:02:06,200 --> 00:02:10,820
-construction, connecting stronger purchasing power to additional supply.
+00:01:29,100 --> 00:01:30,260
+How many loans could it fund?
 
 30
-00:02:10,820 --> 00:02:14,080
-Whether developers respond enough is uncertain.
+00:01:30,800 --> 00:01:33,320
+Using the example loan amount, the bond could support
 
 31
-00:02:14,733 --> 00:02:19,793
-You might ask whether easier buying pushes prices up. If more buyers can bid
+00:01:33,320 --> 00:01:36,540
+roughly two hundred and forty-five thousand loans.
 
 32
-00:02:19,793 --> 00:02:24,033
-while construction stays constrained, some benefit can be absorbed into
+00:01:36,760 --> 00:01:40,240
+That is arithmetic, not an official forecast; actual loan
 
 33
-00:02:24,033 --> 00:02:29,653
-higher prices. New-home eligibility helps link the program to supply, but
+00:01:40,240 --> 00:01:42,460
+sizes, issuance, and costs matter.
 
 34
-00:02:29,653 --> 00:02:34,613
-does not remove land, labor, or permitting constraints. Easier financing
+00:01:43,160 --> 00:01:47,140
+Developers can build eligible homes without using the optional
 
 35
-00:02:34,613 --> 00:02:40,273
-alone is not a complete affordability solution. A skeptical voter could also
+00:01:47,140 --> 00:01:48,640
+qualified-builder route.
 
 36
-00:02:40,273 --> 00:02:45,473
-question the extra household debt or the construction-defect tradeoff. No
+00:01:48,640 --> 00:01:53,460
+That option pairs higher labor standards with different construction-defect
 
 37
-00:02:45,473 --> 00:02:50,373
-direct government cost does not mean every borrower benefits, or that every
+00:01:53,460 --> 00:01:54,020
+rules.
 
 38
-00:02:50,373 --> 00:02:51,453
-risk disappears.
+00:01:54,760 --> 00:01:57,640
+The measure does not directly guarantee a particular number
 
 39
-00:02:52,067 --> 00:02:57,727
-In the September PPIC survey of likely voters, 61 percent said yes, 35
+00:01:57,640 --> 00:01:59,140
+of homes will be built.
 
 40
-00:02:57,727 --> 00:03:03,687
-percent no, and 3 percent were unsure. These are dated survey results, not
+00:01:59,820 --> 00:02:03,020
+A voter might support helping households with adequate income
 
 41
-00:03:03,687 --> 00:03:04,807
-votes already cast.
+00:02:03,480 --> 00:02:05,080
+but too little saved cash.
 
 42
-00:03:05,433 --> 00:03:10,293
-Yes creates this loan program; no leaves existing assistance options in
+00:02:05,640 --> 00:02:09,280
+Restricting the assistance to new homes could encourage construction,
 
 43
-00:03:10,293 --> 00:03:14,713
-place without requiring the new program. Visit our website for the fuller
+00:02:09,560 --> 00:02:13,400
+connecting stronger purchasing power to additional supply.
 
 44
-00:03:14,713 --> 00:03:20,293
-explanation, source links, and official voter guide. Compare the tradeoffs,
+00:02:13,940 --> 00:02:16,500
+Whether developers respond enough is uncertain.
 
 45
-00:03:20,293 --> 00:03:22,273
-then make your own informed choice.
+00:02:16,500 --> 00:02:20,620
+You might ask whether easier buying pushes prices up.
+
+46
+00:02:20,880 --> 00:02:24,560
+If more buyers can bid while construction stays constrained,
+
+47
+00:02:25,320 --> 00:02:27,920
+some benefit can be absorbed into higher prices.
+
+48
+00:02:28,580 --> 00:02:32,480
+New-home eligibility helps link the program to supply, but
+
+49
+00:02:32,480 --> 00:02:36,000
+does not remove land, labor, or permitting constraints.
+
+50
+00:02:36,700 --> 00:02:40,780
+Easier financing alone is not a complete affordability solution.
+
+51
+00:02:41,300 --> 00:02:44,800
+A skeptical voter could also question the extra household
+
+52
+00:02:44,800 --> 00:02:47,740
+debt or the construction-defect tradeoff.
+
+53
+00:02:48,240 --> 00:02:51,760
+No direct government cost does not mean every borrower
+
+54
+00:02:51,760 --> 00:02:54,500
+benefits, or that every risk disappears.
+
+55
+00:02:54,880 --> 00:02:58,380
+In the September PPIC survey of likely voters, 61
+
+56
+00:02:58,380 --> 00:03:02,710
+percent said yes, 35 percent no, and 3 percent
+
+57
+00:03:02,710 --> 00:03:02,960
+were unsure.
+
+58
+00:03:03,720 --> 00:03:07,220
+These are dated survey results, not votes already cast.
+
+59
+00:03:07,980 --> 00:03:12,380
+Yes creates this loan program; no leaves existing assistance
+
+60
+00:03:12,380 --> 00:03:15,500
+options in place without requiring the new program.
+
+61
+00:03:16,240 --> 00:03:19,140
+Visit our website for the fuller explanation, source links,
+
+62
+00:03:19,440 --> 00:03:20,580
+and official voter guide.
+
+63
+00:03:21,160 --> 00:03:24,340
+Compare the tradeoffs, then make your own informed choice.

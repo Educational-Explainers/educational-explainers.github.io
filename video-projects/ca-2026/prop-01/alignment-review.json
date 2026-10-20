@@ -1,0 +1,147 @@
+[
+  {
+    "script": "one",
+    "recognized": "1",
+    "start": 3.46
+  },
+  {
+    "script": "interest",
+    "recognized": "interests",
+    "start": 10.54
+  },
+  {
+    "script": "low-cost",
+    "recognized": "low -cost",
+    "start": 16.92
+  },
+  {
+    "script": "eleven point two five",
+    "recognized": "$11 .25",
+    "start": 28.66
+  },
+  {
+    "script": "dollars: ten",
+    "recognized": "$10",
+    "start": 31.5
+  },
+  {
+    "script": "one point two five",
+    "recognized": "$1 .25",
+    "start": 33.86
+  },
+  {
+    "script": "Those",
+    "recognized": "These",
+    "start": 38.3
+  },
+  {
+    "script": "below-market",
+    "recognized": "below -market",
+    "start": 50.76
+  },
+  {
+    "script": "seven point two",
+    "recognized": "$7 .2",
+    "start": 64.8
+  },
+  {
+    "script": "dollars",
+    "recognized": "",
+    "start": 66.06
+  },
+  {
+    "script": "lower-income",
+    "recognized": "lower -income",
+    "start": 73.84
+  },
+  {
+    "script": "fifty-five",
+    "recognized": "55",
+    "start": 75.46
+  },
+  {
+    "script": "farmworker",
+    "recognized": "farm worker",
+    "start": 80.76
+  },
+  {
+    "script": "forty thousand",
+    "recognized": "40 ,000",
+    "start": 93.56
+  },
+  {
+    "script": "forty thousand",
+    "recognized": "40 ,000",
+    "start": 100.26
+  },
+  {
+    "script": "five hundred",
+    "recognized": "$500",
+    "start": 107.1
+  },
+  {
+    "script": "six hundred",
+    "recognized": "$600",
+    "start": 108.14
+  },
+  {
+    "script": "dollars",
+    "recognized": "",
+    "start": 108.98
+  },
+  {
+    "script": "twenty-five",
+    "recognized": "25",
+    "start": 111.04
+  },
+  {
+    "script": "",
+    "recognized": "a",
+    "start": 142.1
+  },
+  {
+    "script": "costs",
+    "recognized": "cost",
+    "start": 142.88
+  },
+  {
+    "script": "adds",
+    "recognized": "ads,",
+    "start": 145.22
+  },
+  {
+    "script": "PPIC",
+    "recognized": "PBIC",
+    "start": 153.76
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 156.42
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 158.44
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 160.46
+  },
+  {
+    "script": "the",
+    "recognized": "",
+    "start": 174.04
+  },
+  {
+    "script": "voter",
+    "recognized": "water",
+    "start": 176.6
+  },
+  {
+    "script": "tradeoffs,",
+    "recognized": "trade -offs,",
+    "start": 178.62
+  }
+]

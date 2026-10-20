@@ -1,0 +1,275 @@
+{
+  "project": "California Ballot 2026 - Narrated Explainers v3",
+  "timelines": [
+    {
+      "number": 1,
+      "name": "Prop 1 - Sketchbook C - Cleaned Human Narration",
+      "id": "487bc7b5-913b-4a8b-9db3-8bbfea056f5e",
+      "media": {
+        "total": 17,
+        "linked": 17,
+        "offline": 0
+      },
+      "frames": 5553,
+      "video_clips": 15,
+      "audio_tracks": [
+        "Narration - Cleaned Human Voice",
+        "SFX - Pencil"
+      ],
+      "gaps": 0,
+      "overlaps": 0,
+      "verified": true
+    },
+    {
+      "number": 2,
+      "name": "Prop 2 - Sketchbook C - Cleaned Human Narration",
+      "id": "b6bbc3e6-701c-40fa-b996-ff466f85b805",
+      "media": {
+        "total": 16,
+        "linked": 16,
+        "offline": 0
+      },
+      "frames": 5355,
+      "video_clips": 14,
+      "audio_tracks": [
+        "Narration - Cleaned Human Voice",
+        "SFX - Pencil"
+      ],
+      "gaps": 0,
+      "overlaps": 0,
+      "verified": true
+    },
+    {
+      "number": 3,
+      "name": "Prop 3 - Sketchbook C - Cleaned Human Narration",
+      "id": "fa60cc3a-9643-42cb-9c2f-1a11bc4c9ff5",
+      "media": {
+        "total": 17,
+        "linked": 17,
+        "offline": 0
+      },
+      "frames": 5639,
+      "video_clips": 15,
+      "audio_tracks": [
+        "Narration - Cleaned Human Voice",
+        "SFX - Pencil"
+      ],
+      "gaps": 0,
+      "overlaps": 0,
+      "verified": true
+    },
+    {
+      "number": 4,
+      "name": "Prop 4 - Sketchbook C - Cleaned Human Narration",
+      "id": "a5c55334-4988-452c-9551-bd36c47c96a3",
+      "media": {
+        "total": 23,
+        "linked": 23,
+        "offline": 0
+      },
+      "frames": 6071,
+      "video_clips": 21,
+      "audio_tracks": [
+        "Narration - Cleaned Human Voice",
+        "SFX - Pencil"
+      ],
+      "gaps": 0,
+      "overlaps": 0,
+      "verified": true
+    },
+    {
+      "number": 5,
+      "name": "Prop 5 - Sketchbook C - Cleaned Human Narration",
+      "id": "2ac9b4e5-8065-45b7-8c31-45b71d7ae3d8",
+      "media": {
+        "total": 16,
+        "linked": 16,
+        "offline": 0
+      },
+      "frames": 5279,
+      "video_clips": 14,
+      "audio_tracks": [
+        "Narration - Cleaned Human Voice",
+        "SFX - Pencil"
+      ],
+      "gaps": 0,
+      "overlaps": 0,
+      "verified": true
+    },
+    {
+      "number": 37,
+      "name": "Prop 37 - Sketchbook C - Cleaned Human Narration",
+      "id": "375cdf8e-ff69-4376-8f71-9309b963a2a4",
+      "media": {
+        "total": 28,
+        "linked": 28,
+        "offline": 0
+      },
+      "frames": 6158,
+      "video_clips": 26,
+      "audio_tracks": [
+        "Narration - Cleaned Human Voice",
+        "SFX - Pencil"
+      ],
+      "gaps": 0,
+      "overlaps": 0,
+      "verified": true
+    },
+    {
+      "number": 38,
+      "name": "Prop 38 - Sketchbook C - Cleaned Human Narration",
+      "id": "d12eec9c-bcb5-40ca-90fe-c5956d96618c",
+      "media": {
+        "total": 15,
+        "linked": 15,
+        "offline": 0
+      },
+      "frames": 5317,
+      "video_clips": 13,
+      "audio_tracks": [
+        "Narration - Cleaned Human Voice",
+        "SFX - Pencil"
+      ],
+      "gaps": 0,
+      "overlaps": 0,
+      "verified": true
+    },
+    {
+      "number": 39,
+      "name": "Prop 39 - Sketchbook C - Cleaned Human Narration",
+      "id": "3dac2749-20c0-422f-9b7e-5bb7d42adabd",
+      "media": {
+        "total": 18,
+        "linked": 18,
+        "offline": 0
+      },
+      "frames": 6737,
+      "video_clips": 16,
+      "audio_tracks": [
+        "Narration - Cleaned Human Voice",
+        "SFX - Pencil"
+      ],
+      "gaps": 0,
+      "overlaps": 0,
+      "verified": true
+    },
+    {
+      "number": 40,
+      "name": "Prop 40 - Sketchbook C - Cleaned Human Narration",
+      "id": "ac7e4c5d-dce4-4b8a-8397-2f0acecc0d23",
+      "media": {
+        "total": 19,
+        "linked": 19,
+        "offline": 0
+      },
+      "frames": 7052,
+      "video_clips": 17,
+      "audio_tracks": [
+        "Narration - Cleaned Human Voice",
+        "SFX - Pencil"
+      ],
+      "gaps": 0,
+      "overlaps": 0,
+      "verified": true
+    },
+    {
+      "number": 41,
+      "name": "Prop 41 - Sketchbook C - Cleaned Human Narration",
+      "id": "1ddb5c69-4d28-4c47-9a97-acc3e325db0b",
+      "media": {
+        "total": 18,
+        "linked": 18,
+        "offline": 0
+      },
+      "frames": 6177,
+      "video_clips": 16,
+      "audio_tracks": [
+        "Narration - Cleaned Human Voice",
+        "SFX - Pencil"
+      ],
+      "gaps": 0,
+      "overlaps": 0,
+      "verified": true
+    },
+    {
+      "number": 42,
+      "name": "Prop 42 - Sketchbook C - Cleaned Human Narration",
+      "id": "3cc6fbff-6c39-46c3-a838-53aa75924b96",
+      "media": {
+        "total": 17,
+        "linked": 17,
+        "offline": 0
+      },
+      "frames": 6017,
+      "video_clips": 15,
+      "audio_tracks": [
+        "Narration - Cleaned Human Voice",
+        "SFX - Pencil"
+      ],
+      "gaps": 0,
+      "overlaps": 0,
+      "verified": true
+    },
+    {
+      "number": 43,
+      "name": "Prop 43 - Sketchbook C - Cleaned Human Narration",
+      "id": "5111d6b4-970b-41f7-b2d4-f8f6d47f88f7",
+      "media": {
+        "total": 16,
+        "linked": 16,
+        "offline": 0
+      },
+      "frames": 5528,
+      "video_clips": 14,
+      "audio_tracks": [
+        "Narration - Cleaned Human Voice",
+        "SFX - Pencil"
+      ],
+      "gaps": 0,
+      "overlaps": 0,
+      "verified": true
+    },
+    {
+      "number": 44,
+      "name": "Prop 44 - Sketchbook C - Cleaned Human Narration",
+      "id": "f2d4930d-d8e9-4723-a359-8605a9740e82",
+      "media": {
+        "total": 15,
+        "linked": 15,
+        "offline": 0
+      },
+      "frames": 5222,
+      "video_clips": 13,
+      "audio_tracks": [
+        "Narration - Cleaned Human Voice",
+        "SFX - Pencil"
+      ],
+      "gaps": 0,
+      "overlaps": 0,
+      "verified": true
+    },
+    {
+      "number": 45,
+      "name": "Prop 45 - Sketchbook C - Cleaned Human Narration",
+      "id": "4740ca19-bcaa-448c-902e-5cf6a19cb4d6",
+      "media": {
+        "total": 16,
+        "linked": 16,
+        "offline": 0
+      },
+      "frames": 6179,
+      "video_clips": 14,
+      "audio_tracks": [
+        "Narration - Cleaned Human Voice",
+        "SFX - Pencil"
+      ],
+      "gaps": 0,
+      "overlaps": 0,
+      "verified": true
+    }
+  ],
+  "saved": true,
+  "backup": ".video-production/resolve-backups/cleaned-human-series-2026-10-20.drp",
+  "checked": "2026-10-20",
+  "note": "Structural/media verification of editable Resolve timelines; web exports rendered by sketchbook pipeline. Listening review remains separate."
+}

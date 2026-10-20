@@ -1,0 +1,227 @@
+[
+  {
+    "script": "forty",
+    "recognized": "40",
+    "start": 0.32
+  },
+  {
+    "script": "one-time",
+    "recognized": "one -time",
+    "start": 5.34
+  },
+  {
+    "script": "five percent",
+    "recognized": "5 %",
+    "start": 21.16
+  },
+  {
+    "script": "residency",
+    "recognized": "",
+    "start": 26.79
+  },
+  {
+    "script": "first, twenty twenty-six.",
+    "recognized": "1, 2026.",
+    "start": 27.4
+  },
+  {
+    "script": "five percent",
+    "recognized": "5 %",
+    "start": 30.74
+  },
+  {
+    "script": "one",
+    "recognized": "$1",
+    "start": 32.58
+  },
+  {
+    "script": "dollars.",
+    "recognized": "",
+    "start": 34.0
+  },
+  {
+    "script": "twenty twenty-seven,",
+    "recognized": "2027,",
+    "start": 39.74
+  },
+  {
+    "script": "five",
+    "recognized": "5",
+    "start": 44.36
+  },
+  {
+    "script": "two",
+    "recognized": "$2",
+    "start": 55.1
+  },
+  {
+    "script": "dollars",
+    "recognized": "",
+    "start": 55.76
+  },
+  {
+    "script": "five percent",
+    "recognized": "5 %",
+    "start": 59.2
+  },
+  {
+    "script": "one hundred",
+    "recognized": "$100",
+    "start": 62.5
+  },
+  {
+    "script": "dollars.",
+    "recognized": "",
+    "start": 64.6
+  },
+  {
+    "script": "Ninety percent",
+    "recognized": "90 %",
+    "start": 72.6
+  },
+  {
+    "script": "health care;",
+    "recognized": "healthcare.",
+    "start": 74.26
+  },
+  {
+    "script": "one-time",
+    "recognized": "one -time",
+    "start": 80.56
+  },
+  {
+    "script": "also",
+    "recognized": "",
+    "start": 105.58
+  },
+  {
+    "script": "income-tax",
+    "recognized": "income tax",
+    "start": 106.78
+  },
+  {
+    "script": "one",
+    "recognized": "$1",
+    "start": 115.0
+  },
+  {
+    "script": "dollars",
+    "recognized": "",
+    "start": 115.56
+  },
+  {
+    "script": "one-time wealth-tax",
+    "recognized": "one -time -time wealth tax",
+    "start": 118.72
+  },
+  {
+    "script": "forty-one and forty-two",
+    "recognized": "41 .42",
+    "start": 121.96
+  },
+  {
+    "script": "fifty percent",
+    "recognized": "50 %",
+    "start": 131.6
+  },
+  {
+    "script": "health care",
+    "recognized": "healthcare",
+    "start": 139.38
+  },
+  {
+    "script": "long-term",
+    "recognized": "long -term",
+    "start": 149.56
+  },
+  {
+    "script": "risks",
+    "recognized": "risk",
+    "start": 162.04
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 178.54
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 180.5
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 181.98
+  },
+  {
+    "script": "dated",
+    "recognized": "data",
+    "start": 183.98
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 190.16
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 191.86
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 193.42
+  },
+  {
+    "script": "trend.",
+    "recognized": "trip.",
+    "start": 200.76
+  },
+  {
+    "script": "Voter",
+    "recognized": "Water",
+    "start": 203.28
+  },
+  {
+    "script": "second",
+    "recognized": "2nd",
+    "start": 205.52
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 207.34
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 209.16
+  },
+  {
+    "script": "no",
+    "recognized": "nor",
+    "start": 221.68
+  },
+  {
+    "script": "one-time levy.",
+    "recognized": "one -time leader.",
+    "start": 223.68
+  },
+  {
+    "script": "explanation,",
+    "recognized": "explanations,",
+    "start": 227.14
+  },
+  {
+    "script": "voter",
+    "recognized": "water",
+    "start": 229.18
+  },
+  {
+    "script": "tradeoffs,",
+    "recognized": "trade -offs",
+    "start": 230.92
+  }
+]

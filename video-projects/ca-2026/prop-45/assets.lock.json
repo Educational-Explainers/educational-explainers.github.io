@@ -33,5 +33,15 @@
     "role": "medical",
     "path": "asset://bf2d9b60f1657fc723a75dac2aa58b843ed0dfc4b1ce721fe8c64e7aa27099df.png",
     "sha256": "bf2d9b60f1657fc723a75dac2aa58b843ed0dfc4b1ce721fe8c64e7aa27099df"
+  },
+  {
+    "role": "narration",
+    "path": "asset://5aa1c231951f6172871c22bfdde0168197f4870d3fbabf693377182dc35511c7.wav",
+    "sha256": "5aa1c231951f6172871c22bfdde0168197f4870d3fbabf693377182dc35511c7"
+  },
+  {
+    "role": "recording.source",
+    "path": "asset://072cadf620832be743f8f2b82076f5d16d8687b8860f6a12d1fafa675314866f.m4a",
+    "sha256": "072cadf620832be743f8f2b82076f5d16d8687b8860f6a12d1fafa675314866f"
   }
 ]

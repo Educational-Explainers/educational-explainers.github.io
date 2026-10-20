@@ -1,0 +1,97 @@
+[
+  {
+    "script": "thirty-eight",
+    "recognized": "38",
+    "start": 0.16
+  },
+  {
+    "script": "eight point four",
+    "recognized": "$8 .4",
+    "start": 5.86
+  },
+  {
+    "script": "dollars",
+    "recognized": "",
+    "start": 7.1
+  },
+  {
+    "script": "four point two",
+    "recognized": "$4 .2",
+    "start": 74.02
+  },
+  {
+    "script": "dollars",
+    "recognized": "",
+    "start": 75.34
+  },
+  {
+    "script": "twenty percent",
+    "recognized": "20 %",
+    "start": 85.34
+  },
+  {
+    "script": "five hundred",
+    "recognized": "$500",
+    "start": 92.94
+  },
+  {
+    "script": "six hundred",
+    "recognized": "$600",
+    "start": 93.8
+  },
+  {
+    "script": "dollars",
+    "recognized": "",
+    "start": 94.64
+  },
+  {
+    "script": "twenty",
+    "recognized": "20",
+    "start": 98.04
+  },
+  {
+    "script": "could",
+    "recognized": "good",
+    "start": 101.08
+  },
+  {
+    "script": "long-term",
+    "recognized": "long -term",
+    "start": 107.22
+  },
+  {
+    "script": "voter",
+    "recognized": "order",
+    "start": 127.48
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 149.42
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 151.6
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 153.36
+  },
+  {
+    "script": "no",
+    "recognized": "nor",
+    "start": 161.66
+  },
+  {
+    "script": "",
+    "recognized": "extending or",
+    "start": 164.12
+  },
+  {
+    "script": "tradeoffs,",
+    "recognized": "trade -offs",
+    "start": 173.42
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "script": "thirty-nine",
+    "recognized": "39",
+    "start": 3.679999999999996
+  },
+  {
+    "script": "noncitizens",
+    "recognized": "non -citizens",
+    "start": 19.3
+  },
+  {
+    "script": "identifying",
+    "recognized": "identification,",
+    "start": 22.86
+  },
+  {
+    "script": "in-person",
+    "recognized": "in -person",
+    "start": 25.82
+  },
+  {
+    "script": "government-identification",
+    "recognized": "government identification",
+    "start": 35.08
+  },
+  {
+    "script": "government-issued",
+    "recognized": "government -issued",
+    "start": 44.84
+  },
+  {
+    "script": "would",
+    "recognized": "could",
+    "start": 53.68
+  },
+  {
+    "script": "in-person",
+    "recognized": "in -person",
+    "start": 61.28
+  },
+  {
+    "script": "government-issued",
+    "recognized": "government -issued",
+    "start": 63.74
+  },
+  {
+    "script": "Legislature",
+    "recognized": "legislator",
+    "start": 71.24
+  },
+  {
+    "script": "percentages,",
+    "recognized": "procedures",
+    "start": 84.98
+  },
+  {
+    "script": "free-card",
+    "recognized": "free card",
+    "start": 131.48
+  },
+  {
+    "script": "their costs",
+    "recognized": "the cost",
+    "start": 139.24
+  },
+  {
+    "script": "PPIC",
+    "recognized": "PBIC",
+    "start": 165.88
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 168.38
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 170.72
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 172.18
+  },
+  {
+    "script": "dated",
+    "recognized": "data",
+    "start": 174.44
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 180.96
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 182.72
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 184.18
+  },
+  {
+    "script": "second",
+    "recognized": "2nd",
+    "start": 195.26
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 197.08
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 198.98
+  },
+  {
+    "script": "no",
+    "recognized": "nor",
+    "start": 210.78
+  },
+  {
+    "script": "tradeoffs,",
+    "recognized": "trade offs",
+    "start": 220.6
+  }
+]

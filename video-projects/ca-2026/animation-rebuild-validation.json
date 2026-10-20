@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-20",
+  "animation": "1.4-second fade-rise-zoom entrance, then static hold",
+  "projects": [
+    {
+      "project": "prop-01",
+      "scenes": 15,
+      "frames": 5406,
+      "seconds": 180.2,
+      "decode": "passed",
+      "caption_copy": "matched",
+      "audio_mix_error": 0.0,
+      "illustrations": 11
+    },
+    {
+      "project": "prop-02",
+      "scenes": 14,
+      "frames": 5252,
+      "seconds": 175.06666666666666,
+      "decode": "passed",
+      "caption_copy": "matched",
+      "audio_mix_error": 0.0,
+      "illustrations": 10
+    },
+    {
+      "project": "prop-03",
+      "scenes": 15,
+      "frames": 5545,
+      "seconds": 184.83333333333334,
+      "decode": "passed",
+      "caption_copy": "matched",
+      "audio_mix_error": 0.0,
+      "illustrations": 10
+    },
+    {
+      "project": "prop-04",
+      "scenes": 21,
+      "frames": 5963,
+      "seconds": 198.76666666666668,
+      "decode": "passed",
+      "caption_copy": "matched",
+      "audio_mix_error": 0.0,
+      "illustrations": 13
+    },
+    {
+      "project": "prop-05",
+      "scenes": 14,
+      "frames": 5170,
+      "seconds": 172.33333333333334,
+      "decode": "passed",
+      "caption_copy": "matched",
+      "audio_mix_error": 0.0,
+      "illustrations": 10
+    },
+    {
+      "project": "prop-37",
+      "scenes": 26,
+      "frames": 6086,
+      "seconds": 202.86666666666667,
+      "decode": "passed",
+      "caption_copy": "matched",
+      "audio_mix_error": 0.0,
+      "illustrations": 15
+    },
+    {
+      "project": "prop-38",
+      "scenes": 13,
+      "frames": 5221,
+      "seconds": 174.03333333333333,
+      "decode": "passed",
+      "caption_copy": "matched",
+      "audio_mix_error": 0.0,
+      "illustrations": 9
+    },
+    {
+      "project": "prop-39",
+      "scenes": 16,
+      "frames": 6641,
+      "seconds": 221.36666666666667,
+      "decode": "passed",
+      "caption_copy": "matched",
+      "audio_mix_error": 0.0,
+      "illustrations": 10
+    },
+    {
+      "project": "prop-40",
+      "scenes": 17,
+      "frames": 6955,
+      "seconds": 231.83333333333334,
+      "decode": "passed",
+      "caption_copy": "matched",
+      "audio_mix_error": 0.0,
+      "illustrations": 12
+    },
+    {
+      "project": "prop-41",
+      "scenes": 16,
+      "frames": 6079,
+      "seconds": 202.63333333333333,
+      "decode": "passed",
+      "caption_copy": "matched",
+      "audio_mix_error": 0.0,
+      "illustrations": 10
+    },
+    {
+      "project": "prop-42",
+      "scenes": 15,
+      "frames": 5921,
+      "seconds": 197.36666666666667,
+      "decode": "passed",
+      "caption_copy": "matched",
+      "audio_mix_error": 0.0,
+      "illustrations": 10
+    },
+    {
+      "project": "prop-43",
+      "scenes": 14,
+      "frames": 5454,
+      "seconds": 181.8,
+      "decode": "passed",
+      "caption_copy": "matched",
+      "audio_mix_error": 0.0,
+      "illustrations": 11
+    },
+    {
+      "project": "prop-44",
+      "scenes": 13,
+      "frames": 5126,
+      "seconds": 170.86666666666667,
+      "decode": "passed",
+      "caption_copy": "matched",
+      "audio_mix_error": 0.0,
+      "illustrations": 11
+    },
+    {
+      "project": "prop-45",
+      "scenes": 14,
+      "frames": 6080,
+      "seconds": 202.66666666666666,
+      "decode": "passed",
+      "caption_copy": "matched",
+      "audio_mix_error": 0.0,
+      "illustrations": 10
+    }
+  ],
+  "renderer_sha256": "bc502d309f40c6f20ec074866b0c6b93254fab60ee4c6614e13f9ed5cc3f4b3f",
+  "total_scenes": 223,
+  "total_illustrations": 152,
+  "total_seconds": 2696.6333333333337,
+  "status": "all_14_rebuilt_and_technically_validated"
+}

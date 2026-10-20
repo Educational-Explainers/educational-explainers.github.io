@@ -1,175 +1,243 @@
 1
-00:00:00,000 --> 00:00:04,360
-Proposition forty-five changes environmental review for eligible
+00:00:02,680 --> 00:00:08,140
+Proposition forty-five changes environmental review for eligible construction projects.
 
 2
-00:00:04,360 --> 00:00:10,040
-construction projects. California’s environmental quality law requires
+00:00:08,580 --> 00:00:13,820
+California’s environmental quality law requires agencies to examine significant
 
 3
-00:00:10,040 --> 00:00:15,300
-agencies to examine significant impacts before approving many projects.
+00:00:13,820 --> 00:00:16,900
+impacts before approving many projects.
 
 4
-00:00:15,300 --> 00:00:20,180
-Review can identify harms and alternatives, while delay can also make
+00:00:17,720 --> 00:00:22,480
+Review can identify harms and alternatives, while delay can
 
 5
-00:00:20,180 --> 00:00:25,000
-projects more costly. The proposal offers an optional faster process for
+00:00:22,480 --> 00:00:24,420
+also make projects more costly.
 
 6
-00:00:25,000 --> 00:00:31,060
-specified projects, including many housing, transportation, water, health,
+00:00:24,420 --> 00:00:28,380
+The proposal offers an optional faster process for specified
 
 7
-00:00:31,060 --> 00:00:35,720
-and clean-energy projects. It changes deadlines and the scope of review and
+00:00:28,380 --> 00:00:34,360
+projects, including many housing, transportation, water, health, and clean-energy
 
 8
-00:00:35,720 --> 00:00:38,400
-litigation, not just the speed of paperwork.
+00:00:34,360 --> 00:00:34,940
+projects.
 
 9
-00:00:39,067 --> 00:00:43,987
-Imagine a planner preparing a new housing project. Residents may want homes
+00:00:35,700 --> 00:00:38,220
+It changes deadlines and the scope of review and
 
 10
-00:00:43,987 --> 00:00:48,667
-built sooner but also want traffic, water, and environmental impacts
+00:00:38,220 --> 00:00:41,280
+litigation, not just the speed of paperwork.
 
 11
-00:00:48,667 --> 00:00:53,707
-examined. Those goals can overlap. The disagreement is whether the proposed
+00:00:41,880 --> 00:00:45,400
+Imagine a planner preparing a new housing project.
 
 12
-00:00:53,707 --> 00:00:58,767
-process keeps enough scrutiny while reducing avoidable delay. The
+00:00:46,040 --> 00:00:48,820
+Residents may want homes built sooner but also want
 
 13
-00:00:58,767 --> 00:01:01,627
-surrounding community lives with the completed project.
+00:00:48,820 --> 00:00:52,020
+traffic, water, and environmental impacts examined.
 
 14
-00:01:02,367 --> 00:01:06,047
-For projects using the new route, agencies would set application
+00:00:52,680 --> 00:00:53,960
+Those goals can overlap.
 
 15
-00:01:06,047 --> 00:01:12,260
-requirements upfront and face tighter deadlines. For example, missing a
+00:00:54,560 --> 00:00:57,840
+The disagreement is whether the proposed process keeps enough
 
 16
-00:01:12,260 --> 00:01:15,767
-three-hundred-sixty-five-business-day environmental-report deadline could
+00:00:57,840 --> 00:01:00,740
+scrutiny while reducing avoidable delay.
 
 17
-00:01:15,767 --> 00:01:20,467
-trigger a hearing request and potentially a lawsuit. It is not automatic
+00:01:01,560 --> 00:01:04,340
+The surrounding community lives with the completed project.
 
 18
-00:01:20,467 --> 00:01:25,007
-approval after a year. Review would use standards in place when the
+00:01:04,880 --> 00:01:08,220
+For projects using the new route, agencies would set
 
 19
-00:01:25,007 --> 00:01:29,367
-application is submitted. The applicant could offer one alternative instead
+00:01:08,220 --> 00:01:11,780
+application requirements upfront and face tighter deadlines.
 
 20
-00:01:29,367 --> 00:01:34,447
-of an agency developing several. Public-comment periods would have maximums,
+00:01:11,780 --> 00:01:18,820
+For example, missing a three-hundred-sixty-five-business-day environmental-report deadline could trigger
 
 21
-00:01:34,447 --> 00:01:39,267
-and required tribal consultation would be narrower. Courts would have less
+00:01:18,820 --> 00:01:21,760
+a hearing request and potentially a lawsuit.
 
 22
-00:01:39,267 --> 00:01:43,987
-scope to review challenges and could stop the noncompliant portion rather
+00:01:22,500 --> 00:01:24,860
+It is not automatic approval after a year.
 
 23
-00:01:43,987 --> 00:01:48,827
-than the whole project. Other permits and legal requirements still matter.
+00:01:24,860 --> 00:01:28,500
+Review would use standards in place when the application
 
 24
-00:01:48,827 --> 00:01:54,087
-Faster review does not mean every project becomes buildable or affordable.
+00:01:28,500 --> 00:01:29,280
+is submitted.
 
 25
-00:01:54,087 --> 00:01:57,987
-Initial government costs could reach the high tens of millions annually,
+00:01:29,920 --> 00:01:32,900
+The applicant could offer one alternative instead of an
 
 26
-00:01:57,987 --> 00:02:03,207
-potentially over one hundred million, partly covered by fees. Longer-term
+00:01:32,900 --> 00:01:34,520
+agency developing several.
 
 27
-00:02:03,207 --> 00:02:08,087
-effects are uncertain: faster construction may save money, while additional
+00:01:35,180 --> 00:01:39,160
+Public-comment periods would have maximums, and required tribal consultation
 
 28
-00:02:08,087 --> 00:02:10,587
-environmental harm could create costs.
+00:01:39,160 --> 00:01:40,740
+would be narrower.
 
 29
-00:02:11,200 --> 00:02:15,580
-A voter might support more predictable schedules and fewer project-wide
+00:01:40,740 --> 00:01:44,460
+Courts would have less scope to review challenges and
 
 30
-00:02:15,580 --> 00:02:20,940
-shutdowns, hoping to deliver homes and infrastructure sooner. They may judge
+00:01:44,460 --> 00:01:47,640
+could stop the noncompliant portion rather than the whole
 
 31
-00:02:20,940 --> 00:02:26,760
-delay itself costly. That benefit depends on actual projects moving forward,
+00:01:47,640 --> 00:01:48,200
+project.
 
 32
-00:02:26,760 --> 00:02:28,720
-not merely shorter review documents.
+00:01:48,900 --> 00:01:51,320
+Other permits and legal requirements still matter.
 
 33
-00:02:29,367 --> 00:02:33,727
-You might ask what evidence or voices could be missed. Another voter could
+00:01:51,840 --> 00:01:55,220
+Faster review does not mean every project becomes buildable
 
 34
-00:02:33,727 --> 00:02:38,827
-object to fewer alternatives, tighter public participation, or narrower
+00:01:55,220 --> 00:01:55,860
+or affordable.
 
 35
-00:02:38,827 --> 00:02:43,607
-court and tribal review. They may worry that faster decisions shift costs
+00:01:56,600 --> 00:01:59,500
+Initial government costs could reach the high tens of
 
 36
-00:02:43,607 --> 00:02:48,727
-onto communities or the environment. The question is the balance of speed
+00:01:59,500 --> 00:02:04,060
+millions annually, potentially over one hundred million, partly covered
 
 37
-00:02:48,727 --> 00:02:52,427
-and accountability, not whether review should exist at all.
+00:02:04,060 --> 00:02:04,680
+by fees.
 
 38
-00:02:52,867 --> 00:02:58,507
-In the September PPIC survey of likely voters, 49 percent said yes, 46
+00:02:05,300 --> 00:02:09,920
+Longer-term effects are uncertain: faster construction may save money,
 
 39
-00:02:58,507 --> 00:03:04,687
-percent no, and 5 percent were unsure. These are dated survey results, not
+00:02:09,920 --> 00:02:13,120
+while additional environmental harm could create costs.
 
 40
-00:03:04,687 --> 00:03:05,827
-votes already cast.
+00:02:14,180 --> 00:02:17,380
+A voter might support more predictable schedules and fewer
 
 41
-00:03:06,467 --> 00:03:11,327
-Yes creates the optional new procedures; no keeps existing review and
+00:02:17,380 --> 00:02:22,080
+project-wide shutdowns, hoping to deliver homes and infrastructure sooner.
 
 42
-00:03:11,327 --> 00:03:16,087
-challenge procedures. Visit our website for the fuller explanation, source
+00:02:22,780 --> 00:02:25,100
+They may judge delay itself costly.
 
 43
-00:03:16,087 --> 00:03:21,027
-links, and official voter guide. Compare the tradeoffs, then make your own
+00:02:25,860 --> 00:02:29,660
+That benefit depends on actual projects moving forward, not
 
 44
-00:03:21,027 --> 00:03:22,067
-informed choice.
+00:02:29,660 --> 00:02:31,560
+merely shorter review documents.
+
+45
+00:02:32,220 --> 00:02:34,860
+You might ask what evidence or voices could be
+
+46
+00:02:34,860 --> 00:02:35,260
+missed.
+
+47
+00:02:35,260 --> 00:02:39,660
+Another voter could object to fewer alternatives, tighter public
+
+48
+00:02:39,660 --> 00:02:43,160
+participation, or narrower court and tribal review.
+
+49
+00:02:43,720 --> 00:02:47,080
+They may worry that faster decisions shift costs onto
+
+50
+00:02:47,080 --> 00:02:48,500
+communities or the environment.
+
+51
+00:02:49,420 --> 00:02:51,880
+The question is the balance of speed and accountability,
+
+52
+00:02:52,540 --> 00:02:55,220
+not whether review should exist at all.
+
+53
+00:02:55,900 --> 00:02:59,480
+In the September PPIC survey of likely voters, 49
+
+54
+00:02:59,480 --> 00:03:03,380
+percent said yes, 46 percent no, and 5 percent
+
+55
+00:03:03,380 --> 00:03:03,920
+were unsure.
+
+56
+00:03:03,920 --> 00:03:08,160
+These are dated survey results, not votes already cast.
+
+57
+00:03:08,860 --> 00:03:13,420
+Yes creates the optional new procedures; no keeps existing
+
+58
+00:03:13,420 --> 00:03:14,920
+review and challenge procedures.
+
+59
+00:03:15,960 --> 00:03:18,840
+Visit our website for the fuller explanation, source links,
+
+60
+00:03:18,840 --> 00:03:20,760
+and official voter guide.
+
+61
+00:03:21,440 --> 00:03:24,540
+Compare the tradeoffs, then make your own informed choice.

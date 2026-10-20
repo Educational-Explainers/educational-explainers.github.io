@@ -3,10 +3,10 @@
   "number": 38,
   "title": "Prop 38 \u2014 Medical research bonds: potential discoveries, certain debt?",
   "fps": 30,
-  "frames": 5221,
+  "frames": 5317,
   "checked": "2026-10-19",
-  "narration": "asset://ba3dab8d6d76562e34abf169f68873ece3888d9dd568c41e4d05933586460c75.wav",
-  "prompter_words": "words-global.json",
+  "narration": "asset://fbb8a957ae18802d3506bf76f5969bcc840d30576744f6ecd06f7d7e6409b78e.wav",
+  "prompter_words": "words-human.json",
   "script": [
     {
       "name": "The big picture",
@@ -85,7 +85,7 @@
       "title": "Research is a process, not a promised cure",
       "chapter": "The big picture",
       "start_frame": 0,
-      "frames": 584,
+      "frames": 643,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -95,8 +95,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.4954623287671233,
           "serif": true
         },
         {
@@ -105,8 +105,8 @@
           "x": 225.0,
           "y": 240,
           "size": 110,
-          "at": 0.3,
-          "duration": 1.2,
+          "at": 0.33030821917808223,
+          "duration": 1.321232876712329,
           "color": "teal",
           "hand": true
         },
@@ -117,8 +117,8 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 0.8,
-          "duration": 0.45
+          "at": 0.8808219178082194,
+          "duration": 0.4954623287671233
         },
         {
           "kind": "icon",
@@ -126,8 +126,8 @@
           "x": 585.0,
           "y": 240,
           "size": 110,
-          "at": 6.122222222222222,
-          "duration": 1.2,
+          "at": 6.740734398782344,
+          "duration": 1.321232876712329,
           "color": "teal",
           "hand": true
         },
@@ -138,8 +138,8 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 6.622222222222222,
-          "duration": 0.45
+          "at": 7.291248097412481,
+          "duration": 0.4954623287671233
         },
         {
           "kind": "icon",
@@ -147,8 +147,8 @@
           "x": 945.0,
           "y": 240,
           "size": 110,
-          "at": 11.944444444444445,
-          "duration": 1.2,
+          "at": 13.151160578386605,
+          "duration": 1.321232876712329,
           "color": "teal",
           "hand": true
         },
@@ -159,20 +159,20 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 12.444444444444445,
-          "duration": 0.45
+          "at": 13.701674277016744,
+          "duration": 0.4954623287671233
         }
       ],
       "anchor": {
-        "phrase": "Proposition 38 asks California to"
+        "phrase": "Proposition thirty-eight asks California to borrow"
       }
     },
     {
       "id": "02",
       "title": "Why the timing matters",
       "chapter": "The big picture",
-      "start_frame": 584,
-      "frames": 427,
+      "start_frame": 643,
+      "frames": 459,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -182,8 +182,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.4837236533957846,
           "serif": true
         },
         {
@@ -192,8 +192,8 @@
           "x": 225.0,
           "y": 240,
           "size": 110,
-          "at": 0.3,
-          "duration": 1.2,
+          "at": 0.3224824355971897,
+          "duration": 1.2899297423887588,
           "color": "teal",
           "hand": true
         },
@@ -204,8 +204,8 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 0.8,
-          "duration": 0.45
+          "at": 0.859953161592506,
+          "duration": 0.4837236533957846
         },
         {
           "kind": "icon",
@@ -213,8 +213,8 @@
           "x": 585.0,
           "y": 240,
           "size": 110,
-          "at": 4.377777777777777,
-          "duration": 1.2,
+          "at": 4.705854800936768,
+          "duration": 1.2899297423887588,
           "color": "teal",
           "hand": true
         },
@@ -225,8 +225,8 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 4.877777777777777,
-          "duration": 0.45
+          "at": 5.243325526932084,
+          "duration": 0.4837236533957846
         },
         {
           "kind": "icon",
@@ -234,8 +234,8 @@
           "x": 945.0,
           "y": 240,
           "size": 110,
-          "at": 8.455555555555556,
-          "duration": 1.2,
+          "at": 9.089227166276347,
+          "duration": 1.2899297423887588,
           "color": "teal",
           "hand": true
         },
@@ -246,20 +246,20 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 8.955555555555556,
-          "duration": 0.45
+          "at": 9.626697892271665,
+          "duration": 0.4837236533957846
         }
       ],
       "anchor": {
-        "phrase": "Universities, businesses, and governments already"
+        "phrase": "Universities, businesses, and governments already fund"
       }
     },
     {
       "id": "03",
       "title": "From a research question to an experiment",
       "chapter": "An illustrative example",
-      "start_frame": 1011,
-      "frames": 104,
+      "start_frame": 1102,
+      "frames": 82,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -269,8 +269,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.35480769230769227,
           "serif": true
         },
         {
@@ -282,20 +282,21 @@
             980,
             430
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         }
       ],
       "anchor": {
-        "phrase": "Imagine a scientist studying immune"
+        "phrase": "Imagine a scientist studying immune cells."
       }
     },
     {
       "id": "04",
       "title": "A discovery must clear several hurdles",
       "chapter": "An illustrative example",
-      "start_frame": 1115,
-      "frames": 479,
+      "start_frame": 1184,
+      "frames": 501,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -305,8 +306,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.4706680584551148,
           "serif": true
         },
         {
@@ -315,8 +316,8 @@
           "x": 225.0,
           "y": 240,
           "size": 110,
-          "at": 0.3,
-          "duration": 1.2,
+          "at": 0.3137787056367432,
+          "duration": 1.2551148225469728,
           "color": "teal",
           "hand": true
         },
@@ -327,8 +328,8 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 0.8,
-          "duration": 0.45
+          "at": 0.8367432150313152,
+          "duration": 0.4706680584551148
         },
         {
           "kind": "icon",
@@ -336,8 +337,8 @@
           "x": 585.0,
           "y": 240,
           "size": 110,
-          "at": 4.955555555555556,
-          "duration": 1.2,
+          "at": 5.183159359777314,
+          "duration": 1.2551148225469728,
           "color": "teal",
           "hand": true
         },
@@ -348,8 +349,8 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 5.455555555555556,
-          "duration": 0.45
+          "at": 5.706123869171885,
+          "duration": 0.4706680584551148
         },
         {
           "kind": "icon",
@@ -357,8 +358,8 @@
           "x": 945.0,
           "y": 240,
           "size": 110,
-          "at": 9.611111111111112,
-          "duration": 1.2,
+          "at": 10.052540013917884,
+          "duration": 1.2551148225469728,
           "color": "teal",
           "hand": true
         },
@@ -369,20 +370,20 @@
           "y": 410,
           "size": 25,
           "width": 320,
-          "at": 10.111111111111112,
-          "duration": 0.45
+          "at": 10.575504523312459,
+          "duration": 0.4706680584551148
         }
       ],
       "anchor": {
-        "phrase": "A promising laboratory results still"
+        "phrase": "A promising laboratory result still needs"
       }
     },
     {
       "id": "05",
       "title": "Funding supports the work behind discovery",
       "chapter": "An illustrative example",
-      "start_frame": 1594,
-      "frames": 123,
+      "start_frame": 1685,
+      "frames": 122,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -392,8 +393,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.44634146341463415,
           "serif": true
         },
         {
@@ -405,20 +406,21 @@
             980,
             430
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         }
       ],
       "anchor": {
-        "phrase": "Research teams need facilities, people,"
+        "phrase": "Research teams need facilities, people, and"
       }
     },
     {
       "id": "06",
       "title": "Two major funding channels",
       "chapter": "How it would work",
-      "start_frame": 1717,
-      "frames": 421,
+      "start_frame": 1807,
+      "frames": 407,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -428,8 +430,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.43503562945368174,
           "serif": true
         },
         {
@@ -441,8 +443,9 @@
             380,
             360
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -451,8 +454,8 @@
           "y": 200,
           "size": 25,
           "width": 710,
-          "at": 0.5,
-          "duration": 0.45
+          "at": 0.4833729216152019,
+          "duration": 0.43503562945368174
         },
         {
           "kind": "bar",
@@ -465,8 +468,8 @@
           "value": 50.0,
           "maximum": 100,
           "color": "teal",
-          "at": 0.9,
-          "duration": 0.9
+          "at": 0.8700712589073635,
+          "duration": 0.8700712589073635
         },
         {
           "kind": "text",
@@ -475,8 +478,8 @@
           "y": 312,
           "size": 25,
           "width": 710,
-          "at": 6.016666666666667,
-          "duration": 0.45
+          "at": 5.81658749010293,
+          "duration": 0.43503562945368174
         },
         {
           "kind": "bar",
@@ -489,8 +492,8 @@
           "value": 50.0,
           "maximum": 100,
           "color": "blue",
-          "at": 6.416666666666667,
-          "duration": 0.9
+          "at": 6.203285827395091,
+          "duration": 0.8700712589073635
         },
         {
           "kind": "text",
@@ -499,21 +502,21 @@
           "y": 570,
           "size": 21,
           "width": 700,
-          "at": 0.2,
-          "duration": 0.45,
+          "at": 0.19334916864608076,
+          "duration": 0.43503562945368174,
           "color": "muted"
         }
       ],
       "anchor": {
-        "phrase": "About half the money would"
+        "phrase": "About half the money would go"
       }
     },
     {
       "id": "07",
       "title": "Research priorities and a conditional benefit",
       "chapter": "How it would work",
-      "start_frame": 2138,
-      "frames": 538,
+      "start_frame": 2214,
+      "frames": 547,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -523,8 +526,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.4575278810408922,
           "serif": true
         },
         {
@@ -536,8 +539,9 @@
             565,
             405
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -546,8 +550,8 @@
           "y": 200,
           "size": 28,
           "width": 530,
-          "at": 0.35,
-          "duration": 0.45
+          "at": 0.35585501858736057,
+          "duration": 0.4575278810408922
         },
         {
           "kind": "stroke",
@@ -563,8 +567,8 @@
               ]
             ]
           ],
-          "at": 0.85,
-          "duration": 0.75,
+          "at": 0.8642193308550186,
+          "duration": 0.762546468401487,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -576,8 +580,8 @@
           "y": 332,
           "size": 28,
           "width": 530,
-          "at": 8.316666666666666,
-          "duration": 0.45
+          "at": 8.455793060718712,
+          "duration": 0.4575278810408922
         },
         {
           "kind": "stroke",
@@ -593,23 +597,23 @@
               ]
             ]
           ],
-          "at": 8.816666666666666,
-          "duration": 0.75,
+          "at": 8.964157372986369,
+          "duration": 0.762546468401487,
           "hand": true,
           "color": "gold",
           "width": 2.5
         }
       ],
       "anchor": {
-        "phrase": "At least $4 .2 billion"
+        "phrase": "At least four point two billion"
       }
     },
     {
       "id": "08",
       "title": "Repayments are not conditional on success",
       "chapter": "How it would work",
-      "start_frame": 2676,
-      "frames": 438,
+      "start_frame": 2761,
+      "frames": 402,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -619,8 +623,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.41301369863013704,
           "serif": true
         },
         {
@@ -632,8 +636,9 @@
             565,
             405
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -642,8 +647,8 @@
           "y": 200,
           "size": 28,
           "width": 530,
-          "at": 0.35,
-          "duration": 0.45
+          "at": 0.32123287671232875,
+          "duration": 0.41301369863013704
         },
         {
           "kind": "stroke",
@@ -659,8 +664,8 @@
               ]
             ]
           ],
-          "at": 0.85,
-          "duration": 0.75,
+          "at": 0.78013698630137,
+          "duration": 0.6883561643835617,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -672,8 +677,8 @@
           "y": 332,
           "size": 28,
           "width": 530,
-          "at": 6.6499999999999995,
-          "duration": 0.45
+          "at": 6.103424657534247,
+          "duration": 0.41301369863013704
         },
         {
           "kind": "stroke",
@@ -689,23 +694,23 @@
               ]
             ]
           ],
-          "at": 7.1499999999999995,
-          "duration": 0.75,
+          "at": 6.562328767123288,
+          "duration": 0.6883561643835617,
           "hand": true,
           "color": "gold",
           "width": 2.5
         }
       ],
       "anchor": {
-        "phrase": "The analyst estimates $500 to"
+        "phrase": "The analyst estimates five hundred to"
       }
     },
     {
       "id": "09",
       "title": "The case for YES",
       "chapter": "Why someone might vote yes",
-      "start_frame": 3114,
-      "frames": 516,
+      "start_frame": 3163,
+      "frames": 547,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -715,8 +720,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.4770348837209303,
           "serif": true
         },
         {
@@ -728,8 +733,9 @@
             565,
             405
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -738,8 +744,8 @@
           "y": 200,
           "size": 28,
           "width": 530,
-          "at": 0.35,
-          "duration": 0.45
+          "at": 0.3710271317829458,
+          "duration": 0.4770348837209303
         },
         {
           "kind": "stroke",
@@ -755,8 +761,8 @@
               ]
             ]
           ],
-          "at": 0.85,
-          "duration": 0.75,
+          "at": 0.9010658914728682,
+          "duration": 0.7950581395348838,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -768,8 +774,8 @@
           "y": 332,
           "size": 28,
           "width": 530,
-          "at": 7.949999999999999,
-          "duration": 0.45
+          "at": 8.427616279069767,
+          "duration": 0.4770348837209303
         },
         {
           "kind": "stroke",
@@ -785,23 +791,23 @@
               ]
             ]
           ],
-          "at": 8.45,
-          "duration": 0.75,
+          "at": 8.95765503875969,
+          "duration": 0.7950581395348838,
           "hand": true,
           "color": "gold",
           "width": 2.5
         }
       ],
       "anchor": {
-        "phrase": "A voter might see long"
+        "phrase": "A voter might see long-term public"
       }
     },
     {
       "id": "10",
       "title": "Your question: how should funding be chosen?",
       "chapter": "Why someone might vote no",
-      "start_frame": 3630,
-      "frames": 119,
+      "start_frame": 3710,
+      "frames": 102,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -811,8 +817,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.38571428571428573,
           "serif": true
         },
         {
@@ -824,20 +830,21 @@
             980,
             430
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         }
       ],
       "anchor": {
-        "phrase": "You might ask whether this"
+        "phrase": "You might ask whether this is"
       }
     },
     {
       "id": "11",
       "title": "The case for NO",
       "chapter": "Why someone might vote no",
-      "start_frame": 3749,
-      "frames": 557,
+      "start_frame": 3812,
+      "frames": 553,
       "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
       "elements": [
         {
@@ -847,8 +854,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.44676840215439856,
           "serif": true
         },
         {
@@ -860,8 +867,9 @@
             565,
             405
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -870,8 +878,8 @@
           "y": 200,
           "size": 28,
           "width": 530,
-          "at": 0.35,
-          "duration": 0.45
+          "at": 0.34748653500897664,
+          "duration": 0.44676840215439856
         },
         {
           "kind": "stroke",
@@ -887,8 +895,8 @@
               ]
             ]
           ],
-          "at": 0.85,
-          "duration": 0.75,
+          "at": 0.8438958707360862,
+          "duration": 0.7446140035906642,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -900,8 +908,8 @@
           "y": 332,
           "size": 28,
           "width": 530,
-          "at": 5.872222222222222,
-          "duration": 0.45
+          "at": 5.830051865150608,
+          "duration": 0.44676840215439856
         },
         {
           "kind": "stroke",
@@ -917,8 +925,8 @@
               ]
             ]
           ],
-          "at": 6.372222222222222,
-          "duration": 0.75,
+          "at": 6.326461200877718,
+          "duration": 0.7446140035906642,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -930,8 +938,8 @@
           "y": 464,
           "size": 28,
           "width": 530,
-          "at": 11.394444444444444,
-          "duration": 0.45
+          "at": 11.312617195292239,
+          "duration": 0.44676840215439856
         },
         {
           "kind": "stroke",
@@ -947,23 +955,23 @@
               ]
             ]
           ],
-          "at": 11.894444444444444,
-          "duration": 0.75,
+          "at": 11.809026531019349,
+          "duration": 0.7446140035906642,
           "hand": true,
           "color": "gold",
           "width": 2.5
         }
       ],
       "anchor": {
-        "phrase": "Another voter could object to"
+        "phrase": "Another voter could object to the"
       }
     },
     {
       "id": "12",
       "title": "September snapshot: PPIC",
       "chapter": "What polling indicates",
-      "start_frame": 4306,
-      "frames": 401,
+      "start_frame": 4365,
+      "frames": 420,
       "source": "PPIC \u00b7 Sept 4\u201310, 2026 \u00b7 likely voters \u00b7 \u00b13.8 points",
       "elements": [
         {
@@ -973,8 +981,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.47132169576059846,
           "serif": true
         },
         {
@@ -984,8 +992,8 @@
           "y": 200,
           "size": 25,
           "width": 1080,
-          "at": 0.5,
-          "duration": 0.45
+          "at": 0.5236907730673317,
+          "duration": 0.47132169576059846
         },
         {
           "kind": "bar",
@@ -998,8 +1006,8 @@
           "value": 55.0,
           "maximum": 100,
           "color": "teal",
-          "at": 0.9,
-          "duration": 0.9
+          "at": 0.9426433915211969,
+          "duration": 0.9426433915211969
         },
         {
           "kind": "text",
@@ -1008,8 +1016,8 @@
           "y": 312,
           "size": 25,
           "width": 1080,
-          "at": 3.9555555555555557,
-          "duration": 0.45
+          "at": 4.142975893599335,
+          "duration": 0.47132169576059846
         },
         {
           "kind": "bar",
@@ -1022,8 +1030,8 @@
           "value": 42.0,
           "maximum": 100,
           "color": "coral",
-          "at": 4.355555555555556,
-          "duration": 0.9
+          "at": 4.561928512053201,
+          "duration": 0.9426433915211969
         },
         {
           "kind": "text",
@@ -1032,8 +1040,8 @@
           "y": 424,
           "size": 25,
           "width": 1080,
-          "at": 7.411111111111111,
-          "duration": 0.45
+          "at": 7.762261014131338,
+          "duration": 0.47132169576059846
         },
         {
           "kind": "bar",
@@ -1046,8 +1054,8 @@
           "value": 3.0,
           "maximum": 100,
           "color": "gold",
-          "at": 7.811111111111112,
-          "duration": 0.9
+          "at": 8.181213632585205,
+          "duration": 0.9426433915211969
         },
         {
           "kind": "text",
@@ -1056,20 +1064,20 @@
           "y": 570,
           "size": 21,
           "width": 1080,
-          "at": 8,
-          "duration": 0.45
+          "at": 8.379052369077307,
+          "duration": 0.47132169576059846
         }
       ],
       "anchor": {
-        "phrase": "In the September PPIC survey"
+        "phrase": "In the September PPIC survey of"
       }
     },
     {
       "id": "13",
       "title": "Explore the full explanation",
       "chapter": "Make your own decision",
-      "start_frame": 4707,
-      "frames": 514,
+      "start_frame": 4785,
+      "frames": 532,
       "source": "Visit the website and official voter guide before making your decision",
       "elements": [
         {
@@ -1079,8 +1087,8 @@
           "y": 75,
           "size": 35,
           "width": 1160,
-          "at": 0,
-          "duration": 0.45,
+          "at": 0.0,
+          "duration": 0.46575875486381324,
           "serif": true
         },
         {
@@ -1092,8 +1100,9 @@
             540,
             400
           ],
-          "at": 0,
-          "duration": 0.85
+          "at": 0.0,
+          "duration": 1.4,
+          "animation": "fade-rise"
         },
         {
           "kind": "text",
@@ -1102,8 +1111,8 @@
           "y": 205,
           "size": 28,
           "width": 560,
-          "at": 0.2,
-          "duration": 0.45
+          "at": 0.20700389105058367,
+          "duration": 0.46575875486381324
         },
         {
           "kind": "text",
@@ -1112,8 +1121,8 @@
           "y": 315,
           "size": 28,
           "width": 560,
-          "at": 2,
-          "duration": 0.45
+          "at": 2.0700389105058368,
+          "duration": 0.46575875486381324
         },
         {
           "kind": "stroke",
@@ -1129,8 +1138,8 @@
               ]
             ]
           ],
-          "at": 3,
-          "duration": 1,
+          "at": 3.105058365758755,
+          "duration": 1.0350194552529184,
           "hand": true,
           "color": "gold",
           "width": 2.5
@@ -1142,8 +1151,8 @@
           "y": 455,
           "size": 25,
           "width": 650,
-          "at": 1,
-          "duration": 0.45
+          "at": 1.0350194552529184,
+          "duration": 0.46575875486381324
         },
         {
           "kind": "text",
@@ -1152,17 +1161,37 @@
           "y": 505,
           "size": 29,
           "width": 650,
-          "at": 1,
-          "duration": 0.45,
+          "at": 1.0350194552529184,
+          "duration": 0.46575875486381324,
           "color": "teal"
         }
       ],
       "anchor": {
-        "phrase": "Yes, authorizes this research borrowing."
+        "phrase": "Yes authorizes this research borrowing; no"
       }
     }
   ],
   "pencil_gain_db": 16,
   "captions_srt": "captions.srt",
-  "captions_vtt": "captions.vtt"
+  "captions_vtt": "captions.vtt",
+  "recording": {
+    "status": "aligned_cleaned_needs_review",
+    "source": "asset://e8995b4f070de2c0eda321951cba6e9fd90a7e0018507ab3119301be15fd45c4.m4a",
+    "take_id": "Prop 38 \u2014 Medical research bonds: potential discoveries, certain debt?-2026-10-20T22-04-07-155Z",
+    "script_sha256": "7121a0b319211328f1c89ea7807a4a9f2e68397c3820b418dfd2995fb02afcc6",
+    "browser_origin": "http://localhost:8877",
+    "approved_at": "2026-10-20T22:07:08.284Z",
+    "selection_basis": "browser_approved",
+    "processing": {
+      "filter": "afftdn=nr=6:nf=-45",
+      "original_preserved": true,
+      "master": "asset://fbb8a957ae18802d3506bf76f5969bcc840d30576744f6ecd06f7d7e6409b78e.wav",
+      "no_speech_trim": true
+    },
+    "alignment": {
+      "method": "local ASR word timing with canonical interpolation for scene anchors",
+      "estimated_words": 25,
+      "review_required": true
+    }
+  }
 }

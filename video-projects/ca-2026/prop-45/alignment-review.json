@@ -1,0 +1,132 @@
+[
+  {
+    "script": "forty-five",
+    "recognized": "45",
+    "start": 3.64
+  },
+  {
+    "script": "impacts",
+    "recognized": "impact",
+    "start": 13.82
+  },
+  {
+    "script": "harms",
+    "recognized": "harm",
+    "start": 19.14
+  },
+  {
+    "script": "clean-energy",
+    "recognized": "clean energy",
+    "start": 33.6
+  },
+  {
+    "script": "preparing",
+    "recognized": "being able to prepare",
+    "start": 42.74
+  },
+  {
+    "script": "built",
+    "recognized": "build",
+    "start": 47.16
+  },
+  {
+    "script": "impacts",
+    "recognized": "impact",
+    "start": 50.74
+  },
+  {
+    "script": "the",
+    "recognized": "a",
+    "start": 63.38
+  },
+  {
+    "script": "upfront",
+    "recognized": "up front",
+    "start": 69.5
+  },
+  {
+    "script": "three-hundred-sixty-five-business-day environmental-report",
+    "recognized": "365 business day environmental report",
+    "start": 73.98
+  },
+  {
+    "script": "a year.",
+    "recognized": "your",
+    "start": 84.56
+  },
+  {
+    "script": "Public-comment",
+    "recognized": "Public comment",
+    "start": 95.18
+  },
+  {
+    "script": "required",
+    "recognized": "require",
+    "start": 97.86
+  },
+  {
+    "script": "noncompliant",
+    "recognized": "non -compliant",
+    "start": 105.22
+  },
+  {
+    "script": "one hundred",
+    "recognized": "100",
+    "start": 121.76
+  },
+  {
+    "script": "Longer-term",
+    "recognized": "Longer term",
+    "start": 125.3
+  },
+  {
+    "script": "voter",
+    "recognized": "water",
+    "start": 134.34
+  },
+  {
+    "script": "project-wide",
+    "recognized": "project -wise",
+    "start": 137.38
+  },
+  {
+    "script": "voter",
+    "recognized": "water",
+    "start": 156.22
+  },
+  {
+    "script": "PPIC",
+    "recognized": "PBIC",
+    "start": 176.34
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 179.48
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 181.4
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 182.92
+  },
+  {
+    "script": "votes",
+    "recognized": "what's",
+    "start": 186.86
+  },
+  {
+    "script": "voter",
+    "recognized": "water",
+    "start": 199.6
+  },
+  {
+    "script": "tradeoffs,",
+    "recognized": "trade -offs,",
+    "start": 201.68
+  }
+]

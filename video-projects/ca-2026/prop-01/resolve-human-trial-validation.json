@@ -1,0 +1,26 @@
+{
+  "project": "California Ballot 2026 - Narrated Explainers v3",
+  "timeline": "Prop 1 - Sketchbook C - Human Narration Trial",
+  "timeline_id": "0d471d35-b99b-4d4e-8549-7c2f201e6894",
+  "frames": 5495,
+  "video_clips": 15,
+  "audio_tracks": [
+    {
+      "index": 1,
+      "name": "Narration - Human Take",
+      "source": ".video-production/human-preview/prop-01/narration.wav"
+    },
+    {
+      "index": 2,
+      "name": "SFX - Pencil",
+      "source": ".video-production/human-preview/prop-01/render/pencil.wav"
+    }
+  ],
+  "online_media": 17,
+  "gaps": 0,
+  "overlaps": 0,
+  "saved": true,
+  "backup": ".video-production/resolve-backups/prop-01-human-trial-2026-10-20.drp",
+  "status": "Legacy recording trial; listening and caption review still required. Not production approval.",
+  "checked": "2026-10-20"
+}

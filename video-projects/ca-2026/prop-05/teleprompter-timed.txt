@@ -1,67 +1,64 @@
 Suggested pacing from the existing narration. Highlight timing is approximate, especially for corrected words and spoken numbers. Read naturally; the video can be retimed to the new recording.
 
-[00:00.00] A recall lets voters remove an elected official before
-[00:03.30] the term ends.
-[00:04.90] Proposition five changes what happens next.
-[00:08.12] It does not eliminate the power to recall state
-[00:10.58] officials.
-[00:11.84] Today, a state recall ballot normally asks two questions:
-[00:16.28] whether to remove the official, and who should replace
-[00:18.94] them.
-[00:19.80] If removal wins, the replacement candidate with the most
-[00:22.92] votes takes office.
-[00:24.86] Proposition five removes the replacement question.
-[00:27.62] The office would be filled through succession,
-[00:30.92] appointment,
-[00:31.94] or a separate election,
-[00:33.74] depending on the office and when the recall happens.
-[00:36.80] Imagine opening a ballot during a recall election.
-[00:40.54] In a hypothetical crowded replacement contest,
-[00:43.64] one candidate could lead with thirty votes out of
-[00:46.42] a hundred.
-[00:47.66] Winning the most votes is different from winning a
-[00:49.84] majority.
-[00:51.12] That is one concern motivating the change.
-[00:54.36] Election staff would explain a different replacement process.
-[00:57.87] If a legislator is recalled,
-[01:00.15] a special election would generally fill the seat.
-[01:03.31] Vacancies in most other state offices would be filled
-[01:06.19] by gubernatorial appointment.
-[01:08.51] So a separate replacement vote is not guaranteed for
-[01:11.83] every office.
-[01:13.33] For the governor, the lieutenant governor would take over.
-[01:16.67] If the recall happens early enough, before the specified
-[01:19.53] nomination deadline in the first two years,
-[01:22.55] voters elect a new governor at a later statewide
-[01:24.97] election.
-[01:26.37] Otherwise,
-[01:27.31] the lieutenant governor completes the term.
-[01:29.77] Costs could rise if an additional special election is
-[01:32.71] needed, or fall when replacement-candidate materials disappear.
-[01:37.39] The analyst says the net effect is unknown, with
-[01:40.31] possible costs or savings of millions per recall.
-[01:44.03] A voter might want removal considered on its own,
-[01:47.47] rather than as a shortcut for a candidate with
-[01:50.25] limited support.
-[01:51.95] Familiar vacancy procedures could make succession more predictable.
-[01:56.47] That does not mean every replacement would be elected
-[01:58.93] in a new majority vote.
-[02:01.37] You might want to choose the replacement yourself, immediately.
-[02:05.53] Another voter could object to giving appointments or automatic
-[02:08.77] succession a larger role.
-[02:11.23] They may prefer seeing the alternatives on the same
-[02:13.71] ballot, and worry that a later election leaves them
-[02:16.75] waiting.
-[02:18.01] These are choices about accountability,
-[02:20.35] not just administrative convenience.
-[02:23.03] In the September PPIC survey of likely voters,
-[02:26.45] 35 percent said yes,
-[02:28.53] 59 percent no, and 5 percent were unsure.
-[02:32.59] These are dated survey results,
-[02:34.71] not votes already cast.
-[02:36.57] Yes changes the replacement process;
-[02:39.51] no keeps the replacement question on recall ballots.
-[02:43.09] Visit our website for the fuller explanation,
-[02:45.53] source links, and official voter guide.
-[02:48.51] Compare the tradeoffs,
-[02:49.79] then make your own informed choice.
+[00:02.96] A recall lets voters remove an elected official before
+[00:06.54] the term ends.
+[00:08.10] Proposition five changes what happens next.
+[00:10.84] It does not eliminate the power to recall state
+[00:13.48] officials.
+[00:14.84] Today, a state recall ballot normally asks two questions:
+[00:18.56] whether to remove the official, and who should replace
+[00:21.44] them.
+[00:22.50] If removal wins, the replacement candidate with the most
+[00:25.94] votes takes office.
+[00:27.34] Proposition five removes the replacement question.
+[00:30.58] The office would be filled through succession, appointment, or
+[00:34.48] a separate election, depending on the office and when
+[00:37.56] the recall happens.
+[00:39.08] Imagine opening a ballot during a recall election.
+[00:42.48] In a hypothetical crowded replacement contest,
+[00:45.72] one candidate could lead with thirty votes out of
+[00:48.36] a hundred.
+[00:50.14] Winning the most votes is different from winning a
+[00:52.74] majority.
+[00:54.04] That is one concern motivating the change.
+[00:57.00] Election staff would explain a different replacement process.
+[01:00.66] If a legislator is recalled, a special election would
+[01:04.20] generally fill the seat.
+[01:05.98] Vacancies in most other state offices would be filled
+[01:09.18] by gubernatorial appointment.
+[01:11.80] So a separate replacement vote is not guaranteed for
+[01:14.90] every office.
+[01:16.22] For the governor, the lieutenant governor would take over.
+[01:20.00] If the recall happens early enough, before the specified
+[01:23.52] nomination deadline in the first two years, voters elect
+[01:26.68] a new governor at a later statewide election.
+[01:29.48] Otherwise,
+[01:30.34] the lieutenant governor completes the term.
+[01:33.16] Costs could rise if an additional special election is
+[01:35.96] needed, or fall when replacement-candidate materials disappear.
+[01:40.34] The analyst says the net effect is unknown, with
+[01:43.36] possible costs or savings of millions per recall.
+[01:47.04] A voter might want removal considered on its own,
+[01:49.88] rather than as a shortcut for a candidate with
+[01:52.96] limited support.
+[01:54.54] Familiar vacancy procedures could make succession more predictable.
+[01:59.26] That does not mean every replacement would be elected
+[02:01.92] in a new majority vote.
+[02:04.36] You might want to choose the replacement yourself, immediately.
+[02:07.96] Another voter could object to giving appointments or automatic
+[02:11.58] succession a larger role.
+[02:14.52] They may prefer seeing the alternatives on the same
+[02:17.08] ballot, and worry that a later election leaves them
+[02:20.08] waiting.
+[02:20.92] These are choices about accountability,
+[02:23.02] not just administrative convenience.
+[02:25.38] In the September PPIC survey of likely voters, 35
+[02:28.82] percent said yes,
+[02:30.48] 59 percent no, and 5 percent were unsure.
+[02:33.70] These are dated survey results,
+[02:36.40] not votes already cast.
+[02:39.28] Yes changes the replacement process;
+[02:42.14] no keeps the replacement question on recall ballots.
+[02:45.58] Visit our website for the fuller explanation,
+[02:48.30] source links, and official voter guide.
+[02:51.24] Compare the tradeoffs, then make your own informed choice.

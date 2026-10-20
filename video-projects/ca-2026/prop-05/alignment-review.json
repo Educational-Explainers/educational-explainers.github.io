@@ -1,0 +1,97 @@
+[
+  {
+    "script": "five",
+    "recognized": "5",
+    "start": 8.1
+  },
+  {
+    "script": "with",
+    "recognized": "wins",
+    "start": 24.9
+  },
+  {
+    "script": "five",
+    "recognized": "5",
+    "start": 28.44
+  },
+  {
+    "script": "thirty",
+    "recognized": "30",
+    "start": 47.02
+  },
+  {
+    "script": "a hundred.",
+    "recognized": "100.",
+    "start": 48.36
+  },
+  {
+    "script": "special",
+    "recognized": "separate",
+    "start": 62.38
+  },
+  {
+    "script": "statewide",
+    "recognized": "state -wide",
+    "start": 88.14
+  },
+  {
+    "script": "Costs",
+    "recognized": "Cost",
+    "start": 93.16
+  },
+  {
+    "script": "replacement-candidate",
+    "recognized": "replacement candidate",
+    "start": 97.64
+  },
+  {
+    "script": "millions",
+    "recognized": "billions",
+    "start": 105.72
+  },
+  {
+    "script": "the",
+    "recognized": "a",
+    "start": 125.54
+  },
+  {
+    "script": "role.",
+    "recognized": "rule.",
+    "start": 133.22
+  },
+  {
+    "script": "PPIC",
+    "recognized": "PBIC",
+    "start": 145.84
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 148.82
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 150.78
+  },
+  {
+    "script": "percent were",
+    "recognized": "% for",
+    "start": 152.26
+  },
+  {
+    "script": "the",
+    "recognized": "a",
+    "start": 162.58
+  },
+  {
+    "script": "voter",
+    "recognized": "water",
+    "start": 169.48
+  },
+  {
+    "script": "tradeoffs,",
+    "recognized": "trade -offs",
+    "start": 171.48
+  }
+]

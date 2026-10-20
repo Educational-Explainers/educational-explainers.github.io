@@ -1,0 +1,147 @@
+[
+  {
+    "script": "forty-one",
+    "recognized": "41",
+    "start": 0.56
+  },
+  {
+    "script": "audits",
+    "recognized": "orders",
+    "start": 4.74
+  },
+  {
+    "script": "spending-limit",
+    "recognized": "spending limit",
+    "start": 6.66
+  },
+  {
+    "script": "special-tax",
+    "recognized": "special tax",
+    "start": 30.0
+  },
+  {
+    "script": "voter",
+    "recognized": "water",
+    "start": 60.0
+  },
+  {
+    "script": "ten percent.",
+    "recognized": "10%.",
+    "start": 71.1
+  },
+  {
+    "script": "or proving",
+    "recognized": "approving",
+    "start": 75.94
+  },
+  {
+    "script": "first, twenty twenty-six,",
+    "recognized": "1, 2026",
+    "start": 84.06
+  },
+  {
+    "script": "voter-guide",
+    "recognized": "voter guide",
+    "start": 102.32
+  },
+  {
+    "script": "spending-limit",
+    "recognized": "spending limit",
+    "start": 110.94
+  },
+  {
+    "script": "forty-one",
+    "recognized": "41",
+    "start": 114.74
+  },
+  {
+    "script": "forty",
+    "recognized": "40",
+    "start": 116.18
+  },
+  {
+    "script": "forty-one",
+    "recognized": "41",
+    "start": 118.02
+  },
+  {
+    "script": "voter",
+    "recognized": "water",
+    "start": 124.14
+  },
+  {
+    "script": "follow-up",
+    "recognized": "follow -up",
+    "start": 129.66
+  },
+  {
+    "script": "voter",
+    "recognized": "water",
+    "start": 145.8
+  },
+  {
+    "script": "forty.",
+    "recognized": "40.",
+    "start": 157.4
+  },
+  {
+    "script": "the",
+    "recognized": "a",
+    "start": 163.7
+  },
+  {
+    "script": "PPIC",
+    "recognized": "PBIC",
+    "start": 164.08
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 166.7
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 168.46
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 170.1
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 178.78
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 180.22
+  },
+  {
+    "script": "percent",
+    "recognized": "%",
+    "start": 181.64
+  },
+  {
+    "script": "trend.",
+    "recognized": "trim.",
+    "start": 189.14
+  },
+  {
+    "script": "spending-limit",
+    "recognized": "spend limit",
+    "start": 191.92
+  },
+  {
+    "script": "voter",
+    "recognized": "water",
+    "start": 199.82
+  },
+  {
+    "script": "tradeoffs,",
+    "recognized": "trade -offs,",
+    "start": 201.88
+  }
+]

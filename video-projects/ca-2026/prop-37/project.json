@@ -3,8 +3,8 @@
   "label": "CALIFORNIA 2026 \u00b7 PROP 37",
   "checked": "2026-10-20",
   "fps": 30,
-  "frames": 6086,
-  "narration": "asset://ae9c63cf19c71310a6ca079bc4ffb151de617c4fe5a6bee9a3f0d4de4e9b807b.wav",
+  "frames": 6158,
+  "narration": "asset://fe0e3e755e227e05fbd855d69739510f2d294dbd6510d13d83883be0f776666b.wav",
   "captions_vtt": "captions.vtt",
   "captions_srt": "captions.srt",
   "pencil_gain_db": 16,
@@ -78,7 +78,7 @@
       "chapter": "The big picture",
       "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
       "anchor": {
-        "phrase": "Proposition"
+        "phrase": "Proposition thirty-seven creates a loan program"
       },
       "elements": [
         {
@@ -89,7 +89,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.6337209302325582,
+          "at": 0.0
         },
         {
           "kind": "image",
@@ -100,7 +101,9 @@
             620,
             430
           ],
-          "duration": 0.9
+          "duration": 1.4,
+          "animation": "fade-rise",
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -109,7 +112,8 @@
           "y": 200,
           "size": 29,
           "width": 480,
-          "at": 0.3
+          "at": 0.3802325581395348,
+          "duration": 0.6337209302325582
         },
         {
           "kind": "stroke",
@@ -125,8 +129,8 @@
               ]
             ]
           ],
-          "at": 0.6,
-          "duration": 0.55,
+          "at": 0.7604651162790697,
+          "duration": 0.697093023255814,
           "hand": true,
           "color": "gold"
         },
@@ -137,7 +141,8 @@
           "y": 315,
           "size": 29,
           "width": 480,
-          "at": 0.95
+          "at": 1.2040697674418606,
+          "duration": 0.6337209302325582
         },
         {
           "kind": "stroke",
@@ -153,22 +158,22 @@
               ]
             ]
           ],
-          "at": 1.25,
-          "duration": 0.55,
+          "at": 1.5843023255813955,
+          "duration": 0.697093023255814,
           "hand": true,
           "color": "gold"
         }
       ],
-      "frames": 344
+      "frames": 436
     },
     {
       "id": "02",
-      "start_frame": 344,
+      "start_frame": 436,
       "title": "Assistance is still a loan",
       "chapter": "The big picture",
       "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
       "anchor": {
-        "phrase": "Assistance would"
+        "phrase": "Assistance would be another loan, not"
       },
       "elements": [
         {
@@ -179,7 +184,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.5,
+          "at": 0.0
         },
         {
           "kind": "icon",
@@ -199,7 +205,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 0.5
+          "at": 0.5,
+          "duration": 0.5
         },
         {
           "kind": "stroke",
@@ -227,7 +234,7 @@
               ]
             ]
           ],
-          "at": 0.8,
+          "at": 0.8000000000000002,
           "duration": 0.7,
           "hand": true
         },
@@ -249,7 +256,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.2
+          "at": 1.2,
+          "duration": 0.5
         },
         {
           "kind": "stroke",
@@ -299,19 +307,20 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.9
+          "at": 1.9,
+          "duration": 0.5
         }
       ],
       "frames": 93
     },
     {
       "id": "03",
-      "start_frame": 437,
+      "start_frame": 529,
       "title": "Where would the money come from?",
       "chapter": "The big picture",
       "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
       "anchor": {
-        "phrase": "The state housing"
+        "phrase": "The state housing finance agency could"
       },
       "elements": [
         {
@@ -322,7 +331,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.5054945054945056,
+          "at": 0.0
         },
         {
           "kind": "icon",
@@ -330,8 +340,8 @@
           "x": 180,
           "y": 220,
           "size": 125,
-          "at": 0.25,
-          "duration": 1.3,
+          "at": 0.2527472527472528,
+          "duration": 1.3142857142857145,
           "hand": true,
           "color": "teal"
         },
@@ -342,7 +352,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 0.5
+          "at": 0.5054945054945056,
+          "duration": 0.5054945054945056
         },
         {
           "kind": "stroke",
@@ -370,8 +381,8 @@
               ]
             ]
           ],
-          "at": 0.8,
-          "duration": 0.7,
+          "at": 0.8087912087912089,
+          "duration": 0.7076923076923076,
           "hand": true
         },
         {
@@ -380,8 +391,8 @@
           "x": 570,
           "y": 220,
           "size": 125,
-          "at": 0.95,
-          "duration": 1.3,
+          "at": 0.9604395604395606,
+          "duration": 1.3142857142857145,
           "hand": true,
           "color": "teal"
         },
@@ -392,7 +403,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.2
+          "at": 1.2131868131868133,
+          "duration": 0.5054945054945056
         },
         {
           "kind": "stroke",
@@ -420,8 +432,8 @@
               ]
             ]
           ],
-          "at": 1.5,
-          "duration": 0.7,
+          "at": 1.5164835164835166,
+          "duration": 0.7076923076923076,
           "hand": true
         },
         {
@@ -430,8 +442,8 @@
           "x": 960,
           "y": 220,
           "size": 125,
-          "at": 1.65,
-          "duration": 1.3,
+          "at": 1.6681318681318684,
+          "duration": 1.3142857142857145,
           "hand": true,
           "color": "teal"
         },
@@ -442,19 +454,20 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.9
+          "at": 1.9208791208791212,
+          "duration": 0.5054945054945056
         }
       ],
-      "frames": 182
+      "frames": 184
     },
     {
       "id": "04",
-      "start_frame": 619,
+      "start_frame": 713,
       "title": "Borrowers repay the financing",
       "chapter": "The big picture",
       "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
       "anchor": {
-        "phrase": "Home buyers"
+        "phrase": "Homebuyers\u2019 payments would repay investors and"
       },
       "elements": [
         {
@@ -465,7 +478,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.497991967871486,
+          "at": 0.0
         },
         {
           "kind": "icon",
@@ -473,8 +487,8 @@
           "x": 180,
           "y": 220,
           "size": 125,
-          "at": 0.25,
-          "duration": 1.3,
+          "at": 0.248995983935743,
+          "duration": 1.2947791164658635,
           "hand": true,
           "color": "teal"
         },
@@ -485,7 +499,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 0.5
+          "at": 0.497991967871486,
+          "duration": 0.497991967871486
         },
         {
           "kind": "stroke",
@@ -513,8 +528,8 @@
               ]
             ]
           ],
-          "at": 0.8,
-          "duration": 0.7,
+          "at": 0.7967871485943775,
+          "duration": 0.6971887550200803,
           "hand": true
         },
         {
@@ -523,8 +538,8 @@
           "x": 570,
           "y": 220,
           "size": 125,
-          "at": 0.95,
-          "duration": 1.3,
+          "at": 0.9461847389558232,
+          "duration": 1.2947791164658635,
           "hand": true,
           "color": "teal"
         },
@@ -535,7 +550,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.2
+          "at": 1.195180722891566,
+          "duration": 0.497991967871486
         },
         {
           "kind": "stroke",
@@ -563,8 +579,8 @@
               ]
             ]
           ],
-          "at": 1.5,
-          "duration": 0.7,
+          "at": 1.493975903614458,
+          "duration": 0.6971887550200803,
           "hand": true
         },
         {
@@ -573,8 +589,8 @@
           "x": 960,
           "y": 220,
           "size": 125,
-          "at": 1.65,
-          "duration": 1.3,
+          "at": 1.6433734939759035,
+          "duration": 1.2947791164658635,
           "hand": true,
           "color": "teal"
         },
@@ -585,7 +601,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.9
+          "at": 1.8923694779116464,
+          "duration": 0.497991967871486
         },
         {
           "kind": "text",
@@ -595,19 +612,20 @@
           "size": 24,
           "width": 1100,
           "color": "teal",
-          "at": 3.9
+          "at": 3.8843373493975903,
+          "duration": 0.497991967871486
         }
       ],
-      "frames": 249
+      "frames": 248
     },
     {
       "id": "05",
-      "start_frame": 868,
+      "start_frame": 961,
       "title": "An example: buying a newly built home",
       "chapter": "An illustrative example",
       "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
       "anchor": {
-        "phrase": "Imagine a family"
+        "phrase": "Imagine a family budgeting for a"
       },
       "elements": [
         {
@@ -618,7 +636,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.44642857142857145,
+          "at": 0.0
         },
         {
           "kind": "image",
@@ -629,7 +648,9 @@
             620,
             430
           ],
-          "duration": 0.9
+          "duration": 1.4,
+          "animation": "fade-rise",
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -638,7 +659,8 @@
           "y": 200,
           "size": 29,
           "width": 480,
-          "at": 0.3
+          "at": 0.26785714285714285,
+          "duration": 0.44642857142857145
         },
         {
           "kind": "stroke",
@@ -654,8 +676,8 @@
               ]
             ]
           ],
-          "at": 0.6,
-          "duration": 0.55,
+          "at": 0.5357142857142857,
+          "duration": 0.4910714285714286,
           "hand": true,
           "color": "gold"
         },
@@ -666,7 +688,8 @@
           "y": 315,
           "size": 29,
           "width": 480,
-          "at": 0.95
+          "at": 0.8482142857142857,
+          "duration": 0.44642857142857145
         },
         {
           "kind": "stroke",
@@ -682,22 +705,22 @@
               ]
             ]
           ],
-          "at": 1.25,
-          "duration": 0.55,
+          "at": 1.1160714285714286,
+          "duration": 0.4910714285714286,
           "hand": true,
           "color": "gold"
         }
       ],
-      "frames": 112
+      "frames": 100
     },
     {
       "id": "06",
-      "start_frame": 980,
+      "start_frame": 1061,
       "title": "How the purchase could be financed",
       "chapter": "An illustrative example",
       "source": "Illustrative arithmetic: 3% + 17% + 80% = 100%",
       "anchor": {
-        "phrase": "For an illustrative home"
+        "phrase": "For an illustrative home costing six"
       },
       "elements": [
         {
@@ -708,7 +731,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.5301075268817205,
+          "at": 0.0
         },
         {
           "kind": "image",
@@ -719,7 +743,9 @@
             400,
             390
           ],
-          "duration": 0.9
+          "duration": 1.4,
+          "animation": "fade-rise",
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -728,7 +754,9 @@
           "y": 170,
           "size": 34,
           "width": 650,
-          "bold": true
+          "bold": true,
+          "at": 0.0,
+          "duration": 0.5301075268817205
         },
         {
           "kind": "text",
@@ -737,7 +765,9 @@
           "y": 220,
           "size": 21,
           "width": 650,
-          "color": "muted"
+          "color": "muted",
+          "at": 0.0,
+          "duration": 0.5301075268817205
         },
         {
           "kind": "text",
@@ -746,7 +776,8 @@
           "y": 280,
           "size": 25,
           "width": 720,
-          "at": 3.5
+          "at": 3.7107526881720427,
+          "duration": 0.5301075268817205
         },
         {
           "kind": "bar",
@@ -759,8 +790,8 @@
           "value": 3,
           "maximum": 100,
           "color": "gold",
-          "at": 3.5,
-          "duration": 1
+          "at": 3.7107526881720427,
+          "duration": 1.060215053763441
         },
         {
           "kind": "text",
@@ -769,7 +800,8 @@
           "y": 375,
           "size": 25,
           "width": 720,
-          "at": 7.1
+          "at": 7.52752688172043,
+          "duration": 0.5301075268817205
         },
         {
           "kind": "bar",
@@ -782,8 +814,8 @@
           "value": 17,
           "maximum": 100,
           "color": "teal",
-          "at": 7.1,
-          "duration": 1
+          "at": 7.52752688172043,
+          "duration": 1.060215053763441
         },
         {
           "kind": "text",
@@ -792,7 +824,8 @@
           "y": 470,
           "size": 25,
           "width": 720,
-          "at": 11.8
+          "at": 12.510537634408603,
+          "duration": 0.5301075268817205
         },
         {
           "kind": "bar",
@@ -805,20 +838,20 @@
           "value": 80,
           "maximum": 100,
           "color": "blue",
-          "at": 11.8,
-          "duration": 1
+          "at": 12.510537634408603,
+          "duration": 1.060215053763441
         }
       ],
-      "frames": 465
+      "frames": 493
     },
     {
       "id": "07",
-      "start_frame": 1445,
+      "start_frame": 1554,
       "title": "Less upfront cash; two loans to repay",
       "chapter": "An illustrative example",
       "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
       "anchor": {
-        "phrase": "That can reduce"
+        "phrase": "That can reduce cash needed at"
       },
       "elements": [
         {
@@ -829,7 +862,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.4954128440366973,
+          "at": 0.0
         },
         {
           "kind": "image",
@@ -840,7 +874,9 @@
             620,
             430
           ],
-          "duration": 0.9
+          "duration": 1.4,
+          "animation": "fade-rise",
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -849,7 +885,8 @@
           "y": 200,
           "size": 29,
           "width": 480,
-          "at": 0.3
+          "at": 0.29724770642201837,
+          "duration": 0.4954128440366973
         },
         {
           "kind": "stroke",
@@ -865,8 +902,8 @@
               ]
             ]
           ],
-          "at": 0.6,
-          "duration": 0.55,
+          "at": 0.5944954128440367,
+          "duration": 0.5449541284403671,
           "hand": true,
           "color": "gold"
         },
@@ -877,7 +914,8 @@
           "y": 315,
           "size": 29,
           "width": 480,
-          "at": 0.95
+          "at": 0.9412844036697248,
+          "duration": 0.4954128440366973
         },
         {
           "kind": "stroke",
@@ -893,8 +931,8 @@
               ]
             ]
           ],
-          "at": 1.25,
-          "duration": 0.55,
+          "at": 1.238532110091743,
+          "duration": 0.5449541284403671,
           "hand": true,
           "color": "gold"
         },
@@ -905,7 +943,8 @@
           "y": 430,
           "size": 29,
           "width": 480,
-          "at": 1.6
+          "at": 1.5853211009174313,
+          "duration": 0.4954128440366973
         },
         {
           "kind": "stroke",
@@ -921,22 +960,22 @@
               ]
             ]
           ],
-          "at": 1.9,
-          "duration": 0.55,
+          "at": 1.8825688073394495,
+          "duration": 0.5449541284403671,
           "hand": true,
           "color": "gold"
         }
       ],
-      "frames": 218
+      "frames": 216
     },
     {
       "id": "08",
-      "start_frame": 1663,
+      "start_frame": 1770,
       "title": "Look at the whole monthly bill",
       "chapter": "An illustrative example",
       "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
       "anchor": {
-        "phrase": "Affordability depends"
+        "phrase": "Affordability depends on both monthly payments,"
       },
       "elements": [
         {
@@ -947,7 +986,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.41774891774891776,
+          "at": 0.0
         },
         {
           "kind": "icon",
@@ -955,8 +995,8 @@
           "x": 180,
           "y": 220,
           "size": 125,
-          "at": 0.25,
-          "duration": 1.3,
+          "at": 0.20887445887445888,
+          "duration": 1.086147186147186,
           "hand": true,
           "color": "teal"
         },
@@ -967,7 +1007,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 0.5
+          "at": 0.41774891774891776,
+          "duration": 0.41774891774891776
         },
         {
           "kind": "icon",
@@ -975,8 +1016,8 @@
           "x": 570,
           "y": 220,
           "size": 125,
-          "at": 0.95,
-          "duration": 1.3,
+          "at": 0.7937229437229437,
+          "duration": 1.086147186147186,
           "hand": true,
           "color": "teal"
         },
@@ -987,7 +1028,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.2
+          "at": 1.0025974025974025,
+          "duration": 0.41774891774891776
         },
         {
           "kind": "icon",
@@ -995,8 +1037,8 @@
           "x": 960,
           "y": 220,
           "size": 125,
-          "at": 1.65,
-          "duration": 1.3,
+          "at": 1.3785714285714286,
+          "duration": 1.086147186147186,
           "hand": true,
           "color": "teal"
         },
@@ -1007,19 +1049,20 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.9
+          "at": 1.5874458874458874,
+          "duration": 0.41774891774891776
         }
       ],
-      "frames": 231
+      "frames": 193
     },
     {
       "id": "09",
-      "start_frame": 1894,
+      "start_frame": 1963,
       "title": "The program is tied to new housing",
       "chapter": "An illustrative example",
       "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
       "anchor": {
-        "phrase": "The program is tied"
+        "phrase": "The program is tied to qualifying"
       },
       "elements": [
         {
@@ -1030,7 +1073,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.5544554455445545,
+          "at": 0.0
         },
         {
           "kind": "image",
@@ -1041,19 +1085,21 @@
             1000,
             440
           ],
-          "duration": 0.9
+          "duration": 1.4,
+          "animation": "fade-rise",
+          "at": 0.0
         }
       ],
-      "frames": 101
+      "frames": 112
     },
     {
       "id": "10",
-      "start_frame": 1995,
+      "start_frame": 2075,
       "title": "Who could qualify?",
       "chapter": "How it would work",
       "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
       "anchor": {
-        "phrase": "must meet one year"
+        "phrase": "must meet one year of California"
       },
       "elements": [
         {
@@ -1064,7 +1110,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.5033112582781457,
+          "at": 0.0
         },
         {
           "kind": "icon",
@@ -1072,8 +1119,8 @@
           "x": 180,
           "y": 220,
           "size": 125,
-          "at": 0.25,
-          "duration": 1.3,
+          "at": 0.25165562913907286,
+          "duration": 1.308609271523179,
           "hand": true,
           "color": "teal"
         },
@@ -1084,7 +1131,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 0.5
+          "at": 0.5033112582781457,
+          "duration": 0.5033112582781457
         },
         {
           "kind": "icon",
@@ -1092,8 +1140,8 @@
           "x": 570,
           "y": 220,
           "size": 125,
-          "at": 0.95,
-          "duration": 1.3,
+          "at": 0.9562913907284767,
+          "duration": 1.308609271523179,
           "hand": true,
           "color": "teal"
         },
@@ -1104,7 +1152,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.2
+          "at": 1.2079470198675495,
+          "duration": 0.5033112582781457
         },
         {
           "kind": "icon",
@@ -1112,8 +1161,8 @@
           "x": 960,
           "y": 220,
           "size": 125,
-          "at": 1.65,
-          "duration": 1.3,
+          "at": 1.6609271523178808,
+          "duration": 1.308609271523179,
           "hand": true,
           "color": "teal"
         },
@@ -1124,19 +1173,20 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.9
+          "at": 1.9125827814569534,
+          "duration": 0.5033112582781457
         }
       ],
-      "frames": 302
+      "frames": 304
     },
     {
       "id": "11",
-      "start_frame": 2297,
+      "start_frame": 2379,
       "title": "Which homes could qualify?",
       "chapter": "How it would work",
       "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
       "anchor": {
-        "phrase": "Homes must be qualifying"
+        "phrase": "Homes must be qualifying first sales,"
       },
       "elements": [
         {
@@ -1147,7 +1197,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.5139860139860141,
+          "at": 0.0
         },
         {
           "kind": "image",
@@ -1158,7 +1209,9 @@
             620,
             430
           ],
-          "duration": 0.9
+          "duration": 1.4,
+          "animation": "fade-rise",
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -1167,7 +1220,8 @@
           "y": 200,
           "size": 29,
           "width": 480,
-          "at": 0.3
+          "at": 0.3083916083916084,
+          "duration": 0.5139860139860141
         },
         {
           "kind": "stroke",
@@ -1183,8 +1237,8 @@
               ]
             ]
           ],
-          "at": 0.6,
-          "duration": 0.55,
+          "at": 0.6167832167832168,
+          "duration": 0.5653846153846155,
           "hand": true,
           "color": "gold"
         },
@@ -1195,7 +1249,8 @@
           "y": 315,
           "size": 29,
           "width": 480,
-          "at": 0.95
+          "at": 0.9765734265734266,
+          "duration": 0.5139860139860141
         },
         {
           "kind": "stroke",
@@ -1211,8 +1266,8 @@
               ]
             ]
           ],
-          "at": 1.25,
-          "duration": 0.55,
+          "at": 1.284965034965035,
+          "duration": 0.5653846153846155,
           "hand": true,
           "color": "gold"
         },
@@ -1223,7 +1278,8 @@
           "y": 430,
           "size": 29,
           "width": 480,
-          "at": 1.6
+          "at": 1.644755244755245,
+          "duration": 0.5139860139860141
         },
         {
           "kind": "stroke",
@@ -1239,22 +1295,22 @@
               ]
             ]
           ],
-          "at": 1.9,
-          "duration": 0.55,
+          "at": 1.9531468531468532,
+          "duration": 0.5653846153846155,
           "hand": true,
           "color": "gold"
         }
       ],
-      "frames": 286
+      "frames": 294
     },
     {
       "id": "12",
-      "start_frame": 2583,
+      "start_frame": 2673,
       "title": "How many loans could $25 billion fund?",
       "chapter": "How it would work",
       "source": "Illustrative division, not a forecast or a promised loan count",
       "anchor": {
-        "phrase": "How many loans"
+        "phrase": "How many loans could it fund?"
       },
       "elements": [
         {
@@ -1265,7 +1321,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.4581673306772908,
+          "at": 0.0
         },
         {
           "kind": "icon",
@@ -1273,8 +1330,8 @@
           "x": 100,
           "y": 230,
           "size": 150,
-          "at": 0.4,
-          "duration": 1.3,
+          "at": 0.3665338645418327,
+          "duration": 1.1912350597609562,
           "hand": true,
           "color": "teal"
         },
@@ -1285,7 +1342,9 @@
           "y": 235,
           "size": 37,
           "width": 850,
-          "bold": true
+          "bold": true,
+          "at": 0.0,
+          "duration": 0.4581673306772908
         },
         {
           "kind": "stroke",
@@ -1301,8 +1360,8 @@
               ]
             ]
           ],
-          "at": 1.3,
-          "duration": 1.2,
+          "at": 1.1912350597609562,
+          "duration": 1.099601593625498,
           "hand": true
         },
         {
@@ -1313,7 +1372,8 @@
           "size": 44,
           "width": 850,
           "color": "teal",
-          "at": 3
+          "at": 2.749003984063745,
+          "duration": 0.4581673306772908
         },
         {
           "kind": "text",
@@ -1322,19 +1382,20 @@
           "y": 415,
           "size": 25,
           "width": 850,
-          "at": 3.5
+          "at": 3.207171314741036,
+          "duration": 0.4581673306772908
         }
       ],
-      "frames": 251
+      "frames": 230
     },
     {
       "id": "13",
-      "start_frame": 2834,
+      "start_frame": 2903,
       "title": "An illustration, not a promise",
       "chapter": "How it would work",
       "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
       "anchor": {
-        "phrase": "That is arithmetic"
+        "phrase": "That is arithmetic, not an official"
       },
       "elements": [
         {
@@ -1345,7 +1406,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.46153846153846156,
+          "at": 0.0
         },
         {
           "kind": "image",
@@ -1356,7 +1418,9 @@
             620,
             430
           ],
-          "duration": 0.9
+          "duration": 1.4,
+          "animation": "fade-rise",
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -1365,7 +1429,8 @@
           "y": 200,
           "size": 29,
           "width": 480,
-          "at": 0.3
+          "at": 0.2769230769230769,
+          "duration": 0.46153846153846156
         },
         {
           "kind": "stroke",
@@ -1381,8 +1446,8 @@
               ]
             ]
           ],
-          "at": 0.6,
-          "duration": 0.55,
+          "at": 0.5538461538461538,
+          "duration": 0.5076923076923078,
           "hand": true,
           "color": "gold"
         },
@@ -1393,7 +1458,8 @@
           "y": 315,
           "size": 29,
           "width": 480,
-          "at": 0.95
+          "at": 0.8769230769230769,
+          "duration": 0.46153846153846156
         },
         {
           "kind": "stroke",
@@ -1409,8 +1475,8 @@
               ]
             ]
           ],
-          "at": 1.25,
-          "duration": 0.55,
+          "at": 1.1538461538461537,
+          "duration": 0.5076923076923078,
           "hand": true,
           "color": "gold"
         },
@@ -1421,7 +1487,8 @@
           "y": 430,
           "size": 29,
           "width": 480,
-          "at": 1.6
+          "at": 1.4769230769230772,
+          "duration": 0.46153846153846156
         },
         {
           "kind": "stroke",
@@ -1437,22 +1504,22 @@
               ]
             ]
           ],
-          "at": 1.9,
-          "duration": 0.55,
+          "at": 1.7538461538461538,
+          "duration": 0.5076923076923078,
           "hand": true,
           "color": "gold"
         }
       ],
-      "frames": 208
+      "frames": 192
     },
     {
       "id": "14",
-      "start_frame": 3042,
+      "start_frame": 3095,
       "title": "An optional path for qualified builders",
       "chapter": "How it would work",
       "source": "Official voter guide / LAO \u00b7 optional builder provisions",
       "anchor": {
-        "phrase": "Developers can build"
+        "phrase": "Developers can build eligible homes without"
       },
       "elements": [
         {
@@ -1463,7 +1530,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.5403726708074534,
+          "at": 0.0
         },
         {
           "kind": "image",
@@ -1474,7 +1542,9 @@
             620,
             430
           ],
-          "duration": 0.9
+          "duration": 1.4,
+          "animation": "fade-rise",
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -1483,7 +1553,8 @@
           "y": 200,
           "size": 29,
           "width": 480,
-          "at": 0.3
+          "at": 0.3242236024844721,
+          "duration": 0.5403726708074534
         },
         {
           "kind": "stroke",
@@ -1499,8 +1570,8 @@
               ]
             ]
           ],
-          "at": 0.6,
-          "duration": 0.55,
+          "at": 0.6484472049689441,
+          "duration": 0.5944099378881988,
           "hand": true,
           "color": "gold"
         },
@@ -1511,7 +1582,8 @@
           "y": 315,
           "size": 29,
           "width": 480,
-          "at": 0.95
+          "at": 1.0267080745341615,
+          "duration": 0.5403726708074534
         },
         {
           "kind": "stroke",
@@ -1527,22 +1599,22 @@
               ]
             ]
           ],
-          "at": 1.25,
-          "duration": 0.55,
+          "at": 1.3509316770186337,
+          "duration": 0.5944099378881988,
           "hand": true,
           "color": "gold"
         }
       ],
-      "frames": 322
+      "frames": 348
     },
     {
       "id": "15",
-      "start_frame": 3364,
+      "start_frame": 3443,
       "title": "Will more homes actually get built?",
       "chapter": "How it would work",
       "source": "LAO: the effect on housing construction is uncertain",
       "anchor": {
-        "phrase": "The measure does not"
+        "phrase": "The measure does not directly guarantee"
       },
       "elements": [
         {
@@ -1553,7 +1625,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.5205479452054794,
+          "at": 0.0
         },
         {
           "kind": "image",
@@ -1564,7 +1637,9 @@
             700,
             420
           ],
-          "duration": 0.9
+          "duration": 1.4,
+          "animation": "fade-rise",
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -1573,7 +1648,9 @@
           "y": 245,
           "size": 33,
           "width": 400,
-          "color": "coral"
+          "color": "coral",
+          "at": 0.0,
+          "duration": 0.5205479452054794
         },
         {
           "kind": "icon",
@@ -1581,22 +1658,22 @@
           "x": 920,
           "y": 410,
           "size": 120,
-          "at": 1,
-          "duration": 1.3,
+          "at": 1.0410958904109588,
+          "duration": 1.3534246575342468,
           "hand": true,
           "color": "teal"
         }
       ],
-      "frames": 146
+      "frames": 152
     },
     {
       "id": "16",
-      "start_frame": 3510,
+      "start_frame": 3595,
       "title": "Why a voter might support it",
       "chapter": "Why someone might vote yes",
       "source": "A possible voter consideration \u00b7 not a voting recommendation",
       "anchor": {
-        "phrase": "A voter might support"
+        "phrase": "A voter might support helping households"
       },
       "elements": [
         {
@@ -1607,7 +1684,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.45077720207253885,
+          "at": 0.0
         },
         {
           "kind": "image",
@@ -1618,7 +1696,9 @@
             620,
             430
           ],
-          "duration": 0.9
+          "duration": 1.4,
+          "animation": "fade-rise",
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -1627,7 +1707,8 @@
           "y": 200,
           "size": 29,
           "width": 480,
-          "at": 0.3
+          "at": 0.2704663212435233,
+          "duration": 0.45077720207253885
         },
         {
           "kind": "stroke",
@@ -1643,8 +1724,8 @@
               ]
             ]
           ],
-          "at": 0.6,
-          "duration": 0.55,
+          "at": 0.5409326424870466,
+          "duration": 0.4958549222797927,
           "hand": true,
           "color": "gold"
         },
@@ -1655,7 +1736,8 @@
           "y": 315,
           "size": 29,
           "width": 480,
-          "at": 0.95
+          "at": 0.8564766839378237,
+          "duration": 0.45077720207253885
         },
         {
           "kind": "stroke",
@@ -1671,22 +1753,22 @@
               ]
             ]
           ],
-          "at": 1.25,
-          "duration": 0.55,
+          "at": 1.1269430051813472,
+          "duration": 0.4958549222797927,
           "hand": true,
           "color": "gold"
         }
       ],
-      "frames": 193
+      "frames": 174
     },
     {
       "id": "17",
-      "start_frame": 3703,
+      "start_frame": 3769,
       "title": "Could new-home demand encourage building?",
       "chapter": "Why someone might vote yes",
       "source": "Possible mechanism; not a forecast of additional homes",
       "anchor": {
-        "phrase": "Restricting the assistance"
+        "phrase": "Restricting the assistance to new homes"
       },
       "elements": [
         {
@@ -1697,7 +1779,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.4808259587020649,
+          "at": 0.0
         },
         {
           "kind": "icon",
@@ -1705,8 +1788,8 @@
           "x": 180,
           "y": 220,
           "size": 125,
-          "at": 0.25,
-          "duration": 1.3,
+          "at": 0.24041297935103245,
+          "duration": 1.2501474926253686,
           "hand": true,
           "color": "teal"
         },
@@ -1717,7 +1800,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 0.5
+          "at": 0.4808259587020649,
+          "duration": 0.4808259587020649
         },
         {
           "kind": "stroke",
@@ -1745,8 +1829,8 @@
               ]
             ]
           ],
-          "at": 0.8,
-          "duration": 0.7,
+          "at": 0.7693215339233038,
+          "duration": 0.6731563421828908,
           "hand": true
         },
         {
@@ -1755,8 +1839,8 @@
           "x": 570,
           "y": 220,
           "size": 125,
-          "at": 0.95,
-          "duration": 1.3,
+          "at": 0.9135693215339233,
+          "duration": 1.2501474926253686,
           "hand": true,
           "color": "teal"
         },
@@ -1767,7 +1851,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.2
+          "at": 1.1539823008849557,
+          "duration": 0.4808259587020649
         },
         {
           "kind": "stroke",
@@ -1795,8 +1880,8 @@
               ]
             ]
           ],
-          "at": 1.5,
-          "duration": 0.7,
+          "at": 1.4424778761061947,
+          "duration": 0.6731563421828908,
           "hand": true
         },
         {
@@ -1805,8 +1890,8 @@
           "x": 960,
           "y": 220,
           "size": 125,
-          "at": 1.65,
-          "duration": 1.3,
+          "at": 1.5867256637168141,
+          "duration": 1.2501474926253686,
           "hand": true,
           "color": "teal"
         },
@@ -1817,7 +1902,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.9
+          "at": 1.8271386430678467,
+          "duration": 0.4808259587020649
         },
         {
           "kind": "text",
@@ -1827,19 +1913,20 @@
           "size": 28,
           "width": 1000,
           "color": "teal",
-          "at": 6.9
+          "at": 6.635398230088495,
+          "duration": 0.4808259587020649
         }
       ],
-      "frames": 339
+      "frames": 326
     },
     {
       "id": "18",
-      "start_frame": 4042,
+      "start_frame": 4095,
       "title": "But will homes become more affordable?",
       "chapter": "Why someone might vote no",
       "source": "A question a voter might reasonably ask",
       "anchor": {
-        "phrase": "You might ask"
+        "phrase": "You might ask whether easier buying"
       },
       "elements": [
         {
@@ -1850,7 +1937,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.579646017699115,
+          "at": 0.0
         },
         {
           "kind": "image",
@@ -1861,7 +1949,9 @@
             620,
             430
           ],
-          "duration": 0.9
+          "duration": 1.4,
+          "animation": "fade-rise",
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -1870,7 +1960,8 @@
           "y": 200,
           "size": 29,
           "width": 480,
-          "at": 0.3
+          "at": 0.347787610619469,
+          "duration": 0.579646017699115
         },
         {
           "kind": "stroke",
@@ -1886,8 +1977,8 @@
               ]
             ]
           ],
-          "at": 0.6,
-          "duration": 0.55,
+          "at": 0.695575221238938,
+          "duration": 0.6376106194690266,
           "hand": true,
           "color": "gold"
         },
@@ -1898,7 +1989,8 @@
           "y": 315,
           "size": 29,
           "width": 480,
-          "at": 0.95
+          "at": 1.1013274336283183,
+          "duration": 0.579646017699115
         },
         {
           "kind": "stroke",
@@ -1914,22 +2006,22 @@
               ]
             ]
           ],
-          "at": 1.25,
-          "duration": 0.55,
+          "at": 1.4491150442477876,
+          "duration": 0.6376106194690266,
           "hand": true,
           "color": "gold"
         }
       ],
-      "frames": 113
+      "frames": 131
     },
     {
       "id": "19",
-      "start_frame": 4155,
+      "start_frame": 4226,
       "title": "More buying power can bid up prices",
       "chapter": "Why someone might vote no",
       "source": "Illustrative economics: supply and demand, not a quantitative forecast",
       "anchor": {
-        "phrase": "If more buyers can bid"
+        "phrase": "If more buyers can bid while"
       },
       "elements": [
         {
@@ -1940,7 +2032,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.5226244343891403,
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -1948,7 +2041,9 @@
           "x": 70,
           "y": 175,
           "size": 22,
-          "width": 230
+          "width": 230,
+          "at": 0.0,
+          "duration": 0.5226244343891403
         },
         {
           "kind": "stroke",
@@ -1968,8 +2063,8 @@
               ]
             ]
           ],
-          "at": 0.2,
-          "duration": 0.8,
+          "at": 0.20904977375565612,
+          "duration": 0.8361990950226245,
           "hand": true
         },
         {
@@ -1986,8 +2081,8 @@
               ]
             ]
           ],
-          "at": 1.1,
-          "duration": 1.1,
+          "at": 1.1497737556561087,
+          "duration": 1.1497737556561087,
           "hand": true,
           "color": "teal"
         },
@@ -2005,8 +2100,8 @@
               ]
             ]
           ],
-          "at": 2.2,
-          "duration": 1,
+          "at": 2.2995475113122175,
+          "duration": 1.0452488687782806,
           "hand": true,
           "color": "blue"
         },
@@ -2024,8 +2119,8 @@
               ]
             ]
           ],
-          "at": 3.3,
-          "duration": 1,
+          "at": 3.449321266968326,
+          "duration": 1.0452488687782806,
           "hand": true,
           "color": "coral"
         },
@@ -2037,7 +2132,8 @@
           "size": 31,
           "width": 440,
           "color": "coral",
-          "at": 3
+          "at": 3.135746606334842,
+          "duration": 0.5226244343891403
         },
         {
           "kind": "text",
@@ -2046,7 +2142,8 @@
           "y": 320,
           "size": 29,
           "width": 430,
-          "at": 3.4
+          "at": 3.553846153846154,
+          "duration": 0.5226244343891403
         },
         {
           "kind": "text",
@@ -2054,7 +2151,9 @@
           "x": 430,
           "y": 555,
           "size": 22,
-          "width": 280
+          "width": 280,
+          "at": 0.0,
+          "duration": 0.5226244343891403
         },
         {
           "kind": "text",
@@ -2063,7 +2162,9 @@
           "y": 600,
           "size": 19,
           "width": 1000,
-          "color": "muted"
+          "color": "muted",
+          "at": 0.0,
+          "duration": 0.5226244343891403
         },
         {
           "kind": "text",
@@ -2073,7 +2174,8 @@
           "size": 20,
           "width": 420,
           "color": "teal",
-          "at": 1.1
+          "at": 1.1497737556561087,
+          "duration": 0.5226244343891403
         },
         {
           "kind": "text",
@@ -2083,7 +2185,8 @@
           "size": 20,
           "width": 420,
           "color": "blue",
-          "at": 2.2
+          "at": 2.2995475113122175,
+          "duration": 0.5226244343891403
         },
         {
           "kind": "text",
@@ -2093,19 +2196,20 @@
           "size": 20,
           "width": 420,
           "color": "coral",
-          "at": 3.4
+          "at": 3.553846153846154,
+          "duration": 0.5226244343891403
         }
       ],
-      "frames": 221
+      "frames": 231
     },
     {
       "id": "20",
-      "start_frame": 4376,
+      "start_frame": 4457,
       "title": "New-home rules do not remove every bottleneck",
       "chapter": "Why someone might vote no",
       "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
       "anchor": {
-        "phrase": "New home eligibility"
+        "phrase": "New-home eligibility helps link the program"
       },
       "elements": [
         {
@@ -2116,7 +2220,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.5083333333333333,
+          "at": 0.0
         },
         {
           "kind": "icon",
@@ -2124,8 +2229,8 @@
           "x": 180,
           "y": 220,
           "size": 125,
-          "at": 0.25,
-          "duration": 1.3,
+          "at": 0.25416666666666665,
+          "duration": 1.3216666666666665,
           "hand": true,
           "color": "teal"
         },
@@ -2136,7 +2241,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 0.5
+          "at": 0.5083333333333333,
+          "duration": 0.5083333333333333
         },
         {
           "kind": "icon",
@@ -2144,8 +2250,8 @@
           "x": 570,
           "y": 220,
           "size": 125,
-          "at": 0.95,
-          "duration": 1.3,
+          "at": 0.9658333333333332,
+          "duration": 1.3216666666666665,
           "hand": true,
           "color": "teal"
         },
@@ -2156,7 +2262,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.2
+          "at": 1.22,
+          "duration": 0.5083333333333333
         },
         {
           "kind": "icon",
@@ -2164,8 +2271,8 @@
           "x": 960,
           "y": 220,
           "size": 125,
-          "at": 1.65,
-          "duration": 1.3,
+          "at": 1.6774999999999998,
+          "duration": 1.3216666666666665,
           "hand": true,
           "color": "teal"
         },
@@ -2176,19 +2283,20 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.9
+          "at": 1.9316666666666664,
+          "duration": 0.5083333333333333
         }
       ],
-      "frames": 240
+      "frames": 244
     },
     {
       "id": "21",
-      "start_frame": 4616,
+      "start_frame": 4701,
       "title": "Financing is only one part of affordability",
       "chapter": "Why someone might vote no",
       "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
       "anchor": {
-        "phrase": "Easier financing alone"
+        "phrase": "Easier financing alone is not a"
       },
       "elements": [
         {
@@ -2199,7 +2307,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.49285714285714277,
+          "at": 0.0
         },
         {
           "kind": "image",
@@ -2210,7 +2319,9 @@
             620,
             430
           ],
-          "duration": 0.9
+          "duration": 1.4,
+          "animation": "fade-rise",
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -2219,7 +2330,8 @@
           "y": 200,
           "size": 29,
           "width": 480,
-          "at": 0.3
+          "at": 0.29571428571428565,
+          "duration": 0.49285714285714277
         },
         {
           "kind": "stroke",
@@ -2235,8 +2347,8 @@
               ]
             ]
           ],
-          "at": 0.6,
-          "duration": 0.55,
+          "at": 0.5914285714285713,
+          "duration": 0.542142857142857,
           "hand": true,
           "color": "gold"
         },
@@ -2247,7 +2359,8 @@
           "y": 315,
           "size": 29,
           "width": 480,
-          "at": 0.95
+          "at": 0.9364285714285712,
+          "duration": 0.49285714285714277
         },
         {
           "kind": "stroke",
@@ -2263,8 +2376,8 @@
               ]
             ]
           ],
-          "at": 1.25,
-          "duration": 0.55,
+          "at": 1.232142857142857,
+          "duration": 0.542142857142857,
           "hand": true,
           "color": "gold"
         },
@@ -2275,7 +2388,8 @@
           "y": 430,
           "size": 29,
           "width": 480,
-          "at": 1.6
+          "at": 1.577142857142857,
+          "duration": 0.49285714285714277
         },
         {
           "kind": "stroke",
@@ -2291,22 +2405,22 @@
               ]
             ]
           ],
-          "at": 1.9,
-          "duration": 0.55,
+          "at": 1.8728571428571423,
+          "duration": 0.542142857142857,
           "hand": true,
           "color": "gold"
         }
       ],
-      "frames": 140
+      "frames": 138
     },
     {
       "id": "22",
-      "start_frame": 4756,
+      "start_frame": 4839,
       "title": "Why a voter might vote against it",
       "chapter": "Why someone might vote no",
       "source": "Skeptical considerations \u00b7 no official argument against was submitted",
       "anchor": {
-        "phrase": "A skeptical voter"
+        "phrase": "A skeptical voter could also question"
       },
       "elements": [
         {
@@ -2317,7 +2431,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.5123152709359606,
+          "at": 0.0
         },
         {
           "kind": "image",
@@ -2328,7 +2443,9 @@
             620,
             430
           ],
-          "duration": 0.9
+          "duration": 1.4,
+          "animation": "fade-rise",
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -2337,7 +2454,8 @@
           "y": 200,
           "size": 29,
           "width": 480,
-          "at": 0.3
+          "at": 0.3073891625615764,
+          "duration": 0.5123152709359606
         },
         {
           "kind": "stroke",
@@ -2353,8 +2471,8 @@
               ]
             ]
           ],
-          "at": 0.6,
-          "duration": 0.55,
+          "at": 0.6147783251231528,
+          "duration": 0.5635467980295568,
           "hand": true,
           "color": "gold"
         },
@@ -2365,7 +2483,8 @@
           "y": 315,
           "size": 29,
           "width": 480,
-          "at": 0.95
+          "at": 0.9733990147783251,
+          "duration": 0.5123152709359606
         },
         {
           "kind": "stroke",
@@ -2381,22 +2500,22 @@
               ]
             ]
           ],
-          "at": 1.25,
-          "duration": 0.55,
+          "at": 1.2807881773399017,
+          "duration": 0.5635467980295568,
           "hand": true,
           "color": "gold"
         }
       ],
-      "frames": 203
+      "frames": 208
     },
     {
       "id": "23",
-      "start_frame": 4959,
+      "start_frame": 5047,
       "title": "No direct public cost does not mean no risk",
       "chapter": "Why someone might vote no",
       "source": "LAO fiscal finding and separate household / market considerations",
       "anchor": {
-        "phrase": "No direct government cost"
+        "phrase": "No direct government cost does not"
       },
       "elements": [
         {
@@ -2407,7 +2526,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.49014778325123154,
+          "at": 0.0
         },
         {
           "kind": "image",
@@ -2418,7 +2538,9 @@
             620,
             430
           ],
-          "duration": 0.9
+          "duration": 1.4,
+          "animation": "fade-rise",
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -2427,7 +2549,8 @@
           "y": 200,
           "size": 29,
           "width": 480,
-          "at": 0.3
+          "at": 0.2940886699507389,
+          "duration": 0.49014778325123154
         },
         {
           "kind": "stroke",
@@ -2443,8 +2566,8 @@
               ]
             ]
           ],
-          "at": 0.6,
-          "duration": 0.55,
+          "at": 0.5881773399014778,
+          "duration": 0.5391625615763548,
           "hand": true,
           "color": "gold"
         },
@@ -2455,7 +2578,8 @@
           "y": 315,
           "size": 29,
           "width": 480,
-          "at": 0.95
+          "at": 0.93128078817734,
+          "duration": 0.49014778325123154
         },
         {
           "kind": "stroke",
@@ -2471,22 +2595,22 @@
               ]
             ]
           ],
-          "at": 1.25,
-          "duration": 0.55,
+          "at": 1.225369458128079,
+          "duration": 0.5391625615763548,
           "hand": true,
           "color": "gold"
         }
       ],
-      "frames": 203
+      "frames": 199
     },
     {
       "id": "24",
-      "start_frame": 5162,
+      "start_frame": 5246,
       "title": "What did the September poll find?",
       "chapter": "What polling indicates",
       "source": "Source: PPIC September 2026 statewide survey",
       "anchor": {
-        "phrase": "In the September PPIC"
+        "phrase": "In the September PPIC survey of"
       },
       "elements": [
         {
@@ -2497,7 +2621,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.4900249376558603,
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -2506,7 +2631,8 @@
           "y": 205,
           "size": 28,
           "width": 260,
-          "at": 3.4
+          "at": 3.33216957605985,
+          "duration": 0.4900249376558603
         },
         {
           "kind": "bar",
@@ -2519,8 +2645,8 @@
           "value": 61,
           "maximum": 100,
           "color": "teal",
-          "at": 3.4,
-          "duration": 0.8
+          "at": 3.33216957605985,
+          "duration": 0.7840399002493765
         },
         {
           "kind": "text",
@@ -2529,7 +2655,8 @@
           "y": 310,
           "size": 28,
           "width": 260,
-          "at": 5.4
+          "at": 5.292269326683292,
+          "duration": 0.4900249376558603
         },
         {
           "kind": "bar",
@@ -2542,8 +2669,8 @@
           "value": 35,
           "maximum": 100,
           "color": "coral",
-          "at": 5.4,
-          "duration": 0.8
+          "at": 5.292269326683292,
+          "duration": 0.7840399002493765
         },
         {
           "kind": "text",
@@ -2552,7 +2679,8 @@
           "y": 415,
           "size": 28,
           "width": 260,
-          "at": 7.1
+          "at": 6.958354114713216,
+          "duration": 0.4900249376558603
         },
         {
           "kind": "bar",
@@ -2565,8 +2693,8 @@
           "value": 3,
           "maximum": 100,
           "color": "gold",
-          "at": 7.1,
-          "duration": 0.8
+          "at": 6.958354114713216,
+          "duration": 0.7840399002493765
         },
         {
           "kind": "text",
@@ -2574,7 +2702,9 @@
           "x": 110,
           "y": 540,
           "size": 24,
-          "width": 1050
+          "width": 1050,
+          "at": 0.0,
+          "duration": 0.4900249376558603
         },
         {
           "kind": "text",
@@ -2583,19 +2713,20 @@
           "y": 585,
           "size": 21,
           "width": 1100,
-          "at": 9.3
+          "at": 9.114463840399003,
+          "duration": 0.4900249376558603
         }
       ],
-      "frames": 401
+      "frames": 393
     },
     {
       "id": "25",
-      "start_frame": 5563,
+      "start_frame": 5639,
       "title": "What would your vote do?",
       "chapter": "Make your own decision",
       "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
       "anchor": {
-        "phrase": "Yes creates this loan program"
+        "phrase": "Yes creates this loan program; no"
       },
       "elements": [
         {
@@ -2606,7 +2737,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.5254237288135594,
+          "at": 0.0
         },
         {
           "kind": "icon",
@@ -2614,8 +2746,8 @@
           "x": 180,
           "y": 220,
           "size": 125,
-          "at": 0.25,
-          "duration": 1.3,
+          "at": 0.2627118644067797,
+          "duration": 1.3661016949152545,
           "hand": true,
           "color": "teal"
         },
@@ -2626,7 +2758,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 0.5
+          "at": 0.5254237288135594,
+          "duration": 0.5254237288135594
         },
         {
           "kind": "icon",
@@ -2634,8 +2767,8 @@
           "x": 570,
           "y": 220,
           "size": 125,
-          "at": 0.95,
-          "duration": 1.3,
+          "at": 0.9983050847457627,
+          "duration": 1.3661016949152545,
           "hand": true,
           "color": "teal"
         },
@@ -2646,7 +2779,8 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.2
+          "at": 1.2610169491525425,
+          "duration": 0.5254237288135594
         },
         {
           "kind": "icon",
@@ -2654,8 +2788,8 @@
           "x": 960,
           "y": 220,
           "size": 125,
-          "at": 1.65,
-          "duration": 1.3,
+          "at": 1.7338983050847459,
+          "duration": 1.3661016949152545,
           "hand": true,
           "color": "teal"
         },
@@ -2666,19 +2800,20 @@
           "y": 390,
           "size": 27,
           "width": 320,
-          "at": 1.9
+          "at": 1.9966101694915255,
+          "duration": 0.5254237288135594
         }
       ],
-      "frames": 236
+      "frames": 248
     },
     {
       "id": "26",
-      "start_frame": 5799,
+      "start_frame": 5887,
       "title": "Explore the details before you decide",
       "chapter": "Make your own decision",
       "source": "Visit the website and the official voter guide for more information",
       "anchor": {
-        "phrase": "Visit our website"
+        "phrase": "Visit our website for the fuller"
       },
       "elements": [
         {
@@ -2689,7 +2824,8 @@
           "size": 38,
           "width": 1160,
           "serif": true,
-          "duration": 0.5
+          "duration": 0.4721254355400697,
+          "at": 0.0
         },
         {
           "kind": "image",
@@ -2700,7 +2836,9 @@
             500,
             400
           ],
-          "duration": 0.9
+          "duration": 1.4,
+          "animation": "fade-rise",
+          "at": 0.0
         },
         {
           "kind": "text",
@@ -2708,7 +2846,9 @@
           "x": 620,
           "y": 205,
           "size": 30,
-          "width": 590
+          "width": 590,
+          "at": 0.0,
+          "duration": 0.4721254355400697
         },
         {
           "kind": "text",
@@ -2717,7 +2857,8 @@
           "y": 300,
           "size": 30,
           "width": 590,
-          "at": 1.5
+          "at": 1.416376306620209,
+          "duration": 0.4721254355400697
         },
         {
           "kind": "stroke",
@@ -2733,8 +2874,8 @@
               ]
             ]
           ],
-          "at": 2.2,
-          "duration": 1.2,
+          "at": 2.077351916376307,
+          "duration": 1.1331010452961672,
           "hand": true
         },
         {
@@ -2745,7 +2886,8 @@
           "size": 25,
           "width": 650,
           "color": "teal",
-          "at": 0.3
+          "at": 0.2832752613240418,
+          "duration": 0.4721254355400697
         },
         {
           "kind": "text",
@@ -2755,12 +2897,33 @@
           "size": 29,
           "width": 650,
           "color": "teal",
-          "at": 0.3
+          "at": 0.2832752613240418,
+          "duration": 0.4721254355400697
         }
       ],
-      "frames": 287
+      "frames": 271
     }
   ],
   "schema_version": 1,
-  "prompter_words": "words-global.json"
+  "prompter_words": "words-human.json",
+  "recording": {
+    "status": "aligned_cleaned_needs_review",
+    "source": "asset://bbf7e78b18943c2cca1003d2c7ba3ddd79ed38f6a989a01499e0da49e227a380.m4a",
+    "take_id": "Prop 37 \u2014 Sketchbook explainer-2026-10-20T22-00-01-629Z",
+    "script_sha256": "5ed62c0b5f5cf1db7cedd8fd04ae596325d89bd12d5c1f2f9a5d6962a6f17f27",
+    "browser_origin": "http://localhost:8877",
+    "approved_at": "2026-10-20T22:03:30.179Z",
+    "selection_basis": "browser_approved",
+    "processing": {
+      "filter": "afftdn=nr=6:nf=-45",
+      "original_preserved": true,
+      "master": "asset://fe0e3e755e227e05fbd855d69739510f2d294dbd6510d13d83883be0f776666b.wav",
+      "no_speech_trim": true
+    },
+    "alignment": {
+      "method": "local ASR word timing with canonical interpolation for scene anchors",
+      "estimated_words": 56,
+      "review_required": true
+    }
+  }
 }

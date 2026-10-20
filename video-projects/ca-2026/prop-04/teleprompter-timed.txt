@@ -1,76 +1,71 @@
 Suggested pacing from the existing narration. Highlight timing is approximate, especially for corrected words and spoken numbers. Read naturally; the video can be retimed to the new recording.
 
-[00:00.00] Should public money help pay for election campaigns?
-[00:03.32] That is the question behind California Proposition four.
-[00:07.10] Campaign financing pays for things like mailers, advertising,
-[00:11.86] and campaign staff.
-[00:13.52] Public financing means government money helps cover those expenses.
-[00:18.02] Today, California generally bans that for state and local
-[00:21.44] candidates.
-[00:22.84] Some charter cities, including Los Angeles and San Francisco,
-[00:27.16] already have exceptions.
-[00:29.02] Proposition four would let more governments offer public financing.
-[00:33.58] It does not automatically launch a program or send
-[00:36.50] money to candidates.
-[00:38.27] Imagine a first-time candidate planning how to reach voters.
-[00:42.81] She has local supporters, but printing leaflets and running
-[00:46.23] advertisements cost money.
-[00:48.67] A future city program might match small donations.
-[00:52.15] Here is a made-up example:
-[00:54.09] twenty dollars from a resident, plus forty dollars from
-[00:56.95] the city, gives the campaign sixty dollars.
-[01:00.11] Those numbers are illustrative.
-[01:02.91] Proposition four does not choose a matching rate or
-[01:05.49] promise this candidate any money.
-[01:07.29] The aim is to help candidates reach more voters.
-[01:11.40] You might ask: who qualifies, and who decides?
-[01:15.18] A future program would set detailed eligibility rules and
-[01:18.64] its budget.
-[01:19.80] Candidates would have to demonstrate broad support in their
-[01:22.68] district and accept spending limits.
-[01:25.38] Public money could not pay their fines, legal defense,
-[01:29.04] or personal campaign loans.
-[01:31.34] Funds reserved for education,
-[01:33.50] transportation,
-[01:34.54] or public safety could not be used.
-[01:37.30] But other public funds spent on campaigns still have
-[01:40.50] an opportunity cost.
-[01:42.34] The state estimates a few hundred thousand dollars a
-[01:45.10] year for guidance.
-[01:46.78] That is separate from future campaign programs,
-[01:49.68] whose costs depend on later decisions and could be
-[01:52.48] significant.
-[01:53.67] A voter favoring reform might say:
-[01:56.53] I want candidates with community support to compete, even
-[01:59.97] without wealthy backers.
-[02:02.23] Supporters hope matching donations would make ordinary residents more
-[02:06.03] important to fundraising.
-[02:08.53] Voting yes gives governments that option, subject to rules.
-[02:12.77] It does not guarantee less donor influence.
-[02:15.70] Another voter might ask: should taxpayers pay for political
-[02:19.18] campaigns?
-[02:20.74] They may dislike funding candidates they oppose, or prefer
-[02:24.22] other uses for public money.
-[02:26.68] The measure leaves future program budgets and many details
-[02:29.82] undecided.
-[02:31.38] Public financing also does not eliminate private political spending.
-[02:35.30] A no vote keeps the general ban and existing
-[02:38.64] exceptions.
-[02:40.07] What do polls show?
-[02:41.89] In early September, PPIC found forty-two percent
-[02:44.77] yes,
-[02:45.65] fifty-three percent
-[02:46.47] no, and five percent unsure among likely voters.
-[02:50.35] A later September Berkeley poll found thirty-five percent
-[02:53.45] yes, thirty-five percent
-[02:55.29] no, and thirty percent
-[02:56.87] undecided.
-[02:58.25] These are different surveys,
-[02:59.91] not a clean trend or an election forecast.
-[03:02.80] The choice is whether to allow future public campaign
-[03:05.66] financing programs,
-[03:07.84] with potential benefits and public costs.
-[03:10.86] Visit our website for the fuller explanation,
-[03:13.28] sources,
-[03:14.34] and official voter guide.
-[03:16.30] Then make your own informed choice.
+[00:02.92] Should public money help pay for election campaigns?
+[00:06.78] That is the question behind California Proposition four.
+[00:09.98] Campaign financing pays for things like mailers, advertising, and
+[00:14.04] campaign staff.
+[00:15.88] Public financing means government money helps cover those expenses.
+[00:20.72] Today, California generally bans that for state and local
+[00:24.52] candidates.
+[00:25.98] Some charter cities, including Los Angeles and San Francisco,
+[00:29.08] already have exceptions.
+[00:31.36] Proposition four would let more governments offer public financing.
+[00:36.00] It does not automatically launch a program or send
+[00:38.92] money to candidates.
+[00:40.80] Imagine a first-time candidate planning how to reach voters.
+[00:45.10] She has local supporters, but printing leaflets and running
+[00:48.38] advertisements cost money.
+[00:50.70] A future city program might match small donations.
+[00:54.38] Here is a made-up example:
+[00:56.28] twenty dollars from a resident, plus forty dollars from
+[00:59.32] the city, gives the campaign sixty dollars.
+[01:02.50] Those numbers are illustrative.
+[01:04.70] Proposition four does not choose a matching rate or
+[01:08.38] promise this candidate any money.
+[01:10.88] The aim is to help candidates reach more voters.
+[01:13.88] You might ask: who qualifies, and who decides?
+[01:16.78] A future program would set detailed eligibility rules and
+[01:21.02] its budget.
+[01:22.72] Candidates would have to demonstrate broad support in their
+[01:25.86] district and accept spending limits.
+[01:28.28] Public money could not pay their fines, legal defense,
+[01:30.96] or personal campaign loans.
+[01:33.66] Funds reserved for education,
+[01:35.74] transportation, or public safety could not be used.
+[01:39.66] But other public funds spent on campaigns still have
+[01:42.56] an opportunity cost.
+[01:44.64] The state estimates a few hundred thousand dollars a
+[01:47.68] year for guidance.
+[01:49.32] That is separate from future campaign programs, whose costs
+[01:53.20] depend on later decisions and could be significant.
+[01:56.86] A voter favoring reform might say: I want candidates
+[01:59.94] with community support to compete, even without wealthy backers.
+[02:05.10] Supporters hope matching donations would make ordinary residents more
+[02:09.34] important to fundraising.
+[02:11.24] Voting yes gives governments that option,
+[02:13.84] subject to rules.
+[02:15.44] It does not guarantee less donor influence.
+[02:18.62] Another voter might ask: should taxpayers pay for political
+[02:21.34] campaigns?
+[02:23.06] They may dislike funding candidates they oppose, or prefer
+[02:26.18] other uses for public money.
+[02:28.88] The measure leaves future program budgets and many details
+[02:32.84] undecided.
+[02:34.24] Public financing also does not eliminate private political spending.
+[02:38.54] A no vote keeps the general ban and existing
+[02:41.32] exceptions.
+[02:43.24] What do polls show?
+[02:44.76] In early September, PPIC found forty-two percent
+[02:47.64] yes, fifty-three percent
+[02:49.62] no, and five percent unsure among likely voters.
+[02:53.20] A later September Berkeley poll found thirty-five percent
+[02:56.04] yes, thirty-five percent
+[02:57.56] no, and thirty percent
+[02:58.98] undecided.
+[03:00.26] These are different surveys, not a clean trend or
+[03:03.68] an election forecast.
+[03:05.80] The choice is whether to allow future public campaign
+[03:08.38] financing programs, with potential benefits and public costs.
+[03:13.64] Visit our website for the fuller explanation,
+[03:16.04] sources, and official voter guide.
+[03:19.02] Then make your own informed choice.
