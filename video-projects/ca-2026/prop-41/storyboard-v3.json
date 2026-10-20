@@ -1,0 +1,428 @@
+{
+  "number": 41,
+  "version": 2,
+  "title": "Tax audits and spending limits: more than an oversight measure",
+  "voice": "am_michael",
+  "speed": 1.04,
+  "checked": "2026-10-19",
+  "sections": [
+    {
+      "name": "The big picture",
+      "shots": [
+        {
+          "narration": "Proposition forty-one combines audits with changes to state spending-limit rules. A special tax dedicates its money to a particular purpose, unlike revenue that can be used generally. The measure concerns new or increased state special taxes.",
+          "headline": "What is a special tax?",
+          "kind": "flow",
+          "items": [
+            "Dedicated tax revenue",
+            "Specified program"
+          ]
+        },
+        {
+          "narration": "California already has an independent state auditor and a constitutional spending limit. This proposal adds reviews at particular stages and could restrict the ability to exempt new special-tax spending from that limit.",
+          "headline": "Two parts of the proposal",
+          "kind": "cards",
+          "items": [
+            "New audit requirements",
+            "Restrictions on spending-limit exclusions"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "An illustrative example",
+      "shots": [
+        {
+          "narration": "Imagine a program manager proposing a dedicated funding measure.",
+          "headline": "Before a new tax reaches voters",
+          "kind": "art",
+          "items": [
+            0
+          ]
+        },
+        {
+          "narration": "Suppose a citizen initiative proposes a new tax for a public program. After supporters collect a quarter of the required signatures, the auditor would review the program, even though the initiative might never qualify.",
+          "headline": "Review starts before ballot qualification",
+          "kind": "flow",
+          "items": [
+            "25% of signatures collected",
+            "Program audit",
+            "May or may not qualify"
+          ]
+        },
+        {
+          "narration": "An auditor examines how the program uses its money.",
+          "headline": "Information before a funding decision",
+          "kind": "art",
+          "items": [
+            1
+          ]
+        },
+        {
+          "narration": "If the initiative reaches the ballot, voters receive an audit summary in the voter guide. That could provide useful information, but producing the review still takes staff and money.",
+          "headline": "An additional source of voter information",
+          "kind": "flow",
+          "items": [
+            "Audit findings",
+            "Voter-guide summary",
+            "Voters decide"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "How it would work",
+      "shots": [
+        {
+          "narration": "The initial audit must identify ways to reduce annual program costs by ten percent. Identifying options is not the same as delivering savings or proving that services can stay unchanged.",
+          "headline": "A recommendation is not a guaranteed saving",
+          "kind": "cards",
+          "items": [
+            "Identify 10% cost-reduction options",
+            "Implementation and service effects still matter"
+          ]
+        },
+        {
+          "narration": "Programs funded by new or increased special taxes approved after January first, twenty twenty-six, would also face recurring audits every four years. Approved taxes generally fund the audits; unsuccessful initiatives can leave costs to the General Fund.",
+          "headline": "Who pays for the reviews?",
+          "kind": "cards",
+          "items": [
+            "Recurring audits every 4 years",
+            "Approved tax revenue generally pays",
+            "Failed initiatives: General Fund exposure"
+          ]
+        },
+        {
+          "narration": "The analyst expects audit costs in the low millions annually, growing over time, plus voter-guide expenses. Savings depend on decisions to implement effective recommendations, so the overall fiscal result is unknown.",
+          "headline": "Costs are estimated; net savings are not",
+          "kind": "cards",
+          "items": [
+            "Audit costs: low millions/year, growing",
+            "Printing and mailing costs too",
+            "Net fiscal effect unknown"
+          ]
+        },
+        {
+          "narration": "The spending-limit provisions are a separate issue. Prop forty-one could block Prop forty if both pass and forty-one receives more yes votes, subject to how courts interpret their conflict.",
+          "headline": "The connection to Prop 40",
+          "kind": "flow",
+          "items": [
+            "Both measures pass",
+            "Compare YES votes",
+            "Potential conflict decided legally"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote yes",
+      "shots": [
+        {
+          "narration": "A voter might want evidence of efficiency before approving new dedicated taxes, and regular follow-up afterward. They may also prefer keeping new revenue within spending constraints. Those are two distinct reasons to consider, rather than assuming audits are the entire measure.",
+          "headline": "The case for YES",
+          "kind": "cards",
+          "items": [
+            "More information and recurring review",
+            "Maintain spending constraints"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote no",
+      "shots": [
+        {
+          "narration": "You might ask whether extra reviews justify their cost.",
+          "headline": "Your question: oversight or added constraints?",
+          "kind": "art",
+          "items": [
+            2
+          ]
+        },
+        {
+          "narration": "Another voter could favor oversight but object to mandatory reviews of measures that never qualify, or to limits on funding flexibility. They may also oppose the effect on Prop forty. An audit requirement does not automatically mean waste is eliminated.",
+          "headline": "The case for NO",
+          "kind": "cards",
+          "items": [
+            "Costs even for unsuccessful initiatives",
+            "Limits on future funding choices",
+            "Consider the Prop 40 interaction"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "What polling indicates",
+      "shots": [
+        {
+          "narration": "In the September PPIC survey of likely voters, 51 percent said yes, 44 percent no, and 5 percent were unsure. These are dated survey results, not votes already cast.",
+          "headline": "September snapshot: PPIC",
+          "kind": "poll",
+          "items": [
+            51,
+            44,
+            5
+          ],
+          "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points"
+        },
+        {
+          "narration": "A later September Berkeley survey found 37 percent yes, 33 percent no, and 30 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend.",
+          "headline": "September snapshot: Berkeley IGS",
+          "kind": "poll",
+          "items": [
+            37,
+            33,
+            30
+          ],
+          "poll_note": "Berkeley IGS · Sept 15–20, 2026 · likely voters · about ±2 points"
+        }
+      ]
+    },
+    {
+      "name": "Make your own decision",
+      "shots": [
+        {
+          "narration": "Yes adds audits and spending-limit provisions; no keeps the current framework. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+          "headline": "Explore the full explanation",
+          "kind": "cta",
+          "items": [
+            "educational-explainers.github.io",
+            "/ca-2026-ballot/"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=41&year=2026",
+      "use": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026."
+    },
+    {
+      "url": "https://voterguide.sos.ca.gov/propositions/41/",
+      "use": "Official voter guide, measure text and attributed campaign arguments."
+    },
+    {
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "use": "September likely-voter results, original published values retained including rounding."
+    },
+    {
+      "url": "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf",
+      "use": "September 25 release; original previously verified in repository polling fact check. Current PDF fetch rate-limited; release listing checked October19."
+    }
+  ],
+  "polling_note": "Selected verified surveys available at the October 19 research check; dates shown explicitly. Not a polling average or forecast. Rounded percentages may total 99 or 101. Other polls may differ.",
+  "editorial_note": "Illustrative characters and calculations are not real testimonials or guaranteed outcomes. Voter considerations describe reasons for either choice, not recommendations.",
+  "shots": [
+    {
+      "narration": "Proposition forty-one combines audits with changes to state spending-limit rules. A special tax dedicates its money to a particular purpose, unlike revenue that can be used generally. The measure concerns new or increased state special taxes.",
+      "headline": "What is a special tax?",
+      "kind": "flow",
+      "items": [
+        "Dedicated tax revenue",
+        "Specified program"
+      ],
+      "frames": 478,
+      "start_frame": 0,
+      "section": "The big picture"
+    },
+    {
+      "narration": "California already has an independent state auditor and a constitutional spending limit. This proposal adds reviews at particular stages and could restrict the ability to exempt new special-tax spending from that limit.",
+      "headline": "Two parts of the proposal",
+      "kind": "cards",
+      "items": [
+        "New audit requirements",
+        "Restrictions on spending-limit exclusions"
+      ],
+      "frames": 406,
+      "start_frame": 478,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Imagine a program manager proposing a dedicated funding measure.",
+      "headline": "Before a new tax reaches voters",
+      "kind": "art",
+      "items": [
+        0
+      ],
+      "frames": 141,
+      "start_frame": 884,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "Suppose a citizen initiative proposes a new tax for a public program. After supporters collect a quarter of the required signatures, the auditor would review the program, even though the initiative might never qualify.",
+      "headline": "Review starts before ballot qualification",
+      "kind": "flow",
+      "items": [
+        "25% of signatures collected",
+        "Program audit",
+        "May or may not qualify"
+      ],
+      "frames": 441,
+      "start_frame": 1025,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "An auditor examines how the program uses its money.",
+      "headline": "Information before a funding decision",
+      "kind": "art",
+      "items": [
+        1
+      ],
+      "frames": 111,
+      "start_frame": 1466,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "If the initiative reaches the ballot, voters receive an audit summary in the voter guide. That could provide useful information, but producing the review still takes staff and money.",
+      "headline": "An additional source of voter information",
+      "kind": "flow",
+      "items": [
+        "Audit findings",
+        "Voter-guide summary",
+        "Voters decide"
+      ],
+      "frames": 347,
+      "start_frame": 1577,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "The initial audit must identify ways to reduce annual program costs by ten percent. Identifying options is not the same as delivering savings or proving that services can stay unchanged.",
+      "headline": "A recommendation is not a guaranteed saving",
+      "kind": "cards",
+      "items": [
+        "Identify 10% cost-reduction options",
+        "Implementation and service effects still matter"
+      ],
+      "frames": 382,
+      "start_frame": 1924,
+      "section": "How it would work"
+    },
+    {
+      "narration": "Programs funded by new or increased special taxes approved after January first, twenty twenty-six, would also face recurring audits every four years. Approved taxes generally fund the audits; unsuccessful initiatives can leave costs to the General Fund.",
+      "headline": "Who pays for the reviews?",
+      "kind": "cards",
+      "items": [
+        "Recurring audits every 4 years",
+        "Approved tax revenue generally pays",
+        "Failed initiatives: General Fund exposure"
+      ],
+      "frames": 491,
+      "start_frame": 2306,
+      "section": "How it would work"
+    },
+    {
+      "narration": "The analyst expects audit costs in the low millions annually, growing over time, plus voter-guide expenses. Savings depend on decisions to implement effective recommendations, so the overall fiscal result is unknown.",
+      "headline": "Costs are estimated; net savings are not",
+      "kind": "cards",
+      "items": [
+        "Audit costs: low millions/year, growing",
+        "Printing and mailing costs too",
+        "Net fiscal effect unknown"
+      ],
+      "frames": 462,
+      "start_frame": 2797,
+      "section": "How it would work"
+    },
+    {
+      "narration": "The spending-limit provisions are a separate issue. Prop forty-one could block Prop forty if both pass and forty-one receives more yes votes, subject to how courts interpret their conflict.",
+      "headline": "The connection to Prop 40",
+      "kind": "flow",
+      "items": [
+        "Both measures pass",
+        "Compare YES votes",
+        "Potential conflict decided legally"
+      ],
+      "frames": 363,
+      "start_frame": 3259,
+      "section": "How it would work"
+    },
+    {
+      "narration": "A voter might want evidence of efficiency before approving new dedicated taxes, and regular follow-up afterward. They may also prefer keeping new revenue within spending constraints. Those are two distinct reasons to consider, rather than assuming audits are the entire measure.",
+      "headline": "The case for YES",
+      "kind": "cards",
+      "items": [
+        "More information and recurring review",
+        "Maintain spending constraints"
+      ],
+      "frames": 550,
+      "start_frame": 3622,
+      "section": "Why someone might vote yes"
+    },
+    {
+      "narration": "You might ask whether extra reviews justify their cost.",
+      "headline": "Your question: oversight or added constraints?",
+      "kind": "art",
+      "items": [
+        2
+      ],
+      "frames": 129,
+      "start_frame": 4172,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "Another voter could favor oversight but object to mandatory reviews of measures that never qualify, or to limits on funding flexibility. They may also oppose the effect on Prop forty. An audit requirement does not automatically mean waste is eliminated.",
+      "headline": "The case for NO",
+      "kind": "cards",
+      "items": [
+        "Costs even for unsuccessful initiatives",
+        "Limits on future funding choices",
+        "Consider the Prop 40 interaction"
+      ],
+      "frames": 523,
+      "start_frame": 4301,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "In the September PPIC survey of likely voters, 51 percent said yes, 44 percent no, and 5 percent were unsure. These are dated survey results, not votes already cast.",
+      "headline": "September snapshot: PPIC",
+      "kind": "poll",
+      "items": [
+        51,
+        44,
+        5
+      ],
+      "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points",
+      "frames": 382,
+      "start_frame": 4824,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "A later September Berkeley survey found 37 percent yes, 33 percent no, and 30 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend.",
+      "headline": "September snapshot: Berkeley IGS",
+      "kind": "poll",
+      "items": [
+        37,
+        33,
+        30
+      ],
+      "poll_note": "Berkeley IGS · Sept 15–20, 2026 · likely voters · about ±2 points",
+      "frames": 426,
+      "start_frame": 5206,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "Yes adds audits and spending-limit provisions; no keeps the current framework. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+      "headline": "Explore the full explanation",
+      "kind": "cta",
+      "items": [
+        "educational-explainers.github.io",
+        "/ca-2026-ballot/"
+      ],
+      "frames": 447,
+      "start_frame": 5632,
+      "section": "Make your own decision"
+    }
+  ],
+  "frames": 6079,
+  "seconds": 202.63333333333333,
+  "alignment": [
+    0.9705882352941176,
+    1.0,
+    0.9606299212598425,
+    1.0,
+    1.0,
+    1.0,
+    0.9696969696969697
+  ]
+}

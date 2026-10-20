@@ -1,0 +1,1250 @@
+{
+  "schema_version": 1,
+  "number": 2,
+  "title": "Prop 2 \u2014 Rainy-day reserves: save more, or spend now?",
+  "fps": 30,
+  "frames": 5252,
+  "checked": "2026-10-19",
+  "narration": "asset://225ac463733d98bf09858a9ab1ea50ce39324163db9879146610b225faa5f87e.wav",
+  "prompter_words": "words-global.json",
+  "script": [
+    {
+      "name": "The big picture",
+      "narration": "Proposition two changes how California saves for bad budget years. State revenue depends heavily on income taxes, including investment gains, so a falling stock market can leave a large hole in the budget. The rainy-day fund is a reserve account, not a new tax. Current rules stop requiring additional deposits when that account reaches ten percent of General Fund tax revenues. Proposition two raises that threshold to twenty percent and requires more saving in particularly strong investment-tax years. It changes the rules over time; it does not instantly double the money already saved."
+    },
+    {
+      "name": "An illustrative example",
+      "narration": "Imagine a school manager planning through an economic downturn. Think of a household that saves when overtime pay is high. If those hours disappear, savings can cover bills. A state reserve serves a similar purpose, although public budgets and legal rules are more complicated. Public services need budgets that can weather weak years."
+    },
+    {
+      "name": "How it would work",
+      "narration": "For illustration, ten percent of one hundred dollars is ten dollars; twenty percent is twenty. The higher threshold creates room for a larger required cushion, not a requirement to put away twenty percent every year. The measure also extends required extra debt payments from twenty thirty through twenty forty, and expands the debts those payments can address. These are extra payments beyond ordinary repayment schedules. Deposits would generally count against the state spending limit when withdrawn rather than when saved. Emergency rules still allow deposits to stop or reserves to be used. The analyst expects higher reserves, without a fixed dollar forecast."
+    },
+    {
+      "name": "Why someone might vote yes",
+      "narration": "A voter might prefer a stronger buffer against service cuts, emergency borrowing, or tax increases during a downturn. Paying debt earlier can also reduce future interest. The appeal is more resilience when revenue is unpredictable."
+    },
+    {
+      "name": "Why someone might vote no",
+      "narration": "You might ask what saving more leaves unfunded today. Another voter could prioritize services or infrastructure now. Saving more means less available for current uses, and changing spending-limit treatment can affect when excess revenue must be returned or allocated. A larger reserve also cannot eliminate every recession shortfall."
+    },
+    {
+      "name": "What polling indicates",
+      "narration": "In the September PPIC survey of likely voters, 60 percent said yes, 39 percent no, and 1 percent were unsure. These are dated survey results, not votes already cast."
+    },
+    {
+      "name": "Make your own decision",
+      "narration": "Yes changes reserve and extra-debt-payment rules; no keeps the current rules. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026.",
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=2&year=2026"
+    },
+    {
+      "name": "Official voter guide, measure text and attributed campaign arguments.",
+      "url": "https://voterguide.sos.ca.gov/propositions/2/"
+    },
+    {
+      "name": "September likely-voter results, original published values retained including rounding.",
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+    }
+  ],
+  "label": "CALIFORNIA 2026 \u00b7 PROP 2",
+  "assets": {
+    "hand": {
+      "path": "asset://ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2.png",
+      "tip": [
+        250,
+        914
+      ]
+    },
+    "family": {
+      "path": "asset://e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab.png"
+    },
+    "construction": {
+      "path": "asset://8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180.png"
+    },
+    "voter": {
+      "path": "asset://1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811.png"
+    },
+    "civic": {
+      "path": "asset://c2186d3e777807fdaccd6fc733505c06dbb57b5e65a5f73c623c062b2e44f7b3.png"
+    },
+    "budget": {
+      "path": "asset://968ff95a8953ed11fa53fba6f2852c0ae49f38108028b1a646b0869ebfcc7035.png"
+    },
+    "medical": {
+      "path": "asset://bf2d9b60f1657fc723a75dac2aa58b843ed0dfc4b1ce721fe8c64e7aa27099df.png"
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "title": "Why a rainy-day fund?",
+      "chapter": "The big picture",
+      "start_frame": 0,
+      "frames": 448,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Why a rainy-day fund?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Strong revenues",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 4.611111111111111,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Save some money",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 5.111111111111111,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 8.922222222222222,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Use it in a downturn",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 9.422222222222222,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "Proposition 2 changes how California"
+      }
+    },
+    {
+      "id": "02",
+      "title": "The current savings threshold",
+      "chapter": "The big picture",
+      "start_frame": 448,
+      "frames": 364,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The current savings threshold",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            215,
+            380,
+            360
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Current threshold: 10%",
+          "x": 475,
+          "y": 200,
+          "size": 25,
+          "width": 710,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            475,
+            266,
+            710,
+            25
+          ],
+          "value": 10.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Proposed threshold: 20%",
+          "x": 475,
+          "y": 312,
+          "size": 25,
+          "width": 710,
+          "at": 5.066666666666666,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            475,
+            378,
+            710,
+            25
+          ],
+          "value": 20.0,
+          "maximum": 100,
+          "color": "blue",
+          "at": 5.466666666666667,
+          "duration": 0.9
+        }
+      ],
+      "anchor": {
+        "phrase": "The rainy day fund is"
+      }
+    },
+    {
+      "id": "03",
+      "title": "What would change?",
+      "chapter": "The big picture",
+      "start_frame": 812,
+      "frames": 437,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What would change?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Keep required deposits going longer",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Larger deposits in some strong years",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 6.633333333333333,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 7.133333333333333,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Proposition 2 raises that threshold"
+      }
+    },
+    {
+      "id": "04",
+      "title": "Planning when revenue falls",
+      "chapter": "An illustrative example",
+      "start_frame": 1249,
+      "frames": 132,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Planning when revenue falls",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "Imagine a school manager planning"
+      }
+    },
+    {
+      "id": "05",
+      "title": "A cushion against a revenue drop",
+      "chapter": "An illustrative example",
+      "start_frame": 1381,
+      "frames": 455,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "A cushion against a revenue drop",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Income rises",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "home",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 4.688888888888888,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Build a cushion",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 5.188888888888888,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 9.077777777777778,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Income falls",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 9.577777777777778,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "Think of a household that"
+      }
+    },
+    {
+      "id": "06",
+      "title": "Services depend on stable funding",
+      "chapter": "An illustrative example",
+      "start_frame": 1836,
+      "frames": 105,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Services depend on stable funding",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "Public services need budgets that"
+      }
+    },
+    {
+      "id": "07",
+      "title": "A threshold is not an annual deposit",
+      "chapter": "How it would work",
+      "start_frame": 1941,
+      "frames": 433,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "A threshold is not an annual deposit",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            215,
+            380,
+            360
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "$10 threshold per $100 taxes",
+          "x": 475,
+          "y": 200,
+          "size": 25,
+          "width": 710,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            475,
+            266,
+            710,
+            25
+          ],
+          "value": 10.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "$20 threshold per $100 taxes",
+          "x": 475,
+          "y": 312,
+          "size": 25,
+          "width": 710,
+          "at": 6.216666666666667,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            475,
+            378,
+            710,
+            25
+          ],
+          "value": 20.0,
+          "maximum": 100,
+          "color": "blue",
+          "at": 6.616666666666667,
+          "duration": 0.9
+        }
+      ],
+      "anchor": {
+        "phrase": "For illustration, 10 % of"
+      }
+    },
+    {
+      "id": "08",
+      "title": "Ten more years of extra debt payments",
+      "chapter": "How it would work",
+      "start_frame": 2374,
+      "frames": 384,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Ten more years of extra debt payments",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "calendar",
+          "x": 315.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Current requirement ends 2030",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 500,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "calendar",
+          "x": 855.0,
+          "y": 240,
+          "size": 110,
+          "at": 5.7,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Proposed end: 2040",
+          "x": 640.0,
+          "y": 410,
+          "size": 25,
+          "width": 500,
+          "at": 6.2,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "The measure also extends required"
+      }
+    },
+    {
+      "id": "09",
+      "title": "Rules matter as much as the balance",
+      "chapter": "How it would work",
+      "start_frame": 2758,
+      "frames": 484,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Rules matter as much as the balance",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Count affected savings when withdrawn",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                288
+              ],
+              [
+                1170,
+                288
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Emergency access remains",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 5.061111111111111,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 5.561111111111111,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "No fixed dollar forecast",
+          "x": 680,
+          "y": 464,
+          "size": 28,
+          "width": 530,
+          "at": 9.772222222222222,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                515
+              ],
+              [
+                1170,
+                515
+              ]
+            ]
+          ],
+          "at": 10.272222222222222,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Deposits would generally count against"
+      }
+    },
+    {
+      "id": "10",
+      "title": "The case for YES",
+      "chapter": "Why someone might vote yes",
+      "start_frame": 3242,
+      "frames": 500,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The case for YES",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Cushion future downturns",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Reduce long-term debt burdens",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 7.683333333333334,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 8.183333333333334,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "A voter might prefer a"
+      }
+    },
+    {
+      "id": "11",
+      "title": "Your question: what is the tradeoff?",
+      "chapter": "Why someone might vote no",
+      "start_frame": 3742,
+      "frames": 122,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Your question: what is the tradeoff?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "You might ask what saving"
+      }
+    },
+    {
+      "id": "12",
+      "title": "The case for NO",
+      "chapter": "Why someone might vote no",
+      "start_frame": 3864,
+      "frames": 547,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The case for NO",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Less available for current priorities",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Changes spending-limit treatment",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 5.761111111111111,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 6.261111111111111,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "A cushion has limits",
+          "x": 680,
+          "y": 464,
+          "size": 28,
+          "width": 530,
+          "at": 11.172222222222222,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                515
+              ],
+              [
+                1170,
+                515
+              ]
+            ]
+          ],
+          "at": 11.672222222222222,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Another voter could prioritize services"
+      }
+    },
+    {
+      "id": "13",
+      "title": "September snapshot: PPIC",
+      "chapter": "What polling indicates",
+      "start_frame": 4411,
+      "frames": 394,
+      "source": "PPIC \u00b7 Sept 4\u201310, 2026 \u00b7 likely voters \u00b7 \u00b13.8 points",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "September snapshot: PPIC",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "text",
+          "text": "YES \u00b7 60%",
+          "x": 100,
+          "y": 200,
+          "size": 25,
+          "width": 1080,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            266,
+            1080,
+            25
+          ],
+          "value": 60.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "NO \u00b7 39%",
+          "x": 100,
+          "y": 312,
+          "size": 25,
+          "width": 1080,
+          "at": 3.8777777777777778,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            378,
+            1080,
+            25
+          ],
+          "value": 39.0,
+          "maximum": 100,
+          "color": "coral",
+          "at": 4.277777777777778,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "UNDECIDED \u00b7 1%",
+          "x": 100,
+          "y": 424,
+          "size": 25,
+          "width": 1080,
+          "at": 7.2555555555555555,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            490,
+            1080,
+            25
+          ],
+          "value": 1.0,
+          "maximum": 100,
+          "color": "gold",
+          "at": 7.655555555555556,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Dated survey snapshot, not votes cast. Rounded figures may not total 100%.",
+          "x": 100,
+          "y": 570,
+          "size": 21,
+          "width": 1080,
+          "at": 8,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "In the September PPIC survey"
+      }
+    },
+    {
+      "id": "14",
+      "title": "Explore the full explanation",
+      "chapter": "Make your own decision",
+      "start_frame": 4805,
+      "frames": 447,
+      "source": "Visit the website and official voter guide before making your decision",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Explore the full explanation",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            50,
+            200,
+            540,
+            400
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Read the explanation and sources",
+          "x": 650,
+          "y": 205,
+          "size": 28,
+          "width": 560,
+          "at": 0.2,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "Compare the trade-offs",
+          "x": 650,
+          "y": 315,
+          "size": 28,
+          "width": 560,
+          "at": 2,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                650,
+                380
+              ],
+              [
+                1170,
+                380
+              ]
+            ]
+          ],
+          "at": 3,
+          "duration": 1,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "educational-explainers.github.io",
+          "x": 600,
+          "y": 455,
+          "size": 25,
+          "width": 650,
+          "at": 1,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "/ca-2026-ballot/",
+          "x": 600,
+          "y": 505,
+          "size": 29,
+          "width": 650,
+          "at": 1,
+          "duration": 0.45,
+          "color": "teal"
+        }
+      ],
+      "anchor": {
+        "phrase": "Yes changes reserve and extra"
+      }
+    }
+  ],
+  "pencil_gain_db": 16,
+  "captions_srt": "captions.srt",
+  "captions_vtt": "captions.vtt"
+}

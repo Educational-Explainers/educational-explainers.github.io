@@ -1,0 +1,1253 @@
+{
+  "schema_version": 1,
+  "number": 5,
+  "title": "Prop 5 \u2014 Recall elections: who replaces a removed official?",
+  "fps": 30,
+  "frames": 5170,
+  "checked": "2026-10-19",
+  "narration": "asset://4c086ff98dcb243b58be74a1a22700a99265b099b2411edf57aaa2c7be4e6fdf.wav",
+  "prompter_words": "words-global.json",
+  "script": [
+    {
+      "name": "The big picture",
+      "narration": "A recall lets voters remove an elected official before the term ends. Proposition five changes what happens next. It does not eliminate the power to recall state officials. Today, a state recall ballot normally asks two questions: whether to remove the official, and who should replace them. If removal wins, the replacement candidate with the most votes takes office. Proposition five removes the replacement question. The office would be filled through succession, appointment, or a separate election, depending on the office and when the recall happens."
+    },
+    {
+      "name": "An illustrative example",
+      "narration": "Imagine opening a ballot during a recall election. In a hypothetical crowded replacement contest, one candidate could lead with thirty votes out of a hundred. Winning the most votes is different from winning a majority. That is one concern motivating the change. Election staff would explain a different replacement process."
+    },
+    {
+      "name": "How it would work",
+      "narration": "If a legislator is recalled, a special election would generally fill the seat. Vacancies in most other state offices would be filled by gubernatorial appointment. So a separate replacement vote is not guaranteed for every office. For the governor, the lieutenant governor would take over. If the recall happens early enough, before the specified nomination deadline in the first two years, voters elect a new governor at a later statewide election. Otherwise, the lieutenant governor completes the term. Costs could rise if an additional special election is needed, or fall when replacement-candidate materials disappear. The analyst says the net effect is unknown, with possible costs or savings of millions per recall."
+    },
+    {
+      "name": "Why someone might vote yes",
+      "narration": "A voter might want removal considered on its own, rather than as a shortcut for a candidate with limited support. Familiar vacancy procedures could make succession more predictable. That does not mean every replacement would be elected in a new majority vote."
+    },
+    {
+      "name": "Why someone might vote no",
+      "narration": "You might want to choose the replacement yourself, immediately. Another voter could object to giving appointments or automatic succession a larger role. They may prefer seeing the alternatives on the same ballot, and worry that a later election leaves them waiting. These are choices about accountability, not just administrative convenience."
+    },
+    {
+      "name": "What polling indicates",
+      "narration": "In the September PPIC survey of likely voters, 35 percent said yes, 59 percent no, and 5 percent were unsure. These are dated survey results, not votes already cast."
+    },
+    {
+      "name": "Make your own decision",
+      "narration": "Yes changes the replacement process; no keeps the replacement question on recall ballots. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026.",
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=5&year=2026"
+    },
+    {
+      "name": "Official voter guide, measure text and attributed campaign arguments.",
+      "url": "https://voterguide.sos.ca.gov/propositions/5/"
+    },
+    {
+      "name": "September likely-voter results, original published values retained including rounding.",
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+    }
+  ],
+  "label": "CALIFORNIA 2026 \u00b7 PROP 5",
+  "assets": {
+    "hand": {
+      "path": "asset://ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2.png",
+      "tip": [
+        250,
+        914
+      ]
+    },
+    "family": {
+      "path": "asset://e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab.png"
+    },
+    "construction": {
+      "path": "asset://8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180.png"
+    },
+    "voter": {
+      "path": "asset://1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811.png"
+    },
+    "civic": {
+      "path": "asset://c2186d3e777807fdaccd6fc733505c06dbb57b5e65a5f73c623c062b2e44f7b3.png"
+    },
+    "budget": {
+      "path": "asset://968ff95a8953ed11fa53fba6f2852c0ae49f38108028b1a646b0869ebfcc7035.png"
+    },
+    "medical": {
+      "path": "asset://bf2d9b60f1657fc723a75dac2aa58b843ed0dfc4b1ce721fe8c64e7aa27099df.png"
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "title": "Removal and replacement are different decisions",
+      "chapter": "The big picture",
+      "start_frame": 0,
+      "frames": 355,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Removal and replacement are different decisions",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Recall petition",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 3.577777777777778,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Removal vote",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 4.0777777777777775,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 6.855555555555556,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Who takes over?",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 7.355555555555556,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "A recall lets voters remove"
+      }
+    },
+    {
+      "id": "02",
+      "title": "Today: two questions on one ballot",
+      "chapter": "The big picture",
+      "start_frame": 355,
+      "frames": 391,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Today: two questions on one ballot",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "1. Remove the official?",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "2. Choose a replacement",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 5.866666666666666,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 6.366666666666666,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Today, a state recall ballot"
+      }
+    },
+    {
+      "id": "03",
+      "title": "Proposed: one recall question",
+      "chapter": "The big picture",
+      "start_frame": 746,
+      "frames": 358,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Proposed: one recall question",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Remove the official?",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 3.611111111111111,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Vacancy rules",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 4.111111111111111,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 6.9222222222222225,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Replacement",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 7.4222222222222225,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "Proposition 5 removes the replacement"
+      }
+    },
+    {
+      "id": "04",
+      "title": "What would you be asked?",
+      "chapter": "An illustrative example",
+      "start_frame": 1104,
+      "frames": 112,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What would you be asked?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "Imagine opening a ballot during"
+      }
+    },
+    {
+      "id": "05",
+      "title": "Most votes need not mean a majority",
+      "chapter": "An illustrative example",
+      "start_frame": 1216,
+      "frames": 415,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Most votes need not mean a majority",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            55,
+            215,
+            380,
+            360
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Example leading candidate: 30%",
+          "x": 475,
+          "y": 200,
+          "size": 25,
+          "width": 710,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            475,
+            266,
+            710,
+            25
+          ],
+          "value": 30.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Majority requires more than 50%",
+          "x": 475,
+          "y": 312,
+          "size": 25,
+          "width": 710,
+          "at": 5.916666666666667,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            475,
+            378,
+            710,
+            25
+          ],
+          "value": 50.0,
+          "maximum": 100,
+          "color": "blue",
+          "at": 6.316666666666667,
+          "duration": 0.9
+        }
+      ],
+      "anchor": {
+        "phrase": "In a hypothetical crowded replacement"
+      }
+    },
+    {
+      "id": "06",
+      "title": "The next step depends on the office",
+      "chapter": "An illustrative example",
+      "start_frame": 1631,
+      "frames": 105,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The next step depends on the office",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "Election staff would explain a"
+      }
+    },
+    {
+      "id": "07",
+      "title": "Different offices, different routes",
+      "chapter": "How it would work",
+      "start_frame": 1736,
+      "frames": 464,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Different offices, different routes",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Legislature: generally a special election",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                288
+              ],
+              [
+                1170,
+                288
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Most other offices: appointment",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 7.083333333333333,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 7.583333333333333,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "If a legislator is recalled,"
+      }
+    },
+    {
+      "id": "08",
+      "title": "The governor has a timing rule",
+      "chapter": "How it would work",
+      "start_frame": 2200,
+      "frames": 493,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The governor has a timing rule",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Lieutenant governor takes over",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "calendar",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 5.111111111111111,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Early enough: later election",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 5.611111111111111,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 9.922222222222222,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Otherwise: rest of term",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 10.422222222222222,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "For the governor, the lieutenant"
+      }
+    },
+    {
+      "id": "09",
+      "title": "Election costs can move either way",
+      "chapter": "How it would work",
+      "start_frame": 2693,
+      "frames": 428,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Election costs can move either way",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Extra election: possible costs",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Shorter ballot: possible savings",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 4.438888888888889,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 4.938888888888889,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Net effect depends on future recalls",
+          "x": 680,
+          "y": 464,
+          "size": 28,
+          "width": 530,
+          "at": 8.527777777777779,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                515
+              ],
+              [
+                1170,
+                515
+              ]
+            ]
+          ],
+          "at": 9.027777777777779,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Costs could rise if an"
+      }
+    },
+    {
+      "id": "10",
+      "title": "The case for YES",
+      "chapter": "Why someone might vote yes",
+      "start_frame": 3121,
+      "frames": 520,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The case for YES",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Separate removal from a crowded replacement race",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                288
+              ],
+              [
+                1170,
+                288
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Use defined succession procedures",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 8.016666666666666,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 8.516666666666666,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "A voter might want removal"
+      }
+    },
+    {
+      "id": "11",
+      "title": "Your question: who gets to choose?",
+      "chapter": "Why someone might vote no",
+      "start_frame": 3641,
+      "frames": 125,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Your question: who gets to choose?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "You might want to choose"
+      }
+    },
+    {
+      "id": "12",
+      "title": "The case for NO",
+      "chapter": "Why someone might vote no",
+      "start_frame": 3766,
+      "frames": 525,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The case for NO",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Keep the same-ballot replacement choice",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                288
+              ],
+              [
+                1170,
+                288
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Avoid more reliance on appointments",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 8.1,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 8.6,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Another voter could object to"
+      }
+    },
+    {
+      "id": "13",
+      "title": "September snapshot: PPIC",
+      "chapter": "What polling indicates",
+      "start_frame": 4291,
+      "frames": 406,
+      "source": "PPIC \u00b7 Sept 4\u201310, 2026 \u00b7 likely voters \u00b7 \u00b13.8 points",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "September snapshot: PPIC",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "text",
+          "text": "YES \u00b7 35%",
+          "x": 100,
+          "y": 200,
+          "size": 25,
+          "width": 1080,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            266,
+            1080,
+            25
+          ],
+          "value": 35.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "NO \u00b7 59%",
+          "x": 100,
+          "y": 312,
+          "size": 25,
+          "width": 1080,
+          "at": 4.011111111111111,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            378,
+            1080,
+            25
+          ],
+          "value": 59.0,
+          "maximum": 100,
+          "color": "coral",
+          "at": 4.411111111111111,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "UNDECIDED \u00b7 5%",
+          "x": 100,
+          "y": 424,
+          "size": 25,
+          "width": 1080,
+          "at": 7.522222222222222,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            490,
+            1080,
+            25
+          ],
+          "value": 5.0,
+          "maximum": 100,
+          "color": "gold",
+          "at": 7.9222222222222225,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Dated survey snapshot, not votes cast. Rounded figures may not total 100%.",
+          "x": 100,
+          "y": 570,
+          "size": 21,
+          "width": 1080,
+          "at": 8,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "In the September PPIC survey"
+      }
+    },
+    {
+      "id": "14",
+      "title": "Explore the full explanation",
+      "chapter": "Make your own decision",
+      "start_frame": 4697,
+      "frames": 473,
+      "source": "Visit the website and official voter guide before making your decision",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Explore the full explanation",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            50,
+            200,
+            540,
+            400
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Read the explanation and sources",
+          "x": 650,
+          "y": 205,
+          "size": 28,
+          "width": 560,
+          "at": 0.2,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "Compare the trade-offs",
+          "x": 650,
+          "y": 315,
+          "size": 28,
+          "width": 560,
+          "at": 2,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                650,
+                380
+              ],
+              [
+                1170,
+                380
+              ]
+            ]
+          ],
+          "at": 3,
+          "duration": 1,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "educational-explainers.github.io",
+          "x": 600,
+          "y": 455,
+          "size": 25,
+          "width": 650,
+          "at": 1,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "/ca-2026-ballot/",
+          "x": 600,
+          "y": 505,
+          "size": 29,
+          "width": 650,
+          "at": 1,
+          "duration": 0.45,
+          "color": "teal"
+        }
+      ],
+      "anchor": {
+        "phrase": "Yes changes the replacement process."
+      }
+    }
+  ],
+  "pencil_gain_db": 16,
+  "captions_srt": "captions.srt",
+  "captions_vtt": "captions.vtt"
+}

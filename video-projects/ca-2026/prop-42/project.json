@@ -1,0 +1,1435 @@
+{
+  "schema_version": 1,
+  "number": 42,
+  "title": "Prop 42 \u2014 Taxes on assets: what future options would be restricted?",
+  "fps": 30,
+  "frames": 5921,
+  "checked": "2026-10-19",
+  "narration": "asset://0c703a32abafb9355297fe578e96d03ce3b1b4c53a92fcd975ffd82801746bd1.wav",
+  "prompter_words": "words-global.json",
+  "script": [
+    {
+      "name": "The big picture",
+      "narration": "Proposition forty-two restricts certain future taxes. It focuses on owning personal property, including financial assets, and on taxes applied retroactively. Personal property here generally means assets other than real estate. California already taxes income from assets, such as investment gains, and some forms of personal property already have taxes. It generally does not tax simply owning stocks. The proposal is primarily about restricting new taxes, not issuing a refund."
+    },
+    {
+      "name": "An illustrative example",
+      "narration": "Imagine a business owner reviewing the value of company assets. Owning equipment or shares is different from earning a profit. A rule against a new ownership tax does not, by itself, eliminate income taxes on profits or every tax the owner already pays. A budget analyst considers future options for raising revenue."
+    },
+    {
+      "name": "How it would work",
+      "narration": "The measure would prohibit new state taxes on ownership of financial assets and other personal property. It also limits certain retroactive taxes: taxes applied to activities or periods before the tax was adopted. For illustration, a tax enacted later but applied to income earned in an earlier period is retroactive. The measure\u2019s detailed rules determine what is prohibited; this is not a claim that every tax adjustment becomes impossible. The analyst does not attach a specific dollar saving or loss. Future revenue might rise less because some tax options would be unavailable. The effect depends on what lawmakers or voters would otherwise propose. Prop forty-two could also prevent Prop forty\u2019s wealth tax from taking effect if both pass and forty-two gets more yes votes. The conflict and its legal interpretation matter alongside the broader restrictions."
+    },
+    {
+      "name": "Why someone might vote yes",
+      "narration": "A voter might favor predictable rules for savings, investments, and business assets, or object to taxes that reach backward. They may also want to stop the proposed wealth tax. This is a choice about limiting government\u2019s future taxing authority."
+    },
+    {
+      "name": "Why someone might vote no",
+      "narration": "You might want future voters to retain more tax choices. Another voter could prefer deciding future tax proposals individually instead of restricting them in the constitution. They may want wealth-based revenue options during a funding shortfall, or support Prop forty. Keeping an option available does not mean every future tax must be adopted."
+    },
+    {
+      "name": "What polling indicates",
+      "narration": "In the September PPIC survey of likely voters, 54 percent said yes, 43 percent no, and 4 percent were unsure. These are dated survey results, not votes already cast. A later September Berkeley survey found 43 percent yes, 34 percent no, and 23 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend."
+    },
+    {
+      "name": "Make your own decision",
+      "narration": "Yes imposes the new limits; no retains the state\u2019s current options without itself creating a new tax. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026.",
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=42&year=2026"
+    },
+    {
+      "name": "Official voter guide, measure text and attributed campaign arguments.",
+      "url": "https://voterguide.sos.ca.gov/propositions/42/"
+    },
+    {
+      "name": "September likely-voter results, original published values retained including rounding.",
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+    },
+    {
+      "name": "September 25 release; original previously verified in repository polling fact check. Current PDF fetch rate-limited; release listing checked October19.",
+      "url": "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf"
+    }
+  ],
+  "label": "CALIFORNIA 2026 \u00b7 PROP 42",
+  "assets": {
+    "hand": {
+      "path": "asset://ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2.png",
+      "tip": [
+        250,
+        914
+      ]
+    },
+    "family": {
+      "path": "asset://e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab.png"
+    },
+    "construction": {
+      "path": "asset://8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180.png"
+    },
+    "voter": {
+      "path": "asset://1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811.png"
+    },
+    "civic": {
+      "path": "asset://c2186d3e777807fdaccd6fc733505c06dbb57b5e65a5f73c623c062b2e44f7b3.png"
+    },
+    "budget": {
+      "path": "asset://968ff95a8953ed11fa53fba6f2852c0ae49f38108028b1a646b0869ebfcc7035.png"
+    },
+    "medical": {
+      "path": "asset://bf2d9b60f1657fc723a75dac2aa58b843ed0dfc4b1ce721fe8c64e7aa27099df.png"
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "title": "Personal property is more than household belongings",
+      "chapter": "The big picture",
+      "start_frame": 0,
+      "frames": 509,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Personal property is more than household belongings",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Financial assets and other personal property",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                288
+              ],
+              [
+                1170,
+                288
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Different from real estate",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 7.833333333333332,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 8.333333333333332,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Proposition 42 restricts certain future"
+      }
+    },
+    {
+      "id": "02",
+      "title": "Owning an asset versus earning income",
+      "chapter": "The big picture",
+      "start_frame": 509,
+      "frames": 531,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Owning an asset versus earning income",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Own shares",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 5.533333333333333,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Receive income or sell at a gain",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 6.033333333333333,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 10.766666666666667,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Different kinds of tax",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 11.266666666666667,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "California already taxes income from"
+      }
+    },
+    {
+      "id": "03",
+      "title": "What counts as ownership?",
+      "chapter": "An illustrative example",
+      "start_frame": 1040,
+      "frames": 128,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What counts as ownership?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "Imagine a business owner reviewing"
+      }
+    },
+    {
+      "id": "04",
+      "title": "Keep the tax bases separate",
+      "chapter": "An illustrative example",
+      "start_frame": 1168,
+      "frames": 414,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Keep the tax bases separate",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Asset value: what is owned",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Income: what is earned",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 4.283333333333333,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 4.783333333333333,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Existing taxes do not simply vanish",
+          "x": 680,
+          "y": 464,
+          "size": 28,
+          "width": 530,
+          "at": 8.216666666666667,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                515
+              ],
+              [
+                1170,
+                515
+              ]
+            ]
+          ],
+          "at": 8.716666666666667,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Owning equipment or shares is"
+      }
+    },
+    {
+      "id": "05",
+      "title": "The proposal limits future choices",
+      "chapter": "An illustrative example",
+      "start_frame": 1582,
+      "frames": 127,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The proposal limits future choices",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "A budget analyst considers future"
+      }
+    },
+    {
+      "id": "06",
+      "title": "Two restrictions",
+      "chapter": "How it would work",
+      "start_frame": 1709,
+      "frames": 417,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Two restrictions",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "New personal-property ownership taxes",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                288
+              ],
+              [
+                1170,
+                288
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Certain retroactive state taxes",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 6.3,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 6.8,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "The measure would prohibit new"
+      }
+    },
+    {
+      "id": "07",
+      "title": "What does retroactive mean?",
+      "chapter": "How it would work",
+      "start_frame": 2126,
+      "frames": 461,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What does retroactive mean?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "calendar",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Earlier activity",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "calendar",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 4.7555555555555555,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Later tax law",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 5.2555555555555555,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 9.211111111111112,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Law reaches backward",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 9.711111111111112,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "For illustration, a tax enacted"
+      }
+    },
+    {
+      "id": "08",
+      "title": "No fixed fiscal amount",
+      "chapter": "How it would work",
+      "start_frame": 2587,
+      "frames": 407,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "No fixed fiscal amount",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Fewer future tax options",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Possible lower future revenue",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 4.205555555555556,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 4.705555555555556,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "No guaranteed household refund",
+          "x": 680,
+          "y": 464,
+          "size": 28,
+          "width": 530,
+          "at": 8.061111111111112,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                515
+              ],
+              [
+                1170,
+                515
+              ]
+            ]
+          ],
+          "at": 8.561111111111112,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "The analyst does not attach"
+      }
+    },
+    {
+      "id": "09",
+      "title": "The connection to Prop 40",
+      "chapter": "How it would work",
+      "start_frame": 2994,
+      "frames": 415,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The connection to Prop 40",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Both pass",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 4.2444444444444445,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Compare YES votes",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 4.7444444444444445,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 8.18888888888889,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Potential legal conflict",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 8.68888888888889,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "Prop 42 could also prevent"
+      }
+    },
+    {
+      "id": "10",
+      "title": "The case for YES",
+      "chapter": "Why someone might vote yes",
+      "start_frame": 3409,
+      "frames": 508,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The case for YES",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Predictability for asset owners",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Limits on retroactive taxation",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 7.816666666666666,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 8.316666666666666,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "A voter might favor predictable"
+      }
+    },
+    {
+      "id": "11",
+      "title": "Your question: protection or lost flexibility?",
+      "chapter": "Why someone might vote no",
+      "start_frame": 3917,
+      "frames": 118,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Your question: protection or lost flexibility?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "you might want future voters"
+      }
+    },
+    {
+      "id": "12",
+      "title": "The case for NO",
+      "chapter": "Why someone might vote no",
+      "start_frame": 4035,
+      "frames": 567,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The case for NO",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Keep future revenue options available",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                288
+              ],
+              [
+                1170,
+                288
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Decide proposals case by case",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 5.9833333333333325,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 6.4833333333333325,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Consider the Prop 40 interaction",
+          "x": 680,
+          "y": 464,
+          "size": 28,
+          "width": 530,
+          "at": 11.616666666666665,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                515
+              ],
+              [
+                1170,
+                515
+              ]
+            ]
+          ],
+          "at": 12.116666666666665,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Another voter could prefer deciding"
+      }
+    },
+    {
+      "id": "13",
+      "title": "September snapshot: PPIC",
+      "chapter": "What polling indicates",
+      "start_frame": 4602,
+      "frames": 381,
+      "source": "PPIC \u00b7 Sept 4\u201310, 2026 \u00b7 likely voters \u00b7 \u00b13.8 points",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "September snapshot: PPIC",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "text",
+          "text": "YES \u00b7 54%",
+          "x": 100,
+          "y": 200,
+          "size": 25,
+          "width": 1080,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            266,
+            1080,
+            25
+          ],
+          "value": 54.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "NO \u00b7 43%",
+          "x": 100,
+          "y": 312,
+          "size": 25,
+          "width": 1080,
+          "at": 3.733333333333333,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            378,
+            1080,
+            25
+          ],
+          "value": 43.0,
+          "maximum": 100,
+          "color": "coral",
+          "at": 4.133333333333333,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "UNDECIDED \u00b7 4%",
+          "x": 100,
+          "y": 424,
+          "size": 25,
+          "width": 1080,
+          "at": 6.966666666666666,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            490,
+            1080,
+            25
+          ],
+          "value": 4.0,
+          "maximum": 100,
+          "color": "gold",
+          "at": 7.366666666666666,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Dated survey snapshot, not votes cast. Rounded figures may not total 100%.",
+          "x": 100,
+          "y": 570,
+          "size": 21,
+          "width": 1080,
+          "at": 8,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "In the September PPIC survey"
+      }
+    },
+    {
+      "id": "14",
+      "title": "September snapshot: Berkeley IGS",
+      "chapter": "What polling indicates",
+      "start_frame": 4983,
+      "frames": 434,
+      "source": "Berkeley IGS \u00b7 Sept 15\u201320, 2026 \u00b7 likely voters \u00b7 about \u00b12 points",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "September snapshot: Berkeley IGS",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "text",
+          "text": "YES \u00b7 43%",
+          "x": 100,
+          "y": 200,
+          "size": 25,
+          "width": 1080,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            266,
+            1080,
+            25
+          ],
+          "value": 43.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "NO \u00b7 34%",
+          "x": 100,
+          "y": 312,
+          "size": 25,
+          "width": 1080,
+          "at": 4.322222222222223,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            378,
+            1080,
+            25
+          ],
+          "value": 34.0,
+          "maximum": 100,
+          "color": "coral",
+          "at": 4.722222222222223,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "UNDECIDED \u00b7 23%",
+          "x": 100,
+          "y": 424,
+          "size": 25,
+          "width": 1080,
+          "at": 8.144444444444446,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            490,
+            1080,
+            25
+          ],
+          "value": 23.0,
+          "maximum": 100,
+          "color": "gold",
+          "at": 8.544444444444446,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Dated survey snapshot, not votes cast. Rounded figures may not total 100%.",
+          "x": 100,
+          "y": 570,
+          "size": 21,
+          "width": 1080,
+          "at": 8,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "A later September Berkeley survey"
+      }
+    },
+    {
+      "id": "15",
+      "title": "Explore the full explanation",
+      "chapter": "Make your own decision",
+      "start_frame": 5417,
+      "frames": 504,
+      "source": "Visit the website and official voter guide before making your decision",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Explore the full explanation",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            50,
+            200,
+            540,
+            400
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Read the explanation and sources",
+          "x": 650,
+          "y": 205,
+          "size": 28,
+          "width": 560,
+          "at": 0.2,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "Compare the trade-offs",
+          "x": 650,
+          "y": 315,
+          "size": 28,
+          "width": 560,
+          "at": 2,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                650,
+                380
+              ],
+              [
+                1170,
+                380
+              ]
+            ]
+          ],
+          "at": 3,
+          "duration": 1,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "educational-explainers.github.io",
+          "x": 600,
+          "y": 455,
+          "size": 25,
+          "width": 650,
+          "at": 1,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "/ca-2026-ballot/",
+          "x": 600,
+          "y": 505,
+          "size": 29,
+          "width": 650,
+          "at": 1,
+          "duration": 0.45,
+          "color": "teal"
+        }
+      ],
+      "anchor": {
+        "phrase": "Yes imposes the new limits."
+      }
+    }
+  ],
+  "pencil_gain_db": 16,
+  "captions_srt": "captions.srt",
+  "captions_vtt": "captions.vtt"
+}

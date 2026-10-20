@@ -1,0 +1,376 @@
+{
+  "number": 45,
+  "version": 2,
+  "title": "Faster project review: what would change and what is at stake?",
+  "voice": "am_michael",
+  "speed": 1.04,
+  "checked": "2026-10-19",
+  "sections": [
+    {
+      "name": "The big picture",
+      "shots": [
+        {
+          "narration": "Proposition forty-five changes environmental review for eligible construction projects. California’s environmental quality law requires agencies to examine significant impacts before approving many projects. Review can identify harms and alternatives, while delay can also make projects more costly.",
+          "headline": "Why review projects before construction?",
+          "kind": "flow",
+          "items": [
+            "Proposed project",
+            "Study environmental impacts",
+            "Approval decision"
+          ]
+        },
+        {
+          "narration": "The proposal offers an optional faster process for specified projects, including many housing, transportation, water, health, and clean-energy projects. It changes deadlines and the scope of review and litigation, not just the speed of paperwork.",
+          "headline": "An optional route for eligible projects",
+          "kind": "cards",
+          "items": [
+            "Tighter review and permitting deadlines",
+            "Changes to alternatives and public input",
+            "Changes to court challenges"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "An illustrative example",
+      "shots": [
+        {
+          "narration": "Imagine a planner preparing a new housing project.",
+          "headline": "A project moves from plans to review",
+          "kind": "art",
+          "items": [
+            0
+          ]
+        },
+        {
+          "narration": "Residents may want homes built sooner but also want traffic, water, and environmental impacts examined. Those goals can overlap. The disagreement is whether the proposed process keeps enough scrutiny while reducing avoidable delay.",
+          "headline": "Two legitimate goals to weigh",
+          "kind": "flow",
+          "items": [
+            "Build useful projects sooner",
+            "Examine and reduce impacts"
+          ]
+        },
+        {
+          "narration": "The surrounding community lives with the completed project.",
+          "headline": "Review affects more than the applicant",
+          "kind": "art",
+          "items": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "How it would work",
+      "shots": [
+        {
+          "narration": "For projects using the new route, agencies would set application requirements upfront and face tighter deadlines. For example, missing a three-hundred-sixty-five-business-day environmental-report deadline could trigger a hearing request and potentially a lawsuit. It is not automatic approval after a year.",
+          "headline": "A deadline with enforcement options",
+          "kind": "flow",
+          "items": [
+            "Application and review",
+            "Deadline missed",
+            "Hearing or legal action"
+          ]
+        },
+        {
+          "narration": "Review would use standards in place when the application is submitted. The applicant could offer one alternative instead of an agency developing several. Public-comment periods would have maximums, and required tribal consultation would be narrower.",
+          "headline": "What review would examine",
+          "kind": "cards",
+          "items": [
+            "Standards at application time",
+            "Fewer required alternatives",
+            "Narrower comment and consultation rules"
+          ]
+        },
+        {
+          "narration": "Courts would have less scope to review challenges and could stop the noncompliant portion rather than the whole project. Other permits and legal requirements still matter. Faster review does not mean every project becomes buildable or affordable.",
+          "headline": "Court review would also change",
+          "kind": "cards",
+          "items": [
+            "Reduced scope of legal review",
+            "Limit stoppages to noncompliant portions"
+          ]
+        },
+        {
+          "narration": "Initial government costs could reach the high tens of millions annually, potentially over one hundred million, partly covered by fees. Longer-term effects are uncertain: faster construction may save money, while additional environmental harm could create costs.",
+          "headline": "Costs and possible savings",
+          "kind": "cards",
+          "items": [
+            "Initial costs: high tens of millions or more/year",
+            "Some fee funding",
+            "Long-term effects can be positive or negative"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote yes",
+      "shots": [
+        {
+          "narration": "A voter might support more predictable schedules and fewer project-wide shutdowns, hoping to deliver homes and infrastructure sooner. They may judge delay itself costly. That benefit depends on actual projects moving forward, not merely shorter review documents.",
+          "headline": "The case for YES",
+          "kind": "cards",
+          "items": [
+            "More predictable schedules",
+            "Potentially faster housing and infrastructure"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote no",
+      "shots": [
+        {
+          "narration": "You might ask what evidence or voices could be missed.",
+          "headline": "Your question: enough time for scrutiny?",
+          "kind": "art",
+          "items": [
+            2
+          ]
+        },
+        {
+          "narration": "Another voter could object to fewer alternatives, tighter public participation, or narrower court and tribal review. They may worry that faster decisions shift costs onto communities or the environment. The question is the balance of speed and accountability, not whether review should exist at all.",
+          "headline": "The case for NO",
+          "kind": "cards",
+          "items": [
+            "Less scope for input and alternatives",
+            "Harder to challenge some harmful decisions"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "What polling indicates",
+      "shots": [
+        {
+          "narration": "In the September PPIC survey of likely voters, 49 percent said yes, 46 percent no, and 5 percent were unsure. These are dated survey results, not votes already cast.",
+          "headline": "September snapshot: PPIC",
+          "kind": "poll",
+          "items": [
+            49,
+            46,
+            5
+          ],
+          "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points"
+        }
+      ]
+    },
+    {
+      "name": "Make your own decision",
+      "shots": [
+        {
+          "narration": "Yes creates the optional new procedures; no keeps existing review and challenge procedures. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+          "headline": "Explore the full explanation",
+          "kind": "cta",
+          "items": [
+            "educational-explainers.github.io",
+            "/ca-2026-ballot/"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026",
+      "use": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026."
+    },
+    {
+      "url": "https://voterguide.sos.ca.gov/propositions/45/",
+      "use": "Official voter guide, measure text and attributed campaign arguments."
+    },
+    {
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "use": "September likely-voter results, original published values retained including rounding."
+    }
+  ],
+  "polling_note": "Selected verified surveys available at the October 19 research check; dates shown explicitly. Not a polling average or forecast. Rounded percentages may total 99 or 101. Other polls may differ.",
+  "editorial_note": "Illustrative characters and calculations are not real testimonials or guaranteed outcomes. Voter considerations describe reasons for either choice, not recommendations.",
+  "shots": [
+    {
+      "narration": "Proposition forty-five changes environmental review for eligible construction projects. California’s environmental quality law requires agencies to examine significant impacts before approving many projects. Review can identify harms and alternatives, while delay can also make projects more costly.",
+      "headline": "Why review projects before construction?",
+      "kind": "flow",
+      "items": [
+        "Proposed project",
+        "Study environmental impacts",
+        "Approval decision"
+      ],
+      "frames": 664,
+      "start_frame": 0,
+      "section": "The big picture"
+    },
+    {
+      "narration": "The proposal offers an optional faster process for specified projects, including many housing, transportation, water, health, and clean-energy projects. It changes deadlines and the scope of review and litigation, not just the speed of paperwork.",
+      "headline": "An optional route for eligible projects",
+      "kind": "cards",
+      "items": [
+        "Tighter review and permitting deadlines",
+        "Changes to alternatives and public input",
+        "Changes to court challenges"
+      ],
+      "frames": 508,
+      "start_frame": 664,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Imagine a planner preparing a new housing project.",
+      "headline": "A project moves from plans to review",
+      "kind": "art",
+      "items": [
+        0
+      ],
+      "frames": 119,
+      "start_frame": 1172,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "Residents may want homes built sooner but also want traffic, water, and environmental impacts examined. Those goals can overlap. The disagreement is whether the proposed process keeps enough scrutiny while reducing avoidable delay.",
+      "headline": "Two legitimate goals to weigh",
+      "kind": "flow",
+      "items": [
+        "Build useful projects sooner",
+        "Examine and reduce impacts"
+      ],
+      "frames": 470,
+      "start_frame": 1291,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "The surrounding community lives with the completed project.",
+      "headline": "Review affects more than the applicant",
+      "kind": "art",
+      "items": [
+        1
+      ],
+      "frames": 110,
+      "start_frame": 1761,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "For projects using the new route, agencies would set application requirements upfront and face tighter deadlines. For example, missing a three-hundred-sixty-five-business-day environmental-report deadline could trigger a hearing request and potentially a lawsuit. It is not automatic approval after a year.",
+      "headline": "A deadline with enforcement options",
+      "kind": "flow",
+      "items": [
+        "Application and review",
+        "Deadline missed",
+        "Hearing or legal action"
+      ],
+      "frames": 607,
+      "start_frame": 1871,
+      "section": "How it would work"
+    },
+    {
+      "narration": "Review would use standards in place when the application is submitted. The applicant could offer one alternative instead of an agency developing several. Public-comment periods would have maximums, and required tribal consultation would be narrower.",
+      "headline": "What review would examine",
+      "kind": "cards",
+      "items": [
+        "Standards at application time",
+        "Fewer required alternatives",
+        "Narrower comment and consultation rules"
+      ],
+      "frames": 472,
+      "start_frame": 2478,
+      "section": "How it would work"
+    },
+    {
+      "narration": "Courts would have less scope to review challenges and could stop the noncompliant portion rather than the whole project. Other permits and legal requirements still matter. Faster review does not mean every project becomes buildable or affordable.",
+      "headline": "Court review would also change",
+      "kind": "cards",
+      "items": [
+        "Reduced scope of legal review",
+        "Limit stoppages to noncompliant portions"
+      ],
+      "frames": 473,
+      "start_frame": 2950,
+      "section": "How it would work"
+    },
+    {
+      "narration": "Initial government costs could reach the high tens of millions annually, potentially over one hundred million, partly covered by fees. Longer-term effects are uncertain: faster construction may save money, while additional environmental harm could create costs.",
+      "headline": "Costs and possible savings",
+      "kind": "cards",
+      "items": [
+        "Initial costs: high tens of millions or more/year",
+        "Some fee funding",
+        "Long-term effects can be positive or negative"
+      ],
+      "frames": 513,
+      "start_frame": 3423,
+      "section": "How it would work"
+    },
+    {
+      "narration": "A voter might support more predictable schedules and fewer project-wide shutdowns, hoping to deliver homes and infrastructure sooner. They may judge delay itself costly. That benefit depends on actual projects moving forward, not merely shorter review documents.",
+      "headline": "The case for YES",
+      "kind": "cards",
+      "items": [
+        "More predictable schedules",
+        "Potentially faster housing and infrastructure"
+      ],
+      "frames": 545,
+      "start_frame": 3936,
+      "section": "Why someone might vote yes"
+    },
+    {
+      "narration": "You might ask what evidence or voices could be missed.",
+      "headline": "Your question: enough time for scrutiny?",
+      "kind": "art",
+      "items": [
+        2
+      ],
+      "frames": 113,
+      "start_frame": 4481,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "Another voter could object to fewer alternatives, tighter public participation, or narrower court and tribal review. They may worry that faster decisions shift costs onto communities or the environment. The question is the balance of speed and accountability, not whether review should exist at all.",
+      "headline": "The case for NO",
+      "kind": "cards",
+      "items": [
+        "Less scope for input and alternatives",
+        "Harder to challenge some harmful decisions"
+      ],
+      "frames": 592,
+      "start_frame": 4594,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "In the September PPIC survey of likely voters, 49 percent said yes, 46 percent no, and 5 percent were unsure. These are dated survey results, not votes already cast.",
+      "headline": "September snapshot: PPIC",
+      "kind": "poll",
+      "items": [
+        49,
+        46,
+        5
+      ],
+      "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points",
+      "frames": 408,
+      "start_frame": 5186,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "Yes creates the optional new procedures; no keeps existing review and challenge procedures. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+      "headline": "Explore the full explanation",
+      "kind": "cta",
+      "items": [
+        "educational-explainers.github.io",
+        "/ca-2026-ballot/"
+      ],
+      "frames": 486,
+      "start_frame": 5594,
+      "section": "Make your own decision"
+    }
+  ],
+  "frames": 6080,
+  "seconds": 202.66666666666666,
+  "alignment": [
+    0.9861111111111112,
+    1.0,
+    0.9594594594594594,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

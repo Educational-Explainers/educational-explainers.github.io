@@ -1,0 +1,160 @@
+{
+  "videos": [
+    {
+      "project": "prop-01",
+      "frames": 5406,
+      "seconds": 180.2,
+      "scenes": 15,
+      "timed_cues": 61,
+      "narration_preserved": true,
+      "audio_peak_dbfs": -1.5258138179779053,
+      "decode": "passed"
+    },
+    {
+      "project": "prop-02",
+      "frames": 5252,
+      "seconds": 175.06666666666666,
+      "scenes": 14,
+      "timed_cues": 62,
+      "narration_preserved": true,
+      "audio_peak_dbfs": -1.6090315580368042,
+      "decode": "passed"
+    },
+    {
+      "project": "prop-03",
+      "frames": 5545,
+      "seconds": 184.83333333333334,
+      "scenes": 15,
+      "timed_cues": 65,
+      "narration_preserved": true,
+      "audio_peak_dbfs": -1.7538237571716309,
+      "decode": "passed"
+    },
+    {
+      "project": "prop-04",
+      "frames": 5963,
+      "seconds": 198.76666666666668,
+      "scenes": 21,
+      "timed_cues": 74,
+      "narration_preserved": true,
+      "audio_peak_dbfs": -1.617238998413086,
+      "decode": "passed"
+    },
+    {
+      "project": "prop-05",
+      "frames": 5170,
+      "seconds": 172.33333333333334,
+      "scenes": 14,
+      "timed_cues": 65,
+      "narration_preserved": true,
+      "audio_peak_dbfs": -1.694744348526001,
+      "decode": "passed"
+    },
+    {
+      "project": "prop-37",
+      "frames": 6086,
+      "seconds": 202.86666666666667,
+      "scenes": 26,
+      "timed_cues": 72,
+      "narration_preserved": true,
+      "audio_peak_dbfs": -1.37654447555542,
+      "decode": "passed"
+    },
+    {
+      "project": "prop-38",
+      "frames": 5221,
+      "seconds": 174.03333333333333,
+      "scenes": 13,
+      "timed_cues": 61,
+      "narration_preserved": true,
+      "audio_peak_dbfs": -1.663812279701233,
+      "decode": "passed"
+    },
+    {
+      "project": "prop-39",
+      "frames": 6641,
+      "seconds": 221.36666666666667,
+      "scenes": 16,
+      "timed_cues": 74,
+      "narration_preserved": true,
+      "audio_peak_dbfs": -1.6952906847000122,
+      "decode": "passed"
+    },
+    {
+      "project": "prop-40",
+      "frames": 6955,
+      "seconds": 231.83333333333334,
+      "scenes": 17,
+      "timed_cues": 81,
+      "narration_preserved": true,
+      "audio_peak_dbfs": -1.7439370155334473,
+      "decode": "passed"
+    },
+    {
+      "project": "prop-41",
+      "frames": 6079,
+      "seconds": 202.63333333333333,
+      "scenes": 16,
+      "timed_cues": 68,
+      "narration_preserved": true,
+      "audio_peak_dbfs": -1.7293661832809448,
+      "decode": "passed"
+    },
+    {
+      "project": "prop-42",
+      "frames": 5921,
+      "seconds": 197.36666666666667,
+      "scenes": 15,
+      "timed_cues": 74,
+      "narration_preserved": true,
+      "audio_peak_dbfs": -1.5679072141647339,
+      "decode": "passed"
+    },
+    {
+      "project": "prop-43",
+      "frames": 5454,
+      "seconds": 181.8,
+      "scenes": 14,
+      "timed_cues": 63,
+      "narration_preserved": true,
+      "audio_peak_dbfs": -1.672734260559082,
+      "decode": "passed"
+    },
+    {
+      "project": "prop-44",
+      "frames": 5126,
+      "seconds": 170.86666666666667,
+      "scenes": 13,
+      "timed_cues": 65,
+      "narration_preserved": true,
+      "audio_peak_dbfs": -1.678697943687439,
+      "decode": "passed"
+    },
+    {
+      "project": "prop-45",
+      "frames": 6080,
+      "seconds": 202.66666666666666,
+      "scenes": 14,
+      "timed_cues": 71,
+      "narration_preserved": true,
+      "audio_peak_dbfs": -1.5873342752456665,
+      "decode": "passed"
+    }
+  ],
+  "total_minutes": 44.94388888888889,
+  "recorder_test": {
+    "browser": "Chrome on Linux using synthetic microphone",
+    "passed": [
+      "microphone capture",
+      "reference muted during recording",
+      "recording metadata",
+      "WAV conversion",
+      "IndexedDB take restored after page reload"
+    ],
+    "mac_hardware_test": "pending on recording computer"
+  },
+  "unit_tests_passed": 10,
+  "recording_pack_zip_integrity": "passed",
+  "generated_art_tool": "built-in image generation",
+  "higgsfield_credits_used": 0
+}

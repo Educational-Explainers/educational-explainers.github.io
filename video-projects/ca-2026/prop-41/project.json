@@ -1,0 +1,1501 @@
+{
+  "schema_version": 1,
+  "number": 41,
+  "title": "Prop 41 \u2014 Tax audits and spending limits: more than an oversight measure",
+  "fps": 30,
+  "frames": 6079,
+  "checked": "2026-10-19",
+  "narration": "asset://b9f08cdb59b901d663c8588b0533f6996556a4022a1b5f8c7234378088b7188f.wav",
+  "prompter_words": "words-global.json",
+  "script": [
+    {
+      "name": "The big picture",
+      "narration": "Proposition forty-one combines audits with changes to state spending-limit rules. A special tax dedicates its money to a particular purpose, unlike revenue that can be used generally. The measure concerns new or increased state special taxes. California already has an independent state auditor and a constitutional spending limit. This proposal adds reviews at particular stages and could restrict the ability to exempt new special-tax spending from that limit."
+    },
+    {
+      "name": "An illustrative example",
+      "narration": "Imagine a program manager proposing a dedicated funding measure. Suppose a citizen initiative proposes a new tax for a public program. After supporters collect a quarter of the required signatures, the auditor would review the program, even though the initiative might never qualify. An auditor examines how the program uses its money. If the initiative reaches the ballot, voters receive an audit summary in the voter guide. That could provide useful information, but producing the review still takes staff and money."
+    },
+    {
+      "name": "How it would work",
+      "narration": "The initial audit must identify ways to reduce annual program costs by ten percent. Identifying options is not the same as delivering savings or proving that services can stay unchanged. Programs funded by new or increased special taxes approved after January first, twenty twenty-six, would also face recurring audits every four years. Approved taxes generally fund the audits; unsuccessful initiatives can leave costs to the General Fund. The analyst expects audit costs in the low millions annually, growing over time, plus voter-guide expenses. Savings depend on decisions to implement effective recommendations, so the overall fiscal result is unknown. The spending-limit provisions are a separate issue. Prop forty-one could block Prop forty if both pass and forty-one receives more yes votes, subject to how courts interpret their conflict."
+    },
+    {
+      "name": "Why someone might vote yes",
+      "narration": "A voter might want evidence of efficiency before approving new dedicated taxes, and regular follow-up afterward. They may also prefer keeping new revenue within spending constraints. Those are two distinct reasons to consider, rather than assuming audits are the entire measure."
+    },
+    {
+      "name": "Why someone might vote no",
+      "narration": "You might ask whether extra reviews justify their cost. Another voter could favor oversight but object to mandatory reviews of measures that never qualify, or to limits on funding flexibility. They may also oppose the effect on Prop forty. An audit requirement does not automatically mean waste is eliminated."
+    },
+    {
+      "name": "What polling indicates",
+      "narration": "In the September PPIC survey of likely voters, 51 percent said yes, 44 percent no, and 5 percent were unsure. These are dated survey results, not votes already cast. A later September Berkeley survey found 37 percent yes, 33 percent no, and 30 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend."
+    },
+    {
+      "name": "Make your own decision",
+      "narration": "Yes adds audits and spending-limit provisions; no keeps the current framework. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026.",
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=41&year=2026"
+    },
+    {
+      "name": "Official voter guide, measure text and attributed campaign arguments.",
+      "url": "https://voterguide.sos.ca.gov/propositions/41/"
+    },
+    {
+      "name": "September likely-voter results, original published values retained including rounding.",
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+    },
+    {
+      "name": "September 25 release; original previously verified in repository polling fact check. Current PDF fetch rate-limited; release listing checked October19.",
+      "url": "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf"
+    }
+  ],
+  "label": "CALIFORNIA 2026 \u00b7 PROP 41",
+  "assets": {
+    "hand": {
+      "path": "asset://ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2.png",
+      "tip": [
+        250,
+        914
+      ]
+    },
+    "family": {
+      "path": "asset://e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab.png"
+    },
+    "construction": {
+      "path": "asset://8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180.png"
+    },
+    "voter": {
+      "path": "asset://1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811.png"
+    },
+    "civic": {
+      "path": "asset://c2186d3e777807fdaccd6fc733505c06dbb57b5e65a5f73c623c062b2e44f7b3.png"
+    },
+    "budget": {
+      "path": "asset://968ff95a8953ed11fa53fba6f2852c0ae49f38108028b1a646b0869ebfcc7035.png"
+    },
+    "medical": {
+      "path": "asset://bf2d9b60f1657fc723a75dac2aa58b843ed0dfc4b1ce721fe8c64e7aa27099df.png"
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "title": "What is a special tax?",
+      "chapter": "The big picture",
+      "start_frame": 0,
+      "frames": 478,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What is a special tax?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 315.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Dedicated tax revenue",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 500,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 855.0,
+          "y": 240,
+          "size": 110,
+          "at": 7.266666666666667,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Specified program",
+          "x": 640.0,
+          "y": 410,
+          "size": 25,
+          "width": 500,
+          "at": 7.766666666666667,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "Proposition 41 combines audits with"
+      }
+    },
+    {
+      "id": "02",
+      "title": "Two parts of the proposal",
+      "chapter": "The big picture",
+      "start_frame": 478,
+      "frames": 406,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Two parts of the proposal",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "New audit requirements",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Restrictions on spending-limit exclusions",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 6.116666666666666,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                420
+              ],
+              [
+                1170,
+                420
+              ]
+            ]
+          ],
+          "at": 6.616666666666666,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "California already has an independent"
+      }
+    },
+    {
+      "id": "03",
+      "title": "Before a new tax reaches voters",
+      "chapter": "An illustrative example",
+      "start_frame": 884,
+      "frames": 141,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Before a new tax reaches voters",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "Imagine a program manager proposing"
+      }
+    },
+    {
+      "id": "04",
+      "title": "Review starts before ballot qualification",
+      "chapter": "An illustrative example",
+      "start_frame": 1025,
+      "frames": 441,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Review starts before ballot qualification",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "25% of signatures collected",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 4.533333333333333,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Program audit",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 5.033333333333333,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 8.766666666666667,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "May or may not qualify",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 9.266666666666667,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "Suppose a citizen initiative proposes"
+      }
+    },
+    {
+      "id": "05",
+      "title": "Information before a funding decision",
+      "chapter": "An illustrative example",
+      "start_frame": 1466,
+      "frames": 111,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Information before a funding decision",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "An auditor examines how the"
+      }
+    },
+    {
+      "id": "06",
+      "title": "An additional source of voter information",
+      "chapter": "An illustrative example",
+      "start_frame": 1577,
+      "frames": 347,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "An additional source of voter information",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Audit findings",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "people",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 3.4888888888888885,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Voter-guide summary",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 3.9888888888888885,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "people",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 6.677777777777777,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Voters decide",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 7.177777777777777,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "If the initiative reaches the"
+      }
+    },
+    {
+      "id": "07",
+      "title": "A recommendation is not a guaranteed saving",
+      "chapter": "How it would work",
+      "start_frame": 1924,
+      "frames": 382,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "A recommendation is not a guaranteed saving",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Identify 10% cost-reduction options",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Implementation and service effects still matter",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 5.716666666666666,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                420
+              ],
+              [
+                1170,
+                420
+              ]
+            ]
+          ],
+          "at": 6.216666666666666,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "The initial audit must identify"
+      }
+    },
+    {
+      "id": "08",
+      "title": "Who pays for the reviews?",
+      "chapter": "How it would work",
+      "start_frame": 2306,
+      "frames": 491,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Who pays for the reviews?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Recurring audits every 4 years",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Approved tax revenue generally pays",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 5.138888888888888,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 5.638888888888888,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Failed initiatives: General Fund exposure",
+          "x": 680,
+          "y": 464,
+          "size": 28,
+          "width": 530,
+          "at": 9.927777777777777,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                552
+              ],
+              [
+                1170,
+                552
+              ]
+            ]
+          ],
+          "at": 10.427777777777777,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Programs funded by new or"
+      }
+    },
+    {
+      "id": "09",
+      "title": "Costs are estimated; net savings are not",
+      "chapter": "How it would work",
+      "start_frame": 2797,
+      "frames": 462,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Costs are estimated; net savings are not",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Audit costs: low millions/year, growing",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                288
+              ],
+              [
+                1170,
+                288
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Printing and mailing costs too",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 4.816666666666666,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 5.316666666666666,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Net fiscal effect unknown",
+          "x": 680,
+          "y": 464,
+          "size": 28,
+          "width": 530,
+          "at": 9.283333333333333,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                515
+              ],
+              [
+                1170,
+                515
+              ]
+            ]
+          ],
+          "at": 9.783333333333333,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "The analyst expects audit costs"
+      }
+    },
+    {
+      "id": "10",
+      "title": "The connection to Prop 40",
+      "chapter": "How it would work",
+      "start_frame": 3259,
+      "frames": 363,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The connection to Prop 40",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Both measures pass",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 3.6666666666666665,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Compare YES votes",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 4.166666666666666,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 7.033333333333333,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Potential conflict decided legally",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 7.533333333333333,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "The spending limit provisions are"
+      }
+    },
+    {
+      "id": "11",
+      "title": "The case for YES",
+      "chapter": "Why someone might vote yes",
+      "start_frame": 3622,
+      "frames": 550,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The case for YES",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "More information and recurring review",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                288
+              ],
+              [
+                1170,
+                288
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Maintain spending constraints",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 8.516666666666666,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 9.016666666666666,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "A voter might want evidence"
+      }
+    },
+    {
+      "id": "12",
+      "title": "Your question: oversight or added constraints?",
+      "chapter": "Why someone might vote no",
+      "start_frame": 4172,
+      "frames": 129,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Your question: oversight or added constraints?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "You might ask whether extra"
+      }
+    },
+    {
+      "id": "13",
+      "title": "The case for NO",
+      "chapter": "Why someone might vote no",
+      "start_frame": 4301,
+      "frames": 523,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The case for NO",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Costs even for unsuccessful initiatives",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                288
+              ],
+              [
+                1170,
+                288
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Limits on future funding choices",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 5.4944444444444445,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 5.9944444444444445,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Consider the Prop 40 interaction",
+          "x": 680,
+          "y": 464,
+          "size": 28,
+          "width": 530,
+          "at": 10.63888888888889,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                515
+              ],
+              [
+                1170,
+                515
+              ]
+            ]
+          ],
+          "at": 11.13888888888889,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Another voter could favor oversight"
+      }
+    },
+    {
+      "id": "14",
+      "title": "September snapshot: PPIC",
+      "chapter": "What polling indicates",
+      "start_frame": 4824,
+      "frames": 382,
+      "source": "PPIC \u00b7 Sept 4\u201310, 2026 \u00b7 likely voters \u00b7 \u00b13.8 points",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "September snapshot: PPIC",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "text",
+          "text": "YES \u00b7 51%",
+          "x": 100,
+          "y": 200,
+          "size": 25,
+          "width": 1080,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            266,
+            1080,
+            25
+          ],
+          "value": 51.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "NO \u00b7 44%",
+          "x": 100,
+          "y": 312,
+          "size": 25,
+          "width": 1080,
+          "at": 3.744444444444444,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            378,
+            1080,
+            25
+          ],
+          "value": 44.0,
+          "maximum": 100,
+          "color": "coral",
+          "at": 4.144444444444444,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "UNDECIDED \u00b7 5%",
+          "x": 100,
+          "y": 424,
+          "size": 25,
+          "width": 1080,
+          "at": 6.988888888888888,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            490,
+            1080,
+            25
+          ],
+          "value": 5.0,
+          "maximum": 100,
+          "color": "gold",
+          "at": 7.388888888888888,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Dated survey snapshot, not votes cast. Rounded figures may not total 100%.",
+          "x": 100,
+          "y": 570,
+          "size": 21,
+          "width": 1080,
+          "at": 8,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "In the September PPIC survey"
+      }
+    },
+    {
+      "id": "15",
+      "title": "September snapshot: Berkeley IGS",
+      "chapter": "What polling indicates",
+      "start_frame": 5206,
+      "frames": 426,
+      "source": "Berkeley IGS \u00b7 Sept 15\u201320, 2026 \u00b7 likely voters \u00b7 about \u00b12 points",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "September snapshot: Berkeley IGS",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "text",
+          "text": "YES \u00b7 37%",
+          "x": 100,
+          "y": 200,
+          "size": 25,
+          "width": 1080,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            266,
+            1080,
+            25
+          ],
+          "value": 37.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "NO \u00b7 33%",
+          "x": 100,
+          "y": 312,
+          "size": 25,
+          "width": 1080,
+          "at": 4.2333333333333325,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            378,
+            1080,
+            25
+          ],
+          "value": 33.0,
+          "maximum": 100,
+          "color": "coral",
+          "at": 4.633333333333333,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "UNDECIDED \u00b7 30%",
+          "x": 100,
+          "y": 424,
+          "size": 25,
+          "width": 1080,
+          "at": 7.966666666666666,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            490,
+            1080,
+            25
+          ],
+          "value": 30.0,
+          "maximum": 100,
+          "color": "gold",
+          "at": 8.366666666666665,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Dated survey snapshot, not votes cast. Rounded figures may not total 100%.",
+          "x": 100,
+          "y": 570,
+          "size": 21,
+          "width": 1080,
+          "at": 8,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "A later September Berkeley survey"
+      }
+    },
+    {
+      "id": "16",
+      "title": "Explore the full explanation",
+      "chapter": "Make your own decision",
+      "start_frame": 5632,
+      "frames": 447,
+      "source": "Visit the website and official voter guide before making your decision",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Explore the full explanation",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            50,
+            200,
+            540,
+            400
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Read the explanation and sources",
+          "x": 650,
+          "y": 205,
+          "size": 28,
+          "width": 560,
+          "at": 0.2,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "Compare the trade-offs",
+          "x": 650,
+          "y": 315,
+          "size": 28,
+          "width": 560,
+          "at": 2,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                650,
+                380
+              ],
+              [
+                1170,
+                380
+              ]
+            ]
+          ],
+          "at": 3,
+          "duration": 1,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "educational-explainers.github.io",
+          "x": 600,
+          "y": 455,
+          "size": 25,
+          "width": 650,
+          "at": 1,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "/ca-2026-ballot/",
+          "x": 600,
+          "y": 505,
+          "size": 29,
+          "width": 650,
+          "at": 1,
+          "duration": 0.45,
+          "color": "teal"
+        }
+      ],
+      "anchor": {
+        "phrase": "Yes adds audits and spending"
+      }
+    }
+  ],
+  "pencil_gain_db": 16,
+  "captions_srt": "captions.srt",
+  "captions_vtt": "captions.vtt"
+}

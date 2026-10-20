@@ -1,0 +1,197 @@
+{
+  "project": "California Ballot 2026 - Narrated Explainers v3",
+  "timelines": [
+    {
+      "number": 1,
+      "name": "Prop 1 - Sketchbook C - Timed Recording",
+      "id": "6b76a0b6-a362-48c0-876b-fcd2c8ac9de2",
+      "frames": 5406,
+      "media": {
+        "total": 17,
+        "linked": 17,
+        "offline": 0
+      },
+      "gaps": 0,
+      "overlaps": 0,
+      "passed": true
+    },
+    {
+      "number": 2,
+      "name": "Prop 2 - Sketchbook C - Timed Recording",
+      "id": "91f28e4b-aad0-4424-aaac-13037e155899",
+      "frames": 5252,
+      "media": {
+        "total": 16,
+        "linked": 16,
+        "offline": 0
+      },
+      "gaps": 0,
+      "overlaps": 0,
+      "passed": true
+    },
+    {
+      "number": 3,
+      "name": "Prop 3 - Sketchbook C - Timed Recording",
+      "id": "dcb70d51-9db4-4ebc-928e-2383c4ea3a55",
+      "frames": 5545,
+      "media": {
+        "total": 17,
+        "linked": 17,
+        "offline": 0
+      },
+      "gaps": 0,
+      "overlaps": 0,
+      "passed": true
+    },
+    {
+      "number": 4,
+      "name": "Prop 4 - Sketchbook C - Timed Recording",
+      "id": "17960220-72af-4aed-9a35-4ebc8e239097",
+      "frames": 5963,
+      "media": {
+        "total": 23,
+        "linked": 23,
+        "offline": 0
+      },
+      "gaps": 0,
+      "overlaps": 0,
+      "passed": true
+    },
+    {
+      "number": 5,
+      "name": "Prop 5 - Sketchbook C - Timed Recording",
+      "id": "b1a2d66c-06f8-4502-957a-1c0795126647",
+      "frames": 5170,
+      "media": {
+        "total": 16,
+        "linked": 16,
+        "offline": 0
+      },
+      "gaps": 0,
+      "overlaps": 0,
+      "passed": true
+    },
+    {
+      "number": 37,
+      "name": "Prop 37 - Sketchbook C - Full Pilot",
+      "id": "bd0ee7b5-7280-47c5-9d90-a97ad6bb4d41",
+      "frames": 6086,
+      "gaps": 0,
+      "overlaps": 0,
+      "passed": true
+    },
+    {
+      "number": 38,
+      "name": "Prop 38 - Sketchbook C - Timed Recording",
+      "id": "5a10da7a-885a-463b-8ec5-2869d4dcac58",
+      "frames": 5221,
+      "media": {
+        "total": 15,
+        "linked": 15,
+        "offline": 0
+      },
+      "gaps": 0,
+      "overlaps": 0,
+      "passed": true
+    },
+    {
+      "number": 39,
+      "name": "Prop 39 - Sketchbook C - Timed Recording",
+      "id": "5a1a1887-95fb-489c-b6c5-aa795934d865",
+      "frames": 6641,
+      "media": {
+        "total": 18,
+        "linked": 18,
+        "offline": 0
+      },
+      "gaps": 0,
+      "overlaps": 0,
+      "passed": true
+    },
+    {
+      "number": 40,
+      "name": "Prop 40 - Sketchbook C - Timed Recording",
+      "id": "f8044999-4da4-46ed-a350-3129bf7b05f2",
+      "frames": 6955,
+      "media": {
+        "total": 19,
+        "linked": 19,
+        "offline": 0
+      },
+      "gaps": 0,
+      "overlaps": 0,
+      "passed": true
+    },
+    {
+      "number": 41,
+      "name": "Prop 41 - Sketchbook C - Timed Recording",
+      "id": "1a3c997a-b8bf-41a2-9869-664bc5216c73",
+      "frames": 6079,
+      "media": {
+        "total": 18,
+        "linked": 18,
+        "offline": 0
+      },
+      "gaps": 0,
+      "overlaps": 0,
+      "passed": true
+    },
+    {
+      "number": 42,
+      "name": "Prop 42 - Sketchbook C - Timed Recording",
+      "id": "6daaf0e6-9c79-4533-8832-fd1ae10f05e1",
+      "frames": 5921,
+      "media": {
+        "total": 17,
+        "linked": 17,
+        "offline": 0
+      },
+      "gaps": 0,
+      "overlaps": 0,
+      "passed": true
+    },
+    {
+      "number": 43,
+      "name": "Prop 43 - Sketchbook C - Timed Recording",
+      "id": "35e30138-f11c-4a43-a1fd-7670b5a5bb5d",
+      "frames": 5454,
+      "media": {
+        "total": 16,
+        "linked": 16,
+        "offline": 0
+      },
+      "gaps": 0,
+      "overlaps": 0,
+      "passed": true
+    },
+    {
+      "number": 44,
+      "name": "Prop 44 - Sketchbook C - Timed Recording",
+      "id": "bb0f929e-2894-4bcf-9eb6-565c872ffbd2",
+      "frames": 5126,
+      "media": {
+        "total": 15,
+        "linked": 15,
+        "offline": 0
+      },
+      "gaps": 0,
+      "overlaps": 0,
+      "passed": true
+    },
+    {
+      "number": 45,
+      "name": "Prop 45 - Sketchbook C - Timed Recording",
+      "id": "a8665f96-0a0d-4ca7-abe0-c8822e36eb7d",
+      "frames": 6080,
+      "media": {
+        "total": 16,
+        "linked": 16,
+        "offline": 0
+      },
+      "gaps": 0,
+      "overlaps": 0,
+      "passed": true
+    }
+  ],
+  "saved": true
+}

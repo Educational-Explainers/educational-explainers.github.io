@@ -1,0 +1,384 @@
+{
+  "number": 5,
+  "version": 2,
+  "title": "Recall elections: who replaces a removed official?",
+  "voice": "am_michael",
+  "speed": 1.04,
+  "checked": "2026-10-19",
+  "sections": [
+    {
+      "name": "The big picture",
+      "shots": [
+        {
+          "narration": "A recall lets voters remove an elected official before the term ends. Proposition five changes what happens next. It does not eliminate the power to recall state officials.",
+          "headline": "Removal and replacement are different decisions",
+          "kind": "flow",
+          "items": [
+            "Recall petition",
+            "Removal vote",
+            "Who takes over?"
+          ]
+        },
+        {
+          "narration": "Today, a state recall ballot normally asks two questions: whether to remove the official, and who should replace them. If removal wins, the replacement candidate with the most votes takes office.",
+          "headline": "Today: two questions on one ballot",
+          "kind": "cards",
+          "items": [
+            "1. Remove the official?",
+            "2. Choose a replacement"
+          ]
+        },
+        {
+          "narration": "Proposition five removes the replacement question. The office would be filled through succession, appointment, or a separate election, depending on the office and when the recall happens.",
+          "headline": "Proposed: one recall question",
+          "kind": "flow",
+          "items": [
+            "Remove the official?",
+            "Vacancy rules",
+            "Replacement"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "An illustrative example",
+      "shots": [
+        {
+          "narration": "Imagine opening a ballot during a recall election.",
+          "headline": "What would you be asked?",
+          "kind": "art",
+          "items": [
+            0
+          ]
+        },
+        {
+          "narration": "In a hypothetical crowded replacement contest, one candidate could lead with thirty votes out of a hundred. Winning the most votes is different from winning a majority. That is one concern motivating the change.",
+          "headline": "Most votes need not mean a majority",
+          "kind": "bars",
+          "items": [
+            30,
+            50
+          ],
+          "labels": [
+            "Example leading candidate: 30%",
+            "Majority requires more than 50%"
+          ],
+          "unit": "% · hypothetical example"
+        },
+        {
+          "narration": "Election staff would explain a different replacement process.",
+          "headline": "The next step depends on the office",
+          "kind": "art",
+          "items": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "How it would work",
+      "shots": [
+        {
+          "narration": "If a legislator is recalled, a special election would generally fill the seat. Vacancies in most other state offices would be filled by gubernatorial appointment. So a separate replacement vote is not guaranteed for every office.",
+          "headline": "Different offices, different routes",
+          "kind": "cards",
+          "items": [
+            "Legislature: generally a special election",
+            "Most other offices: appointment"
+          ]
+        },
+        {
+          "narration": "For the governor, the lieutenant governor would take over. If the recall happens early enough, before the specified nomination deadline in the first two years, voters elect a new governor at a later statewide election. Otherwise, the lieutenant governor completes the term.",
+          "headline": "The governor has a timing rule",
+          "kind": "flow",
+          "items": [
+            "Lieutenant governor takes over",
+            "Early enough: later election",
+            "Otherwise: rest of term"
+          ]
+        },
+        {
+          "narration": "Costs could rise if an additional special election is needed, or fall when replacement-candidate materials disappear. The analyst says the net effect is unknown, with possible costs or savings of millions per recall.",
+          "headline": "Election costs can move either way",
+          "kind": "cards",
+          "items": [
+            "Extra election: possible costs",
+            "Shorter ballot: possible savings",
+            "Net effect depends on future recalls"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote yes",
+      "shots": [
+        {
+          "narration": "A voter might want removal considered on its own, rather than as a shortcut for a candidate with limited support. Familiar vacancy procedures could make succession more predictable. That does not mean every replacement would be elected in a new majority vote.",
+          "headline": "The case for YES",
+          "kind": "cards",
+          "items": [
+            "Separate removal from a crowded replacement race",
+            "Use defined succession procedures"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote no",
+      "shots": [
+        {
+          "narration": "You might want to choose the replacement yourself, immediately.",
+          "headline": "Your question: who gets to choose?",
+          "kind": "art",
+          "items": [
+            2
+          ]
+        },
+        {
+          "narration": "Another voter could object to giving appointments or automatic succession a larger role. They may prefer seeing the alternatives on the same ballot, and worry that a later election leaves them waiting. These are choices about accountability, not just administrative convenience.",
+          "headline": "The case for NO",
+          "kind": "cards",
+          "items": [
+            "Keep the same-ballot replacement choice",
+            "Avoid more reliance on appointments"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "What polling indicates",
+      "shots": [
+        {
+          "narration": "In the September PPIC survey of likely voters, 35 percent said yes, 59 percent no, and 5 percent were unsure. These are dated survey results, not votes already cast.",
+          "headline": "September snapshot: PPIC",
+          "kind": "poll",
+          "items": [
+            35,
+            59,
+            5
+          ],
+          "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points"
+        }
+      ]
+    },
+    {
+      "name": "Make your own decision",
+      "shots": [
+        {
+          "narration": "Yes changes the replacement process; no keeps the replacement question on recall ballots. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+          "headline": "Explore the full explanation",
+          "kind": "cta",
+          "items": [
+            "educational-explainers.github.io",
+            "/ca-2026-ballot/"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=5&year=2026",
+      "use": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026."
+    },
+    {
+      "url": "https://voterguide.sos.ca.gov/propositions/5/",
+      "use": "Official voter guide, measure text and attributed campaign arguments."
+    },
+    {
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "use": "September likely-voter results, original published values retained including rounding."
+    }
+  ],
+  "polling_note": "Selected verified surveys available at the October 19 research check; dates shown explicitly. Not a polling average or forecast. Rounded percentages may total 99 or 101. Other polls may differ.",
+  "editorial_note": "Illustrative characters and calculations are not real testimonials or guaranteed outcomes. Voter considerations describe reasons for either choice, not recommendations.",
+  "shots": [
+    {
+      "narration": "A recall lets voters remove an elected official before the term ends. Proposition five changes what happens next. It does not eliminate the power to recall state officials.",
+      "headline": "Removal and replacement are different decisions",
+      "kind": "flow",
+      "items": [
+        "Recall petition",
+        "Removal vote",
+        "Who takes over?"
+      ],
+      "frames": 355,
+      "start_frame": 0,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Today, a state recall ballot normally asks two questions: whether to remove the official, and who should replace them. If removal wins, the replacement candidate with the most votes takes office.",
+      "headline": "Today: two questions on one ballot",
+      "kind": "cards",
+      "items": [
+        "1. Remove the official?",
+        "2. Choose a replacement"
+      ],
+      "frames": 391,
+      "start_frame": 355,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Proposition five removes the replacement question. The office would be filled through succession, appointment, or a separate election, depending on the office and when the recall happens.",
+      "headline": "Proposed: one recall question",
+      "kind": "flow",
+      "items": [
+        "Remove the official?",
+        "Vacancy rules",
+        "Replacement"
+      ],
+      "frames": 358,
+      "start_frame": 746,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Imagine opening a ballot during a recall election.",
+      "headline": "What would you be asked?",
+      "kind": "art",
+      "items": [
+        0
+      ],
+      "frames": 112,
+      "start_frame": 1104,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "In a hypothetical crowded replacement contest, one candidate could lead with thirty votes out of a hundred. Winning the most votes is different from winning a majority. That is one concern motivating the change.",
+      "headline": "Most votes need not mean a majority",
+      "kind": "bars",
+      "items": [
+        30,
+        50
+      ],
+      "labels": [
+        "Example leading candidate: 30%",
+        "Majority requires more than 50%"
+      ],
+      "unit": "% · hypothetical example",
+      "frames": 415,
+      "start_frame": 1216,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "Election staff would explain a different replacement process.",
+      "headline": "The next step depends on the office",
+      "kind": "art",
+      "items": [
+        1
+      ],
+      "frames": 105,
+      "start_frame": 1631,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "If a legislator is recalled, a special election would generally fill the seat. Vacancies in most other state offices would be filled by gubernatorial appointment. So a separate replacement vote is not guaranteed for every office.",
+      "headline": "Different offices, different routes",
+      "kind": "cards",
+      "items": [
+        "Legislature: generally a special election",
+        "Most other offices: appointment"
+      ],
+      "frames": 464,
+      "start_frame": 1736,
+      "section": "How it would work"
+    },
+    {
+      "narration": "For the governor, the lieutenant governor would take over. If the recall happens early enough, before the specified nomination deadline in the first two years, voters elect a new governor at a later statewide election. Otherwise, the lieutenant governor completes the term.",
+      "headline": "The governor has a timing rule",
+      "kind": "flow",
+      "items": [
+        "Lieutenant governor takes over",
+        "Early enough: later election",
+        "Otherwise: rest of term"
+      ],
+      "frames": 493,
+      "start_frame": 2200,
+      "section": "How it would work"
+    },
+    {
+      "narration": "Costs could rise if an additional special election is needed, or fall when replacement-candidate materials disappear. The analyst says the net effect is unknown, with possible costs or savings of millions per recall.",
+      "headline": "Election costs can move either way",
+      "kind": "cards",
+      "items": [
+        "Extra election: possible costs",
+        "Shorter ballot: possible savings",
+        "Net effect depends on future recalls"
+      ],
+      "frames": 428,
+      "start_frame": 2693,
+      "section": "How it would work"
+    },
+    {
+      "narration": "A voter might want removal considered on its own, rather than as a shortcut for a candidate with limited support. Familiar vacancy procedures could make succession more predictable. That does not mean every replacement would be elected in a new majority vote.",
+      "headline": "The case for YES",
+      "kind": "cards",
+      "items": [
+        "Separate removal from a crowded replacement race",
+        "Use defined succession procedures"
+      ],
+      "frames": 520,
+      "start_frame": 3121,
+      "section": "Why someone might vote yes"
+    },
+    {
+      "narration": "You might want to choose the replacement yourself, immediately.",
+      "headline": "Your question: who gets to choose?",
+      "kind": "art",
+      "items": [
+        2
+      ],
+      "frames": 125,
+      "start_frame": 3641,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "Another voter could object to giving appointments or automatic succession a larger role. They may prefer seeing the alternatives on the same ballot, and worry that a later election leaves them waiting. These are choices about accountability, not just administrative convenience.",
+      "headline": "The case for NO",
+      "kind": "cards",
+      "items": [
+        "Keep the same-ballot replacement choice",
+        "Avoid more reliance on appointments"
+      ],
+      "frames": 525,
+      "start_frame": 3766,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "In the September PPIC survey of likely voters, 35 percent said yes, 59 percent no, and 5 percent were unsure. These are dated survey results, not votes already cast.",
+      "headline": "September snapshot: PPIC",
+      "kind": "poll",
+      "items": [
+        35,
+        59,
+        5
+      ],
+      "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points",
+      "frames": 406,
+      "start_frame": 4291,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "Yes changes the replacement process; no keeps the replacement question on recall ballots. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+      "headline": "Explore the full explanation",
+      "kind": "cta",
+      "items": [
+        "educational-explainers.github.io",
+        "/ca-2026-ballot/"
+      ],
+      "frames": 473,
+      "start_frame": 4697,
+      "section": "Make your own decision"
+    }
+  ],
+  "frames": 5170,
+  "seconds": 172.33333333333334,
+  "alignment": [
+    1.0,
+    0.98,
+    0.990990990990991,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

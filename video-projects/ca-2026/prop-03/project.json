@@ -1,0 +1,1311 @@
+{
+  "schema_version": 1,
+  "number": 3,
+  "title": "Prop 3 \u2014 High-income taxes: keep the rates after 2030?",
+  "fps": 30,
+  "frames": 5545,
+  "checked": "2026-10-19",
+  "narration": "asset://5dfca149d10af60479d88cadfe579388b9a7695834316c012d4799e4eb33da36.wav",
+  "prompter_words": "words-global.json",
+  "script": [
+    {
+      "name": "The big picture",
+      "narration": "Proposition three is about whether existing higher income-tax rates should expire. Voters approved these rates in twenty twelve and extended them in twenty sixteen. They are now scheduled to end after twenty thirty. The additional rates apply to roughly the highest-earning two percent of taxpayers. This is a tax on income, such as wages or investment profits, rather than a tax on everything someone owns. Proposition three would make those higher rates permanent. It would keep the current system beyond its scheduled expiration, rather than introducing a new increase in everybody\u2019s rate today."
+    },
+    {
+      "name": "An illustrative example",
+      "narration": "Imagine a teacher planning future classes and support services. If an existing revenue stream ends, a budget planner must consider cuts, replacement taxes, or other funding. Keeping that revenue can avoid that particular gap, but does not promise any school a specific staffing level. School budgets depend on the wider state budget."
+    },
+    {
+      "name": "How it would work",
+      "narration": "The analyst estimates five to fifteen billion dollars of annual revenue maintained after the scheduled expiration. The wide range reflects the volatile incomes and investment gains of high earners. It is not a guaranteed fifteen billion every year. Roughly forty percent would support schools and community colleges. The remainder supports other state programs and reserves. Those shares describe the analyst\u2019s estimate, rather than a promise that every dollar goes to classroom instruction. A no vote does not lower rates immediately. The scheduled expiration would still occur in twenty thirty-one. Comparing yes and no therefore means comparing future budgets, not just this year\u2019s tax bill."
+    },
+    {
+      "name": "Why someone might vote yes",
+      "narration": "A voter might prefer protecting existing revenue for education and other services, with the additional tax concentrated on high earners. Making the rates permanent removes repeated expiration deadlines, though it does not make the revenue itself predictable."
+    },
+    {
+      "name": "Why someone might vote no",
+      "narration": "You might ask whether a temporary tax should stay permanent. A skeptical voter could want the state to honor the sunset or reduce reliance on a small, volatile tax base. They may worry about effects on investment or where high earners live. The size of behavioral effects is uncertain."
+    },
+    {
+      "name": "What polling indicates",
+      "narration": "In the September PPIC survey of likely voters, 58 percent said yes, 40 percent no, and 2 percent were unsure. These are dated survey results, not votes already cast. A later September Berkeley survey found 54 percent yes, 34 percent no, and 13 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend."
+    },
+    {
+      "name": "Make your own decision",
+      "narration": "Yes makes the current higher rates permanent; no preserves their scheduled expiration. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026.",
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026"
+    },
+    {
+      "name": "Official voter guide, measure text and attributed campaign arguments.",
+      "url": "https://voterguide.sos.ca.gov/propositions/3/"
+    },
+    {
+      "name": "September likely-voter results, original published values retained including rounding.",
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+    },
+    {
+      "name": "September 25 release; original previously verified in repository polling fact check. Current PDF fetch rate-limited; release listing checked October19.",
+      "url": "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf"
+    }
+  ],
+  "label": "CALIFORNIA 2026 \u00b7 PROP 3",
+  "assets": {
+    "hand": {
+      "path": "asset://ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2.png",
+      "tip": [
+        250,
+        914
+      ]
+    },
+    "family": {
+      "path": "asset://e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab.png"
+    },
+    "construction": {
+      "path": "asset://8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180.png"
+    },
+    "voter": {
+      "path": "asset://1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811.png"
+    },
+    "civic": {
+      "path": "asset://c2186d3e777807fdaccd6fc733505c06dbb57b5e65a5f73c623c062b2e44f7b3.png"
+    },
+    "budget": {
+      "path": "asset://968ff95a8953ed11fa53fba6f2852c0ae49f38108028b1a646b0869ebfcc7035.png"
+    },
+    "medical": {
+      "path": "asset://bf2d9b60f1657fc723a75dac2aa58b843ed0dfc4b1ce721fe8c64e7aa27099df.png"
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "title": "A temporary tax reaches another decision",
+      "chapter": "The big picture",
+      "start_frame": 0,
+      "frames": 434,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "A temporary tax reaches another decision",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Approved 2012",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 4.455555555555556,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Extended 2016",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 4.955555555555556,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "calendar",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 8.611111111111112,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Scheduled end: 2030",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 9.111111111111112,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "Proposition 3 is about whether"
+      }
+    },
+    {
+      "id": "02",
+      "title": "Income is different from wealth",
+      "chapter": "The big picture",
+      "start_frame": 434,
+      "frames": 392,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Income is different from wealth",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Higher rates on top incomes",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Not a tax on total assets",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 5.883333333333333,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 6.383333333333333,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "The additional rates apply to"
+      }
+    },
+    {
+      "id": "03",
+      "title": "What YES would change",
+      "chapter": "The big picture",
+      "start_frame": 826,
+      "frames": 354,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What YES would change",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "calendar",
+          "x": 315.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Current higher rates",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 500,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "calendar",
+          "x": 855.0,
+          "y": 240,
+          "size": 110,
+          "at": 5.2,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Continue after 2030",
+          "x": 640.0,
+          "y": 410,
+          "size": 25,
+          "width": 500,
+          "at": 5.7,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "Proposition 3 would make those"
+      }
+    },
+    {
+      "id": "04",
+      "title": "Planning beyond the next school year",
+      "chapter": "An illustrative example",
+      "start_frame": 1180,
+      "frames": 133,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Planning beyond the next school year",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "Imagine a teacher planning future"
+      }
+    },
+    {
+      "id": "05",
+      "title": "Why an expiration matters",
+      "chapter": "An illustrative example",
+      "start_frame": 1313,
+      "frames": 447,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Why an expiration matters",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Revenue expires",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 4.6,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Budget gap",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 5.1,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 8.9,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Cuts or replacement funding",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 9.4,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "If an existing revenue stream"
+      }
+    },
+    {
+      "id": "06",
+      "title": "Revenue supports more than one program",
+      "chapter": "An illustrative example",
+      "start_frame": 1760,
+      "frames": 94,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Revenue supports more than one program",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "School budgets depend on the"
+      }
+    },
+    {
+      "id": "07",
+      "title": "A range, not a guaranteed amount",
+      "chapter": "How it would work",
+      "start_frame": 1854,
+      "frames": 511,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "A range, not a guaranteed amount",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            215,
+            380,
+            360
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Weak-year estimate: $5B",
+          "x": 475,
+          "y": 200,
+          "size": 25,
+          "width": 710,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            475,
+            266,
+            710,
+            25
+          ],
+          "value": 5.0,
+          "maximum": 15.0,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Strong-year estimate: $15B",
+          "x": 475,
+          "y": 312,
+          "size": 25,
+          "width": 710,
+          "at": 7.5166666666666675,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            475,
+            378,
+            710,
+            25
+          ],
+          "value": 15.0,
+          "maximum": 15.0,
+          "color": "blue",
+          "at": 7.916666666666668,
+          "duration": 0.9
+        }
+      ],
+      "anchor": {
+        "phrase": "The analyst estimates $5 -15"
+      }
+    },
+    {
+      "id": "08",
+      "title": "Where the money would go",
+      "chapter": "How it would work",
+      "start_frame": 2365,
+      "frames": 447,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Where the money would go",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            215,
+            380,
+            360
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Roughly 40%: schools + community colleges",
+          "x": 475,
+          "y": 200,
+          "size": 25,
+          "width": 710,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            475,
+            266,
+            710,
+            25
+          ],
+          "value": 40.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Remainder: other programs + reserves",
+          "x": 475,
+          "y": 312,
+          "size": 25,
+          "width": 710,
+          "at": 6.45,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            475,
+            378,
+            710,
+            25
+          ],
+          "value": 60.0,
+          "maximum": 100,
+          "color": "blue",
+          "at": 6.8500000000000005,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Shares of the stated total",
+          "x": 475,
+          "y": 570,
+          "size": 21,
+          "width": 700,
+          "at": 0.2,
+          "duration": 0.45,
+          "color": "muted"
+        }
+      ],
+      "anchor": {
+        "phrase": "Roughly 40 % would support"
+      }
+    },
+    {
+      "id": "09",
+      "title": "When the choices diverge",
+      "chapter": "How it would work",
+      "start_frame": 2812,
+      "frames": 392,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "When the choices diverge",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "YES: higher rates continue",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "NO: scheduled expiration in 2031",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 5.883333333333333,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 6.383333333333333,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "A no -vote does not"
+      }
+    },
+    {
+      "id": "10",
+      "title": "The case for YES",
+      "chapter": "Why someone might vote yes",
+      "start_frame": 3204,
+      "frames": 503,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The case for YES",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Avoid a future revenue loss",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Concentrate the added tax on high earners",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 7.7333333333333325,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                420
+              ],
+              [
+                1170,
+                420
+              ]
+            ]
+          ],
+          "at": 8.233333333333333,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "A voter might prefer protecting"
+      }
+    },
+    {
+      "id": "11",
+      "title": "Your question: should the tax expire?",
+      "chapter": "Why someone might vote no",
+      "start_frame": 3707,
+      "frames": 118,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Your question: should the tax expire?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "You might ask whether a"
+      }
+    },
+    {
+      "id": "12",
+      "title": "The case for NO",
+      "chapter": "Why someone might vote no",
+      "start_frame": 3825,
+      "frames": 462,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The case for NO",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Preserve the promised expiration",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Question reliance on volatile high incomes",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 7.05,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                420
+              ],
+              [
+                1170,
+                420
+              ]
+            ]
+          ],
+          "at": 7.55,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "A skeptical voter could want"
+      }
+    },
+    {
+      "id": "13",
+      "title": "September snapshot: PPIC",
+      "chapter": "What polling indicates",
+      "start_frame": 4287,
+      "frames": 370,
+      "source": "PPIC \u00b7 Sept 4\u201310, 2026 \u00b7 likely voters \u00b7 \u00b13.8 points",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "September snapshot: PPIC",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "text",
+          "text": "YES \u00b7 58%",
+          "x": 100,
+          "y": 200,
+          "size": 25,
+          "width": 1080,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            266,
+            1080,
+            25
+          ],
+          "value": 58.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "NO \u00b7 40%",
+          "x": 100,
+          "y": 312,
+          "size": 25,
+          "width": 1080,
+          "at": 3.611111111111111,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            378,
+            1080,
+            25
+          ],
+          "value": 40.0,
+          "maximum": 100,
+          "color": "coral",
+          "at": 4.011111111111111,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "UNDECIDED \u00b7 2%",
+          "x": 100,
+          "y": 424,
+          "size": 25,
+          "width": 1080,
+          "at": 6.722222222222222,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            490,
+            1080,
+            25
+          ],
+          "value": 2.0,
+          "maximum": 100,
+          "color": "gold",
+          "at": 7.122222222222223,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Dated survey snapshot, not votes cast. Rounded figures may not total 100%.",
+          "x": 100,
+          "y": 570,
+          "size": 21,
+          "width": 1080,
+          "at": 8,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "In the September PPIC survey"
+      }
+    },
+    {
+      "id": "14",
+      "title": "September snapshot: Berkeley IGS",
+      "chapter": "What polling indicates",
+      "start_frame": 4657,
+      "frames": 429,
+      "source": "Berkeley IGS \u00b7 Sept 15\u201320, 2026 \u00b7 likely voters \u00b7 about \u00b13 points",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "September snapshot: Berkeley IGS",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "text",
+          "text": "YES \u00b7 54%",
+          "x": 100,
+          "y": 200,
+          "size": 25,
+          "width": 1080,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            266,
+            1080,
+            25
+          ],
+          "value": 54.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "NO \u00b7 34%",
+          "x": 100,
+          "y": 312,
+          "size": 25,
+          "width": 1080,
+          "at": 4.2666666666666675,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            378,
+            1080,
+            25
+          ],
+          "value": 34.0,
+          "maximum": 100,
+          "color": "coral",
+          "at": 4.666666666666668,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "UNDECIDED \u00b7 13%",
+          "x": 100,
+          "y": 424,
+          "size": 25,
+          "width": 1080,
+          "at": 8.033333333333335,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            490,
+            1080,
+            25
+          ],
+          "value": 13.0,
+          "maximum": 100,
+          "color": "gold",
+          "at": 8.433333333333335,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Dated survey snapshot, not votes cast. Rounded figures may not total 100%.",
+          "x": 100,
+          "y": 570,
+          "size": 21,
+          "width": 1080,
+          "at": 8,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "A later September Berkeley survey"
+      }
+    },
+    {
+      "id": "15",
+      "title": "Explore the full explanation",
+      "chapter": "Make your own decision",
+      "start_frame": 5086,
+      "frames": 459,
+      "source": "Visit the website and official voter guide before making your decision",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Explore the full explanation",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            50,
+            200,
+            540,
+            400
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Read the explanation and sources",
+          "x": 650,
+          "y": 205,
+          "size": 28,
+          "width": 560,
+          "at": 0.2,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "Compare the trade-offs",
+          "x": 650,
+          "y": 315,
+          "size": 28,
+          "width": 560,
+          "at": 2,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                650,
+                380
+              ],
+              [
+                1170,
+                380
+              ]
+            ]
+          ],
+          "at": 3,
+          "duration": 1,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "educational-explainers.github.io",
+          "x": 600,
+          "y": 455,
+          "size": 25,
+          "width": 650,
+          "at": 1,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "/ca-2026-ballot/",
+          "x": 600,
+          "y": 505,
+          "size": 29,
+          "width": 650,
+          "at": 1,
+          "duration": 0.45,
+          "color": "teal"
+        }
+      ],
+      "anchor": {
+        "phrase": "Yes, makes the current higher"
+      }
+    }
+  ],
+  "pencil_gain_db": 16,
+  "captions_srt": "captions.srt",
+  "captions_vtt": "captions.vtt"
+}

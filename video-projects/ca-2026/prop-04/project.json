@@ -1,0 +1,1873 @@
+{
+  "schema_version": 1,
+  "number": 4,
+  "title": "Prop 4 \u2014 Public campaign financing: what would change?",
+  "fps": 30,
+  "frames": 5963,
+  "checked": "2026-10-19",
+  "narration": "asset://84642451b56060803cc43165bc46c627b69af6ea824d42f8136b956fc46f0f3e.wav",
+  "prompter_words": "words-global.json",
+  "script": [
+    {
+      "name": "The big picture",
+      "narration": "Should public money help pay for election campaigns? That is the question behind California Proposition four. Campaign financing pays for things like mailers, advertising, and campaign staff. Public financing means government money helps cover those expenses. Today, California generally bans that for state and local candidates. Some charter cities, including Los Angeles and San Francisco, already have exceptions. Proposition four would let more governments offer public financing. It does not automatically launch a program or send money to candidates."
+    },
+    {
+      "name": "An illustrative example",
+      "narration": "Imagine a first-time candidate planning how to reach voters. She has local supporters, but printing leaflets and running advertisements cost money. A future city program might match small donations. Here is a made-up example: twenty dollars from a resident, plus forty dollars from the city, gives the campaign sixty dollars. Those numbers are illustrative. Proposition four does not choose a matching rate or promise this candidate any money. The aim is to help candidates reach more voters."
+    },
+    {
+      "name": "How it would work",
+      "narration": "You might ask: who qualifies, and who decides? A future program would set detailed eligibility rules and its budget. Candidates would have to demonstrate broad support in their district and accept spending limits. Public money could not pay their fines, legal defense, or personal campaign loans. Funds reserved for education, transportation, or public safety could not be used. But other public funds spent on campaigns still have an opportunity cost. The state estimates a few hundred thousand dollars a year for guidance. That is separate from future campaign programs, whose costs depend on later decisions and could be significant."
+    },
+    {
+      "name": "Why someone might vote yes",
+      "narration": "A voter favoring reform might say: I want candidates with community support to compete, even without wealthy backers. Supporters hope matching donations would make ordinary residents more important to fundraising. Voting yes gives governments that option, subject to rules. It does not guarantee less donor influence."
+    },
+    {
+      "name": "Why someone might vote no",
+      "narration": "Another voter might ask: should taxpayers pay for political campaigns? They may dislike funding candidates they oppose, or prefer other uses for public money. The measure leaves future program budgets and many details undecided. Public financing also does not eliminate private political spending. A no vote keeps the general ban and existing exceptions."
+    },
+    {
+      "name": "What polling indicates",
+      "narration": "What do polls show? In early September, PPIC found forty-two percent yes, fifty-three percent no, and five percent unsure among likely voters. A later September Berkeley poll found thirty-five percent yes, thirty-five percent no, and thirty percent undecided. These are different surveys, not a clean trend or an election forecast."
+    },
+    {
+      "name": "Make your own decision",
+      "narration": "The choice is whether to allow future public campaign financing programs, with potential benefits and public costs. Visit our website for the fuller explanation, sources, and official voter guide. Then make your own informed choice."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Background, rules, fiscal estimate, vote effects; checked October 19",
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=4&year=2026"
+    },
+    {
+      "name": "Attributed arguments; claims distinguished from analysis",
+      "url": "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm"
+    },
+    {
+      "name": "September 4\u201310, likely voters n=1103, margin +/-3.8 points; checked October 19",
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+    },
+    {
+      "name": "September 25 release, field September 15\u201320, Prop4 split sample approx2250, +/-3 points; previously verified in repository polling fact check; current PDF fetch rate-limited. Release listing rechecked October 19.",
+      "url": "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf"
+    }
+  ],
+  "label": "CALIFORNIA 2026 \u00b7 PROP 4",
+  "assets": {
+    "hand": {
+      "path": "asset://ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2.png",
+      "tip": [
+        250,
+        914
+      ]
+    },
+    "family": {
+      "path": "asset://e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab.png"
+    },
+    "construction": {
+      "path": "asset://8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180.png"
+    },
+    "voter": {
+      "path": "asset://1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811.png"
+    },
+    "civic": {
+      "path": "asset://c2186d3e777807fdaccd6fc733505c06dbb57b5e65a5f73c623c062b2e44f7b3.png"
+    },
+    "budget": {
+      "path": "asset://968ff95a8953ed11fa53fba6f2852c0ae49f38108028b1a646b0869ebfcc7035.png"
+    },
+    "medical": {
+      "path": "asset://bf2d9b60f1657fc723a75dac2aa58b843ed0dfc4b1ce721fe8c64e7aa27099df.png"
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "title": "Who pays for campaigns?",
+      "chapter": "The big picture",
+      "start_frame": 0,
+      "frames": 213,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Who pays for campaigns?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 315.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Private donations",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 500,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "people",
+          "x": 855.0,
+          "y": 240,
+          "size": 110,
+          "at": 2.8499999999999996,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Candidate campaign",
+          "x": 640.0,
+          "y": 410,
+          "size": 25,
+          "width": 500,
+          "at": 3.3499999999999996,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "Should public money help pay"
+      }
+    },
+    {
+      "id": "02",
+      "title": "What does public financing mean?",
+      "chapter": "The big picture",
+      "start_frame": 213,
+      "frames": 328,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What does public financing mean?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 315.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Public funds",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 500,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 855.0,
+          "y": 240,
+          "size": 110,
+          "at": 4.766666666666667,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Campaign expenses",
+          "x": 640.0,
+          "y": 410,
+          "size": 25,
+          "width": 500,
+          "at": 5.266666666666667,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "Campaign financing pays for things"
+      }
+    },
+    {
+      "id": "03",
+      "title": "Today: a ban, with exceptions",
+      "chapter": "The big picture",
+      "start_frame": 541,
+      "frames": 330,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Today: a ban, with exceptions",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Most state + local offices: ban",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Some charter cities: exception",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 4.85,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 5.35,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Today, California generally bans that"
+      }
+    },
+    {
+      "id": "04",
+      "title": "Prop 4 opens the door",
+      "chapter": "The big picture",
+      "start_frame": 871,
+      "frames": 277,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Prop 4 opens the door",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Lift the ban",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 2.711111111111111,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Choose a program",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 3.211111111111111,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 5.122222222222222,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Fund it separately",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 5.622222222222222,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "Proposition 4 would let more"
+      }
+    },
+    {
+      "id": "05",
+      "title": "A candidate plans a campaign",
+      "chapter": "An illustrative example",
+      "start_frame": 1148,
+      "frames": 136,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "A candidate plans a campaign",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "Imagine a first -time candidate"
+      }
+    },
+    {
+      "id": "06",
+      "title": "Support still needs a campaign budget",
+      "chapter": "An illustrative example",
+      "start_frame": 1284,
+      "frames": 176,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Support still needs a campaign budget",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "people",
+          "x": 315.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Local supporters",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 500,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 855.0,
+          "y": 240,
+          "size": 110,
+          "at": 2.233333333333333,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Leaflets + ads + staff",
+          "x": 640.0,
+          "y": 410,
+          "size": 25,
+          "width": 500,
+          "at": 2.733333333333333,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "She has local supporters, but"
+      }
+    },
+    {
+      "id": "07",
+      "title": "How matching could work",
+      "chapter": "An illustrative example",
+      "start_frame": 1460,
+      "frames": 343,
+      "source": "Hypothetical matching example. Prop 4 does not set this matching rate.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "How matching could work",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            60,
+            190,
+            450,
+            390
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "$20",
+          "x": 560,
+          "y": 215,
+          "size": 48,
+          "width": 650,
+          "at": 0.2,
+          "duration": 0.45,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "+ $40",
+          "x": 560,
+          "y": 305,
+          "size": 48,
+          "width": 650,
+          "at": 3,
+          "duration": 0.45,
+          "color": "blue"
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                560,
+                390
+              ],
+              [
+                1150,
+                390
+              ]
+            ]
+          ],
+          "at": 5,
+          "duration": 1,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "= $60",
+          "x": 560,
+          "y": 420,
+          "size": 48,
+          "width": 650,
+          "at": 6,
+          "duration": 0.45,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Resident + public match = campaign funds",
+          "x": 560,
+          "y": 525,
+          "size": 22,
+          "width": 650,
+          "at": 6.5,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "A future city program might"
+      }
+    },
+    {
+      "id": "08",
+      "title": "The details would come later",
+      "chapter": "An illustrative example",
+      "start_frame": 1803,
+      "frames": 216,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The details would come later",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Hypothetical amounts only",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "No matching rate set by Prop 4",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 2.95,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 3.45,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Those numbers are illustrative. Proposition"
+      }
+    },
+    {
+      "id": "09",
+      "title": "Reaching voters",
+      "chapter": "An illustrative example",
+      "start_frame": 2019,
+      "frames": 123,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Reaching voters",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "The aim is to help"
+      }
+    },
+    {
+      "id": "10",
+      "title": "Your question: who qualifies?",
+      "chapter": "How it would work",
+      "start_frame": 2142,
+      "frames": 252,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Your question: who qualifies?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 315.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Future program rules",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 500,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 855.0,
+          "y": 240,
+          "size": 110,
+          "at": 3.5,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Eligibility + budget",
+          "x": 640.0,
+          "y": 410,
+          "size": 25,
+          "width": 500,
+          "at": 4.0,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "You might ask who qualifies"
+      }
+    },
+    {
+      "id": "11",
+      "title": "Rules for participating candidates",
+      "chapter": "How it would work",
+      "start_frame": 2394,
+      "frames": 346,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Rules for participating candidates",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Show broad local support",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Accept spending limits",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 3.5277777777777777,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 4.027777777777778,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Restricted uses of public funds",
+          "x": 680,
+          "y": 464,
+          "size": 28,
+          "width": 530,
+          "at": 6.705555555555555,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                515
+              ],
+              [
+                1170,
+                515
+              ]
+            ]
+          ],
+          "at": 7.205555555555555,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Candidates would have to demonstrate"
+      }
+    },
+    {
+      "id": "12",
+      "title": "Where could the money come from?",
+      "chapter": "How it would work",
+      "start_frame": 2740,
+      "frames": 330,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Where could the money come from?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Protected earmarks cannot fund campaigns",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                288
+              ],
+              [
+                1170,
+                288
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Other public funds have competing uses",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 4.85,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                420
+              ],
+              [
+                1170,
+                420
+              ]
+            ]
+          ],
+          "at": 5.35,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Funds reserved for education, transportation,"
+      }
+    },
+    {
+      "id": "13",
+      "title": "Two different kinds of cost",
+      "chapter": "How it would work",
+      "start_frame": 3070,
+      "frames": 340,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Two different kinds of cost",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Guidance: a few hundred thousand dollars/year",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                288
+              ],
+              [
+                1170,
+                288
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Future programs: additional, unknown cost",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 5.016666666666667,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                420
+              ],
+              [
+                1170,
+                420
+              ]
+            ]
+          ],
+          "at": 5.516666666666667,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "The state estimates a few"
+      }
+    },
+    {
+      "id": "14",
+      "title": "The case for YES",
+      "chapter": "Why someone might vote yes",
+      "start_frame": 3410,
+      "frames": 257,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The case for YES",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Help more candidates compete",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Strengthen small donors",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 3.6333333333333333,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 4.133333333333333,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "A voter favoring reform might"
+      }
+    },
+    {
+      "id": "15",
+      "title": "A potential benefit, not a guarantee",
+      "chapter": "Why someone might vote yes",
+      "start_frame": 3667,
+      "frames": 404,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "A potential benefit, not a guarantee",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Small donations",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 4.122222222222223,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Public matching",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 4.622222222222223,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "people",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 7.944444444444445,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Less reliance on big donors?",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 8.444444444444445,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "Supporters hope matching donations would"
+      }
+    },
+    {
+      "id": "16",
+      "title": "Your question: is this worth paying for?",
+      "chapter": "Why someone might vote no",
+      "start_frame": 4071,
+      "frames": 151,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Your question: is this worth paying for?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "Another voter might ask, should"
+      }
+    },
+    {
+      "id": "17",
+      "title": "The case for NO",
+      "chapter": "Why someone might vote no",
+      "start_frame": 4222,
+      "frames": 319,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The case for NO",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Taxpayer funding of political speech",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Other priorities for public money",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 3.227777777777778,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 3.727777777777778,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Future budgets remain undecided",
+          "x": 680,
+          "y": 464,
+          "size": 28,
+          "width": 530,
+          "at": 6.105555555555555,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                515
+              ],
+              [
+                1170,
+                515
+              ]
+            ]
+          ],
+          "at": 6.605555555555555,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "They may dislike funding candidates"
+      }
+    },
+    {
+      "id": "18",
+      "title": "What would NO preserve?",
+      "chapter": "Why someone might vote no",
+      "start_frame": 4541,
+      "frames": 261,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What would NO preserve?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Keep the general ban",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Keep existing exceptions",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 3.6999999999999997,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 4.199999999999999,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Public financing also does not"
+      }
+    },
+    {
+      "id": "19",
+      "title": "September polling: PPIC",
+      "chapter": "What polling indicates",
+      "start_frame": 4802,
+      "frames": 308,
+      "source": "September snapshots, not a live average or prediction. Searches on October19 found no newer verified Prop4 topline.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "September polling: PPIC",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "text",
+          "text": "YES \u00b7 42%",
+          "x": 100,
+          "y": 200,
+          "size": 25,
+          "width": 1080,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            266,
+            1080,
+            25
+          ],
+          "value": 42.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "NO \u00b7 53%",
+          "x": 100,
+          "y": 312,
+          "size": 25,
+          "width": 1080,
+          "at": 2.9222222222222225,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            378,
+            1080,
+            25
+          ],
+          "value": 53.0,
+          "maximum": 100,
+          "color": "coral",
+          "at": 3.3222222222222224,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "UNDECIDED \u00b7 5%",
+          "x": 100,
+          "y": 424,
+          "size": 25,
+          "width": 1080,
+          "at": 5.344444444444445,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            490,
+            1080,
+            25
+          ],
+          "value": 5.0,
+          "maximum": 100,
+          "color": "gold",
+          "at": 5.744444444444445,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Dated survey snapshot, not votes cast. Rounded figures may not total 100%.",
+          "x": 100,
+          "y": 570,
+          "size": 21,
+          "width": 1080,
+          "at": 8,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "What do polls show? In"
+      }
+    },
+    {
+      "id": "20",
+      "title": "September polling: Berkeley IGS",
+      "chapter": "What polling indicates",
+      "start_frame": 5110,
+      "frames": 374,
+      "source": "September snapshots, not a live average or prediction. Searches on October19 found no newer verified Prop4 topline.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "September polling: Berkeley IGS",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "text",
+          "text": "YES \u00b7 35%",
+          "x": 100,
+          "y": 200,
+          "size": 25,
+          "width": 1080,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            266,
+            1080,
+            25
+          ],
+          "value": 35.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "NO \u00b7 35%",
+          "x": 100,
+          "y": 312,
+          "size": 25,
+          "width": 1080,
+          "at": 3.6555555555555554,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            378,
+            1080,
+            25
+          ],
+          "value": 35.0,
+          "maximum": 100,
+          "color": "coral",
+          "at": 4.055555555555555,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "UNDECIDED \u00b7 30%",
+          "x": 100,
+          "y": 424,
+          "size": 25,
+          "width": 1080,
+          "at": 6.811111111111111,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            490,
+            1080,
+            25
+          ],
+          "value": 30.0,
+          "maximum": 100,
+          "color": "gold",
+          "at": 7.211111111111111,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Dated survey snapshot, not votes cast. Rounded figures may not total 100%.",
+          "x": 100,
+          "y": 570,
+          "size": 21,
+          "width": 1080,
+          "at": 8,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "A later September Berkeley poll"
+      }
+    },
+    {
+      "id": "21",
+      "title": "Explore the full explanation",
+      "chapter": "Make your own decision",
+      "start_frame": 5484,
+      "frames": 479,
+      "source": "Visit the website and official voter guide before making your decision",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Explore the full explanation",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            50,
+            200,
+            540,
+            400
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Read the explanation and sources",
+          "x": 650,
+          "y": 205,
+          "size": 28,
+          "width": 560,
+          "at": 0.2,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "Compare the trade-offs",
+          "x": 650,
+          "y": 315,
+          "size": 28,
+          "width": 560,
+          "at": 2,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                650,
+                380
+              ],
+              [
+                1170,
+                380
+              ]
+            ]
+          ],
+          "at": 3,
+          "duration": 1,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "educational-explainers.github.io",
+          "x": 600,
+          "y": 455,
+          "size": 25,
+          "width": 650,
+          "at": 1,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "/ca-2026-ballot/",
+          "x": 600,
+          "y": 505,
+          "size": 29,
+          "width": 650,
+          "at": 1,
+          "duration": 0.45,
+          "color": "teal"
+        }
+      ],
+      "anchor": {
+        "phrase": "The choice is whether to"
+      }
+    }
+  ],
+  "pencil_gain_db": 16,
+  "captions_srt": "captions.srt",
+  "captions_vtt": "captions.vtt"
+}

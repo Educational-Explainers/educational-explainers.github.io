@@ -1,0 +1,403 @@
+{
+  "number": 1,
+  "version": 2,
+  "title": "Housing bonds: what would the money buy?",
+  "voice": "am_michael",
+  "speed": 1.04,
+  "checked": "2026-10-19",
+  "sections": [
+    {
+      "name": "The big picture",
+      "shots": [
+        {
+          "narration": "Proposition one asks whether California should borrow money for housing. A bond supplies money now, while repayments and interest stretch across future budgets.",
+          "headline": "Build now, repay over time",
+          "kind": "flow",
+          "items": [
+            "Borrow from investors",
+            "Fund housing",
+            "Repay with interest"
+          ]
+        },
+        {
+          "narration": "Some affordable housing already receives public grants or low-cost loans. Developers combine that assistance with other financing, usually in exchange for keeping homes affordable to eligible households.",
+          "headline": "Why subsidize construction?",
+          "kind": "flow",
+          "items": [
+            "Public subsidy",
+            "Housing project",
+            "Income-restricted homes"
+          ]
+        },
+        {
+          "narration": "This measure authorizes eleven point two five billion dollars: ten billion for housing programs, and one point two five billion for veterans’ home loans. Those two portions have different repayment sources.",
+          "headline": "Two funding streams",
+          "kind": "bars",
+          "items": [
+            10,
+            1.25
+          ],
+          "labels": [
+            "$10B housing programs",
+            "$1.25B veteran loans"
+          ],
+          "unit": "$ billions"
+        }
+      ]
+    },
+    {
+      "name": "An illustrative example",
+      "shots": [
+        {
+          "narration": "Imagine a renter looking for an affordable apartment.",
+          "headline": "A renter searches for a home",
+          "kind": "art",
+          "items": [
+            0
+          ]
+        },
+        {
+          "narration": "An apartment project might have land and a builder but still need cheaper financing to offer below-market rents. A public loan can help close that gap. This illustrates the mechanism, not a guarantee of a particular rent.",
+          "headline": "How a subsidy could help",
+          "kind": "flow",
+          "items": [
+            "Project financing gap",
+            "Low-cost public loan",
+            "Restricted-rent apartments"
+          ]
+        },
+        {
+          "narration": "A housing counselor explains the available programs.",
+          "headline": "Different households, different programs",
+          "kind": "art",
+          "items": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "How it would work",
+      "shots": [
+        {
+          "narration": "The largest allocation is seven point two billion dollars to acquire, build, or renovate multifamily rental housing. Projects generally reserve units for lower-income households for fifty-five years.",
+          "headline": "Most funding supports rental housing",
+          "kind": "cards",
+          "items": [
+            "$7.2B for multifamily housing",
+            "Generally 55 years of affordability restrictions"
+          ]
+        },
+        {
+          "narration": "Other allocations support homeownership, infrastructure, farmworker housing, student housing, and tribal housing. Eligibility depends on the particular program; passing the bond does not give every applicant a home.",
+          "headline": "Several programs, separate eligibility",
+          "kind": "cards",
+          "items": [
+            "Homeownership + infrastructure",
+            "Farmworker, student and tribal housing"
+          ]
+        },
+        {
+          "narration": "The analyst estimates subsidies for up to forty thousand multifamily units. That includes housing acquired or renovated, so it is not a promise of forty thousand additional newly built homes.",
+          "headline": "What the estimate means",
+          "kind": "cards",
+          "items": [
+            "Up to 40,000 multifamily units assisted",
+            "Acquisition and renovation count too"
+          ]
+        },
+        {
+          "narration": "The General Fund would repay the housing portion at about five hundred to six hundred million dollars a year for roughly twenty-five years. Veterans’ loan payments would repay their separate bond portion.",
+          "headline": "Who repays the borrowing?",
+          "kind": "cards",
+          "items": [
+            "Housing: $500–600M/year for about 25 years",
+            "Veteran loans: borrower repayments"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote yes",
+      "shots": [
+        {
+          "narration": "A voter might support financing affordable homes sooner rather than waiting for enough money in annual budgets. Supporting construction and preserving restricted rents can help specific households even when the broader market remains expensive.",
+          "headline": "The case for YES",
+          "kind": "cards",
+          "items": [
+            "Invest in affordable housing sooner",
+            "Build or preserve income-restricted homes"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote no",
+      "shots": [
+        {
+          "narration": "You might ask whether the long commitment is worthwhile.",
+          "headline": "Your question: is this worth the debt?",
+          "kind": "art",
+          "items": [
+            2
+          ]
+        },
+        {
+          "narration": "A skeptical voter could prefer paying as funds become available, or addressing permitting and construction costs first. Interest adds expense, and future repayments compete with other services. Money alone does not remove every obstacle to building.",
+          "headline": "The case for NO",
+          "kind": "cards",
+          "items": [
+            "Debt and interest constrain future budgets",
+            "Construction barriers can remain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "What polling indicates",
+      "shots": [
+        {
+          "narration": "In the September PPIC survey of likely voters, 55 percent said yes, 43 percent no, and 2 percent were unsure. These are dated survey results, not votes already cast.",
+          "headline": "September snapshot: PPIC",
+          "kind": "poll",
+          "items": [
+            55,
+            43,
+            2
+          ],
+          "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points"
+        }
+      ]
+    },
+    {
+      "name": "Make your own decision",
+      "shots": [
+        {
+          "narration": "Yes authorizes this borrowing; no rejects this bond, while existing housing programs continue. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+          "headline": "Explore the full explanation",
+          "kind": "cta",
+          "items": [
+            "educational-explainers.github.io",
+            "/ca-2026-ballot/"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=1&year=2026",
+      "use": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026."
+    },
+    {
+      "url": "https://voterguide.sos.ca.gov/propositions/1/",
+      "use": "Official voter guide, measure text and attributed campaign arguments."
+    },
+    {
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "use": "September likely-voter results, original published values retained including rounding."
+    }
+  ],
+  "polling_note": "Selected verified surveys available at the October 19 research check; dates shown explicitly. Not a polling average or forecast. Rounded percentages may total 99 or 101. Other polls may differ.",
+  "editorial_note": "Illustrative characters and calculations are not real testimonials or guaranteed outcomes. Voter considerations describe reasons for either choice, not recommendations.",
+  "shots": [
+    {
+      "narration": "Proposition one asks whether California should borrow money for housing. A bond supplies money now, while repayments and interest stretch across future budgets.",
+      "headline": "Build now, repay over time",
+      "kind": "flow",
+      "items": [
+        "Borrow from investors",
+        "Fund housing",
+        "Repay with interest"
+      ],
+      "frames": 326,
+      "start_frame": 0,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Some affordable housing already receives public grants or low-cost loans. Developers combine that assistance with other financing, usually in exchange for keeping homes affordable to eligible households.",
+      "headline": "Why subsidize construction?",
+      "kind": "flow",
+      "items": [
+        "Public subsidy",
+        "Housing project",
+        "Income-restricted homes"
+      ],
+      "frames": 403,
+      "start_frame": 326,
+      "section": "The big picture"
+    },
+    {
+      "narration": "This measure authorizes eleven point two five billion dollars: ten billion for housing programs, and one point two five billion for veterans’ home loans. Those two portions have different repayment sources.",
+      "headline": "Two funding streams",
+      "kind": "bars",
+      "items": [
+        10,
+        1.25
+      ],
+      "labels": [
+        "$10B housing programs",
+        "$1.25B veteran loans"
+      ],
+      "unit": "$ billions",
+      "frames": 448,
+      "start_frame": 729,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Imagine a renter looking for an affordable apartment.",
+      "headline": "A renter searches for a home",
+      "kind": "art",
+      "items": [
+        0
+      ],
+      "frames": 108,
+      "start_frame": 1177,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "An apartment project might have land and a builder but still need cheaper financing to offer below-market rents. A public loan can help close that gap. This illustrates the mechanism, not a guarantee of a particular rent.",
+      "headline": "How a subsidy could help",
+      "kind": "flow",
+      "items": [
+        "Project financing gap",
+        "Low-cost public loan",
+        "Restricted-rent apartments"
+      ],
+      "frames": 433,
+      "start_frame": 1285,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "A housing counselor explains the available programs.",
+      "headline": "Different households, different programs",
+      "kind": "art",
+      "items": [
+        1
+      ],
+      "frames": 112,
+      "start_frame": 1718,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "The largest allocation is seven point two billion dollars to acquire, build, or renovate multifamily rental housing. Projects generally reserve units for lower-income households for fifty-five years.",
+      "headline": "Most funding supports rental housing",
+      "kind": "cards",
+      "items": [
+        "$7.2B for multifamily housing",
+        "Generally 55 years of affordability restrictions"
+      ],
+      "frames": 398,
+      "start_frame": 1830,
+      "section": "How it would work"
+    },
+    {
+      "narration": "Other allocations support homeownership, infrastructure, farmworker housing, student housing, and tribal housing. Eligibility depends on the particular program; passing the bond does not give every applicant a home.",
+      "headline": "Several programs, separate eligibility",
+      "kind": "cards",
+      "items": [
+        "Homeownership + infrastructure",
+        "Farmworker, student and tribal housing"
+      ],
+      "frames": 403,
+      "start_frame": 2228,
+      "section": "How it would work"
+    },
+    {
+      "narration": "The analyst estimates subsidies for up to forty thousand multifamily units. That includes housing acquired or renovated, so it is not a promise of forty thousand additional newly built homes.",
+      "headline": "What the estimate means",
+      "kind": "cards",
+      "items": [
+        "Up to 40,000 multifamily units assisted",
+        "Acquisition and renovation count too"
+      ],
+      "frames": 407,
+      "start_frame": 2631,
+      "section": "How it would work"
+    },
+    {
+      "narration": "The General Fund would repay the housing portion at about five hundred to six hundred million dollars a year for roughly twenty-five years. Veterans’ loan payments would repay their separate bond portion.",
+      "headline": "Who repays the borrowing?",
+      "kind": "cards",
+      "items": [
+        "Housing: $500–600M/year for about 25 years",
+        "Veteran loans: borrower repayments"
+      ],
+      "frames": 373,
+      "start_frame": 3038,
+      "section": "How it would work"
+    },
+    {
+      "narration": "A voter might support financing affordable homes sooner rather than waiting for enough money in annual budgets. Supporting construction and preserving restricted rents can help specific households even when the broader market remains expensive.",
+      "headline": "The case for YES",
+      "kind": "cards",
+      "items": [
+        "Invest in affordable housing sooner",
+        "Build or preserve income-restricted homes"
+      ],
+      "frames": 478,
+      "start_frame": 3411,
+      "section": "Why someone might vote yes"
+    },
+    {
+      "narration": "You might ask whether the long commitment is worthwhile.",
+      "headline": "Your question: is this worth the debt?",
+      "kind": "art",
+      "items": [
+        2
+      ],
+      "frames": 109,
+      "start_frame": 3889,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "A skeptical voter could prefer paying as funds become available, or addressing permitting and construction costs first. Interest adds expense, and future repayments compete with other services. Money alone does not remove every obstacle to building.",
+      "headline": "The case for NO",
+      "kind": "cards",
+      "items": [
+        "Debt and interest constrain future budgets",
+        "Construction barriers can remain"
+      ],
+      "frames": 509,
+      "start_frame": 3998,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "In the September PPIC survey of likely voters, 55 percent said yes, 43 percent no, and 2 percent were unsure. These are dated survey results, not votes already cast.",
+      "headline": "September snapshot: PPIC",
+      "kind": "poll",
+      "items": [
+        55,
+        43,
+        2
+      ],
+      "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points",
+      "frames": 399,
+      "start_frame": 4507,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "Yes authorizes this borrowing; no rejects this bond, while existing housing programs continue. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+      "headline": "Explore the full explanation",
+      "kind": "cta",
+      "items": [
+        "educational-explainers.github.io",
+        "/ca-2026-ballot/"
+      ],
+      "frames": 500,
+      "start_frame": 4906,
+      "section": "Make your own decision"
+    }
+  ],
+  "frames": 5406,
+  "seconds": 180.2,
+  "alignment": [
+    0.9012345679012346,
+    0.9807692307692307,
+    0.9145299145299145,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

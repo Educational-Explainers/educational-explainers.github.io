@@ -1,0 +1,28 @@
+{
+  "explainer.mp4": {
+    "frames": 5454,
+    "video_duration": "181.806315",
+    "audio_duration": "181.800000",
+    "decode": "passed"
+  },
+  "narration-only.mp4": {
+    "frames": 5454,
+    "video_duration": "181.806315",
+    "audio_duration": "181.800000",
+    "decode": "passed"
+  },
+  "audio": {
+    "narration_sha256": "0965292cb0f50e0d94fcbeef9372ee30a5f32fb48398d2ea744fe8f9ec020a60",
+    "sample_count": 4363200,
+    "additive_mix_error": 0.0,
+    "mix_peak_dbfs": -1.672734260559082,
+    "pencil_active_seconds": 14.5,
+    "policy": "continuous narration; no fades, auto-leveling, or ducking"
+  },
+  "manifest": {
+    "scenes": 14,
+    "frames": 5454,
+    "seconds": 181.8,
+    "valid": true
+  }
+}

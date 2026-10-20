@@ -1,0 +1,361 @@
+{
+  "number": 38,
+  "version": 2,
+  "title": "Medical research bonds: potential discoveries, certain debt?",
+  "voice": "am_michael",
+  "speed": 1.04,
+  "checked": "2026-10-19",
+  "sections": [
+    {
+      "name": "The big picture",
+      "shots": [
+        {
+          "narration": "Proposition thirty-eight asks California to borrow eight point four billion dollars for immunology and immunotherapy research. Immunology studies the immune system; immunotherapy aims to use it to fight disease. This funds research, not a guaranteed new treatment.",
+          "headline": "Research is a process, not a promised cure",
+          "kind": "flow",
+          "items": [
+            "Understand the immune system",
+            "Develop and test treatments",
+            "Regulatory review"
+          ]
+        },
+        {
+          "narration": "Universities, businesses, and governments already fund medical research. Many projects never become approved treatments. A research bond supplies money now, while the state repays the borrowing with interest over time.",
+          "headline": "Why the timing matters",
+          "kind": "flow",
+          "items": [
+            "Borrow now",
+            "Research over time",
+            "Repay regardless of discoveries"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "An illustrative example",
+      "shots": [
+        {
+          "narration": "Imagine a scientist studying immune cells.",
+          "headline": "From a research question to an experiment",
+          "kind": "art",
+          "items": [
+            0
+          ]
+        },
+        {
+          "narration": "A promising laboratory result still needs testing for safety and effectiveness. Some ideas fail, and successful ones can take years. Funding more work can create opportunities without letting anyone honestly promise when a patient will benefit.",
+          "headline": "A discovery must clear several hurdles",
+          "kind": "flow",
+          "items": [
+            "Laboratory idea",
+            "Clinical testing",
+            "Possible treatment"
+          ]
+        },
+        {
+          "narration": "Research teams need facilities, people, and sustained funding.",
+          "headline": "Funding supports the work behind discovery",
+          "kind": "art",
+          "items": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "How it would work",
+      "shots": [
+        {
+          "narration": "About half the money would go to one qualifying research institute selected by the state. The other half would support competitive grants through a council of research institutions. Reporting and financial audits are required.",
+          "headline": "Two major funding channels",
+          "kind": "split",
+          "items": [
+            50,
+            50
+          ],
+          "labels": [
+            "About half: selected institute",
+            "About half: research grants"
+          ]
+        },
+        {
+          "narration": "At least four point two billion dollars must support research on cancer, heart disease, and Alzheimer’s disease. Treatments developed with the funding generally must be offered at a twenty percent discount in California. A discount matters only if a treatment reaches patients.",
+          "headline": "Research priorities and a conditional benefit",
+          "kind": "cards",
+          "items": [
+            "At least $4.2B for specified disease research",
+            "Generally 20% California treatment discount"
+          ]
+        },
+        {
+          "narration": "The analyst estimates five hundred to six hundred million dollars a year in General Fund repayments for about twenty years. Revenue from discoveries could offset costs, but its amount and timing are uncertain and could take decades.",
+          "headline": "Repayments are not conditional on success",
+          "kind": "cards",
+          "items": [
+            "$500–600M/year for about 20 years",
+            "Discovery revenue: uncertain amount and timing"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote yes",
+      "shots": [
+        {
+          "narration": "A voter might see long-term public research as worth supporting even when returns are uncertain. Discoveries could improve lives and build scientific capacity. They may accept borrowing because waiting for annual funding also has an opportunity cost.",
+          "headline": "The case for YES",
+          "kind": "cards",
+          "items": [
+            "Support long-term scientific work",
+            "Potential patient and research benefits"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote no",
+      "shots": [
+        {
+          "narration": "You might ask whether this is the best research investment.",
+          "headline": "Your question: how should funding be chosen?",
+          "kind": "art",
+          "items": [
+            2
+          ]
+        },
+        {
+          "narration": "Another voter could object to the debt, the concentration of funding in one institute, or committing money before knowing results. They might favor broader competition or other health priorities. The possibility of royalties should not be treated as a promise that the bond pays for itself.",
+          "headline": "The case for NO",
+          "kind": "cards",
+          "items": [
+            "Debt competes with other priorities",
+            "Question concentrated allocations",
+            "Royalties may not cover repayments"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "What polling indicates",
+      "shots": [
+        {
+          "narration": "In the September PPIC survey of likely voters, 55 percent said yes, 42 percent no, and 3 percent were unsure. These are dated survey results, not votes already cast.",
+          "headline": "September snapshot: PPIC",
+          "kind": "poll",
+          "items": [
+            55,
+            42,
+            3
+          ],
+          "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points"
+        }
+      ]
+    },
+    {
+      "name": "Make your own decision",
+      "shots": [
+        {
+          "narration": "Yes authorizes this research borrowing; no rejects this bond without ending existing medical research. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+          "headline": "Explore the full explanation",
+          "kind": "cta",
+          "items": [
+            "educational-explainers.github.io",
+            "/ca-2026-ballot/"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=38&year=2026",
+      "use": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026."
+    },
+    {
+      "url": "https://voterguide.sos.ca.gov/propositions/38/",
+      "use": "Official voter guide, measure text and attributed campaign arguments."
+    },
+    {
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "use": "September likely-voter results, original published values retained including rounding."
+    }
+  ],
+  "polling_note": "Selected verified surveys available at the October 19 research check; dates shown explicitly. Not a polling average or forecast. Rounded percentages may total 99 or 101. Other polls may differ.",
+  "editorial_note": "Illustrative characters and calculations are not real testimonials or guaranteed outcomes. Voter considerations describe reasons for either choice, not recommendations.",
+  "shots": [
+    {
+      "narration": "Proposition thirty-eight asks California to borrow eight point four billion dollars for immunology and immunotherapy research. Immunology studies the immune system; immunotherapy aims to use it to fight disease. This funds research, not a guaranteed new treatment.",
+      "headline": "Research is a process, not a promised cure",
+      "kind": "flow",
+      "items": [
+        "Understand the immune system",
+        "Develop and test treatments",
+        "Regulatory review"
+      ],
+      "frames": 584,
+      "start_frame": 0,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Universities, businesses, and governments already fund medical research. Many projects never become approved treatments. A research bond supplies money now, while the state repays the borrowing with interest over time.",
+      "headline": "Why the timing matters",
+      "kind": "flow",
+      "items": [
+        "Borrow now",
+        "Research over time",
+        "Repay regardless of discoveries"
+      ],
+      "frames": 427,
+      "start_frame": 584,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Imagine a scientist studying immune cells.",
+      "headline": "From a research question to an experiment",
+      "kind": "art",
+      "items": [
+        0
+      ],
+      "frames": 104,
+      "start_frame": 1011,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "A promising laboratory result still needs testing for safety and effectiveness. Some ideas fail, and successful ones can take years. Funding more work can create opportunities without letting anyone honestly promise when a patient will benefit.",
+      "headline": "A discovery must clear several hurdles",
+      "kind": "flow",
+      "items": [
+        "Laboratory idea",
+        "Clinical testing",
+        "Possible treatment"
+      ],
+      "frames": 479,
+      "start_frame": 1115,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "Research teams need facilities, people, and sustained funding.",
+      "headline": "Funding supports the work behind discovery",
+      "kind": "art",
+      "items": [
+        1
+      ],
+      "frames": 123,
+      "start_frame": 1594,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "About half the money would go to one qualifying research institute selected by the state. The other half would support competitive grants through a council of research institutions. Reporting and financial audits are required.",
+      "headline": "Two major funding channels",
+      "kind": "split",
+      "items": [
+        50,
+        50
+      ],
+      "labels": [
+        "About half: selected institute",
+        "About half: research grants"
+      ],
+      "frames": 421,
+      "start_frame": 1717,
+      "section": "How it would work"
+    },
+    {
+      "narration": "At least four point two billion dollars must support research on cancer, heart disease, and Alzheimer’s disease. Treatments developed with the funding generally must be offered at a twenty percent discount in California. A discount matters only if a treatment reaches patients.",
+      "headline": "Research priorities and a conditional benefit",
+      "kind": "cards",
+      "items": [
+        "At least $4.2B for specified disease research",
+        "Generally 20% California treatment discount"
+      ],
+      "frames": 538,
+      "start_frame": 2138,
+      "section": "How it would work"
+    },
+    {
+      "narration": "The analyst estimates five hundred to six hundred million dollars a year in General Fund repayments for about twenty years. Revenue from discoveries could offset costs, but its amount and timing are uncertain and could take decades.",
+      "headline": "Repayments are not conditional on success",
+      "kind": "cards",
+      "items": [
+        "$500–600M/year for about 20 years",
+        "Discovery revenue: uncertain amount and timing"
+      ],
+      "frames": 438,
+      "start_frame": 2676,
+      "section": "How it would work"
+    },
+    {
+      "narration": "A voter might see long-term public research as worth supporting even when returns are uncertain. Discoveries could improve lives and build scientific capacity. They may accept borrowing because waiting for annual funding also has an opportunity cost.",
+      "headline": "The case for YES",
+      "kind": "cards",
+      "items": [
+        "Support long-term scientific work",
+        "Potential patient and research benefits"
+      ],
+      "frames": 516,
+      "start_frame": 3114,
+      "section": "Why someone might vote yes"
+    },
+    {
+      "narration": "You might ask whether this is the best research investment.",
+      "headline": "Your question: how should funding be chosen?",
+      "kind": "art",
+      "items": [
+        2
+      ],
+      "frames": 119,
+      "start_frame": 3630,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "Another voter could object to the debt, the concentration of funding in one institute, or committing money before knowing results. They might favor broader competition or other health priorities. The possibility of royalties should not be treated as a promise that the bond pays for itself.",
+      "headline": "The case for NO",
+      "kind": "cards",
+      "items": [
+        "Debt competes with other priorities",
+        "Question concentrated allocations",
+        "Royalties may not cover repayments"
+      ],
+      "frames": 557,
+      "start_frame": 3749,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "In the September PPIC survey of likely voters, 55 percent said yes, 42 percent no, and 3 percent were unsure. These are dated survey results, not votes already cast.",
+      "headline": "September snapshot: PPIC",
+      "kind": "poll",
+      "items": [
+        55,
+        42,
+        3
+      ],
+      "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points",
+      "frames": 401,
+      "start_frame": 4306,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "Yes authorizes this research borrowing; no rejects this bond without ending existing medical research. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+      "headline": "Explore the full explanation",
+      "kind": "cta",
+      "items": [
+        "educational-explainers.github.io",
+        "/ca-2026-ballot/"
+      ],
+      "frames": 514,
+      "start_frame": 4707,
+      "section": "Make your own decision"
+    }
+  ],
+  "frames": 5221,
+  "seconds": 174.03333333333333,
+  "alignment": [
+    0.9701492537313433,
+    0.98,
+    0.9380530973451328,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

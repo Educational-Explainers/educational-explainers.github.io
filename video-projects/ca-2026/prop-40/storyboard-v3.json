@@ -1,0 +1,459 @@
+{
+  "number": 40,
+  "version": 2,
+  "title": "The billionaire wealth tax: what is taxed and where does it go?",
+  "voice": "am_michael",
+  "speed": 1.04,
+  "checked": "2026-10-19",
+  "sections": [
+    {
+      "name": "The big picture",
+      "shots": [
+        {
+          "narration": "Proposition forty proposes a one-time tax on very large fortunes. Wealth means assets minus debts; income means earnings over a period. A person can own valuable company shares without receiving that value as cash income that year.",
+          "headline": "Wealth is a stock; income is a flow",
+          "kind": "flow",
+          "items": [
+            "Assets minus debts",
+            "Net worth",
+            "Different from annual earnings"
+          ]
+        },
+        {
+          "narration": "The proposal reaches up to five percent of covered net worth for certain billionaires tied to California residency on January first, twenty twenty-six. It is not simply five percent of the amount above one billion dollars.",
+          "headline": "What is the tax base?",
+          "kind": "cards",
+          "items": [
+            "Covered net worth, not just the excess over $1B",
+            "Residency tied to January 1, 2026"
+          ]
+        },
+        {
+          "narration": "Real estate and some retirement assets are generally excluded. Payment is due in twenty twenty-seven, with a more expensive option to spread payments across five years. The detailed valuation and threshold rules matter.",
+          "headline": "Coverage and payment timing",
+          "kind": "cards",
+          "items": [
+            "Exclusions and detailed valuation rules",
+            "Due 2027; installment option costs more"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "An illustrative example",
+      "shots": [
+        {
+          "narration": "Imagine a clinic planning services that need reliable funding.",
+          "headline": "A temporary source for public services",
+          "kind": "art",
+          "items": [
+            0
+          ]
+        },
+        {
+          "narration": "If a hypothetical taxpayer has two billion dollars of covered taxable wealth and the full five percent rate applies, the tax is one hundred million dollars. That is an illustration, not the calculation for every billionaire.",
+          "headline": "Illustrating the full rate",
+          "kind": "formula",
+          "items": [
+            "$2 billion × 5%",
+            "$100 million",
+            "Hypothetical covered wealth; full rate assumed"
+          ]
+        },
+        {
+          "narration": "A budget planner considers how long new money lasts.",
+          "headline": "One-time money and ongoing needs",
+          "kind": "art",
+          "items": [
+            1
+          ]
+        },
+        {
+          "narration": "Ninety percent of revenue is directed to health care; the remainder supports education, food assistance, and administration. A one-time collection spread over years still does not become a permanent annual revenue stream.",
+          "headline": "Where the revenue would go",
+          "kind": "split",
+          "items": [
+            90,
+            10
+          ],
+          "labels": [
+            "90%: health care",
+            "10%: other specified uses"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "How it would work",
+      "shots": [
+        {
+          "narration": "The analyst expects temporary revenue totaling tens of billions, but the amount is hard to predict. Asset values, taxpayer responses, collection, and legal challenges create uncertainty. Administration could cost tens of millions annually for several years.",
+          "headline": "Large potential revenue; uncertain collections",
+          "kind": "cards",
+          "items": [
+            "Tens of billions over several years",
+            "Valuation and taxpayer responses matter"
+          ]
+        },
+        {
+          "narration": "There could also be an ongoing income-tax loss if wealthy residents change their behavior or leave. The analyst estimates that possible loss at less than one billion dollars per year. It is a different effect from the one-time wealth-tax revenue.",
+          "headline": "Separate the temporary gain from ongoing effects",
+          "kind": "cards",
+          "items": [
+            "Temporary wealth-tax revenue",
+            "Possible ongoing income-tax loss: less than $1B/year"
+          ]
+        },
+        {
+          "narration": "Props forty-one and forty-two could block this measure if a conflicting measure passes with more yes votes. The legal interaction could require court interpretation. Passing fifty percent is therefore not the only issue to watch.",
+          "headline": "The ballot measures can interact",
+          "kind": "flow",
+          "items": [
+            "Does Prop 40 pass?",
+            "Do rivals pass with more YES votes?",
+            "Potential legal conflict"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote yes",
+      "shots": [
+        {
+          "narration": "A voter might see concentrated wealth as a source of funding for health care and other needs without broadly raising taxes. They may judge a temporary infusion worthwhile, even though it cannot solve every long-term funding problem.",
+          "headline": "The case for YES",
+          "kind": "cards",
+          "items": [
+            "Raise substantial funding from a small group",
+            "Support health care and other specified needs"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote no",
+      "shots": [
+        {
+          "narration": "You might question the economic and legal consequences.",
+          "headline": "Your question: what are the wider effects?",
+          "kind": "art",
+          "items": [
+            2
+          ]
+        },
+        {
+          "narration": "Another voter could object to taxing assets that are hard to sell or value, the residency date, or risks to investment and future tax receipts. They may prefer recurring funding with fewer collection uncertainties. These concerns do not establish that every dollar of projected revenue disappears.",
+          "headline": "The case for NO",
+          "kind": "cards",
+          "items": [
+            "Valuation, liquidity and legal concerns",
+            "Possible investment and revenue effects"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "What polling indicates",
+      "shots": [
+        {
+          "narration": "In the September PPIC survey of likely voters, 52 percent said yes, 46 percent no, and 2 percent were unsure. These are dated survey results, not votes already cast.",
+          "headline": "September snapshot: PPIC",
+          "kind": "poll",
+          "items": [
+            52,
+            46,
+            2
+          ],
+          "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points"
+        },
+        {
+          "narration": "A later September Berkeley survey found 45 percent yes, 42 percent no, and 13 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend.",
+          "headline": "September snapshot: Berkeley IGS",
+          "kind": "poll",
+          "items": [
+            45,
+            42,
+            13
+          ],
+          "poll_note": "Berkeley IGS · Sept 15–20, 2026 · likely voters · about ±2 points"
+        },
+        {
+          "narration": "The Independent Voter Project survey ending October second found 38 percent yes and 42 percent no. Its methods and wording differ again. The disagreement is a reason for caution, not a reason to declare a winner.",
+          "headline": "A newer, different survey",
+          "kind": "poll",
+          "items": [
+            38,
+            42,
+            21
+          ],
+          "poll_note": "IVP · Sept 23–Oct 2, 2026 · likely voters · ±2.5 points"
+        }
+      ]
+    },
+    {
+      "name": "Make your own decision",
+      "shots": [
+        {
+          "narration": "Yes adopts the proposed tax, subject to the legal outcome; no rejects this one-time levy. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+          "headline": "Explore the full explanation",
+          "kind": "cta",
+          "items": [
+            "educational-explainers.github.io",
+            "/ca-2026-ballot/"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=40&year=2026",
+      "use": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026."
+    },
+    {
+      "url": "https://voterguide.sos.ca.gov/propositions/40/",
+      "use": "Official voter guide, measure text and attributed campaign arguments."
+    },
+    {
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "use": "September likely-voter results, original published values retained including rounding."
+    },
+    {
+      "url": "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf",
+      "use": "September 25 release; original previously verified in repository polling fact check. Current PDF fetch rate-limited; release listing checked October19."
+    },
+    {
+      "url": "https://ivn.us/new-ca-poll-voter-id-measure-leads-today-its-undecided-voters-point-the-other-way/",
+      "use": "Sponsor’s report and methodology; original survey snapshot, not its modeled prediction. Checked October19."
+    }
+  ],
+  "polling_note": "Selected verified surveys available at the October 19 research check; dates shown explicitly. Not a polling average or forecast. Rounded percentages may total 99 or 101. Other polls may differ.",
+  "editorial_note": "Illustrative characters and calculations are not real testimonials or guaranteed outcomes. Voter considerations describe reasons for either choice, not recommendations.",
+  "shots": [
+    {
+      "narration": "Proposition forty proposes a one-time tax on very large fortunes. Wealth means assets minus debts; income means earnings over a period. A person can own valuable company shares without receiving that value as cash income that year.",
+      "headline": "Wealth is a stock; income is a flow",
+      "kind": "flow",
+      "items": [
+        "Assets minus debts",
+        "Net worth",
+        "Different from annual earnings"
+      ],
+      "frames": 508,
+      "start_frame": 0,
+      "section": "The big picture"
+    },
+    {
+      "narration": "The proposal reaches up to five percent of covered net worth for certain billionaires tied to California residency on January first, twenty twenty-six. It is not simply five percent of the amount above one billion dollars.",
+      "headline": "What is the tax base?",
+      "kind": "cards",
+      "items": [
+        "Covered net worth, not just the excess over $1B",
+        "Residency tied to January 1, 2026"
+      ],
+      "frames": 423,
+      "start_frame": 508,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Real estate and some retirement assets are generally excluded. Payment is due in twenty twenty-seven, with a more expensive option to spread payments across five years. The detailed valuation and threshold rules matter.",
+      "headline": "Coverage and payment timing",
+      "kind": "cards",
+      "items": [
+        "Exclusions and detailed valuation rules",
+        "Due 2027; installment option costs more"
+      ],
+      "frames": 466,
+      "start_frame": 931,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Imagine a clinic planning services that need reliable funding.",
+      "headline": "A temporary source for public services",
+      "kind": "art",
+      "items": [
+        0
+      ],
+      "frames": 131,
+      "start_frame": 1397,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "If a hypothetical taxpayer has two billion dollars of covered taxable wealth and the full five percent rate applies, the tax is one hundred million dollars. That is an illustration, not the calculation for every billionaire.",
+      "headline": "Illustrating the full rate",
+      "kind": "formula",
+      "items": [
+        "$2 billion × 5%",
+        "$100 million",
+        "Hypothetical covered wealth; full rate assumed"
+      ],
+      "frames": 456,
+      "start_frame": 1528,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "A budget planner considers how long new money lasts.",
+      "headline": "One-time money and ongoing needs",
+      "kind": "art",
+      "items": [
+        1
+      ],
+      "frames": 117,
+      "start_frame": 1984,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "Ninety percent of revenue is directed to health care; the remainder supports education, food assistance, and administration. A one-time collection spread over years still does not become a permanent annual revenue stream.",
+      "headline": "Where the revenue would go",
+      "kind": "split",
+      "items": [
+        90,
+        10
+      ],
+      "labels": [
+        "90%: health care",
+        "10%: other specified uses"
+      ],
+      "frames": 437,
+      "start_frame": 2101,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "The analyst expects temporary revenue totaling tens of billions, but the amount is hard to predict. Asset values, taxpayer responses, collection, and legal challenges create uncertainty. Administration could cost tens of millions annually for several years.",
+      "headline": "Large potential revenue; uncertain collections",
+      "kind": "cards",
+      "items": [
+        "Tens of billions over several years",
+        "Valuation and taxpayer responses matter"
+      ],
+      "frames": 533,
+      "start_frame": 2538,
+      "section": "How it would work"
+    },
+    {
+      "narration": "There could also be an ongoing income-tax loss if wealthy residents change their behavior or leave. The analyst estimates that possible loss at less than one billion dollars per year. It is a different effect from the one-time wealth-tax revenue.",
+      "headline": "Separate the temporary gain from ongoing effects",
+      "kind": "cards",
+      "items": [
+        "Temporary wealth-tax revenue",
+        "Possible ongoing income-tax loss: less than $1B/year"
+      ],
+      "frames": 476,
+      "start_frame": 3071,
+      "section": "How it would work"
+    },
+    {
+      "narration": "Props forty-one and forty-two could block this measure if a conflicting measure passes with more yes votes. The legal interaction could require court interpretation. Passing fifty percent is therefore not the only issue to watch.",
+      "headline": "The ballot measures can interact",
+      "kind": "flow",
+      "items": [
+        "Does Prop 40 pass?",
+        "Do rivals pass with more YES votes?",
+        "Potential legal conflict"
+      ],
+      "frames": 440,
+      "start_frame": 3547,
+      "section": "How it would work"
+    },
+    {
+      "narration": "A voter might see concentrated wealth as a source of funding for health care and other needs without broadly raising taxes. They may judge a temporary infusion worthwhile, even though it cannot solve every long-term funding problem.",
+      "headline": "The case for YES",
+      "kind": "cards",
+      "items": [
+        "Raise substantial funding from a small group",
+        "Support health care and other specified needs"
+      ],
+      "frames": 476,
+      "start_frame": 3987,
+      "section": "Why someone might vote yes"
+    },
+    {
+      "narration": "You might question the economic and legal consequences.",
+      "headline": "Your question: what are the wider effects?",
+      "kind": "art",
+      "items": [
+        2
+      ],
+      "frames": 113,
+      "start_frame": 4463,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "Another voter could object to taxing assets that are hard to sell or value, the residency date, or risks to investment and future tax receipts. They may prefer recurring funding with fewer collection uncertainties. These concerns do not establish that every dollar of projected revenue disappears.",
+      "headline": "The case for NO",
+      "kind": "cards",
+      "items": [
+        "Valuation, liquidity and legal concerns",
+        "Possible investment and revenue effects"
+      ],
+      "frames": 597,
+      "start_frame": 4576,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "In the September PPIC survey of likely voters, 52 percent said yes, 46 percent no, and 2 percent were unsure. These are dated survey results, not votes already cast.",
+      "headline": "September snapshot: PPIC",
+      "kind": "poll",
+      "items": [
+        52,
+        46,
+        2
+      ],
+      "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points",
+      "frames": 395,
+      "start_frame": 5173,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "A later September Berkeley survey found 45 percent yes, 42 percent no, and 13 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend.",
+      "headline": "September snapshot: Berkeley IGS",
+      "kind": "poll",
+      "items": [
+        45,
+        42,
+        13
+      ],
+      "poll_note": "Berkeley IGS · Sept 15–20, 2026 · likely voters · about ±2 points",
+      "frames": 432,
+      "start_frame": 5568,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "The Independent Voter Project survey ending October second found 38 percent yes and 42 percent no. Its methods and wording differ again. The disagreement is a reason for caution, not a reason to declare a winner.",
+      "headline": "A newer, different survey",
+      "kind": "poll",
+      "items": [
+        38,
+        42,
+        21
+      ],
+      "poll_note": "IVP · Sept 23–Oct 2, 2026 · likely voters · ±2.5 points",
+      "frames": 465,
+      "start_frame": 6000,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "Yes adopts the proposed tax, subject to the legal outcome; no rejects this one-time levy. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+      "headline": "Explore the full explanation",
+      "kind": "cta",
+      "items": [
+        "educational-explainers.github.io",
+        "/ca-2026-ballot/"
+      ],
+      "frames": 490,
+      "start_frame": 6465,
+      "section": "Make your own decision"
+    }
+  ],
+  "frames": 6955,
+  "seconds": 231.83333333333334,
+  "alignment": [
+    0.9245283018867925,
+    0.9651162790697675,
+    0.972972972972973,
+    1.0,
+    0.9814814814814815,
+    0.9791666666666666,
+    1.0
+  ]
+}

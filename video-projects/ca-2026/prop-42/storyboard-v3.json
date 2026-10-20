@@ -1,0 +1,407 @@
+{
+  "number": 42,
+  "version": 2,
+  "title": "Taxes on assets: what future options would be restricted?",
+  "voice": "am_michael",
+  "speed": 1.04,
+  "checked": "2026-10-19",
+  "sections": [
+    {
+      "name": "The big picture",
+      "shots": [
+        {
+          "narration": "Proposition forty-two restricts certain future taxes. It focuses on owning personal property, including financial assets, and on taxes applied retroactively. Personal property here generally means assets other than real estate.",
+          "headline": "Personal property is more than household belongings",
+          "kind": "cards",
+          "items": [
+            "Financial assets and other personal property",
+            "Different from real estate"
+          ]
+        },
+        {
+          "narration": "California already taxes income from assets, such as investment gains, and some forms of personal property already have taxes. It generally does not tax simply owning stocks. The proposal is primarily about restricting new taxes, not issuing a refund.",
+          "headline": "Owning an asset versus earning income",
+          "kind": "flow",
+          "items": [
+            "Own shares",
+            "Receive income or sell at a gain",
+            "Different kinds of tax"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "An illustrative example",
+      "shots": [
+        {
+          "narration": "Imagine a business owner reviewing the value of company assets.",
+          "headline": "What counts as ownership?",
+          "kind": "art",
+          "items": [
+            0
+          ]
+        },
+        {
+          "narration": "Owning equipment or shares is different from earning a profit. A rule against a new ownership tax does not, by itself, eliminate income taxes on profits or every tax the owner already pays.",
+          "headline": "Keep the tax bases separate",
+          "kind": "cards",
+          "items": [
+            "Asset value: what is owned",
+            "Income: what is earned",
+            "Existing taxes do not simply vanish"
+          ]
+        },
+        {
+          "narration": "A budget analyst considers future options for raising revenue.",
+          "headline": "The proposal limits future choices",
+          "kind": "art",
+          "items": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "How it would work",
+      "shots": [
+        {
+          "narration": "The measure would prohibit new state taxes on ownership of financial assets and other personal property. It also limits certain retroactive taxes: taxes applied to activities or periods before the tax was adopted.",
+          "headline": "Two restrictions",
+          "kind": "cards",
+          "items": [
+            "New personal-property ownership taxes",
+            "Certain retroactive state taxes"
+          ]
+        },
+        {
+          "narration": "For illustration, a tax enacted later but applied to income earned in an earlier period is retroactive. The measure’s detailed rules determine what is prohibited; this is not a claim that every tax adjustment becomes impossible.",
+          "headline": "What does retroactive mean?",
+          "kind": "flow",
+          "items": [
+            "Earlier activity",
+            "Later tax law",
+            "Law reaches backward"
+          ]
+        },
+        {
+          "narration": "The analyst does not attach a specific dollar saving or loss. Future revenue might rise less because some tax options would be unavailable. The effect depends on what lawmakers or voters would otherwise propose.",
+          "headline": "No fixed fiscal amount",
+          "kind": "cards",
+          "items": [
+            "Fewer future tax options",
+            "Possible lower future revenue",
+            "No guaranteed household refund"
+          ]
+        },
+        {
+          "narration": "Prop forty-two could also prevent Prop forty’s wealth tax from taking effect if both pass and forty-two gets more yes votes. The conflict and its legal interpretation matter alongside the broader restrictions.",
+          "headline": "The connection to Prop 40",
+          "kind": "flow",
+          "items": [
+            "Both pass",
+            "Compare YES votes",
+            "Potential legal conflict"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote yes",
+      "shots": [
+        {
+          "narration": "A voter might favor predictable rules for savings, investments, and business assets, or object to taxes that reach backward. They may also want to stop the proposed wealth tax. This is a choice about limiting government’s future taxing authority.",
+          "headline": "The case for YES",
+          "kind": "cards",
+          "items": [
+            "Predictability for asset owners",
+            "Limits on retroactive taxation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote no",
+      "shots": [
+        {
+          "narration": "You might want future voters to retain more tax choices.",
+          "headline": "Your question: protection or lost flexibility?",
+          "kind": "art",
+          "items": [
+            2
+          ]
+        },
+        {
+          "narration": "Another voter could prefer deciding future tax proposals individually instead of restricting them in the constitution. They may want wealth-based revenue options during a funding shortfall, or support Prop forty. Keeping an option available does not mean every future tax must be adopted.",
+          "headline": "The case for NO",
+          "kind": "cards",
+          "items": [
+            "Keep future revenue options available",
+            "Decide proposals case by case",
+            "Consider the Prop 40 interaction"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "What polling indicates",
+      "shots": [
+        {
+          "narration": "In the September PPIC survey of likely voters, 54 percent said yes, 43 percent no, and 4 percent were unsure. These are dated survey results, not votes already cast.",
+          "headline": "September snapshot: PPIC",
+          "kind": "poll",
+          "items": [
+            54,
+            43,
+            4
+          ],
+          "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points"
+        },
+        {
+          "narration": "A later September Berkeley survey found 43 percent yes, 34 percent no, and 23 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend.",
+          "headline": "September snapshot: Berkeley IGS",
+          "kind": "poll",
+          "items": [
+            43,
+            34,
+            23
+          ],
+          "poll_note": "Berkeley IGS · Sept 15–20, 2026 · likely voters · about ±2 points"
+        }
+      ]
+    },
+    {
+      "name": "Make your own decision",
+      "shots": [
+        {
+          "narration": "Yes imposes the new limits; no retains the state’s current options without itself creating a new tax. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+          "headline": "Explore the full explanation",
+          "kind": "cta",
+          "items": [
+            "educational-explainers.github.io",
+            "/ca-2026-ballot/"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=42&year=2026",
+      "use": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026."
+    },
+    {
+      "url": "https://voterguide.sos.ca.gov/propositions/42/",
+      "use": "Official voter guide, measure text and attributed campaign arguments."
+    },
+    {
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "use": "September likely-voter results, original published values retained including rounding."
+    },
+    {
+      "url": "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf",
+      "use": "September 25 release; original previously verified in repository polling fact check. Current PDF fetch rate-limited; release listing checked October19."
+    }
+  ],
+  "polling_note": "Selected verified surveys available at the October 19 research check; dates shown explicitly. Not a polling average or forecast. Rounded percentages may total 99 or 101. Other polls may differ.",
+  "editorial_note": "Illustrative characters and calculations are not real testimonials or guaranteed outcomes. Voter considerations describe reasons for either choice, not recommendations.",
+  "shots": [
+    {
+      "narration": "Proposition forty-two restricts certain future taxes. It focuses on owning personal property, including financial assets, and on taxes applied retroactively. Personal property here generally means assets other than real estate.",
+      "headline": "Personal property is more than household belongings",
+      "kind": "cards",
+      "items": [
+        "Financial assets and other personal property",
+        "Different from real estate"
+      ],
+      "frames": 509,
+      "start_frame": 0,
+      "section": "The big picture"
+    },
+    {
+      "narration": "California already taxes income from assets, such as investment gains, and some forms of personal property already have taxes. It generally does not tax simply owning stocks. The proposal is primarily about restricting new taxes, not issuing a refund.",
+      "headline": "Owning an asset versus earning income",
+      "kind": "flow",
+      "items": [
+        "Own shares",
+        "Receive income or sell at a gain",
+        "Different kinds of tax"
+      ],
+      "frames": 531,
+      "start_frame": 509,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Imagine a business owner reviewing the value of company assets.",
+      "headline": "What counts as ownership?",
+      "kind": "art",
+      "items": [
+        0
+      ],
+      "frames": 128,
+      "start_frame": 1040,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "Owning equipment or shares is different from earning a profit. A rule against a new ownership tax does not, by itself, eliminate income taxes on profits or every tax the owner already pays.",
+      "headline": "Keep the tax bases separate",
+      "kind": "cards",
+      "items": [
+        "Asset value: what is owned",
+        "Income: what is earned",
+        "Existing taxes do not simply vanish"
+      ],
+      "frames": 414,
+      "start_frame": 1168,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "A budget analyst considers future options for raising revenue.",
+      "headline": "The proposal limits future choices",
+      "kind": "art",
+      "items": [
+        1
+      ],
+      "frames": 127,
+      "start_frame": 1582,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "The measure would prohibit new state taxes on ownership of financial assets and other personal property. It also limits certain retroactive taxes: taxes applied to activities or periods before the tax was adopted.",
+      "headline": "Two restrictions",
+      "kind": "cards",
+      "items": [
+        "New personal-property ownership taxes",
+        "Certain retroactive state taxes"
+      ],
+      "frames": 417,
+      "start_frame": 1709,
+      "section": "How it would work"
+    },
+    {
+      "narration": "For illustration, a tax enacted later but applied to income earned in an earlier period is retroactive. The measure’s detailed rules determine what is prohibited; this is not a claim that every tax adjustment becomes impossible.",
+      "headline": "What does retroactive mean?",
+      "kind": "flow",
+      "items": [
+        "Earlier activity",
+        "Later tax law",
+        "Law reaches backward"
+      ],
+      "frames": 461,
+      "start_frame": 2126,
+      "section": "How it would work"
+    },
+    {
+      "narration": "The analyst does not attach a specific dollar saving or loss. Future revenue might rise less because some tax options would be unavailable. The effect depends on what lawmakers or voters would otherwise propose.",
+      "headline": "No fixed fiscal amount",
+      "kind": "cards",
+      "items": [
+        "Fewer future tax options",
+        "Possible lower future revenue",
+        "No guaranteed household refund"
+      ],
+      "frames": 407,
+      "start_frame": 2587,
+      "section": "How it would work"
+    },
+    {
+      "narration": "Prop forty-two could also prevent Prop forty’s wealth tax from taking effect if both pass and forty-two gets more yes votes. The conflict and its legal interpretation matter alongside the broader restrictions.",
+      "headline": "The connection to Prop 40",
+      "kind": "flow",
+      "items": [
+        "Both pass",
+        "Compare YES votes",
+        "Potential legal conflict"
+      ],
+      "frames": 415,
+      "start_frame": 2994,
+      "section": "How it would work"
+    },
+    {
+      "narration": "A voter might favor predictable rules for savings, investments, and business assets, or object to taxes that reach backward. They may also want to stop the proposed wealth tax. This is a choice about limiting government’s future taxing authority.",
+      "headline": "The case for YES",
+      "kind": "cards",
+      "items": [
+        "Predictability for asset owners",
+        "Limits on retroactive taxation"
+      ],
+      "frames": 508,
+      "start_frame": 3409,
+      "section": "Why someone might vote yes"
+    },
+    {
+      "narration": "You might want future voters to retain more tax choices.",
+      "headline": "Your question: protection or lost flexibility?",
+      "kind": "art",
+      "items": [
+        2
+      ],
+      "frames": 118,
+      "start_frame": 3917,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "Another voter could prefer deciding future tax proposals individually instead of restricting them in the constitution. They may want wealth-based revenue options during a funding shortfall, or support Prop forty. Keeping an option available does not mean every future tax must be adopted.",
+      "headline": "The case for NO",
+      "kind": "cards",
+      "items": [
+        "Keep future revenue options available",
+        "Decide proposals case by case",
+        "Consider the Prop 40 interaction"
+      ],
+      "frames": 567,
+      "start_frame": 4035,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "In the September PPIC survey of likely voters, 54 percent said yes, 43 percent no, and 4 percent were unsure. These are dated survey results, not votes already cast.",
+      "headline": "September snapshot: PPIC",
+      "kind": "poll",
+      "items": [
+        54,
+        43,
+        4
+      ],
+      "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points",
+      "frames": 381,
+      "start_frame": 4602,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "A later September Berkeley survey found 43 percent yes, 34 percent no, and 23 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend.",
+      "headline": "September snapshot: Berkeley IGS",
+      "kind": "poll",
+      "items": [
+        43,
+        34,
+        23
+      ],
+      "poll_note": "Berkeley IGS · Sept 15–20, 2026 · likely voters · about ±2 points",
+      "frames": 434,
+      "start_frame": 4983,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "Yes imposes the new limits; no retains the state’s current options without itself creating a new tax. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+      "headline": "Explore the full explanation",
+      "kind": "cta",
+      "items": [
+        "educational-explainers.github.io",
+        "/ca-2026-ballot/"
+      ],
+      "frames": 504,
+      "start_frame": 5417,
+      "section": "Make your own decision"
+    }
+  ],
+  "frames": 5921,
+  "seconds": 197.36666666666667,
+  "alignment": [
+    1.0,
+    1.0,
+    0.9925925925925926,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

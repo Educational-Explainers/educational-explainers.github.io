@@ -1,0 +1,526 @@
+{
+  "number": 4,
+  "version": 2,
+  "title": "Public campaign financing: what would change?",
+  "voice": "am_michael",
+  "speed": 1.04,
+  "checked": "2026-10-19",
+  "sections": [
+    {
+      "name": "The big picture",
+      "shots": [
+        {
+          "narration": "Should public money help pay for election campaigns? That is the question behind California Proposition four.",
+          "headline": "Who pays for campaigns?",
+          "kind": "flow",
+          "items": [
+            "Private donations",
+            "Candidate campaign"
+          ]
+        },
+        {
+          "narration": "Campaign financing pays for things like mailers, advertising, and campaign staff. Public financing means government money helps cover those expenses.",
+          "headline": "What does public financing mean?",
+          "kind": "flow",
+          "items": [
+            "Public funds",
+            "Campaign expenses"
+          ]
+        },
+        {
+          "narration": "Today, California generally bans that for state and local candidates. Some charter cities, including Los Angeles and San Francisco, already have exceptions.",
+          "headline": "Today: a ban, with exceptions",
+          "kind": "cards",
+          "items": [
+            "Most state + local offices: ban",
+            "Some charter cities: exception"
+          ]
+        },
+        {
+          "narration": "Proposition four would let more governments offer public financing. It does not automatically launch a program or send money to candidates.",
+          "headline": "Prop 4 opens the door",
+          "kind": "flow",
+          "items": [
+            "Lift the ban",
+            "Choose a program",
+            "Fund it separately"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "An illustrative example",
+      "shots": [
+        {
+          "narration": "Imagine a first-time candidate planning how to reach voters.",
+          "headline": "A candidate plans a campaign",
+          "kind": "art",
+          "items": [
+            0
+          ]
+        },
+        {
+          "narration": "She has local supporters, but printing leaflets and running advertisements cost money.",
+          "headline": "Support still needs a campaign budget",
+          "kind": "flow",
+          "items": [
+            "Local supporters",
+            "Leaflets + ads + staff"
+          ]
+        },
+        {
+          "narration": "A future city program might match small donations. Here is a made-up example: twenty dollars from a resident, plus forty dollars from the city, gives the campaign sixty dollars.",
+          "headline": "How matching could work",
+          "kind": "match",
+          "items": [
+            "$20 resident",
+            "$40 public funds",
+            "$60 campaign"
+          ]
+        },
+        {
+          "narration": "Those numbers are illustrative. Proposition four does not choose a matching rate or promise this candidate any money.",
+          "headline": "The details would come later",
+          "kind": "cards",
+          "items": [
+            "Hypothetical amounts only",
+            "No matching rate set by Prop 4"
+          ]
+        },
+        {
+          "narration": "The aim is to help candidates reach more voters.",
+          "headline": "Reaching voters",
+          "kind": "art",
+          "items": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "How it would work",
+      "shots": [
+        {
+          "narration": "You might ask: who qualifies, and who decides? A future program would set detailed eligibility rules and its budget.",
+          "headline": "Your question: who qualifies?",
+          "kind": "flow",
+          "items": [
+            "Future program rules",
+            "Eligibility + budget"
+          ]
+        },
+        {
+          "narration": "Candidates would have to demonstrate broad support in their district and accept spending limits. Public money could not pay their fines, legal defense, or personal campaign loans.",
+          "headline": "Rules for participating candidates",
+          "kind": "cards",
+          "items": [
+            "Show broad local support",
+            "Accept spending limits",
+            "Restricted uses of public funds"
+          ]
+        },
+        {
+          "narration": "Funds reserved for education, transportation, or public safety could not be used. But other public funds spent on campaigns still have an opportunity cost.",
+          "headline": "Where could the money come from?",
+          "kind": "cards",
+          "items": [
+            "Protected earmarks cannot fund campaigns",
+            "Other public funds have competing uses"
+          ]
+        },
+        {
+          "narration": "The state estimates a few hundred thousand dollars a year for guidance. That is separate from future campaign programs, whose costs depend on later decisions and could be significant.",
+          "headline": "Two different kinds of cost",
+          "kind": "cards",
+          "items": [
+            "Guidance: a few hundred thousand dollars/year",
+            "Future programs: additional, unknown cost"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote yes",
+      "shots": [
+        {
+          "narration": "A voter favoring reform might say: I want candidates with community support to compete, even without wealthy backers.",
+          "headline": "The case for YES",
+          "kind": "cards",
+          "items": [
+            "Help more candidates compete",
+            "Strengthen small donors"
+          ]
+        },
+        {
+          "narration": "Supporters hope matching donations would make ordinary residents more important to fundraising. Voting yes gives governments that option, subject to rules. It does not guarantee less donor influence.",
+          "headline": "A potential benefit, not a guarantee",
+          "kind": "flow",
+          "items": [
+            "Small donations",
+            "Public matching",
+            "Less reliance on big donors?"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote no",
+      "shots": [
+        {
+          "narration": "Another voter might ask: should taxpayers pay for political campaigns?",
+          "headline": "Your question: is this worth paying for?",
+          "kind": "art",
+          "items": [
+            2
+          ]
+        },
+        {
+          "narration": "They may dislike funding candidates they oppose, or prefer other uses for public money. The measure leaves future program budgets and many details undecided.",
+          "headline": "The case for NO",
+          "kind": "cards",
+          "items": [
+            "Taxpayer funding of political speech",
+            "Other priorities for public money",
+            "Future budgets remain undecided"
+          ]
+        },
+        {
+          "narration": "Public financing also does not eliminate private political spending. A no vote keeps the general ban and existing exceptions.",
+          "headline": "What would NO preserve?",
+          "kind": "cards",
+          "items": [
+            "Keep the general ban",
+            "Keep existing exceptions"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "What polling indicates",
+      "shots": [
+        {
+          "narration": "What do polls show? In early September, PPIC found forty-two percent yes, fifty-three percent no, and five percent unsure among likely voters.",
+          "headline": "September polling: PPIC",
+          "kind": "poll",
+          "items": [
+            42,
+            53,
+            5
+          ]
+        },
+        {
+          "narration": "A later September Berkeley poll found thirty-five percent yes, thirty-five percent no, and thirty percent undecided. These are different surveys, not a clean trend or an election forecast.",
+          "headline": "September polling: Berkeley IGS",
+          "kind": "poll",
+          "items": [
+            35,
+            35,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Make your own decision",
+      "shots": [
+        {
+          "narration": "The choice is whether to allow future public campaign financing programs, with potential benefits and public costs. Visit our website for the fuller explanation, sources, and official voter guide. Then make your own informed choice.",
+          "headline": "Explore the full explanation",
+          "kind": "cta",
+          "items": [
+            "educational-explainers.github.io",
+            "/ca-2026-ballot/"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=4&year=2026",
+      "use": "Background, rules, fiscal estimate, vote effects; checked October 19"
+    },
+    {
+      "url": "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+      "use": "Attributed arguments; claims distinguished from analysis"
+    },
+    {
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "use": "September 4–10, likely voters n=1103, margin +/-3.8 points; checked October 19"
+    },
+    {
+      "url": "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf",
+      "use": "September 25 release, field September 15–20, Prop4 split sample approx2250, +/-3 points; previously verified in repository polling fact check; current PDF fetch rate-limited. Release listing rechecked October 19."
+    }
+  ],
+  "polling_note": "September snapshots, not a live average or prediction. Searches on October19 found no newer verified Prop4 topline.",
+  "shots": [
+    {
+      "narration": "Should public money help pay for election campaigns? That is the question behind California Proposition four.",
+      "headline": "Who pays for campaigns?",
+      "kind": "flow",
+      "items": [
+        "Private donations",
+        "Candidate campaign"
+      ],
+      "frames": 213,
+      "start_frame": 0,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Campaign financing pays for things like mailers, advertising, and campaign staff. Public financing means government money helps cover those expenses.",
+      "headline": "What does public financing mean?",
+      "kind": "flow",
+      "items": [
+        "Public funds",
+        "Campaign expenses"
+      ],
+      "frames": 328,
+      "start_frame": 213,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Today, California generally bans that for state and local candidates. Some charter cities, including Los Angeles and San Francisco, already have exceptions.",
+      "headline": "Today: a ban, with exceptions",
+      "kind": "cards",
+      "items": [
+        "Most state + local offices: ban",
+        "Some charter cities: exception"
+      ],
+      "frames": 330,
+      "start_frame": 541,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Proposition four would let more governments offer public financing. It does not automatically launch a program or send money to candidates.",
+      "headline": "Prop 4 opens the door",
+      "kind": "flow",
+      "items": [
+        "Lift the ban",
+        "Choose a program",
+        "Fund it separately"
+      ],
+      "frames": 277,
+      "start_frame": 871,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Imagine a first-time candidate planning how to reach voters.",
+      "headline": "A candidate plans a campaign",
+      "kind": "art",
+      "items": [
+        0
+      ],
+      "frames": 136,
+      "start_frame": 1148,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "She has local supporters, but printing leaflets and running advertisements cost money.",
+      "headline": "Support still needs a campaign budget",
+      "kind": "flow",
+      "items": [
+        "Local supporters",
+        "Leaflets + ads + staff"
+      ],
+      "frames": 176,
+      "start_frame": 1284,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "A future city program might match small donations. Here is a made-up example: twenty dollars from a resident, plus forty dollars from the city, gives the campaign sixty dollars.",
+      "headline": "How matching could work",
+      "kind": "match",
+      "items": [
+        "$20 resident",
+        "$40 public funds",
+        "$60 campaign"
+      ],
+      "frames": 343,
+      "start_frame": 1460,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "Those numbers are illustrative. Proposition four does not choose a matching rate or promise this candidate any money.",
+      "headline": "The details would come later",
+      "kind": "cards",
+      "items": [
+        "Hypothetical amounts only",
+        "No matching rate set by Prop 4"
+      ],
+      "frames": 216,
+      "start_frame": 1803,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "The aim is to help candidates reach more voters.",
+      "headline": "Reaching voters",
+      "kind": "art",
+      "items": [
+        1
+      ],
+      "frames": 123,
+      "start_frame": 2019,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "You might ask: who qualifies, and who decides? A future program would set detailed eligibility rules and its budget.",
+      "headline": "Your question: who qualifies?",
+      "kind": "flow",
+      "items": [
+        "Future program rules",
+        "Eligibility + budget"
+      ],
+      "frames": 252,
+      "start_frame": 2142,
+      "section": "How it would work"
+    },
+    {
+      "narration": "Candidates would have to demonstrate broad support in their district and accept spending limits. Public money could not pay their fines, legal defense, or personal campaign loans.",
+      "headline": "Rules for participating candidates",
+      "kind": "cards",
+      "items": [
+        "Show broad local support",
+        "Accept spending limits",
+        "Restricted uses of public funds"
+      ],
+      "frames": 346,
+      "start_frame": 2394,
+      "section": "How it would work"
+    },
+    {
+      "narration": "Funds reserved for education, transportation, or public safety could not be used. But other public funds spent on campaigns still have an opportunity cost.",
+      "headline": "Where could the money come from?",
+      "kind": "cards",
+      "items": [
+        "Protected earmarks cannot fund campaigns",
+        "Other public funds have competing uses"
+      ],
+      "frames": 330,
+      "start_frame": 2740,
+      "section": "How it would work"
+    },
+    {
+      "narration": "The state estimates a few hundred thousand dollars a year for guidance. That is separate from future campaign programs, whose costs depend on later decisions and could be significant.",
+      "headline": "Two different kinds of cost",
+      "kind": "cards",
+      "items": [
+        "Guidance: a few hundred thousand dollars/year",
+        "Future programs: additional, unknown cost"
+      ],
+      "frames": 340,
+      "start_frame": 3070,
+      "section": "How it would work"
+    },
+    {
+      "narration": "A voter favoring reform might say: I want candidates with community support to compete, even without wealthy backers.",
+      "headline": "The case for YES",
+      "kind": "cards",
+      "items": [
+        "Help more candidates compete",
+        "Strengthen small donors"
+      ],
+      "frames": 257,
+      "start_frame": 3410,
+      "section": "Why someone might vote yes"
+    },
+    {
+      "narration": "Supporters hope matching donations would make ordinary residents more important to fundraising. Voting yes gives governments that option, subject to rules. It does not guarantee less donor influence.",
+      "headline": "A potential benefit, not a guarantee",
+      "kind": "flow",
+      "items": [
+        "Small donations",
+        "Public matching",
+        "Less reliance on big donors?"
+      ],
+      "frames": 404,
+      "start_frame": 3667,
+      "section": "Why someone might vote yes"
+    },
+    {
+      "narration": "Another voter might ask: should taxpayers pay for political campaigns?",
+      "headline": "Your question: is this worth paying for?",
+      "kind": "art",
+      "items": [
+        2
+      ],
+      "frames": 151,
+      "start_frame": 4071,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "They may dislike funding candidates they oppose, or prefer other uses for public money. The measure leaves future program budgets and many details undecided.",
+      "headline": "The case for NO",
+      "kind": "cards",
+      "items": [
+        "Taxpayer funding of political speech",
+        "Other priorities for public money",
+        "Future budgets remain undecided"
+      ],
+      "frames": 319,
+      "start_frame": 4222,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "Public financing also does not eliminate private political spending. A no vote keeps the general ban and existing exceptions.",
+      "headline": "What would NO preserve?",
+      "kind": "cards",
+      "items": [
+        "Keep the general ban",
+        "Keep existing exceptions"
+      ],
+      "frames": 261,
+      "start_frame": 4541,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "What do polls show? In early September, PPIC found forty-two percent yes, fifty-three percent no, and five percent unsure among likely voters.",
+      "headline": "September polling: PPIC",
+      "kind": "poll",
+      "items": [
+        42,
+        53,
+        5
+      ],
+      "frames": 308,
+      "start_frame": 4802,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "A later September Berkeley poll found thirty-five percent yes, thirty-five percent no, and thirty percent undecided. These are different surveys, not a clean trend or an election forecast.",
+      "headline": "September polling: Berkeley IGS",
+      "kind": "poll",
+      "items": [
+        35,
+        35,
+        30
+      ],
+      "frames": 374,
+      "start_frame": 5110,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "The choice is whether to allow future public campaign financing programs, with potential benefits and public costs. Visit our website for the fuller explanation, sources, and official voter guide. Then make your own informed choice.",
+      "headline": "Explore the full explanation",
+      "kind": "cta",
+      "items": [
+        "educational-explainers.github.io",
+        "/ca-2026-ballot/"
+      ],
+      "frames": 479,
+      "start_frame": 5484,
+      "section": "Make your own decision"
+    }
+  ],
+  "frames": 5963,
+  "seconds": 198.76666666666668,
+  "alignment": [
+    1.0,
+    1.0,
+    0.98989898989899,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,1331 @@
+{
+  "schema_version": 1,
+  "number": 43,
+  "title": "Prop 43 \u2014 Local special taxes: when is a majority enough?",
+  "fps": 30,
+  "frames": 5454,
+  "checked": "2026-10-19",
+  "narration": "asset://0965292cb0f50e0d94fcbeef9372ee30a5f32fb48398d2ea744fe8f9ec020a60.wav",
+  "prompter_words": "words-global.json",
+  "script": [
+    {
+      "name": "The big picture",
+      "narration": "Proposition forty-three changes the vote threshold for certain local taxes. A special tax pays for a specified purpose, such as a local service. A general tax supports general government spending. This measure focuses on special taxes proposed by voters. Government-proposed local special taxes generally need two-thirds approval. Court decisions allow voter-proposed special taxes to pass by a simple majority. Proposition forty-three would require two-thirds for those voter proposals too."
+    },
+    {
+      "name": "An illustrative example",
+      "narration": "Imagine residents discussing a proposal for local services. Suppose a hundred people vote on a citizen-proposed special tax, and sixty vote yes. That is enough for a simple majority. It is short of two-thirds, so the same proposal would fail under the new requirement. Local services and the tax burden are both at stake."
+    },
+    {
+      "name": "How it would work",
+      "narration": "Beginning January first, twenty twenty-seven, the higher threshold would apply to new, increased, or extended local special taxes proposed by voters. An extension matters because some existing taxes expire unless voters renew them. The proposition does not set a new tax rate or immediately cancel every existing tax. It changes the hurdle future proposals must clear. Voters would still decide whether a particular tax deserves support. The analyst expects local revenue could be lower than it otherwise would be, but gives no fixed amount. The effect depends on which future measures receive majority support but fall short of two-thirds."
+    },
+    {
+      "name": "Why someone might vote yes",
+      "narration": "A voter might want broad agreement before a dedicated local tax takes effect, regardless of whether a council or a citizen group proposes it. They may see one consistent threshold as protection for taxpayers who would have to pay despite voting no."
+    },
+    {
+      "name": "Why someone might vote no",
+      "narration": "You might ask how much power a minority should have. Another voter could object that more than half the community may support a service but still be unable to fund it. In the example, forty no votes block sixty yes votes. A higher hurdle can protect dissenters while making collective action harder."
+    },
+    {
+      "name": "What polling indicates",
+      "narration": "In the September PPIC survey of likely voters, 43 percent said yes, 51 percent no, and 6 percent were unsure. These are dated survey results, not votes already cast. A later September Berkeley survey found 31 percent yes, 40 percent no, and 29 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend."
+    },
+    {
+      "name": "Make your own decision",
+      "narration": "Yes raises the threshold for these voter-proposed special taxes; no retains the current majority route. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026.",
+      "url": "https://voterguide.sos.ca.gov/propositions/43/analysis.htm"
+    },
+    {
+      "name": "Official voter guide, measure text and attributed campaign arguments.",
+      "url": "https://voterguide.sos.ca.gov/propositions/43/"
+    },
+    {
+      "name": "September likely-voter results, original published values retained including rounding.",
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+    },
+    {
+      "name": "September 25 release; original previously verified in repository polling fact check. Current PDF fetch rate-limited; release listing checked October19.",
+      "url": "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf"
+    }
+  ],
+  "label": "CALIFORNIA 2026 \u00b7 PROP 43",
+  "assets": {
+    "hand": {
+      "path": "asset://ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2.png",
+      "tip": [
+        250,
+        914
+      ]
+    },
+    "family": {
+      "path": "asset://e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab.png"
+    },
+    "construction": {
+      "path": "asset://8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180.png"
+    },
+    "voter": {
+      "path": "asset://1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811.png"
+    },
+    "civic": {
+      "path": "asset://c2186d3e777807fdaccd6fc733505c06dbb57b5e65a5f73c623c062b2e44f7b3.png"
+    },
+    "budget": {
+      "path": "asset://968ff95a8953ed11fa53fba6f2852c0ae49f38108028b1a646b0869ebfcc7035.png"
+    },
+    "medical": {
+      "path": "asset://bf2d9b60f1657fc723a75dac2aa58b843ed0dfc4b1ce721fe8c64e7aa27099df.png"
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "title": "Which taxes are affected?",
+      "chapter": "The big picture",
+      "start_frame": 0,
+      "frames": 550,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Which taxes are affected?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Local special taxes",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Proposed through voter initiatives",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 8.516666666666666,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 9.016666666666666,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Proposition 43 changes the vote"
+      }
+    },
+    {
+      "id": "02",
+      "title": "Who proposes the tax changes the threshold",
+      "chapter": "The big picture",
+      "start_frame": 550,
+      "frames": 511,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Who proposes the tax changes the threshold",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            55,
+            215,
+            380,
+            360
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Voter initiative today: more than 50%",
+          "x": 475,
+          "y": 200,
+          "size": 25,
+          "width": 710,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            475,
+            266,
+            710,
+            25
+          ],
+          "value": 50.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Proposed rule: at least two-thirds",
+          "x": 475,
+          "y": 312,
+          "size": 25,
+          "width": 710,
+          "at": 7.5166666666666675,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            475,
+            378,
+            710,
+            25
+          ],
+          "value": 66.6667,
+          "maximum": 100,
+          "color": "blue",
+          "at": 7.916666666666668,
+          "duration": 0.9
+        }
+      ],
+      "anchor": {
+        "phrase": "Government proposed local special taxes"
+      }
+    },
+    {
+      "id": "03",
+      "title": "A community weighs a funding proposal",
+      "chapter": "An illustrative example",
+      "start_frame": 1061,
+      "frames": 130,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "A community weighs a funding proposal",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "Imagine residents discussing a proposal"
+      }
+    },
+    {
+      "id": "04",
+      "title": "Same votes, different result",
+      "chapter": "An illustrative example",
+      "start_frame": 1191,
+      "frames": 424,
+      "source": "Illustrative vote count: 60% is above 50% but below two-thirds",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Same votes, different result",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            55,
+            200,
+            390,
+            390
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "60 YES votes out of 100",
+          "x": 490,
+          "y": 190,
+          "size": 32,
+          "width": 720,
+          "at": 0.2,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            490,
+            270,
+            690,
+            45
+          ],
+          "value": 60,
+          "maximum": 100,
+          "color": "teal",
+          "at": 1,
+          "duration": 1
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                835,
+                250
+              ],
+              [
+                835,
+                335
+              ]
+            ]
+          ],
+          "at": 2,
+          "duration": 1,
+          "hand": true,
+          "color": "blue",
+          "width": 2.5
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                950,
+                250
+              ],
+              [
+                950,
+                335
+              ]
+            ]
+          ],
+          "at": 3,
+          "duration": 1,
+          "hand": true,
+          "color": "coral",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "50%",
+          "x": 795,
+          "y": 345,
+          "size": 22,
+          "width": 130,
+          "at": 2,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "66\u2154%",
+          "x": 930,
+          "y": 345,
+          "size": 22,
+          "width": 160,
+          "at": 3,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "Majority rule: passes",
+          "x": 490,
+          "y": 430,
+          "size": 29,
+          "width": 700,
+          "at": 4,
+          "duration": 0.45,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Two-thirds rule: fails",
+          "x": 490,
+          "y": 500,
+          "size": 29,
+          "width": 700,
+          "at": 6,
+          "duration": 0.45,
+          "color": "coral"
+        }
+      ],
+      "anchor": {
+        "phrase": "Suppose 100 people vote on"
+      }
+    },
+    {
+      "id": "05",
+      "title": "The threshold changes collective decisions",
+      "chapter": "An illustrative example",
+      "start_frame": 1615,
+      "frames": 102,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The threshold changes collective decisions",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "Local services and the tax"
+      }
+    },
+    {
+      "id": "06",
+      "title": "The rule includes renewals",
+      "chapter": "How it would work",
+      "start_frame": 1717,
+      "frames": 502,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The rule includes renewals",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "New special taxes",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Increases and extensions",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 5.261111111111111,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 5.761111111111111,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Begins January 1, 2027",
+          "x": 680,
+          "y": 464,
+          "size": 28,
+          "width": 530,
+          "at": 10.172222222222222,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                515
+              ],
+              [
+                1170,
+                515
+              ]
+            ]
+          ],
+          "at": 10.672222222222222,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Beginning January 1st, 2027, the"
+      }
+    },
+    {
+      "id": "07",
+      "title": "A voting rule, not a new tax",
+      "chapter": "How it would work",
+      "start_frame": 2219,
+      "frames": 426,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "A voting rule, not a new tax",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 225.0,
+          "y": 240,
+          "size": 110,
+          "at": 0.3,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Future proposal",
+          "x": 100.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 0.8,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 585.0,
+          "y": 240,
+          "size": 110,
+          "at": 4.366666666666666,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Higher approval threshold",
+          "x": 460.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 4.866666666666666,
+          "duration": 0.45
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 945.0,
+          "y": 240,
+          "size": 110,
+          "at": 8.433333333333334,
+          "duration": 1.2,
+          "color": "teal",
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Pass or fail",
+          "x": 820.0,
+          "y": 410,
+          "size": 25,
+          "width": 320,
+          "at": 8.933333333333334,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "The proposition does not set"
+      }
+    },
+    {
+      "id": "08",
+      "title": "Why the fiscal effect is unknown",
+      "chapter": "How it would work",
+      "start_frame": 2645,
+      "frames": 389,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Why the fiscal effect is unknown",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Potentially less future local revenue",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Depends on future proposals and results",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 5.833333333333333,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                420
+              ],
+              [
+                1170,
+                420
+              ]
+            ]
+          ],
+          "at": 6.333333333333333,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "The analyst expects local revenue"
+      }
+    },
+    {
+      "id": "09",
+      "title": "The case for YES",
+      "chapter": "Why someone might vote yes",
+      "start_frame": 3034,
+      "frames": 511,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The case for YES",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "One threshold for special taxes",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Require broader consent to tax",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 7.866666666666667,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                383
+              ],
+              [
+                1170,
+                383
+              ]
+            ]
+          ],
+          "at": 8.366666666666667,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "A voter might want broad"
+      }
+    },
+    {
+      "id": "10",
+      "title": "Your question: how broad must agreement be?",
+      "chapter": "Why someone might vote no",
+      "start_frame": 3545,
+      "frames": 121,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Your question: how broad must agreement be?",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            150,
+            170,
+            980,
+            430
+          ],
+          "at": 0,
+          "duration": 0.85
+        }
+      ],
+      "anchor": {
+        "phrase": "You might ask how much"
+      }
+    },
+    {
+      "id": "11",
+      "title": "The case for NO",
+      "chapter": "Why someone might vote no",
+      "start_frame": 3666,
+      "frames": 466,
+      "source": "Official voter guide / LAO \u00b7 existing script checked 2026-10-19",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The case for NO",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            200,
+            565,
+            405
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "A majority can be blocked",
+          "x": 680,
+          "y": 200,
+          "size": 28,
+          "width": 530,
+          "at": 0.35,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                251
+              ],
+              [
+                1170,
+                251
+              ]
+            ]
+          ],
+          "at": 0.85,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "Harder to fund or renew local services",
+          "x": 680,
+          "y": 332,
+          "size": 28,
+          "width": 530,
+          "at": 7.116666666666666,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                680,
+                420
+              ],
+              [
+                1170,
+                420
+              ]
+            ]
+          ],
+          "at": 7.616666666666666,
+          "duration": 0.75,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        }
+      ],
+      "anchor": {
+        "phrase": "Another voter could object that"
+      }
+    },
+    {
+      "id": "12",
+      "title": "September snapshot: PPIC",
+      "chapter": "What polling indicates",
+      "start_frame": 4132,
+      "frames": 382,
+      "source": "PPIC \u00b7 Sept 4\u201310, 2026 \u00b7 likely voters \u00b7 \u00b13.8 points",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "September snapshot: PPIC",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "text",
+          "text": "YES \u00b7 43%",
+          "x": 100,
+          "y": 200,
+          "size": 25,
+          "width": 1080,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            266,
+            1080,
+            25
+          ],
+          "value": 43.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "NO \u00b7 51%",
+          "x": 100,
+          "y": 312,
+          "size": 25,
+          "width": 1080,
+          "at": 3.744444444444444,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            378,
+            1080,
+            25
+          ],
+          "value": 51.0,
+          "maximum": 100,
+          "color": "coral",
+          "at": 4.144444444444444,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "UNDECIDED \u00b7 6%",
+          "x": 100,
+          "y": 424,
+          "size": 25,
+          "width": 1080,
+          "at": 6.988888888888888,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            490,
+            1080,
+            25
+          ],
+          "value": 6.0,
+          "maximum": 100,
+          "color": "gold",
+          "at": 7.388888888888888,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Dated survey snapshot, not votes cast. Rounded figures may not total 100%.",
+          "x": 100,
+          "y": 570,
+          "size": 21,
+          "width": 1080,
+          "at": 8,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "In the September PPIC survey"
+      }
+    },
+    {
+      "id": "13",
+      "title": "September snapshot: Berkeley IGS",
+      "chapter": "What polling indicates",
+      "start_frame": 4514,
+      "frames": 426,
+      "source": "Berkeley IGS \u00b7 Sept 15\u201320, 2026 \u00b7 likely voters \u00b7 about \u00b12 points",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "September snapshot: Berkeley IGS",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "text",
+          "text": "YES \u00b7 31%",
+          "x": 100,
+          "y": 200,
+          "size": 25,
+          "width": 1080,
+          "at": 0.5,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            266,
+            1080,
+            25
+          ],
+          "value": 31.0,
+          "maximum": 100,
+          "color": "teal",
+          "at": 0.9,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "NO \u00b7 40%",
+          "x": 100,
+          "y": 312,
+          "size": 25,
+          "width": 1080,
+          "at": 4.2333333333333325,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            378,
+            1080,
+            25
+          ],
+          "value": 40.0,
+          "maximum": 100,
+          "color": "coral",
+          "at": 4.633333333333333,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "UNDECIDED \u00b7 29%",
+          "x": 100,
+          "y": 424,
+          "size": 25,
+          "width": 1080,
+          "at": 7.966666666666666,
+          "duration": 0.45
+        },
+        {
+          "kind": "bar",
+          "box": [
+            100,
+            490,
+            1080,
+            25
+          ],
+          "value": 29.0,
+          "maximum": 100,
+          "color": "gold",
+          "at": 8.366666666666665,
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Dated survey snapshot, not votes cast. Rounded figures may not total 100%.",
+          "x": 100,
+          "y": 570,
+          "size": 21,
+          "width": 1080,
+          "at": 8,
+          "duration": 0.45
+        }
+      ],
+      "anchor": {
+        "phrase": "A later September Berkeley survey"
+      }
+    },
+    {
+      "id": "14",
+      "title": "Explore the full explanation",
+      "chapter": "Make your own decision",
+      "start_frame": 4940,
+      "frames": 514,
+      "source": "Visit the website and official voter guide before making your decision",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Explore the full explanation",
+          "x": 60,
+          "y": 75,
+          "size": 35,
+          "width": 1160,
+          "at": 0,
+          "duration": 0.45,
+          "serif": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            50,
+            200,
+            540,
+            400
+          ],
+          "at": 0,
+          "duration": 0.85
+        },
+        {
+          "kind": "text",
+          "text": "Read the explanation and sources",
+          "x": 650,
+          "y": 205,
+          "size": 28,
+          "width": 560,
+          "at": 0.2,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "Compare the trade-offs",
+          "x": 650,
+          "y": 315,
+          "size": 28,
+          "width": 560,
+          "at": 2,
+          "duration": 0.45
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                650,
+                380
+              ],
+              [
+                1170,
+                380
+              ]
+            ]
+          ],
+          "at": 3,
+          "duration": 1,
+          "hand": true,
+          "color": "gold",
+          "width": 2.5
+        },
+        {
+          "kind": "text",
+          "text": "educational-explainers.github.io",
+          "x": 600,
+          "y": 455,
+          "size": 25,
+          "width": 650,
+          "at": 1,
+          "duration": 0.45
+        },
+        {
+          "kind": "text",
+          "text": "/ca-2026-ballot/",
+          "x": 600,
+          "y": 505,
+          "size": 29,
+          "width": 650,
+          "at": 1,
+          "duration": 0.45,
+          "color": "teal"
+        }
+      ],
+      "anchor": {
+        "phrase": "Yes, raises the threshold for"
+      }
+    }
+  ],
+  "pencil_gain_db": 16,
+  "captions_srt": "captions.srt",
+  "captions_vtt": "captions.vtt"
+}

@@ -1,0 +1,361 @@
+{
+  "number": 44,
+  "version": 2,
+  "title": "Clinic spending: what would a 90 percent rule do?",
+  "voice": "am_michael",
+  "speed": 1.04,
+  "checked": "2026-10-19",
+  "sections": [
+    {
+      "name": "The big picture",
+      "shots": [
+        {
+          "narration": "Proposition forty-four sets a spending rule for private nonprofit safety-net clinics. These clinics serve many low-income and uninsured patients. The proposal does not apply the same rule to every doctor, hospital, or publicly operated clinic.",
+          "headline": "Which clinics are covered?",
+          "kind": "cards",
+          "items": [
+            "Private nonprofit safety-net clinics",
+            "Not every health care provider"
+          ]
+        },
+        {
+          "narration": "Covered clinics would have to spend at least ninety percent of annual revenue on health care services, leaving no more than ten percent for other expenses. The attorney general would define the categories in more detail.",
+          "headline": "A rule based on revenue",
+          "kind": "split",
+          "items": [
+            90,
+            10
+          ],
+          "labels": [
+            "At least 90%: health care services",
+            "At most 10%: other expenses"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "An illustrative example",
+      "shots": [
+        {
+          "narration": "Imagine a clinic manager planning next year’s budget.",
+          "headline": "A clinic must balance several kinds of cost",
+          "kind": "art",
+          "items": [
+            0
+          ]
+        },
+        {
+          "narration": "For a hypothetical clinic receiving ten million dollars, the ninety percent minimum is nine million dollars. If qualifying spending is eight million, the shortfall is one million. This is arithmetic to explain the rule, not a real clinic’s budget.",
+          "headline": "A $10 million illustration",
+          "kind": "formula",
+          "items": [
+            "$10M × 90% = $9M minimum",
+            "$9M − $8M = $1M shortfall",
+            "Hypothetical example"
+          ]
+        },
+        {
+          "narration": "A nurse depends on both care resources and working systems.",
+          "headline": "Patient care needs supporting operations",
+          "kind": "art",
+          "items": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "How it would work",
+      "shots": [
+        {
+          "narration": "A clinic falling short would owe a penalty equal to the shortfall. It could recover that money by complying within five years. Temporary waivers would be available in some circumstances. The rule therefore has enforcement mechanisms as well as a target.",
+          "headline": "What happens when a clinic falls short?",
+          "kind": "flow",
+          "items": [
+            "Spending shortfall",
+            "Equal-sized penalty",
+            "Possible recovery after compliance"
+          ]
+        },
+        {
+          "narration": "Which costs qualify matters. An administrative label is not proof that an expense is wasteful; scheduling, records, and other systems can support care. Final definitions affect how clinics would change their budgets.",
+          "headline": "Why definitions matter",
+          "kind": "cards",
+          "items": [
+            "Classify expenses under the rules",
+            "Necessary support work still costs money"
+          ]
+        },
+        {
+          "narration": "The analyst estimates enforcement costs in the low tens of millions of dollars each year, funded by fees on affected clinics. Other public costs are uncertain and depend on how clinics respond, including whether some reduce operations or close.",
+          "headline": "Who funds enforcement?",
+          "kind": "cards",
+          "items": [
+            "Fees on affected clinics",
+            "Low tens of millions/year",
+            "Other effects uncertain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote yes",
+      "shots": [
+        {
+          "narration": "A voter might want a larger share of clinic revenue devoted to services for patients, with reporting and consequences for falling short. They may believe a clear minimum is a useful accountability tool. Reaching a ratio, however, does not by itself measure quality or outcomes.",
+          "headline": "The case for YES",
+          "kind": "cards",
+          "items": [
+            "Direct more revenue toward services",
+            "Create an enforceable minimum"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote no",
+      "shots": [
+        {
+          "narration": "You might ask whether one ratio fits different clinics.",
+          "headline": "Your question: better care or less flexibility?",
+          "kind": "art",
+          "items": [
+            2
+          ]
+        },
+        {
+          "narration": "Another voter could worry that a rigid limit constrains necessary support costs, adds fees, or makes some clinics financially fragile. A clinic can improve its reported ratio in different ways; the important outcome is access to effective care, not only the percentage on a report.",
+          "headline": "The case for NO",
+          "kind": "cards",
+          "items": [
+            "Different clinics have different costs",
+            "Fees and penalties can strain budgets",
+            "Patient access is the practical test"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "What polling indicates",
+      "shots": [
+        {
+          "narration": "In the September PPIC survey of likely voters, 34 percent said yes, 61 percent no, and 6 percent were unsure. These are dated survey results, not votes already cast.",
+          "headline": "September snapshot: PPIC",
+          "kind": "poll",
+          "items": [
+            34,
+            61,
+            6
+          ],
+          "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points"
+        }
+      ]
+    },
+    {
+      "name": "Make your own decision",
+      "shots": [
+        {
+          "narration": "Yes adopts the new spending rule; no leaves existing reporting and spending requirements in place. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+          "headline": "Explore the full explanation",
+          "kind": "cta",
+          "items": [
+            "educational-explainers.github.io",
+            "/ca-2026-ballot/"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=44&year=2026",
+      "use": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026."
+    },
+    {
+      "url": "https://voterguide.sos.ca.gov/propositions/44/",
+      "use": "Official voter guide, measure text and attributed campaign arguments."
+    },
+    {
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "use": "September likely-voter results, original published values retained including rounding."
+    }
+  ],
+  "polling_note": "Selected verified surveys available at the October 19 research check; dates shown explicitly. Not a polling average or forecast. Rounded percentages may total 99 or 101. Other polls may differ.",
+  "editorial_note": "Illustrative characters and calculations are not real testimonials or guaranteed outcomes. Voter considerations describe reasons for either choice, not recommendations.",
+  "shots": [
+    {
+      "narration": "Proposition forty-four sets a spending rule for private nonprofit safety-net clinics. These clinics serve many low-income and uninsured patients. The proposal does not apply the same rule to every doctor, hospital, or publicly operated clinic.",
+      "headline": "Which clinics are covered?",
+      "kind": "cards",
+      "items": [
+        "Private nonprofit safety-net clinics",
+        "Not every health care provider"
+      ],
+      "frames": 492,
+      "start_frame": 0,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Covered clinics would have to spend at least ninety percent of annual revenue on health care services, leaving no more than ten percent for other expenses. The attorney general would define the categories in more detail.",
+      "headline": "A rule based on revenue",
+      "kind": "split",
+      "items": [
+        90,
+        10
+      ],
+      "labels": [
+        "At least 90%: health care services",
+        "At most 10%: other expenses"
+      ],
+      "frames": 376,
+      "start_frame": 492,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Imagine a clinic manager planning next year’s budget.",
+      "headline": "A clinic must balance several kinds of cost",
+      "kind": "art",
+      "items": [
+        0
+      ],
+      "frames": 111,
+      "start_frame": 868,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "For a hypothetical clinic receiving ten million dollars, the ninety percent minimum is nine million dollars. If qualifying spending is eight million, the shortfall is one million. This is arithmetic to explain the rule, not a real clinic’s budget.",
+      "headline": "A $10 million illustration",
+      "kind": "formula",
+      "items": [
+        "$10M × 90% = $9M minimum",
+        "$9M − $8M = $1M shortfall",
+        "Hypothetical example"
+      ],
+      "frames": 497,
+      "start_frame": 979,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "A nurse depends on both care resources and working systems.",
+      "headline": "Patient care needs supporting operations",
+      "kind": "art",
+      "items": [
+        1
+      ],
+      "frames": 118,
+      "start_frame": 1476,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "A clinic falling short would owe a penalty equal to the shortfall. It could recover that money by complying within five years. Temporary waivers would be available in some circumstances. The rule therefore has enforcement mechanisms as well as a target.",
+      "headline": "What happens when a clinic falls short?",
+      "kind": "flow",
+      "items": [
+        "Spending shortfall",
+        "Equal-sized penalty",
+        "Possible recovery after compliance"
+      ],
+      "frames": 474,
+      "start_frame": 1594,
+      "section": "How it would work"
+    },
+    {
+      "narration": "Which costs qualify matters. An administrative label is not proof that an expense is wasteful; scheduling, records, and other systems can support care. Final definitions affect how clinics would change their budgets.",
+      "headline": "Why definitions matter",
+      "kind": "cards",
+      "items": [
+        "Classify expenses under the rules",
+        "Necessary support work still costs money"
+      ],
+      "frames": 395,
+      "start_frame": 2068,
+      "section": "How it would work"
+    },
+    {
+      "narration": "The analyst estimates enforcement costs in the low tens of millions of dollars each year, funded by fees on affected clinics. Other public costs are uncertain and depend on how clinics respond, including whether some reduce operations or close.",
+      "headline": "Who funds enforcement?",
+      "kind": "cards",
+      "items": [
+        "Fees on affected clinics",
+        "Low tens of millions/year",
+        "Other effects uncertain"
+      ],
+      "frames": 524,
+      "start_frame": 2463,
+      "section": "How it would work"
+    },
+    {
+      "narration": "A voter might want a larger share of clinic revenue devoted to services for patients, with reporting and consequences for falling short. They may believe a clear minimum is a useful accountability tool. Reaching a ratio, however, does not by itself measure quality or outcomes.",
+      "headline": "The case for YES",
+      "kind": "cards",
+      "items": [
+        "Direct more revenue toward services",
+        "Create an enforceable minimum"
+      ],
+      "frames": 581,
+      "start_frame": 2987,
+      "section": "Why someone might vote yes"
+    },
+    {
+      "narration": "You might ask whether one ratio fits different clinics.",
+      "headline": "Your question: better care or less flexibility?",
+      "kind": "art",
+      "items": [
+        2
+      ],
+      "frames": 106,
+      "start_frame": 3568,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "Another voter could worry that a rigid limit constrains necessary support costs, adds fees, or makes some clinics financially fragile. A clinic can improve its reported ratio in different ways; the important outcome is access to effective care, not only the percentage on a report.",
+      "headline": "The case for NO",
+      "kind": "cards",
+      "items": [
+        "Different clinics have different costs",
+        "Fees and penalties can strain budgets",
+        "Patient access is the practical test"
+      ],
+      "frames": 559,
+      "start_frame": 3674,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "In the September PPIC survey of likely voters, 34 percent said yes, 61 percent no, and 6 percent were unsure. These are dated survey results, not votes already cast.",
+      "headline": "September snapshot: PPIC",
+      "kind": "poll",
+      "items": [
+        34,
+        61,
+        6
+      ],
+      "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points",
+      "frames": 405,
+      "start_frame": 4233,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "Yes adopts the new spending rule; no leaves existing reporting and spending requirements in place. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+      "headline": "Explore the full explanation",
+      "kind": "cta",
+      "items": [
+        "educational-explainers.github.io",
+        "/ca-2026-ballot/"
+      ],
+      "frames": 488,
+      "start_frame": 4638,
+      "section": "Make your own decision"
+    }
+  ],
+  "frames": 5126,
+  "seconds": 170.86666666666667,
+  "alignment": [
+    0.9859154929577465,
+    0.9649122807017544,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

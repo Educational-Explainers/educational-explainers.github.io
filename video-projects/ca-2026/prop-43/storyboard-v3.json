@@ -1,0 +1,396 @@
+{
+  "number": 43,
+  "version": 2,
+  "title": "Local special taxes: when is a majority enough?",
+  "voice": "am_michael",
+  "speed": 1.04,
+  "checked": "2026-10-19",
+  "sections": [
+    {
+      "name": "The big picture",
+      "shots": [
+        {
+          "narration": "Proposition forty-three changes the vote threshold for certain local taxes. A special tax pays for a specified purpose, such as a local service. A general tax supports general government spending. This measure focuses on special taxes proposed by voters.",
+          "headline": "Which taxes are affected?",
+          "kind": "cards",
+          "items": [
+            "Local special taxes",
+            "Proposed through voter initiatives"
+          ]
+        },
+        {
+          "narration": "Government-proposed local special taxes generally need two-thirds approval. Court decisions allow voter-proposed special taxes to pass by a simple majority. Proposition forty-three would require two-thirds for those voter proposals too.",
+          "headline": "Who proposes the tax changes the threshold",
+          "kind": "bars",
+          "items": [
+            50,
+            66.6667
+          ],
+          "labels": [
+            "Voter initiative today: more than 50%",
+            "Proposed rule: at least two-thirds"
+          ],
+          "unit": "% of votes"
+        }
+      ]
+    },
+    {
+      "name": "An illustrative example",
+      "shots": [
+        {
+          "narration": "Imagine residents discussing a proposal for local services.",
+          "headline": "A community weighs a funding proposal",
+          "kind": "art",
+          "items": [
+            0
+          ]
+        },
+        {
+          "narration": "Suppose a hundred people vote on a citizen-proposed special tax, and sixty vote yes. That is enough for a simple majority. It is short of two-thirds, so the same proposal would fail under the new requirement.",
+          "headline": "Same votes, different result",
+          "kind": "threshold",
+          "items": [
+            60,
+            100
+          ],
+          "labels": [
+            "60 YES out of 100 votes",
+            "Majority: passes · Two-thirds: fails"
+          ]
+        },
+        {
+          "narration": "Local services and the tax burden are both at stake.",
+          "headline": "The threshold changes collective decisions",
+          "kind": "art",
+          "items": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "How it would work",
+      "shots": [
+        {
+          "narration": "Beginning January first, twenty twenty-seven, the higher threshold would apply to new, increased, or extended local special taxes proposed by voters. An extension matters because some existing taxes expire unless voters renew them.",
+          "headline": "The rule includes renewals",
+          "kind": "cards",
+          "items": [
+            "New special taxes",
+            "Increases and extensions",
+            "Begins January 1, 2027"
+          ]
+        },
+        {
+          "narration": "The proposition does not set a new tax rate or immediately cancel every existing tax. It changes the hurdle future proposals must clear. Voters would still decide whether a particular tax deserves support.",
+          "headline": "A voting rule, not a new tax",
+          "kind": "flow",
+          "items": [
+            "Future proposal",
+            "Higher approval threshold",
+            "Pass or fail"
+          ]
+        },
+        {
+          "narration": "The analyst expects local revenue could be lower than it otherwise would be, but gives no fixed amount. The effect depends on which future measures receive majority support but fall short of two-thirds.",
+          "headline": "Why the fiscal effect is unknown",
+          "kind": "cards",
+          "items": [
+            "Potentially less future local revenue",
+            "Depends on future proposals and results"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote yes",
+      "shots": [
+        {
+          "narration": "A voter might want broad agreement before a dedicated local tax takes effect, regardless of whether a council or a citizen group proposes it. They may see one consistent threshold as protection for taxpayers who would have to pay despite voting no.",
+          "headline": "The case for YES",
+          "kind": "cards",
+          "items": [
+            "One threshold for special taxes",
+            "Require broader consent to tax"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote no",
+      "shots": [
+        {
+          "narration": "You might ask how much power a minority should have.",
+          "headline": "Your question: how broad must agreement be?",
+          "kind": "art",
+          "items": [
+            2
+          ]
+        },
+        {
+          "narration": "Another voter could object that more than half the community may support a service but still be unable to fund it. In the example, forty no votes block sixty yes votes. A higher hurdle can protect dissenters while making collective action harder.",
+          "headline": "The case for NO",
+          "kind": "cards",
+          "items": [
+            "A majority can be blocked",
+            "Harder to fund or renew local services"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "What polling indicates",
+      "shots": [
+        {
+          "narration": "In the September PPIC survey of likely voters, 43 percent said yes, 51 percent no, and 6 percent were unsure. These are dated survey results, not votes already cast.",
+          "headline": "September snapshot: PPIC",
+          "kind": "poll",
+          "items": [
+            43,
+            51,
+            6
+          ],
+          "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points"
+        },
+        {
+          "narration": "A later September Berkeley survey found 31 percent yes, 40 percent no, and 29 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend.",
+          "headline": "September snapshot: Berkeley IGS",
+          "kind": "poll",
+          "items": [
+            31,
+            40,
+            29
+          ],
+          "poll_note": "Berkeley IGS · Sept 15–20, 2026 · likely voters · about ±2 points"
+        }
+      ]
+    },
+    {
+      "name": "Make your own decision",
+      "shots": [
+        {
+          "narration": "Yes raises the threshold for these voter-proposed special taxes; no retains the current majority route. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+          "headline": "Explore the full explanation",
+          "kind": "cta",
+          "items": [
+            "educational-explainers.github.io",
+            "/ca-2026-ballot/"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://voterguide.sos.ca.gov/propositions/43/analysis.htm",
+      "use": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026."
+    },
+    {
+      "url": "https://voterguide.sos.ca.gov/propositions/43/",
+      "use": "Official voter guide, measure text and attributed campaign arguments."
+    },
+    {
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "use": "September likely-voter results, original published values retained including rounding."
+    },
+    {
+      "url": "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf",
+      "use": "September 25 release; original previously verified in repository polling fact check. Current PDF fetch rate-limited; release listing checked October19."
+    }
+  ],
+  "polling_note": "Selected verified surveys available at the October 19 research check; dates shown explicitly. Not a polling average or forecast. Rounded percentages may total 99 or 101. Other polls may differ.",
+  "editorial_note": "Illustrative characters and calculations are not real testimonials or guaranteed outcomes. Voter considerations describe reasons for either choice, not recommendations.",
+  "shots": [
+    {
+      "narration": "Proposition forty-three changes the vote threshold for certain local taxes. A special tax pays for a specified purpose, such as a local service. A general tax supports general government spending. This measure focuses on special taxes proposed by voters.",
+      "headline": "Which taxes are affected?",
+      "kind": "cards",
+      "items": [
+        "Local special taxes",
+        "Proposed through voter initiatives"
+      ],
+      "frames": 550,
+      "start_frame": 0,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Government-proposed local special taxes generally need two-thirds approval. Court decisions allow voter-proposed special taxes to pass by a simple majority. Proposition forty-three would require two-thirds for those voter proposals too.",
+      "headline": "Who proposes the tax changes the threshold",
+      "kind": "bars",
+      "items": [
+        50,
+        66.6667
+      ],
+      "labels": [
+        "Voter initiative today: more than 50%",
+        "Proposed rule: at least two-thirds"
+      ],
+      "unit": "% of votes",
+      "frames": 511,
+      "start_frame": 550,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Imagine residents discussing a proposal for local services.",
+      "headline": "A community weighs a funding proposal",
+      "kind": "art",
+      "items": [
+        0
+      ],
+      "frames": 130,
+      "start_frame": 1061,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "Suppose a hundred people vote on a citizen-proposed special tax, and sixty vote yes. That is enough for a simple majority. It is short of two-thirds, so the same proposal would fail under the new requirement.",
+      "headline": "Same votes, different result",
+      "kind": "threshold",
+      "items": [
+        60,
+        100
+      ],
+      "labels": [
+        "60 YES out of 100 votes",
+        "Majority: passes · Two-thirds: fails"
+      ],
+      "frames": 424,
+      "start_frame": 1191,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "Local services and the tax burden are both at stake.",
+      "headline": "The threshold changes collective decisions",
+      "kind": "art",
+      "items": [
+        1
+      ],
+      "frames": 102,
+      "start_frame": 1615,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "Beginning January first, twenty twenty-seven, the higher threshold would apply to new, increased, or extended local special taxes proposed by voters. An extension matters because some existing taxes expire unless voters renew them.",
+      "headline": "The rule includes renewals",
+      "kind": "cards",
+      "items": [
+        "New special taxes",
+        "Increases and extensions",
+        "Begins January 1, 2027"
+      ],
+      "frames": 502,
+      "start_frame": 1717,
+      "section": "How it would work"
+    },
+    {
+      "narration": "The proposition does not set a new tax rate or immediately cancel every existing tax. It changes the hurdle future proposals must clear. Voters would still decide whether a particular tax deserves support.",
+      "headline": "A voting rule, not a new tax",
+      "kind": "flow",
+      "items": [
+        "Future proposal",
+        "Higher approval threshold",
+        "Pass or fail"
+      ],
+      "frames": 426,
+      "start_frame": 2219,
+      "section": "How it would work"
+    },
+    {
+      "narration": "The analyst expects local revenue could be lower than it otherwise would be, but gives no fixed amount. The effect depends on which future measures receive majority support but fall short of two-thirds.",
+      "headline": "Why the fiscal effect is unknown",
+      "kind": "cards",
+      "items": [
+        "Potentially less future local revenue",
+        "Depends on future proposals and results"
+      ],
+      "frames": 389,
+      "start_frame": 2645,
+      "section": "How it would work"
+    },
+    {
+      "narration": "A voter might want broad agreement before a dedicated local tax takes effect, regardless of whether a council or a citizen group proposes it. They may see one consistent threshold as protection for taxpayers who would have to pay despite voting no.",
+      "headline": "The case for YES",
+      "kind": "cards",
+      "items": [
+        "One threshold for special taxes",
+        "Require broader consent to tax"
+      ],
+      "frames": 511,
+      "start_frame": 3034,
+      "section": "Why someone might vote yes"
+    },
+    {
+      "narration": "You might ask how much power a minority should have.",
+      "headline": "Your question: how broad must agreement be?",
+      "kind": "art",
+      "items": [
+        2
+      ],
+      "frames": 121,
+      "start_frame": 3545,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "Another voter could object that more than half the community may support a service but still be unable to fund it. In the example, forty no votes block sixty yes votes. A higher hurdle can protect dissenters while making collective action harder.",
+      "headline": "The case for NO",
+      "kind": "cards",
+      "items": [
+        "A majority can be blocked",
+        "Harder to fund or renew local services"
+      ],
+      "frames": 466,
+      "start_frame": 3666,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "In the September PPIC survey of likely voters, 43 percent said yes, 51 percent no, and 6 percent were unsure. These are dated survey results, not votes already cast.",
+      "headline": "September snapshot: PPIC",
+      "kind": "poll",
+      "items": [
+        43,
+        51,
+        6
+      ],
+      "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points",
+      "frames": 382,
+      "start_frame": 4132,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "A later September Berkeley survey found 31 percent yes, 40 percent no, and 29 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend.",
+      "headline": "September snapshot: Berkeley IGS",
+      "kind": "poll",
+      "items": [
+        31,
+        40,
+        29
+      ],
+      "poll_note": "Berkeley IGS · Sept 15–20, 2026 · likely voters · about ±2 points",
+      "frames": 426,
+      "start_frame": 4514,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "Yes raises the threshold for these voter-proposed special taxes; no retains the current majority route. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+      "headline": "Explore the full explanation",
+      "kind": "cta",
+      "items": [
+        "educational-explainers.github.io",
+        "/ca-2026-ballot/"
+      ],
+      "frames": 514,
+      "start_frame": 4940,
+      "section": "Make your own decision"
+    }
+  ],
+  "frames": 5454,
+  "seconds": 181.8,
+  "alignment": [
+    0.9710144927536232,
+    0.9629629629629629,
+    0.9696969696969697,
+    0.9761904761904762,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "number": 3,
+  "version": 2,
+  "title": "High-income taxes: keep the rates after 2030?",
+  "voice": "am_michael",
+  "speed": 1.04,
+  "checked": "2026-10-19",
+  "sections": [
+    {
+      "name": "The big picture",
+      "shots": [
+        {
+          "narration": "Proposition three is about whether existing higher income-tax rates should expire. Voters approved these rates in twenty twelve and extended them in twenty sixteen. They are now scheduled to end after twenty thirty.",
+          "headline": "A temporary tax reaches another decision",
+          "kind": "flow",
+          "items": [
+            "Approved 2012",
+            "Extended 2016",
+            "Scheduled end: 2030"
+          ]
+        },
+        {
+          "narration": "The additional rates apply to roughly the highest-earning two percent of taxpayers. This is a tax on income, such as wages or investment profits, rather than a tax on everything someone owns.",
+          "headline": "Income is different from wealth",
+          "kind": "cards",
+          "items": [
+            "Higher rates on top incomes",
+            "Not a tax on total assets"
+          ]
+        },
+        {
+          "narration": "Proposition three would make those higher rates permanent. It would keep the current system beyond its scheduled expiration, rather than introducing a new increase in everybody’s rate today.",
+          "headline": "What YES would change",
+          "kind": "flow",
+          "items": [
+            "Current higher rates",
+            "Continue after 2030"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "An illustrative example",
+      "shots": [
+        {
+          "narration": "Imagine a teacher planning future classes and support services.",
+          "headline": "Planning beyond the next school year",
+          "kind": "art",
+          "items": [
+            0
+          ]
+        },
+        {
+          "narration": "If an existing revenue stream ends, a budget planner must consider cuts, replacement taxes, or other funding. Keeping that revenue can avoid that particular gap, but does not promise any school a specific staffing level.",
+          "headline": "Why an expiration matters",
+          "kind": "flow",
+          "items": [
+            "Revenue expires",
+            "Budget gap",
+            "Cuts or replacement funding"
+          ]
+        },
+        {
+          "narration": "School budgets depend on the wider state budget.",
+          "headline": "Revenue supports more than one program",
+          "kind": "art",
+          "items": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "How it would work",
+      "shots": [
+        {
+          "narration": "The analyst estimates five to fifteen billion dollars of annual revenue maintained after the scheduled expiration. The wide range reflects the volatile incomes and investment gains of high earners. It is not a guaranteed fifteen billion every year.",
+          "headline": "A range, not a guaranteed amount",
+          "kind": "bars",
+          "items": [
+            5,
+            15
+          ],
+          "labels": [
+            "Weak-year estimate: $5B",
+            "Strong-year estimate: $15B"
+          ],
+          "unit": "$ billions/year maintained"
+        },
+        {
+          "narration": "Roughly forty percent would support schools and community colleges. The remainder supports other state programs and reserves. Those shares describe the analyst’s estimate, rather than a promise that every dollar goes to classroom instruction.",
+          "headline": "Where the money would go",
+          "kind": "split",
+          "items": [
+            40,
+            60
+          ],
+          "labels": [
+            "Roughly 40%: schools + community colleges",
+            "Remainder: other programs + reserves"
+          ]
+        },
+        {
+          "narration": "A no vote does not lower rates immediately. The scheduled expiration would still occur in twenty thirty-one. Comparing yes and no therefore means comparing future budgets, not just this year’s tax bill.",
+          "headline": "When the choices diverge",
+          "kind": "cards",
+          "items": [
+            "YES: higher rates continue",
+            "NO: scheduled expiration in 2031"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote yes",
+      "shots": [
+        {
+          "narration": "A voter might prefer protecting existing revenue for education and other services, with the additional tax concentrated on high earners. Making the rates permanent removes repeated expiration deadlines, though it does not make the revenue itself predictable.",
+          "headline": "The case for YES",
+          "kind": "cards",
+          "items": [
+            "Avoid a future revenue loss",
+            "Concentrate the added tax on high earners"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote no",
+      "shots": [
+        {
+          "narration": "You might ask whether a temporary tax should stay permanent.",
+          "headline": "Your question: should the tax expire?",
+          "kind": "art",
+          "items": [
+            2
+          ]
+        },
+        {
+          "narration": "A skeptical voter could want the state to honor the sunset or reduce reliance on a small, volatile tax base. They may worry about effects on investment or where high earners live. The size of behavioral effects is uncertain.",
+          "headline": "The case for NO",
+          "kind": "cards",
+          "items": [
+            "Preserve the promised expiration",
+            "Question reliance on volatile high incomes"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "What polling indicates",
+      "shots": [
+        {
+          "narration": "In the September PPIC survey of likely voters, 58 percent said yes, 40 percent no, and 2 percent were unsure. These are dated survey results, not votes already cast.",
+          "headline": "September snapshot: PPIC",
+          "kind": "poll",
+          "items": [
+            58,
+            40,
+            2
+          ],
+          "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points"
+        },
+        {
+          "narration": "A later September Berkeley survey found 54 percent yes, 34 percent no, and 13 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend.",
+          "headline": "September snapshot: Berkeley IGS",
+          "kind": "poll",
+          "items": [
+            54,
+            34,
+            13
+          ],
+          "poll_note": "Berkeley IGS · Sept 15–20, 2026 · likely voters · about ±3 points"
+        }
+      ]
+    },
+    {
+      "name": "Make your own decision",
+      "shots": [
+        {
+          "narration": "Yes makes the current higher rates permanent; no preserves their scheduled expiration. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+          "headline": "Explore the full explanation",
+          "kind": "cta",
+          "items": [
+            "educational-explainers.github.io",
+            "/ca-2026-ballot/"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026",
+      "use": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026."
+    },
+    {
+      "url": "https://voterguide.sos.ca.gov/propositions/3/",
+      "use": "Official voter guide, measure text and attributed campaign arguments."
+    },
+    {
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "use": "September likely-voter results, original published values retained including rounding."
+    },
+    {
+      "url": "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf",
+      "use": "September 25 release; original previously verified in repository polling fact check. Current PDF fetch rate-limited; release listing checked October19."
+    }
+  ],
+  "polling_note": "Selected verified surveys available at the October 19 research check; dates shown explicitly. Not a polling average or forecast. Rounded percentages may total 99 or 101. Other polls may differ.",
+  "editorial_note": "Illustrative characters and calculations are not real testimonials or guaranteed outcomes. Voter considerations describe reasons for either choice, not recommendations.",
+  "shots": [
+    {
+      "narration": "Proposition three is about whether existing higher income-tax rates should expire. Voters approved these rates in twenty twelve and extended them in twenty sixteen. They are now scheduled to end after twenty thirty.",
+      "headline": "A temporary tax reaches another decision",
+      "kind": "flow",
+      "items": [
+        "Approved 2012",
+        "Extended 2016",
+        "Scheduled end: 2030"
+      ],
+      "frames": 434,
+      "start_frame": 0,
+      "section": "The big picture"
+    },
+    {
+      "narration": "The additional rates apply to roughly the highest-earning two percent of taxpayers. This is a tax on income, such as wages or investment profits, rather than a tax on everything someone owns.",
+      "headline": "Income is different from wealth",
+      "kind": "cards",
+      "items": [
+        "Higher rates on top incomes",
+        "Not a tax on total assets"
+      ],
+      "frames": 392,
+      "start_frame": 434,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Proposition three would make those higher rates permanent. It would keep the current system beyond its scheduled expiration, rather than introducing a new increase in everybody’s rate today.",
+      "headline": "What YES would change",
+      "kind": "flow",
+      "items": [
+        "Current higher rates",
+        "Continue after 2030"
+      ],
+      "frames": 354,
+      "start_frame": 826,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Imagine a teacher planning future classes and support services.",
+      "headline": "Planning beyond the next school year",
+      "kind": "art",
+      "items": [
+        0
+      ],
+      "frames": 133,
+      "start_frame": 1180,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "If an existing revenue stream ends, a budget planner must consider cuts, replacement taxes, or other funding. Keeping that revenue can avoid that particular gap, but does not promise any school a specific staffing level.",
+      "headline": "Why an expiration matters",
+      "kind": "flow",
+      "items": [
+        "Revenue expires",
+        "Budget gap",
+        "Cuts or replacement funding"
+      ],
+      "frames": 447,
+      "start_frame": 1313,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "School budgets depend on the wider state budget.",
+      "headline": "Revenue supports more than one program",
+      "kind": "art",
+      "items": [
+        1
+      ],
+      "frames": 94,
+      "start_frame": 1760,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "The analyst estimates five to fifteen billion dollars of annual revenue maintained after the scheduled expiration. The wide range reflects the volatile incomes and investment gains of high earners. It is not a guaranteed fifteen billion every year.",
+      "headline": "A range, not a guaranteed amount",
+      "kind": "bars",
+      "items": [
+        5,
+        15
+      ],
+      "labels": [
+        "Weak-year estimate: $5B",
+        "Strong-year estimate: $15B"
+      ],
+      "unit": "$ billions/year maintained",
+      "frames": 511,
+      "start_frame": 1854,
+      "section": "How it would work"
+    },
+    {
+      "narration": "Roughly forty percent would support schools and community colleges. The remainder supports other state programs and reserves. Those shares describe the analyst’s estimate, rather than a promise that every dollar goes to classroom instruction.",
+      "headline": "Where the money would go",
+      "kind": "split",
+      "items": [
+        40,
+        60
+      ],
+      "labels": [
+        "Roughly 40%: schools + community colleges",
+        "Remainder: other programs + reserves"
+      ],
+      "frames": 447,
+      "start_frame": 2365,
+      "section": "How it would work"
+    },
+    {
+      "narration": "A no vote does not lower rates immediately. The scheduled expiration would still occur in twenty thirty-one. Comparing yes and no therefore means comparing future budgets, not just this year’s tax bill.",
+      "headline": "When the choices diverge",
+      "kind": "cards",
+      "items": [
+        "YES: higher rates continue",
+        "NO: scheduled expiration in 2031"
+      ],
+      "frames": 392,
+      "start_frame": 2812,
+      "section": "How it would work"
+    },
+    {
+      "narration": "A voter might prefer protecting existing revenue for education and other services, with the additional tax concentrated on high earners. Making the rates permanent removes repeated expiration deadlines, though it does not make the revenue itself predictable.",
+      "headline": "The case for YES",
+      "kind": "cards",
+      "items": [
+        "Avoid a future revenue loss",
+        "Concentrate the added tax on high earners"
+      ],
+      "frames": 503,
+      "start_frame": 3204,
+      "section": "Why someone might vote yes"
+    },
+    {
+      "narration": "You might ask whether a temporary tax should stay permanent.",
+      "headline": "Your question: should the tax expire?",
+      "kind": "art",
+      "items": [
+        2
+      ],
+      "frames": 118,
+      "start_frame": 3707,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "A skeptical voter could want the state to honor the sunset or reduce reliance on a small, volatile tax base. They may worry about effects on investment or where high earners live. The size of behavioral effects is uncertain.",
+      "headline": "The case for NO",
+      "kind": "cards",
+      "items": [
+        "Preserve the promised expiration",
+        "Question reliance on volatile high incomes"
+      ],
+      "frames": 462,
+      "start_frame": 3825,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "In the September PPIC survey of likely voters, 58 percent said yes, 40 percent no, and 2 percent were unsure. These are dated survey results, not votes already cast.",
+      "headline": "September snapshot: PPIC",
+      "kind": "poll",
+      "items": [
+        58,
+        40,
+        2
+      ],
+      "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points",
+      "frames": 370,
+      "start_frame": 4287,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "A later September Berkeley survey found 54 percent yes, 34 percent no, and 13 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend.",
+      "headline": "September snapshot: Berkeley IGS",
+      "kind": "poll",
+      "items": [
+        54,
+        34,
+        13
+      ],
+      "poll_note": "Berkeley IGS · Sept 15–20, 2026 · likely voters · about ±3 points",
+      "frames": 429,
+      "start_frame": 4657,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "Yes makes the current higher rates permanent; no preserves their scheduled expiration. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+      "headline": "Explore the full explanation",
+      "kind": "cta",
+      "items": [
+        "educational-explainers.github.io",
+        "/ca-2026-ballot/"
+      ],
+      "frames": 459,
+      "start_frame": 5086,
+      "section": "Make your own decision"
+    }
+  ],
+  "frames": 5545,
+  "seconds": 184.83333333333334,
+  "alignment": [
+    0.9247311827956989,
+    1.0,
+    0.9326923076923077,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

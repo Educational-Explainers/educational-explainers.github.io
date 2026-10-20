@@ -1,0 +1,434 @@
+{
+  "number": 39,
+  "version": 2,
+  "title": "Voter identification: what changes when you cast a ballot?",
+  "voice": "am_michael",
+  "speed": 1.04,
+  "checked": "2026-10-19",
+  "sections": [
+    {
+      "name": "The big picture",
+      "shots": [
+        {
+          "narration": "Proposition thirty-nine would add identification requirements each time Californians vote. Citizenship is already required for state and federal elections. The question is how identity and eligibility are checked, not whether those elections should allow noncitizens to vote.",
+          "headline": "Existing eligibility; proposed new checks",
+          "kind": "cards",
+          "items": [
+            "Citizenship already required",
+            "Additional identification each election"
+          ]
+        },
+        {
+          "narration": "Today, registration uses identifying information. Most in-person voters sign a roster; mail voters sign their ballot envelope, and election officials check that signature. The proposal would add government-identification checks before ballots are counted.",
+          "headline": "How identification works today",
+          "kind": "flow",
+          "items": [
+            "Registration information",
+            "Voter signature",
+            "Existing verification"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "An illustrative example",
+      "shots": [
+        {
+          "narration": "Imagine a voter preparing a mail ballot at home.",
+          "headline": "Two voting methods, different requirements",
+          "kind": "art",
+          "items": [
+            0
+          ]
+        },
+        {
+          "narration": "Under the proposal, that voter would select a government-issued identification in their registration, then write its last four digits on the ballot envelope. Officials would compare those digits with the registration record.",
+          "headline": "Mail voting under the proposal",
+          "kind": "flow",
+          "items": [
+            "Register selected ID",
+            "Write last 4 digits",
+            "Officials compare records"
+          ]
+        },
+        {
+          "narration": "An election worker helps explain the identification process.",
+          "headline": "Understanding the new procedure",
+          "kind": "art",
+          "items": [
+            1
+          ]
+        },
+        {
+          "narration": "An in-person voter would instead present government-issued identification. The state must offer a free voter identification card on request. The Legislature would still have to clarify details, including which forms of identification qualify.",
+          "headline": "In-person voting under the proposal",
+          "kind": "flow",
+          "items": [
+            "Present government ID",
+            "Verify identity",
+            "Count ballot"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "How it would work",
+      "shots": [
+        {
+          "narration": "Officials would make best efforts using government data to verify citizenship on voter rolls, publish annual verification percentages, and face state compliance audits every other year. Those checks are separate from presenting identification at the polling place.",
+          "headline": "Three additional administrative duties",
+          "kind": "cards",
+          "items": [
+            "Best-efforts citizenship checks",
+            "Annual verification reports",
+            "Audits in odd-numbered years"
+          ]
+        },
+        {
+          "narration": "The analyst estimates annual state and local costs from tens of millions to the low hundreds of millions of dollars. Card demand, implementation rules, staffing, and technology choices affect the total. A free card still costs government money to provide.",
+          "headline": "What would implementation cost?",
+          "kind": "cards",
+          "items": [
+            "Tens to low hundreds of millions/year",
+            "Exact costs depend on implementation"
+          ]
+        },
+        {
+          "narration": "This is a proposed change, not instructions for casting your current ballot. For voting today, use the official election instructions and your county elections office.",
+          "headline": "Keep proposal and current rules separate",
+          "kind": "cards",
+          "items": [
+            "Explainer: what Prop 39 would change",
+            "Current voting: follow official county guidance"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote yes",
+      "shots": [
+        {
+          "narration": "A voter might favor a consistent identification check as another verification layer and a way to strengthen confidence. The free-card provision addresses the purchase cost of identification. Whether the additional checks deliver benefits proportionate to their costs is the question to weigh.",
+          "headline": "The case for YES",
+          "kind": "cards",
+          "items": [
+            "Additional identity verification",
+            "Potential confidence benefit"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why someone might vote no",
+      "shots": [
+        {
+          "narration": "You might ask what happens to eligible voters without documents.",
+          "headline": "Your question: verification and access?",
+          "kind": "art",
+          "items": [
+            2
+          ]
+        },
+        {
+          "narration": "A skeptical voter could worry about administrative mistakes, obtaining documents, or navigating new rules. A free card does not remove every time or paperwork burden. Existing checks already operate, so opponents question the extra system’s necessity and its effect on access.",
+          "headline": "The case for NO",
+          "kind": "cards",
+          "items": [
+            "Burden on eligible voters",
+            "Administrative errors and expense",
+            "Weigh against existing safeguards"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "What polling indicates",
+      "shots": [
+        {
+          "narration": "In the September PPIC survey of likely voters, 43 percent said yes, 55 percent no, and 1 percent were unsure. These are dated survey results, not votes already cast.",
+          "headline": "September snapshot: PPIC",
+          "kind": "poll",
+          "items": [
+            43,
+            55,
+            1
+          ],
+          "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points"
+        },
+        {
+          "narration": "A later September Berkeley survey found 39 percent yes, 52 percent no, and 9 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend.",
+          "headline": "September snapshot: Berkeley IGS",
+          "kind": "poll",
+          "items": [
+            39,
+            52,
+            9
+          ],
+          "poll_note": "Berkeley IGS · Sept 15–20, 2026 · likely voters · about ±2 points"
+        },
+        {
+          "narration": "The Independent Voter Project survey ending October second found 43 percent yes and 40 percent no. Its methods and wording differ again. The disagreement is a reason for caution, not a reason to declare a winner.",
+          "headline": "A newer, different survey",
+          "kind": "poll",
+          "items": [
+            43,
+            40,
+            17
+          ],
+          "poll_note": "IVP · Sept 23–Oct 2, 2026 · likely voters · ±2.5 points"
+        }
+      ]
+    },
+    {
+      "name": "Make your own decision",
+      "shots": [
+        {
+          "narration": "Yes adds the proposed requirements; no retains the current identification framework. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+          "headline": "Explore the full explanation",
+          "kind": "cta",
+          "items": [
+            "educational-explainers.github.io",
+            "/ca-2026-ballot/"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026",
+      "use": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026."
+    },
+    {
+      "url": "https://voterguide.sos.ca.gov/propositions/39/",
+      "use": "Official voter guide, measure text and attributed campaign arguments."
+    },
+    {
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "use": "September likely-voter results, original published values retained including rounding."
+    },
+    {
+      "url": "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf",
+      "use": "September 25 release; original previously verified in repository polling fact check. Current PDF fetch rate-limited; release listing checked October19."
+    },
+    {
+      "url": "https://ivn.us/new-ca-poll-voter-id-measure-leads-today-its-undecided-voters-point-the-other-way/",
+      "use": "Sponsor’s report and methodology; original survey snapshot, not its modeled prediction. Checked October19."
+    }
+  ],
+  "polling_note": "Selected verified surveys available at the October 19 research check; dates shown explicitly. Not a polling average or forecast. Rounded percentages may total 99 or 101. Other polls may differ.",
+  "editorial_note": "Illustrative characters and calculations are not real testimonials or guaranteed outcomes. Voter considerations describe reasons for either choice, not recommendations.",
+  "shots": [
+    {
+      "narration": "Proposition thirty-nine would add identification requirements each time Californians vote. Citizenship is already required for state and federal elections. The question is how identity and eligibility are checked, not whether those elections should allow noncitizens to vote.",
+      "headline": "Existing eligibility; proposed new checks",
+      "kind": "cards",
+      "items": [
+        "Citizenship already required",
+        "Additional identification each election"
+      ],
+      "frames": 568,
+      "start_frame": 0,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Today, registration uses identifying information. Most in-person voters sign a roster; mail voters sign their ballot envelope, and election officials check that signature. The proposal would add government-identification checks before ballots are counted.",
+      "headline": "How identification works today",
+      "kind": "flow",
+      "items": [
+        "Registration information",
+        "Voter signature",
+        "Existing verification"
+      ],
+      "frames": 517,
+      "start_frame": 568,
+      "section": "The big picture"
+    },
+    {
+      "narration": "Imagine a voter preparing a mail ballot at home.",
+      "headline": "Two voting methods, different requirements",
+      "kind": "art",
+      "items": [
+        0
+      ],
+      "frames": 113,
+      "start_frame": 1085,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "Under the proposal, that voter would select a government-issued identification in their registration, then write its last four digits on the ballot envelope. Officials would compare those digits with the registration record.",
+      "headline": "Mail voting under the proposal",
+      "kind": "flow",
+      "items": [
+        "Register selected ID",
+        "Write last 4 digits",
+        "Officials compare records"
+      ],
+      "frames": 435,
+      "start_frame": 1198,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "An election worker helps explain the identification process.",
+      "headline": "Understanding the new procedure",
+      "kind": "art",
+      "items": [
+        1
+      ],
+      "frames": 126,
+      "start_frame": 1633,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "An in-person voter would instead present government-issued identification. The state must offer a free voter identification card on request. The Legislature would still have to clarify details, including which forms of identification qualify.",
+      "headline": "In-person voting under the proposal",
+      "kind": "flow",
+      "items": [
+        "Present government ID",
+        "Verify identity",
+        "Count ballot"
+      ],
+      "frames": 498,
+      "start_frame": 1759,
+      "section": "An illustrative example"
+    },
+    {
+      "narration": "Officials would make best efforts using government data to verify citizenship on voter rolls, publish annual verification percentages, and face state compliance audits every other year. Those checks are separate from presenting identification at the polling place.",
+      "headline": "Three additional administrative duties",
+      "kind": "cards",
+      "items": [
+        "Best-efforts citizenship checks",
+        "Annual verification reports",
+        "Audits in odd-numbered years"
+      ],
+      "frames": 507,
+      "start_frame": 2257,
+      "section": "How it would work"
+    },
+    {
+      "narration": "The analyst estimates annual state and local costs from tens of millions to the low hundreds of millions of dollars. Card demand, implementation rules, staffing, and technology choices affect the total. A free card still costs government money to provide.",
+      "headline": "What would implementation cost?",
+      "kind": "cards",
+      "items": [
+        "Tens to low hundreds of millions/year",
+        "Exact costs depend on implementation"
+      ],
+      "frames": 515,
+      "start_frame": 2764,
+      "section": "How it would work"
+    },
+    {
+      "narration": "This is a proposed change, not instructions for casting your current ballot. For voting today, use the official election instructions and your county elections office.",
+      "headline": "Keep proposal and current rules separate",
+      "kind": "cards",
+      "items": [
+        "Explainer: what Prop 39 would change",
+        "Current voting: follow official county guidance"
+      ],
+      "frames": 327,
+      "start_frame": 3279,
+      "section": "How it would work"
+    },
+    {
+      "narration": "A voter might favor a consistent identification check as another verification layer and a way to strengthen confidence. The free-card provision addresses the purchase cost of identification. Whether the additional checks deliver benefits proportionate to their costs is the question to weigh.",
+      "headline": "The case for YES",
+      "kind": "cards",
+      "items": [
+        "Additional identity verification",
+        "Potential confidence benefit"
+      ],
+      "frames": 573,
+      "start_frame": 3606,
+      "section": "Why someone might vote yes"
+    },
+    {
+      "narration": "You might ask what happens to eligible voters without documents.",
+      "headline": "Your question: verification and access?",
+      "kind": "art",
+      "items": [
+        2
+      ],
+      "frames": 129,
+      "start_frame": 4179,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "A skeptical voter could worry about administrative mistakes, obtaining documents, or navigating new rules. A free card does not remove every time or paperwork burden. Existing checks already operate, so opponents question the extra system’s necessity and its effect on access.",
+      "headline": "The case for NO",
+      "kind": "cards",
+      "items": [
+        "Burden on eligible voters",
+        "Administrative errors and expense",
+        "Weigh against existing safeguards"
+      ],
+      "frames": 581,
+      "start_frame": 4308,
+      "section": "Why someone might vote no"
+    },
+    {
+      "narration": "In the September PPIC survey of likely voters, 43 percent said yes, 55 percent no, and 1 percent were unsure. These are dated survey results, not votes already cast.",
+      "headline": "September snapshot: PPIC",
+      "kind": "poll",
+      "items": [
+        43,
+        55,
+        1
+      ],
+      "poll_note": "PPIC · Sept 4–10, 2026 · likely voters · ±3.8 points",
+      "frames": 398,
+      "start_frame": 4889,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "A later September Berkeley survey found 39 percent yes, 52 percent no, and 9 percent undecided. Question wording and methods differ, so comparing polls does not by itself establish a trend.",
+      "headline": "September snapshot: Berkeley IGS",
+      "kind": "poll",
+      "items": [
+        39,
+        52,
+        9
+      ],
+      "poll_note": "Berkeley IGS · Sept 15–20, 2026 · likely voters · about ±2 points",
+      "frames": 426,
+      "start_frame": 5287,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "The Independent Voter Project survey ending October second found 43 percent yes and 40 percent no. Its methods and wording differ again. The disagreement is a reason for caution, not a reason to declare a winner.",
+      "headline": "A newer, different survey",
+      "kind": "poll",
+      "items": [
+        43,
+        40,
+        17
+      ],
+      "poll_note": "IVP · Sept 23–Oct 2, 2026 · likely voters · ±2.5 points",
+      "frames": 458,
+      "start_frame": 5713,
+      "section": "What polling indicates"
+    },
+    {
+      "narration": "Yes adds the proposed requirements; no retains the current identification framework. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice.",
+      "headline": "Explore the full explanation",
+      "kind": "cta",
+      "items": [
+        "educational-explainers.github.io",
+        "/ca-2026-ballot/"
+      ],
+      "frames": 470,
+      "start_frame": 6171,
+      "section": "Make your own decision"
+    }
+  ],
+  "frames": 6641,
+  "seconds": 221.36666666666667,
+  "alignment": [
+    0.9714285714285714,
+    0.975609756097561,
+    1.0,
+    0.9523809523809523,
+    1.0,
+    0.9895833333333334,
+    1.0
+  ]
+}

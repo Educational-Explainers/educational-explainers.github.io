@@ -1,6 +1,6 @@
 # Prop 37 sketchbook pilot
 
-A complete 202.867-second, 1280×720/30fps explainer in the approved C style: watercolor illustrations, selective pencil-hand drawing, exact animated charts, and uninterrupted narration. This is the first end-to-end pilot; the other propositions have not been rebuilt in this style.
+A complete 202.867-second, 1280×720/30fps explainer in the approved C style: watercolor illustrations, selective pencil-hand drawing, exact animated charts, and uninterrupted narration. This was the first end-to-end pilot. The [full 14-video collection](../README.md) has now been rebuilt in this style.
 
 ## Scene graphs belong in Git; generated media does not
 
@@ -75,7 +75,7 @@ Remaining limits: fixed 720p canvas, modest path-tracing editor, no automatic cl
 
 ## Timed rehearsal prompter
 
-The review page now links to `teleprompter.html`: centered phrases, word underlining, upcoming text, a three-second start/resume lead-in, WAIT countdowns, pace adjustment, mirror mode, fullscreen and optional reference narration. Silent mode is suitable for rehearsing or recording with a separate recorder; this page does not record the microphone. Timing is a guide, not a requirement for the new recording.
+The review page now links to `teleprompter.html`: centered phrases, word underlining, upcoming text, a three-second start/resume lead-in, WAIT countdowns, pace adjustment, mirror mode, fullscreen and optional reference narration. Silent mode is suitable for rehearsal. The page now also includes local microphone recording, saved takes, WAV export and timing notes; see the [collection recording instructions](../README.md). Timing is a guide, not a requirement for the new recording.
 
 The canonical script is preserved. Existing transcription timestamps anchor matched words; 49 corrected or expanded words have interpolated timing, including spoken numbers. All 72 phrase cues retain the original script order. Browser checks exercised start, pause, wait countdown, word highlighting, pace, mirror and completion.
 
