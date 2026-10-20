@@ -1,0 +1,2765 @@
+{
+  "title": "Prop 37 \u2014 Sketchbook explainer",
+  "label": "CALIFORNIA 2026 \u00b7 PROP 37",
+  "checked": "2026-10-20",
+  "fps": 30,
+  "frames": 6086,
+  "narration": "asset://ae9c63cf19c71310a6ca079bc4ffb151de617c4fe5a6bee9a3f0d4de4e9b807b.wav",
+  "captions_vtt": "captions.vtt",
+  "captions_srt": "captions.srt",
+  "pencil_gain_db": 16,
+  "assets": {
+    "hand": {
+      "path": "asset://ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2.png",
+      "tip": [
+        250,
+        914
+      ]
+    },
+    "family": {
+      "path": "asset://e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab.png"
+    },
+    "construction": {
+      "path": "asset://8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180.png"
+    },
+    "voter": {
+      "path": "asset://1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811.png"
+    }
+  },
+  "script": [
+    {
+      "name": "The big picture",
+      "narration": "Proposition thirty-seven creates a loan program for buyers of qualifying new homes. The problem it targets is the upfront cash needed to buy, not the entire cost of housing. Assistance would be another loan, not free money. The state housing finance agency could issue up to twenty-five billion dollars in revenue bonds. Homebuyers\u2019 payments would repay investors and administration. The analyst finds no direct state or local cost under this structure."
+    },
+    {
+      "name": "An illustrative example",
+      "narration": "Imagine a family budgeting for a newly built home. For an illustrative home costing six hundred thousand dollars, three percent down is eighteen thousand dollars. A loan covering seventeen percent would be one hundred two thousand. The remaining eighty percent is four hundred eighty thousand. That can reduce cash needed at closing, but the family still owes the assistance loan as well as its main mortgage. Affordability depends on both monthly payments, interest rates, taxes, insurance, and other costs. The program is tied to qualifying new housing."
+    },
+    {
+      "name": "How it would work",
+      "narration": "Borrowers must meet one year of California residency, owner-occupancy, and income rules, including an income ceiling tied to twice the area\u2019s median. Homes must be qualifying first sales, with county-based price limits roughly around one million to one and a half million dollars, adjusted annually. How many loans could it fund? Using the example loan amount, the bond could support roughly two hundred and forty-five thousand loans. That is arithmetic, not an official forecast; actual loan sizes, issuance, and costs matter. Developers can build eligible homes without using the optional qualified-builder route. That option pairs higher labor standards with different construction-defect rules. The measure does not directly guarantee a particular number of homes will be built."
+    },
+    {
+      "name": "Why someone might vote yes",
+      "narration": "A voter might support helping households with adequate income but too little saved cash. Restricting the assistance to new homes could encourage construction, connecting stronger purchasing power to additional supply. Whether developers respond enough is uncertain."
+    },
+    {
+      "name": "Why someone might vote no",
+      "narration": "You might ask whether easier buying pushes prices up. If more buyers can bid while construction stays constrained, some benefit can be absorbed into higher prices. New-home eligibility helps link the program to supply, but does not remove land, labor, or permitting constraints. Easier financing alone is not a complete affordability solution. A skeptical voter could also question the extra household debt or the construction-defect tradeoff. No direct government cost does not mean every borrower benefits, or that every risk disappears."
+    },
+    {
+      "name": "What polling indicates",
+      "narration": "In the September PPIC survey of likely voters, 61 percent said yes, 35 percent no, and 3 percent were unsure. These are dated survey results, not votes already cast."
+    },
+    {
+      "name": "Make your own decision",
+      "narration": "Yes creates this loan program; no leaves existing assistance options in place without requiring the new program. Visit our website for the fuller explanation, source links, and official voter guide. Compare the tradeoffs, then make your own informed choice."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Official voter guide: Proposition 37",
+      "url": "https://voterguide.sos.ca.gov/propositions/37/"
+    },
+    {
+      "name": "Legislative Analyst\u2019s Office analysis",
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=37&year=2026"
+    },
+    {
+      "name": "PPIC September 2026 survey",
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "start_frame": 0,
+      "title": "Prop 37: help with the upfront cash",
+      "chapter": "The big picture",
+      "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
+      "anchor": {
+        "phrase": "Proposition"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Prop 37: help with the upfront cash",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "image",
+          "asset": "family",
+          "box": [
+            55,
+            175,
+            620,
+            430
+          ],
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Loans for qualifying new homes",
+          "x": 730,
+          "y": 200,
+          "size": 29,
+          "width": 480,
+          "at": 0.3
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                258
+              ],
+              [
+                1160,
+                258
+              ]
+            ]
+          ],
+          "at": 0.6,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "A down-payment barrier",
+          "x": 730,
+          "y": 315,
+          "size": 29,
+          "width": 480,
+          "at": 0.95
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                373
+              ],
+              [
+                1160,
+                373
+              ]
+            ]
+          ],
+          "at": 1.25,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        }
+      ],
+      "frames": 344
+    },
+    {
+      "id": "02",
+      "start_frame": 344,
+      "title": "Assistance is still a loan",
+      "chapter": "The big picture",
+      "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
+      "anchor": {
+        "phrase": "Assistance would"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Assistance is still a loan",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "icon",
+          "icon": "coin",
+          "x": 180,
+          "y": 220,
+          "size": 125,
+          "at": 0.25,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Cash to help you buy",
+          "x": 100,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 0.5
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                345,
+                280
+              ],
+              [
+                445,
+                280
+              ],
+              [
+                430,
+                270
+              ],
+              [
+                445,
+                280
+              ],
+              [
+                430,
+                290
+              ]
+            ]
+          ],
+          "at": 0.8,
+          "duration": 0.7,
+          "hand": true
+        },
+        {
+          "kind": "icon",
+          "icon": "home",
+          "x": 570,
+          "y": 220,
+          "size": 125,
+          "at": 0.95,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Your new home",
+          "x": 490,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.2
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                735,
+                280
+              ],
+              [
+                835,
+                280
+              ],
+              [
+                820,
+                270
+              ],
+              [
+                835,
+                280
+              ],
+              [
+                820,
+                290
+              ]
+            ]
+          ],
+          "at": 1.5,
+          "duration": 0.7,
+          "hand": true
+        },
+        {
+          "kind": "icon",
+          "icon": "calendar",
+          "x": 960,
+          "y": 220,
+          "size": 125,
+          "at": 1.65,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Monthly repayments",
+          "x": 880,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.9
+        }
+      ],
+      "frames": 93
+    },
+    {
+      "id": "03",
+      "start_frame": 437,
+      "title": "Where would the money come from?",
+      "chapter": "The big picture",
+      "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
+      "anchor": {
+        "phrase": "The state housing"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Where would the money come from?",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 180,
+          "y": 220,
+          "size": 125,
+          "at": 0.25,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Investors buy revenue bonds",
+          "x": 100,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 0.5
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                345,
+                280
+              ],
+              [
+                445,
+                280
+              ],
+              [
+                430,
+                270
+              ],
+              [
+                445,
+                280
+              ],
+              [
+                430,
+                290
+              ]
+            ]
+          ],
+          "at": 0.8,
+          "duration": 0.7,
+          "hand": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 570,
+          "y": 220,
+          "size": 125,
+          "at": 0.95,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "CalHFA: up to $25 billion",
+          "x": 490,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.2
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                735,
+                280
+              ],
+              [
+                835,
+                280
+              ],
+              [
+                820,
+                270
+              ],
+              [
+                835,
+                280
+              ],
+              [
+                820,
+                290
+              ]
+            ]
+          ],
+          "at": 1.5,
+          "duration": 0.7,
+          "hand": true
+        },
+        {
+          "kind": "icon",
+          "icon": "home",
+          "x": 960,
+          "y": 220,
+          "size": 125,
+          "at": 1.65,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Loans for homebuyers",
+          "x": 880,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.9
+        }
+      ],
+      "frames": 182
+    },
+    {
+      "id": "04",
+      "start_frame": 619,
+      "title": "Borrowers repay the financing",
+      "chapter": "The big picture",
+      "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
+      "anchor": {
+        "phrase": "Home buyers"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Borrowers repay the financing",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "icon",
+          "icon": "people",
+          "x": 180,
+          "y": 220,
+          "size": 125,
+          "at": 0.25,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Homebuyers make payments",
+          "x": 100,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 0.5
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                345,
+                280
+              ],
+              [
+                445,
+                280
+              ],
+              [
+                430,
+                270
+              ],
+              [
+                445,
+                280
+              ],
+              [
+                430,
+                290
+              ]
+            ]
+          ],
+          "at": 0.8,
+          "duration": 0.7,
+          "hand": true
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 570,
+          "y": 220,
+          "size": 125,
+          "at": 0.95,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Investors are repaid",
+          "x": 490,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.2
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                735,
+                280
+              ],
+              [
+                835,
+                280
+              ],
+              [
+                820,
+                270
+              ],
+              [
+                835,
+                280
+              ],
+              [
+                820,
+                290
+              ]
+            ]
+          ],
+          "at": 1.5,
+          "duration": 0.7,
+          "hand": true
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 960,
+          "y": 220,
+          "size": 125,
+          "at": 1.65,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Administration is covered",
+          "x": 880,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.9
+        },
+        {
+          "kind": "text",
+          "text": "LAO: no direct state or local cost under this structure",
+          "x": 100,
+          "y": 540,
+          "size": 24,
+          "width": 1100,
+          "color": "teal",
+          "at": 3.9
+        }
+      ],
+      "frames": 249
+    },
+    {
+      "id": "05",
+      "start_frame": 868,
+      "title": "An example: buying a newly built home",
+      "chapter": "An illustrative example",
+      "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
+      "anchor": {
+        "phrase": "Imagine a family"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "An example: buying a newly built home",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "image",
+          "asset": "family",
+          "box": [
+            55,
+            175,
+            620,
+            430
+          ],
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Can we manage the cash upfront?",
+          "x": 730,
+          "y": 200,
+          "size": 29,
+          "width": 480,
+          "at": 0.3
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                258
+              ],
+              [
+                1160,
+                258
+              ]
+            ]
+          ],
+          "at": 0.6,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "Can we afford the monthly cost?",
+          "x": 730,
+          "y": 315,
+          "size": 29,
+          "width": 480,
+          "at": 0.95
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                373
+              ],
+              [
+                1160,
+                373
+              ]
+            ]
+          ],
+          "at": 1.25,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        }
+      ],
+      "frames": 112
+    },
+    {
+      "id": "06",
+      "start_frame": 980,
+      "title": "How the purchase could be financed",
+      "chapter": "An illustrative example",
+      "source": "Illustrative arithmetic: 3% + 17% + 80% = 100%",
+      "anchor": {
+        "phrase": "For an illustrative home"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "How the purchase could be financed",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "image",
+          "asset": "family",
+          "box": [
+            55,
+            185,
+            400,
+            390
+          ],
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "$600,000 home",
+          "x": 490,
+          "y": 170,
+          "size": 34,
+          "width": 650,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Illustration \u2022 not a loan offer",
+          "x": 490,
+          "y": 220,
+          "size": 21,
+          "width": 650,
+          "color": "muted"
+        },
+        {
+          "kind": "text",
+          "text": "3% buyer cash: $18,000",
+          "x": 490,
+          "y": 280,
+          "size": 25,
+          "width": 720,
+          "at": 3.5
+        },
+        {
+          "kind": "bar",
+          "box": [
+            490,
+            323,
+            690,
+            22
+          ],
+          "value": 3,
+          "maximum": 100,
+          "color": "gold",
+          "at": 3.5,
+          "duration": 1
+        },
+        {
+          "kind": "text",
+          "text": "17% assistance: $102,000",
+          "x": 490,
+          "y": 375,
+          "size": 25,
+          "width": 720,
+          "at": 7.1
+        },
+        {
+          "kind": "bar",
+          "box": [
+            490,
+            418,
+            690,
+            22
+          ],
+          "value": 17,
+          "maximum": 100,
+          "color": "teal",
+          "at": 7.1,
+          "duration": 1
+        },
+        {
+          "kind": "text",
+          "text": "80% other financing: $480,000",
+          "x": 490,
+          "y": 470,
+          "size": 25,
+          "width": 720,
+          "at": 11.8
+        },
+        {
+          "kind": "bar",
+          "box": [
+            490,
+            513,
+            690,
+            22
+          ],
+          "value": 80,
+          "maximum": 100,
+          "color": "blue",
+          "at": 11.8,
+          "duration": 1
+        }
+      ],
+      "frames": 465
+    },
+    {
+      "id": "07",
+      "start_frame": 1445,
+      "title": "Less upfront cash; two loans to repay",
+      "chapter": "An illustrative example",
+      "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
+      "anchor": {
+        "phrase": "That can reduce"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Less upfront cash; two loans to repay",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "image",
+          "asset": "family",
+          "box": [
+            55,
+            175,
+            620,
+            430
+          ],
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Main mortgage",
+          "x": 730,
+          "y": 200,
+          "size": 29,
+          "width": 480,
+          "at": 0.3
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                258
+              ],
+              [
+                1160,
+                258
+              ]
+            ]
+          ],
+          "at": 0.6,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "Assistance loan",
+          "x": 730,
+          "y": 315,
+          "size": 29,
+          "width": 480,
+          "at": 0.95
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                373
+              ],
+              [
+                1160,
+                373
+              ]
+            ]
+          ],
+          "at": 1.25,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "Both affect the monthly budget",
+          "x": 730,
+          "y": 430,
+          "size": 29,
+          "width": 480,
+          "at": 1.6
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                488
+              ],
+              [
+                1160,
+                488
+              ]
+            ]
+          ],
+          "at": 1.9,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        }
+      ],
+      "frames": 218
+    },
+    {
+      "id": "08",
+      "start_frame": 1663,
+      "title": "Look at the whole monthly bill",
+      "chapter": "An illustrative example",
+      "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
+      "anchor": {
+        "phrase": "Affordability depends"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Look at the whole monthly bill",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "icon",
+          "icon": "bank",
+          "x": 180,
+          "y": 220,
+          "size": 125,
+          "at": 0.25,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Both loan payments",
+          "x": 100,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 0.5
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 570,
+          "y": 220,
+          "size": 125,
+          "at": 0.95,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Taxes and insurance",
+          "x": 490,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.2
+        },
+        {
+          "kind": "icon",
+          "icon": "tool",
+          "x": 960,
+          "y": 220,
+          "size": 125,
+          "at": 1.65,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Other housing costs",
+          "x": 880,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.9
+        }
+      ],
+      "frames": 231
+    },
+    {
+      "id": "09",
+      "start_frame": 1894,
+      "title": "The program is tied to new housing",
+      "chapter": "An illustrative example",
+      "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
+      "anchor": {
+        "phrase": "The program is tied"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The program is tied to new housing",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "image",
+          "asset": "construction",
+          "box": [
+            140,
+            165,
+            1000,
+            440
+          ],
+          "duration": 0.9
+        }
+      ],
+      "frames": 101
+    },
+    {
+      "id": "10",
+      "start_frame": 1995,
+      "title": "Who could qualify?",
+      "chapter": "How it would work",
+      "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
+      "anchor": {
+        "phrase": "must meet one year"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Who could qualify?",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "icon",
+          "icon": "calendar",
+          "x": 180,
+          "y": 220,
+          "size": 125,
+          "at": 0.25,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "At least 1 year of California residency",
+          "x": 100,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 0.5
+        },
+        {
+          "kind": "icon",
+          "icon": "home",
+          "x": 570,
+          "y": 220,
+          "size": 125,
+          "at": 0.95,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Live in the home",
+          "x": 490,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.2
+        },
+        {
+          "kind": "icon",
+          "icon": "people",
+          "x": 960,
+          "y": 220,
+          "size": 125,
+          "at": 1.65,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Income at or below 2\u00d7 area median",
+          "x": 880,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.9
+        }
+      ],
+      "frames": 302
+    },
+    {
+      "id": "11",
+      "start_frame": 2297,
+      "title": "Which homes could qualify?",
+      "chapter": "How it would work",
+      "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
+      "anchor": {
+        "phrase": "Homes must be qualifying"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Which homes could qualify?",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "image",
+          "asset": "construction",
+          "box": [
+            55,
+            175,
+            620,
+            430
+          ],
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Qualifying first sales",
+          "x": 730,
+          "y": 200,
+          "size": 29,
+          "width": 480,
+          "at": 0.3
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                258
+              ],
+              [
+                1160,
+                258
+              ]
+            ]
+          ],
+          "at": 0.6,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "County-based price limits",
+          "x": 730,
+          "y": 315,
+          "size": 29,
+          "width": 480,
+          "at": 0.95
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                373
+              ],
+              [
+                1160,
+                373
+              ]
+            ]
+          ],
+          "at": 1.25,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "Limits adjust each year",
+          "x": 730,
+          "y": 430,
+          "size": 29,
+          "width": 480,
+          "at": 1.6
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                488
+              ],
+              [
+                1160,
+                488
+              ]
+            ]
+          ],
+          "at": 1.9,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        }
+      ],
+      "frames": 286
+    },
+    {
+      "id": "12",
+      "start_frame": 2583,
+      "title": "How many loans could $25 billion fund?",
+      "chapter": "How it would work",
+      "source": "Illustrative division, not a forecast or a promised loan count",
+      "anchor": {
+        "phrase": "How many loans"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "How many loans could $25 billion fund?",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "icon",
+          "icon": "home",
+          "x": 100,
+          "y": 230,
+          "size": 150,
+          "at": 0.4,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "$25 billion \u00f7 $102,000",
+          "x": 330,
+          "y": 235,
+          "size": 37,
+          "width": 850,
+          "bold": true
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                330,
+                300
+              ],
+              [
+                1140,
+                300
+              ]
+            ]
+          ],
+          "at": 1.3,
+          "duration": 1.2,
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "\u2248 245,000 loans",
+          "x": 330,
+          "y": 330,
+          "size": 44,
+          "width": 850,
+          "color": "teal",
+          "at": 3
+        },
+        {
+          "kind": "text",
+          "text": "If every loan matched our example",
+          "x": 330,
+          "y": 415,
+          "size": 25,
+          "width": 850,
+          "at": 3.5
+        }
+      ],
+      "frames": 251
+    },
+    {
+      "id": "13",
+      "start_frame": 2834,
+      "title": "An illustration, not a promise",
+      "chapter": "How it would work",
+      "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
+      "anchor": {
+        "phrase": "That is arithmetic"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "An illustration, not a promise",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "image",
+          "asset": "construction",
+          "box": [
+            55,
+            175,
+            620,
+            430
+          ],
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Actual loan sizes vary",
+          "x": 730,
+          "y": 200,
+          "size": 29,
+          "width": 480,
+          "at": 0.3
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                258
+              ],
+              [
+                1160,
+                258
+              ]
+            ]
+          ],
+          "at": 0.6,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "Bond issuance and costs matter",
+          "x": 730,
+          "y": 315,
+          "size": 29,
+          "width": 480,
+          "at": 0.95
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                373
+              ],
+              [
+                1160,
+                373
+              ]
+            ]
+          ],
+          "at": 1.25,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "The number of loans is uncertain",
+          "x": 730,
+          "y": 430,
+          "size": 29,
+          "width": 480,
+          "at": 1.6
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                488
+              ],
+              [
+                1160,
+                488
+              ]
+            ]
+          ],
+          "at": 1.9,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        }
+      ],
+      "frames": 208
+    },
+    {
+      "id": "14",
+      "start_frame": 3042,
+      "title": "An optional path for qualified builders",
+      "chapter": "How it would work",
+      "source": "Official voter guide / LAO \u00b7 optional builder provisions",
+      "anchor": {
+        "phrase": "Developers can build"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "An optional path for qualified builders",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "image",
+          "asset": "construction",
+          "box": [
+            55,
+            175,
+            620,
+            430
+          ],
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Higher labor standards",
+          "x": 730,
+          "y": 200,
+          "size": 29,
+          "width": 480,
+          "at": 0.3
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                258
+              ],
+              [
+                1160,
+                258
+              ]
+            ]
+          ],
+          "at": 0.6,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "Different construction-defect rules",
+          "x": 730,
+          "y": 315,
+          "size": 29,
+          "width": 480,
+          "at": 0.95
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                373
+              ],
+              [
+                1160,
+                373
+              ]
+            ]
+          ],
+          "at": 1.25,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        }
+      ],
+      "frames": 322
+    },
+    {
+      "id": "15",
+      "start_frame": 3364,
+      "title": "Will more homes actually get built?",
+      "chapter": "How it would work",
+      "source": "LAO: the effect on housing construction is uncertain",
+      "anchor": {
+        "phrase": "The measure does not"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Will more homes actually get built?",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "image",
+          "asset": "construction",
+          "box": [
+            70,
+            180,
+            700,
+            420
+          ],
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Construction is not guaranteed",
+          "x": 810,
+          "y": 245,
+          "size": 33,
+          "width": 400,
+          "color": "coral"
+        },
+        {
+          "kind": "icon",
+          "icon": "tool",
+          "x": 920,
+          "y": 410,
+          "size": 120,
+          "at": 1,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        }
+      ],
+      "frames": 146
+    },
+    {
+      "id": "16",
+      "start_frame": 3510,
+      "title": "Why a voter might support it",
+      "chapter": "Why someone might vote yes",
+      "source": "A possible voter consideration \u00b7 not a voting recommendation",
+      "anchor": {
+        "phrase": "A voter might support"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Why a voter might support it",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            175,
+            620,
+            430
+          ],
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Enough income for payments\u2026",
+          "x": 730,
+          "y": 200,
+          "size": 29,
+          "width": 480,
+          "at": 0.3
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                258
+              ],
+              [
+                1160,
+                258
+              ]
+            ]
+          ],
+          "at": 0.6,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "\u2026but not enough savings to buy",
+          "x": 730,
+          "y": 315,
+          "size": 29,
+          "width": 480,
+          "at": 0.95
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                373
+              ],
+              [
+                1160,
+                373
+              ]
+            ]
+          ],
+          "at": 1.25,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        }
+      ],
+      "frames": 193
+    },
+    {
+      "id": "17",
+      "start_frame": 3703,
+      "title": "Could new-home demand encourage building?",
+      "chapter": "Why someone might vote yes",
+      "source": "Possible mechanism; not a forecast of additional homes",
+      "anchor": {
+        "phrase": "Restricting the assistance"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Could new-home demand encourage building?",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "icon",
+          "icon": "people",
+          "x": 180,
+          "y": 220,
+          "size": 125,
+          "at": 0.25,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "More qualified buyers",
+          "x": 100,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 0.5
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                345,
+                280
+              ],
+              [
+                445,
+                280
+              ],
+              [
+                430,
+                270
+              ],
+              [
+                445,
+                280
+              ],
+              [
+                430,
+                290
+              ]
+            ]
+          ],
+          "at": 0.8,
+          "duration": 0.7,
+          "hand": true
+        },
+        {
+          "kind": "icon",
+          "icon": "home",
+          "x": 570,
+          "y": 220,
+          "size": 125,
+          "at": 0.95,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Demand for new homes",
+          "x": 490,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.2
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                735,
+                280
+              ],
+              [
+                835,
+                280
+              ],
+              [
+                820,
+                270
+              ],
+              [
+                835,
+                280
+              ],
+              [
+                820,
+                290
+              ]
+            ]
+          ],
+          "at": 1.5,
+          "duration": 0.7,
+          "hand": true
+        },
+        {
+          "kind": "icon",
+          "icon": "tool",
+          "x": 960,
+          "y": 220,
+          "size": 125,
+          "at": 1.65,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Potential new construction",
+          "x": 880,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.9
+        },
+        {
+          "kind": "text",
+          "text": "The supply response remains uncertain",
+          "x": 170,
+          "y": 555,
+          "size": 28,
+          "width": 1000,
+          "color": "teal",
+          "at": 6.9
+        }
+      ],
+      "frames": 339
+    },
+    {
+      "id": "18",
+      "start_frame": 4042,
+      "title": "But will homes become more affordable?",
+      "chapter": "Why someone might vote no",
+      "source": "A question a voter might reasonably ask",
+      "anchor": {
+        "phrase": "You might ask"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "But will homes become more affordable?",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            175,
+            620,
+            430
+          ],
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "More purchasing power\u2026",
+          "x": 730,
+          "y": 200,
+          "size": 29,
+          "width": 480,
+          "at": 0.3
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                258
+              ],
+              [
+                1160,
+                258
+              ]
+            ]
+          ],
+          "at": 0.6,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "\u2026with the same scarce homes?",
+          "x": 730,
+          "y": 315,
+          "size": 29,
+          "width": 480,
+          "at": 0.95
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                373
+              ],
+              [
+                1160,
+                373
+              ]
+            ]
+          ],
+          "at": 1.25,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        }
+      ],
+      "frames": 113
+    },
+    {
+      "id": "19",
+      "start_frame": 4155,
+      "title": "More buying power can bid up prices",
+      "chapter": "Why someone might vote no",
+      "source": "Illustrative economics: supply and demand, not a quantitative forecast",
+      "anchor": {
+        "phrase": "If more buyers can bid"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "More buying power can bid up prices",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "text",
+          "text": "Home prices",
+          "x": 70,
+          "y": 175,
+          "size": 22,
+          "width": 230
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                130,
+                230
+              ],
+              [
+                130,
+                540
+              ],
+              [
+                680,
+                540
+              ]
+            ]
+          ],
+          "at": 0.2,
+          "duration": 0.8,
+          "hand": true
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                190,
+                490
+              ],
+              [
+                590,
+                250
+              ]
+            ]
+          ],
+          "at": 1.1,
+          "duration": 1.1,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                170,
+                285
+              ],
+              [
+                540,
+                500
+              ]
+            ]
+          ],
+          "at": 2.2,
+          "duration": 1,
+          "hand": true,
+          "color": "blue"
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                300,
+                250
+              ],
+              [
+                670,
+                465
+              ]
+            ]
+          ],
+          "at": 3.3,
+          "duration": 1,
+          "hand": true,
+          "color": "coral"
+        },
+        {
+          "kind": "text",
+          "text": "More demand",
+          "x": 760,
+          "y": 235,
+          "size": 31,
+          "width": 440,
+          "color": "coral",
+          "at": 3
+        },
+        {
+          "kind": "text",
+          "text": "Prices can rise if supply does not keep up",
+          "x": 760,
+          "y": 320,
+          "size": 29,
+          "width": 430,
+          "at": 3.4
+        },
+        {
+          "kind": "text",
+          "text": "Homes available",
+          "x": 430,
+          "y": 555,
+          "size": 22,
+          "width": 280
+        },
+        {
+          "kind": "text",
+          "text": "Illustrative curves \u2022 no predicted price change",
+          "x": 180,
+          "y": 600,
+          "size": 19,
+          "width": 1000,
+          "color": "muted"
+        },
+        {
+          "kind": "text",
+          "text": "Supply",
+          "x": 760,
+          "y": 545,
+          "size": 20,
+          "width": 420,
+          "color": "teal",
+          "at": 1.1
+        },
+        {
+          "kind": "text",
+          "text": "Initial demand",
+          "x": 760,
+          "y": 465,
+          "size": 20,
+          "width": 420,
+          "color": "blue",
+          "at": 2.2
+        },
+        {
+          "kind": "text",
+          "text": "Higher demand",
+          "x": 760,
+          "y": 505,
+          "size": 20,
+          "width": 420,
+          "color": "coral",
+          "at": 3.4
+        }
+      ],
+      "frames": 221
+    },
+    {
+      "id": "20",
+      "start_frame": 4376,
+      "title": "New-home rules do not remove every bottleneck",
+      "chapter": "Why someone might vote no",
+      "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
+      "anchor": {
+        "phrase": "New home eligibility"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "New-home rules do not remove every bottleneck",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "icon",
+          "icon": "home",
+          "x": 180,
+          "y": 220,
+          "size": 125,
+          "at": 0.25,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Land availability",
+          "x": 100,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 0.5
+        },
+        {
+          "kind": "icon",
+          "icon": "tool",
+          "x": 570,
+          "y": 220,
+          "size": 125,
+          "at": 0.95,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Labor and materials",
+          "x": 490,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.2
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 960,
+          "y": 220,
+          "size": 125,
+          "at": 1.65,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Permitting and timing",
+          "x": 880,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.9
+        }
+      ],
+      "frames": 240
+    },
+    {
+      "id": "21",
+      "start_frame": 4616,
+      "title": "Financing is only one part of affordability",
+      "chapter": "Why someone might vote no",
+      "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
+      "anchor": {
+        "phrase": "Easier financing alone"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Financing is only one part of affordability",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "image",
+          "asset": "construction",
+          "box": [
+            55,
+            175,
+            620,
+            430
+          ],
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Help with buying",
+          "x": 730,
+          "y": 200,
+          "size": 29,
+          "width": 480,
+          "at": 0.3
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                258
+              ],
+              [
+                1160,
+                258
+              ]
+            ]
+          ],
+          "at": 0.6,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "Enough homes to buy",
+          "x": 730,
+          "y": 315,
+          "size": 29,
+          "width": 480,
+          "at": 0.95
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                373
+              ],
+              [
+                1160,
+                373
+              ]
+            ]
+          ],
+          "at": 1.25,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "Both matter for affordability",
+          "x": 730,
+          "y": 430,
+          "size": 29,
+          "width": 480,
+          "at": 1.6
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                488
+              ],
+              [
+                1160,
+                488
+              ]
+            ]
+          ],
+          "at": 1.9,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        }
+      ],
+      "frames": 140
+    },
+    {
+      "id": "22",
+      "start_frame": 4756,
+      "title": "Why a voter might vote against it",
+      "chapter": "Why someone might vote no",
+      "source": "Skeptical considerations \u00b7 no official argument against was submitted",
+      "anchor": {
+        "phrase": "A skeptical voter"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Why a voter might vote against it",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            175,
+            620,
+            430
+          ],
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Additional household debt",
+          "x": 730,
+          "y": 200,
+          "size": 29,
+          "width": 480,
+          "at": 0.3
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                258
+              ],
+              [
+                1160,
+                258
+              ]
+            ]
+          ],
+          "at": 0.6,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "Construction-defect trade-offs",
+          "x": 730,
+          "y": 315,
+          "size": 29,
+          "width": 480,
+          "at": 0.95
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                373
+              ],
+              [
+                1160,
+                373
+              ]
+            ]
+          ],
+          "at": 1.25,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        }
+      ],
+      "frames": 203
+    },
+    {
+      "id": "23",
+      "start_frame": 4959,
+      "title": "No direct public cost does not mean no risk",
+      "chapter": "Why someone might vote no",
+      "source": "LAO fiscal finding and separate household / market considerations",
+      "anchor": {
+        "phrase": "No direct government cost"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "No direct public cost does not mean no risk",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            55,
+            175,
+            620,
+            430
+          ],
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Borrowers still carry debt",
+          "x": 730,
+          "y": 200,
+          "size": 29,
+          "width": 480,
+          "at": 0.3
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                258
+              ],
+              [
+                1160,
+                258
+              ]
+            ]
+          ],
+          "at": 0.6,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        },
+        {
+          "kind": "text",
+          "text": "Housing outcomes are uncertain",
+          "x": 730,
+          "y": 315,
+          "size": 29,
+          "width": 480,
+          "at": 0.95
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                730,
+                373
+              ],
+              [
+                1160,
+                373
+              ]
+            ]
+          ],
+          "at": 1.25,
+          "duration": 0.55,
+          "hand": true,
+          "color": "gold"
+        }
+      ],
+      "frames": 203
+    },
+    {
+      "id": "24",
+      "start_frame": 5162,
+      "title": "What did the September poll find?",
+      "chapter": "What polling indicates",
+      "source": "Source: PPIC September 2026 statewide survey",
+      "anchor": {
+        "phrase": "In the September PPIC"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What did the September poll find?",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "text",
+          "text": "Yes \u00b7 61%",
+          "x": 110,
+          "y": 205,
+          "size": 28,
+          "width": 260,
+          "at": 3.4
+        },
+        {
+          "kind": "bar",
+          "box": [
+            390,
+            210,
+            750,
+            35
+          ],
+          "value": 61,
+          "maximum": 100,
+          "color": "teal",
+          "at": 3.4,
+          "duration": 0.8
+        },
+        {
+          "kind": "text",
+          "text": "No \u00b7 35%",
+          "x": 110,
+          "y": 310,
+          "size": 28,
+          "width": 260,
+          "at": 5.4
+        },
+        {
+          "kind": "bar",
+          "box": [
+            390,
+            315,
+            750,
+            35
+          ],
+          "value": 35,
+          "maximum": 100,
+          "color": "coral",
+          "at": 5.4,
+          "duration": 0.8
+        },
+        {
+          "kind": "text",
+          "text": "Unsure \u00b7 3%",
+          "x": 110,
+          "y": 415,
+          "size": 28,
+          "width": 260,
+          "at": 7.1
+        },
+        {
+          "kind": "bar",
+          "box": [
+            390,
+            420,
+            750,
+            35
+          ],
+          "value": 3,
+          "maximum": 100,
+          "color": "gold",
+          "at": 7.1,
+          "duration": 0.8
+        },
+        {
+          "kind": "text",
+          "text": "September 4\u201310, 2026 \u2022 likely voters",
+          "x": 110,
+          "y": 540,
+          "size": 24,
+          "width": 1050
+        },
+        {
+          "kind": "text",
+          "text": "A dated snapshot, not votes cast. Rounded figures total 99%.",
+          "x": 110,
+          "y": 585,
+          "size": 21,
+          "width": 1100,
+          "at": 9.3
+        }
+      ],
+      "frames": 401
+    },
+    {
+      "id": "25",
+      "start_frame": 5563,
+      "title": "What would your vote do?",
+      "chapter": "Make your own decision",
+      "source": "Official voter guide / LAO \u00b7 checked Oct 20, 2026",
+      "anchor": {
+        "phrase": "Yes creates this loan program"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What would your vote do?",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 180,
+          "y": 220,
+          "size": 125,
+          "at": 0.25,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "YES: create this loan program",
+          "x": 100,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 0.5
+        },
+        {
+          "kind": "icon",
+          "icon": "home",
+          "x": 570,
+          "y": 220,
+          "size": 125,
+          "at": 0.95,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "Housing affordability is the question",
+          "x": 490,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.2
+        },
+        {
+          "kind": "icon",
+          "icon": "document",
+          "x": 960,
+          "y": 220,
+          "size": 125,
+          "at": 1.65,
+          "duration": 1.3,
+          "hand": true,
+          "color": "teal"
+        },
+        {
+          "kind": "text",
+          "text": "NO: no requirement to create it",
+          "x": 880,
+          "y": 390,
+          "size": 27,
+          "width": 320,
+          "at": 1.9
+        }
+      ],
+      "frames": 236
+    },
+    {
+      "id": "26",
+      "start_frame": 5799,
+      "title": "Explore the details before you decide",
+      "chapter": "Make your own decision",
+      "source": "Visit the website and the official voter guide for more information",
+      "anchor": {
+        "phrase": "Visit our website"
+      },
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Explore the details before you decide",
+          "x": 60,
+          "y": 75,
+          "size": 38,
+          "width": 1160,
+          "serif": true,
+          "duration": 0.5
+        },
+        {
+          "kind": "image",
+          "asset": "family",
+          "box": [
+            55,
+            180,
+            500,
+            400
+          ],
+          "duration": 0.9
+        },
+        {
+          "kind": "text",
+          "text": "Read the explanation and sources",
+          "x": 620,
+          "y": 205,
+          "size": 30,
+          "width": 590
+        },
+        {
+          "kind": "text",
+          "text": "Compare the trade-offs",
+          "x": 620,
+          "y": 300,
+          "size": 30,
+          "width": 590,
+          "at": 1.5
+        },
+        {
+          "kind": "stroke",
+          "paths": [
+            [
+              [
+                620,
+                365
+              ],
+              [
+                1160,
+                365
+              ]
+            ]
+          ],
+          "at": 2.2,
+          "duration": 1.2,
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "educational-explainers.github.io",
+          "x": 580,
+          "y": 435,
+          "size": 25,
+          "width": 650,
+          "color": "teal",
+          "at": 0.3
+        },
+        {
+          "kind": "text",
+          "text": "/ca-2026-ballot/",
+          "x": 580,
+          "y": 480,
+          "size": 29,
+          "width": 650,
+          "color": "teal",
+          "at": 0.3
+        }
+      ],
+      "frames": 287
+    }
+  ],
+  "schema_version": 1
+}

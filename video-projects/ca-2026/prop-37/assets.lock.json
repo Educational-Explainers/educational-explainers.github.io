@@ -1,0 +1,32 @@
+[
+  {
+    "role": "hand",
+    "sha256": "ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2",
+    "file": "ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2.png",
+    "bytes": 1897155
+  },
+  {
+    "role": "family",
+    "sha256": "e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab",
+    "file": "e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab.png",
+    "bytes": 2658833
+  },
+  {
+    "role": "construction",
+    "sha256": "8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180",
+    "file": "8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180.png",
+    "bytes": 1901171
+  },
+  {
+    "role": "voter",
+    "sha256": "1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811",
+    "file": "1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811.png",
+    "bytes": 2262832
+  },
+  {
+    "role": "narration",
+    "sha256": "ae9c63cf19c71310a6ca079bc4ffb151de617c4fe5a6bee9a3f0d4de4e9b807b",
+    "file": "ae9c63cf19c71310a6ca079bc4ffb151de617c4fe5a6bee9a3f0d4de4e9b807b.wav",
+    "bytes": 14606502
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "regression_tests": {
+    "passed": 7
+  },
+  "unchanged_project_rebuild": {
+    "cached_scenes": 26,
+    "rendered_scenes": 0
+  },
+  "graph_label_edit_rebuild": {
+    "cached_scenes": 25,
+    "rendered_scenes": 1
+  },
+  "asset_bundle": {
+    "assets": 5,
+    "format": "zip",
+    "external_to_git": true,
+    "path": ".video-production/sketchbook/prop-37/assets-bundle.zip"
+  },
+  "editor_live_preview": "passed",
+  "review_http": "200",
+  "tooling_repository": "https://github.com/arvindpereira/ampytech-video-gen-tools"
+}

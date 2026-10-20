@@ -1,0 +1,32 @@
+{
+  "checked": "2026-10-20",
+  "sources": [
+    {
+      "name": "Official voter guide: Proposition 37",
+      "url": "https://voterguide.sos.ca.gov/propositions/37/"
+    },
+    {
+      "name": "Legislative Analyst\u2019s Office analysis",
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=37&year=2026"
+    },
+    {
+      "name": "PPIC September 2026 survey",
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+    },
+    {
+      "name": "Proposed law text",
+      "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-text-proposed-laws.pdf"
+    }
+  ],
+  "editorial_notes": [
+    "Retains existing narration after checking primary sources.",
+    "Revenue bonds are up to $25 billion, not a guaranteed issuance.",
+    "Example financing and 245,000 loan count are illustrative arithmetic, not forecasts.",
+    "Income ceiling is twice area median; residency, occupancy, first-sale and price limits also apply.",
+    "New construction response is uncertain; demand chart is conceptual, with no numerical prediction.",
+    "No official argument against was submitted; skeptical voter considerations are not attributed to an opposition campaign.",
+    "PPIC September 4\u201310 snapshot: 61 yes, 35 no, 3 unsure; rounded totals need not equal 100.",
+    "The same thoughtful voter illustration appears for both sides, avoiding visual endorsement.",
+    "CTA links to explanations and sources; no nonexistent checklist promise."
+  ]
+}

@@ -1,0 +1,6 @@
+*.json.bak
+*.json.tmp
+outputs/
+*.mp4
+*.wav
+*.zip
