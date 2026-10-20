@@ -1,5 +1,7 @@
 # California 2026 sketchbook video series
 
+See [the handoff](HANDOFF.md) for the remaining human-narration work, approved-take tracking and scene-graph import instructions.
+
 All 14 propositions have illustrated sketchbook exports and timed rehearsal/recording pages. The current voice tracks preserve the previously approved narration. New recordings can replace them after alignment and review.
 
 ## Project ownership
