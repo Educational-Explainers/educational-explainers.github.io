@@ -59,6 +59,10 @@
     .prop h3{font-size:1.35rem;margin:12px 0 10px}.one-line{margin:0;color:var(--muted);font-size:.95rem}
     .tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}.tag{font-size:.72rem;font-weight:700;padding:4px 8px;border-radius:2px;background:var(--paper);border:1px solid var(--line)}.tag.lean{color:var(--muted)}.tag.lean.dem{background:var(--blue-soft);border-color:transparent;color:var(--blue)}.tag.lean.rep{background:var(--red-soft);border-color:transparent;color:var(--red)}.tag.money{background:var(--green-soft);border-color:transparent;color:var(--green)}
     .details{border-top:1px solid var(--line);padding:0 20px 22px}.details[hidden]{display:none}
+    .watch-all{display:inline-block;margin-top:20px;font-weight:700}
+    .video-panel{margin:20px 0;max-width:900px}.video-panel h4{font-family:"Source Serif 4",serif;font-size:1.35rem;margin:0 0 12px}
+    .video-panel iframe{display:block;width:100%;aspect-ratio:16/9;border:0;background:#111;border-radius:4px}.video-panel p{font-size:.82rem;margin:8px 0 0}
+    @media print{.video-panel,.watch-all{display:none}}
     .vote-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding-top:18px}.vote{padding:14px;background:var(--paper);border-top:4px solid var(--green)}.vote.no{border-color:var(--red)}.vote b{display:block;font-size:.75rem;color:var(--green);margin-bottom:5px}.vote.no b{color:var(--red)}.vote p{font-size:.88rem;margin:0}
     .cost{margin:16px 0;padding:14px;border:1px solid var(--line);background:var(--paper)}.cost b{font-size:.78rem;color:var(--muted);display:block;margin-bottom:4px}.cost strong{font-family:"Source Serif 4",serif;font-size:1.18rem}
     .prop.open{grid-column:1/-1}
@@ -93,6 +97,7 @@
       <h1>14 propositions.<br>One clear page.</h1>
       <p class="hero-deck">What a Yes or No vote does, the strongest case on each side, partisan coalition signals, and fiscal scale—without telling you how to vote.</p>
       <div class="hero-meta"><span><b>Election day</b> Tuesday, November 3, 2026</span><span><b>Budget baseline</b> $251.5B General Fund</span><span><b>Research snapshot</b> October 5, 2026</span></div>
+      <a class="watch-all" href="https://www.youtube.com/playlist?list=PLPjaSfrIKaIU" target="_blank" rel="noopener">Watch all 14 full-length explainers on YouTube ↗</a>
       <div class="snapshot"><strong>Read this first:</strong> party-lean labels describe the coalitions backing and opposing a measure, not the content of the measure itself. Polls are snapshots, not predictions. <a class="key-link" href="#sources-and-terms">Glossary &amp; sources ↓</a></div>
     </div>
   </header>
@@ -144,7 +149,7 @@
     </section>
 
     <section class="tools" aria-labelledby="guide-title">
-      <div><h2 id="guide-title">Pick a proposition</h2><p>Open any card to compare the money flow if it passes or fails, then review the arguments, polling, and official sources.</p></div>
+      <div><h2 id="guide-title">Pick a proposition</h2><p>Open any card to watch the full explainer, compare the money flow if it passes or fails, and review the arguments, polling, and official sources.</p></div>
       <div class="search"><label for="search">Search the guide</label><input id="search" type="search" placeholder="Try housing, taxes, voting…" autocomplete="off"></div>
     </section>
     <div class="filters" aria-label="Filter propositions">
@@ -377,15 +382,18 @@
   function mobileFlow(data){const names=data.cols||(data.stages.length>3?['CAPITAL','LENDING','RECIPIENT','REPAYMENT']:['MONEY IN','MECHANISM','WHERE IT GOES']);return `<div class="mobile-flow" aria-hidden="true">${data.stages.map((stage,i)=>`${i?'<div class="mobile-arrow">↓</div>':''}<div class="mobile-stage"><div class="mobile-col-label">${names[i]}</div>${stage.map(n=>`<div class="mobile-node">${esc(n.t)}<span>${esc(n.s)}</span></div>`).join('')}</div>`).join('')}</div>`}
   function flowPanel(p){const f=fiscalFlows[p.n],d=f.pass;return `<section class="flow-panel" aria-label="Fiscal flow comparison for Proposition ${p.n}"><div class="flow-head"><div><h4>Where the money moves</h4><p class="flow-status" aria-live="polite">${esc(d.title)}</p></div><div class="flow-switch" role="group" aria-label="Choose ballot outcome"><button class="flow-toggle" data-mode="pass" aria-pressed="true">If passed</button><button class="flow-toggle" data-mode="fail" aria-pressed="false">If rejected</button></div></div><div class="sankey-wrap" data-prop="${p.n}" data-mode="pass">${sankeySvg(d,'pass')}${mobileFlow(d)}</div><div class="flow-caption"><span><b>${esc(f.note)}</b></span><span class="flow-scale">${esc(d.scale)}</span></div></section>`}
   function updateFlow(panel,mode){const n=Number(panel.querySelector('.sankey-wrap').dataset.prop),f=fiscalFlows[n],d=f[mode],wrap=panel.querySelector('.sankey-wrap');wrap.dataset.mode=mode;wrap.innerHTML=sankeySvg(d,mode)+mobileFlow(d);panel.querySelector('.flow-status').textContent=d.title;panel.querySelector('.flow-scale').textContent=d.scale;panel.querySelectorAll('.flow-toggle').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)))}
+  const youtubeVideos={1:'WZY3GnYNRhs',2:'li_VWminyTI',3:'TKPkcjujRlU',4:'vtMZ2gJJ5Ds',5:'2MrujiNGgDA',37:'K-blElMbEQM',38:'JbXmzyPRY_w',39:'CalCIkikM5c',40:'Yq36dURm5Xg',41:'WbNHhuA5aWU',42:'HWHfQXIUWRk',43:'_VdazKa4mvk',44:'ejfnI5_V-as',45:'TN7UePuMX9w'};
+  function videoPanel(p){const id=youtubeVideos[p.n];return `<section class="video-panel" aria-label="Video explainer for Proposition ${p.n}"><h4>Watch the full explainer</h4><iframe data-src="https://www.youtube-nocookie.com/embed/${id}" title="California Proposition ${p.n}: ${esc(p.title)} — full explainer" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><p><a href="https://www.youtube.com/watch?v=${id}" target="_blank" rel="noopener">Watch Prop ${p.n} on YouTube ↗</a></p></section>`}
   function card(p){
     const pollSource=p.poll[2].includes('Berkeley IGS')?pollSources.IGS:pollSources.PPIC;
     return `<article class="prop" data-cat="${p.cat.join(' ')}" data-search="${esc((p.title+' '+p.one+' '+p.cost+' '+p.lean+' '+p.cat.join(' ')).toLowerCase())}">
       <button class="prop-head" aria-expanded="false" aria-controls="details-${p.n}">
         <div class="prop-top"><div class="prop-no"><small>PROPOSITION</small>${p.n}</div><span class="chev" aria-hidden="true">+</span></div>
         <h3>${esc(p.title)}</h3><p class="one-line">${esc(p.one)}</p>
-        <div class="tags"><span class="tag money">${esc(p.type)}</span><span class="tag flow-tag">Money-flow diagram</span><span class="tag lean ${partyLean[p.n]||''}">${esc(p.lean)}</span></div>
+        <div class="tags"><span class="tag money">${esc(p.type)}</span><span class="tag flow-tag">Full video explainer</span><span class="tag flow-tag">Money-flow diagram</span><span class="tag lean ${partyLean[p.n]||''}">${esc(p.lean)}</span></div>
       </button>
       <div class="details" id="details-${p.n}" hidden>
+        ${videoPanel(p)}
         <div class="vote-grid"><div class="vote"><b>A YES VOTE</b><p>${esc(p.yes)}</p></div><div class="vote no"><b>A NO VOTE</b><p>${esc(p.no)}</p></div></div>
         <div class="cost"><b>FISCAL SCALE</b><strong>${esc(p.cost)}</strong></div>
         ${flowPanel(p)}
@@ -398,12 +406,12 @@
   grid.innerHTML=props.map(card).join('')+'<div id="empty" class="empty" hidden>No propositions match that search.</div>';
   function apply(){
     const q=document.getElementById('search').value.trim().toLowerCase();let shown=0;
-    document.querySelectorAll('.prop').forEach(el=>{const okCat=filter==='all'||el.dataset.cat.split(' ').includes(filter);const okQ=!q||el.dataset.search.includes(q);el.hidden=!(okCat&&okQ);if(!el.hidden)shown++;});
+    document.querySelectorAll('.prop').forEach(el=>{const okCat=filter==='all'||el.dataset.cat.split(' ').includes(filter);const okQ=!q||el.dataset.search.includes(q);el.hidden=!(okCat&&okQ);if(!el.hidden)shown++;const player=el.querySelector('iframe');if(el.hidden){player.removeAttribute('src')}else if(el.classList.contains('open')&&!player.hasAttribute('src')){player.src=player.dataset.src}});
     document.getElementById('empty').hidden=shown!==0;
   }
   document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{filter=b.dataset.filter;document.querySelectorAll('.filter').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));apply()}));
   document.getElementById('search').addEventListener('input',apply);
-  grid.addEventListener('click',e=>{const toggle=e.target.closest('.flow-toggle');if(toggle){updateFlow(toggle.closest('.flow-panel'),toggle.dataset.mode);return}const btn=e.target.closest('.prop-head');if(!btn)return;const prop=btn.closest('.prop');const details=prop.querySelector('.details');const open=btn.getAttribute('aria-expanded')==='true';btn.setAttribute('aria-expanded',String(!open));details.hidden=open;prop.classList.toggle('open',!open)});
+  grid.addEventListener('click',e=>{const toggle=e.target.closest('.flow-toggle');if(toggle){updateFlow(toggle.closest('.flow-panel'),toggle.dataset.mode);return}const btn=e.target.closest('.prop-head');if(!btn)return;const prop=btn.closest('.prop');const details=prop.querySelector('.details');const open=btn.getAttribute('aria-expanded')==='true';btn.setAttribute('aria-expanded',String(!open));details.hidden=open;prop.classList.toggle('open',!open);const player=details.querySelector('iframe');if(open){player.removeAttribute('src')}else{player.src=player.dataset.src}});
   </script>
 </body>
 </html>

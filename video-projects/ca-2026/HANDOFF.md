@@ -68,7 +68,7 @@ Older takes made before script-version tracking cannot be approved through this 
 5. Render one full video, check voice is continuous and intelligible, pencil effects are audible but subordinate, and visuals land with narration. Then batch the rest. Never use a long looping/stuttering image-to-video clip merely to fill time.
 6. Reimport/update Resolve timelines with online media and no gaps, save the project, review exports, and rebuild the collection `index.html` after all videos are complete. Export and retain Resolve project backups externally.
 7. Check factual claims and dated polling against primary sources before final publication. Existing source check dates are preserved, not refreshed by visual rendering. Explain uncertain estimates as estimates, distinguish illustrative stories from promises, and describe both voting positions fairly.
-8. Publish only final reviewed outputs to the requested destination; no new YouTube upload has occurred in this workflow. Confirm the actual destination/channel if it is not established. Do not upload private raw recordings incidentally with the website.
+8. Publish only final reviewed outputs to the requested destination. The established channel is @ArvindPereira; see the publication record below. Do not upload private raw recordings incidentally with the website.
 
 ## Established creative requirements
 
@@ -101,5 +101,9 @@ The user approved the Prop 1 portrait pilot, including animated graphs and a clo
 
 
 ## YouTube upload follow-up
+
+### Public landscape collection — October 20, 2026
+
+All 14 final landscape explainers with cleaned human narration are public on **@ArvindPereira**, with the approved landscape thumbnails, the ballot-guide website link, and `#2026midterm` in every description. The separate public playlist is [2026 Midterm Elections — California Propositions | Full Explainers](https://www.youtube.com/playlist?list=PLPjaSfrIKaIU). Studio verified all 14 entries exactly once and public. `youtube-publication.json` records the video IDs, descriptions, source export hashes, and playlist URL. These IDs are embedded in `ca-2026-ballot/index.html`; players load when a card opens and stop when it closes. Local publication evidence is `.video-production/human-series/youtube-evidence/all-14-public.png`. This publication supersedes the earlier statements below about landscape uploads not yet occurring. Existing Shorts retain their private visibility.
 
 All 14 captioned portrait Shorts are uploaded to **@ArvindPereira**, using desktop automation of the existing signed-in Chrome session. They are **private**, with proposition-specific titles, descriptions including the website, and not-made-for-kids audience settings. The channel’s Shorts list verified all 14; no duplicates were uploaded. The final upload record and links are `.video-production/portrait/youtube-upload-results.json`; screenshot evidence is in `youtube-evidence/all-14-private.png`. Proposition 37 uses the viewer-facing upload title “Prop 37 — Homebuyer loans: help with the down payment?” instead of the old internal working title. No public publishing, Instagram uploads, or landscape YouTube uploads were performed in this follow-up.
