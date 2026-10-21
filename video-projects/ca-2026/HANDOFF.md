@@ -98,3 +98,8 @@ Do not rerun `build_sketchbook_series.py` casually: it rewrites scene layouts fr
 ## Portrait shorts (October 20 follow-up)
 
 The user approved the Prop 1 portrait pilot, including animated graphs and a closing website address, then authorized portrait teasers for all 14 propositions for Instagram Reels and YouTube Shorts. The landscape versions remain for YouTube. Portrait sources and rebuild instructions are in `../ca-2026-portrait/README.md`; local review is `http://localhost:8877/portrait/`. Each short is under 60 seconds, 1080 × 1920 at 30 fps, using excerpts from the same cleaned human recordings at natural speed. The separate portrait scene graphs preserve source-cut provenance and the approved pilot. Narration and pencil effects remain separate in Resolve. The local collection offers individual downloads and a finished-media-only ZIP; there has been no platform upload.
+
+
+## YouTube upload follow-up
+
+All 14 captioned portrait Shorts are uploaded to **@ArvindPereira**, using desktop automation of the existing signed-in Chrome session. They are **private**, with proposition-specific titles, descriptions including the website, and not-made-for-kids audience settings. The channel’s Shorts list verified all 14; no duplicates were uploaded. The final upload record and links are `.video-production/portrait/youtube-upload-results.json`; screenshot evidence is in `youtube-evidence/all-14-private.png`. Proposition 37 uses the viewer-facing upload title “Prop 37 — Homebuyer loans: help with the down payment?” instead of the old internal working title. No public publishing, Instagram uploads, or landscape YouTube uploads were performed in this follow-up.
