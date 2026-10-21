@@ -1,0 +1,22 @@
+{
+  "explainer.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1703,
+    "audio_seconds": 56.766667,
+    "decode": "passed"
+  },
+  "clean.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1703,
+    "audio_seconds": 56.766667,
+    "decode": "passed"
+  },
+  "duration": 56.766666666666666,
+  "scenes": 8,
+  "source_take": "Prop 41 \u2014 Tax audits and spending limits: more than an oversight measure-2026-10-20T22-17-09-197Z",
+  "narration_sha256": "2b0a642acdcf7b05ab0560bdb0063e5b29d1764c57c441c750f235a37a2b69f1",
+  "speed": 1.0,
+  "source_preserved": true
+}

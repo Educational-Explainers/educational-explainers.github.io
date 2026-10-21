@@ -1,0 +1,16 @@
+{
+  "timeline": "Prop 41 - Portrait Short - Human Voice",
+  "id": "3bfffc66-7d75-430d-9000-15ad9059856c",
+  "frames": 1703,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "video_clips": 8,
+  "audio_tracks": [
+    "Narration - Human Excerpts",
+    "SFX - Pencil"
+  ],
+  "online_media": 10,
+  "gaps": 0,
+  "overlaps": 0
+}

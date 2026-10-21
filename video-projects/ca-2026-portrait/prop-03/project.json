@@ -1,0 +1,795 @@
+{
+  "schema_version": 1,
+  "format": "portrait-short",
+  "number": 3,
+  "title": "Prop 3 \u2014 High-income taxes: keep the rates after 2030?",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1580,
+  "checked": "2026-10-19",
+  "source_project": "../../ca-2026/prop-03/project.json",
+  "source_narration": "asset://4df7298bf6f31fd9a9706d2a04cf30e4f86e2f5ccfffc515ee9bddb2b2c818cb.wav",
+  "source_take": "Prop 3 \u2014 High-income taxes: keep the rates after 2030?-2026-10-20T21-46-55-383Z",
+  "narration": "asset://1b579def73680990686846d08de8c7ed7908d7175c99cb507228a82dea86fe7d.wav",
+  "assets": {
+    "hand": {
+      "path": "asset://ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2.png",
+      "tip": [
+        250,
+        914
+      ]
+    },
+    "family": {
+      "path": "asset://e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab.png"
+    },
+    "construction": {
+      "path": "asset://8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180.png"
+    },
+    "voter": {
+      "path": "asset://1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811.png"
+    },
+    "civic": {
+      "path": "asset://c2186d3e777807fdaccd6fc733505c06dbb57b5e65a5f73c623c062b2e44f7b3.png"
+    },
+    "budget": {
+      "path": "asset://968ff95a8953ed11fa53fba6f2852c0ae49f38108028b1a646b0869ebfcc7035.png"
+    },
+    "medical": {
+      "path": "asset://bf2d9b60f1657fc723a75dac2aa58b843ed0dfc4b1ce721fe8c64e7aa27099df.png"
+    }
+  },
+  "sources": [
+    {
+      "name": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026.",
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026"
+    },
+    {
+      "name": "Official voter guide, measure text and attributed campaign arguments.",
+      "url": "https://voterguide.sos.ca.gov/propositions/3/"
+    },
+    {
+      "name": "September likely-voter results, original published values retained including rounding.",
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+    },
+    {
+      "name": "September 25 release; original previously verified in repository polling fact check. Current PDF fetch rate-limited; release listing checked October19.",
+      "url": "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01-picture",
+      "label": "THE QUESTION",
+      "start_frame": 0,
+      "frames": 137,
+      "source_start_frame": 99,
+      "source_end_frame": 236,
+      "source_word_range": [
+        0,
+        10
+      ],
+      "narration": "Proposition three is about whether existing higher income-tax rates should expire.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Should higher\nrates expire?",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Existing income-tax rates",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "02-picture",
+      "label": "THE CURRENT RULE",
+      "start_frame": 137,
+      "frames": 151,
+      "source_start_frame": 501,
+      "source_end_frame": 652,
+      "source_word_range": [
+        33,
+        44
+      ],
+      "narration": "The additional rates apply to roughly the highest-earning two percent of taxpayers.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Who pays?",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Roughly the highest-earning 2%",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "03-dates",
+      "label": "WHAT CHANGES",
+      "start_frame": 288,
+      "frames": 122,
+      "source_start_frame": 862,
+      "source_end_frame": 984,
+      "source_word_range": [
+        65,
+        72
+      ],
+      "narration": "Proposition three would make those higher rates permanent.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Temporary \u2192\npermanent",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            555,
+            850,
+            620
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "After 2030",
+          "x": 125,
+          "y": 595,
+          "size": 78,
+          "width": 760,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              155,
+              780
+            ],
+            [
+              865,
+              780
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 1.2,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Permanent",
+          "x": 125,
+          "y": 900,
+          "size": 78,
+          "width": 760,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 2,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Keep current higher rates beyond their sunset",
+          "x": 95,
+          "y": 1230,
+          "size": 38,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "04-picture",
+      "label": "THE ESTIMATE",
+      "start_frame": 410,
+      "frames": 379,
+      "source_start_frame": 1930,
+      "source_end_frame": 2309,
+      "source_word_range": [
+        145,
+        173
+      ],
+      "narration": "The analyst estimates five to fifteen billion dollars of annual revenue maintained after the scheduled expiration. The wide range reflects the volatile incomes and investment gains of high earners.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "$5\u201315B / year",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Estimated revenue maintained; high earners\u2019 incomes vary",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "05-picture",
+      "label": "WHY VOTE YES?",
+      "start_frame": 789,
+      "frames": 265,
+      "source_start_frame": 3287,
+      "source_end_frame": 3552,
+      "source_word_range": [
+        249,
+        268
+      ],
+      "narration": "A voter might prefer protecting existing revenue for education and other services, with the additional tax concentrated on high earners.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Keep revenue\nfor services",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Education and other programs",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "06-picture",
+      "label": "WHY VOTE NO?",
+      "start_frame": 1054,
+      "frames": 209,
+      "source_start_frame": 3912,
+      "source_end_frame": 4121,
+      "source_word_range": [
+        296,
+        315
+      ],
+      "narration": "A skeptical voter could want the state to honor the sunset or reduce reliance on a small, volatile tax base.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Honor the\nsunset",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "A small, volatile tax base",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "07-decision",
+      "label": "YOUR VOTE",
+      "start_frame": 1263,
+      "frames": 159,
+      "source_start_frame": 5172,
+      "source_end_frame": 5331,
+      "source_word_range": [
+        395,
+        406
+      ],
+      "narration": "Yes makes the current higher rates permanent; no preserves their scheduled expiration.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What your\nvote means",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            550,
+            850,
+            310
+          ],
+          "color": "#e0e9e0",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "YES",
+          "x": 125,
+          "y": 580,
+          "size": 84,
+          "width": 760,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Make current higher rates permanent",
+          "x": 125,
+          "y": 705,
+          "size": 44,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            915,
+            850,
+            375
+          ],
+          "color": "#eee0d5",
+          "at": 2,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "NO",
+          "x": 125,
+          "y": 945,
+          "size": 84,
+          "width": 760,
+          "color": "#a35a43",
+          "bold": true,
+          "serif": false,
+          "at": 2,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Keep scheduled expiration",
+          "x": 125,
+          "y": 1070,
+          "size": 44,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 2,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "08-cta",
+      "label": "GO DEEPER",
+      "start_frame": 1422,
+      "frames": 158,
+      "source_start_frame": 5343,
+      "source_end_frame": 5501,
+      "source_word_range": [
+        407,
+        419
+      ],
+      "narration": "Visit our website for the fuller explanation, source links, and official voter guide.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Make your\nown choice.",
+          "x": 90,
+          "y": 220,
+          "size": 100,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "image",
+          "asset": "family",
+          "box": [
+            150,
+            530,
+            750,
+            440
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "text",
+          "text": "Read the full explainer",
+          "x": 95,
+          "y": 1010,
+          "size": 54,
+          "width": 850,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Sources + official voter guide",
+          "x": 95,
+          "y": 1100,
+          "size": 36,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "educational-explainers.github.io\n/ca-2026-ballot/",
+          "x": 95,
+          "y": 1190,
+          "size": 38,
+          "width": 850,
+          "color": "#357f78",
+          "bold": true,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    }
+  ],
+  "caption_words": "words.json",
+  "captions_srt": "captions.srt",
+  "captions_vtt": "captions.vtt",
+  "website": "https://educational-explainers.github.io/ca-2026-ballot/",
+  "editorial_note": "Short teaser cut from complete passages of the existing cleaned human recording at natural speed. Polling and additional detail remain in the full explainer. Original source-check date retained; no new factual review.",
+  "audio_edits": {
+    "boundary_taper_ms": 3,
+    "speed": 1.0
+  },
+  "safe_area": {
+    "left": 90,
+    "right": 140,
+    "top": 120,
+    "bottom": 240
+  }
+}

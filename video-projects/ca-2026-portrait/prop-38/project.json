@@ -1,0 +1,853 @@
+{
+  "schema_version": 1,
+  "format": "portrait-short",
+  "number": 38,
+  "title": "Prop 38 \u2014 Medical research bonds: potential discoveries, certain debt?",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1696,
+  "checked": "2026-10-19",
+  "source_project": "../../ca-2026/prop-38/project.json",
+  "source_narration": "asset://fbb8a957ae18802d3506bf76f5969bcc840d30576744f6ecd06f7d7e6409b78e.wav",
+  "source_take": "Prop 38 \u2014 Medical research bonds: potential discoveries, certain debt?-2026-10-20T22-04-07-155Z",
+  "narration": "asset://77140371752c539b04bafba79f086125c154ab27df1e826940bd59b9b7e7699b.wav",
+  "assets": {
+    "hand": {
+      "path": "asset://ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2.png",
+      "tip": [
+        250,
+        914
+      ]
+    },
+    "family": {
+      "path": "asset://e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab.png"
+    },
+    "construction": {
+      "path": "asset://8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180.png"
+    },
+    "voter": {
+      "path": "asset://1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811.png"
+    },
+    "civic": {
+      "path": "asset://c2186d3e777807fdaccd6fc733505c06dbb57b5e65a5f73c623c062b2e44f7b3.png"
+    },
+    "budget": {
+      "path": "asset://968ff95a8953ed11fa53fba6f2852c0ae49f38108028b1a646b0869ebfcc7035.png"
+    },
+    "medical": {
+      "path": "asset://bf2d9b60f1657fc723a75dac2aa58b843ed0dfc4b1ce721fe8c64e7aa27099df.png"
+    }
+  },
+  "sources": [
+    {
+      "name": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026.",
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=38&year=2026"
+    },
+    {
+      "name": "Official voter guide, measure text and attributed campaign arguments.",
+      "url": "https://voterguide.sos.ca.gov/propositions/38/"
+    },
+    {
+      "name": "September likely-voter results, original published values retained including rounding.",
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01-picture",
+      "label": "THE QUESTION",
+      "start_frame": 0,
+      "frames": 206,
+      "source_start_frame": 98,
+      "source_end_frame": 304,
+      "source_word_range": [
+        0,
+        15
+      ],
+      "narration": "Proposition thirty-eight asks California to borrow eight point four billion dollars for immunology and immunotherapy research.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "$8.4B for\nmedical research",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "medical",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Immunology + immunotherapy",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "02-picture",
+      "label": "THE DISTINCTION",
+      "start_frame": 206,
+      "frames": 115,
+      "source_start_frame": 516,
+      "source_end_frame": 631,
+      "source_word_range": [
+        29,
+        36
+      ],
+      "narration": "This funds research, not a guaranteed new treatment.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Research takes\nrisks",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "medical",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "No guaranteed new treatment",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "03-bars",
+      "label": "WHAT CHANGES",
+      "start_frame": 321,
+      "frames": 321,
+      "source_start_frame": 1803,
+      "source_end_frame": 2124,
+      "source_word_range": [
+        117,
+        144
+      ],
+      "narration": "About half the money would go to one qualifying research institute selected by the state. The other half would support competitive grants through a council of research institutions.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Two funding\nstreams",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            555,
+            850,
+            280
+          ],
+          "color": "#ebe6da",
+          "at": 0.14999999999999997,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "\u224850%",
+          "x": 125,
+          "y": 570,
+          "size": 90,
+          "width": 760,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0.14999999999999997,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "One selected institute",
+          "x": 125,
+          "y": 695,
+          "size": 34,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0.14999999999999997,
+          "duration": 0.25
+        },
+        {
+          "kind": "bar",
+          "box": [
+            125,
+            785,
+            780,
+            20
+          ],
+          "value": 50,
+          "maximum": 100,
+          "color": "#357f78",
+          "at": 0.35,
+          "duration": 1.1
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            865,
+            850,
+            280
+          ],
+          "color": "#ebe6da",
+          "at": 5.499999999999998,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "\u224850%",
+          "x": 125,
+          "y": 880,
+          "size": 90,
+          "width": 760,
+          "color": "#a67728",
+          "bold": true,
+          "serif": false,
+          "at": 5.499999999999998,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Competitive grants",
+          "x": 125,
+          "y": 1005,
+          "size": 34,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 5.499999999999998,
+          "duration": 0.25
+        },
+        {
+          "kind": "bar",
+          "box": [
+            125,
+            1095,
+            780,
+            20
+          ],
+          "value": 50,
+          "maximum": 100,
+          "color": "#a67728",
+          "at": 5.699999999999998,
+          "duration": 1.1
+        },
+        {
+          "kind": "text",
+          "text": "About half in each stream",
+          "x": 95,
+          "y": 1230,
+          "size": 36,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "04-years",
+      "label": "WHAT CHANGES",
+      "start_frame": 642,
+      "frames": 219,
+      "source_start_frame": 2756,
+      "source_end_frame": 2975,
+      "source_word_range": [
+        193,
+        212
+      ],
+      "narration": "The analyst estimates five hundred to six hundred million dollars a year in General Fund repayments for about twenty years.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "$500\u2013600M",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "Annual General Fund repayments",
+          "x": 95,
+          "y": 555,
+          "size": 48,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "\u224820 years",
+          "x": 120,
+          "y": 730,
+          "size": 100,
+          "width": 780,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "timeline",
+          "box": [
+            120,
+            920,
+            780,
+            45
+          ],
+          "ticks": 20,
+          "color": "#357f78",
+          "at": 4.9,
+          "duration": 1.5
+        },
+        {
+          "kind": "image",
+          "asset": "medical",
+          "box": [
+            220,
+            1030,
+            580,
+            320
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        }
+      ]
+    },
+    {
+      "id": "05-picture",
+      "label": "WHY VOTE YES?",
+      "start_frame": 861,
+      "frames": 218,
+      "source_start_frame": 3162,
+      "source_end_frame": 3380,
+      "source_word_range": [
+        230,
+        244
+      ],
+      "narration": "A voter might see long-term public research as worth supporting even when returns are uncertain.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Invest in\nlong-term research",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "medical",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Returns remain uncertain",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "06-picture",
+      "label": "WHY VOTE NO?",
+      "start_frame": 1079,
+      "frames": 225,
+      "source_start_frame": 3808,
+      "source_end_frame": 4033,
+      "source_word_range": [
+        277,
+        296
+      ],
+      "narration": "Another voter could object to the debt, the concentration of funding in one institute, or committing money before knowing results.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Debt and\nconcentration",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Funding one institute before knowing results",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "07-decision",
+      "label": "YOUR VOTE",
+      "start_frame": 1304,
+      "frames": 246,
+      "source_start_frame": 4781,
+      "source_end_frame": 5027,
+      "source_word_range": [
+        352,
+        365
+      ],
+      "narration": "Yes authorizes this research borrowing; no rejects this bond without ending existing medical research.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What your\nvote means",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            550,
+            850,
+            310
+          ],
+          "color": "#e0e9e0",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "YES",
+          "x": 125,
+          "y": 580,
+          "size": 84,
+          "width": 760,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Authorize this research bond",
+          "x": 125,
+          "y": 705,
+          "size": 44,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            915,
+            850,
+            375
+          ],
+          "color": "#eee0d5",
+          "at": 2,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "NO",
+          "x": 125,
+          "y": 945,
+          "size": 84,
+          "width": 760,
+          "color": "#a35a43",
+          "bold": true,
+          "serif": false,
+          "at": 2,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Reject this bond; existing research continues",
+          "x": 125,
+          "y": 1070,
+          "size": 44,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 2,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "08-cta",
+      "label": "GO DEEPER",
+      "start_frame": 1550,
+      "frames": 146,
+      "source_start_frame": 5029,
+      "source_end_frame": 5175,
+      "source_word_range": [
+        366,
+        378
+      ],
+      "narration": "Visit our website for the fuller explanation, source links, and official voter guide.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Make your\nown choice.",
+          "x": 90,
+          "y": 220,
+          "size": 100,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "image",
+          "asset": "family",
+          "box": [
+            150,
+            530,
+            750,
+            440
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "text",
+          "text": "Read the full explainer",
+          "x": 95,
+          "y": 1010,
+          "size": 54,
+          "width": 850,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Sources + official voter guide",
+          "x": 95,
+          "y": 1100,
+          "size": 36,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "educational-explainers.github.io\n/ca-2026-ballot/",
+          "x": 95,
+          "y": 1190,
+          "size": 38,
+          "width": 850,
+          "color": "#357f78",
+          "bold": true,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    }
+  ],
+  "caption_words": "words.json",
+  "captions_srt": "captions.srt",
+  "captions_vtt": "captions.vtt",
+  "website": "https://educational-explainers.github.io/ca-2026-ballot/",
+  "editorial_note": "Short teaser cut from complete passages of the existing cleaned human recording at natural speed. Polling and additional detail remain in the full explainer. Original source-check date retained; no new factual review.",
+  "audio_edits": {
+    "boundary_taper_ms": 3,
+    "speed": 1.0
+  },
+  "safe_area": {
+    "left": 90,
+    "right": 140,
+    "top": 120,
+    "bottom": 240
+  }
+}

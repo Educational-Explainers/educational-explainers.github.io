@@ -1,0 +1,26 @@
+[
+  {
+    "prop": 2,
+    "scene": "03-picture",
+    "expected": "It changes the rules over time; it does not instantly double the money already saved.",
+    "recognized": " It changes the rules over time. It does not instantly double the money already saved."
+  },
+  {
+    "prop": 3,
+    "scene": "07-decision",
+    "expected": "Yes makes the current higher rates permanent; no preserves their scheduled expiration.",
+    "recognized": " Yes, makes the current higher rates permanent, no preserves your schedule experience."
+  },
+  {
+    "prop": 4,
+    "scene": "05-picture",
+    "expected": "A voter favoring reform might say: I want candidates with community support to compete, even without wealthy backers.",
+    "recognized": " A voter favoring reform might say, I'm on candidates with community support to compete,  even without wealthy brat."
+  },
+  {
+    "prop": 37,
+    "scene": "03-picture",
+    "expected": "That can reduce cash needed at closing, but the family still owes the assistance loan as well as its main mortgage.",
+    "recognized": " That can reduce cash needed at closing, but the family still owes the assistance loans as well as its"
+  }
+]

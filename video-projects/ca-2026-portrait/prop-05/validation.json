@@ -1,0 +1,22 @@
+{
+  "explainer.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1736,
+    "audio_seconds": 57.866667,
+    "decode": "passed"
+  },
+  "clean.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1736,
+    "audio_seconds": 57.866667,
+    "decode": "passed"
+  },
+  "duration": 57.86666666666667,
+  "scenes": 7,
+  "source_take": "Prop 5 \u2014 Recall elections: who replaces a removed official?-2026-10-20T21-56-29-123Z",
+  "narration_sha256": "b175d1271c0dde14c593f859d1cacb5da80035c040cb25ed6db80dbee021e107",
+  "speed": 1.0,
+  "source_preserved": true
+}

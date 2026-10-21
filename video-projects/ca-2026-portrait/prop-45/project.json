@@ -1,0 +1,719 @@
+{
+  "schema_version": 1,
+  "format": "portrait-short",
+  "number": 45,
+  "title": "Prop 45 \u2014 Faster project review: what would change and what is at stake?",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1601,
+  "checked": "2026-10-19",
+  "source_project": "../../ca-2026/prop-45/project.json",
+  "source_narration": "asset://5aa1c231951f6172871c22bfdde0168197f4870d3fbabf693377182dc35511c7.wav",
+  "source_take": "Prop 45 \u2014 Faster project review: what would change and what is at stake?-2026-10-20T22-36-25-259Z",
+  "narration": "asset://81f6c84bace999a28d7d53f25a1f02c033b64a2e22ae7032ff21bda949dd9dac.wav",
+  "assets": {
+    "hand": {
+      "path": "asset://ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2.png",
+      "tip": [
+        250,
+        914
+      ]
+    },
+    "family": {
+      "path": "asset://e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab.png"
+    },
+    "construction": {
+      "path": "asset://8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180.png"
+    },
+    "voter": {
+      "path": "asset://1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811.png"
+    },
+    "civic": {
+      "path": "asset://c2186d3e777807fdaccd6fc733505c06dbb57b5e65a5f73c623c062b2e44f7b3.png"
+    },
+    "budget": {
+      "path": "asset://968ff95a8953ed11fa53fba6f2852c0ae49f38108028b1a646b0869ebfcc7035.png"
+    },
+    "medical": {
+      "path": "asset://bf2d9b60f1657fc723a75dac2aa58b843ed0dfc4b1ce721fe8c64e7aa27099df.png"
+    }
+  },
+  "sources": [
+    {
+      "name": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026.",
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026"
+    },
+    {
+      "name": "Official voter guide, measure text and attributed campaign arguments.",
+      "url": "https://voterguide.sos.ca.gov/propositions/45/"
+    },
+    {
+      "name": "September likely-voter results, original published values retained including rounding.",
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01-picture",
+      "label": "THE QUESTION",
+      "start_frame": 0,
+      "frames": 173,
+      "source_start_frame": 76,
+      "source_end_frame": 249,
+      "source_word_range": [
+        0,
+        8
+      ],
+      "narration": "Proposition forty-five changes environmental review for eligible construction projects.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Faster review\nfor construction?",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "construction",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Eligible projects",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "02-flow",
+      "label": "WHAT CHANGES",
+      "start_frame": 173,
+      "frames": 511,
+      "source_start_frame": 732,
+      "source_end_frame": 1243,
+      "source_word_range": [
+        37,
+        71
+      ],
+      "narration": "The proposal offers an optional faster process for specified projects, including many housing, transportation, water, health, and clean-energy projects. It changes deadlines and the scope of review and litigation, not just the speed of paperwork.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "An optional\nfaster route",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            565,
+            850,
+            240
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Change deadlines and scope",
+          "x": 125,
+          "y": 610,
+          "size": 48,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              515,
+              825
+            ],
+            [
+              515,
+              900
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 1.3,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            925,
+            850,
+            240
+          ],
+          "color": "#ebe6da",
+          "at": 1.9,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Change review and litigation",
+          "x": 125,
+          "y": 970,
+          "size": 48,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 1.9,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Housing, transport, water, health and clean energy",
+          "x": 95,
+          "y": 1230,
+          "size": 35,
+          "width": 850,
+          "color": "#357f78",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "03-picture",
+      "label": "THE DISTINCTION",
+      "start_frame": 684,
+      "frames": 75,
+      "source_start_frame": 2471,
+      "source_end_frame": 2546,
+      "source_word_range": [
+        153,
+        160
+      ],
+      "narration": "It is not automatic approval after a year.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Not automatic\napproval",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "construction",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Missing a deadline does not approve a project",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "04-picture",
+      "label": "WHY VOTE YES?",
+      "start_frame": 759,
+      "frames": 246,
+      "source_start_frame": 4021,
+      "source_end_frame": 4267,
+      "source_word_range": [
+        269,
+        286
+      ],
+      "narration": "A voter might support more predictable schedules and fewer project-wide shutdowns, hoping to deliver homes and infrastructure sooner.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "More predictable\nschedules",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "construction",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Homes and infrastructure sooner",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "05-picture",
+      "label": "WHY VOTE NO?",
+      "start_frame": 1005,
+      "frames": 242,
+      "source_start_frame": 4657,
+      "source_end_frame": 4899,
+      "source_word_range": [
+        316,
+        331
+      ],
+      "narration": "Another voter could object to fewer alternatives, tighter public participation, or narrower court and tribal review.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Less scope\nfor scrutiny",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Alternatives, participation, courts and tribes",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "06-decision",
+      "label": "YOUR VOTE",
+      "start_frame": 1247,
+      "frames": 202,
+      "source_start_frame": 5662,
+      "source_end_frame": 5864,
+      "source_word_range": [
+        390,
+        402
+      ],
+      "narration": "Yes creates the optional new procedures; no keeps existing review and challenge procedures.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What your\nvote means",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            550,
+            850,
+            310
+          ],
+          "color": "#e0e9e0",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "YES",
+          "x": 125,
+          "y": 580,
+          "size": 84,
+          "width": 760,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Create optional new procedures",
+          "x": 125,
+          "y": 705,
+          "size": 44,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            915,
+            850,
+            375
+          ],
+          "color": "#eee0d5",
+          "at": 2,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "NO",
+          "x": 125,
+          "y": 945,
+          "size": 84,
+          "width": 760,
+          "color": "#a35a43",
+          "bold": true,
+          "serif": false,
+          "at": 2,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Keep existing review and challenges",
+          "x": 125,
+          "y": 1070,
+          "size": 44,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 2,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "07-cta",
+      "label": "GO DEEPER",
+      "start_frame": 1449,
+      "frames": 152,
+      "source_start_frame": 5875,
+      "source_end_frame": 6027,
+      "source_word_range": [
+        403,
+        415
+      ],
+      "narration": "Visit our website for the fuller explanation, source links, and official voter guide.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Make your\nown choice.",
+          "x": 90,
+          "y": 220,
+          "size": 100,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "image",
+          "asset": "family",
+          "box": [
+            150,
+            530,
+            750,
+            440
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "text",
+          "text": "Read the full explainer",
+          "x": 95,
+          "y": 1010,
+          "size": 54,
+          "width": 850,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Sources + official voter guide",
+          "x": 95,
+          "y": 1100,
+          "size": 36,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "educational-explainers.github.io\n/ca-2026-ballot/",
+          "x": 95,
+          "y": 1190,
+          "size": 38,
+          "width": 850,
+          "color": "#357f78",
+          "bold": true,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    }
+  ],
+  "caption_words": "words.json",
+  "captions_srt": "captions.srt",
+  "captions_vtt": "captions.vtt",
+  "website": "https://educational-explainers.github.io/ca-2026-ballot/",
+  "editorial_note": "Short teaser cut from complete passages of the existing cleaned human recording at natural speed. Polling and additional detail remain in the full explainer. Original source-check date retained; no new factual review.",
+  "audio_edits": {
+    "boundary_taper_ms": 3,
+    "speed": 1.0
+  },
+  "safe_area": {
+    "left": 90,
+    "right": 140,
+    "top": 120,
+    "bottom": 240
+  }
+}

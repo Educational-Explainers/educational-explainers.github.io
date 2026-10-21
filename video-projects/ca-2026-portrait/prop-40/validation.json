@@ -1,0 +1,22 @@
+{
+  "explainer.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1726,
+    "audio_seconds": 57.533,
+    "decode": "passed"
+  },
+  "clean.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1726,
+    "audio_seconds": 57.533,
+    "decode": "passed"
+  },
+  "duration": 57.53333333333333,
+  "scenes": 8,
+  "source_take": "Prop 40 \u2014 The billionaire wealth tax: what is taxed and where does it go?-2026-10-20T22-12-54-819Z",
+  "narration_sha256": "d46bf4e158361013e7389a0c845c41bfcb85d28b1c79647bdbb1e4eefc96891d",
+  "speed": 1.0,
+  "source_preserved": true
+}

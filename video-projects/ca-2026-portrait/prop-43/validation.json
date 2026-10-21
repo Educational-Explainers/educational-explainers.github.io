@@ -1,0 +1,22 @@
+{
+  "explainer.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1652,
+    "audio_seconds": 55.066667,
+    "decode": "passed"
+  },
+  "clean.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1652,
+    "audio_seconds": 55.066667,
+    "decode": "passed"
+  },
+  "duration": 55.06666666666667,
+  "scenes": 7,
+  "source_take": "Prop 43 \u2014 Local special taxes: when is a majority enough?-2026-10-20T22-24-56-464Z",
+  "narration_sha256": "91a5b20446e1f0ad384dff1ac3cdb42e1ffc17b8731c7b3d44a23f5890db3a9c",
+  "speed": 1.0,
+  "source_preserved": true
+}

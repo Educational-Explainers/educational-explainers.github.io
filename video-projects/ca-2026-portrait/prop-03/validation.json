@@ -1,0 +1,22 @@
+{
+  "explainer.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1580,
+    "audio_seconds": 52.666667,
+    "decode": "passed"
+  },
+  "clean.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1580,
+    "audio_seconds": 52.666667,
+    "decode": "passed"
+  },
+  "duration": 52.666666666666664,
+  "scenes": 8,
+  "source_take": "Prop 3 \u2014 High-income taxes: keep the rates after 2030?-2026-10-20T21-46-55-383Z",
+  "narration_sha256": "1b579def73680990686846d08de8c7ed7908d7175c99cb507228a82dea86fe7d",
+  "speed": 1.0,
+  "source_preserved": true
+}

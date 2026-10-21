@@ -1,0 +1,22 @@
+{
+  "explainer.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1696,
+    "audio_seconds": 56.533,
+    "decode": "passed"
+  },
+  "clean.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1696,
+    "audio_seconds": 56.533,
+    "decode": "passed"
+  },
+  "duration": 56.53333333333333,
+  "scenes": 8,
+  "source_take": "Prop 38 \u2014 Medical research bonds: potential discoveries, certain debt?-2026-10-20T22-04-07-155Z",
+  "narration_sha256": "77140371752c539b04bafba79f086125c154ab27df1e826940bd59b9b7e7699b",
+  "speed": 1.0,
+  "source_preserved": true
+}

@@ -1,0 +1,22 @@
+{
+  "explainer.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1546,
+    "audio_seconds": 51.533,
+    "decode": "passed"
+  },
+  "clean.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1546,
+    "audio_seconds": 51.533,
+    "decode": "passed"
+  },
+  "duration": 51.53333333333333,
+  "scenes": 8,
+  "source_take": "Prop 4 \u2014 Public campaign financing: what would change?-2026-10-20T21-50-33-381Z",
+  "narration_sha256": "f96a9ae900d793d5c883ab4dc7361df589c1fd44243e23fc916e1242315d1c21",
+  "speed": 1.0,
+  "source_preserved": true
+}

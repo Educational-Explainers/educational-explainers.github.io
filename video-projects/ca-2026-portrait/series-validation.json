@@ -1,0 +1,324 @@
+[
+  {
+    "project": "prop-01",
+    "explainer.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1522,
+      "audio_seconds": 50.733,
+      "decode": "passed"
+    },
+    "clean.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1522,
+      "audio_seconds": 50.733,
+      "decode": "passed"
+    },
+    "duration": 50.733333333333334,
+    "scenes": 8,
+    "source_take": "Prop 1 \u2014 Housing bonds: what would the money buy?-2026-10-20T21-13-02-847Z",
+    "narration_sha256": "63ee743af216a6df17a29966b863c8f0a34721694b68fb61f5d818dbc406f1bd",
+    "speed": 1.0,
+    "source_preserved": true
+  },
+  {
+    "project": "prop-02",
+    "explainer.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1731,
+      "audio_seconds": 57.7,
+      "decode": "passed"
+    },
+    "clean.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1731,
+      "audio_seconds": 57.7,
+      "decode": "passed"
+    },
+    "duration": 57.7,
+    "scenes": 8,
+    "source_take": "Prop 2 \u2014 Rainy-day reserves: save more, or spend now?-2026-10-20T21-43-18-293Z",
+    "narration_sha256": "d964d85edc6ef78fd5f10bde025e2a34e787f31510893add9480c45a7ebe3724",
+    "speed": 1.0,
+    "source_preserved": true
+  },
+  {
+    "project": "prop-03",
+    "explainer.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1580,
+      "audio_seconds": 52.666667,
+      "decode": "passed"
+    },
+    "clean.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1580,
+      "audio_seconds": 52.666667,
+      "decode": "passed"
+    },
+    "duration": 52.666666666666664,
+    "scenes": 8,
+    "source_take": "Prop 3 \u2014 High-income taxes: keep the rates after 2030?-2026-10-20T21-46-55-383Z",
+    "narration_sha256": "1b579def73680990686846d08de8c7ed7908d7175c99cb507228a82dea86fe7d",
+    "speed": 1.0,
+    "source_preserved": true
+  },
+  {
+    "project": "prop-04",
+    "explainer.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1546,
+      "audio_seconds": 51.533,
+      "decode": "passed"
+    },
+    "clean.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1546,
+      "audio_seconds": 51.533,
+      "decode": "passed"
+    },
+    "duration": 51.53333333333333,
+    "scenes": 8,
+    "source_take": "Prop 4 \u2014 Public campaign financing: what would change?-2026-10-20T21-50-33-381Z",
+    "narration_sha256": "f96a9ae900d793d5c883ab4dc7361df589c1fd44243e23fc916e1242315d1c21",
+    "speed": 1.0,
+    "source_preserved": true
+  },
+  {
+    "project": "prop-05",
+    "explainer.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1736,
+      "audio_seconds": 57.866667,
+      "decode": "passed"
+    },
+    "clean.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1736,
+      "audio_seconds": 57.866667,
+      "decode": "passed"
+    },
+    "duration": 57.86666666666667,
+    "scenes": 7,
+    "source_take": "Prop 5 \u2014 Recall elections: who replaces a removed official?-2026-10-20T21-56-29-123Z",
+    "narration_sha256": "b175d1271c0dde14c593f859d1cacb5da80035c040cb25ed6db80dbee021e107",
+    "speed": 1.0,
+    "source_preserved": true
+  },
+  {
+    "project": "prop-37",
+    "explainer.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1504,
+      "audio_seconds": 50.133,
+      "decode": "passed"
+    },
+    "clean.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1504,
+      "audio_seconds": 50.133,
+      "decode": "passed"
+    },
+    "duration": 50.13333333333333,
+    "scenes": 7,
+    "source_take": "Prop 37 \u2014 Sketchbook explainer-2026-10-20T22-00-01-629Z",
+    "narration_sha256": "924eeb2510621d10739331271afdc7ccf4c2e4d6df1a24cb3c05ea84df86507c",
+    "speed": 1.0,
+    "source_preserved": true
+  },
+  {
+    "project": "prop-38",
+    "explainer.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1696,
+      "audio_seconds": 56.533,
+      "decode": "passed"
+    },
+    "clean.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1696,
+      "audio_seconds": 56.533,
+      "decode": "passed"
+    },
+    "duration": 56.53333333333333,
+    "scenes": 8,
+    "source_take": "Prop 38 \u2014 Medical research bonds: potential discoveries, certain debt?-2026-10-20T22-04-07-155Z",
+    "narration_sha256": "77140371752c539b04bafba79f086125c154ab27df1e826940bd59b9b7e7699b",
+    "speed": 1.0,
+    "source_preserved": true
+  },
+  {
+    "project": "prop-39",
+    "explainer.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1656,
+      "audio_seconds": 55.2,
+      "decode": "passed"
+    },
+    "clean.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1656,
+      "audio_seconds": 55.2,
+      "decode": "passed"
+    },
+    "duration": 55.2,
+    "scenes": 7,
+    "source_take": "Prop 39 \u2014 Voter identification: what changes when you cast a ballot?-2026-10-20T22-08-49-032Z",
+    "narration_sha256": "99aa9c701ef8f01515dcbe75a446aef2f429b104acc55815e76b48fd20c9e1a2",
+    "speed": 1.0,
+    "source_preserved": true
+  },
+  {
+    "project": "prop-40",
+    "explainer.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1726,
+      "audio_seconds": 57.533,
+      "decode": "passed"
+    },
+    "clean.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1726,
+      "audio_seconds": 57.533,
+      "decode": "passed"
+    },
+    "duration": 57.53333333333333,
+    "scenes": 8,
+    "source_take": "Prop 40 \u2014 The billionaire wealth tax: what is taxed and where does it go?-2026-10-20T22-12-54-819Z",
+    "narration_sha256": "d46bf4e158361013e7389a0c845c41bfcb85d28b1c79647bdbb1e4eefc96891d",
+    "speed": 1.0,
+    "source_preserved": true
+  },
+  {
+    "project": "prop-41",
+    "explainer.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1703,
+      "audio_seconds": 56.766667,
+      "decode": "passed"
+    },
+    "clean.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1703,
+      "audio_seconds": 56.766667,
+      "decode": "passed"
+    },
+    "duration": 56.766666666666666,
+    "scenes": 8,
+    "source_take": "Prop 41 \u2014 Tax audits and spending limits: more than an oversight measure-2026-10-20T22-17-09-197Z",
+    "narration_sha256": "2b0a642acdcf7b05ab0560bdb0063e5b29d1764c57c441c750f235a37a2b69f1",
+    "speed": 1.0,
+    "source_preserved": true
+  },
+  {
+    "project": "prop-42",
+    "explainer.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1584,
+      "audio_seconds": 52.8,
+      "decode": "passed"
+    },
+    "clean.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1584,
+      "audio_seconds": 52.8,
+      "decode": "passed"
+    },
+    "duration": 52.8,
+    "scenes": 7,
+    "source_take": "Prop 42 \u2014 Taxes on assets: what future options would be restricted?-2026-10-20T22-20-58-982Z",
+    "narration_sha256": "60bd687c6a6fc97cc5d1646f113e423b0b73218b94c461579312c02b11f34470",
+    "speed": 1.0,
+    "source_preserved": true
+  },
+  {
+    "project": "prop-43",
+    "explainer.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1652,
+      "audio_seconds": 55.066667,
+      "decode": "passed"
+    },
+    "clean.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1652,
+      "audio_seconds": 55.066667,
+      "decode": "passed"
+    },
+    "duration": 55.06666666666667,
+    "scenes": 7,
+    "source_take": "Prop 43 \u2014 Local special taxes: when is a majority enough?-2026-10-20T22-24-56-464Z",
+    "narration_sha256": "91a5b20446e1f0ad384dff1ac3cdb42e1ffc17b8731c7b3d44a23f5890db3a9c",
+    "speed": 1.0,
+    "source_preserved": true
+  },
+  {
+    "project": "prop-44",
+    "explainer.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1752,
+      "audio_seconds": 58.4,
+      "decode": "passed"
+    },
+    "clean.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1752,
+      "audio_seconds": 58.4,
+      "decode": "passed"
+    },
+    "duration": 58.4,
+    "scenes": 7,
+    "source_take": "Prop 44 \u2014 Clinic spending: what would a 90 percent rule do?-2026-10-20T22-28-19-456Z",
+    "narration_sha256": "38979662c92a2992ff526543916df099e4d01662d2dda1bc6280c22ff1725888",
+    "speed": 1.0,
+    "source_preserved": true
+  },
+  {
+    "project": "prop-45",
+    "explainer.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1601,
+      "audio_seconds": 53.366667,
+      "decode": "passed"
+    },
+    "clean.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 1601,
+      "audio_seconds": 53.366667,
+      "decode": "passed"
+    },
+    "duration": 53.36666666666667,
+    "scenes": 7,
+    "source_take": "Prop 45 \u2014 Faster project review: what would change and what is at stake?-2026-10-20T22-36-25-259Z",
+    "narration_sha256": "81f6c84bace999a28d7d53f25a1f02c033b64a2e22ae7032ff21bda949dd9dac",
+    "speed": 1.0,
+    "source_preserved": true
+  }
+]

@@ -1,0 +1,914 @@
+{
+  "schema_version": 1,
+  "format": "portrait-short",
+  "number": 1,
+  "title": "Prop 1 \u2014 Housing bonds in under a minute",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1522,
+  "checked": "2026-10-19",
+  "source_project": "../../ca-2026/prop-01/project.json",
+  "source_narration": "asset://a6678a0465db52d022d29afc626ed5f553884703d2ed4ed70ea19332b9f86430.wav",
+  "source_take": "Prop 1 \u2014 Housing bonds: what would the money buy?-2026-10-20T21-13-02-847Z",
+  "narration": "asset://63ee743af216a6df17a29966b863c8f0a34721694b68fb61f5d818dbc406f1bd.wav",
+  "assets": {
+    "hand": {
+      "path": "asset://ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2.png",
+      "tip": [
+        250,
+        914
+      ]
+    },
+    "family": {
+      "path": "asset://e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab.png"
+    },
+    "construction": {
+      "path": "asset://8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180.png"
+    },
+    "voter": {
+      "path": "asset://1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811.png"
+    },
+    "civic": {
+      "path": "asset://c2186d3e777807fdaccd6fc733505c06dbb57b5e65a5f73c623c062b2e44f7b3.png"
+    },
+    "budget": {
+      "path": "asset://968ff95a8953ed11fa53fba6f2852c0ae49f38108028b1a646b0869ebfcc7035.png"
+    },
+    "medical": {
+      "path": "asset://bf2d9b60f1657fc723a75dac2aa58b843ed0dfc4b1ce721fe8c64e7aa27099df.png"
+    }
+  },
+  "sources": [
+    {
+      "name": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026.",
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=1&year=2026"
+    },
+    {
+      "name": "Official voter guide, measure text and attributed campaign arguments.",
+      "url": "https://voterguide.sos.ca.gov/propositions/1/"
+    },
+    {
+      "name": "September likely-voter results, original published values retained including rounding.",
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "question",
+      "label": "THE QUESTION",
+      "start_frame": 0,
+      "frames": 149,
+      "source_start_frame": 75,
+      "source_end_frame": 224,
+      "source_word_range": [
+        0,
+        9
+      ],
+      "narration": "Proposition one asks whether California should borrow money for housing.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Borrow for\nhousing?",
+          "x": 90,
+          "y": 220,
+          "size": 100,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "image",
+          "asset": "family",
+          "box": [
+            90,
+            560,
+            850,
+            680
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              490
+            ],
+            [
+              660,
+              490
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "text",
+          "text": "CALIFORNIA PROPOSITION 1",
+          "x": 95,
+          "y": 1310,
+          "size": 32,
+          "width": 850,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "amount",
+      "label": "WHAT IT FUNDS",
+      "start_frame": 149,
+      "frames": 312,
+      "source_start_frame": 807,
+      "source_end_frame": 1119,
+      "source_word_range": [
+        50,
+        73
+      ],
+      "narration": "This measure authorizes eleven point two five billion dollars: ten billion for housing programs, and one point two five billion for veterans\u2019 home loans.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "$11.25B",
+          "x": 90,
+          "y": 210,
+          "size": 154,
+          "width": 850,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "in new bonds",
+          "x": 96,
+          "y": 405,
+          "size": 62,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            550,
+            850,
+            285
+          ],
+          "color": "#ebe6da",
+          "at": 4.5,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "$10B",
+          "x": 125,
+          "y": 575,
+          "size": 100,
+          "width": 760,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 4.5,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Housing programs",
+          "x": 125,
+          "y": 705,
+          "size": 46,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 4.5,
+          "duration": 0.25
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            865,
+            850,
+            285
+          ],
+          "color": "#ebe6da",
+          "at": 6.7,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "$1.25B",
+          "x": 125,
+          "y": 890,
+          "size": 100,
+          "width": 760,
+          "color": "#a67728",
+          "bold": true,
+          "serif": false,
+          "at": 6.7,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Veterans\u2019 home loans",
+          "x": 125,
+          "y": 1018,
+          "size": 46,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 6.7,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Share of total borrowing",
+          "x": 96,
+          "y": 1210,
+          "size": 38,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "bar",
+          "box": [
+            125,
+            790,
+            780,
+            20
+          ],
+          "value": 10,
+          "maximum": 11.25,
+          "color": "#357f78",
+          "at": 4.8,
+          "duration": 1.1
+        },
+        {
+          "kind": "bar",
+          "box": [
+            125,
+            1100,
+            780,
+            20
+          ],
+          "value": 1.25,
+          "maximum": 11.25,
+          "color": "#a67728",
+          "at": 7.0,
+          "duration": 1.1
+        }
+      ]
+    },
+    {
+      "id": "repayment",
+      "label": "THE COST",
+      "start_frame": 461,
+      "frames": 255,
+      "source_start_frame": 3110,
+      "source_end_frame": 3365,
+      "source_word_range": [
+        218,
+        240
+      ],
+      "narration": "The General Fund would repay the housing portion at about five hundred to six hundred million dollars a year for roughly twenty-five years.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "$500\u2013600M",
+          "x": 90,
+          "y": 220,
+          "size": 123,
+          "width": 850,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "per year",
+          "x": 95,
+          "y": 385,
+          "size": 76,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              500
+            ],
+            [
+              925,
+              500
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            560,
+            850,
+            315
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "\u224825 years",
+          "x": 120,
+          "y": 600,
+          "size": 100,
+          "width": 780,
+          "color": "#263d50",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Housing portion\nrepaid by the General Fund",
+          "x": 120,
+          "y": 740,
+          "size": 43,
+          "width": 780,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "image",
+          "asset": "construction",
+          "box": [
+            180,
+            1050,
+            660,
+            300
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "timeline",
+          "box": [
+            120,
+            920,
+            780,
+            45
+          ],
+          "ticks": 25,
+          "color": "#357f78",
+          "at": 6.2,
+          "duration": 1.5
+        },
+        {
+          "kind": "text",
+          "text": "Year 1",
+          "x": 120,
+          "y": 980,
+          "size": 30,
+          "width": 220,
+          "color": "#64726f",
+          "at": 6.2,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "\u2248 Year 25",
+          "x": 710,
+          "y": 980,
+          "size": 30,
+          "width": 220,
+          "color": "#64726f",
+          "at": 6.2,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "veterans",
+      "label": "A SEPARATE REPAYMENT",
+      "start_frame": 716,
+      "frames": 111,
+      "source_start_frame": 3374,
+      "source_end_frame": 3485,
+      "source_word_range": [
+        241,
+        249
+      ],
+      "narration": "Veterans\u2019 loan payments would repay their separate bond portion.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Veterans\u2019\nhome loans",
+          "x": 90,
+          "y": 220,
+          "size": 94,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              495
+            ],
+            [
+              925,
+              495
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "family",
+          "box": [
+            110,
+            560,
+            810,
+            500
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1100,
+            850,
+            220
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Borrower payments\nrepay this portion",
+          "x": 125,
+          "y": 1145,
+          "size": 55,
+          "width": 760,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "yes",
+      "label": "WHY VOTE YES?",
+      "start_frame": 827,
+      "frames": 217,
+      "source_start_frame": 3493,
+      "source_end_frame": 3710,
+      "source_word_range": [
+        250,
+        266
+      ],
+      "narration": "A voter might support financing affordable homes sooner rather than waiting for enough money in annual budgets.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Fund affordable\nhomes sooner",
+          "x": 90,
+          "y": 220,
+          "size": 92,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              490
+            ],
+            [
+              925,
+              490
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "construction",
+          "box": [
+            90,
+            550,
+            850,
+            575
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1180,
+            850,
+            145
+          ],
+          "color": "#e0e9e0",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Support financing now",
+          "x": 125,
+          "y": 1225,
+          "size": 47,
+          "width": 760,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "no",
+      "label": "WHY VOTE NO?",
+      "start_frame": 1044,
+      "frames": 125,
+      "source_start_frame": 4343,
+      "source_end_frame": 4468,
+      "source_word_range": [
+        310,
+        319
+      ],
+      "narration": "Interest adds expense, and future repayments compete with other services.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Debt competes\nwith other needs",
+          "x": 90,
+          "y": 220,
+          "size": 90,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              495
+            ],
+            [
+              925,
+              495
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            170,
+            560,
+            680,
+            550
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1170,
+            850,
+            170
+          ],
+          "color": "#eee0d5",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Interest + future repayments",
+          "x": 120,
+          "y": 1225,
+          "size": 44,
+          "width": 790,
+          "color": "#a35a43",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "decision",
+      "label": "YOUR VOTE",
+      "start_frame": 1169,
+      "frames": 206,
+      "source_start_frame": 4969,
+      "source_end_frame": 5175,
+      "source_word_range": [
+        358,
+        370
+      ],
+      "narration": "Yes authorizes this borrowing; no rejects this bond, while existing housing programs continue.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What your\nvote means",
+          "x": 90,
+          "y": 220,
+          "size": 96,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            555,
+            850,
+            300
+          ],
+          "color": "#e0e9e0",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "YES",
+          "x": 125,
+          "y": 590,
+          "size": 94,
+          "width": 760,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Authorize the borrowing",
+          "x": 125,
+          "y": 730,
+          "size": 48,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            900,
+            850,
+            365
+          ],
+          "color": "#eee0d5",
+          "at": 2,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "NO",
+          "x": 125,
+          "y": 935,
+          "size": 94,
+          "width": 760,
+          "color": "#a35a43",
+          "bold": true,
+          "serif": false,
+          "at": 2,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Reject this bond",
+          "x": 125,
+          "y": 1070,
+          "size": 48,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 2,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Existing housing programs continue",
+          "x": 125,
+          "y": 1160,
+          "size": 34,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 2,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "label": "GO DEEPER",
+      "start_frame": 1375,
+      "frames": 147,
+      "source_start_frame": 5188,
+      "source_end_frame": 5335,
+      "source_word_range": [
+        371,
+        383
+      ],
+      "narration": "Visit our website for the fuller explanation, source links, and official voter guide.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Make your\nown choice.",
+          "x": 90,
+          "y": 220,
+          "size": 100,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "image",
+          "asset": "family",
+          "box": [
+            150,
+            530,
+            750,
+            440
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "text",
+          "text": "Read the full explainer",
+          "x": 95,
+          "y": 1010,
+          "size": 54,
+          "width": 850,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Sources + official voter guide",
+          "x": 95,
+          "y": 1100,
+          "size": 36,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "educational-explainers.github.io\n/ca-2026-ballot/",
+          "x": 95,
+          "y": 1190,
+          "size": 38,
+          "width": 850,
+          "color": "#357f78",
+          "bold": true,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    }
+  ],
+  "caption_words": "words.json",
+  "captions_srt": "captions.srt",
+  "captions_vtt": "captions.vtt",
+  "editorial_note": "Pilot cut from the existing cleaned recording, with no voice generation or speed change. Omits polling and detailed mechanisms to keep the short under 60 seconds. Final listening and factual review before publication.",
+  "audio_edits": {
+    "boundary_taper_ms": 3,
+    "speed": 1.0
+  },
+  "safe_area": {
+    "left": 90,
+    "right": 140,
+    "top": 120,
+    "bottom": 240
+  },
+  "website": "https://educational-explainers.github.io/ca-2026-ballot/"
+}

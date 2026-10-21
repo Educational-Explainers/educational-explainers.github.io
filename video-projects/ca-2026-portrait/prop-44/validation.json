@@ -1,0 +1,22 @@
+{
+  "explainer.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1752,
+    "audio_seconds": 58.4,
+    "decode": "passed"
+  },
+  "clean.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1752,
+    "audio_seconds": 58.4,
+    "decode": "passed"
+  },
+  "duration": 58.4,
+  "scenes": 7,
+  "source_take": "Prop 44 \u2014 Clinic spending: what would a 90 percent rule do?-2026-10-20T22-28-19-456Z",
+  "narration_sha256": "38979662c92a2992ff526543916df099e4d01662d2dda1bc6280c22ff1725888",
+  "speed": 1.0,
+  "source_preserved": true
+}

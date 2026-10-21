@@ -1,0 +1,22 @@
+{
+  "explainer.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1522,
+    "audio_seconds": 50.733,
+    "decode": "passed"
+  },
+  "clean.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1522,
+    "audio_seconds": 50.733,
+    "decode": "passed"
+  },
+  "duration": 50.733333333333334,
+  "scenes": 8,
+  "source_take": "Prop 1 \u2014 Housing bonds: what would the money buy?-2026-10-20T21-13-02-847Z",
+  "narration_sha256": "63ee743af216a6df17a29966b863c8f0a34721694b68fb61f5d818dbc406f1bd",
+  "speed": 1.0,
+  "source_preserved": true
+}

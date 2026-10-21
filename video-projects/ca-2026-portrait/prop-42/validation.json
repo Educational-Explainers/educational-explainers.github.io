@@ -1,0 +1,22 @@
+{
+  "explainer.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1584,
+    "audio_seconds": 52.8,
+    "decode": "passed"
+  },
+  "clean.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1584,
+    "audio_seconds": 52.8,
+    "decode": "passed"
+  },
+  "duration": 52.8,
+  "scenes": 7,
+  "source_take": "Prop 42 \u2014 Taxes on assets: what future options would be restricted?-2026-10-20T22-20-58-982Z",
+  "narration_sha256": "60bd687c6a6fc97cc5d1646f113e423b0b73218b94c461579312c02b11f34470",
+  "speed": 1.0,
+  "source_preserved": true
+}

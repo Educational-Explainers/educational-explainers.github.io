@@ -1,0 +1,22 @@
+{
+  "explainer.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1601,
+    "audio_seconds": 53.366667,
+    "decode": "passed"
+  },
+  "clean.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1601,
+    "audio_seconds": 53.366667,
+    "decode": "passed"
+  },
+  "duration": 53.36666666666667,
+  "scenes": 7,
+  "source_take": "Prop 45 \u2014 Faster project review: what would change and what is at stake?-2026-10-20T22-36-25-259Z",
+  "narration_sha256": "81f6c84bace999a28d7d53f25a1f02c033b64a2e22ae7032ff21bda949dd9dac",
+  "speed": 1.0,
+  "source_preserved": true
+}

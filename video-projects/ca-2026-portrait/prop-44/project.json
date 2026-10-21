@@ -1,0 +1,798 @@
+{
+  "schema_version": 1,
+  "format": "portrait-short",
+  "number": 44,
+  "title": "Prop 44 \u2014 Clinic spending: what would a 90 percent rule do?",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1752,
+  "checked": "2026-10-19",
+  "source_project": "../../ca-2026/prop-44/project.json",
+  "source_narration": "asset://20f6e6f193a3648fc42d3f67a6e4821df8d85eb16a222ff7e3420af1e9a557e1.wav",
+  "source_take": "Prop 44 \u2014 Clinic spending: what would a 90 percent rule do?-2026-10-20T22-28-19-456Z",
+  "narration": "asset://38979662c92a2992ff526543916df099e4d01662d2dda1bc6280c22ff1725888.wav",
+  "assets": {
+    "hand": {
+      "path": "asset://ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2.png",
+      "tip": [
+        250,
+        914
+      ]
+    },
+    "family": {
+      "path": "asset://e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab.png"
+    },
+    "construction": {
+      "path": "asset://8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180.png"
+    },
+    "voter": {
+      "path": "asset://1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811.png"
+    },
+    "civic": {
+      "path": "asset://c2186d3e777807fdaccd6fc733505c06dbb57b5e65a5f73c623c062b2e44f7b3.png"
+    },
+    "budget": {
+      "path": "asset://968ff95a8953ed11fa53fba6f2852c0ae49f38108028b1a646b0869ebfcc7035.png"
+    },
+    "medical": {
+      "path": "asset://bf2d9b60f1657fc723a75dac2aa58b843ed0dfc4b1ce721fe8c64e7aa27099df.png"
+    }
+  },
+  "sources": [
+    {
+      "name": "Nonpartisan analysis: background, proposal, fiscal effects, yes/no; rechecked October 19, 2026.",
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=44&year=2026"
+    },
+    {
+      "name": "Official voter guide, measure text and attributed campaign arguments.",
+      "url": "https://voterguide.sos.ca.gov/propositions/44/"
+    },
+    {
+      "name": "September likely-voter results, original published values retained including rounding.",
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01-picture",
+      "label": "THE QUESTION",
+      "start_frame": 0,
+      "frames": 270,
+      "source_start_frame": 90,
+      "source_end_frame": 360,
+      "source_word_range": [
+        0,
+        18
+      ],
+      "narration": "Proposition forty-four sets a spending rule for private nonprofit safety-net clinics. These clinics serve many low-income and uninsured patients.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "A spending rule\nfor clinics",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "medical",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Private nonprofit safety-net clinics",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "02-bars",
+      "label": "WHAT CHANGES",
+      "start_frame": 270,
+      "frames": 273,
+      "source_start_frame": 552,
+      "source_end_frame": 825,
+      "source_word_range": [
+        35,
+        60
+      ],
+      "narration": "Covered clinics would have to spend at least ninety percent of annual revenue on health care services, leaving no more than ten percent for other expenses.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "How revenue\nis spent",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            555,
+            850,
+            280
+          ],
+          "color": "#ebe6da",
+          "at": 3.1800000000000015,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "90%",
+          "x": 125,
+          "y": 570,
+          "size": 90,
+          "width": 760,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 3.1800000000000015,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Health care services: at least",
+          "x": 125,
+          "y": 695,
+          "size": 34,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 3.1800000000000015,
+          "duration": 0.25
+        },
+        {
+          "kind": "bar",
+          "box": [
+            125,
+            785,
+            780,
+            20
+          ],
+          "value": 90,
+          "maximum": 100,
+          "color": "#357f78",
+          "at": 3.3800000000000017,
+          "duration": 1.1
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            865,
+            850,
+            280
+          ],
+          "color": "#ebe6da",
+          "at": 6.92,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "10%",
+          "x": 125,
+          "y": 880,
+          "size": 90,
+          "width": 760,
+          "color": "#a67728",
+          "bold": true,
+          "serif": false,
+          "at": 6.92,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Other expenses: at most",
+          "x": 125,
+          "y": 1005,
+          "size": 34,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 6.92,
+          "duration": 0.25
+        },
+        {
+          "kind": "bar",
+          "box": [
+            125,
+            1095,
+            780,
+            20
+          ],
+          "value": 10,
+          "maximum": 100,
+          "color": "#a67728",
+          "at": 7.12,
+          "duration": 1.1
+        },
+        {
+          "kind": "text",
+          "text": "Covered clinics\u2019 annual revenue",
+          "x": 95,
+          "y": 1230,
+          "size": 36,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "03-flow",
+      "label": "WHAT CHANGES",
+      "start_frame": 543,
+      "frames": 343,
+      "source_start_frame": 1675,
+      "source_end_frame": 2018,
+      "source_word_range": [
+        128,
+        157
+      ],
+      "narration": "A clinic falling short would owe a penalty equal to the shortfall. It could recover that money by complying within five years. Temporary waivers would be available in some circumstances.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Penalty for\nfalling short",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            565,
+            850,
+            240
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Penalty equals the shortfall",
+          "x": 125,
+          "y": 610,
+          "size": 48,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              515,
+              825
+            ],
+            [
+              515,
+              900
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 1.3,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            925,
+            850,
+            240
+          ],
+          "color": "#ebe6da",
+          "at": 1.9,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Recover it by complying within 5 years",
+          "x": 125,
+          "y": 970,
+          "size": 48,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 1.9,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Temporary waivers in some cases",
+          "x": 95,
+          "y": 1230,
+          "size": 35,
+          "width": 850,
+          "color": "#357f78",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "04-picture",
+      "label": "WHY VOTE YES?",
+      "start_frame": 886,
+      "frames": 237,
+      "source_start_frame": 3059,
+      "source_end_frame": 3296,
+      "source_word_range": [
+        240,
+        261
+      ],
+      "narration": "A voter might want a larger share of clinic revenue devoted to services for patients, with reporting and consequences for falling short.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "More revenue\nfor patients",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "medical",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Reporting and consequences",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "05-picture",
+      "label": "WHY VOTE NO?",
+      "start_frame": 1123,
+      "frames": 259,
+      "source_start_frame": 3744,
+      "source_end_frame": 4003,
+      "source_word_range": [
+        294,
+        313
+      ],
+      "narration": "Another voter could worry that a rigid limit constrains necessary support costs, adds fees, or makes some clinics financially fragile.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Necessary support\ncosts matter",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Fees and financial fragility",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "06-decision",
+      "label": "YOUR VOTE",
+      "start_frame": 1382,
+      "frames": 211,
+      "source_start_frame": 4691,
+      "source_end_frame": 4902,
+      "source_word_range": [
+        368,
+        382
+      ],
+      "narration": "Yes adopts the new spending rule; no leaves existing reporting and spending requirements in place.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What your\nvote means",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            550,
+            850,
+            310
+          ],
+          "color": "#e0e9e0",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "YES",
+          "x": 125,
+          "y": 580,
+          "size": 84,
+          "width": 760,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Adopt the spending rule",
+          "x": 125,
+          "y": 705,
+          "size": 44,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            915,
+            850,
+            375
+          ],
+          "color": "#eee0d5",
+          "at": 2,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "NO",
+          "x": 125,
+          "y": 945,
+          "size": 84,
+          "width": 760,
+          "color": "#a35a43",
+          "bold": true,
+          "serif": false,
+          "at": 2,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Keep existing requirements",
+          "x": 125,
+          "y": 1070,
+          "size": 44,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 2,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "07-cta",
+      "label": "GO DEEPER",
+      "start_frame": 1593,
+      "frames": 159,
+      "source_start_frame": 4915,
+      "source_end_frame": 5074,
+      "source_word_range": [
+        383,
+        395
+      ],
+      "narration": "Visit our website for the fuller explanation, source links, and official voter guide.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Make your\nown choice.",
+          "x": 90,
+          "y": 220,
+          "size": 100,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "image",
+          "asset": "family",
+          "box": [
+            150,
+            530,
+            750,
+            440
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "text",
+          "text": "Read the full explainer",
+          "x": 95,
+          "y": 1010,
+          "size": 54,
+          "width": 850,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Sources + official voter guide",
+          "x": 95,
+          "y": 1100,
+          "size": 36,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "educational-explainers.github.io\n/ca-2026-ballot/",
+          "x": 95,
+          "y": 1190,
+          "size": 38,
+          "width": 850,
+          "color": "#357f78",
+          "bold": true,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    }
+  ],
+  "caption_words": "words.json",
+  "captions_srt": "captions.srt",
+  "captions_vtt": "captions.vtt",
+  "website": "https://educational-explainers.github.io/ca-2026-ballot/",
+  "editorial_note": "Short teaser cut from complete passages of the existing cleaned human recording at natural speed. Polling and additional detail remain in the full explainer. Original source-check date retained; no new factual review.",
+  "audio_edits": {
+    "boundary_taper_ms": 3,
+    "speed": 1.0
+  },
+  "safe_area": {
+    "left": 90,
+    "right": 140,
+    "top": 120,
+    "bottom": 240
+  }
+}

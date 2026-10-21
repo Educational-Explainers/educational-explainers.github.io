@@ -1,0 +1,787 @@
+{
+  "schema_version": 1,
+  "format": "portrait-short",
+  "number": 4,
+  "title": "Prop 4 \u2014 Public campaign financing: what would change?",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1546,
+  "checked": "2026-10-19",
+  "source_project": "../../ca-2026/prop-04/project.json",
+  "source_narration": "asset://17460319b76ece45ad4fc8d7e92c46c70025e61ff73097bc3b34044efb2acd6c.wav",
+  "source_take": "Prop 4 \u2014 Public campaign financing: what would change?-2026-10-20T21-50-33-381Z",
+  "narration": "asset://f96a9ae900d793d5c883ab4dc7361df589c1fd44243e23fc916e1242315d1c21.wav",
+  "assets": {
+    "hand": {
+      "path": "asset://ca449d007f2d350efc1efdbb5a34115ba4e62ac8a64b1c0423e529d2439ee0e2.png",
+      "tip": [
+        250,
+        914
+      ]
+    },
+    "family": {
+      "path": "asset://e6b5758cfff2a71fc2540ddeb160b6c285d35041ff71a9f1e87fb2c7b10622ab.png"
+    },
+    "construction": {
+      "path": "asset://8bf2e858fd3aae0d7192a292f3bbe6ac2a2ce2296c519f84be81d874590cd180.png"
+    },
+    "voter": {
+      "path": "asset://1e933e16fff19dd793102ab83047d464d904a8610f3f3af44e08a977504bb811.png"
+    },
+    "civic": {
+      "path": "asset://c2186d3e777807fdaccd6fc733505c06dbb57b5e65a5f73c623c062b2e44f7b3.png"
+    },
+    "budget": {
+      "path": "asset://968ff95a8953ed11fa53fba6f2852c0ae49f38108028b1a646b0869ebfcc7035.png"
+    },
+    "medical": {
+      "path": "asset://bf2d9b60f1657fc723a75dac2aa58b843ed0dfc4b1ce721fe8c64e7aa27099df.png"
+    }
+  },
+  "sources": [
+    {
+      "name": "Background, rules, fiscal estimate, vote effects; checked October 19",
+      "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=4&year=2026"
+    },
+    {
+      "name": "Attributed arguments; claims distinguished from analysis",
+      "url": "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm"
+    },
+    {
+      "name": "September 4\u201310, likely voters n=1103, margin +/-3.8 points; checked October 19",
+      "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/"
+    },
+    {
+      "name": "September 25 release, field September 15\u201320, Prop4 split sample approx2250, +/-3 points; previously verified in repository polling fact check; current PDF fetch rate-limited. Release listing rechecked October 19.",
+      "url": "https://escholarship.org/content/qt3w14s99c/qt3w14s99c.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01-picture",
+      "label": "THE QUESTION",
+      "start_frame": 0,
+      "frames": 206,
+      "source_start_frame": 84,
+      "source_end_frame": 290,
+      "source_word_range": [
+        0,
+        15
+      ],
+      "narration": "Should public money help pay for election campaigns? That is the question behind California Proposition four.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Public funding\nfor campaigns?",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "California Proposition 4",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "02-flow",
+      "label": "WHAT CHANGES",
+      "start_frame": 206,
+      "frames": 262,
+      "source_start_frame": 937,
+      "source_end_frame": 1199,
+      "source_word_range": [
+        58,
+        78
+      ],
+      "narration": "Proposition four would let more governments offer public financing. It does not automatically launch a program or send money to candidates.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Allow future\nprograms",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            565,
+            850,
+            240
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Governments get an option",
+          "x": 125,
+          "y": 610,
+          "size": 48,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              515,
+              825
+            ],
+            [
+              515,
+              900
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 1.3,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            925,
+            850,
+            240
+          ],
+          "color": "#ebe6da",
+          "at": 1.9,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Later decisions set programs",
+          "x": 125,
+          "y": 970,
+          "size": 48,
+          "width": 760,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 1.9,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "No automatic program or payment",
+          "x": 95,
+          "y": 1230,
+          "size": 35,
+          "width": 850,
+          "color": "#357f78",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "03-picture",
+      "label": "THE REQUIREMENTS",
+      "start_frame": 468,
+      "frames": 159,
+      "source_start_frame": 2478,
+      "source_end_frame": 2637,
+      "source_word_range": [
+        175,
+        188
+      ],
+      "narration": "Candidates would have to demonstrate broad support in their district and accept spending limits.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Rules for\ncandidates",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Broad district support + spending limits",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "04-picture",
+      "label": "THE TRADEOFF",
+      "start_frame": 627,
+      "frames": 130,
+      "source_start_frame": 2986,
+      "source_end_frame": 3116,
+      "source_word_range": [
+        214,
+        225
+      ],
+      "narration": "But other public funds spent on campaigns still have an opportunity cost.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "A public cost",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Campaign funds have other possible uses",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "05-picture",
+      "label": "WHY VOTE YES?",
+      "start_frame": 757,
+      "frames": 230,
+      "source_start_frame": 3502,
+      "source_end_frame": 3732,
+      "source_word_range": [
+        255,
+        272
+      ],
+      "narration": "A voter favoring reform might say: I want candidates with community support to compete, even without wealthy backers.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Help candidates\ncompete",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "voter",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Community support without wealthy backers",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "06-picture",
+      "label": "WHY VOTE NO?",
+      "start_frame": 987,
+      "frames": 288,
+      "source_start_frame": 4155,
+      "source_end_frame": 4443,
+      "source_word_range": [
+        301,
+        324
+      ],
+      "narration": "Another voter might ask: should taxpayers pay for political campaigns? They may dislike funding candidates they oppose, or prefer other uses for public money.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Should taxpayers\npay?",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "budget",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Including candidates they oppose",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "07-picture",
+      "label": "YOUR VOTE",
+      "start_frame": 1275,
+      "frames": 118,
+      "source_start_frame": 4752,
+      "source_end_frame": 4870,
+      "source_word_range": [
+        344,
+        353
+      ],
+      "narration": "A no vote keeps the general ban and existing exceptions.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "A NO vote",
+          "x": 90,
+          "y": 220,
+          "size": 86,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "line",
+          "points": [
+            [
+              95,
+              505
+            ],
+            [
+              925,
+              505
+            ]
+          ],
+          "color": "#a67728",
+          "width": 5,
+          "at": 0.25,
+          "duration": 0.65,
+          "hand": true
+        },
+        {
+          "kind": "image",
+          "asset": "civic",
+          "box": [
+            110,
+            570,
+            810,
+            520
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "card",
+          "box": [
+            90,
+            1140,
+            850,
+            210
+          ],
+          "color": "#ebe6da",
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Keep the general ban and existing exceptions",
+          "x": 120,
+          "y": 1180,
+          "size": 43,
+          "width": 790,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "id": "08-cta",
+      "label": "GO DEEPER",
+      "start_frame": 1393,
+      "frames": 153,
+      "source_start_frame": 5805,
+      "source_end_frame": 5958,
+      "source_word_range": [
+        421,
+        432
+      ],
+      "narration": "Visit our website for the fuller explanation, sources, and official voter guide.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Make your\nown choice.",
+          "x": 90,
+          "y": 220,
+          "size": 100,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": true,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "image",
+          "asset": "family",
+          "box": [
+            150,
+            530,
+            750,
+            440
+          ],
+          "at": 0,
+          "duration": 1.4,
+          "animation": "fade-rise"
+        },
+        {
+          "kind": "text",
+          "text": "Read the full explainer",
+          "x": 95,
+          "y": 1010,
+          "size": 54,
+          "width": 850,
+          "color": "#357f78",
+          "bold": true,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "Sources + official voter guide",
+          "x": 95,
+          "y": 1100,
+          "size": 36,
+          "width": 850,
+          "color": "#263d50",
+          "bold": false,
+          "serif": false,
+          "at": 0,
+          "duration": 0.25
+        },
+        {
+          "kind": "text",
+          "text": "educational-explainers.github.io\n/ca-2026-ballot/",
+          "x": 95,
+          "y": 1190,
+          "size": 38,
+          "width": 850,
+          "color": "#357f78",
+          "bold": true,
+          "at": 0,
+          "duration": 0.25
+        }
+      ]
+    }
+  ],
+  "caption_words": "words.json",
+  "captions_srt": "captions.srt",
+  "captions_vtt": "captions.vtt",
+  "website": "https://educational-explainers.github.io/ca-2026-ballot/",
+  "editorial_note": "Short teaser cut from complete passages of the existing cleaned human recording at natural speed. Polling and additional detail remain in the full explainer. Original source-check date retained; no new factual review.",
+  "audio_edits": {
+    "boundary_taper_ms": 3,
+    "speed": 1.0
+  },
+  "safe_area": {
+    "left": 90,
+    "right": 140,
+    "top": 120,
+    "bottom": 240
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "explainer.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1731,
+    "audio_seconds": 57.7,
+    "decode": "passed"
+  },
+  "clean.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1731,
+    "audio_seconds": 57.7,
+    "decode": "passed"
+  },
+  "duration": 57.7,
+  "scenes": 8,
+  "source_take": "Prop 2 \u2014 Rainy-day reserves: save more, or spend now?-2026-10-20T21-43-18-293Z",
+  "narration_sha256": "d964d85edc6ef78fd5f10bde025e2a34e787f31510893add9480c45a7ebe3724",
+  "speed": 1.0,
+  "source_preserved": true
+}

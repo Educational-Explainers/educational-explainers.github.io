@@ -1,0 +1,16 @@
+{
+  "timeline": "Prop 1 - Portrait Short - Human Voice Pilot",
+  "id": "6daa4748-11e5-41a5-9386-1012abc9fbaf",
+  "frames": 1522,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "video_clips": 8,
+  "audio_tracks": [
+    "Narration - Human Excerpts",
+    "SFX - Pencil"
+  ],
+  "online_media": 10,
+  "gaps": 0,
+  "overlaps": 0
+}

@@ -1,0 +1,22 @@
+{
+  "explainer.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1504,
+    "audio_seconds": 50.133,
+    "decode": "passed"
+  },
+  "clean.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1504,
+    "audio_seconds": 50.133,
+    "decode": "passed"
+  },
+  "duration": 50.13333333333333,
+  "scenes": 7,
+  "source_take": "Prop 37 \u2014 Sketchbook explainer-2026-10-20T22-00-01-629Z",
+  "narration_sha256": "924eeb2510621d10739331271afdc7ccf4c2e4d6df1a24cb3c05ea84df86507c",
+  "speed": 1.0,
+  "source_preserved": true
+}

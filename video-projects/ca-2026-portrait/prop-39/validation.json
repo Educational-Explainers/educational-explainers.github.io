@@ -1,0 +1,22 @@
+{
+  "explainer.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1656,
+    "audio_seconds": 55.2,
+    "decode": "passed"
+  },
+  "clean.mp4": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1656,
+    "audio_seconds": 55.2,
+    "decode": "passed"
+  },
+  "duration": 55.2,
+  "scenes": 7,
+  "source_take": "Prop 39 \u2014 Voter identification: what changes when you cast a ballot?-2026-10-20T22-08-49-032Z",
+  "narration_sha256": "99aa9c701ef8f01515dcbe75a446aef2f429b104acc55815e76b48fd20c9e1a2",
+  "speed": 1.0,
+  "source_preserved": true
+}
