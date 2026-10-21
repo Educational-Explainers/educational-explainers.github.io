@@ -67,6 +67,14 @@
     .prop h3{font-size:1.35rem;margin:12px 0 10px}.one-line{margin:0;color:var(--muted);font-size:.95rem}
     .tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}.tag{font-size:.72rem;font-weight:700;padding:4px 8px;border-radius:2px;background:var(--paper);border:1px solid var(--line)}.tag.lean{color:var(--muted)}.tag.lean.dem{background:var(--blue-soft);border-color:transparent;color:var(--blue)}.tag.lean.rep{background:var(--red-soft);border-color:transparent;color:var(--red)}.tag.money{background:var(--green-soft);border-color:transparent;color:var(--green)}
     .details{border-top:1px solid var(--line);padding:0 20px 22px}.details[hidden]{display:none}
+    .my-ballot{margin:28px 0 0;padding:22px;background:var(--sheet);border:1px solid var(--line);border-top:4px solid var(--blue);border-radius:4px}
+    .my-ballot h2{font-size:1.7rem}.my-ballot p{margin:10px 0;font-size:.88rem;color:var(--muted)}
+    .ballot-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.ballot-actions button,.choice-buttons button{border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);padding:10px 14px;cursor:pointer;min-height:44px}
+    .ballot-actions button:first-child{background:var(--blue);color:var(--sheet);border-color:var(--blue)}
+    .personal-choice{border-top:1px solid var(--line);padding:14px 20px}.personal-choice>span{display:block;font-size:.8rem;font-weight:700;margin-bottom:8px}.choice-buttons{display:flex;flex-wrap:wrap;gap:8px}.choice-buttons button{font-size:.82rem}
+    .choice-buttons button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink);font-weight:700}
+    #ballot-progress{font-weight:700;color:var(--ink)}#checklist-sheet{margin-top:20px}#checklist-sheet table{width:100%;border-collapse:collapse;font-size:.86rem}#checklist-sheet th,#checklist-sheet td{text-align:left;padding:10px 6px;border-bottom:1px solid var(--line)}#checklist-sheet th:last-child,#checklist-sheet td:last-child{white-space:nowrap}#checklist-sheet caption{text-align:left;font-weight:700;margin-bottom:8px}
+    @media print{body{background:white!important;color:black!important}body>.hero,main.wrap>*:not(.my-ballot){display:none!important}main.wrap{width:100%}.my-ballot{margin:0;padding:0;border:0;background:white;color:black}.my-ballot .ballot-actions,.my-ballot .ballot-help,#ballot-storage,#ballot-reset-confirm{display:none!important}#checklist-sheet[hidden]{display:block!important}#checklist-sheet tr{break-inside:avoid}#checklist-sheet th,#checklist-sheet td{padding:7px 4px;border-color:#bbb}.my-ballot p{color:#333}}
     .watch-all{display:inline-block;margin-top:20px;font-weight:700}
     .video-panel{margin:20px 0;max-width:900px}.video-panel h4{font-family:"Source Serif 4",serif;font-size:1.35rem;margin:0 0 12px}
     .video-panel iframe{display:block;width:100%;aspect-ratio:16/9;border:0;background:#111;border-radius:4px}.video-panel p{font-size:.82rem;margin:8px 0 0}
@@ -106,6 +114,7 @@
       <p class="hero-deck">What a Yes or No vote does, the strongest case on each side, partisan coalition signals, and fiscal scale—without telling you how to vote.</p>
       <div class="hero-meta"><span><b>Election day</b> Tuesday, November 3, 2026</span><span><b>Budget baseline</b> $251.5B General Fund</span><span><b>Research snapshot</b> October 5, 2026</span></div>
       <a class="watch-all" href="https://www.youtube.com/playlist?list=PLPjaSfrIKaIU" target="_blank" rel="noopener">Watch all 14 full-length explainers on YouTube ↗</a>
+      <p><a href="#my-ballot">Build my personal voting checklist ↓</a></p>
       <div class="snapshot"><strong>Read this first:</strong> party-lean labels describe the coalitions backing and opposing a measure, not the content of the measure itself. Polls are snapshots, not predictions. <a class="key-link" href="#sources-and-terms">Glossary &amp; sources ↓</a></div>
     </div>
   </header>
@@ -156,6 +165,21 @@
       </div>
     </section>
 
+    <section class="my-ballot" id="my-ballot" aria-labelledby="my-ballot-title">
+      <h2 id="my-ballot-title">My voting checklist</h2>
+      <p>California · November 3, 2026 · Personal planning notes, not an official ballot.</p>
+      <p class="ballot-help">Choose Yes, No, or Undecided on any proposition below. Your choices stay in this browser and are not sent to Analytics. Anyone using this browser can see them.</p>
+      <p id="ballot-progress" role="status"></p>
+      <p id="ballot-storage" role="status">Saved on this device. Clearing browser data removes your choices.</p>
+      <div class="ballot-actions">
+        <button id="ballot-review" aria-expanded="false" aria-controls="checklist-sheet">View my checklist</button>
+        <button id="ballot-print">Print / save as PDF</button>
+        <button id="ballot-reset" aria-expanded="false" aria-controls="ballot-reset-confirm">Clear my choices</button>
+      </div>
+      <div id="ballot-reset-confirm" hidden><p>Clear all choices saved in this browser?</p><div class="ballot-actions"><button id="ballot-reset-yes">Yes, clear choices</button><button id="ballot-reset-no">Keep my choices</button></div></div>
+      <div id="checklist-sheet" hidden><table><caption>All 14 propositions — including any still undecided</caption><thead><tr><th scope="col">Proposition</th><th scope="col">My choice</th></tr></thead><tbody id="checklist-rows"></tbody></table></div>
+      <noscript><p>Enable JavaScript to save choices and build your checklist.</p></noscript>
+    </section>
     <section class="tools" aria-labelledby="guide-title">
       <div><h2 id="guide-title">Pick a proposition</h2><p>Open any card to watch the full explainer, compare the money flow if it passes or fails, and review the arguments, polling, and official sources.</p></div>
       <div class="search"><label for="search">Search the guide</label><input id="search" type="search" placeholder="Try housing, taxes, voting…" autocomplete="off"></div>
@@ -400,6 +424,7 @@
         <h3>${esc(p.title)}</h3><p class="one-line">${esc(p.one)}</p>
         <div class="tags"><span class="tag money">${esc(p.type)}</span><span class="tag flow-tag">Full video explainer</span><span class="tag flow-tag">Money-flow diagram</span><span class="tag lean ${partyLean[p.n]||''}">${esc(p.lean)}</span></div>
       </button>
+      <div class="personal-choice"><span id="choice-label-${p.n}">My choice · Prop ${p.n}</span><div class="choice-buttons" role="group" aria-labelledby="choice-label-${p.n}">${['yes','no','undecided'].map(value=>`<button type="button" data-choice-prop="${p.n}" data-choice="${value}" aria-pressed="${value==='undecided'}">${value[0].toUpperCase()+value.slice(1)}</button>`).join('')}</div></div>
       <div class="details" id="details-${p.n}" hidden>
         ${videoPanel(p)}
         <div class="vote-grid"><div class="vote"><b>A YES VOTE</b><p>${esc(p.yes)}</p></div><div class="vote no"><b>A NO VOTE</b><p>${esc(p.no)}</p></div></div>
@@ -412,6 +437,35 @@
     </article>`;
   }
   grid.innerHTML=props.map(card).join('')+'<div id="empty" class="empty" hidden>No propositions match that search.</div>';
+  const ballotKey='ca-2026-personal-ballot-v1';
+  let ballotChoices={};
+  function readBallot(){
+    try{
+      const saved=JSON.parse(localStorage.getItem(ballotKey)||'{}');
+      ballotChoices={};
+      if(saved&&typeof saved==='object'&&!Array.isArray(saved))props.forEach(p=>{if(saved[p.n]==='yes'||saved[p.n]==='no')ballotChoices[p.n]=saved[p.n]});
+    }catch(error){ballotChoices={};document.getElementById('ballot-storage').textContent='Saved choices could not be loaded. You can still make and print a checklist here.'}
+  }
+  function renderBallot(){
+    document.querySelectorAll('[data-choice-prop]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.choice===(ballotChoices[button.dataset.choiceProp]||'undecided'))));
+    const decided=Object.keys(ballotChoices).length;
+    document.getElementById('ballot-progress').textContent=`${decided} of ${props.length} decided · ${props.length-decided} undecided`;
+    document.getElementById('checklist-rows').innerHTML=props.map(p=>{const choice=ballotChoices[p.n]||'undecided';return `<tr><th scope="row">Prop ${p.n} — ${esc(p.title)}</th><td>${choice[0].toUpperCase()+choice.slice(1)}</td></tr>`}).join('');
+  }
+  function saveBallot(){
+    try{if(Object.keys(ballotChoices).length)localStorage.setItem(ballotKey,JSON.stringify(ballotChoices));else localStorage.removeItem(ballotKey);document.getElementById('ballot-storage').textContent='Saved on this device. Clearing browser data removes your choices.'}
+    catch(error){document.getElementById('ballot-storage').textContent='Browser storage is unavailable. Choices work for this visit only; print or save a PDF before leaving.'}
+    renderBallot();
+  }
+  readBallot();renderBallot();
+  grid.addEventListener('click',event=>{const button=event.target.closest('[data-choice-prop]');if(!button)return;const n=button.dataset.choiceProp;if(button.dataset.choice==='undecided')delete ballotChoices[n];else ballotChoices[n]=button.dataset.choice;saveBallot()});
+  document.getElementById('ballot-review').addEventListener('click',event=>{const sheet=document.getElementById('checklist-sheet');sheet.hidden=!sheet.hidden;event.currentTarget.setAttribute('aria-expanded',String(!sheet.hidden));event.currentTarget.textContent=sheet.hidden?'View my checklist':'Hide my checklist'});
+  document.getElementById('ballot-print').addEventListener('click',()=>window.print());
+  function showReset(show){document.getElementById('ballot-reset-confirm').hidden=!show;document.getElementById('ballot-reset').setAttribute('aria-expanded',String(show));document.getElementById(show?'ballot-reset-no':'ballot-reset').focus()}
+  document.getElementById('ballot-reset').addEventListener('click',()=>showReset(true));
+  document.getElementById('ballot-reset-no').addEventListener('click',()=>showReset(false));
+  document.getElementById('ballot-reset-yes').addEventListener('click',()=>{ballotChoices={};saveBallot();showReset(false)});
+  window.addEventListener('storage',event=>{if(event.key===ballotKey||event.key===null){readBallot();renderBallot()}});
   function apply(){
     const q=document.getElementById('search').value.trim().toLowerCase();let shown=0;
     document.querySelectorAll('.prop').forEach(el=>{const okCat=filter==='all'||el.dataset.cat.split(' ').includes(filter);const okQ=!q||el.dataset.search.includes(q);el.hidden=!(okCat&&okQ);if(!el.hidden)shown++;const player=el.querySelector('iframe');if(el.hidden){player.removeAttribute('src')}else if(el.classList.contains('open')&&!player.hasAttribute('src')){player.src=player.dataset.src}});
