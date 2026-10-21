@@ -73,6 +73,8 @@
     .ballot-actions button:first-child{background:var(--blue);color:var(--sheet);border-color:var(--blue)}
     .personal-choice{border-top:1px solid var(--line);padding:14px 20px}.personal-choice>span{display:block;font-size:.8rem;font-weight:700;margin-bottom:8px}.choice-buttons{display:flex;flex-wrap:wrap;gap:8px}.choice-buttons button{font-size:.82rem}
     .choice-buttons button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink);font-weight:700}
+    .choice-summary{font-size:.84rem;line-height:1.5;color:var(--muted);margin:10px 0 0}.choice-summary:empty{display:none}
+    .checklist-summary{display:block;font-weight:400;font-size:.8rem;line-height:1.4;color:var(--muted);margin-top:4px}.checklist-summary:empty{display:none}
     #ballot-progress{font-weight:700;color:var(--ink)}#checklist-sheet{margin-top:20px}#checklist-sheet table{width:100%;border-collapse:collapse;font-size:.86rem}#checklist-sheet th,#checklist-sheet td{text-align:left;padding:10px 6px;border-bottom:1px solid var(--line)}#checklist-sheet th:last-child,#checklist-sheet td:last-child{white-space:nowrap}#checklist-sheet caption{text-align:left;font-weight:700;margin-bottom:8px}
     @media print{body{background:white!important;color:black!important}body>.hero,main.wrap>*:not(.my-ballot){display:none!important}main.wrap{width:100%}.my-ballot{margin:0;padding:0;border:0;background:white;color:black}.my-ballot .ballot-actions,.my-ballot .ballot-help,#ballot-storage,#ballot-reset-confirm{display:none!important}#checklist-sheet[hidden]{display:block!important}#checklist-sheet tr{break-inside:avoid}#checklist-sheet th,#checklist-sheet td{padding:7px 4px;border-color:#bbb}.my-ballot p{color:#333}}
     .watch-all{display:inline-block;margin-top:20px;font-weight:700}
@@ -424,7 +426,7 @@
         <h3>${esc(p.title)}</h3><p class="one-line">${esc(p.one)}</p>
         <div class="tags"><span class="tag money">${esc(p.type)}</span><span class="tag flow-tag">Full video explainer</span><span class="tag flow-tag">Money-flow diagram</span><span class="tag lean ${partyLean[p.n]||''}">${esc(p.lean)}</span></div>
       </button>
-      <div class="personal-choice"><span id="choice-label-${p.n}">My choice · Prop ${p.n}</span><div class="choice-buttons" role="group" aria-labelledby="choice-label-${p.n}">${['yes','no','undecided'].map(value=>`<button type="button" data-choice-prop="${p.n}" data-choice="${value}" aria-pressed="${value==='undecided'}">${value[0].toUpperCase()+value.slice(1)}</button>`).join('')}</div></div>
+      <div class="personal-choice"><span id="choice-label-${p.n}">My choice · Prop ${p.n}</span><div class="choice-buttons" role="group" aria-labelledby="choice-label-${p.n}">${['yes','no','undecided'].map(value=>`<button type="button" data-choice-prop="${p.n}" data-choice="${value}" aria-pressed="${value==='undecided'}">${value[0].toUpperCase()+value.slice(1)}</button>`).join('')}</div><p class="choice-summary" id="choice-summary-${p.n}" aria-live="polite"></p></div>
       <div class="details" id="details-${p.n}" hidden>
         ${videoPanel(p)}
         <div class="vote-grid"><div class="vote"><b>A YES VOTE</b><p>${esc(p.yes)}</p></div><div class="vote no"><b>A NO VOTE</b><p>${esc(p.no)}</p></div></div>
@@ -448,9 +450,10 @@
   }
   function renderBallot(){
     document.querySelectorAll('[data-choice-prop]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.choice===(ballotChoices[button.dataset.choiceProp]||'undecided'))));
+    props.forEach(p=>{const choice=ballotChoices[p.n];document.getElementById(`choice-summary-${p.n}`).textContent=choice?`In brief: ${p[choice]}`:''});
     const decided=Object.keys(ballotChoices).length;
     document.getElementById('ballot-progress').textContent=`${decided} of ${props.length} decided · ${props.length-decided} undecided`;
-    document.getElementById('checklist-rows').innerHTML=props.map(p=>{const choice=ballotChoices[p.n]||'undecided';return `<tr><th scope="row">Prop ${p.n} — ${esc(p.title)}</th><td>${choice[0].toUpperCase()+choice.slice(1)}</td></tr>`}).join('');
+    document.getElementById('checklist-rows').innerHTML=props.map(p=>{const choice=ballotChoices[p.n]||'undecided';return `<tr><th scope="row">Prop ${p.n} — ${esc(p.title)}<span class="checklist-summary">${choice==='undecided'?'':esc(p[choice])}</span></th><td>${choice[0].toUpperCase()+choice.slice(1)}</td></tr>`}).join('');
   }
   function saveBallot(){
     try{if(Object.keys(ballotChoices).length)localStorage.setItem(ballotKey,JSON.stringify(ballotChoices));else localStorage.removeItem(ballotKey);document.getElementById('ballot-storage').textContent='Saved on this device. Clearing browser data removes your choices.'}
