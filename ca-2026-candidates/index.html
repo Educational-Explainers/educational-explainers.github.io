@@ -7,7 +7,16 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-74MZ9ES5M0');
+    // Reach analytics only: never pass checklist choices, county or district selections.
+    // Strip queries/fragments so shared URLs cannot leak private values into page reports.
+    let analyticsReferrer = '';
+    try { const ref = new URL(document.referrer); analyticsReferrer = ref.origin + ref.pathname; } catch (_) {}
+    gtag('config', 'G-74MZ9ES5M0', {
+      page_location: location.origin + location.pathname,
+      page_referrer: analyticsReferrer,
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false
+    });
   </script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
