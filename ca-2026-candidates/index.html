@@ -130,6 +130,7 @@
     @media(max-width:520px){.wrap{width:min(100% - 32px,1120px)}h1{font-size:2.6rem}.hero-meta{display:grid;gap:7px}.race>summary{padding:17px 16px}.race-body{padding:4px 16px 20px}.matchup{grid-template-columns:1fr}.vs{justify-self:center}.legend li{grid-template-columns:1fr;gap:3px}.term-list{grid-template-columns:1fr}.boe th:nth-child(4),.boe td:nth-child(4){display:none}.boe-race{padding:17px 14px}.boe th,.boe td{padding:9px 5px}.personal-choice{padding:14px 16px}.boe-mine{grid-template-columns:1fr}.measure{padding:16px}.measure .vote-grid{grid-template-columns:1fr}.county-row select{min-width:0;width:100%}.county-row>div{width:100%}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.chev{transition:none}}
     .election-nav{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 24px;position:relative;z-index:1}.election-nav a{padding:9px 14px;border:1px solid var(--blue);border-radius:6px;font-weight:700;text-decoration:none;color:var(--blue);background:var(--sheet)}.election-nav a[aria-current="page"]{color:var(--sheet);background:var(--blue)}.election-nav a:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+    .sources-shortcut{display:inline-block;font-size:.8rem;margin-top:10px;padding:4px 0}.source-directory{margin:32px 0;padding:24px;border:1px solid var(--line);background:var(--sheet)}.source-directory details{border-top:1px solid var(--line);padding:12px 0}.source-directory summary{cursor:pointer;font-weight:700}.source-directory li{margin:8px 0;overflow-wrap:anywhere}.source-directory ul{padding-left:22px}.source-directory .source-context{font-size:.78rem;color:var(--muted)}.source-directory :target{scroll-margin-top:20px}.source-directory a:focus-visible,.sources-shortcut:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
   </style>
 </head>
 <body>
@@ -141,6 +142,7 @@
       <p class="hero-deck">Your statewide races, one by one. For each candidate: what they say they will do, and what they have really done on those same issues. We don’t tell you how to vote.</p>
       <div class="hero-meta"><span><b>Election day</b> Tuesday, November 3, 2026</span><span><b>Statewide races</b> 8, plus Board of Equalization</span><span><b>Research snapshot</b> October 21, 2026</span></div>
       <div class="hero-links"><a href="../ca-2026-ballot/">See the 14 propositions →</a><a href="#my-ballot">Pick your county and track your choices ↓</a></div>
+      <a class="sources-shortcut" href="#sources">Sources &amp; fact-check notes</a>
       <div class="snapshot"><strong>Read this first:</strong> In each race, candidates are listed in A-to-Z order by last name. “Record” means things a person actually did: votes, laws, court cases, jobs. Some candidates have never held office, so they have less record to show. That is a fact to know, not a mark against them.</div>
     </div>
   </header>
@@ -230,7 +232,7 @@
           <ul>
             <li>We give both candidates in a race the same kinds of facts.</li>
             <li>Campaign claims are attributed. Some records remain unreviewed; a source link does not mean every claim has been independently verified.</li>
-            <li>Money totals come from different dates in different races, so don’t compare them across races.</li>
+            <li>Endorsement and fundraising summaries without direct supporting citations are withheld pending verification.</li>
             <li>Polls are snapshots, not predictions. We list only polls from independent pollsters.</li>
           </ul>
           <p class="fineprint">Research snapshot: October 21, 2026. Fact-check corrections: October 22, 2026. <a href="https://github.com/educational-explainers/educational-explainers.github.io/blob/main/research_notes/California%202026%20candidates/fact-check-2026-10-22.md">Read the review and remaining gaps</a>. This is not an endorsement. Things may change before Election Day. Found a mistake? Please tell us so we can fix it.</p>
@@ -253,6 +255,26 @@
           </dl>
         </div>
       </div>
+    </section>
+    <section id="sources" class="source-directory" aria-labelledby="sources-title" tabindex="-1">
+      <h2 id="sources-title">Sources</h2>
+      <p>Use the links beside each issue for its evidence, or open a race below for its full reference list.</p>
+      <ul>
+        <li><b>Election facts:</b> certified candidate lists and results from the Secretary of State and county registrars.</li>
+        <li><b>Votes, laws and court decisions:</b> official records first, with established reporting for context. A proposal, a passed bill and a law in effect are different things.</li>
+        <li><b>Promises and personal accounts:</b> campaign statements, questionnaires and office press releases show what the candidate or office says. They are not independent proof of results.</li>
+        <li><b>Limits:</b> unreviewed claims are marked. Endorsement and fundraising summaries without direct citations are withheld. This guide does not certify every statement in an external source.</li>
+      </ul>
+      <p class="fineprint"><a href="https://github.com/Educational-Explainers/educational-explainers.github.io/blob/main/research_notes/California%202026%20candidates/fact-check-2026-10-22.md">Corrections and remaining research gaps — October 22, 2026</a></p>
+      <h3>Official election records</h3>
+      <ul>
+        <li><a href="https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf" target="_blank" rel="noopener">Certified November candidate list</a></li>
+        <li><a href="https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/06-sov-summary.pdf" target="_blank" rel="noopener">Certified June primary results</a></li>
+        <li><a href="https://vote.santaclaracounty.gov/november-3-2026-general-election-resources" target="_blank" rel="noopener">Santa Clara County: qualified candidates and election documents</a></li>
+        <li><a href="https://vote.santaclaracounty.gov/list-local-measures-4" target="_blank" rel="noopener">Santa Clara County: official local measure text</a></li>
+      </ul>
+      <div id="source-races"></div>
+      <noscript>Race-specific sources require JavaScript. Official election records and the review notes above are available without it.</noscript>
     </section>
   </main>
 
@@ -366,20 +388,20 @@
         issues:[
           {t:'College costs and student housing',kind:'did',
             says:'Make college cost less. Add paid internships and job training paths. Build student housing on state land.',
-            rec:['As treasurer, her office sold the state’s first bonds for community college student housing (2021–22), including over 300 homes at Santa Rosa Junior College.','She runs CalKIDS, which puts college savings money in accounts for California kids.','No record was found on paid internships.'],
-            src:[L('Official voter guide statements (PDF)','https://vig.cdn.sos.ca.gov/2026/general/pdf/candidate-statements.pdf'),L('CalMatters 2022 profile','https://calmatters.org/politics/2022/10/fiona-ma-treasurer-election'),L('Press Democrat','https://www.pressdemocrat.com/2026/09/30/election-2026-who-are-the-candidates-running-for-lieutenant-governor-californias-no-2-job/')]},
+            rec:['Her office reports issuing $68.3 million in bonds in 2021 for Santa Rosa Junior College’s first on-campus student housing project: 352 beds, not 352 separate homes.','She runs CalKIDS, which puts college savings money in accounts for California kids.','No record was found on paid internships.'],
+            src:[L('Treasurer: Santa Rosa housing financing','https://www.treasurer.ca.gov/news/releases/2024/44.pdf'),L('Official voter guide statements (PDF)','https://vig.cdn.sos.ca.gov/2026/general/pdf/candidate-statements.pdf'),L('CalMatters 2022 profile','https://calmatters.org/politics/2022/10/fiona-ma-treasurer-election'),L('Press Democrat','https://www.pressdemocrat.com/2026/09/30/election-2026-who-are-the-candidates-running-for-lieutenant-governor-californias-no-2-job/')]},
           {t:'Housing',kind:'did',
             says:'She says she “financed a record number of affordable housing units” and expanded down-payment help.',
-            rec:['She leads the state committees that hand out housing tax credits and bonds, and changed their rules in 2020. Her office reports about 19,000 new homes funded in 2020. The “record” claim rests on her own office’s numbers.','The down-payment program is run by a 13-member board where she has one vote.','In 2022 she opposed a bill to combine state housing funding. A 2020 state audit had found poor teamwork over $2.7 billion in housing bonds.'],
-            src:[L('Treasurer’s office (self-reported)','https://www.treasurer.ca.gov/news/releases/2021/9.pdf'),L('CalMatters 2022 profile','https://calmatters.org/politics/2022/10/fiona-ma-treasurer-election')]},
+            rec:['She leads state committees that allocate housing tax credits and bonds. We have not verified her campaign’s claim of a record number of homes financed.','The down-payment program is run by a 13-member board where she has one vote.','In 2022 she opposed a bill to combine state housing funding. A 2020 state audit had found poor teamwork over $2.7 billion in housing bonds.'],
+            src:[L('CalMatters 2022 profile','https://calmatters.org/politics/2022/10/fiona-ma-treasurer-election')]},
           {t:'Struggling hospitals',kind:'did',
             says:'She says she “saved distressed hospitals.”',
-            rec:['The Legislature and governor created a loan program for hospitals in danger of closing (2023). A board she chairs helps run it. It made 17 loans worth $242.5 million in 2023.'],
-            src:[L('Health facilities board annual report','https://www.treasurer.ca.gov/chffa/publications/2023-annual-report.pdf')]},
-          {t:'Climate and pension money',kind:'did',
-            says:'Not a main campaign theme this year.',
-            rec:['She backed SB 252 (2023), which would have made state pension funds sell oil and gas stocks. The pension boards opposed it.'],
-            src:[L('Treasurer’s office','https://www.treasurer.ca.gov/news/releases/2023/11.pdf')]}
+            rec:['The state created the Distressed Hospital Loan Program in 2023, administered by HCAI and the California Health Facilities Financing Authority. The Legislative Analyst reported in February 2024 that $292.5 million had been awarded to 17 hospitals; some agreements were still unfinished. Awards are not the same as money already paid out.'],
+            src:[L('Legislative Analyst: hospital loan implementation','https://www.lao.ca.gov/Publications/Report/4860'),L('HCAI: hospital loan program','https://hcai.ca.gov/facilities/health-facility-financing/distressed-hospital-loan-program/')]},
+          {t:'Climate and pension money',kind:'unchecked',
+            says:'Not a main campaign theme covered in this guide.',
+            rec:['Her position and voting record on pension divestment have not been verified for this guide.'],
+            src:[]}
         ],
         know:['A former employee sued her for sexual harassment in 2021. The state settled for $350,000 in 2024. Ma denied wrongdoing.','In 2020, during the COVID crisis, the state nearly wired $457 million to a fake mask seller. She called it “a lesson learned.”'],
         knowSrc:[L('CBS Sacramento: settlement','https://www.cbsnews.com/sacramento/news/california-settles-sexual-harassment-claims-against-state-treasurer-fiona-ma'),L('CalMatters 2022 profile','https://calmatters.org/politics/2022/10/fiona-ma-treasurer-election')],
@@ -396,7 +418,7 @@
           {t:'College standards and girls’ sports',kind:'none',
             says:'Bring back SAT/ACT tests for UC admission. Keep transgender girls out of girls’ sports (“defend Title IX”). Fight antisemitism on campuses.',
             rec:['She has no record in office on these. UC dropped the SAT in 2020, after she left office.'],
-            src:[L('Official voter guide statements (PDF)','https://vig.cdn.sos.ca.gov/2026/general/pdf/candidate-statements.pdf'),L('SF Examiner','https://www.sfexaminer.com/news/politics/ex-dem-romero-decries-woke-policies-in-lg-run/article_125cf5cc-b445-41ca-80a8-60680a3f7227.html')]},
+            src:[L('Treasurer: Santa Rosa housing financing','https://www.treasurer.ca.gov/news/releases/2024/44.pdf'),L('Official voter guide statements (PDF)','https://vig.cdn.sos.ca.gov/2026/general/pdf/candidate-statements.pdf'),L('SF Examiner','https://www.sfexaminer.com/news/politics/ex-dem-romero-decries-woke-policies-in-lg-run/article_125cf5cc-b445-41ca-80a8-60680a3f7227.html')]},
           {t:'Energy and state boards',kind:'none',
             says:'Rein in the Coastal Commission and State Lands Commission. Scale back the Air Resources Board. Allow more oil drilling.',
             rec:['No record in office was found. Experts quoted by the SF Examiner say more California oil would not lower gas prices.'],
@@ -450,7 +472,7 @@
           {t:'Crime and Prop 36',kind:'disputed',
             says:'“Fully enforce” Prop 36. Go after fentanyl dealers. Help homeless people get into treatment.',
             rec:['He has no statewide prosecutor record.','His voter guide statement says Huntington Beach’s program cut crime by “double digits” in its first year. The data we found shows about a 7% drop.','He says nearly half of all homeless Americans live in California. The real share is about 1 in 4; California has nearly half of homeless people living outdoors.'],
-            src:[L('Official voter guide statements (PDF)','https://vig.cdn.sos.ca.gov/2026/general/pdf/candidate-statements.pdf'),L('PPIC: homelessness numbers','https://ppic.org/blog/homelessness-hits-record-high-in-california-jumps-dramatically-in-rest-of-us/')]},
+            src:[L('Treasurer: Santa Rosa housing financing','https://www.treasurer.ca.gov/news/releases/2024/44.pdf'),L('Official voter guide statements (PDF)','https://vig.cdn.sos.ca.gov/2026/general/pdf/candidate-statements.pdf'),L('PPIC: homelessness numbers','https://ppic.org/blog/homelessness-hits-record-high-in-california-jumps-dramatically-in-rest-of-us/')]},
           {t:'Local control and housing',kind:'did',
             says:'Let cities make their own decisions instead of following state mandates.',
             rec:['As city attorney, he fought state housing rules in court. He lost; the state Supreme Court declined review in December 2025.'],
@@ -487,7 +509,7 @@
           {t:'Count votes faster',kind:'none',
             says:'California “takes more than a month” to count. He would speed it up.',
             rec:['He has never run an elections office. By law, counties get 30 days to count and check votes.'],
-            src:[L('Official voter guide statements (PDF)','https://vig.cdn.sos.ca.gov/2026/general/pdf/candidate-statements.pdf'),L('CalMatters race guide','https://calmatters.org/politics/2026/04/california-secretary-state-race/')]},
+            src:[L('Treasurer: Santa Rosa housing financing','https://www.treasurer.ca.gov/news/releases/2024/44.pdf'),L('Official voter guide statements (PDF)','https://vig.cdn.sos.ca.gov/2026/general/pdf/candidate-statements.pdf'),L('CalMatters race guide','https://calmatters.org/politics/2026/04/california-secretary-state-race/')]},
           {t:'Voter ID',kind:'disputed',
             says:'Require photo ID to vote. Carry out Prop 39 if it passes. Roll back mail ballots for everyone (that would need the Legislature).',
             rec:['No record in office on voter ID.','His voter guide statement says “36 states require photo ID.” About 36 states ask for some ID, but only about 24 ask for photo ID.'],
@@ -603,8 +625,8 @@
             src:[L('CalMatters race guide','https://calmatters.org/politics/elections/2026/05/ca-election-2026-controller/')]},
           {t:'Return unclaimed property',kind:'did',
             says:'Give people back money the state holds for them, like forgotten bank accounts.',
-            rec:['The state holds more than $15 billion in unclaimed property. In December 2025 her office began sending some money back automatically using tax records. The first round returned about $30 million.','Lawsuits say owners get too little warning before the state takes their property.'],
-            src:[L('Controller’s office','https://www.sco.ca.gov/eo_pressrel_27508.html'),L('Peters v. Cohen summary','https://sovos.com/blog/trr/supreme-court-peters-v-cohen/')]},
+            rec:['The state holds more than $15 billion in unclaimed property. In December 2025 her office began sending some money back automatically using tax records. The first round returned about $30 million.','An unclaimed-property case, Peters v. Cohen, reached the U.S. Supreme Court. It declined to review the case on October 14, 2025; that was not a ruling on the merits.'],
+            src:[L('Controller’s office','https://www.sco.ca.gov/eo_pressrel_27508.html'),L('Supreme Court: Peters v. Cohen docket','https://www.supremecourt.gov/docket/docketfiles/html/public/25-41.html')]},
           {t:'Audits and oversight',kind:'changed',
             says:'Check how state agencies spend money.',
             rec:['In 2022 she promised reviews of EDD, the DMV, and homelessness spending. CalMatters says she did not do them. She says the State Auditor had already covered those agencies.','In October 2026 the State Auditor found two workers in her office working from out of state against state rules. Her office says it had already fixed the problem.'],
@@ -659,7 +681,7 @@
           {t:'Protect people with claims',kind:'did',
             says:'Stronger rules when insurers deny claims or drop customers.',
             rec:['He wrote SB 1301 (2026), now law. Insurers must explain why they drop a home and give owners time to fix the risk.','He wrote SB 495 (2025), now law. After a total loss, insurers must pay 60% of contents coverage without a full list of items.'],
-            src:[L('Santa Monica Daily Press','https://www.smdp.com/new-law-aims-to-protect-californians-from-losing-home-insurance-coverage/'),L('Department of Insurance','https://www.insurance.ca.gov/0400-news/0100-press-releases/2025/release067-2025.cfm')]},
+            src:[L('Senator Allen: legislative record','https://sd24.senate.ca.gov/legislation'),L('Santa Monica Daily Press','https://www.smdp.com/new-law-aims-to-protect-californians-from-losing-home-insurance-coverage/'),L('Department of Insurance','https://www.insurance.ca.gov/0400-news/0100-press-releases/2025/release067-2025.cfm')]},
           {t:'Climate',kind:'did',
             says:'Hold fossil-fuel companies responsible for climate damage.',
             rec:['He wrote SB 54 (2022), the state law to cut single-use plastic.'],
@@ -779,14 +801,12 @@
   }
   function candHTML(c){
     return `<article class="cand ${c.party}">
-      <h3>${esc(c.name)}</h3>${partyTag(c)}
+      <h3>${esc(c.name)}</h3>${partyTag(c)} <a class="sources-shortcut" href="#sources">Sources</a>
       ${c.ballot?`<p class="ballot">On the ballot as: “${esc(c.ballot)}”</p>`:''}
       <h4>WHO THEY ARE</h4><ul class="bio">${c.bio.map(b=>`<li>${esc(b)}</li>`).join('')}</ul>
       <h4>BIG ISSUES: PROMISE AND RECORD</h4>${c.issues.map(issueHTML).join('')}
       ${c.know?`<h4>ALSO GOOD TO KNOW</h4><ul class="know">${c.know.map(k=>`<li>${esc(k)}</li>`).join('')}</ul>${links(c.knowSrc)}`:''}
       <div class="facts" style="margin-top:14px">
-        <div><b>WHO BACKS THEM</b>${esc(c.backers)}</div>
-        <div><b>MONEY RAISED</b>${esc(c.money)}</div>
         <div><b>JUNE PRIMARY</b>${esc(c.primary)}</div>
       </div>
     </article>`;
@@ -1091,8 +1111,8 @@
               {name:'Ash Kalra',party:'dem',partyName:'Democrat',short:'Assemblymember (incumbent)',ballot:'State Assemblymember',incumbent:true,primary:'72.2% in June (1st)',
                 bio:['State Assembly, 2016–now; chairs the Judiciary Committee','San Jose City Council, 2009–2016','Public defender for 11 years'],
                 issues:[
-                  {t:'Health care for all (CalCare)',kind:'did',says:'One public health plan for every Californian.',rec:['His single-payer bills have not passed. In 2022 he pulled his bill before a final vote. Bills in 2024 and 2026 did not advance.'],src:[L('CalCare overview','https://en.wikipedia.org/wiki/CalCare')]},
-                  {t:'Fairness in courts',kind:'did',says:'Fight racial bias in the justice system.',rec:['He wrote the Racial Justice Act (2020), which lets people challenge charges or sentences shown to be affected by racial bias. It became law.'],src:[L('Racial Justice Act','https://en.wikipedia.org/wiki/California_Racial_Justice_Act_of_2020')]},
+                  {t:'Health care for all (CalCare)',kind:'did',says:'One public health plan for every Californian.',rec:['He introduced AB 1900 in February 2026 to propose a statewide single-payer health program. The author’s fact sheet describes the proposal; this guide has not verified its final legislative status.'],src:[L('Author’s AB 1900 fact sheet (proposal)','https://kalra.asmdc.org/sites/kalra.asmdc.org/files/2026-03/AB%201900%20-%20CA%20Guaranteed%20Health%20Care%20for%20All%20Act_fact%20sheet_2-12-26_SG.pdf')]},
+                  {t:'Fairness in courts',kind:'did',says:'Fight racial bias in the justice system.',rec:['He wrote the Racial Justice Act (2020), which lets people challenge charges or sentences shown to be affected by racial bias. It became law.'],src:[L('Author’s 2020 legislative report','https://kalra.asmdc.org/sites/a25.asmdc.org/files/2021-05/Kalra%20Capitol%20Review%20-%20Volume%204%20Issue%202.pdf'),L('California courts: Racial Justice Act','https://courts.ca.gov/programs-initiatives/criminal-justice-services/prior-reforms')]},
                   {t:'Workers and renters',kind:'unchecked',says:'Protect workers and renters.',rec:['He has written labor and towing bills. We have not yet checked which became law.'],src:[L('San Jose Spotlight: towing bill','https://sanjosespotlight.com/san-jose-lawmaker-assemblymember-ash-kalra-seeks-changes-to-state-towing-practices-ab-1082/')]}
                 ],
                 backers:'Endorsement list not found',
@@ -1386,6 +1406,25 @@
     const el=document.querySelector(a.getAttribute('href'));
     if(el&&el.tagName==='DETAILS')el.open=true;
   });
+  function renderSources(){
+    const references=value=>{
+      const found=new Map();
+      const visit=v=>{
+        if(!v||typeof v!=='object')return;
+        if(v.url&&(v.label||v.who))found.set(v.url,{label:v.label||v.who,url:v.url});
+        Object.values(v).forEach(visit);
+      };
+      visit(value);return [...found.values()];
+    };
+    const allRaces=[...races,...Object.values(localData).flatMap(c=>c.groups.flatMap(g=>g.races))];
+    const groups=[...allRaces.map(r=>({title:r.title,refs:references(r)})),...Object.entries(localData).map(([county,data])=>({title:county+' County: measures and coverage',refs:references({measures:data.measures,otherSrc:data.otherSrc,src:data.src})}))];
+    document.getElementById('source-races').innerHTML=groups.map(g=>`<details><summary>${esc(g.title)} · ${g.refs.length} sources</summary><ul>${g.refs.map(ref=>{
+      const host=new URL(ref.url).hostname;
+      const context=/campaign|questionnaire|Q&amp;A|Q&A|press release|Author’s|Treasurer:|Senator Allen:/.test(ref.label)?'Candidate, office or questionnaire account; not independent verification.':host;
+      return `<li><a href="${esc(ref.url)}" target="_blank" rel="noopener">${esc(ref.label)} ↗</a><br><span class="source-context">${esc(context)}</span></li>`;
+    }).join('')}</ul></details>`).join('');
+  }
+  renderSources();
   if(location.hash){const el=document.querySelector(location.hash);if(el&&el.tagName==='DETAILS')el.open=true;}
   </script>
 </body>

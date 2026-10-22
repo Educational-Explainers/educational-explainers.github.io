@@ -33,3 +33,19 @@ Not independently certified in this pass: every endorsement and fundraising tota
 Specific follow-ups: Becerra's tax votes; Morgan's pension-board decisions; Yemen resolution H.Con.Res.124's latest actions; SB 1301's enacted notice requirements; AB 181's provision-specific dates; updated financial disclosures. The original research notes list additional gaps. Several Treasurer links returned 404 and should be replaced with the matching archived records before treating their numerical claims as independently verified.
 
 The guide now links this review and avoids claiming that every included statement has been independently confirmed. Prominent reciprocal navigation was added at the top of both election guides.
+
+## Source-quality follow-up applied October 22, 2026
+
+The original corrections are present in the published page. Added a small Sources link in the header and candidate cards, and an expandable reference directory for every profiled race, including local races before a county is selected. It is generated from the same citation objects as the issue cards so the references stay consistent.
+
+Additional corrections and source upgrades:
+
+- **Student housing:** replaced “over 300 homes” with 352 beds in a project financed by $68.3 million of 2021 bonds. The [Treasurer’s December 2024 report](https://www.treasurer.ca.gov/news/releases/2024/44.pdf) identifies the project and distinguishes beds from homes.
+- **Hospital loans:** replaced the unsupported $242.5 million/2023-disbursement claim with the dated [Legislative Analyst’s February 2024 account](https://www.lao.ca.gov/Publications/Report/4860): $292.5 million in awards to 17 hospitals, with agreements still pending. Added [HCAI’s program record](https://hcai.ca.gov/facilities/health-facility-financing/distressed-hospital-loan-program/) for administration and disbursement context.
+- **Ma housing and pensions:** removed the unverified 19,000-home number and broken supporting PDF; marked the pension-divestment record unreviewed instead of presenting it as verified using another broken link.
+- **Kalra:** replaced Wikipedia citations with California Judicial Branch material and the author’s legislative report/fact sheet. Narrowed CalCare text to the documented proposal; final bill status is explicitly unreviewed.
+- **Cohen:** replaced a commercial legal blog with the [Supreme Court docket](https://www.supremecourt.gov/docket/docketfiles/html/public/25-41.html), narrowing the statement to the documented denial of review without implying a merits ruling.
+- Added Allen’s official legislative summary alongside existing insurance reporting.
+- Withheld endorsement/fundraising summary boxes because their entries lack direct, claim-specific citations. Historical values remain in the source data for later review; they are not displayed as verified facts.
+
+Source policy: prefer official election documents, roll calls, enacted law, court records and nonpartisan analyses; use established reporting for context. Campaigns, questionnaires, advocacy statements and office press releases are evidence of what their authors say, not independent validation of outcomes. The directory is an evidence index, not a blanket endorsement of external sources. The earlier remaining-gaps list still applies except where explicitly resolved above.
