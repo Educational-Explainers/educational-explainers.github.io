@@ -129,11 +129,13 @@
     @media(max-width:780px){.howto,.cands,.method-grid{grid-template-columns:1fr}.hero:after{display:none}.cand+.cand{margin-top:10px}}
     @media(max-width:520px){.wrap{width:min(100% - 32px,1120px)}h1{font-size:2.6rem}.hero-meta{display:grid;gap:7px}.race>summary{padding:17px 16px}.race-body{padding:4px 16px 20px}.matchup{grid-template-columns:1fr}.vs{justify-self:center}.legend li{grid-template-columns:1fr;gap:3px}.term-list{grid-template-columns:1fr}.boe th:nth-child(4),.boe td:nth-child(4){display:none}.boe-race{padding:17px 14px}.boe th,.boe td{padding:9px 5px}.personal-choice{padding:14px 16px}.boe-mine{grid-template-columns:1fr}.measure{padding:16px}.measure .vote-grid{grid-template-columns:1fr}.county-row select{min-width:0;width:100%}.county-row>div{width:100%}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.chev{transition:none}}
+    .election-nav{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 24px;position:relative;z-index:1}.election-nav a{padding:9px 14px;border:1px solid var(--blue);border-radius:6px;font-weight:700;text-decoration:none;color:var(--blue);background:var(--sheet)}.election-nav a[aria-current="page"]{color:var(--sheet);background:var(--blue)}.election-nav a:focus-visible{outline:3px solid var(--red);outline-offset:3px}
   </style>
 </head>
 <body>
   <header class="hero">
     <div class="wrap">
+      <nav class="election-nav" aria-label="Election guides"><a href="../ca-2026-ballot/">Propositions guide</a><a href="../ca-2026-candidates/" aria-current="page">Candidates guide</a></nav>
       <div class="dateline">California · General Election</div>
       <h1>Who is running.<br>What they’ve done.</h1>
       <p class="hero-deck">Your statewide races, one by one. For each candidate: what they say they will do, and what they have really done on those same issues. We don’t tell you how to vote.</p>
@@ -227,11 +229,11 @@
           <p>Who is on the ballot comes from the Secretary of State’s certified June 2 primary results (certified July 10, 2026) and the certified November candidate list. Plans come from each campaign’s website, the official voter guide, debates, and news reports. Records come from public votes, laws, court cases, official reports, and news fact-checks. Every record box links to its sources.</p>
           <ul>
             <li>We give both candidates in a race the same kinds of facts.</li>
-            <li>We left out claims we could not confirm from a reliable source.</li>
+            <li>Campaign claims are attributed. Some records remain unreviewed; a source link does not mean every claim has been independently verified.</li>
             <li>Money totals come from different dates in different races, so don’t compare them across races.</li>
             <li>Polls are snapshots, not predictions. We list only polls from independent pollsters.</li>
           </ul>
-          <p class="fineprint">This is a research snapshot from October 21, 2026, not an endorsement. Things may change before Election Day. Found a mistake? Please tell us so we can fix it.</p>
+          <p class="fineprint">Research snapshot: October 21, 2026. Fact-check corrections: October 22, 2026. <a href="https://github.com/educational-explainers/educational-explainers.github.io/blob/main/research_notes/California%202026%20candidates/fact-check-2026-10-22.md">Read the review and remaining gaps</a>. This is not an endorsement. Things may change before Election Day. Found a mistake? Please tell us so we can fix it.</p>
         </div>
         <div>
           <h2>Words to know</h2>
@@ -287,8 +289,8 @@
             src:[S.kqedAfford,L('E&E News on the 2035 goal','https://www.eenews.net/articles/xavier-becerra-says-california-can-still-meet-2035-gas-car-sales-goal/')]},
           {t:'Health care',kind:'changed',
             says:'Health coverage for everyone. Have the state help people who lose Medi-Cal because of federal cuts. Make more low-cost state-brand drugs (CalRx). Charge big employers whose workers end up on Medi-Cal.',
-            rec:['As Attorney General, he led the states that defended the Affordable Care Act. The U.S. Supreme Court upheld it in 2021.','In 2019 he won a $575 million settlement from Sutter Health over high prices.','As Health Secretary, he ran Medicare’s first price talks with drug makers, for 10 drugs.','For decades he backed “single-payer” (one public health plan for all). Now he says he wants “immediate wins” first, and his website no longer lists single-payer. He has not said how he would pay for his plan.'],
-            src:[S.cmHealth,L('KFF Health News: Sutter settlement','https://kffhealthnews.org/news/california-ag-details-historic-settlement-agreement-in-sutter-health-antitrust-case/'),L('Times of San Diego: single-payer shift','https://timesofsandiego.com/politics/2026/05/23/governors-race-xavier-becerra-single-payer-healthcare/')]},
+            rec:['As Attorney General, he led the states that defended the Affordable Care Act. In 2021 the U.S. Supreme Court dismissed the challenge because the plaintiffs lacked standing (the right to bring this case), leaving the law in place.','In 2019 he won a $575 million settlement from Sutter Health over high prices.','As Health Secretary, he ran Medicare’s first price talks with drug makers, for 10 drugs.','For decades he backed “single-payer” (one public health plan for all). Now he says he wants “immediate wins” first, and his website no longer lists single-payer. He has not said how he would pay for his plan.'],
+            src:[L('Supreme Court: California v. Texas','https://www.supremecourt.gov/opinions/20pdf/19-840_6jfm.pdf'),S.cmHealth,L('KFF Health News: Sutter settlement','https://kffhealthnews.org/news/california-ag-details-historic-settlement-agreement-in-sutter-health-antitrust-case/'),L('Times of San Diego: single-payer shift','https://timesofsandiego.com/politics/2026/05/23/governors-race-xavier-becerra-single-payer-healthcare/')]},
           {t:'Immigration',kind:'disputed',
             says:'Keep the state sanctuary law, which limits how much local police help federal immigration agents.',
             rec:['As Attorney General, he defended the sanctuary law in court. A federal appeals court upheld it in 2019.','As Health Secretary, his agency was in charge of migrant children who came without parents. A 2023 New York Times investigation and a 2024 government watchdog report found weak safety checks on adults who took in some children. Becerra calls these attacks “Trump talking points.”'],
@@ -299,8 +301,8 @@
             src:[S.cmGov,L('SF Chronicle: death penalty','https://www.sfchronicle.com/news/article/California-AG-Becerra-defends-state-s-death-15695024.php')]},
           {t:'Taxes',kind:'unchecked',
             says:'Keep higher tax rates on very high incomes to pay for schools. He has not ruled out tax increases. He opposes Prop 40, the one-time tax on billionaires.',
-            rec:['He has not held a state job that sets taxes.','He voted on federal taxes during 24 years in Congress. We have not reviewed those votes yet.'],
-            src:[S.cmGov,S.cmDebate]}
+            rec:['He served in the California Assembly from 1990 to 1992 and in Congress from 1993 to 2017. Both legislatures vote on taxes.','We have not reviewed his state or federal tax votes yet.'],
+            src:[L('U.S. House biography','https://history.house.gov/People/Listing/B/BECERRA,-Xavier-(B000287)/'),S.cmGov,S.cmDebate]}
         ],
         know:['Two former aides pleaded guilty to taking about $225,000 from his old campaign account. Becerra was the victim and is not accused of wrongdoing.'],
         knowSrc:[L('CBS Sacramento','https://www.cbsnews.com/sacramento/news/sean-mccluskie-california-campaign-fraud-case')],
@@ -312,11 +314,11 @@
         issues:[
           {t:'Taxes',kind:'changed',
             says:'No state income tax on your first $150,000 of income. A flat 8% tax above that. End the $800 minimum tax on small businesses. Cut the gas tax in half.',
-            rec:['He has never held office, so he has no tax votes.','His earlier plan was no tax on the first $100,000 and 7.5% above that.','No independent group has estimated the cost. An economist told KESQ it would mean budget cuts. Hilton says he would end high-speed rail and cut money to homeless nonprofits. Most tax changes need the Legislature to agree.'],
+            rec:['He has never held elected office, so he has no legislative tax votes.','His earlier plan was no tax on the first $100,000 and 7.5% above that.','No independent group has estimated the cost. An economist told KESQ it would mean budget cuts. Hilton says he would end high-speed rail and cut money to homeless nonprofits. Most tax changes need the Legislature to agree.'],
             src:[L('KESQ: flat tax plan','https://kesq.com/your-vote/2026/06/16/hilton-unveils-flat-tax-plan-in-huntington-beach/'),L('Hilton campaign','https://stevehiltonforgovernor.com/'),S.cmDebate]},
           {t:'Gas and energy bills',kind:'changed',
             says:'“$3 gas”: pump more oil in California, end the Low Carbon Fuel Standard, change cap-and-trade, and ease rules on refineries. Cut electric bills in half.',
-            rec:['He has no government record on energy.','Energy experts told CapRadio that more drilling in California would not bring gas to $3 while world oil prices are high.','As the British prime minister’s adviser, he helped build its “greenest government ever” image. He now wants to roll back California’s climate rules.'],
+            rec:['He has no elected-office record on energy; his U.K. advisory work is described below.','Energy experts told CapRadio that more drilling in California would not bring gas to $3 while world oil prices are high.','As the British prime minister’s adviser, he helped build its “greenest government ever” image. He now wants to roll back California’s climate rules.'],
             src:[S.capFact,S.kqedAfford,S.cmHilton]},
           {t:'Housing',kind:'none',
             says:'Cheaper “starter homes” by cutting fees and red tape. Limit CEQA lawsuits. Help first-time buyers with loans. Build “10 new cities” on open land.',
@@ -614,14 +616,14 @@
         primary:'37.5% in June (2nd)',
         bio:['Has never held elected office','Founded an investment firm in 2004; Cantor Fitzgerald bought it in 2017, and he stayed as chief investment officer','Served on San Diego’s city employee pension board, starting 2009','Economics degree, UC Santa Cruz'],
         issues:[
-          {t:'“Radical transparency”',kind:'none',
+          {t:'“Radical transparency”',kind:'unchecked',
             says:'Put every state payment in a public online database.',
-            rec:['He has no government record. As a candidate, he posts every campaign donation online each day.'],
-            src:[L('Official voter guide statement','https://voterguide.sos.ca.gov/candidates/controller-candidate-statements.htm'),L('GV Wire','https://gvwire.com/2026/10/01/ca-controller-candidate-herb-morgan-wants-to-return-15-billion-to-residents/')]},
-          {t:'Find fraud and waste',kind:'none',
+            rec:['He served on San Diego’s public pension board. We have not reviewed his board record on transparency. His campaign says it posts donations online each day.'],
+            src:[L('Voice of San Diego: pension board appointment','https://voiceofsandiego.org/2009/05/05/pension-scandal-san-diego-had-a-pension-scandal-who-knew/'),L('Official voter guide statement','https://voterguide.sos.ca.gov/candidates/controller-candidate-statements.htm'),L('GV Wire','https://gvwire.com/2026/10/01/ca-controller-candidate-herb-morgan-wants-to-return-15-billion-to-residents/')]},
+          {t:'Find fraud and waste',kind:'unchecked',
             says:'Use AI to find fraud and waste. Audit homelessness spending.',
-            rec:['He has no government record. His campaign says fraud and waste could top $300 billion. No independent group has checked that number.'],
-            src:[L('CalMatters race guide','https://calmatters.org/politics/elections/2026/05/ca-election-2026-controller/')]},
+            rec:['He served on San Diego’s public pension board. We have not reviewed his board record on audits. His campaign says fraud and waste could top $300 billion; we have not found independent support for that estimate.'],
+            src:[L('Voice of San Diego: pension board appointment','https://voiceofsandiego.org/2009/05/05/pension-scandal-san-diego-had-a-pension-scandal-who-knew/'),L('CalMatters race guide','https://calmatters.org/politics/elections/2026/05/ca-election-2026-controller/')]},
           {t:'Return unclaimed property',kind:'none',
             says:'Send unclaimed money back automatically and double how much is returned.',
             rec:['This is a plan only. The current controller started automatic returns in December 2025.'],
@@ -698,8 +700,8 @@
   {
     id:'superintendent',office:'SUPERINTENDENT OF PUBLIC INSTRUCTION · NONPARTISAN',title:'Superintendent of Public Instruction',
     what:'The superintendent is the state’s elected schools chief. Most school rules are set by the State Board of Education, the Legislature, and local school boards.',
-    note:'This job is changing. A 2026 state law moves day-to-day control of the Department of Education to a leader the governor picks, starting January 15, 2027. The elected superintendent will become a voting member of the State Board of Education. Both candidates oppose the change. Party labels are not on the ballot for this race, but the Democratic Party backs Barrera and the Republican Party backs Shaw.',
-    noteSrc:[L('LAist voter guide','https://laist.com/news/politics/voter-guides/2026-election-california-general-superintendent-of-public-instruction'),L('KALW','https://www.kalw.org/bay-area-news/2026-10-08/state-superintendent-race-ramps-up-despite-ambiguous-responsibilities')],
+    note:'This job is changing. A 2026 state law moves day-to-day control of the Department of Education to a leader the governor picks, starting in January 2027. The elected superintendent will become a voting member of the State Board of Education. Both candidates oppose the change. Party labels are not on the ballot for this race, but the Democratic Party backs Barrera and the Republican Party backs Shaw.',
+    noteSrc:[L('Governor: AB 181 signed','https://www.gov.ca.gov/2026/07/10/governor-newsom-signs-legislation-enacting-long-recommended-changes-to-improve-tk-12-school-governance-in-california/'),L('LAist voter guide','https://laist.com/news/politics/voter-guides/2026-election-california-general-superintendent-of-public-instruction'),L('KALW','https://www.kalw.org/bay-area-news/2026-10-08/state-superintendent-race-ramps-up-despite-ambiguous-responsibilities')],
     cands:[
       {name:'Richard Barrera',party:'np',partyName:'Nonpartisan office',short:'Adviser at the state Department of Education; San Diego school board member',ballot:'State Superintendent Advisor',
         primary:'20.3% in June (2nd)',
@@ -936,7 +938,7 @@
                   {t:'Taxing billionaires',kind:'did',says:'Make billionaires pay more. He backs Prop 40, the state billionaire tax on this ballot.',rec:['He introduced a federal billionaire tax bill in March 2026. It has not gotten a vote.','His support for the state tax drew pushback from tech donors, some of whom backed a primary challenger.'],src:[L('Bill text (govinfo)','https://www.govinfo.gov/content/pkg/BILLS-119hr7767ih/html/BILLS-119hr7767ih.htm'),L('Business Insider','https://www.businessinsider.com/ro-khanna-ethan-agarwal-primary-silicon-valley-2026-3')]},
                   {t:'Release the Epstein files',kind:'did',says:'Open government and accountability.',rec:['He co-wrote the Epstein Files Transparency Act with a Republican, forced a vote, and it passed 427–1. It became law in November 2025.','In February 2026 he read 6 names from the files on the House floor. The Justice Department said 4 of them had no clear tie to Epstein.'],src:[L('House vote record','https://clerk.house.gov/evs/2025/roll289.xml'),L('The Guardian','https://www.theguardian.com/us-news/2026/feb/13/four-men-unredacted-epstein-files-no-ties-ro-khanna')]},
                   {t:'Money in politics',kind:'did',says:'Ban money from PACs and lobbyists. Ban stock trading by members of Congress.',rec:['He takes no PAC money and started a no-PAC group of members in 2017.'],src:[L('Politico','https://www.politico.com/tipsheets/politico-influence/2017/07/12/khanna-starts-pac-free-caucus-221295')]},
-                  {t:'War powers',kind:'did',says:'Congress, not the president alone, should decide on war.',rec:['In 2026 he filed resolutions to limit U.S. military action against Iran and in Yemen. They have not gotten a vote.'],src:[L('Resolution text (govinfo)','https://www.govinfo.gov/content/pkg/BILLS-119hconres124ih/html/BILLS-119hconres124ih.htm')]}
+                  {t:'War powers',kind:'did',says:'Congress, not the president alone, should decide on war.',rec:['He backed limits on military action against Iran: he voted yes on March 5, 2026, when a resolution failed 212–219, and on September 15, when another passed the House 220–204. He also introduced a Yemen resolution. We have not verified its latest action.'],src:[L('House Iran vote: March 5','https://clerk.house.gov/evs/2026/roll085'),L('House Iran vote: September 15','https://clerk.house.gov/evs/2026/roll307'),L('Resolution text (govinfo)','https://www.govinfo.gov/content/pkg/BILLS-119hconres124ih/html/BILLS-119hconres124ih.htm')]}
                 ],
                 know:['On oil, he criticized companies for raising production in October 2021, then called for more production in March 2022.'],
                 knowSrc:[L('Wall Street Journal','https://www.wsj.com/articles/big-oil-companies-gas-gasoline-prices-production-khanna-climate-renewable-11649457936')],
@@ -1025,8 +1027,8 @@
               {name:'Scott Sakakihara',party:'dem',partyName:'Democrat',short:'Union City council member; Navy Reserve officer',ballot:'Councilmember/Navy Officer',primary:'29.1% in June (1st)',
                 bio:['Union City Council, 2022–now (former vice mayor)','About 14 years at the tech company Palantir; he says he left over its work for immigration enforcement','Navy Reserve intelligence officer','Harvard-trained lawyer'],
                 issues:[
-                  {t:'Housing and costs',kind:'disputed',says:'Make it easier to build homes while keeping protections for renters and workers.',rec:['His campaign says he pushed for more housing and homeless funding on the council. We could not confirm a specific vote.'],src:[L('Sakakihara campaign','https://www.electscott.com/issues')]},
-                  {t:'Public safety',kind:'disputed',says:'Community policing, violence prevention, and gun safety laws.',rec:['His campaign says he helped hire police officers. We could not confirm it.'],src:[L('Sakakihara campaign','https://www.electscott.com/issues')]},
+                  {t:'Housing and costs',kind:'unchecked',says:'Make it easier to build homes while keeping protections for renters and workers.',rec:['His campaign says he pushed for more housing and homeless funding on the council. We could not confirm a specific vote.'],src:[L('Sakakihara campaign','https://www.electscott.com/issues')]},
+                  {t:'Public safety',kind:'unchecked',says:'Community policing, violence prevention, and gun safety laws.',rec:['His campaign says he helped hire police officers. We could not confirm it.'],src:[L('Sakakihara campaign','https://www.electscott.com/issues')]},
                   {t:'Immigrants and tech',kind:'did',says:'Defend immigrants. Set rules for tech companies.',rec:['He left Palantir over its work for immigration enforcement, according to IVN.'],src:[L('IVN','https://ivn.us/independent-voters-will-soon-decide-open-silicon-valley-senate-seat-2026-05-04/')]}
                 ],
                 backers:'California Democratic Party, Attorney General Rob Bonta, California Labor Federation, Sierra Club',
@@ -1191,7 +1193,7 @@
                 ],
                 backers:'State Treasurer Fiona Ma (other endorsements not confirmed)',
                 money:'About $100,600 raised through September 19, 2026. No outside group spending for her was reported.'},
-              {name:'Peter Ortiz',party:'np',partyName:'Nonpartisan',short:'Council member (incumbent)',ballot:'Incumbent Councilmember',incumbent:true,primary:'45.0% in June (1st)',
+              {name:'Peter Ortiz',party:'np',partyName:'Nonpartisan',short:'Council member (incumbent)',ballot:'Councilmember, City of San Jose District 5',incumbent:true,primary:'45.0% in June (1st)',
                 bio:['San Jose City Council, District 5, 2022–now','Santa Clara County Board of Education (was its president)','Mt. Pleasant school board','Community organizer'],
                 issues:[
                   {t:'Protect immigrants',kind:'did',says:'Protect immigrant families from federal immigration raids.',rec:['He wrote the city rule that bans immigration agents from using city property as a staging area.','He backed a policy that federal agents work without masks.'],src:[L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-5th-district'),L('San Jose Spotlight','https://sanjosespotlight.com/east-san-jose-councilmember-peter-ortiz-runs-for-reelection/')]},
@@ -1205,7 +1207,7 @@
           {id:'sj-d7',district:'7',areas:'Central-south San Jose (Tully, Seven Trees, Monterey Rd)',office:'SAN JOSE CITY COUNCIL · DISTRICT 7',title:'San Jose City Council, District 7',
             what:'Council members vote on city laws, the budget, police and fire staffing, housing, and homeless programs.',
             cands:[
-              {name:'Bien Doan',party:'np',partyName:'Nonpartisan',short:'Council member (incumbent); retired fire captain',ballot:'Incumbent Councilmember',incumbent:true,primary:'47.9% in June (1st)',
+              {name:'Bien Doan',party:'np',partyName:'Nonpartisan',short:'Council member (incumbent); retired fire captain',ballot:'Council Member, City of San Jose District 7',incumbent:true,primary:'47.9% in June (1st)',
                 bio:['San Jose City Council, District 7, 2022–now','21 years with the San Jose Fire Department; the city’s first Vietnamese American fire captain','Came to the U.S. as a refugee in 1975'],
                 issues:[
                   {t:'Public safety',kind:'did',says:'More tools for police and fire.',rec:['He supported buying a police airplane, license-plate reader cameras, and Prop 36.'],src:[L('San Jose Spotlight forum','https://sanjosespotlight.com/san-jose-district-7-candidates-square-off-at-public-forum/'),L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-7th-district')]},
@@ -1214,7 +1216,7 @@
                 ],
                 backers:'Rep. Sam Liccardo, Mayor Matt Mahan, Silicon Valley Biz PAC, South Bay Labor Council',
                 money:'About $190,000 raised through September 19, 2026. A business owners’ group spent over $150,000 more to help him.'},
-              {name:'Van Le',party:'np',partyName:'Nonpartisan',short:'High school board trustee; insurance agent',ballot:'East Side Union HSD Trustee',primary:'22.4% in June (2nd)',
+              {name:'Van Le',party:'np',partyName:'Nonpartisan',short:'High school board trustee; insurance agent',ballot:'Trustee East Side Union High School District',primary:'22.4% in June (2nd)',
                 bio:['East Side Union High School District board, 4 terms (now board president)','Has run a State Farm insurance agency since 2001','Came to the U.S. as a refugee in 1975','Lost the 2022 race for this seat to Bien Doan'],
                 issues:[
                   {t:'Public safety',kind:'none',says:'More patrols in trouble spots. Make police recruits commit to staying with San Jose.',rec:['She has no city record on policing.'],src:[L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-7th-district')]},
@@ -1237,7 +1239,7 @@
                 ],
                 backers:'Mayor Matt Mahan, Rep. Sam Liccardo, Vice Mayor Pam Foley, San Jose Police Officers’ Association, Planned Parenthood',
                 money:'About $183,000 raised through September 19, 2026. Business and police groups spent over $54,000 more for her in the primary.'},
-              {name:'Gordon Chester',party:'np',partyName:'Nonpartisan',short:'City infrastructure engineer',ballot:'City Infrastructure Engineer',primary:'22.2% in June (2nd)',
+              {name:'Gordon Chester',party:'np',partyName:'Nonpartisan',short:'City infrastructure engineer',ballot:'City of San Jose Infrastructure Engineer',primary:'22.2% in June (2nd)',
                 bio:['Has never held elected office','San Jose city employee for 11+ years (building and public works departments)','Member of a city workers’ union'],
                 issues:[
                   {t:'Housing costs',kind:'none',says:'More housing, including small shops on home lots.',rec:['He has no voting record.'],src:[L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-9th-district')]},
@@ -1252,14 +1254,14 @@
       ],
       measuresIntro:'Every voter in Santa Clara County sees this measure. Some school districts also have local tax measures; check your sample ballot.',
       measures:[
-        {id:'sc-rtm',label:'Regional Transit Measure',area:'Countywide',title:'Sales tax for Bay Area transit',
-          what:'A new sales tax in five Bay Area counties to keep BART, Caltrain, VTA, and other transit running.',
+        {id:'sc-rtm',label:'Measure RTM · Regional Transit',area:'Countywide',title:'Sales tax for Bay Area transit',
+          what:'A new sales tax in five Bay Area counties to keep BART, Caltrain, VTA, and other transit running. Requires a majority vote.',
           yes:'Sales tax in Santa Clara County goes up by half a cent per dollar (0.5%) for 14 years, starting April 2027. Across the five counties it would raise about $980 million a year; VTA’s share would be about $245 million a year.',
           no:'No new sales tax. Transit agencies may cut service; reporters say South Bay cuts would likely be smaller than in other parts of the region.',
-          src:[L('Local News Matters','https://localnewsmatters.org/2026/10/11/santa-clara-county-transit-tax-measure/'),L('San Jose Spotlight','https://sanjosespotlight.com/how-will-south-bay-transit-change-if-tax-increase-fails/'),L('MTC','https://mtc.ca.gov/node/4043705')]}
+          src:[L('Registrar: official measure text','https://vote.santaclaracounty.gov/list-local-measures-4'),L('Local News Matters','https://localnewsmatters.org/2026/10/11/santa-clara-county-transit-tax-measure/'),L('San Jose Spotlight','https://sanjosespotlight.com/how-will-south-bay-transit-change-if-tax-increase-fails/'),L('MTC','https://mtc.ca.gov/node/4043705')]}
       ],
       other:'Also on some ballots, not covered here: County Board of Education Trustee Area 7; Valley Water Districts 1, 6, and 7; city council races in Campbell, Cupertino, Gilroy, Los Altos, Los Altos Hills, Los Gatos, Milpitas, Morgan Hill, Mountain View, Palo Alto, Santa Clara, and Saratoga (plus mayor in Milpitas, Morgan Hill, and Santa Clara); and school tax measures in some districts. No Board of Supervisors, district attorney, sheriff, or judge races are on the November ballot. Those were decided in June. San Jose has no city measure this time.',
-      otherSrc:[L('November contest list (Registrar data)','https://localnewsmatters.org/santa-clara-november-3-2026/'),L('June results (Registrar data)','https://localnewsmatters.org/santa-clara-county-june-2026/')],
+      otherSrc:[L('Registrar: qualified local candidates','https://vote.santaclaracounty.gov/november-3-2026-general-election-resources'),L('November contest list (Registrar data)','https://localnewsmatters.org/santa-clara-november-3-2026/'),L('June results (Registrar data)','https://localnewsmatters.org/santa-clara-county-june-2026/')],
       src:[L('Certified November candidate list','https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf'),L('Santa Clara County Registrar of Voters','https://vote.santaclaracounty.gov/')]
     }
   };
