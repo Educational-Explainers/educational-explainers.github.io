@@ -114,13 +114,20 @@
     #ballot-progress{font-weight:700;color:var(--ink)!important}
     #checklist-sheet{margin-top:18px}#checklist-sheet table{width:100%;border-collapse:collapse;font-size:.88rem}#checklist-sheet th,#checklist-sheet td{text-align:left;padding:10px 6px;border-bottom:1px solid var(--line);vertical-align:top}#checklist-sheet caption{text-align:left;font-weight:700;margin-bottom:8px}
     .checklist-sub{display:block;font-weight:400;font-size:.78rem;color:var(--muted)}
+    .local-head{padding:30px 0 6px}.local-head h2{font-size:clamp(1.9rem,4vw,2.8rem);letter-spacing:-.02em}.local-head p{color:var(--muted);margin:6px 0 0;max-width:780px}
+    .group{margin:22px 0 10px}.group>h3{font-size:1.5rem}.group>p{color:var(--muted);font-size:.9rem;margin:4px 0 10px;max-width:780px}
+    .district-pick{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px;margin:8px 0 14px}
+    .district-pick button{text-align:left;border:1px solid var(--line);border-radius:4px;background:var(--sheet);color:var(--ink);padding:10px 12px;cursor:pointer;min-height:44px;font-size:.86rem}
+    .district-pick button b{display:block;font-size:.92rem}.district-pick button span{display:block;color:var(--muted);font-size:.76rem;margin-top:2px}
+    .district-pick button[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink);background:var(--paper)}
+    .measure{background:var(--sheet);border:1px solid var(--line);border-radius:4px 4px 0 0;padding:18px 22px}.measure h4{font-size:1.25rem;margin:2px 0 8px}.measure .vote-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.measure .vote{padding:12px;background:var(--paper);border-top:4px solid var(--green);font-size:.88rem}.measure .vote.no{border-color:var(--red)}.measure .vote b{display:block;font-size:.72rem;letter-spacing:.05em;color:var(--green)}.measure .vote.no b{color:var(--red)}
     .boe-mine{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
     .boe-card{border:1px solid var(--line);background:var(--paper);padding:14px;border-radius:3px}.boe-card b{font-family:"Source Serif 4",serif;font-size:1.15rem;display:block}.boe-card .role{display:block;font-size:.8rem;color:var(--muted)}
     .boe-pick{margin-top:12px;font-size:.88rem}
     .boe-others{margin-top:14px}.boe-others summary{cursor:pointer;font-weight:700;font-size:.9rem}
-    @media print{body{background:white!important;color:black!important}body>.hero,main.wrap>*:not(.my-ballot){display:none!important}main.wrap{width:100%}.my-ballot{margin:0;padding:0;border:0;background:white;color:black}.my-ballot .ballot-actions,.my-ballot .ballot-help,.county-row,#ballot-storage,#ballot-reset-confirm{display:none!important}#checklist-sheet[hidden]{display:block!important}#checklist-sheet tr{break-inside:avoid}#checklist-sheet th,#checklist-sheet td{padding:7px 4px;border-color:#bbb}.my-ballot p{color:#333}}
+    @media print{body{background:white!important;color:black!important}body>.hero,main.wrap>*:not(.my-ballot){display:none!important}#local-races{display:none!important}main.wrap{width:100%}.my-ballot{margin:0;padding:0;border:0;background:white;color:black}.my-ballot .ballot-actions,.my-ballot .ballot-help,.county-row,#ballot-storage,#ballot-reset-confirm{display:none!important}#checklist-sheet[hidden]{display:block!important}#checklist-sheet tr{break-inside:avoid}#checklist-sheet th,#checklist-sheet td{padding:7px 4px;border-color:#bbb}.my-ballot p{color:#333}}
     @media(max-width:780px){.howto,.cands,.method-grid{grid-template-columns:1fr}.hero:after{display:none}.cand+.cand{margin-top:10px}}
-    @media(max-width:520px){.wrap{width:min(100% - 32px,1120px)}h1{font-size:2.6rem}.hero-meta{display:grid;gap:7px}.race>summary{padding:17px 16px}.race-body{padding:4px 16px 20px}.matchup{grid-template-columns:1fr}.vs{justify-self:center}.legend li{grid-template-columns:1fr;gap:3px}.term-list{grid-template-columns:1fr}.boe th:nth-child(4),.boe td:nth-child(4){display:none}.boe-race{padding:17px 14px}.boe th,.boe td{padding:9px 5px}.personal-choice{padding:14px 16px}.boe-mine{grid-template-columns:1fr}.county-row select{min-width:0;width:100%}.county-row>div{width:100%}}
+    @media(max-width:520px){.wrap{width:min(100% - 32px,1120px)}h1{font-size:2.6rem}.hero-meta{display:grid;gap:7px}.race>summary{padding:17px 16px}.race-body{padding:4px 16px 20px}.matchup{grid-template-columns:1fr}.vs{justify-self:center}.legend li{grid-template-columns:1fr;gap:3px}.term-list{grid-template-columns:1fr}.boe th:nth-child(4),.boe td:nth-child(4){display:none}.boe-race{padding:17px 14px}.boe th,.boe td{padding:9px 5px}.personal-choice{padding:14px 16px}.boe-mine{grid-template-columns:1fr}.measure{padding:16px}.measure .vote-grid{grid-template-columns:1fr}.county-row select{min-width:0;width:100%}.county-row>div{width:100%}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.chev{transition:none}}
   </style>
 </head>
@@ -197,11 +204,13 @@
     <div id="boe-choice"></div>
     </div>
 
+    <section id="local-races" aria-label="Local races" hidden></section>
+
     <section id="local" class="local" aria-labelledby="local-title">
       <div class="card">
         <div class="section-label">YOUR COMMUNITY</div>
         <h2 id="local-title">Your local races are on your ballot too</h2>
-        <p>Your ballot also has races that depend on where you live: U.S. House, State Senate, State Assembly, and county, city, and school board seats. This page does not cover them yet. Here is how to look them up:</p>
+        <p>Your ballot also has races that depend on where you live: U.S. House, State Senate, State Assembly, and county, city, and school board seats. <span id="local-coverage">This page covers local races for Santa Clara County so far. Pick your county in <a href="#my-ballot">My candidate checklist</a> to see them.</span> For other counties, here is how to look them up:</p>
         <ol>
           <li>Open your county’s <b>sample ballot</b>. It came in the mail, or find it at <a href="https://www.sos.ca.gov/elections/voting-resources/county-elections-offices" target="_blank" rel="noopener">your county elections office</a>.</li>
           <li>Check your registration and districts at <a href="https://voterstatus.sos.ca.gov/" target="_blank" rel="noopener">My Voter Status</a>.</li>
@@ -883,24 +892,401 @@
     const c=([n,party,job])=>`<b>${esc(n)}</b><br><span class="party ${party}">${party==='dem'?'Democrat':'Republican'}</span><br><span style="font-size:.78rem;color:var(--muted)">${esc(job)}</span>`;
     return `<tr><td>District ${d}</td><td>${c(x)}</td><td>${c(y)}</td><td>${esc(pr)}</td></tr>`}).join('')}</tbody></table>`;
 
+  const localData={
+    'Santa Clara':{
+      intro:'These races depend on where you live in the county. Pick your district in each section. Your sample ballot or My Voter Status shows your districts. The areas listed are rough, so check before you choose.',
+      lookup:{label:'Look up your districts (My Voter Status)',url:'https://voterstatus.sos.ca.gov/'},
+      groups:[
+      {key:'house',title:'U.S. House of Representatives',pick:true,pickText:'My congressional district',
+        what:'Your member of Congress votes on national laws, taxes, and the federal budget. A term is 2 years. Four districts include part of Santa Clara County. Voters approved new maps (Prop 50) in 2025, but lines in this county changed only a little. In every race, a Democrat who holds the seat faces a Republican who has never held elected office.',
+        races:[
+          {id:'sc-cd16',district:'16',areas:'Palo Alto, Mountain View, Los Altos, Campbell, Saratoga, Los Gatos, west San Jose',office:'U.S. HOUSE · DISTRICT 16',title:'U.S. House, District 16',
+            what:'Your member of Congress votes on national laws, taxes, and the federal budget.',
+            cands:[
+              {name:'Sam Liccardo',party:'dem',partyName:'Democrat',short:'U.S. Representative (incumbent); former San Jose mayor',ballot:'United States Representative',incumbent:true,primary:'75.6% in June (1st)',
+                bio:['U.S. House, 2025–now (first term)','Mayor of San Jose, 2015–2022','San Jose City Council, 2007–2014','Former federal and county prosecutor'],
+                issues:[
+                  {t:'Housing costs',kind:'did',says:'Cut red tape and lower building costs so more homes get built.',rec:['He wrote 4 bills that were folded into a national housing package. The House passed key parts 390–9 in February 2026. His office says the package became law in July 2026.','As mayor, he led a 2018 housing bond. It got 64% but needed two-thirds, so it failed. He set a goal of 25,000 new homes and has said the city fell short.'],src:[L('Liccardo’s office','https://liccardo.house.gov/media/press-releases/despite-trump-landmark-housing-bill-becomes-law'),L('San Jose Spotlight','https://sanjosespotlight.com/san-jose-lawmakers-housing-bills-advance-through-congress/'),L('Ballotpedia: Measure V','https://ballotpedia.org/San_Jose,_California,_Measure_V,_Housing_Bond_Issue_(November_2018)')]},
+                  {t:'Tech and AI',kind:'did',says:'One set of national AI rules, including child safety, before national law overrides state AI laws.',rec:['He supports national law overriding state AI laws “within reason.” An AI-industry political group backs him; child-safety groups asked him to reject its help.','In 2025 he voted for a law regulating stablecoins (a type of crypto), which most Democrats opposed.'],src:[L('San Jose Spotlight','https://sanjosespotlight.com/san-jose-lawmaker-at-center-of-ai-regulation-fight/'),L('House vote record','https://clerk.house.gov/evs/2025/roll200.xml')]},
+                  {t:'Budget and health costs',kind:'did',says:'Lower costs and protect health coverage.',rec:['He voted no on the 2025 “One Big Beautiful Bill” tax and spending law.','His office says he voted in January 2026 to extend health insurance tax credits.'],src:[L('House vote record','https://clerk.house.gov/evs/2025/roll190.xml'),L('Liccardo’s office','https://liccardo.house.gov/media/press-releases/liccardo-votes-keep-health-care-affordable-extending-aca-tax-credits')]},
+                  {t:'Safety and immigration',kind:'did',says:'Keep communities safe and protect rights.',rec:['As mayor, San Jose became the first U.S. city to require gun owners to carry insurance.','In Congress he voted no on the Laken Riley Act, which requires detaining some immigrants charged with crimes. He wrote a bill against sending the military into U.S. cities.','Police and firefighter unions criticized his staffing record as mayor.'],src:[L('KQED: gun law','https://www.kqed.org/news/12007262/san-joses-landmark-gun-control-law-moves-forward'),L('House vote record','https://clerk.house.gov/evs/2025/roll023.xml'),L('NBC Bay Area','https://www.nbcbayarea.com/news/local/south-bay/san-jose-firefighters-criticism-sam-liccardo/3663489/')]}
+                ],
+                know:['In 2023 a court ruled that he and the city broke the public records law by not releasing his private emails about city business as mayor.'],
+                knowSrc:[L('San Jose Spotlight','https://sanjosespotlight.com/ex-san-jose-mayor-sam-liccardo-and-city-violated-the-law-judge-rules-california-public-records-act/')],
+                backers:'California Democratic Party, Sierra Club, Planned Parenthood Action Fund, an AI-industry political group (Leading the Future)',
+                money:'About $3.8 million raised, as of September 30, 2026 (FEC).'},
+              {name:'Peter Sundin Soulé',party:'rep',partyName:'Republican',short:'Investor; family steel business',ballot:'Investor',primary:'10.8% in June (2nd)',
+                bio:['Has never held elected office','Worked in his family’s company, Soule Steel','San Jose Civil Service Commission, 2007–2011 (appointed)','Santa Clara County Republican Party committee member since 2005'],
+                issues:[
+                  {t:'Housing',kind:'none',says:'Ban big financial firms from buying single-family homes. No capital gains tax for older homeowners who sell.',rec:['He has no record in office.'],src:[L('BallotReady','https://www.ballotready.org/people/peter-sundin-soule')]},
+                  {t:'Immigration',kind:'none',says:'Cut federal money to sanctuary cities. Change work visas (H-1B) to favor hiring Americans.',rec:['He has no record in office.'],src:[L('BallotReady','https://www.ballotready.org/people/peter-sundin-soule')]},
+                  {t:'Energy and water',kind:'none',says:'Remove limits on California oil drilling and refineries. Build more water storage.',rec:['He has no record in office.'],src:[L('BallotReady','https://www.ballotready.org/people/peter-sundin-soule')]},
+                  {t:'Spending',kind:'none',says:'Cut “waste, fraud and abuse,” including high-speed rail money. Supports President Trump’s efforts.',rec:['He has no record in office.'],src:[L('Soulé campaign','https://souleforcongress.com/')]}
+                ],
+                backers:'California Republican Party, Santa Clara County Republican Party chair David Johnson',
+                money:'About $3,700 raised, as of September 30, 2026 (FEC).'}
+            ],polls:[],noPoll:'No poll or debate was found.',
+            src:[L('House primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/76-us-rep.pdf'),L('FEC: Liccardo','https://www.fec.gov/data/candidate/H4CA16197/'),L('FEC: Soulé','https://www.fec.gov/data/candidate/H6CA16176/')]},
+          {id:'sc-cd17',district:'17',areas:'Sunnyvale, Santa Clara, Cupertino, Milpitas, north San Jose (plus part of Fremont)',office:'U.S. HOUSE · DISTRICT 17',title:'U.S. House, District 17',
+            what:'Your member of Congress votes on national laws, taxes, and the federal budget.',
+            cands:[
+              {name:'Ro Khanna',party:'dem',partyName:'Democrat',short:'U.S. Representative (incumbent)',ballot:'United States Congressmember',incumbent:true,primary:'62.3% in June (1st)',
+                bio:['U.S. House, 2017–now; serves on the Armed Services and Oversight committees','U.S. Commerce Department official, 2009–2011','Lawyer and Stanford economics lecturer'],
+                issues:[
+                  {t:'Taxing billionaires',kind:'did',says:'Make billionaires pay more. He backs Prop 40, the state billionaire tax on this ballot.',rec:['He introduced a federal billionaire tax bill in March 2026. It has not gotten a vote.','His support for the state tax drew pushback from tech donors, some of whom backed a primary challenger.'],src:[L('Bill text (govinfo)','https://www.govinfo.gov/content/pkg/BILLS-119hr7767ih/html/BILLS-119hr7767ih.htm'),L('Business Insider','https://www.businessinsider.com/ro-khanna-ethan-agarwal-primary-silicon-valley-2026-3')]},
+                  {t:'Release the Epstein files',kind:'did',says:'Open government and accountability.',rec:['He co-wrote the Epstein Files Transparency Act with a Republican, forced a vote, and it passed 427–1. It became law in November 2025.','In February 2026 he read 6 names from the files on the House floor. The Justice Department said 4 of them had no clear tie to Epstein.'],src:[L('House vote record','https://clerk.house.gov/evs/2025/roll289.xml'),L('The Guardian','https://www.theguardian.com/us-news/2026/feb/13/four-men-unredacted-epstein-files-no-ties-ro-khanna')]},
+                  {t:'Money in politics',kind:'did',says:'Ban money from PACs and lobbyists. Ban stock trading by members of Congress.',rec:['He takes no PAC money and started a no-PAC group of members in 2017.'],src:[L('Politico','https://www.politico.com/tipsheets/politico-influence/2017/07/12/khanna-starts-pac-free-caucus-221295')]},
+                  {t:'War powers',kind:'did',says:'Congress, not the president alone, should decide on war.',rec:['In 2026 he filed resolutions to limit U.S. military action against Iran and in Yemen. They have not gotten a vote.'],src:[L('Resolution text (govinfo)','https://www.govinfo.gov/content/pkg/BILLS-119hconres124ih/html/BILLS-119hconres124ih.htm')]}
+                ],
+                know:['On oil, he criticized companies for raising production in October 2021, then called for more production in March 2022.'],
+                knowSrc:[L('Wall Street Journal','https://www.wsj.com/articles/big-oil-companies-gas-gasoline-prices-production-khanna-climate-renewable-11649457936')],
+                backers:'California Democratic Party, California Labor Federation, Sierra Club',
+                money:'About $15.2 million raised, as of September 30, 2026 (FEC).'},
+              {name:'Ritesh Tandon',party:'rep',partyName:'Republican',short:'Tech company founder',ballot:'CEO/Entrepreneur/Researcher',primary:'14.8% in June (2nd)',
+                bio:['Has never held elected office','Former engineer at Cisco; founded a tech company','Ran against Khanna in 2020 and 2022 as a Republican, and in 2024 as a Democrat'],
+                issues:[
+                  {t:'Taxes',kind:'none',says:'Against the state billionaire tax and a tax by miles driven. Lower state income tax.',rec:['He has no record in office.'],src:[L('Tandon campaign','https://www.tandonforcongress.com')]},
+                  {t:'AI and jobs',kind:'none',says:'Teach AI from kindergarten to college. Penalize companies that replace workers with AI. Faster permits for data centers and chip plants.',rec:['He has no record in office.'],src:[L('Indica News','https://indicanews.com/republican-ritesh-tandon-launches-fourth-bid-for-congress-in-californias-17th-district/')]},
+                  {t:'Immigration',kind:'none',says:'Fully secure the border. More visas based on skills, with wage floors for H-1B workers.',rec:['He has no record in office.'],src:[L('Tandon campaign','https://www.tandonforcongress.com')]},
+                  {t:'Guns and abortion',kind:'changed',says:'“Some control on guns.” On abortion, “let the people decide.” Both differ from many in his party.',rec:['He has no record in office. He ran as a Democrat in 2024 and as a Republican in other years, and has not explained the switch in any source we found.'],src:[L('Indica News','https://indicanews.com/republican-ritesh-tandon-launches-fourth-bid-for-congress-in-californias-17th-district/'),L('2024 primary results','https://elections.cdn.sos.ca.gov/sov/2024-primary/sov/complete-sov-updated.pdf')]}
+                ],
+                backers:'California Republican Party',
+                money:'About $57,000 raised, as of October 14, 2026 (FEC).'}
+            ],polls:[],noPoll:'No poll or debate was found.',
+            src:[L('House primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/76-us-rep.pdf'),L('FEC: Khanna','https://www.fec.gov/data/candidate/H4CA12055/'),L('FEC: Tandon','https://www.fec.gov/data/candidate/H0CA17193/')]},
+          {id:'sc-cd18',district:'18',areas:'Downtown and east San Jose, Morgan Hill, Gilroy (plus San Benito and parts of Monterey, Santa Cruz, Fresno, Kings)',office:'U.S. HOUSE · DISTRICT 18',title:'U.S. House, District 18',
+            what:'Your member of Congress votes on national laws, taxes, and the federal budget.',
+            cands:[
+              {name:'Shane Lewis',party:'rep',partyName:'Republican',short:'Medical device test engineer; Marine Corps veteran',ballot:'Electrical Test Engineer',primary:'29.3% in June (2nd)',
+                bio:['Has never held elected office','Electrical test engineer at medical device companies','Says he served in the U.S. Marine Corps','Lives in San Jose'],
+                issues:[
+                  {t:'Taxes and spending',kind:'none',says:'A flat tax of about 7% on wages. Cut deficit spending 2% a year.',rec:['He has no record in office.'],src:[L('Lewis campaign','https://shanelewisforcongress.com/issues')]},
+                  {t:'Immigration',kind:'none',says:'More farmworker visas with background checks. Count only citizens when dividing House seats among states.',rec:['He has no record in office.'],src:[L('Lewis campaign','https://shanelewisforcongress.com/issues')]},
+                  {t:'Water for farms',kind:'none',says:'More water for farmers. Finish repairs on local dams. Change the state groundwater law.',rec:['He has no record in office.'],src:[L('Lewis campaign','https://shanelewisforcongress.com/issues')]}
+                ],
+                backers:'California Republican Party, Santa Clara County Republican Party, California Rifle & Pistol Association',
+                money:'About $115,000 raised, as of October 14, 2026 (FEC).'},
+              {name:'Zoe Lofgren',party:'dem',partyName:'Democrat',short:'U.S. Representative (incumbent) since 1995',ballot:'Congresswoman',incumbent:true,primary:'54.9% in June (1st)',
+                bio:['U.S. House, 1995–now; top Democrat on the Science, Space and Technology Committee','Served on the January 6 committee','Santa Clara County Board of Supervisors, 1981–1994','Immigration lawyer'],
+                issues:[
+                  {t:'Science and energy',kind:'did',says:'Lead in science, tech, and clean energy.',rec:['She voted for the 2022 CHIPS and Science Act, which funds chip factories and research.','In 2026 she introduced a fusion energy bill with a Republican.'],src:[L('House vote record','https://clerk.house.gov/evs/2022/roll404.xml'),L('Lofgren’s office','https://lofgren.house.gov/media/press-releases/lofgren-and-obernolte-lead-introduction-american-leadership-fusion-act')]},
+                  {t:'Immigration',kind:'did',says:'Fix the immigration system, including for farmworkers.',rec:['Her farmworker immigration bill passed the House 247–174 in 2021 but did not become law.','She voted no on the 2025 Laken Riley Act.'],src:[L('House vote record','https://clerk.house.gov/evs/2021/roll093.xml'),L('House vote record','https://clerk.house.gov/evs/2025/roll023.xml')]},
+                  {t:'Democracy and elections',kind:'did',says:'Protect elections.',rec:['Her campaign says she led House work on a 2022 law clarifying how Congress counts presidential electoral votes. We did not pull the vote record.'],src:[L('Lofgren campaign','https://zoelofgren.com/meet-zoe/')]},
+                  {t:'Taxes and spending',kind:'did',says:'Protect programs for working families.',rec:['She voted no on the 2025 “One Big Beautiful Bill” tax and spending law.'],src:[L('House vote record','https://clerk.house.gov/evs/2025/roll190.xml')]}
+                ],
+                backers:'California Democratic Party, California Labor Federation, Sierra Club, Planned Parenthood Action Fund',
+                money:'About $2.0 million raised, as of October 14, 2026 (FEC).'}
+            ],polls:[],noPoll:'No poll or debate was found.',
+            src:[L('House primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/76-us-rep.pdf'),L('FEC: Lofgren','https://www.fec.gov/data/candidate/H4CA16049/'),L('FEC: Lewis','https://www.fec.gov/data/candidate/H6CA18172/')]},
+          {id:'sc-cd19',district:'19',areas:'South and southwest San Jose (Almaden, Blossom Valley, Santa Teresa) (plus Santa Cruz, Monterey coast)',office:'U.S. HOUSE · DISTRICT 19',title:'U.S. House, District 19',
+            what:'Your member of Congress votes on national laws, taxes, and the federal budget.',
+            cands:[
+              {name:'Jimmy Panetta',party:'dem',partyName:'Democrat',short:'U.S. Representative (incumbent)',ballot:'United States Representative',incumbent:true,primary:'58.4% in June (1st)',
+                bio:['U.S. House, 2017–now; serves on Ways and Means (taxes) and Budget','Former county prosecutor','Navy Reserve intelligence officer; served in Afghanistan'],
+                issues:[
+                  {t:'Costs and tariffs',kind:'did',says:'Lower costs for families.',rec:['In 2026 he voted to end the emergency used to set some tariffs. It passed.','He voted no on the 2025 “One Big Beautiful Bill.”','His bill to give pre-K teachers a tax deduction for classroom costs passed his committee unanimously.'],src:[L('House vote record','https://clerk.house.gov/evs/2026/roll065.xml'),L('Panetta’s office','https://panetta.house.gov/media/press-releases/rep-panettas-seed-act-unanimously-passes-out-house-ways-and-means-committee')]},
+                  {t:'Housing',kind:'did',says:'More grants and tax credits for housing.',rec:['He voted for the 2026 national housing bill, which passed 390–9.'],src:[L('House vote record','https://clerk.house.gov/evs/2026/roll057.xml')]},
+                  {t:'Farms',kind:'did',says:'Support farmers.',rec:['He voted no on the 2026 farm bill.','In 2026 he introduced a bill with a Republican to help farmers with flooding.'],src:[L('House vote record','https://clerk.house.gov/evs/2026/roll154.xml'),L('Panetta’s office','https://panetta.house.gov/media/press-releases/rep-panetta-authors-and-introduces-flood-act-protect-farmers-rising-flood')]},
+                  {t:'Immigration and safety',kind:'did',says:'Immigration reform plus border security.',rec:['He voted no on the 2025 Laken Riley Act and no on a 2026 Homeland Security funding bill.','He voted yes on a 2026 bill against organized retail crime.'],src:[L('House vote record','https://clerk.house.gov/evs/2025/roll023.xml'),L('House vote record','https://clerk.house.gov/evs/2026/roll157.xml')]}
+                ],
+                backers:'California Democratic Party, Sierra Club, VoteVets, U.S. Chamber of Commerce',
+                money:'About $3.5 million raised, as of September 30, 2026 (FEC).'},
+              {name:'Peter Coe Verbica',party:'rep',partyName:'Republican',short:'Financial planner',ballot:'Business Owner',primary:'20.5% in June (2nd)',
+                bio:['Has never held office','Certified financial planner at a wealth management firm','Ran for Board of Equalization in 2022 and lost (30%)'],
+                issues:[
+                  {t:'Gas prices',kind:'none',says:'Cut gas taxes and special fuel-blend rules.',rec:['He has no record in office.'],src:[L('Verbica campaign','https://www.peterverbica.com')]},
+                  {t:'Water',kind:'none',says:'More water for farmers. Build Sites Reservoir. Turn seawater into drinking water.',rec:['He has no record in office.'],src:[L('Verbica campaign','https://www.peterverbica.com')]},
+                  {t:'Housing',kind:'none',says:'Tie federal housing money to cities changing zoning. Build on unused federal land.',rec:['He has no record in office.'],src:[L('Verbica campaign','https://www.peterverbica.com')]},
+                  {t:'Wildfire insurance',kind:'none',says:'A federal backup insurance program for wildfire risk.',rec:['He has no record in office.'],src:[L('Verbica campaign','https://www.peterverbica.com')]}
+                ],
+                know:['He challenged Panetta to a televised debate in June 2026. No debate has been scheduled.'],
+                knowSrc:[L('Verbica press release','https://www.streetinsider.com/PRNewswire/Verbica+Challenges+Panetta+to+a+Televised+Debate+on+the+Issues/26693755.html')],
+                backers:'Howard Jarvis Taxpayers Association, former U.S. Rep. Tom Campbell, California Republican Party',
+                money:'About $86,000 raised, as of October 14, 2026 (FEC).'}
+            ],polls:[],noPoll:'No poll or debate was found.',
+            src:[L('House primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/76-us-rep.pdf'),L('FEC: Panetta','https://www.fec.gov/data/candidate/H6CA20152/'),L('FEC: Verbica','https://www.fec.gov/data/candidate/H6CA19154/')]}
+        ]},
+      {key:'sd',title:'State Senate',pick:true,pickText:'My State Senate district',none:'My Senate district is not on this ballot (District 13 or 15)',
+        what:'State senators write and vote on state laws and the state budget. Only even-numbered Senate districts are on the ballot this year. In Santa Clara County that is District 10. If you are in District 13 or 15, you have no Senate race this year.',
+        races:[
+          {id:'sc-sd10',district:'10',areas:'Milpitas, Santa Clara, Sunnyvale, part of San Jose (plus Fremont, Hayward area)',office:'STATE SENATE · DISTRICT 10 · OPEN SEAT',title:'State Senate, District 10',
+            what:'State senators write and vote on state laws and the state budget. A Senate term is 4 years.',
+            note:'Open seat: the seat has been empty since September 2026, when Sen. Aisha Wahab left to serve in Congress.',
+            cands:[
+              {name:'Linda Price',party:'rep',partyName:'Republican',short:'Leadership-training business owner',ballot:'Businesswoman',primary:'23.2% in June (2nd)',
+                bio:['Has never held elected office','CEO of a management-training company','Has taught leadership at several colleges','Lives in Sunnyvale'],
+                issues:[
+                  {t:'Cost of living',kind:'none',says:'Review state rules that raise living costs, weighing costs against benefits.',rec:['She has no record in public office.'],src:[L('Silicon Valley Voice Q&A','https://www.svvoice.com/candidates-for-state-senate-district-10-linda-price-scott-sakakihara/')]},
+                  {t:'Housing',kind:'none',says:'Revisit state housing laws that override cities. More local control. Protect small landlords.',rec:['She has no record in public office.'],src:[L('Silicon Valley Voice Q&A','https://www.svvoice.com/candidates-for-state-senate-district-10-linda-price-scott-sakakihara/')]},
+                  {t:'Waste and fraud',kind:'none',says:'Cut fraud and waste. Make state spending easier to see.',rec:['She has no record in public office.'],src:[L('Price campaign','https://www.lindapriceforsenate.com/')]}
+                ],
+                backers:'Howard Jarvis Taxpayers Association, Santa Clara County and Alameda County Republican parties',
+                money:'No contributions were reported in the sources we found.'},
+              {name:'Scott Sakakihara',party:'dem',partyName:'Democrat',short:'Union City council member; Navy Reserve officer',ballot:'Councilmember/Navy Officer',primary:'29.1% in June (1st)',
+                bio:['Union City Council, 2022–now (former vice mayor)','About 14 years at the tech company Palantir; he says he left over its work for immigration enforcement','Navy Reserve intelligence officer','Harvard-trained lawyer'],
+                issues:[
+                  {t:'Housing and costs',kind:'disputed',says:'Make it easier to build homes while keeping protections for renters and workers.',rec:['His campaign says he pushed for more housing and homeless funding on the council. We could not confirm a specific vote.'],src:[L('Sakakihara campaign','https://www.electscott.com/issues')]},
+                  {t:'Public safety',kind:'disputed',says:'Community policing, violence prevention, and gun safety laws.',rec:['His campaign says he helped hire police officers. We could not confirm it.'],src:[L('Sakakihara campaign','https://www.electscott.com/issues')]},
+                  {t:'Immigrants and tech',kind:'did',says:'Defend immigrants. Set rules for tech companies.',rec:['He left Palantir over its work for immigration enforcement, according to IVN.'],src:[L('IVN','https://ivn.us/independent-voters-will-soon-decide-open-silicon-valley-senate-seat-2026-05-04/')]}
+                ],
+                backers:'California Democratic Party, Attorney General Rob Bonta, California Labor Federation, Sierra Club',
+                money:'About $399,000 raised by April 18, 2026, including $299,000 of his own money.'}
+            ],polls:[],noPoll:'No poll or debate was found. Both answered written questions from Silicon Valley Voice.',
+            src:[L('Senate primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/90-state-senator.pdf'),L('District map','https://sd10.senate.ca.gov/district')]}
+        ]},
+      {key:'ad',title:'State Assembly',pick:true,pickText:'My State Assembly district',
+        what:'Assembly members write and vote on state laws and the state budget. Every Assembly seat is on the ballot every 2 years. Six Assembly districts include part of Santa Clara County. In every one, a Democrat who holds the seat faces a Republican who has never held office.',
+        races:[
+          {id:'sc-ad23',district:'23',areas:'Palo Alto, Mountain View, Los Altos, Campbell, Saratoga (plus coastal San Mateo County)',office:'STATE ASSEMBLY · DISTRICT 23',title:'State Assembly, District 23',
+            what:'Assembly members write and vote on state laws and the state budget. A term is 2 years.',
+            cands:[
+              {name:'Marc Berman',party:'dem',partyName:'Democrat',short:'Assemblymember (incumbent)',ballot:'State Assemblymember',incumbent:true,primary:'77.3% in June (1st)',
+                bio:['State Assembly, 2016–now; chairs the Business and Professions Committee','Palo Alto City Council, 2012–2016','Lawyer'],
+                issues:[
+                  {t:'Voting and election security',kind:'did',says:'Make voting easy and elections secure.',rec:['He wrote the law that mails every voter a ballot.','In 2026, new laws he wrote on fake AI election videos, election cybersecurity, and fixing ballot problems by phone were signed. A bill to let people register online without a DMV ID was vetoed.'],src:[L('Berman’s 2026 bills','https://a23.asmdc.org/2026-bills'),L('CalMatters Digital Democracy','https://calmatters.digitaldemocracy.org/legislators/marc-berman-100944')]},
+                  {t:'Housing and costs',kind:'did',says:'Lower costs for families.',rec:['He wrote a 2025 law that stops utilities from charging customers for their lobbying.','His 2026 bill to cap payday loan interest at 36% died in committee.'],src:[L('Berman’s 2025 bills','https://a23.asmdc.org/2025-bills'),L('Berman’s 2026 bills','https://a23.asmdc.org/2026-bills')]},
+                  {t:'Schools and colleges',kind:'did',says:'Better schools and colleges.',rec:['2026 laws he wrote on suicide prevention training and community college funding were signed. A bill to number college courses the same statewide died in the Senate.'],src:[L('Berman’s 2026 bills','https://a23.asmdc.org/2026-bills')]}
+                ],
+                backers:'Gov. Gavin Newsom, California Teachers Association, California Democratic Party',
+                money:'Totals could not be confirmed.'},
+              {name:'David Johnson',party:'rep',partyName:'Republican',short:'Construction business owner; county Republican Party chair',ballot:'Small Business Owner',primary:'14.6% in June (2nd)',
+                bio:['Has never held elected office','About 40 years in commercial construction; owns two companies','Chair of the Santa Clara County Republican Party'],
+                issues:[
+                  {t:'Taxes',kind:'none',says:'No new taxes until state spending is fully open to the public. More audits.',rec:['No record in office. As party chair, he gathered signatures for petitions to protect Prop 13 property tax limits.'],src:[L('Johnson campaign','https://www.davidjohnsonad23.com/issues')]},
+                  {t:'Parents and schools',kind:'none',says:'Schools should tell parents if a child changes gender identity. Let parents opt out. School choice.',rec:['No record in office.'],src:[L('Johnson campaign','https://www.davidjohnsonad23.com/issues')]},
+                  {t:'Voter ID',kind:'none',says:'Require voter ID. Vote in person on one day.',rec:['No record in office. He gathered signatures for a voter ID petition.'],src:[L('Johnson campaign','https://www.davidjohnsonad23.com/issues')]}
+                ],
+                backers:'California Republican Party, Reform California',
+                money:'Totals could not be confirmed.'}
+            ],polls:[],noPoll:'No poll or debate was found.',
+            src:[L('Assembly primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/95-state-assembly.pdf'),L('District map','https://berman.asmdc.org/district-map')]},
+          {id:'sc-ad24',district:'24',areas:'Milpitas, Berryessa and part of north San Jose (plus Fremont, Newark)',office:'STATE ASSEMBLY · DISTRICT 24',title:'State Assembly, District 24',
+            what:'Assembly members write and vote on state laws and the state budget. A term is 2 years.',
+            cands:[
+              {name:'Max Hsia',party:'rep',partyName:'Republican',short:'Food business owner',ballot:'Small Business Owner',primary:'25.0% in June (2nd)',
+                bio:['Has never held elected office; first campaign','Has run food businesses, including food trucks, for about 10 years','Lives in Berryessa, San Jose'],
+                issues:[
+                  {t:'Housing and costs',kind:'none',says:'Faster permits, lower fees, more homes near transit. No new taxes.',rec:['He has no record in office.'],src:[L('Milpitas Beat','https://milpitasbeat.com/assembly-district-24-candidate-max-hsia-seeks-to-break-democratic-stronghold/')]},
+                  {t:'Public safety',kind:'none',says:'License-plate readers and cameras. A task force on low-level crime.',rec:['He has no record in office.'],src:[L('Milpitas Beat','https://milpitasbeat.com/assembly-district-24-candidate-max-hsia-seeks-to-break-democratic-stronghold/')]},
+                  {t:'Schools',kind:'none',says:'Pay teachers more when test scores rise.',rec:['He has no record in office.'],src:[L('Milpitas Beat','https://milpitasbeat.com/assembly-district-24-candidate-max-hsia-seeks-to-break-democratic-stronghold/')]}
+                ],
+                backers:'California Republican Party, Santa Clara County Republican Party, Milpitas Councilmember William Lam',
+                money:'Totals could not be confirmed.'},
+              {name:'Alex Lee',party:'dem',partyName:'Democrat',short:'Assemblymember (incumbent)',ballot:'State Assemblymember',incumbent:true,primary:'65.4% in June (1st)',
+                bio:['State Assembly, 2020–now; chairs the Human Services Committee','Former staff member for state lawmakers'],
+                issues:[
+                  {t:'“Social housing”',kind:'did',says:'Have the state build mixed-income homes that stay affordable.',rec:['His social housing bills did not become law: one was vetoed (2023) and others died (2022, 2024, 2025).','A 2026 law he wrote to speed up review of small housing projects was signed.'],src:[L('CalMatters: AB 309 veto','https://calmatters.digitaldemocracy.org/bills/ca_202320240ab309'),L('CalMatters: AB 2601','https://calmatters.digitaldemocracy.org/bills/ca_202520260ab2601')]},
+                  {t:'Taxes on the very rich',kind:'did',says:'Tax great wealth to pay for the safety net.',rec:['He proposed wealth taxes in 2021, 2022, and 2023. They were shelved; Gov. Newsom opposed them.','His 2024 law made a program that helps families buy fruits and vegetables with CalFresh permanent.'],src:[L('East Bay Echo','https://eastbayecho.com/2024/01/11/legislators-sideline-assemblymember-alex-lees-proposed-wealth-tax/'),L('Lee’s 2024 bills','https://lee.asmdc.org/2024-legislation')]},
+                  {t:'Immigrants',kind:'did',says:'Protect immigrant families.',rec:['A 2026 law he wrote requires public notice before a private immigration detention center opens.','His bill to deny tax breaks to immigration enforcement contractors did not pass.'],src:[L('CalMatters: AB 1801','https://calmatters.digitaldemocracy.org/bills/ca_202520260ab1801')]}
+                ],
+                backers:'California Democratic Party, California Teachers Association, Sierra Club California',
+                money:'Totals could not be confirmed.'}
+            ],polls:[],noPoll:'No poll or general-election debate was found.',
+            src:[L('Assembly primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/95-state-assembly.pdf'),L('District map','https://lee.asmdc.org/district-map')]},
+          {id:'sc-ad25',district:'25',areas:'Downtown, east and central San Jose, Alum Rock',office:'STATE ASSEMBLY · DISTRICT 25',title:'State Assembly, District 25',
+            what:'Assembly members write and vote on state laws and the state budget. A term is 2 years.',
+            cands:[
+              {name:'Ash Kalra',party:'dem',partyName:'Democrat',short:'Assemblymember (incumbent)',ballot:'State Assemblymember',incumbent:true,primary:'72.2% in June (1st)',
+                bio:['State Assembly, 2016–now; chairs the Judiciary Committee','San Jose City Council, 2009–2016','Public defender for 11 years'],
+                issues:[
+                  {t:'Health care for all (CalCare)',kind:'did',says:'One public health plan for every Californian.',rec:['His single-payer bills have not passed. In 2022 he pulled his bill before a final vote. Bills in 2024 and 2026 did not advance.'],src:[L('CalCare overview','https://en.wikipedia.org/wiki/CalCare')]},
+                  {t:'Fairness in courts',kind:'did',says:'Fight racial bias in the justice system.',rec:['He wrote the Racial Justice Act (2020), which lets people challenge charges or sentences shown to be affected by racial bias. It became law.'],src:[L('Racial Justice Act','https://en.wikipedia.org/wiki/California_Racial_Justice_Act_of_2020')]},
+                  {t:'Workers and renters',kind:'unchecked',says:'Protect workers and renters.',rec:['He has written labor and towing bills. We have not yet checked which became law.'],src:[L('San Jose Spotlight: towing bill','https://sanjosespotlight.com/san-jose-lawmaker-assemblymember-ash-kalra-seeks-changes-to-state-towing-practices-ab-1082/')]}
+                ],
+                backers:'Endorsement list not found',
+                money:'About $466,000 raised in the primary (through June 30, 2026), mostly from PACs.'},
+              {name:'Himat Singh Bainiwal',party:'rep',partyName:'Republican',short:'Estate-planning lawyer',ballot:'Attorney',primary:'27.8% in June (2nd)',
+                bio:['Has never held elected office','Lawyer since 2018; runs an estate-planning practice','Born and raised in San Jose'],
+                issues:[
+                  {t:'Public safety',kind:'none',says:'Community policing. Fewer repeat crimes.',rec:['He has no record in office.'],src:[L('Bainiwal campaign','https://bainiwalforassembly.com/Issues/')]},
+                  {t:'Housing and costs',kind:'none',says:'More homes near transit. Protect renters and owners. Lower fees.',rec:['He has no record in office.'],src:[L('Bainiwal campaign','https://bainiwalforassembly.com/Issues/')]},
+                  {t:'Roads and water',kind:'none',says:'Better roads, transit, water, and traffic safety.',rec:['He has no record in office.'],src:[L('Bainiwal campaign','https://bainiwalforassembly.com/Issues/')]}
+                ],
+                backers:'None listed',
+                money:'$0 reported as of September 17, 2026.'}
+            ],polls:[],noPoll:'No poll or debate was found.',
+            src:[L('Assembly primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/95-state-assembly.pdf'),L('District map','https://kalra.asmdc.org/district-map')]},
+          {id:'sc-ad26',district:'26',areas:'Cupertino, Sunnyvale, Santa Clara, part of West San Jose',office:'STATE ASSEMBLY · DISTRICT 26',title:'State Assembly, District 26',
+            what:'Assembly members write and vote on state laws and the state budget. A term is 2 years.',
+            cands:[
+              {name:'Patrick Ahrens',party:'dem',partyName:'Democrat',short:'Assemblymember (incumbent)',ballot:'State Assemblymember',incumbent:true,primary:'75.4% in June (1st)',
+                bio:['State Assembly, 2024–now; chairs the Aging and Long-Term Care Committee','Foothill-De Anza college board, 2018–2024','About 10 years as a district director for Assemblymember Evan Low'],
+                issues:[
+                  {t:'Lower costs for families',kind:'did',says:'Help working families with costs.',rec:['His bills to expand tax credits for low-income workers and young children did not pass.','His law to protect mobile home residents was signed.'],src:[L('CalMatters: AB 635','https://calmatters.digitaldemocracy.org/bills/ca_202520260ab635')]},
+                  {t:'Foster youth and college',kind:'did',says:'Support foster youth and students.',rec:['Four foster youth bills he wrote were signed in 2026.','His bill to limit pay for CSU leaders died in the Senate.'],src:[L('Ahrens’ office','https://ahrens.asmdc.org/press-releases/20260930-governor-newsom-signs-assemblymember-patrick-ahrens-legislation-support'),L('CalMatters: AB 1831','https://calmatters.digitaldemocracy.org/bills/ca_202520260ab1831')]},
+                  {t:'Health care',kind:'did',says:'Better local health care.',rec:['2026 laws he wrote on a Santa Clara hospital project and on restraining orders for workplace violence were signed.'],src:[L('CalMatters Digital Democracy','https://calmatters.digitaldemocracy.org/legislators/patrick-ahrens-99607')]}
+                ],
+                backers:'Planned Parenthood Advocates Mar Monte (other endorsements not confirmed)',
+                money:'Totals could not be confirmed.'},
+              {name:'Tim Gorsulowsky',party:'rep',partyName:'Republican',short:'Security company owner',ballot:'Small Business Owner',primary:'24.6% in June (2nd)',
+                bio:['Has never held elected office','Runs a security company and a commercial services company','Ran for this seat in 2022 and lost'],
+                issues:[
+                  {t:'Business rules',kind:'none',says:'Cut rules on business. Let counties, not the state, decide on data centers.',rec:['He has no record in office.'],src:[L('Silicon Valley Voice Q&A','https://www.svvoice.com/assembly-district-26-candidates-patrick-ahrens-tim-gorsulowsky/')]},
+                  {t:'Housing',kind:'none',says:'He blames immigration and the state sanctuary law for high housing costs. Undo recent state density laws.',rec:['He has no record in office.'],src:[L('Silicon Valley Voice Q&A','https://www.svvoice.com/assembly-district-26-candidates-patrick-ahrens-tim-gorsulowsky/')]},
+                  {t:'Safety and homelessness',kind:'none',says:'Change laws so drug crimes can be charged more often.',rec:['He has no record in office.'],src:[L('Silicon Valley Voice Q&A','https://www.svvoice.com/assembly-district-26-candidates-patrick-ahrens-tim-gorsulowsky/')]}
+                ],
+                backers:'None found',
+                money:'Totals could not be confirmed.'}
+            ],polls:[],noPoll:'No poll or debate was found. Both answered written questions from Silicon Valley Voice.',
+            src:[L('Assembly primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/95-state-assembly.pdf'),L('District information','https://ahrens.asmdc.org/district-information')]},
+          {id:'sc-ad28',district:'28',areas:'Los Gatos, Monte Sereno, Morgan Hill, Cambrian Park, part of South San Jose (plus Santa Cruz)',office:'STATE ASSEMBLY · DISTRICT 28',title:'State Assembly, District 28',
+            what:'Assembly members write and vote on state laws and the state budget. A term is 2 years.',
+            cands:[
+              {name:'Gail Pellerin',party:'dem',partyName:'Democrat',short:'Assemblymember (incumbent)',ballot:'State Assemblymember',incumbent:true,primary:'72.0% in June (1st)',
+                bio:['State Assembly, 2022–now; chairs the Elections Committee','About 27 years as Santa Cruz County’s chief elections official, until 2020'],
+                issues:[
+                  {t:'Elections',kind:'did',says:'Safe, fair elections.',rec:['She wrote a 2024 law on fake AI election ads, and 2026 laws making it a felony to seize ballots and changing voter guide statements. All were signed.'],src:[L('Pellerin’s office','https://a28.asmdc.org/press-releases/20260929-new-laws-assemblymember-gail-pellerin-bolster-election-security')]},
+                  {t:'Kids and safety',kind:'did',says:'Protect children.',rec:['Her 2026 law set the minimum age to marry at 18. It was signed.'],src:[L('Pellerin’s office','https://a28.asmdc.org/press-releases/20260930-child-marriage-outlawed-signing-assembly-bill-1267')]},
+                  {t:'Coast and wildfire',kind:'did',says:'Protect the coast and recover from wildfires.',rec:['Her 2025 law to help parks after the CZU fire was signed. A 2026 bill on a Monterey Bay agency stalled.'],src:[L('Pellerin’s 2025 laws','https://a28.asmdc.org/2025-new-laws')]}
+                ],
+                backers:'California Democratic Party, Gov. Gavin Newsom, California Teachers Association',
+                money:'Totals could not be confirmed.'},
+              {name:'Carol Pefley',party:'rep',partyName:'Republican',short:'Real estate broker',ballot:'Small Business Owner',primary:'28.0% in June (2nd)',
+                bio:['Has never held elected office; first campaign','Founded a real estate brokerage in 2009','Former TV and radio news worker'],
+                issues:[
+                  {t:'Taxes and costs',kind:'none',says:'Tax relief.',rec:['She has no record in office.'],src:[L('Pefley campaign','https://www.carolpefleyforassembly.com/key-priorities')]},
+                  {t:'Local control of housing',kind:'none',says:'Against state rules that override city planning.',rec:['She has no record in office.'],src:[L('Ballot statement (PDF)','https://votescount.santacruzcountyca.gov/Portals/16/nov26/Statement-Pefley.pdf')]},
+                  {t:'Small business',kind:'none',says:'Simpler rules for small business.',rec:['She has no record in office.'],src:[L('Pefley campaign','https://www.carolpefleyforassembly.com/key-priorities')]}
+                ],
+                backers:'California Republican Party, Howard Jarvis Taxpayers Association, Saratoga Mayor Chuck Page',
+                money:'Totals could not be confirmed.'}
+            ],polls:[],noPoll:'No poll or debate was found.',
+            src:[L('Assembly primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/95-state-assembly.pdf'),L('District map','https://pellerin.asmdc.org/district-map')]},
+          {id:'sc-ad29',district:'29',areas:'Gilroy, San Martin, rural South County (plus Monterey, San Benito)',office:'STATE ASSEMBLY · DISTRICT 29',title:'State Assembly, District 29',
+            what:'Assembly members write and vote on state laws and the state budget. A term is 2 years.',
+            cands:[
+              {name:'Robert Rivas',party:'dem',partyName:'Democrat',short:'Assembly Speaker (incumbent)',ballot:'California Assembly Speaker',incumbent:true,primary:'66.5% in June (1st)',
+                bio:['State Assembly, 2018–now; Speaker (leader of the Assembly) since 2023','San Benito County Supervisor, 2011–2018'],
+                issues:[
+                  {t:'Housing and farmworkers',kind:'did',says:'More housing, including for farmworkers.',rec:['His 2022 law on tax credits for farmworker housing was signed.','His 2026 law renaming Cesar Chavez Day to Farmworkers Day was signed.'],src:[L('CalMatters: AB 1654','https://calmatters.digitaldemocracy.org/bills/ca_202120220ab1654')]},
+                  {t:'Safe streets',kind:'did',says:'Crack down on retail theft.',rec:['A 2024 retail theft law, AB 2943, passed with his support as Speaker.'],src:[L('CalMatters: AB 2943','https://calmatters.digitaldemocracy.org/bills/ca_202320240ab2943')]},
+                  {t:'Voting maps',kind:'did',says:'Respond to other states redrawing their maps.',rec:['He wrote the plan that became Prop 50 (2025), which redrew California’s congressional maps. Voters approved it with 64%.'],src:[L('CalMatters: ACA 8','https://calmatters.digitaldemocracy.org/bills/ca_202520260aca8')]}
+                ],
+                backers:'Dolores Huerta, Rep. Zoe Lofgren, District Attorney Jeff Rosen',
+                money:'More than $1.6 million raised, as reported in May 2026.'},
+              {name:'Dennis Sanchez',party:'rep',partyName:'Republican',short:'Small business manager',ballot:'Small Businessman/Father',primary:'18.1% in June (2nd)',
+                bio:['Has never held elected office','Says he has 30+ years as a small business owner and manager, including construction and security work'],
+                issues:[
+                  {t:'Public safety',kind:'none',says:'Support police.',rec:['He has no record in office.'],src:[L('Sanchez campaign','https://votesanchez.com/')]},
+                  {t:'Roads and water',kind:'none',says:'Fix roads and water systems.',rec:['He has no record in office.'],src:[L('Sanchez campaign','https://votesanchez.com/')]},
+                  {t:'Small business',kind:'none',says:'Remove barriers for small business.',rec:['He has no record in office.'],src:[L('Sanchez campaign','https://votesanchez.com/')]}
+                ],
+                backers:'None listed',
+                money:'About $1,050 in donations plus a $1,480 loan, as reported in May 2026.'}
+            ],polls:[],noPoll:'No poll or debate was found.',
+            src:[L('Assembly primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/95-state-assembly.pdf'),L('District map','https://speaker.asmdc.org/district-map')]}
+        ]},
+      {key:'sjcd',title:'San Jose City Council',pick:true,pickText:'My San Jose council district',none:'I don’t live in San Jose (or my district has no runoff)',
+        what:'The city council writes San Jose’s laws and budget with the mayor. These races are nonpartisan, so no party is on the ballot. Districts 1 and 3 were decided in June. Only Districts 5, 7, and 9 have a runoff in November.',
+        races:[
+          {id:'sj-d5',district:'5',areas:'East San Jose (Alum Rock, Mayfair)',office:'SAN JOSE CITY COUNCIL · DISTRICT 5',title:'San Jose City Council, District 5',
+            what:'Council members vote on city laws, the budget, police and fire staffing, housing, and homeless programs.',
+            cands:[
+              {name:'Nora Campos',party:'np',partyName:'Nonpartisan',short:'Policy firm leader; former Assemblymember',ballot:'Businesswoman/Policy Analyst',primary:'20.3% in June (2nd)',
+                bio:['Runs a policy consulting firm','State Assembly, 2010–2016','San Jose City Council, District 5, 2001–2010','Lost the 2022 race for this seat to Peter Ortiz'],
+                issues:[
+                  {t:'Housing and homelessness',kind:'none',says:'Shelters should lead people to permanent housing.',rec:['No specific housing votes from her council years were found.'],src:[L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-5th-district')]},
+                  {t:'Neighborhood business areas',kind:'did',says:'Bring life back to East San Jose shopping areas.',rec:['On the council, she helped lead the revitalization of the Story and King roads shopping area and pushed for light rail to Eastridge.'],src:[L('San Jose Spotlight','https://sanjosespotlight.com/meet-the-candidates-running-for-district-5-san-jose-city-council/')]},
+                  {t:'Public safety',kind:'did',says:'More “community policing,” where officers get to know a neighborhood.',rec:['On the council, she supported hiring more police officers.'],src:[L('San Jose Spotlight','https://sanjosespotlight.com/meet-the-candidates-running-for-district-5-san-jose-city-council/')]}
+                ],
+                backers:'State Treasurer Fiona Ma (other endorsements not confirmed)',
+                money:'About $100,600 raised through September 19, 2026. No outside group spending for her was reported.'},
+              {name:'Peter Ortiz',party:'np',partyName:'Nonpartisan',short:'Council member (incumbent)',ballot:'Incumbent Councilmember',incumbent:true,primary:'45.0% in June (1st)',
+                bio:['San Jose City Council, District 5, 2022–now','Santa Clara County Board of Education (was its president)','Mt. Pleasant school board','Community organizer'],
+                issues:[
+                  {t:'Protect immigrants',kind:'did',says:'Protect immigrant families from federal immigration raids.',rec:['He wrote the city rule that bans immigration agents from using city property as a staging area.','He backed a policy that federal agents work without masks.'],src:[L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-5th-district'),L('San Jose Spotlight','https://sanjosespotlight.com/east-san-jose-councilmember-peter-ortiz-runs-for-reelection/')]},
+                  {t:'Safety and run-down buildings',kind:'did',says:'Cleaner, safer streets.',rec:['He pushed tougher penalties for catalytic converter theft, fines on landlords who let housing fall apart, stiffer penalties for empty buildings, and a pause on new smoke shops.'],src:[L('San Jose Spotlight','https://sanjosespotlight.com/east-san-jose-councilmember-peter-ortiz-runs-for-reelection/')]},
+                  {t:'Investment in East San Jose',kind:'did',says:'Bring more money and projects to District 5.',rec:['He helped win a $3 million federal grant to expand the Mexican Heritage Plaza.','He is pushing a $30 million District 5 fund; it has not passed. Campos says he has not delivered enough.'],src:[L('San Jose Spotlight','https://sanjosespotlight.com/meet-the-candidates-running-for-district-5-san-jose-city-council/')]}
+                ],
+                backers:'South Bay Labor Council, Supervisor Betty Duong, Assemblymember Ash Kalra',
+                money:'About $222,000 raised through September 19, 2026. A labor-backed group spent over $143,000 more to help him.'}
+            ],polls:[],noPoll:'No poll of this race was found.',
+            src:[L('June results (Registrar data)','https://localnewsmatters.org/santa-clara-county-june-2026/'),L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-5th-district'),L('Campaign money','https://sanjosespotlight.com/san-jose-candidates-campaign-dollars-grow-as-election-nears/')]},
+          {id:'sj-d7',district:'7',areas:'Central-south San Jose (Tully, Seven Trees, Monterey Rd)',office:'SAN JOSE CITY COUNCIL · DISTRICT 7',title:'San Jose City Council, District 7',
+            what:'Council members vote on city laws, the budget, police and fire staffing, housing, and homeless programs.',
+            cands:[
+              {name:'Bien Doan',party:'np',partyName:'Nonpartisan',short:'Council member (incumbent); retired fire captain',ballot:'Incumbent Councilmember',incumbent:true,primary:'47.9% in June (1st)',
+                bio:['San Jose City Council, District 7, 2022–now','21 years with the San Jose Fire Department; the city’s first Vietnamese American fire captain','Came to the U.S. as a refugee in 1975'],
+                issues:[
+                  {t:'Public safety',kind:'did',says:'More tools for police and fire.',rec:['He supported buying a police airplane, license-plate reader cameras, and Prop 36.'],src:[L('San Jose Spotlight forum','https://sanjosespotlight.com/san-jose-district-7-candidates-square-off-at-public-forum/'),L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-7th-district')]},
+                  {t:'Homelessness',kind:'did',says:'Get people off the street quickly.',rec:['He voted for Mayor Mahan’s plan to move homeless money from apartments to tiny homes.','He pushed for larger group shelters; that did not pass.'],src:[L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-7th-district')]},
+                  {t:'Small business and taxes',kind:'did',says:'Help small businesses. No new taxes.',rec:['He helped set up 3 business improvement districts (Tully-Eastridge, Monterey Road, Story Road).'],src:[L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-7th-district')]}
+                ],
+                backers:'Rep. Sam Liccardo, Mayor Matt Mahan, Silicon Valley Biz PAC, South Bay Labor Council',
+                money:'About $190,000 raised through September 19, 2026. A business owners’ group spent over $150,000 more to help him.'},
+              {name:'Van Le',party:'np',partyName:'Nonpartisan',short:'High school board trustee; insurance agent',ballot:'East Side Union HSD Trustee',primary:'22.4% in June (2nd)',
+                bio:['East Side Union High School District board, 4 terms (now board president)','Has run a State Farm insurance agency since 2001','Came to the U.S. as a refugee in 1975','Lost the 2022 race for this seat to Bien Doan'],
+                issues:[
+                  {t:'Public safety',kind:'none',says:'More patrols in trouble spots. Make police recruits commit to staying with San Jose.',rec:['She has no city record on policing.'],src:[L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-7th-district')]},
+                  {t:'Homelessness and housing',kind:'none',says:'Tiny homes are a “Band-Aid.” Build permanent affordable housing.',rec:['She has no city record on housing.'],src:[L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-7th-district')]},
+                  {t:'Schools and families',kind:'did',says:'Support youth, seniors, and small business.',rec:['Her school district’s own bio credits her with about $1 million in savings and a holiday dinner for homeless students. No independent report on her school board votes was found.'],src:[L('School district bio','https://www.esuhsd.org/BoardSuperintendent/Board-of-Trustees/Van-T--Le-Board-President/index.html')]}
+                ],
+                backers:'Former Assemblymembers Kansen Chu and Paul Fong, former Milpitas Mayor Jose Esteves',
+                money:'About $119,000 raised plus a $30,000 loan, through September 19, 2026. No outside group spending for her was reported.'}
+            ],polls:[],noPoll:'No poll of this race was found.',
+            src:[L('June results (Registrar data)','https://localnewsmatters.org/santa-clara-county-june-2026/'),L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-7th-district'),L('Campaign money','https://sanjosespotlight.com/san-jose-candidates-campaign-dollars-grow-as-election-nears/')]},
+          {id:'sj-d9',district:'9',areas:'Cambrian and Branham area (southwest San Jose)',office:'SAN JOSE CITY COUNCIL · DISTRICT 9 · OPEN SEAT',title:'San Jose City Council, District 9',
+            what:'Council members vote on city laws, the budget, police and fire staffing, housing, and homeless programs.',note:'Open seat: Vice Mayor Pam Foley can’t run again because of term limits. Neither candidate has held elected office.',
+            cands:[
+              {name:'Genny Altwer',party:'np',partyName:'Nonpartisan',short:'Therapist; former police officer',ballot:'Business Owner/Mother',primary:'35.6% in June (1st)',
+                bio:['Has never held elected office','13 years as a San Mateo police officer (hostage negotiator, detective)','Licensed family therapist with a private practice','Member of a city appeals board'],
+                issues:[
+                  {t:'Public safety',kind:'none',says:'Safer neighborhoods and support for police.',rec:['She has no voting record. Her police career is her related work record.'],src:[L('San Jose Spotlight','https://sanjosespotlight.com/political-newcomer-enters-district-9-san-jose-council-race/')]},
+                  {t:'Homelessness',kind:'none',says:'More tiny homes and no-camping zones. Supports the mayor’s policy to arrest people who refuse shelter.',rec:['She has no voting record.'],src:[L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-9th-district')]},
+                  {t:'Housing and climate',kind:'none',says:'Denser housing “where it makes sense.” She opposes rules that require new buildings to be all-electric.',rec:['She has no voting record.'],src:[L('San Jose Spotlight forum','https://sanjosespotlight.com/san-jose-district-9-candidates-noncommittal-on-climate-policy/')]}
+                ],
+                backers:'Mayor Matt Mahan, Rep. Sam Liccardo, Vice Mayor Pam Foley, San Jose Police Officers’ Association, Planned Parenthood',
+                money:'About $183,000 raised through September 19, 2026. Business and police groups spent over $54,000 more for her in the primary.'},
+              {name:'Gordon Chester',party:'np',partyName:'Nonpartisan',short:'City infrastructure engineer',ballot:'City Infrastructure Engineer',primary:'22.2% in June (2nd)',
+                bio:['Has never held elected office','San Jose city employee for 11+ years (building and public works departments)','Member of a city workers’ union'],
+                issues:[
+                  {t:'Housing costs',kind:'none',says:'More housing, including small shops on home lots.',rec:['He has no voting record.'],src:[L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-9th-district')]},
+                  {t:'Homelessness',kind:'none',says:'Shift money from short-term shelter to permanent housing and keeping people housed.',rec:['He has no voting record.'],src:[L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-9th-district')]},
+                  {t:'Safer streets and city services',kind:'none',says:'More crosswalks, wider sidewalks, better bus stops. He says the city has too few workers.',rec:['He has no voting record. He works on city building and public works projects.'],src:[L('San Jose Spotlight','https://sanjosespotlight.com/san-jose-employee-enters-district-9-city-council-race/')]}
+                ],
+                backers:'State Sen. Dave Cortese, South Bay Labor Council, Santa Clara County Democratic Party, San Jose YIMBY',
+                money:'About $55,000 raised plus a $4,000 loan, through September 19, 2026. No outside group spending for him was reported.'}
+            ],polls:[],noPoll:'No poll of this race was found.',
+            src:[L('June results (Registrar data)','https://localnewsmatters.org/santa-clara-county-june-2026/'),L('KQED voter guide','https://www.kqed.org/voterguide/santaclara/san-jose-city-council-9th-district'),L('Campaign money','https://sanjosespotlight.com/san-jose-candidates-campaign-dollars-grow-as-election-nears/')]}
+        ]}
+      ],
+      measuresIntro:'Every voter in Santa Clara County sees this measure. Some school districts also have local tax measures; check your sample ballot.',
+      measures:[
+        {id:'sc-rtm',label:'Regional Transit Measure',area:'Countywide',title:'Sales tax for Bay Area transit',
+          what:'A new sales tax in five Bay Area counties to keep BART, Caltrain, VTA, and other transit running.',
+          yes:'Sales tax in Santa Clara County goes up by half a cent per dollar (0.5%) for 14 years, starting April 2027. Across the five counties it would raise about $980 million a year; VTA’s share would be about $245 million a year.',
+          no:'No new sales tax. Transit agencies may cut service; reporters say South Bay cuts would likely be smaller than in other parts of the region.',
+          src:[L('Local News Matters','https://localnewsmatters.org/2026/10/11/santa-clara-county-transit-tax-measure/'),L('San Jose Spotlight','https://sanjosespotlight.com/how-will-south-bay-transit-change-if-tax-increase-fails/'),L('MTC','https://mtc.ca.gov/node/4043705')]}
+      ],
+      other:'Also on some ballots, not covered here: County Board of Education Trustee Area 7; Valley Water Districts 1, 6, and 7; city council races in Campbell, Cupertino, Gilroy, Los Altos, Los Altos Hills, Los Gatos, Milpitas, Morgan Hill, Mountain View, Palo Alto, Santa Clara, and Saratoga (plus mayor in Milpitas, Morgan Hill, and Santa Clara); and school tax measures in some districts. No Board of Supervisors, district attorney, sheriff, or judge races are on the November ballot. Those were decided in June. San Jose has no city measure this time.',
+      otherSrc:[L('November contest list (Registrar data)','https://localnewsmatters.org/santa-clara-november-3-2026/'),L('June results (Registrar data)','https://localnewsmatters.org/santa-clara-county-june-2026/')],
+      src:[L('Certified November candidate list','https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf'),L('Santa Clara County Registrar of Voters','https://vote.santaclaracounty.gov/')]
+    }
+  };
   const ballotKey='ca-2026-candidate-choices-v1';
-  let state={choices:{},county:'',boe:''};
+  let state={choices:{},county:'',boe:'',local:{}};
   const raceKeys=()=>races.map(r=>r.id);
   const countyData=()=>counties.find(c=>c.c===state.county);
   function myBoeDistricts(){const c=countyData();if(!c)return[];if(c.boe.length>1&&c.boe.includes(state.boe))return[state.boe];return c.boe}
   function validChoice(key,v){
     if(races.some(r=>r.id===key))return races.find(r=>r.id===key).cands.some(c=>c.name===v);
     const m=/^boe-(\d)$/.exec(key);if(m){const row=boe.find(b=>b[0]===m[1]);return !!row&&[row[1],row[2]].some(x=>boeName(x)===v)}
+    for(const ld of Object.values(localData)){
+      for(const g of ld.groups){const r=g.races.find(r=>r.id===key);if(r)return r.cands.some(c=>c.name===v)}
+      const m=(ld.measures||[]).find(m=>m.id===key);if(m)return v==='Yes'||v==='No';
+    }
     return false;
   }
   function readBallot(){
     try{
       const saved=JSON.parse(localStorage.getItem(ballotKey)||'{}');
-      state={choices:{},county:'',boe:''};
+      state={choices:{},county:'',boe:'',local:{}};
       if(saved&&typeof saved==='object'){
         if(saved.choices&&typeof saved.choices==='object')Object.entries(saved.choices).forEach(([k,v])=>{if(validChoice(k,v))state.choices[k]=v});
         if(counties.some(c=>c.c===saved.county))state.county=saved.county;
         if(['1','2','3','4'].includes(saved.boe))state.boe=saved.boe;
+        const ld=localData[state.county];
+        if(ld&&saved.local&&typeof saved.local==='object')ld.groups.forEach(g=>{const v=saved.local[g.key];if(v==='none'&&g.none||g.races.some(r=>r.district===v))state.local[g.key]=v});
       }
     }catch(error){document.getElementById('ballot-storage').textContent='Saved choices could not be loaded. You can still make and print a checklist here.'}
   }
@@ -922,20 +1308,54 @@
     document.getElementById('county').value=state.county;
     if(!c){info.innerHTML='';return}
     const ds=myBoeDistricts();
-    info.innerHTML=`<p><b>${esc(c.c)} County.</b> Your ballot has all 8 statewide races below${c.boe.length>1&&ds.length>1?`, plus a Board of Equalization race in District ${c.boe.join(' or ')} (your county is split; your sample ballot shows which)`:`, plus Board of Equalization District ${ds[0]}`}.</p><p>Your local races (U.S. House, State Senate, Assembly, county, city, and school seats) are on your county’s sample ballot: <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.c)} County elections office ↗</a></p>`;
+    info.innerHTML=`<p><b>${esc(c.c)} County.</b> Your ballot has all 8 statewide races below${c.boe.length>1&&ds.length>1?`, plus a Board of Equalization race in District ${c.boe.join(' or ')} (your county is split; your sample ballot shows which)`:`, plus Board of Equalization District ${ds[0]}`}.</p><p>${localData[c.c]?`Your <a href="#local-races">local races</a> are below the statewide races. School board and most city races are on your sample ballot:`:'Your local races (U.S. House, State Senate, Assembly, county, city, and school seats) are on your county’s sample ballot:'} <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.c)} County elections office ↗</a></p>`;
+  }
+  function localRows(){
+    const ld=localData[state.county];if(!ld)return[];
+    const rows=[];
+    ld.groups.forEach(g=>{
+      if(!g.pick){g.races.forEach(r=>rows.push({label:r.title,key:r.id,cands:r.cands}));return}
+      const v=state.local[g.key];
+      if(v&&v!=='none'){const r=g.races.find(r=>r.district===v);rows.push({label:r.title,key:r.id,cands:r.cands})}
+      else if(!v)rows.push({label:g.title,key:null,sub:`Pick your district in the ${g.title} section to add this race.`});
+    });
+    (ld.measures||[]).forEach(m=>{const gv=m.gate?state.local[m.gate]:'';if(gv==='none')return;rows.push({label:`${m.label}: ${m.title}`,key:m.id,sub:m.gate&&!gv?m.area:''})});
+    return rows;
+  }
+  function renderLocal(){
+    const box=document.getElementById('local-races'),ld=localData[state.county];
+    document.getElementById('local-coverage').hidden=!!ld;
+    if(!ld){box.hidden=true;box.innerHTML='';return}
+    box.hidden=false;
+    const groups=ld.groups.map(g=>{
+      let body;
+      if(!g.pick){body=g.races.map(r=>`<div class="race-wrap">${raceHTML(r,false)}${choiceRow(r.id,r.title,r.cands.map(c=>c.name))}</div>`).join('')}
+      else{
+        const v=state.local[g.key];
+        const btns=g.races.map(r=>`<button type="button" data-local-group="${g.key}" data-local-district="${esc(r.district)}" aria-pressed="${v===r.district}"><b>${esc(r.pickLabel||'District '+r.district)}</b><span>${esc(r.areas)}</span></button>`).join('')+(g.none?`<button type="button" data-local-group="${g.key}" data-local-district="none" aria-pressed="${v==='none'}"><b>${esc(g.none)}</b><span>Hide this race</span></button>`:'');
+        const r=v&&v!=='none'?g.races.find(r=>r.district===v):null;
+        body=`<div class="district-pick" role="group" aria-label="${esc(g.pickText)}">${btns}</div>`+(r?`<div class="race-wrap">${raceHTML(r,true)}${choiceRow(r.id,r.title,r.cands.map(c=>c.name))}</div>`:(v==='none'?'':`<p class="note">Pick your district above. Not sure? <a href="${esc(ld.lookup.url)}" target="_blank" rel="noopener">${esc(ld.lookup.label)} ↗</a></p>`));
+      }
+      return `<div class="group" id="group-${g.key}"><h3>${esc(g.title)}</h3><p>${esc(g.what)}</p>${body}</div>`;
+    }).join('');
+    const measures=(ld.measures||[]).length?`<div class="group" id="group-measures"><h3>Local measures</h3><p>${esc(ld.measuresIntro)}</p>${ld.measures.map(m=>{const gv=m.gate?state.local[m.gate]:'';if(gv==='none')return'';return `<div class="race-wrap"><article class="measure"><div class="race-office">${esc(m.label.toUpperCase())} · ${esc(m.area.toUpperCase())}</div><h4>${esc(m.title)}</h4><p style="margin:0 0 10px;font-size:.9rem;color:var(--muted)">${esc(m.what)}</p><div class="vote-grid"><div class="vote"><b>A YES VOTE MEANS</b>${esc(m.yes)}</div><div class="vote no"><b>A NO VOTE MEANS</b>${esc(m.no)}</div></div>${m.src?links(m.src):''}</article><div class="personal-choice"><span id="choice-label-${m.id}">My choice · ${esc(m.label)}</span><div class="choice-buttons" role="group" aria-labelledby="choice-label-${m.id}"><button type="button" data-race="${m.id}" data-choice="Yes">Yes</button><button type="button" data-race="${m.id}" data-choice="No">No</button><button type="button" data-race="${m.id}" data-choice="">Undecided</button></div></div></div>`}).join('')}</div>`:'';
+    const openIds=[...box.querySelectorAll('details[open]')].map(d=>d.id).filter(Boolean);
+    box.innerHTML=`<div class="local-head"><div class="section-label">${esc(state.county.toUpperCase())} COUNTY</div><h2>Your local races</h2><p>${esc(ld.intro)} <a href="${esc(ld.lookup.url)}" target="_blank" rel="noopener">${esc(ld.lookup.label)} ↗</a></p></div>${groups}${measures}${ld.other?`<p class="note">${esc(ld.other)}</p>${ld.otherSrc?links(ld.otherSrc):''}`:''}${ld.src?`<p class="fineprint">Sources: ${ld.src.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)}</a>`).join(' · ')}</p>`:''}`;
+    openIds.forEach(id=>{const d=document.getElementById(id);if(d)d.open=true});
   }
   function render(){
-    renderCounty();renderBoe();
+    renderCounty();renderBoe();renderLocal();
     document.querySelectorAll('[data-race]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.choice===(state.choices[b.dataset.race]||''))));
     const ds=myBoeDistricts();
-    const rows=races.map(r=>({label:r.title,key:r.id,sub:''})).concat(ds.map(d=>({label:`Board of Equalization, District ${d}`,key:'boe-'+d,sub:ds.length>1?'Only one of these districts is on your ballot.':''})));
-    const decided=rows.filter(x=>state.choices[x.key]).length;
+    const rows=races.map(r=>({label:r.title,key:r.id,sub:''})).concat(ds.map(d=>({label:`Board of Equalization, District ${d}`,key:'boe-'+d,sub:ds.length>1?'Only one of these districts is on your ballot.':''}))).concat(localRows());
+    const decided=rows.filter(x=>x.key&&state.choices[x.key]).length;
     document.getElementById('ballot-progress').textContent=`${decided} of ${rows.length} decided · ${rows.length-decided} undecided${state.county?'':' · Pick your county to add your Board of Equalization race'}`;
     document.getElementById('checklist-caption').textContent=state.county?`My races in ${state.county} County, including any still undecided`:'My statewide races, including any still undecided';
-    document.getElementById('checklist-rows').innerHTML=rows.map(x=>{const v=state.choices[x.key];const race=races.find(r=>r.id===x.key);const cand=race&&v?race.cands.find(c=>c.name===v):null;
-      return `<tr><th scope="row">${esc(x.label)}${x.sub?`<span class="checklist-sub">${esc(x.sub)}</span>`:''}</th><td>${v?esc(v)+(cand?`<span class="checklist-sub">${esc(cand.partyName)}</span>`:''):'Undecided'}</td></tr>`}).join('');
+    document.getElementById('checklist-rows').innerHTML=rows.map(x=>{const v=x.key?state.choices[x.key]:'';const race=races.find(r=>r.id===x.key);const cand=race&&v?race.cands.find(c=>c.name===v):null;
+      const lc=!cand&&x.cands&&v?x.cands.find(c=>c.name===v):null;
+      return `<tr><th scope="row">${esc(x.label)}${x.sub?`<span class="checklist-sub">${esc(x.sub)}</span>`:''}</th><td>${!x.key?'Pick district':v?esc(v)+((cand||lc)?`<span class="checklist-sub">${esc((cand||lc).partyName)}</span>`:''):'Undecided'}</td></tr>`}).join('');
     const c=countyData();
-    document.getElementById('checklist-local').innerHTML=c?`Local races and propositions are on your ${esc(c.c)} County sample ballot: <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.url)}</a>`:'Local races are on your county sample ballot.';
+    document.getElementById('checklist-local').innerHTML=c?`${localData[c.c]?'This list covers the races on this page. School board, city, and other local races':'Local races and propositions'} are on your ${esc(c.c)} County sample ballot: <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.url)}</a>`:'Local races are on your county sample ballot.';
   }
   function save(){
     try{if(Object.keys(state.choices).length||state.county)localStorage.setItem(ballotKey,JSON.stringify(state));else localStorage.removeItem(ballotKey);document.getElementById('ballot-storage').textContent='Saved on this device. Clearing browser data removes your choices.'}
@@ -947,15 +1367,17 @@
     const b=e.target.closest('[data-race]');
     if(b){if(b.dataset.choice)state.choices[b.dataset.race]=b.dataset.choice;else delete state.choices[b.dataset.race];save();return}
     const d=e.target.closest('[data-boe-district]');
-    if(d){state.boe=d.dataset.boeDistrict;save()}
+    if(d){state.boe=d.dataset.boeDistrict;save();return}
+    const l=e.target.closest('[data-local-group]');
+    if(l){state.local[l.dataset.localGroup]=l.dataset.localDistrict;save()}
   });
-  document.getElementById('county').addEventListener('change',e=>{state.county=e.target.value;state.boe='';save()});
+  document.getElementById('county').addEventListener('change',e=>{state.county=e.target.value;state.boe='';state.local={};save()});
   document.getElementById('ballot-review').addEventListener('click',e=>{const sheet=document.getElementById('checklist-sheet');sheet.hidden=!sheet.hidden;e.currentTarget.setAttribute('aria-expanded',String(!sheet.hidden));e.currentTarget.textContent=sheet.hidden?'View my checklist':'Hide my checklist'});
   document.getElementById('ballot-print').addEventListener('click',()=>window.print());
   function showReset(show){document.getElementById('ballot-reset-confirm').hidden=!show;document.getElementById('ballot-reset').setAttribute('aria-expanded',String(show));document.getElementById(show?'ballot-reset-no':'ballot-reset').focus()}
   document.getElementById('ballot-reset').addEventListener('click',()=>showReset(true));
   document.getElementById('ballot-reset-no').addEventListener('click',()=>showReset(false));
-  document.getElementById('ballot-reset-yes').addEventListener('click',()=>{state={choices:{},county:'',boe:''};save();showReset(false)});
+  document.getElementById('ballot-reset-yes').addEventListener('click',()=>{state={choices:{},county:'',boe:'',local:{}};save();showReset(false)});
   window.addEventListener('storage',e=>{if(e.key===ballotKey||e.key===null){readBallot();render()}});
   document.getElementById('jump').addEventListener('click',e=>{
     const a=e.target.closest('a');if(!a)return;

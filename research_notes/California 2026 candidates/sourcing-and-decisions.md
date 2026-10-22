@@ -66,3 +66,41 @@ Research snapshot: October 21, 2026. Page: `ca-2026-candidates/index.html`.
 - Becerra's congressional votes on taxes: not yet reviewed.
 - Allen's SB 1301 nonrenewal notice period: confirm against the enacted text.
 - Refresh money totals and polls after the next filing deadline.
+
+## Santa Clara County local races (added Oct 21, 2026)
+
+Districts on the ballot come from the certified June 2 primary results:
+- U.S. House: `76-us-rep.pdf`
+- State Senate: `90-state-senator.pdf`
+- State Assembly: `95-state-assembly.pdf`
+
+Candidate names and ballot designations come from the certified November list.
+
+- **U.S. House:**
+  - Districts: CD16 (Liccardo v. Soulé), CD17 (Khanna v. Tandon), CD18 (Lofgren v. Lewis), CD19 (Panetta v. Verbica).
+  - Prop 50 maps changed the Santa Clara County lines only slightly (San Jose Spotlight).
+  - House votes come from clerk.house.gov roll calls, and money comes from FEC.
+- **State Senate:**
+  - SD10 (Sakakihara v. Price) is the only even-numbered Senate district in the county, and the seat is empty since Wahab went to Congress.
+  - SD13 and SD15 are not up this year.
+- **State Assembly:** AD23, 24, 25, 26, 28 and 29. Incumbent bill records come from CalMatters Digital Democracy and the members' own pages, which list mostly wins. Vetoes and failures are included where found.
+- **County offices:**
+  - No Board of Supervisors, DA, Sheriff, Assessor or judge contests are on the November ballot; all were decided in June.
+  - Source: Registrar data reposted by Local News Matters. vote.santaclaracounty.gov blocked automated access.
+- **San Jose City Council:** runoffs only in Districts 5, 7 and 9. San Jose has no city measure in November; the hotel tax was on the June ballot.
+- **Measures:**
+  - The Regional Transit Measure (0.5% sales tax, 14 years) is countywide.
+  - The vote threshold was confirmed by only one source, so the page does not state it.
+  - School parcel tax and bond measures (O, P, Q, R) are mentioned only as "check your sample ballot."
+- **District areas:** the areas shown are approximate city lists. The page tells voters to confirm their districts with My Voter Status or their sample ballot.
+
+Left out on purpose:
+- Sealed, unverified group-text allegations about Ortiz.
+- Pending defamation suits and counter-allegations between Doan and Le, which are civil claims with no findings.
+- Khanna's stock-trade count (Washington Examiner only).
+- Tandon's claim about undocumented residents (unsupported).
+- Campaign claims about opponents.
+
+Open items:
+- Money totals for most Assembly candidates could not be confirmed (Cal-Access blocked).
+- No local debates or polls were found.
