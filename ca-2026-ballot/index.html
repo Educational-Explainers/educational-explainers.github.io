@@ -116,7 +116,7 @@
       <div class="dateline">California · General Election</div>
       <h1>14 propositions.<br>One clear page.</h1>
       <p class="hero-deck">What a Yes or No vote does, the strongest case on each side, partisan coalition signals, and fiscal scale—without telling you how to vote.</p>
-      <div class="hero-meta"><span><b>Election day</b> Tuesday, November 3, 2026</span><span><b>Budget baseline</b> $251.5B General Fund</span><span><b>Research snapshot</b> October 5, 2026</span></div>
+      <div class="hero-meta"><span><b>Election day</b> Tuesday, November 3, 2026</span><span><b>State main budget</b> $251.5B</span><span><b>Research snapshot</b> October 5, 2026</span></div>
       <a class="watch-all" href="https://www.youtube.com/playlist?list=PLPjaSfrIKaIU" target="_blank" rel="noopener">Watch all 14 full-length explainers on YouTube ↗</a>
       <p><a href="#my-ballot">Build my personal voting checklist ↓</a></p>
       <div class="snapshot"><strong>Read this first:</strong> party-lean labels describe the coalitions backing and opposing a measure, not the content of the measure itself. Polls are snapshots, not predictions. <a class="key-link" href="#sources-and-terms">Glossary &amp; sources ↓</a></div>
@@ -126,32 +126,32 @@
   <main class="wrap">
     <section class="budget-summary" aria-labelledby="fiscal-overview-title">
       <div class="summary-heading">
-        <div><div class="section-label">FISCAL OVERVIEW</div><h2 id="fiscal-overview-title">What the ballot costs—against California’s budget</h2></div>
-        <p>Bond authorizations, yearly costs, and new revenue are different things. This summary keeps those scales separate.</p>
+        <div><div class="section-label">THE STATE BUDGET</div><h2 id="fiscal-overview-title">How big are these costs next to the state budget?</h2></div>
+        <p>Borrowing, yearly costs, and new tax money are different things. We show them apart so they don’t get mixed up.</p>
       </div>
       <div id="budget-pies" class="budget-pies" aria-label="California budget revenue and spending composition"></div>
       <div class="summary-grid">
         <article class="summary-card">
-          <h3>Largest yearly General Fund effects</h3>
-          <p>The bars compare direct annual costs and Prop 40’s possible revenue loss. Labels show each against General Fund and total state spending.</p>
+          <h3>The biggest yearly costs</h3>
+          <p>Each bar shows what a measure would cost the state each year. Prop 40’s bar is tax money the state could lose. The small print compares each one to the state’s main budget.</p>
           <div id="impact-list" class="impact-list" aria-label="Largest annual proposition costs"></div>
           <div id="impact-note" class="impact-note"></div>
         </article>
         <article class="summary-card">
-          <h3>Big dollar figures that are not yearly costs</h3>
-          <p>These amounts should not be added together: some are borrowing authority, some are revenue, and one is designed to be repaid by borrowers.</p>
+          <h3>Big numbers that are not yearly costs</h3>
+          <p>Don’t add these up. Some are money the state may borrow. Some are tax money coming in. One is paid back by home buyers, not the state.</p>
           <div id="big-numbers" class="big-numbers"></div>
         </article>
       </div>
       <article class="budget-flow-card">
         <div class="budget-flow-head">
-          <div><h3>How the 2026–27 General Fund flows</h3><p>Current-year revenues and transfers do not cover enacted spending on their own. The budget uses prior-year balances and other one-time resources to close the accounting gap.</p></div>
-          <div class="flow-kpis"><div class="flow-kpi"><strong id="revenue-kpi"></strong><span>revenue &amp; transfers</span></div><div class="flow-kpi"><strong id="spending-kpi"></strong><span>enacted spending</span></div><div class="flow-kpi deficit"><strong id="deficit-kpi"></strong><span>operating deficit</span></div></div>
+          <div><h3>Where the main budget’s money comes from and goes</h3><p>This year the state plans to spend more than it takes in. It uses money saved from past years to cover the gap.</p></div>
+          <div class="flow-kpis"><div class="flow-kpi"><strong id="revenue-kpi"></strong><span>money coming in</span></div><div class="flow-kpi"><strong id="spending-kpi"></strong><span>planned spending</span></div><div class="flow-kpi deficit"><strong id="deficit-kpi"></strong><span>yearly shortfall</span></div></div>
         </div>
         <div id="state-sankey" class="state-sankey"></div>
         <div class="deficit-callout"><strong id="deficit-callout-title"></strong><span id="deficit-callout-copy"></span></div>
       </article>
-      <div class="summary-sources"><span>Figures: 2026–27 enacted budget, administration estimates through July 1, 2026.</span><a href="https://lao.ca.gov/Publications/Report/5197" target="_blank" rel="noopener">Legislative Analyst’s Office budget overview ↗</a><a href="https://ebudget.ca.gov/budget/m/2026-27/BudgetDetail" target="_blank" rel="noopener">California 2026–27 budget detail ↗</a></div>
+      <div class="summary-sources"><span>Numbers: the 2026–27 state budget, as of July 1, 2026.</span><a href="https://lao.ca.gov/Publications/Report/5197" target="_blank" rel="noopener">Legislative Analyst’s Office budget overview ↗</a><a href="https://ebudget.ca.gov/budget/m/2026-27/BudgetDetail" target="_blank" rel="noopener">California 2026–27 budget detail ↗</a></div>
     </section>
 
     <section id="ballot-guide" class="overview" aria-label="Ballot overview">
@@ -256,8 +256,8 @@
     revenueSources:[
       {label:'Personal income tax',value:145.609},
       {label:'Corporation tax',value:45.167},
-      {label:'Sales & use tax',value:35.598},
-      {label:'Insurance + other revenue',value:10.986}
+      {label:'Sales & use tax',show:'Sales tax',value:35.598},
+      {label:'Insurance + other revenue',show:'Insurance tax + other',value:10.986}
     ],
     netTransfers:-10.605,
     annualResources:226.754,
@@ -265,31 +265,31 @@
       {label:'Health & Human Services',value:93.675003},
       {label:'K–12 education',value:91.091750},
       {label:'Higher education',value:26.691050},
-      {label:'Corrections',value:14.447846},
-      {label:'Government operations, courts & other',value:16.553565},
+      {label:'Corrections',show:'Prisons (Corrections)',value:14.447846},
+      {label:'Government operations, courts & other',show:'Courts, government & other',value:16.553565},
       {label:'Other agencies & programs',value:9.018000}
     ],
     allFunds:[
-      {label:'General Fund',value:251.477,color:'var(--blue)'},
-      {label:'Special funds',value:95.129,color:'var(--green)'},
-      {label:'Bond funds',value:5.104,color:'var(--gold)'},
-      {label:'Federal funds',value:187.190,color:'var(--red)'}
+      {label:'General Fund',show:'Main budget (General Fund)',value:251.477,color:'var(--blue)'},
+      {label:'Special funds',show:'Funds for set purposes',value:95.129,color:'var(--green)'},
+      {label:'Bond funds',show:'Borrowed money (bonds)',value:5.104,color:'var(--gold)'},
+      {label:'Federal funds',show:'Money from the federal government',value:187.190,color:'var(--red)'}
     ],
     operatingDeficit:18.5
   };
   const annualImpacts=[
-    {prop:40,low:0,high:1,label:'Potential ongoing revenue loss under $1B / year',uncertain:true},
-    {prop:1,low:.5,high:.6,label:'$500–600M / year'},
-    {prop:38,low:.5,high:.6,label:'$500–600M / year'},
-    {prop:39,high:.3,approx:true,label:'Tens to low hundreds of millions / year',pctText:'LAO: under 0.25% of GF · state + local'},
-    {prop:45,high:.11,approx:true,label:'High tens of millions; may top $100M / year',pctText:'LAO gives no exact range · state + local, first years'}
+    {prop:40,low:0,high:1,label:'Could lose under $1B a year in tax money',uncertain:true},
+    {prop:1,low:.5,high:.6,label:'$500–600M a year'},
+    {prop:38,low:.5,high:.6,label:'$500–600M a year'},
+    {prop:39,high:.3,approx:true,label:'Tens to low hundreds of millions a year',pctText:'LAO: under 0.25% of the main budget · state and local costs'},
+    {prop:45,high:.11,approx:true,label:'High tens of millions a year; maybe over $100M',pctText:'No exact range given · state and local costs, first years'}
   ];
   const largeFiscalEffects=[
-    {prop:37,amount:25,prefix:'Up to ',kind:'Revenue-bond authority',note:'Borrower-repaid; LAO finds no direct state or local cost.'},
-    {prop:1,amount:11.25,kind:'General-obligation bond',note:'Housing authorization; General Fund repays most debt service.'},
-    {prop:38,amount:8.4,kind:'General-obligation bond',note:'Research authorization; General Fund debt service.'},
-    {prop:3,range:[5,15],suffix:'/yr',kind:'Revenue maintained after 2031',note:'Keeps current high-income tax rates rather than creating a present-day increase.',revenue:true},
-    {prop:40,text:'Tens of billions',kind:'Potential one-time revenue',note:'Collected over several years only if Prop 40 wins its conflict with Props 41 and 42.',revenue:true}
+    {prop:37,amount:25,prefix:'Up to ',kind:'Most it can borrow (revenue bond)',note:'Home buyers pay it back. The LAO says there is no direct cost to the state or local governments.'},
+    {prop:1,amount:11.25,kind:'State borrowing (bond)',note:'For housing. The main budget pays back most of it.'},
+    {prop:38,amount:8.4,kind:'State borrowing (bond)',note:'For research. The main budget pays it back.'},
+    {prop:3,range:[5,15],suffix:'/yr',kind:'Tax money kept each year after 2031',note:'Keeps today’s tax rates on top earners. It does not raise them.',revenue:true},
+    {prop:40,text:'Tens of billions',kind:'Possible one-time tax money',note:'Paid over several years. Courts could cancel it if Prop 41 or 42 passes with more Yes votes.',revenue:true}
   ];
   const sum=arr=>arr.reduce((total,item)=>total+item.value,0);
   const totalSpending=sum(budget2026.spending);
@@ -301,27 +301,29 @@
   const pct=value=>`${(value/totalSpending*100).toFixed(2)}%`;
   const pctState=value=>`${(value/totalStateSpending*100).toFixed(2)}%`;
   const pctAll=value=>`${(value/totalAllFunds*100).toFixed(2)}%`;
+  const californiansM=39.592978;
+  const perPerson=value=>`$${Math.round(value*1000/californiansM)}`;
   const chartColors=['var(--blue)','var(--red)','var(--gold)','var(--green)'];
   function donutCard(title,subtitle,data,total,foot){
     const r=64,c=2*Math.PI*r;
     let offset=0;
     const slices=data.map((d,i)=>{const len=d.value/total*c,markup=`<circle class="donut-slice" cx="90" cy="90" r="${r}" stroke="${d.color||chartColors[i%chartColors.length]}" stroke-dasharray="${len.toFixed(2)} ${(c-len).toFixed(2)}" stroke-dashoffset="${(-offset).toFixed(2)}"/>`;offset+=len;return markup}).join('');
-    const legend=data.map((d,i)=>`<div class="pie-key"><span class="pie-swatch" style="background:${d.color||chartColors[i%chartColors.length]}"></span><b>${d.label}</b><span>${moneyB(d.value)} · ${(d.value/total*100).toFixed(1)}%</span></div>`).join('');
+    const legend=data.map((d,i)=>`<div class="pie-key"><span class="pie-swatch" style="background:${d.color||chartColors[i%chartColors.length]}"></span><b>${d.show||d.label}</b><span>${moneyB(d.value)} · ${(d.value/total*100).toFixed(1)}%</span></div>`).join('');
     return `<article class="summary-card pie-card"><svg class="donut" viewBox="0 0 180 180" role="img" aria-label="${title}: ${moneyB(total)} total"><circle class="donut-bg" cx="90" cy="90" r="${r}"/>${slices}<text class="donut-total" x="90" y="88">${moneyB(total)}</text><text class="donut-sub" x="90" y="105">${subtitle}</text></svg><div><h3>${title}</h3><div class="pie-legend">${legend}</div></div><p class="pie-foot">${foot}</p></article>`;
   }
   function renderSummary(){
     const revenueData=budget2026.revenueSources.map((d,i)=>({...d,color:chartColors[i]}));
-    document.getElementById('budget-pies').innerHTML=donutCard('Where General Fund revenue comes from','gross revenue',revenueData,grossRevenue,`After ${moneyB(Math.abs(budget2026.netTransfers))} in net transfers and loans, current-year resources are ${moneyB(budget2026.annualResources)}.`)+donutCard('State + federal all-funds budget','all funds',budget2026.allFunds,totalAllFunds,`State spending alone—General Fund plus special funds—is ${moneyB(totalStateSpending)}; bond and federal funds bring the all-funds total to ${moneyB(totalAllFunds)}.`);
+    document.getElementById('budget-pies').innerHTML=donutCard('Where the main budget’s money comes from','money in',revenueData,grossRevenue,`After ${moneyB(Math.abs(budget2026.netTransfers))} moves to other state accounts and loan payments, ${moneyB(budget2026.annualResources)} is left for this year.`)+donutCard('All state and federal money','all money',budget2026.allFunds,totalAllFunds,`The state’s own money (main budget plus funds for set purposes) is ${moneyB(totalStateSpending)}. Adding borrowed and federal money brings the total to ${moneyB(totalAllFunds)}.`);
     const maxImpact=Math.max(...annualImpacts.map(d=>d.high));
-    document.getElementById('impact-list').innerHTML=annualImpacts.map(d=>`<div class="impact-row"><div class="impact-label">Prop ${d.prop}</div><div class="impact-track" aria-hidden="true"><div class="impact-bar${d.approx?' approx':''}" style="width:${(d.high/maxImpact*100).toFixed(1)}%"></div></div><div class="impact-value"><b>${d.label}</b>${d.pctText?d.pctText:`${d.low?`${pct(d.low)}–`:d.uncertain?'under ':''}${pct(d.high)} GF · ${d.uncertain?'under ':''}${pctState(d.high)} state`}</div></div>`).join('');
+    document.getElementById('impact-list').innerHTML=annualImpacts.map(d=>`<div class="impact-row"><div class="impact-label">Prop ${d.prop}</div><div class="impact-track" aria-hidden="true"><div class="impact-bar${d.approx?' approx':''}" style="width:${(d.high/maxImpact*100).toFixed(1)}%"></div></div><div class="impact-value"><b>${d.label}</b>${d.pctText?d.pctText:`${d.low?`${pct(d.low)}–`:d.uncertain?'under ':''}${pct(d.high)} of the main budget${d.uncertain?'':` · about ${d.low?`${perPerson(d.low)}–`:''}${perPerson(d.high)} per Californian`}`}</div></div>`).join('');
     const maxDirectCost=Math.max(...annualImpacts.filter(d=>!d.uncertain).map(d=>d.high));
-    document.getElementById('impact-note').innerHTML=`<b>Two scales:</b> the largest direct annual cost shown is ${moneyB(maxDirectCost)} (${pct(maxDirectCost)} of General Fund; ${pctState(maxDirectCost)} of state spending; ${pctAll(maxDirectCost)} of all funds including federal money). Prop 40 separately carries an uncertain ongoing revenue-loss risk below ${moneyB(maxImpact)} a year. Faded bars for Props 39 and 45 are rough sizes drawn from LAO wording; the LAO gave no exact dollar range.`;
+    document.getElementById('impact-note').innerHTML=`<b>To picture it:</b> The biggest yearly cost here is $${Math.round(maxDirectCost*1000)}M. That is ${pct(maxDirectCost)} of the main budget, or about ${perPerson(maxDirectCost)} per Californian a year. Prop 40’s possible loss is under ${moneyB(maxImpact)} a year, but no one knows the exact amount. The faded bars for Props 39 and 45 are rough sizes, because the LAO gave no exact numbers for them.`;
     document.getElementById('big-numbers').innerHTML=largeFiscalEffects.map(d=>{const amount=d.text||(d.range?`${moneyB(d.range[0])}–${moneyB(d.range[1])}`:`${d.prefix||''}${moneyB(d.amount)}`)+(d.suffix||'');return `<div class="big-number${d.revenue?' revenue':''}"><strong>${amount}</strong><div><b>Prop ${d.prop} · ${d.kind}</b><span>${d.note}</span></div></div>`}).join('');
     document.getElementById('revenue-kpi').textContent=moneyB(budget2026.annualResources);
     document.getElementById('spending-kpi').textContent=moneyB(totalSpending);
     document.getElementById('deficit-kpi').textContent=moneyB(budget2026.operatingDeficit);
-    document.getElementById('deficit-callout-title').textContent=`${moneyB(budget2026.operatingDeficit)} operating deficit`;
-    document.getElementById('deficit-callout-copy').textContent=`The Legislative Analyst’s Office (LAO) rounds the administration’s $18.3B estimate to $18.5B. It says the enacted budget is balanced cumulatively, but 2026–27 ongoing revenues fall short of ongoing spending. That structural gap is not the same as the simple ${moneyB(balanceUse)} difference between this year’s revenues and transfers and total appropriations.`;
+    document.getElementById('deficit-callout-title').textContent=`${moneyB(budget2026.operatingDeficit)} yearly shortfall`;
+    document.getElementById('deficit-callout-copy').textContent=`Money that comes in every year falls short of money spent every year. The LAO calls this an operating deficit. It rounds the state’s $18.3B estimate to $18.5B. The budget still balances overall because it uses savings. The ${moneyB(balanceUse)} gap in the chart is different: it is just this year’s spending minus this year’s money in.`;
     document.getElementById('state-sankey').innerHTML=stateBudgetSvg()+stateBudgetMobile();
   }
   function stateBudgetSvg(){
@@ -345,14 +347,14 @@
     let outOffset=0;
     spend.forEach(n=>{links+=curve(available.x+nodeW,available.y+outOffset+n.value*scale/2,n.x,n.y+n.h/2,n.value);outOffset+=n.value*scale});
     const node=(n,title,sub,klass='')=>`<g><rect class="state-node ${klass}" x="${n.x}" y="${n.y}" width="${n.w||nodeW}" height="${n.h}" rx="3"/><text class="state-label" x="${n.x+9}" y="${n.y+16}">${title}</text><text class="state-sub" x="${n.x+9}" y="${n.y+30}">${sub}</text></g>`;
-    const revNodes=rev.map(n=>node(n,n.label,moneyB(n.value))).join('');
-    const spendNodes=spend.map(n=>node(n,n.label,moneyB(n.value))).join('');
-    return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="state-flow-title state-flow-desc"><title id="state-flow-title">California 2026–27 General Fund revenue and spending flow</title><desc id="state-flow-desc">Revenue sources total ${moneyB(grossRevenue)} before net transfers and loans. Current-year revenues and transfers total ${moneyB(budget2026.annualResources)}. Together with ${moneyB(balanceUse)} from prior-year balances and other resources, they fund ${moneyB(totalSpending)} in enacted spending across six grouped program areas.</desc><text class="state-col" x="${revX}" y="18">GROSS REVENUE</text><text class="state-col" x="${poolX}" y="18">POOL &amp; BALANCE</text><text class="state-col" x="${totalX}" y="18">AVAILABLE</text><text class="state-col" x="${spendX}" y="18">ENACTED SPENDING</text>${links}${revNodes}${node(gross,'Gross revenue',moneyB(grossRevenue),'total')}${node(balance,'Balance + other resources',moneyB(balanceUse),'balance')}${node(available,'Total General Fund',moneyB(totalSpending),'total')}${node(transfer,'Net transfers / loans',`−${moneyB(Math.abs(budget2026.netTransfers))}`,'out')}${spendNodes}</svg>`;
+    const revNodes=rev.map(n=>node(n,n.show||n.label,moneyB(n.value))).join('');
+    const spendNodes=spend.map(n=>node(n,n.show||n.label,moneyB(n.value))).join('');
+    return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="state-flow-title state-flow-desc"><title id="state-flow-title">Where California’s 2026–27 main budget money comes from and goes</title><desc id="state-flow-desc">Taxes and other money bring in ${moneyB(grossRevenue)}. After money moved to other accounts, ${moneyB(budget2026.annualResources)} is left for this year. With ${moneyB(balanceUse)} from savings and other one-time money, the state plans to spend ${moneyB(totalSpending)} across six areas.</desc><text class="state-col" x="${revX}" y="18">MONEY IN</text><text class="state-col" x="${poolX}" y="18">PLUS SAVINGS</text><text class="state-col" x="${totalX}" y="18">TOTAL TO SPEND</text><text class="state-col" x="${spendX}" y="18">WHERE IT GOES</text>${links}${revNodes}${node(gross,'All money in',moneyB(grossRevenue),'total')}${node(balance,'Savings + one-time money',moneyB(balanceUse),'balance')}${node(available,'Total main budget',moneyB(totalSpending),'total')}${node(transfer,'Moved to other accounts',`−${moneyB(Math.abs(budget2026.netTransfers))}`,'out')}${spendNodes}</svg>`;
   }
   function stateBudgetMobile(){
-    const rev=budget2026.revenueSources.map(d=>`<div class="state-mobile-node">${d.label}<span>${moneyB(d.value)}</span></div>`).join('');
-    const spend=budget2026.spending.map(d=>`<div class="state-mobile-node">${d.label}<span>${moneyB(d.value)} · ${(d.value/totalSpending*100).toFixed(1)}%</span></div>`).join('');
-    return `<div class="state-mobile" aria-hidden="true"><div class="state-mobile-stage"><div class="state-mobile-title">GROSS REVENUE · ${moneyB(grossRevenue)}</div>${rev}<div class="state-mobile-node">Net transfers / loans<span>−${moneyB(Math.abs(budget2026.netTransfers))}</span></div></div><div class="state-mobile-arrow">↓</div><div class="state-mobile-stage"><div class="state-mobile-title">AVAILABLE TO SPEND</div><div class="state-mobile-node">Revenue &amp; transfers<span>${moneyB(budget2026.annualResources)}</span></div><div class="state-mobile-node">Balance + other resources<span>${moneyB(balanceUse)} accounting bridge</span></div></div><div class="state-mobile-arrow">↓</div><div class="state-mobile-stage"><div class="state-mobile-title">ENACTED SPENDING · ${moneyB(totalSpending)}</div>${spend}</div></div>`;
+    const rev=budget2026.revenueSources.map(d=>`<div class="state-mobile-node">${d.show||d.label}<span>${moneyB(d.value)}</span></div>`).join('');
+    const spend=budget2026.spending.map(d=>`<div class="state-mobile-node">${d.show||d.label}<span>${moneyB(d.value)} · ${(d.value/totalSpending*100).toFixed(1)}%</span></div>`).join('');
+    return `<div class="state-mobile" aria-hidden="true"><div class="state-mobile-stage"><div class="state-mobile-title">MONEY IN · ${moneyB(grossRevenue)}</div>${rev}<div class="state-mobile-node">Moved to other accounts<span>−${moneyB(Math.abs(budget2026.netTransfers))}</span></div></div><div class="state-mobile-arrow">↓</div><div class="state-mobile-stage"><div class="state-mobile-title">TOTAL TO SPEND</div><div class="state-mobile-node">Money for this year<span>${moneyB(budget2026.annualResources)}</span></div><div class="state-mobile-node">Savings + one-time money<span>${moneyB(balanceUse)} from past years</span></div></div><div class="state-mobile-arrow">↓</div><div class="state-mobile-stage"><div class="state-mobile-title">WHERE IT GOES · ${moneyB(totalSpending)}</div>${spend}</div></div>`;
   }
   renderSummary();
 
@@ -363,7 +365,7 @@
   const props = [
     {n:1,cat:['housing','taxes'],title:'Borrow money for housing',one:'The state would borrow $11.25B to build lower-cost homes and help people buy homes. Part of it is for veteran home loans.',yes:'The state can borrow $11.25B. $10B goes to housing programs. $1.25B goes to home loans for veterans.',no:'The state cannot borrow this money.',you:'No new tax. The state pays back the $10B, plus interest, from its main budget. Veterans pay back their part through their home loans.',cost:'About $500–600M a year for about 25 years. That is about $13–15 per Californian each year.',lean:'Democratic-leaning support; conservative opposition',type:'Bond (state borrowing) · paid back yearly',poll:[55,43,'PPIC, Sept. 2026',2],pros:['Pays for tens of thousands of lower-cost homes and home loans.','The state has used bonds like this before. Veterans pay back their own loans.'],cons:['The state pays it back, with interest, for about 25 years.','It does not fix the high cost of land and building, which drive up prices.'],sos:'https://voterguide.sos.ca.gov/propositions/1',lao:'https://lao.ca.gov/ballot/2026/prop1-110326.pdf'},
     {n:2,cat:['taxes'],title:'Bigger savings fund for hard times',one:'The state would save more money for bad years. It would also keep paying extra on its debts until 2040.',yes:'The state can save up to 20% of its tax money in its rainy-day fund, up from 10%. Extra debt payments go on until 2040, not 2030.',no:'The current rules stay. Savings are capped at 10%, and extra debt payments end in 2030.',you:'No new tax. It changes how the state saves money it already collects.',cost:'No set dollar amount. It depends on future tax money. Today the state has about $20B in savings it can use.',lean:'Democratic-led, with labor and business support; conservative opposition',type:'Budget rules · no new tax',poll:[60,39,'PPIC, Sept. 2026',1],pros:['More savings can protect schools, health care, and safety programs when times are bad.','Paying debts down sooner can cut future interest costs.'],cons:['Money put in savings cannot be spent on services now.','Saved money would not count toward the state spending cap. That could make tax refunds less likely.'],sos:'https://voterguide.sos.ca.gov/propositions/2/',lao:'https://lao.ca.gov/BallotAnalysis/Proposition?number=2&year=2026'},
-    {n:3,cat:['taxes'],title:'Keep today’s top income-tax rates',one:'Higher tax rates on the richest 2% are set to end in 2031. This would keep them for good.',yes:'The higher tax rates on the top 2% of earners never end.',no:'Those higher rates end in 2031.',you:'If you are not in the top 2% of earners, your tax rate does not change either way. No one’s rate changes before 2031.',cost:'Keeps $5–15B a year coming in, starting in 2031. That is about 2–6% of today’s main state budget. About 40% would go to schools and community colleges.',lean:'Democratic / education-labor support; taxpayer and business opposition',type:'Tax money · ongoing',poll:[54,34,'Berkeley IGS, Sept. 2026',13],alt:'PPIC (Sept. 4–10): 58% Yes, 40% No',pros:['Avoids a big money gap for schools, health care, and savings in 2031.','Keeps rates where they are now. It does not raise them.'],cons:['Makes a tax that was sold as short-term last forever.','The state would depend more on a small group of rich people whose income goes up and down a lot.'],sos:'https://voterguide.sos.ca.gov/propositions/3/title-summary.htm',lao:'https://lao.ca.gov/ballot/2026/prop3-110326.pdf'},
+    {n:3,cat:['taxes'],title:'Keep today’s top income-tax rates',one:'Higher tax rates on very high incomes are set to end in 2031. This would keep them for good. About the top 2% of taxpayers pay them.',yes:'The higher tax rates never end. They apply to taxable income over about $371,000 a year for single filers, $505,000 for heads of household, and $742,000 for married couples filing together.',no:'Those higher rates end in 2031.',you:'Check your taxable income (income after deductions) on your state tax return. If it is under the amounts above, nothing changes for you either way. If it is over, only the part above the line pays the higher rate. These are 2025 amounts and go up with prices each year. No one’s rate changes before 2031.',cost:'Keeps $5–15B a year coming in, starting in 2031. That is about 2–6% of today’s main state budget. About 40% would go to schools and community colleges.',lean:'Democratic / education-labor support; taxpayer and business opposition',type:'Tax money · ongoing',poll:[54,34,'Berkeley IGS, Sept. 2026',13],alt:'PPIC (Sept. 4–10): 58% Yes, 40% No',pros:['Avoids a big money gap for schools, health care, and savings in 2031.','Keeps rates where they are now. It does not raise them.'],cons:['Makes a tax that was sold as short-term last forever.','The state would depend more on a small group of rich people whose income goes up and down a lot.'],sos:'https://voterguide.sos.ca.gov/propositions/3/title-summary.htm',lao:'https://lao.ca.gov/ballot/2026/prop3-110326.pdf'},
     {n:4,cat:['elections'],title:'Allow public money for campaigns',one:'California bans using public money to help pay for election campaigns. This would end that ban.',yes:'The state, cities, and counties may set up programs that give public money to candidates who follow spending rules. Candidates choose whether to take part.',no:'The ban stays. Only charter cities and charter counties may have programs like this.',you:'Nothing happens right away. The state, a city, or a county would have to pass its own program first.',cost:'A few hundred thousand dollars a year for state guidance. The cost of any future program is not known.',lean:'Democratic / reform-group support; conservative / taxpayer opposition',type:'Election rules · small direct cost',poll:[42,53,'PPIC, Sept. 2026',5],alt:'Berkeley IGS (Sept. 15–20): 35% Yes, 35% No, 30% undecided',pros:['Could give small donors more say and make candidates rely less on big donors.','Money set aside for schools, roads, and public safety cannot be used.'],cons:['Tax money would go to political campaigns.','This measure sets no total limit on what future programs could cost.'],sos:'https://voterguide.sos.ca.gov/propositions/4/',lao:'https://lao.ca.gov/ballot/2026/prop4-110326.pdf'},
     {n:5,cat:['elections'],title:'Change how recall elections work',one:'In a recall today, you vote on removing an official and pick a replacement on the same ballot. This would drop the second question.',yes:'You only vote on whether to remove the official. If the governor is removed, the lieutenant governor takes over. Other jobs are filled by appointment or a later election. The removed person cannot be appointed back.',no:'Recall ballots keep both questions: remove the official, and who should replace them.',you:'Recalls are rare. If one happens, you would not pick the replacement on that ballot. It covers state officials like the governor, and state lawmakers too.',cost:'Unknown. It could save or cost a few million dollars when a recall happens.',lean:'Democratic / good-government support; Republican opposition',type:'Election rules · rare cost',poll:[35,59,'PPIC, Sept. 2026',5],pros:['Stops someone from winning the job with a small share of votes in a crowded race.','Makes the recall ballot simpler.'],cons:['Voters no longer pick the replacement on the recall ballot.','An appointed person or a later election gives voters less say right away.'],sos:'https://voterguide.sos.ca.gov/propositions/5/',lao:'https://lao.ca.gov/ballot/2026/prop5-110326.pdf'},
     {n:37,cat:['housing'],title:'Loans to help middle-income buyers',one:'A state agency could borrow up to $25B to give second home loans to people buying newly built homes. Buyers pay it back.',yes:'The state housing agency (CalHFA) can offer a second loan of up to 17% of the price of a qualifying new home. This helps with the down payment.',no:'This loan program is not created.',you:'If you buy a qualifying new home, you could get help with the down payment. You would pay it back as a second loan.',cost:'No direct cost to the state or local governments, the LAO says. Home buyers repay the bonds. $25B is the most that can be borrowed.',lean:'Mostly Democratic coalition; opposition crosses party lines',type:'Revenue bonds · buyers repay',poll:[61,35,'PPIC, Sept. 2026',3],pros:['Helps with the down payment, a big barrier for buyers, without using the state budget.','Only new homes qualify, so the help is tied to building more homes.'],cons:['Buyers take on a second loan. More buyers could push prices up more than it adds homes.','Low interest rates are not promised, and some buyers may not pay back.'],sos:'https://voterguide.sos.ca.gov/propositions/37/',lao:'https://lao.ca.gov/BallotAnalysis/Proposition?number=37&year=2026'},
