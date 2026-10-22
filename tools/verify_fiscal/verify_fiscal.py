@@ -309,10 +309,10 @@ def main() -> int:
             "Operating-deficit arithmetic",
             f"251,477 − (226,754 + 6,388) = {dof_deficit} million dollars",
         )
-    if deficit == gf["operating_deficit"]["lao_prose_billions"] and "rounds the administration’s $18.3B estimate to $18.5B" in html:
+    if deficit == gf["operating_deficit"]["lao_prose_billions"] and "rounds the state’s $18.3B estimate to $18.5B" in html:
         checks.ok(
             "Operating deficit displayed as $18.5B",
-            "The page attributes $18.5B to the LAO's rounding of the administration's $18.3B estimate",
+            "The page attributes $18.5B to the LAO's rounding of the state's $18.3B estimate",
         )
     elif deficit == gf["operating_deficit"]["lao_prose_billions"]:
         checks.warn(
