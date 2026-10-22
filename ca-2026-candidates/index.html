@@ -1,0 +1,968 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-74MZ9ES5M0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-74MZ9ES5M0');
+  </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="California's statewide candidates for November 3, 2026: what each one says they will do, and what they have actually done on those issues. Sourced, plain language, no endorsements." />
+  <link rel="icon" href="data:," />
+  <title>California 2026 Candidates Explainer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,650;8..60,760&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      color-scheme:light dark;
+      --paper:#f7f4ec;--sheet:#fffdf8;--ink:#17211d;--muted:#58635e;--line:#d8d4c9;
+      --red:#b63a2b;--red-soft:#f6e2dc;--blue:#205d7a;--blue-soft:#dfeef3;--gold:#d39a25;--gold-soft:#f6ecd5;
+      --green:#267252;--green-soft:#e2f0e8;--purple:#5d4a86;--purple-soft:#ebe6f3;--shadow:0 16px 44px rgba(35,39,35,.08);
+    }
+    @media(prefers-color-scheme:dark){
+      :root{--paper:#101512;--sheet:#18201c;--ink:#f3f0e7;--muted:#b9c2bc;--line:#354039;
+        --red:#ef7c69;--red-soft:#412821;--blue:#78bddc;--blue-soft:#1b3642;--gold:#e9b955;--gold-soft:#3b3020;
+        --green:#71c69d;--green-soft:#1c392d;--purple:#b7a6e0;--purple-soft:#2c2640;--shadow:0 18px 48px rgba(0,0,0,.28)}
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.55}
+    button{font:inherit} a{color:var(--blue);text-underline-offset:3px} :focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+    .wrap{width:min(1120px,calc(100% - 36px));margin-inline:auto}
+    .hero{padding:clamp(42px,7vw,88px) 0 34px;border-bottom:1px solid var(--line);position:relative;overflow:hidden}
+    .hero:after{content:"";position:absolute;right:-90px;bottom:-125px;width:340px;height:340px;border:50px solid var(--blue);border-radius:50%;opacity:.08;pointer-events:none}
+    .dateline{display:flex;align-items:center;gap:10px;color:var(--red);font-weight:700;font-size:.84rem;letter-spacing:.04em;margin-bottom:14px}
+    .dateline:before{content:"";width:34px;height:3px;background:var(--red)}
+    h1,h2,h3,h4{font-family:"Source Serif 4",serif;line-height:1.1;margin:0}
+    h1{font-size:clamp(2.55rem,7vw,5.4rem);max-width:860px;letter-spacing:-.045em}
+    .hero-deck{font-size:clamp(1.05rem,2vw,1.3rem);max-width:760px;margin:20px 0 0;color:var(--muted)}
+    .hero-meta{display:flex;flex-wrap:wrap;gap:18px;margin-top:28px;color:var(--muted);font-size:.9rem}.hero-meta b{color:var(--ink)}
+    .hero-links{display:flex;flex-wrap:wrap;gap:18px;margin-top:18px;font-weight:700}
+    .snapshot{background:var(--blue-soft);border-left:5px solid var(--blue);padding:13px 16px;margin:26px 0 0;max-width:850px;font-size:.9rem}.snapshot strong{color:var(--blue)}
+    .section-label{font-size:.78rem;font-weight:700;color:var(--red);letter-spacing:.06em;margin-bottom:8px}
+    .howto{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:28px 0 6px}
+    .card{background:var(--sheet);border:1px solid var(--line);box-shadow:var(--shadow);padding:22px;border-radius:4px 20px 4px 4px}
+    .card h2{font-size:1.55rem;margin-bottom:10px}.card p{margin:0 0 10px;color:var(--muted);font-size:.92rem}
+    .legend{display:grid;gap:9px;margin:0;padding:0;list-style:none}.legend li{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:start;font-size:.86rem;color:var(--muted)}
+    .badge{display:inline-block;font-size:.7rem;font-weight:700;padding:3px 8px;border-radius:999px;white-space:nowrap;letter-spacing:.02em}
+    .badge.did{background:var(--green-soft);color:var(--green)}.badge.changed{background:var(--gold-soft);color:var(--ink)}.badge.none{background:var(--paper);color:var(--muted);border:1px solid var(--line)}.badge.disputed{background:var(--purple-soft);color:var(--purple)}.badge.unchecked{background:transparent;color:var(--muted);border:1px dashed var(--line)}
+    .tools{padding:30px 0 10px}.tools h2{font-size:clamp(2rem,4vw,3rem);letter-spacing:-.025em}.tools p{margin:6px 0 0;color:var(--muted)}
+    .jump{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 22px}
+    .jump a{border:1px solid var(--line);color:var(--ink);padding:8px 13px;border-radius:999px;font-size:.86rem;font-weight:600;text-decoration:none;background:var(--sheet)}
+    .jump a:hover{border-color:var(--ink)}
+    .race{background:var(--sheet);border:1px solid var(--line);border-radius:4px;margin-bottom:16px;scroll-margin-top:12px}
+    .race>summary{list-style:none;cursor:pointer;padding:22px;display:block}.race>summary::-webkit-details-marker{display:none}
+    .race-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+    .race-office{font-size:.78rem;font-weight:700;color:var(--red);letter-spacing:.06em;margin-bottom:6px}
+    .race h2{font-size:clamp(1.5rem,3vw,2.1rem)}
+    .race-what{margin:8px 0 0;color:var(--muted);font-size:.95rem;max-width:760px}
+    .chev{width:32px;height:32px;border:1px solid var(--line);display:grid;place-items:center;border-radius:50%;flex:0 0 auto;transition:transform .2s;font-weight:700}.race[open] .chev{transform:rotate(45deg)}
+    .matchup{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:stretch;margin-top:16px}
+    .mini{border:1px solid var(--line);background:var(--paper);padding:12px 14px;border-radius:3px;min-width:0}
+    .mini b{display:block;font-family:"Source Serif 4",serif;font-size:1.2rem}.mini .role{display:block;font-size:.8rem;color:var(--muted)}
+    .vs{align-self:center;color:var(--muted);font-weight:700;font-size:.85rem}
+    .party{display:inline-block;font-size:.7rem;font-weight:700;padding:3px 8px;border-radius:2px;margin:4px 0 4px;background:var(--paper);border:1px solid var(--line)}
+    .party.dem{background:var(--blue-soft);color:var(--blue);border-color:transparent}.party.rep{background:var(--red-soft);color:var(--red);border-color:transparent}.party.np{background:var(--purple-soft);color:var(--purple);border-color:transparent}
+    .race-body{border-top:1px solid var(--line);padding:4px 22px 24px}
+    .note{margin:16px 0 0;padding:12px 14px;background:var(--gold-soft);border-left:4px solid var(--gold);font-size:.88rem}
+    .cands{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
+    .cand{min-width:0;border-top:4px solid var(--line);padding-top:14px}.cand.dem{border-color:var(--blue)}.cand.rep{border-color:var(--red)}.cand.np{border-color:var(--purple)}
+    .cand h3{font-size:1.6rem}.cand .ballot{font-size:.8rem;color:var(--muted);margin:2px 0 0}
+    .cand h4{font-family:"DM Sans",sans-serif;font-size:.74rem;letter-spacing:.06em;color:var(--muted);margin:18px 0 8px;font-weight:700}
+    .bio{margin:0;padding-left:18px;font-size:.88rem}.bio li{margin:0 0 4px}
+    .issue{border:1px solid var(--line);background:var(--paper);border-radius:3px;margin-bottom:10px}
+    .issue>summary{cursor:pointer;padding:11px 13px;display:flex;justify-content:space-between;gap:10px;align-items:center;font-weight:700;font-size:.95rem;list-style:none}.issue>summary::-webkit-details-marker{display:none}
+    .issue>summary:after{content:"+";color:var(--muted);font-weight:700;margin-left:4px}.issue[open]>summary:after{content:"–"}
+    .issue-name{flex:1}
+    .issue-body{padding:0 13px 13px;font-size:.9rem}
+    .says,.record{margin:0 0 10px;padding:10px 12px;background:var(--sheet);border-left:4px solid var(--blue)}.record{border-left-color:var(--green)}
+    .says b,.record b{display:block;font-size:.72rem;letter-spacing:.05em;margin-bottom:3px}.says b{color:var(--blue)}.record b{color:var(--green)}
+    .says p,.record p{margin:0}.record p+p{margin-top:6px}
+    .srcs{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:.76rem}.srcs a{font-weight:700}
+    .know{margin:0;padding-left:18px;font-size:.88rem}.know li{margin-bottom:6px}
+    .facts{display:grid;gap:8px;font-size:.86rem}.facts div{padding:8px 0;border-top:1px solid var(--line)}.facts b{display:block;font-size:.72rem;letter-spacing:.05em;color:var(--muted)}
+    .polls{margin-top:22px;padding-top:16px;border-top:1px solid var(--line)}
+    .polls h4{font-size:1.2rem;margin-bottom:4px}.polls>p{font-size:.84rem;color:var(--muted);margin:0 0 10px}
+    .poll{margin-bottom:12px}.poll-head{display:flex;justify-content:space-between;gap:12px;font-size:.8rem;color:var(--muted);margin-bottom:5px;flex-wrap:wrap}
+    .pollbar{height:12px;background:var(--line);display:flex;border-radius:999px;overflow:hidden}.pollbar span{display:block;height:100%}
+    .pollbar .dem{background:var(--blue)}.pollbar .rep{background:var(--red)}.pollbar .np{background:var(--purple)}.pollbar .np2{background:var(--gold)}
+    .poll-key{display:flex;flex-wrap:wrap;gap:12px;font-size:.78rem;margin-top:5px}
+    .boe{width:100%;table-layout:fixed;border-collapse:collapse;font-size:.88rem;margin-top:14px}.boe th,.boe td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}.boe td{overflow-wrap:break-word}.boe th:first-child{width:22%}.boe th{font-size:.74rem;letter-spacing:.05em;color:var(--muted)}
+    .boe-race{padding:22px}.local{padding:10px 0 6px}
+    .local .card{border-radius:4px 4px 20px 4px;border-top:4px solid var(--blue)}
+    .local ol{margin:8px 0 0;padding-left:20px;font-size:.92rem}.local li{margin-bottom:6px}
+    .method{border-top:1px solid var(--line);margin-top:24px;padding:32px 0 50px}.method-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.method h2{font-size:1.6rem;margin-bottom:8px}.method p,.method li{color:var(--muted);font-size:.9rem}.method ul{margin:8px 0 0;padding-left:18px}
+    .term-list{display:grid;grid-template-columns:1fr 1fr;column-gap:24px;margin:0}.term-list div{padding:9px 0;border-top:1px solid var(--line)}.term-list dt{font-weight:700;font-size:.86rem}.term-list dd{margin:2px 0 0;color:var(--muted);font-size:.8rem}
+    .fineprint{font-size:.78rem;color:var(--muted);margin-top:16px}
+    .race-wrap{margin-bottom:16px;scroll-margin-top:12px}.race-wrap>.race{margin-bottom:0;border-radius:4px 4px 0 0}
+    .personal-choice{background:var(--sheet);border:1px solid var(--line);border-top:0;border-radius:0 0 4px 4px;padding:14px 22px}
+    .personal-choice>span{display:block;font-size:.8rem;font-weight:700;margin-bottom:8px}
+    .choice-buttons{display:flex;flex-wrap:wrap;gap:8px}
+    .choice-buttons button,.ballot-actions button{border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);padding:10px 14px;cursor:pointer;min-height:44px;font-size:.86rem}
+    .choice-buttons button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink);font-weight:700}
+    .my-ballot{margin:22px 0 0;padding:22px;background:var(--sheet);border:1px solid var(--line);border-top:4px solid var(--blue);border-radius:4px}
+    .my-ballot h2{font-size:1.7rem}.my-ballot p{margin:10px 0;font-size:.9rem;color:var(--muted)}
+    .county-row{display:flex;flex-wrap:wrap;gap:12px;align-items:end;margin:14px 0 4px}
+    .county-row label{display:block;font-size:.78rem;font-weight:700;color:var(--muted);margin-bottom:6px}
+    .county-row select{font:inherit;min-height:44px;min-width:240px;max-width:100%;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:4px;padding:8px 10px}
+    .county-info{margin-top:12px;padding:12px 14px;background:var(--blue-soft);border-left:4px solid var(--blue);font-size:.9rem}.county-info:empty{display:none}.county-info p{margin:0 0 6px!important;color:var(--ink)!important}.county-info p:last-child{margin-bottom:0!important}
+    .ballot-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.ballot-actions button:first-child{background:var(--blue);color:var(--sheet);border-color:var(--blue)}
+    #ballot-progress{font-weight:700;color:var(--ink)!important}
+    #checklist-sheet{margin-top:18px}#checklist-sheet table{width:100%;border-collapse:collapse;font-size:.88rem}#checklist-sheet th,#checklist-sheet td{text-align:left;padding:10px 6px;border-bottom:1px solid var(--line);vertical-align:top}#checklist-sheet caption{text-align:left;font-weight:700;margin-bottom:8px}
+    .checklist-sub{display:block;font-weight:400;font-size:.78rem;color:var(--muted)}
+    .boe-mine{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+    .boe-card{border:1px solid var(--line);background:var(--paper);padding:14px;border-radius:3px}.boe-card b{font-family:"Source Serif 4",serif;font-size:1.15rem;display:block}.boe-card .role{display:block;font-size:.8rem;color:var(--muted)}
+    .boe-pick{margin-top:12px;font-size:.88rem}
+    .boe-others{margin-top:14px}.boe-others summary{cursor:pointer;font-weight:700;font-size:.9rem}
+    @media print{body{background:white!important;color:black!important}body>.hero,main.wrap>*:not(.my-ballot){display:none!important}main.wrap{width:100%}.my-ballot{margin:0;padding:0;border:0;background:white;color:black}.my-ballot .ballot-actions,.my-ballot .ballot-help,.county-row,#ballot-storage,#ballot-reset-confirm{display:none!important}#checklist-sheet[hidden]{display:block!important}#checklist-sheet tr{break-inside:avoid}#checklist-sheet th,#checklist-sheet td{padding:7px 4px;border-color:#bbb}.my-ballot p{color:#333}}
+    @media(max-width:780px){.howto,.cands,.method-grid{grid-template-columns:1fr}.hero:after{display:none}.cand+.cand{margin-top:10px}}
+    @media(max-width:520px){.wrap{width:min(100% - 32px,1120px)}h1{font-size:2.6rem}.hero-meta{display:grid;gap:7px}.race>summary{padding:17px 16px}.race-body{padding:4px 16px 20px}.matchup{grid-template-columns:1fr}.vs{justify-self:center}.legend li{grid-template-columns:1fr;gap:3px}.term-list{grid-template-columns:1fr}.boe th:nth-child(4),.boe td:nth-child(4){display:none}.boe-race{padding:17px 14px}.boe th,.boe td{padding:9px 5px}.personal-choice{padding:14px 16px}.boe-mine{grid-template-columns:1fr}.county-row select{min-width:0;width:100%}.county-row>div{width:100%}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.chev{transition:none}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="dateline">California · General Election</div>
+      <h1>Who is running.<br>What they’ve done.</h1>
+      <p class="hero-deck">Your statewide races, one by one. For each candidate: what they say they will do, and what they have really done on those same issues. We don’t tell you how to vote.</p>
+      <div class="hero-meta"><span><b>Election day</b> Tuesday, November 3, 2026</span><span><b>Statewide races</b> 8, plus Board of Equalization</span><span><b>Research snapshot</b> October 21, 2026</span></div>
+      <div class="hero-links"><a href="../ca-2026-ballot/">See the 14 propositions →</a><a href="#my-ballot">Pick your county and track your choices ↓</a></div>
+      <div class="snapshot"><strong>Read this first:</strong> In each race, candidates are listed in A-to-Z order by last name. “Record” means things a person actually did: votes, laws, court cases, jobs. Some candidates have never held office, so they have less record to show. That is a fact to know, not a mark against them.</div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="howto" aria-label="How to read this page">
+      <div class="card">
+        <div class="section-label">HOW TO READ A CARD</div>
+        <h2>Promise, then proof</h2>
+        <p>Open a race. Each candidate has a few big issues. Tap an issue to see two boxes:</p>
+        <p><b style="color:var(--blue)">WHAT THEY SAY</b>: their plan, in their own campaign’s terms.<br><b style="color:var(--green)">WHAT THEY’VE DONE</b>: their actual record on that issue, with links.</p>
+      </div>
+      <div class="card">
+        <div class="section-label">RECORD LABELS</div>
+        <h2>What the tags mean</h2>
+        <ul class="legend">
+          <li><span><span class="badge did">Has a record</span></span><span>They acted on this in a past job: a vote, a law, a lawsuit, a program.</span></li>
+          <li><span><span class="badge changed">Changed position</span></span><span>What they say now is different from what they said or did before.</span></li>
+          <li><span><span class="badge none">No record yet</span></span><span>They have not held a job where they could act on this.</span></li>
+          <li><span><span class="badge disputed">Facts disputed</span></span><span>Reporters or the two sides disagree about what happened.</span></li>
+          <li><span><span class="badge unchecked">Not reviewed yet</span></span><span>A record may exist, but we have not checked it yet.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="my-ballot" id="my-ballot" aria-labelledby="my-ballot-title">
+      <h2 id="my-ballot-title">My candidate checklist</h2>
+      <p>California · November 3, 2026 · Personal planning notes, not an official ballot.</p>
+      <div class="county-row">
+        <div><label for="county">County where I vote</label><select id="county"><option value="">Choose your county…</option></select></div>
+      </div>
+      <div id="county-info" class="county-info" role="status"></div>
+      <p class="ballot-help">The 8 statewide races are the same on every ballot in California. Your county decides your Board of Equalization district and your local races. Under each race, pick a candidate or leave it Undecided. Your choices stay in this browser and are not sent to Analytics. Anyone using this browser can see them.</p>
+      <p id="ballot-progress" role="status"></p>
+      <p id="ballot-storage" role="status">Saved on this device. Clearing browser data removes your choices.</p>
+      <div class="ballot-actions">
+        <button id="ballot-review" aria-expanded="false" aria-controls="checklist-sheet">View my checklist</button>
+        <button id="ballot-print">Print / save as PDF</button>
+        <button id="ballot-reset" aria-expanded="false" aria-controls="ballot-reset-confirm">Clear my choices</button>
+      </div>
+      <div id="ballot-reset-confirm" hidden><p>Clear all choices and your county saved in this browser?</p><div class="ballot-actions"><button id="ballot-reset-yes">Yes, clear choices</button><button id="ballot-reset-no">Keep my choices</button></div></div>
+      <div id="checklist-sheet" hidden><table><caption id="checklist-caption">My statewide races, including any still undecided</caption><thead><tr><th scope="col">Race</th><th scope="col">My choice</th></tr></thead><tbody id="checklist-rows"></tbody></table><p class="fineprint" id="checklist-local"></p></div>
+      <p class="ballot-help">Tracking your proposition votes too? Use the <a href="../ca-2026-ballot/#my-ballot">proposition checklist</a>.</p>
+      <noscript><p>Enable JavaScript to save choices and build your checklist.</p></noscript>
+    </section>
+
+    <section class="tools" aria-labelledby="races-title">
+      <h2 id="races-title">Pick a race</h2>
+      <p>Every California voter sees these races on their ballot. Tap a race to open it.</p>
+      <nav class="jump" id="jump" aria-label="Jump to a race"></nav>
+    </section>
+
+    <div id="races"></div>
+
+    <div class="race-wrap" id="boe">
+    <section class="race boe-race" aria-labelledby="boe-title">
+      <div class="race-office">BOARD OF EQUALIZATION · 4 DISTRICTS</div>
+      <h2 id="boe-title">Board of Equalization</h2>
+      <p class="race-what">This board helps run some state taxes, like oversight of how counties set property taxes. You vote in only one of the four districts.</p>
+      <div id="boe-content"></div>
+      <p class="fineprint">* = incumbent (holds the seat now). Job titles are the ones printed on the ballot. Sources: <a href="https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf" target="_blank" rel="noopener">Secretary of State certified candidate list</a>; <a href="https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/06-sov-summary.pdf" target="_blank" rel="noopener">June 2 primary results</a>; county-to-district list from the <a href="https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/primary-election-june-2-2026/statement-vote" target="_blank" rel="noopener">Statement of Vote</a>.</p>
+    </section>
+    <div id="boe-choice"></div>
+    </div>
+
+    <section id="local" class="local" aria-labelledby="local-title">
+      <div class="card">
+        <div class="section-label">YOUR COMMUNITY</div>
+        <h2 id="local-title">Your local races are on your ballot too</h2>
+        <p>Your ballot also has races that depend on where you live: U.S. House, State Senate, State Assembly, and county, city, and school board seats. This page does not cover them yet. Here is how to look them up:</p>
+        <ol>
+          <li>Open your county’s <b>sample ballot</b>. It came in the mail, or find it at <a href="https://www.sos.ca.gov/elections/voting-resources/county-elections-offices" target="_blank" rel="noopener">your county elections office</a>.</li>
+          <li>Check your registration and districts at <a href="https://voterstatus.sos.ca.gov/" target="_blank" rel="noopener">My Voter Status</a>.</li>
+          <li>Read candidate statements in the <a href="https://voterguide.sos.ca.gov/" target="_blank" rel="noopener">official state Voter Information Guide</a>. For a lawmaker’s votes, search their name on <a href="https://leginfo.legislature.ca.gov/" target="_blank" rel="noopener">California Legislative Information</a> or <a href="https://www.congress.gov/" target="_blank" rel="noopener">Congress.gov</a>.</li>
+          <li>Use the same test as this page: what do they promise, and what have they actually done?</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="method">
+      <div class="method-grid">
+        <div>
+          <h2>How this page was built</h2>
+          <p>Who is on the ballot comes from the Secretary of State’s certified June 2 primary results (certified July 10, 2026) and the certified November candidate list. Plans come from each campaign’s website, the official voter guide, debates, and news reports. Records come from public votes, laws, court cases, official reports, and news fact-checks. Every record box links to its sources.</p>
+          <ul>
+            <li>We give both candidates in a race the same kinds of facts.</li>
+            <li>We left out claims we could not confirm from a reliable source.</li>
+            <li>Money totals come from different dates in different races, so don’t compare them across races.</li>
+            <li>Polls are snapshots, not predictions. We list only polls from independent pollsters.</li>
+          </ul>
+          <p class="fineprint">This is a research snapshot from October 21, 2026, not an endorsement. Things may change before Election Day. Found a mistake? Please tell us so we can fix it.</p>
+        </div>
+        <div>
+          <h2>Words to know</h2>
+          <dl class="term-list">
+            <div><dt>Top-two primary</dt><dd>In June, all candidates run on one ballot. The top two go to November, even if they are from the same party.</dd></div>
+            <div><dt>Incumbent</dt><dd>The person who holds the job now.</dd></div>
+            <div><dt>Open seat</dt><dd>No incumbent is running, often because of term limits.</dd></div>
+            <div><dt>Endorsement</dt><dd>A public statement of support from a person or group.</dd></div>
+            <div><dt>Outside spending</dt><dd>Money spent by groups that are not the candidate’s own campaign.</dd></div>
+            <div><dt>Medi-Cal</dt><dd>California’s health coverage for people with low incomes.</dd></div>
+            <div><dt>Sanctuary law (SB 54)</dt><dd>A 2017 state law that limits how much local police help federal immigration agents.</dd></div>
+            <div><dt>CEQA</dt><dd>The state’s environmental review law. People can sue under it to slow or stop projects.</dd></div>
+            <div><dt>FAIR Plan</dt><dd>California’s last-resort home insurance for people who can’t get regular coverage.</dd></div>
+            <div><dt>FPPC</dt><dd>The state agency that enforces campaign money and ethics rules.</dd></div>
+            <div><dt>Cap-and-trade</dt><dd>A state program that makes big polluters pay for the carbon they release.</dd></div>
+            <div><dt>Low Carbon Fuel Standard</dt><dd>A state rule that pushes fuel makers to cut pollution from gas and diesel.</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+  const L=(label,url)=>({label,url});
+  const S={
+    sov:L('June 2 primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/06-sov-summary.pdf'),
+    govSov:L('Governor primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/19-gov.pdf'),
+    certList:L('Certified November candidate list','https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf'),
+    cmGov:L('CalMatters voter guide','https://calmatters.org/california-voter-guide-2026/governor/'),
+    cmDebate:L('CalMatters debate recap','https://calmatters.org/politics/2026/09/california-general-election-gubernatorial-debate-cnn/'),
+    cmHealth:L('CalMatters health plans','https://calmatters.org/health/2026/09/california-governor-healthcare-plans-2026/'),
+    capFact:L('CapRadio debate fact-check','https://www.capradio.org/articles/2026/10/01/fact-checking-becerra-and-hilton-in-the-california-governors-debate-on-cnn/'),
+    kqedAfford:L('KQED affordability plans','https://www.kqed.org/news/12082915/heres-how-the-candidates-for-governor-would-make-california-more-affordable'),
+    cmHilton:L('CalMatters Hilton profile','https://calmatters.org/politics/2026/07/california-governor-hilton-profile/')
+  };
+
+  const races=[
+  {
+    id:'governor',office:'GOVERNOR',title:'Governor',
+    what:'The governor runs the state government. They sign or veto laws, write the first draft of the state budget, and pick many judges and leaders.',
+    cands:[
+      {name:'Xavier Becerra',party:'dem',partyName:'Democrat',short:'Former U.S. Health Secretary; former California Attorney General',
+        primary:'28.0% in June (1st)',
+        bio:['U.S. Health and Human Services Secretary, 2021–2025','California Attorney General, 2017–2021','U.S. House of Representatives, 1993–2017','California State Assembly, 1990–1992'],
+        issues:[
+          {t:'Housing',kind:'did',
+            says:'Declare a housing emergency to pay for about 40,000 low-cost homes that already have approval. Push cities to allow more homes. Give more down-payment help. Stop big investors from outbidding families.',
+            rec:['As Attorney General in 2019, he sued Huntington Beach for not planning for enough homes, using a new state housing law.','He has not said how many homes his plan would build in total.'],
+            src:[S.cmGov,L('CapRadio: Huntington Beach lawsuit','https://www.capradio.org/articles/2019/01/25/california-sues-huntington-beach-using-new-housing-law/')]},
+          {t:'Cost of living',kind:'changed',
+            says:'Freeze utility rates and home insurance prices during an emergency. Keep clean-energy goals, but change them if they make life too costly.',
+            rec:['He has not explained how a rate freeze would work.','On the plan to end sales of new gas cars by 2035: in the primary he said it “depends.” In August 2026 he said it is “absolutely feasible” if the state invests.'],
+            src:[S.kqedAfford,L('E&E News on the 2035 goal','https://www.eenews.net/articles/xavier-becerra-says-california-can-still-meet-2035-gas-car-sales-goal/')]},
+          {t:'Health care',kind:'changed',
+            says:'Health coverage for everyone. Have the state help people who lose Medi-Cal because of federal cuts. Make more low-cost state-brand drugs (CalRx). Charge big employers whose workers end up on Medi-Cal.',
+            rec:['As Attorney General, he led the states that defended the Affordable Care Act. The U.S. Supreme Court upheld it in 2021.','In 2019 he won a $575 million settlement from Sutter Health over high prices.','As Health Secretary, he ran Medicare’s first price talks with drug makers, for 10 drugs.','For decades he backed “single-payer” (one public health plan for all). Now he says he wants “immediate wins” first, and his website no longer lists single-payer. He has not said how he would pay for his plan.'],
+            src:[S.cmHealth,L('KFF Health News: Sutter settlement','https://kffhealthnews.org/news/california-ag-details-historic-settlement-agreement-in-sutter-health-antitrust-case/'),L('Times of San Diego: single-payer shift','https://timesofsandiego.com/politics/2026/05/23/governors-race-xavier-becerra-single-payer-healthcare/')]},
+          {t:'Immigration',kind:'disputed',
+            says:'Keep the state sanctuary law, which limits how much local police help federal immigration agents.',
+            rec:['As Attorney General, he defended the sanctuary law in court. A federal appeals court upheld it in 2019.','As Health Secretary, his agency was in charge of migrant children who came without parents. A 2023 New York Times investigation and a 2024 government watchdog report found weak safety checks on adults who took in some children. Becerra calls these attacks “Trump talking points.”'],
+            src:[L('GBH: sanctuary law upheld','https://www.wgbh.org/news/national/2019-04-18/federal-appeals-panel-upholds-california-sanctuary-state-law'),L('New York Times investigation','https://www.nytimes.com/2023/04/17/us/politics/migrant-child-labor-biden.html'),S.capFact]},
+          {t:'Crime and safety',kind:'did',
+            says:'He voted for Prop 36 (2024), which made penalties tougher for some theft and drug crimes. He would fully pay for it. He does not back longer prison sentences in general.',
+            rec:['As Attorney General, he refused to release some police misconduct records under a new law until courts ordered him to.','He voted to end the death penalty in 2016. As Attorney General, he still defended death sentences in court, as that job requires.'],
+            src:[S.cmGov,L('SF Chronicle: death penalty','https://www.sfchronicle.com/news/article/California-AG-Becerra-defends-state-s-death-15695024.php')]},
+          {t:'Taxes',kind:'unchecked',
+            says:'Keep higher tax rates on very high incomes to pay for schools. He has not ruled out tax increases. He opposes Prop 40, the one-time tax on billionaires.',
+            rec:['He has not held a state job that sets taxes.','He voted on federal taxes during 24 years in Congress. We have not reviewed those votes yet.'],
+            src:[S.cmGov,S.cmDebate]}
+        ],
+        know:['Two former aides pleaded guilty to taking about $225,000 from his old campaign account. Becerra was the victim and is not accused of wrongdoing.'],
+        knowSrc:[L('CBS Sacramento','https://www.cbsnews.com/sacramento/news/sean-mccluskie-california-campaign-fraud-case')],
+        backers:'Gov. Gavin Newsom, Kamala Harris, Tom Steyer, Katie Porter, California Democratic Party, California Chamber of Commerce, Planned Parenthood California',
+        money:'About $40.5 million raised (state reports, as reported October 19, 2026). An outside group backing him raised more than $14 million.'},
+      {name:'Steve Hilton',party:'rep',partyName:'Republican',short:'Former Fox News host; former adviser to a British prime minister',
+        primary:'24.6% in June (2nd)',
+        bio:['Has never held elected office','Fox News host, 2017–2023','Founded a tech company (Crowdpac) and the policy group Golden Together','Top adviser to U.K. Prime Minister David Cameron, 2010–2012 (not an elected job)','Moved to California in 2012; U.S. citizen since 2021'],
+        issues:[
+          {t:'Taxes',kind:'changed',
+            says:'No state income tax on your first $150,000 of income. A flat 8% tax above that. End the $800 minimum tax on small businesses. Cut the gas tax in half.',
+            rec:['He has never held office, so he has no tax votes.','His earlier plan was no tax on the first $100,000 and 7.5% above that.','No independent group has estimated the cost. An economist told KESQ it would mean budget cuts. Hilton says he would end high-speed rail and cut money to homeless nonprofits. Most tax changes need the Legislature to agree.'],
+            src:[L('KESQ: flat tax plan','https://kesq.com/your-vote/2026/06/16/hilton-unveils-flat-tax-plan-in-huntington-beach/'),L('Hilton campaign','https://stevehiltonforgovernor.com/'),S.cmDebate]},
+          {t:'Gas and energy bills',kind:'changed',
+            says:'“$3 gas”: pump more oil in California, end the Low Carbon Fuel Standard, change cap-and-trade, and ease rules on refineries. Cut electric bills in half.',
+            rec:['He has no government record on energy.','Energy experts told CapRadio that more drilling in California would not bring gas to $3 while world oil prices are high.','As the British prime minister’s adviser, he helped build its “greenest government ever” image. He now wants to roll back California’s climate rules.'],
+            src:[S.capFact,S.kqedAfford,S.cmHilton]},
+          {t:'Housing',kind:'none',
+            says:'Cheaper “starter homes” by cutting fees and red tape. Limit CEQA lawsuits. Help first-time buyers with loans. Build “10 new cities” on open land.',
+            rec:['He has no government record on housing.','In 2023–24 he led a ballot measure with these same ideas. It did not get enough signatures to make the ballot.'],
+            src:[S.cmGov,L('SF Chronicle on his ballot measure','https://www.sfchronicle.com/politics/joegarofoli/article/steve-hilton-ballot-measure-18348202.php')]},
+          {t:'Homelessness',kind:'none',
+            says:'Clear every homeless camp by December 31, 2027, by moving people into large “recovery centers.” Enforce camping bans. Shift money to sober housing.',
+            rec:['He has no government record on homelessness. No independent group has estimated the cost.'],
+            src:[L('10News: homelessness plan','https://www.10news.com/news/local-news/gubernatorial-candidate-steve-hilton-unveils-plan-to-end-homelessness-by-end-of-2027'),S.cmGov]},
+          {t:'Immigration',kind:'disputed',
+            says:'He has said he wants to undo the state sanctuary law. He calls himself “pro-immigration.” In the debate he did not say whether he would undo the law.',
+            rec:['He has no government record on immigration.','Becerra said Hilton wants “every farmworker” deported. CapRadio found that claim was not supported.','News outlets disagree on whether Hilton called mass deportations “perfect” on TV in 2025.'],
+            src:[S.capFact,S.cmDebate]},
+          {t:'Health care',kind:'changed',
+            says:'A “Working Class Healthcare Guarantee”: clear prices, health savings accounts of $8,000–$10,000 for the lowest-income Medi-Cal members, more state-brand drugs. End state Medi-Cal for undocumented immigrants.',
+            rec:['He has no government record on health care. He has not given a cost.','Arkansas tried similar accounts and dropped them.','In a 2015 book he backed a system closer to single-payer.'],
+            src:[S.cmHealth,S.cmHilton]},
+          {t:'Schools',kind:'none',
+            says:'Every child reading by 3rd grade using phonics. Hold back students who can’t read. Make it easier to fire teachers. Public money families can use for private school.',
+            rec:['He has no government record on schools.'],
+            src:[S.cmGov,L('Hilton campaign','https://stevehiltonforgovernor.com/')]}
+        ],
+        know:['In 2025 he sued to stop the Prop 50 voting maps. The court turned down his request and the case ended.','On September 29, 2026, Becerra supporters filed a complaint with the FPPC. It says his campaign did not report about $72,000 paid to online influencers. His campaign disputes it. The FPPC has not acted on it.'],
+        knowSrc:[L('Prop 50 lawsuit record','https://thearp.org/litigation/hilton-v-weber'),L('Sacramento Bee on complaint','https://www.yahoo.com/news/politics/articles/becerra-backers-accuse-hilton-campaign-195238790.html')],
+        backers:'President Donald Trump, Vivek Ramaswamy, Nisei Farmers League, several county Republican parties. The California Republican Party did not endorse anyone for governor.',
+        money:'About $29 million raised (state reports, as reported October 19, 2026).'}
+    ],
+    polls:[
+      {who:'Emerson College',when:'Oct 17–19',url:'https://emersoncollegepolling.com/california-2026-poll-xavier-becerra-holds-27-point-lead-over-steve-hilton/',v:[60,33]},
+      {who:'Berkeley IGS',when:'Sep 15–20',url:'https://www.latimes.com/california/story/2026-09-24/high-cost-of-living-tops-voter-concerns-becerra-remains-front-runner-in-governors-race-new-poll-shows',v:[58,33]},
+      {who:'PPIC',when:'Sep 4–10',url:'https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/',v:[60,38]}
+    ],
+    debate:'They held one debate, on CNN on September 30. They clashed most on taxes, immigration, oil drilling, housing, and homelessness. Both want a bigger tax break for filmmakers.',
+    debateSrc:[S.cmDebate],
+    src:[S.govSov,S.cmGov,L('Official voter guide (neither filed a statement)','https://voterguide.sos.ca.gov/candidates/governor-candidate-statements.htm')]
+  },
+  {
+    id:'lt-governor',office:'LIEUTENANT GOVERNOR · OPEN SEAT',title:'Lieutenant Governor',
+    what:'The lieutenant governor takes over if the governor can’t serve or leaves the state. They break tie votes in the State Senate and sit on the UC, CSU, and state lands boards. CalMatters calls the job “mostly ceremonial.”',
+    note:'Open seat: Lt. Governor Eleni Kounalakis can’t run again because of term limits. She is running for treasurer.',
+    cands:[
+      {name:'Fiona Ma',party:'dem',partyName:'Democrat',short:'State Treasurer; accountant (CPA)',
+        primary:'19.1% in June (1st)',
+        bio:['State Treasurer, 2019–now (can’t run again)','State Board of Equalization, 2015–2019','State Assembly, 2006–2012','San Francisco Board of Supervisors, 2002–2006','Certified public accountant (CPA)'],
+        issues:[
+          {t:'College costs and student housing',kind:'did',
+            says:'Make college cost less. Add paid internships and job training paths. Build student housing on state land.',
+            rec:['As treasurer, her office sold the state’s first bonds for community college student housing (2021–22), including over 300 homes at Santa Rosa Junior College.','She runs CalKIDS, which puts college savings money in accounts for California kids.','No record was found on paid internships.'],
+            src:[L('Official voter guide statements (PDF)','https://vig.cdn.sos.ca.gov/2026/general/pdf/candidate-statements.pdf'),L('CalMatters 2022 profile','https://calmatters.org/politics/2022/10/fiona-ma-treasurer-election'),L('Press Democrat','https://www.pressdemocrat.com/2026/09/30/election-2026-who-are-the-candidates-running-for-lieutenant-governor-californias-no-2-job/')]},
+          {t:'Housing',kind:'did',
+            says:'She says she “financed a record number of affordable housing units” and expanded down-payment help.',
+            rec:['She leads the state committees that hand out housing tax credits and bonds, and changed their rules in 2020. Her office reports about 19,000 new homes funded in 2020. The “record” claim rests on her own office’s numbers.','The down-payment program is run by a 13-member board where she has one vote.','In 2022 she opposed a bill to combine state housing funding. A 2020 state audit had found poor teamwork over $2.7 billion in housing bonds.'],
+            src:[L('Treasurer’s office (self-reported)','https://www.treasurer.ca.gov/news/releases/2021/9.pdf'),L('CalMatters 2022 profile','https://calmatters.org/politics/2022/10/fiona-ma-treasurer-election')]},
+          {t:'Struggling hospitals',kind:'did',
+            says:'She says she “saved distressed hospitals.”',
+            rec:['The Legislature and governor created a loan program for hospitals in danger of closing (2023). A board she chairs helps run it. It made 17 loans worth $242.5 million in 2023.'],
+            src:[L('Health facilities board annual report','https://www.treasurer.ca.gov/chffa/publications/2023-annual-report.pdf')]},
+          {t:'Climate and pension money',kind:'did',
+            says:'Not a main campaign theme this year.',
+            rec:['She backed SB 252 (2023), which would have made state pension funds sell oil and gas stocks. The pension boards opposed it.'],
+            src:[L('Treasurer’s office','https://www.treasurer.ca.gov/news/releases/2023/11.pdf')]}
+        ],
+        know:['A former employee sued her for sexual harassment in 2021. The state settled for $350,000 in 2024. Ma denied wrongdoing.','In 2020, during the COVID crisis, the state nearly wired $457 million to a fake mask seller. She called it “a lesson learned.”'],
+        knowSrc:[L('CBS Sacramento: settlement','https://www.cbsnews.com/sacramento/news/california-settles-sexual-harassment-claims-against-state-treasurer-fiona-ma'),L('CalMatters 2022 profile','https://calmatters.org/politics/2022/10/fiona-ma-treasurer-election')],
+        backers:'California Labor Federation, California Teachers Association, California Nurses Association, Sens. Alex Padilla and Adam Schiff, Lt. Gov. Eleni Kounalakis',
+        money:'Her campaign reported nearly $5 million in the bank in February 2026. Newer totals could not be confirmed.'},
+      {name:'Gloria Romero',party:'rep',partyName:'Republican',short:'Former State Senate Majority Leader; college professor',
+        primary:'17.8% in June (2nd)',
+        bio:['State Senate, 2001–2010; Majority Leader 2005–2008 (first woman in that job)','State Assembly, 1998–2001','Professor at Cal State LA; founded a charter school','Was a Democrat for decades; became a Republican in 2024'],
+        issues:[
+          {t:'School choice and parents',kind:'did',
+            says:'School choice is her main issue. She supports public money families can use for private school.',
+            rec:['In 2010 she wrote the “Parent Trigger” law. It lets parents at a failing school vote to force big changes, such as turning it into a charter school. The law was hotly debated.'],
+            src:[L('LA School Report','https://www.laschoolreport.com/gloria-romero-leaving-one-ed-reform-group-to-start-another/'),L('GV Wire','https://gvwire.com/2026/07/16/what-ca-lt-gov-candidate-gloria-romero-says-about-education-economy/')]},
+          {t:'College standards and girls’ sports',kind:'none',
+            says:'Bring back SAT/ACT tests for UC admission. Keep transgender girls out of girls’ sports (“defend Title IX”). Fight antisemitism on campuses.',
+            rec:['She has no record in office on these. UC dropped the SAT in 2020, after she left office.'],
+            src:[L('Official voter guide statements (PDF)','https://vig.cdn.sos.ca.gov/2026/general/pdf/candidate-statements.pdf'),L('SF Examiner','https://www.sfexaminer.com/news/politics/ex-dem-romero-decries-woke-policies-in-lg-run/article_125cf5cc-b445-41ca-80a8-60680a3f7227.html')]},
+          {t:'Energy and state boards',kind:'none',
+            says:'Rein in the Coastal Commission and State Lands Commission. Scale back the Air Resources Board. Allow more oil drilling.',
+            rec:['No record in office was found. Experts quoted by the SF Examiner say more California oil would not lower gas prices.'],
+            src:[L('SF Examiner','https://www.sfexaminer.com/news/politics/ex-dem-romero-decries-woke-policies-in-lg-run/article_125cf5cc-b445-41ca-80a8-60680a3f7227.html'),L('GV Wire','https://gvwire.com/2026/07/16/what-ca-lt-gov-candidate-gloria-romero-says-about-education-economy/')]},
+          {t:'Cost of living',kind:'none',
+            says:'Cut taxes and rules. Call a special session of the Legislature on day one.',
+            rec:['No specific record was found.'],
+            src:[L('GrowSF questionnaire','https://growsf.org/voter-guide/questionnaires/november-2026/gloria-romero/')]}
+        ],
+        know:['She was a Democrat for decades and helped lead Barack Obama’s 2012 campaign in California. She became a Republican in 2024. She campaigns as Steve Hilton’s informal running mate.'],
+        knowSrc:[L('WJLA: party switch','https://wjla.com/news/nation-world/california-democrat-changes-affiliation-to-republican-ive-had-enough')],
+        backers:'California Republican Party, Reform California, Steve Hilton',
+        money:'About $145,000 raised, plus $50,000 in loans (date of report not stated). In July she said she was “struggling to raise money.”'}
+    ],
+    polls:[],noPoll:'No independent poll of this race was found. No debates were found.',
+    src:[L('Lt. Governor primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/46-lt-gov.xlsx'),L('CalMatters voter guide','https://calmatters.org/california-voter-guide-2026/lieutenant-governor/')]
+  },
+  {
+    id:'attorney-general',office:'ATTORNEY GENERAL',title:'Attorney General',
+    what:'The attorney general is the state’s top lawyer. They run the state Department of Justice, enforce state laws, go to court for the state, and oversee local police and district attorneys.',
+    cands:[
+      {name:'Rob Bonta',party:'dem',partyName:'Democrat',short:'Attorney General (incumbent)',incumbent:true,
+        primary:'56.6% in June (1st)',
+        bio:['Attorney General, 2021–now (appointed, then elected in 2022)','State Assembly, 2012–2021','Alameda City Council, 2010–2012','San Francisco deputy city attorney'],
+        issues:[
+          {t:'Suing the federal government',kind:'did',
+            says:'Stop “unlawful power grabs by the federal government.” Defend immigrants and abortion rights.',
+            rec:['His office says it filed its 100th lawsuit against the Trump administration on October 15, 2026, and has won many early court orders. These counts come from his own office.','A federal judge ruled in 2025 that sending the National Guard to Los Angeles broke federal law.','On tariffs and birthright citizenship, the Supreme Court cases that were won were brought by others. California sued too, or backed those cases.'],
+            src:[L('Attorney General’s office (self-reported)','https://www.oag.ca.gov/news/press-releases/%E2%80%9C-sobering-milestone%E2%80%9D-attorney-general-bonta-files-100th-lawsuit-against-trump'),L('Local News Matters: tariffs','https://localnewsmatters.org/2026/02/23/a-tremendous-win-ag-bonta-hails-supreme-courts-tariff-ruling-refund-question-looms/')]},
+          {t:'Crime and safety',kind:'did',
+            says:'He calls public safety his top priority, including gun violence and fentanyl.',
+            rec:['His department’s data shows murders fell 18.6% and violent crime fell 10.2% in 2025.','He took no side on Prop 36 (2024) before the vote. After it passed, he told police how to enforce it.','In the Assembly, he co-wrote the 2018 law to end cash bail. Voters overturned it in 2020 (Prop 25).','He wrote a 2019 law to ban private prisons. A federal court later blocked it for immigration detention centers.'],
+            src:[L('SF Examiner','https://www.sfexaminer.com/news/politics/gates-blasts-bonta-over-crime-and-trump-paramount-suits/article_ea079a61-3b49-4f65-b222-3d4efbeb0374.html'),L('KSRO: Prop 36','https://www.ksro.com/2024/10/18/californias-attorney-general-doesnt-take-position-on-prop-36/'),L('ILRC: private prison ruling','https://www.ilrc.org/ab-32-en-banc-decision-glance')]},
+          {t:'Housing',kind:'did',
+            says:'Make cities follow state housing laws.',
+            rec:['He sued Huntington Beach for refusing to plan for new homes and won. The state Supreme Court declined to review it in December 2025.'],
+            src:[L('Attorney General’s office','https://oag.ca.gov/news/press-releases/attorney-general-bonta-and-governor-newsom-secure-major-win-state%E2%80%99s-housing')]},
+          {t:'Voting rules',kind:'did',
+            says:'Protect voting rights.',
+            rec:['With the Secretary of State, he sued to strike down Huntington Beach’s local voter ID rule. They won; the state Supreme Court declined review in January 2026.'],
+            src:[L('Attorney General’s office','https://oag.ca.gov/news/press-releases/attorney-general-bonta-and-secretary-state-weber-california-supreme-court')]}
+        ],
+        know:['In 2022 his department accidentally exposed personal data of about 192,000 gun permit applicants. An outside review found it was not on purpose.','He spent about $468,000 in campaign money on lawyers during a federal investigation in Oakland. His campaign says he was treated as a possible victim; he is not accused of anything.'],
+        knowSrc:[L('CBS News: data leak','https://www.cbsnews.com/sanfrancisco/news/california-gun-data-breach-was-unintentional-report-finds/'),L('LA Times via AOL','https://www.aol.com/news/atty-gen-bonta-spent-nearly-024132843.html')],
+        backers:'California Democratic Party, California Teachers Association, California Environmental Voters, California Labor Federation, Everytown for Gun Safety',
+        money:'About $1.3 million raised in 2026 and $6.3 million in the bank, as of September 19, 2026.'},
+      {name:'Michael Gates',party:'rep',partyName:'Republican',short:'Former Huntington Beach city attorney',
+        primary:'37.9% in June (2nd)',
+        bio:['Huntington Beach city attorney (elected), 2014–2025','U.S. Justice Department civil rights official, February–November 2025','Now Huntington Beach’s chief assistant city attorney','Trial lawyer'],
+        issues:[
+          {t:'Crime and Prop 36',kind:'disputed',
+            says:'“Fully enforce” Prop 36. Go after fentanyl dealers. Help homeless people get into treatment.',
+            rec:['He has no statewide prosecutor record.','His voter guide statement says Huntington Beach’s program cut crime by “double digits” in its first year. The data we found shows about a 7% drop.','He says nearly half of all homeless Americans live in California. The real share is about 1 in 4; California has nearly half of homeless people living outdoors.'],
+            src:[L('Official voter guide statements (PDF)','https://vig.cdn.sos.ca.gov/2026/general/pdf/candidate-statements.pdf'),L('PPIC: homelessness numbers','https://ppic.org/blog/homelessness-hits-record-high-in-california-jumps-dramatically-in-rest-of-us/')]},
+          {t:'Local control and housing',kind:'did',
+            says:'Let cities make their own decisions instead of following state mandates.',
+            rec:['As city attorney, he fought state housing rules in court. He lost; the state Supreme Court declined review in December 2025.'],
+            src:[L('Attorney General’s office','https://oag.ca.gov/news/press-releases/attorney-general-bonta-and-governor-newsom-secure-major-win-state%E2%80%99s-housing')]},
+          {t:'Immigration',kind:'did',
+            says:'Challenge the state sanctuary law.',
+            rec:['He sued over the law for Huntington Beach. He won at first in 2018, but lost on appeal in 2020. A 2025 federal case was thrown out.'],
+            src:[L('KQED: 2020 appeal','https://www.kqed.org/news/11795477/charter-cities-like-huntington-beach-arent-exempt-from-sanctuary-state-law-court-says'),L('California Courts: 2025 case','https://newsroom.courts.ca.gov/news/huntington-beach-loses-challenge-federal-court-state-sanctuary-law')]},
+          {t:'Voter ID and elections',kind:'did',
+            says:'“Election integrity,” including voter ID.',
+            rec:['He defended Huntington Beach’s voter ID rule, which local voters passed. Courts struck it down in the end.','At the U.S. Justice Department, he says he helped file 8 lawsuits asking states for their voter lists.'],
+            src:[L('LAist','https://laist.com/news/politics/huntington-beachs-michael-gates-quits-justice-department')]},
+          {t:'Lawsuits against the federal government',kind:'changed',
+            says:'Drop some of the current lawsuits against the Trump administration and review each one.',
+            rec:['He has said he would drop suits on “day one,” and also that he would review them case by case.'],
+            src:[L('SF Examiner','https://www.sfexaminer.com/news/politics/gates-blasts-bonta-over-crime-and-trump-paramount-suits/article_ea079a61-3b49-4f65-b222-3d4efbeb0374.html')]}
+        ],
+        know:['How he left the Justice Department in 2025 is disputed. A personnel form said he was fired. He says he resigned, and the department later accepted his resignation instead.'],
+        knowSrc:[L('SF Chronicle','https://preview-prod.w.sfchronicle.com/politics/joegarofoli/article/michael-gates-attorney-general-21292842.php')],
+        backers:'California Republican Party, California Parents Union, California Rifle & Pistol Association, Steve Hilton',
+        money:'About $1.8 million raised in 2026 (more than Bonta this year) and about $336,000 in the bank, as of September 19, 2026.'}
+    ],
+    polls:[],noPoll:'No independent poll of this race was found. No debates were found.',
+    src:[L('Attorney General primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/64-ag.xlsx'),L('CalMatters voter guide','https://calmatters.org/california-voter-guide-2026/attorney-general/'),L('Mercury News via Spokesman-Review','https://www.spokesman.com/stories/2026/sep/25/california-attorney-general-race-repeats-primary-m/')]
+  },
+  {
+    id:'secretary-of-state',office:'SECRETARY OF STATE',title:'Secretary of State',
+    what:'The secretary of state runs California’s elections. The office also keeps public records, like business filings and reports on campaign money.',
+    cands:[
+      {name:'Don Wagner',party:'rep',partyName:'Republican',short:'Orange County Supervisor',
+        primary:'36.7% in June (2nd)',
+        bio:['Orange County Board of Supervisors, 2019–now','Mayor of Irvine, 2016–2019','State Assembly, 2010–2016','Community college trustee, from 1998; lawyer'],
+        issues:[
+          {t:'Count votes faster',kind:'none',
+            says:'California “takes more than a month” to count. He would speed it up.',
+            rec:['He has never run an elections office. By law, counties get 30 days to count and check votes.'],
+            src:[L('Official voter guide statements (PDF)','https://vig.cdn.sos.ca.gov/2026/general/pdf/candidate-statements.pdf'),L('CalMatters race guide','https://calmatters.org/politics/2026/04/california-secretary-state-race/')]},
+          {t:'Voter ID',kind:'disputed',
+            says:'Require photo ID to vote. Carry out Prop 39 if it passes. Roll back mail ballots for everyone (that would need the Legislature).',
+            rec:['No record in office on voter ID.','His voter guide statement says “36 states require photo ID.” About 36 states ask for some ID, but only about 24 ask for photo ID.'],
+            src:[L('NCSL: voter ID laws','https://www.ncsl.org/elections-and-campaigns/voter-id'),L('CalMatters race guide','https://calmatters.org/politics/2026/04/california-secretary-state-race/')]},
+          {t:'Clean up voter rolls',kind:'did',
+            says:'Remove people who should not be on the voter list.',
+            rec:['In 2025 he pushed Orange County to give the U.S. Justice Department data on 17 people removed from the rolls. The board voted it down 3-2; the county registrar said the law bars it.','He says a dog was registered and voted twice. That is partly true: a dog’s ballot was counted in 2021, and its 2022 ballot was rejected. The owner was charged.'],
+            src:[L('Voice of OC','https://voiceofoc.org/?p=3217651'),L('NBC Los Angeles: dog voter','https://www.nbclosangeles.com/news/local/dog-registered-vote-election-orange-county/3776193/')]},
+          {t:'A fair “umpire”',kind:'none',
+            says:'Be a nonpartisan referee. He says he is “not one of those Republicans” who claim elections were stolen.',
+            rec:['No record in this job.'],
+            src:[L('CalMatters race guide','https://calmatters.org/politics/2026/04/california-secretary-state-race/')]}
+        ],
+        backers:'California Republican Party, Reform California, California Republican Assembly, former Gov. Pete Wilson',
+        money:'Recent totals could not be confirmed from a reliable source.'},
+      {name:'Shirley Weber',party:'dem',partyName:'Democrat',short:'Secretary of State (incumbent)',incumbent:true,
+        primary:'58.7% in June (1st)',
+        bio:['Secretary of State, 2021–now (appointed, then elected in 2022)','State Assembly, 2012–2021','San Diego school board, 1988–1996','Professor at San Diego State for about 40 years'],
+        issues:[
+          {t:'Protect voter data',kind:'did',
+            says:'“I fought for us in the courts, and won. I’ve stood up to Donald Trump.”',
+            rec:['In 2025 she refused a U.S. Justice Department demand for California’s full voter list. The department sued. A federal judge threw out the case in January 2026, citing privacy laws.'],
+            src:[L('ACLU','https://www.aclu.org/press-releases/federal-court-dismisses-doj-lawsuit-seeking-california-voter-data'),L('Secretary of State’s office','https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-issues-statement-response-us-department-justice-letter')]},
+          {t:'Voting access',kind:'did',
+            says:'Oppose shorter poll hours, fewer voting days, and ending vote-by-mail.',
+            rec:['With the Attorney General, she sued to strike down Huntington Beach’s voter ID rule and won in January 2026.','We found no public stand from her on Prop 39, the voter ID measure on this ballot.'],
+            src:[L('Attorney General’s office','https://oag.ca.gov/news/press-releases/attorney-general-bonta-and-secretary-state-weber-california-supreme-court')]},
+          {t:'Running elections',kind:'did',
+            says:'Accuracy matters more than speed when counting votes. Add access and cybersecurity.',
+            rec:['She ran the 2021 recall and the 2025 Prop 50 special election.','Critics say California’s counts are slow. Counties have 30 days by law.'],
+            src:[L('Prop 50 certification','https://www.sos.ca.gov/administration/news-releases-and-advisories/2025-news-releases-and-advisories/secretary-state-shirley-n-weber-phd-has-certified-results-california-november-4-2025-statewide-special-election'),L('CalMatters race guide','https://calmatters.org/politics/2026/04/california-secretary-state-race/')]},
+          {t:'Civil rights',kind:'did',
+            says:'Her record from the Assembly.',
+            rec:['She wrote the 2019 law that lets police use deadly force only when “necessary.”','She wrote the 2020 law that created the state’s Reparations Task Force.','She led the effort that became Prop 16 (2020) to bring back affirmative action. Voters rejected it.'],
+            src:[L('CalMatters: police force law','https://calmatters.org/politics/2019/05/california-police-use-of-force-standards-lethal-shootings-legislature/'),L('LA Times: task force','https://www.latimes.com/california/story/2021-06-01/california-slavery-reparations-task-force-convenes')]}
+        ],
+        backers:'California Democratic Party, California Federation of Teachers, SEIU California, Rob Bonta, EMILYs List',
+        money:'Recent totals could not be confirmed from a reliable source.'}
+    ],
+    polls:[],noPoll:'No poll from an independent pollster was found. No debates were found.',
+    src:[L('Secretary of State primary results','https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/55-sos.xlsx'),L('CalMatters voter guide','https://calmatters.org/california-voter-guide-2026/secretary-of-state/')]
+  },
+  {
+    id:'treasurer',office:'TREASURER · OPEN SEAT',title:'Treasurer',
+    what:'The treasurer is the state’s banker. This office invests the state’s spare cash, sells bonds to pay for things like schools and roads, and helps oversee the state’s two big pension funds.',
+    note:'Open seat: Treasurer Fiona Ma can’t run again because of term limits.',
+    cands:[
+      {name:'Jennifer Hawks',party:'rep',partyName:'Republican',short:'Retired business executive',ballot:'Retired Business Executive',
+        primary:'24.0% in June (2nd)',
+        bio:['Has never held elected office','About 20 years running the office and finances at Sacred Heart Schools in Atherton; retired 2021','Earlier worked in banking','President of Palo Alto Republican Women Federated, 2022–2026'],
+        issues:[
+          {t:'Be a “financial watchdog”',kind:'none',
+            says:'Open the state’s books and point out waste, such as in high-speed rail and homelessness spending. She agrees the treasurer can’t change the budget.',
+            rec:['She has not held a public job, so she has no public record on this.'],
+            src:[L('Official voter guide statement','https://voterguide.sos.ca.gov/candidates/treasurer-candidate-statements.htm'),L('Hawks campaign','https://hawksforus.com/')]},
+          {t:'State debt',kind:'none',
+            says:'Put all state debt on a public website. Look harder at new bonds before they are sold.',
+            rec:['No public record. Her campaign’s figure for state debt has not been checked by an independent group.'],
+            src:[L('Hawks campaign','https://hawksforus.com/')]},
+          {t:'Investments and pensions',kind:'none',
+            says:'Review the state’s investments one by one. Invest pension money for the best returns, “not politics.”',
+            rec:['No public record.'],
+            src:[L('Hawks campaign','https://hawksforus.com/'),L('SF Examiner profile','https://www.sfexaminer.com/news/politics/gop-treasurer-candidate-plays-up-outsider-status/article_39da5c3b-feb2-46fa-97ad-881f696a62f9.html')]},
+          {t:'Housing money',kind:'none',
+            says:'Make it easy for anyone to search how state housing money is spent.',
+            rec:['No public record.'],
+            src:[L('Public Advocates: where they stand','https://publicadvocates.org/campaigns/where-they-stand-california-treasurer-candidates-on-affordable-housing/')]}
+        ],
+        backers:'California Republican Party, Reform California, California Rifle & Pistol Association',
+        money:'About $121,000 raised (including $42,750 of her own), as of October 9, 2026.'},
+      {name:'Eleni Kounalakis',party:'dem',partyName:'Democrat',short:'Lieutenant Governor of California',ballot:'Lieutenant Governor of California',
+        primary:'36.7% in June (1st)',
+        bio:['Lieutenant Governor, 2019–now (can’t run again)','U.S. Ambassador to Hungary, 2010–2013','About 18 years at her family’s housing development company; rose to president','Ran for governor in 2023–2025, then switched to this race'],
+        issues:[
+          {t:'Affordable housing',kind:'none',
+            says:'Use state bonds and tax credits to build more low-cost homes. Make it simpler to apply for help.',
+            rec:['Her housing record is from private business, not public office.','She earns at least $1.39 million a year from investments, including rent from Sacramento buildings that house state offices.'],
+            src:[L('Official voter guide statement','https://voterguide.sos.ca.gov/candidates/treasurer-candidate-statements.htm'),L('CalMatters profile','https://calmatters.org/politics/2025/04/california-governor-eleni-kounalakis/')]},
+          {t:'Managing state money openly',kind:'changed',
+            says:'Run the state’s money openly and well. Improve the state’s credit rating. Grow CalKIDS, the state’s college savings accounts for kids.',
+            rec:['She has not managed state investments or debt before.','When running for governor in 2025, she promised to put her wealth in a “blind trust” (managed by someone else) if elected. For treasurer, she has not made that promise. She calls it a “legal question.”'],
+            src:[L('SF Examiner','https://www.sfexaminer.com/news/politics/kounalakis-touts-business-savvy-government-experience-in-run-for-treasurer/article_469a1171-87e2-4bdd-9b01-1a3af2a8b5fe.html'),L('CalMatters profile','https://calmatters.org/politics/2025/04/california-governor-eleni-kounalakis/')]},
+          {t:'Clean energy and pensions',kind:'did',
+            says:'Protect workers’ pensions. Invest in clean energy.',
+            rec:['On the State Lands Commission, she backed offshore wind, including a 2024 deal with ports.','She has no record on pensions; she is not on the pension boards now.'],
+            src:[L('Lt. Governor’s office','https://ltg.ca.gov/2024/12/18/lt-governor-kounalakis-announces-offshore-wind-partnership-with-state-lands-commission-california-ports/'),L('CalMatters race guide','https://calmatters.org/politics/2026/05/california-treasurer-election-2026/')]},
+          {t:'College costs',kind:'did',
+            says:'Part of her record as lieutenant governor, who sits on the UC and CSU boards.',
+            rec:['She voted no on CSU’s plan to raise tuition 6% a year (2023).','She opposed UC’s tuition plan in 2025.'],
+            src:[L('CSU vote statement','https://ltg.ca.gov/2023/09/14/lieutenant-governor-eleni-kounalakiss-statement-on-california-state-university-vote-to-increase-tuition/'),L('UC statement','https://ltg.ca.gov/2025/11/20/lieutenant-governor-eleni-kounalakis-stands-against-tuition-increases-in-uc-stability-plan/')]}
+        ],
+        backers:'Gov. Gavin Newsom, Sens. Alex Padilla and Adam Schiff, Nancy Pelosi, California Labor Federation, California Democratic Party',
+        money:'About $813,000 in new donations as of October 9, 2026. She also moved money over from her governor campaign, which had about $9 million when she switched.'}
+    ],
+    polls:[],noPoll:'No independent poll of this race was found.',
+    src:[S.sov,S.certList,L('CalMatters voter guide','https://calmatters.org/california-voter-guide-2026/treasurer/'),L('CalMatters money tracker','https://project-voter-guide-2026.interactives.calmatters.org/general/en/campaign-finance/race/treasurer')]
+  },
+  {
+    id:'controller',office:'CONTROLLER',title:'Controller',
+    what:'The controller is the state’s chief accountant. This office pays the state’s bills and workers, keeps the books, and checks how state money is spent.',
+    cands:[
+      {name:'Malia Cohen',party:'dem',partyName:'Democrat',short:'State Controller (incumbent)',ballot:'State Controller/Mother',incumbent:true,
+        primary:'56.8% in June (1st)',
+        bio:['State Controller, 2023–now','State Board of Equalization, 2019–2023','San Francisco Board of Supervisors, 2011–2019'],
+        issues:[
+          {t:'New payroll and finance systems',kind:'did',
+            says:'Update the old computer systems that pay state workers and track state money.',
+            rec:['The new payroll project hit delays. In 2023 her office ended talks with a vendor without signing a contract.','The first departments are not expected to use the new system until 2028.'],
+            src:[L('Controller’s report to the Legislature','https://www.sco.ca.gov/Files-EO/2022-23_CSPS_Report_to_the_Legislature.pdf'),L('CalHR project page','https://www.calhr.ca.gov/about-calhr/divisions-programs/california-state-payroll-system-project/')]},
+          {t:'On-time money reports',kind:'did',
+            says:'Be open and put out the state’s financial reports on time.',
+            rec:['The state’s yearly financial report had been late for years. CalMatters says her office put out four reports in two years, catching up. The next one is still expected about two months late.'],
+            src:[L('CalMatters race guide','https://calmatters.org/politics/elections/2026/05/ca-election-2026-controller/')]},
+          {t:'Return unclaimed property',kind:'did',
+            says:'Give people back money the state holds for them, like forgotten bank accounts.',
+            rec:['The state holds more than $15 billion in unclaimed property. In December 2025 her office began sending some money back automatically using tax records. The first round returned about $30 million.','Lawsuits say owners get too little warning before the state takes their property.'],
+            src:[L('Controller’s office','https://www.sco.ca.gov/eo_pressrel_27508.html'),L('Peters v. Cohen summary','https://sovos.com/blog/trr/supreme-court-peters-v-cohen/')]},
+          {t:'Audits and oversight',kind:'changed',
+            says:'Check how state agencies spend money.',
+            rec:['In 2022 she promised reviews of EDD, the DMV, and homelessness spending. CalMatters says she did not do them. She says the State Auditor had already covered those agencies.','In October 2026 the State Auditor found two workers in her office working from out of state against state rules. Her office says it had already fixed the problem.'],
+            src:[L('CalMatters race guide','https://calmatters.org/politics/elections/2026/05/ca-election-2026-controller/'),L('LA Times via Spokesman-Review','https://www.spokesman.com/stories/2026/oct/09/california-state-workers-were-teleworking-from-ida/')]}
+        ],
+        backers:'California Democratic Party, California Labor Federation, Equality California, San Francisco Chronicle editorial board',
+        money:'About $1.4 million raised as of May 29, 2026. No fall totals were found.'},
+      {name:'Herb Morgan',party:'rep',partyName:'Republican',short:'Investment company executive',ballot:'Chief Investment Officer',
+        primary:'37.5% in June (2nd)',
+        bio:['Has never held elected office','Founded an investment firm in 2004; Cantor Fitzgerald bought it in 2017, and he stayed as chief investment officer','Served on San Diego’s city employee pension board, starting 2009','Economics degree, UC Santa Cruz'],
+        issues:[
+          {t:'“Radical transparency”',kind:'none',
+            says:'Put every state payment in a public online database.',
+            rec:['He has no government record. As a candidate, he posts every campaign donation online each day.'],
+            src:[L('Official voter guide statement','https://voterguide.sos.ca.gov/candidates/controller-candidate-statements.htm'),L('GV Wire','https://gvwire.com/2026/10/01/ca-controller-candidate-herb-morgan-wants-to-return-15-billion-to-residents/')]},
+          {t:'Find fraud and waste',kind:'none',
+            says:'Use AI to find fraud and waste. Audit homelessness spending.',
+            rec:['He has no government record. His campaign says fraud and waste could top $300 billion. No independent group has checked that number.'],
+            src:[L('CalMatters race guide','https://calmatters.org/politics/elections/2026/05/ca-election-2026-controller/')]},
+          {t:'Return unclaimed property',kind:'none',
+            says:'Send unclaimed money back automatically and double how much is returned.',
+            rec:['This is a plan only. The current controller started automatic returns in December 2025.'],
+            src:[L('GV Wire','https://gvwire.com/2026/10/01/ca-controller-candidate-herb-morgan-wants-to-return-15-billion-to-residents/')]},
+          {t:'On-time money reports',kind:'none',
+            says:'Put out the state’s financial reports on time.',
+            rec:['This is a plan only. His related record is in private investing and on a city pension board.'],
+            src:[L('GrowSF questionnaire','https://growsf.org/voter-guide/questionnaires/june-2026/herb-morgan/')]}
+        ],
+        backers:'California Republican Party, California Republican Assembly, California Rifle & Pistol Association',
+        money:'About $464,000 raised as of May 29, 2026. No fall totals were found.'}
+    ],
+    polls:[],noPoll:'No independent poll of this race was found.',
+    src:[S.sov,S.certList,L('LAist voter guide','https://laist.com/news/politics/voter-guides/2026-election-california-general-state-controller')]
+  },
+  {
+    id:'insurance',office:'INSURANCE COMMISSIONER · OPEN SEAT',title:'Insurance Commissioner',
+    what:'The insurance commissioner runs the Department of Insurance. It approves home and car insurance prices, watches insurance companies and the FAIR Plan, and helps people with complaints.',
+    note:'Both candidates are Democrats. This is the first time two Democrats have faced off in November for this job. Both say they won’t take money from insurance companies.',
+    cands:[
+      {name:'Ben Allen',party:'dem',partyName:'Democrat',short:'State Senator',ballot:'California State Senator',
+        primary:'19.4% in June (2nd)',
+        bio:['State Senator, 2014–now (his term ends in 2026)','Santa Monica-Malibu school board, 2008–2014','Lawyer','The January 2025 Palisades fire hit his district and his home'],
+        issues:[
+          {t:'Steady the insurance market',kind:'did',
+            says:'Speed up reviews of insurance rates. Move people from the FAIR Plan back to regular insurers.',
+            rec:['He wrote SB 1209 (2026), now law. It sets deadlines and penalties for insurers to fix problems the state finds.','Critics say his approach could favor insurance companies.'],
+            src:[L('Department of Insurance','https://www.insurance.ca.gov/0400-news/0100-press-releases/2026/release035-2026.cfm'),L('NBC Bay Area','https://www.nbcbayarea.com/news/local/california-insurance-commissioner-jane-kim-ben-allen/4153572/')]},
+          {t:'Wildfire safety',kind:'did',
+            says:'Loans and grants to help people make their homes harder to burn.',
+            rec:['He wrote SB 894 (2026), now law. It creates low-interest loans for fire-safe home upgrades, but needs future funding to start.','He wrote the bill that became Prop 4 (2024), a $10 billion climate bond.'],
+            src:[L('Santa Monica Daily Press','https://www.smdp.com/newsom-signs-allen-bill-creating-low-interest-loans-for-wildfire-home-hardening/'),L('KQED voter guide','https://www.kqed.org/voterguide/california/insurance-commissioner')]},
+          {t:'Protect people with claims',kind:'did',
+            says:'Stronger rules when insurers deny claims or drop customers.',
+            rec:['He wrote SB 1301 (2026), now law. Insurers must explain why they drop a home and give owners time to fix the risk.','He wrote SB 495 (2025), now law. After a total loss, insurers must pay 60% of contents coverage without a full list of items.'],
+            src:[L('Santa Monica Daily Press','https://www.smdp.com/new-law-aims-to-protect-californians-from-losing-home-insurance-coverage/'),L('Department of Insurance','https://www.insurance.ca.gov/0400-news/0100-press-releases/2025/release067-2025.cfm')]},
+          {t:'Climate',kind:'did',
+            says:'Hold fossil-fuel companies responsible for climate damage.',
+            rec:['He wrote SB 54 (2022), the state law to cut single-use plastic.'],
+            src:[L('LAist','https://laist.com/news/politics/will-california-vote-progressive-in-insurance-commissioner-race')]}
+        ],
+        backers:'California Democratic Party, Sens. Adam Schiff and Alex Padilla, Sierra Club, California Professional Firefighters, San Francisco Chronicle editorial board',
+        money:'About $2.3 million raised as of October 15, 2026. A group backed by California Environmental Voters raised about $2 million more to help him.'},
+      {name:'Jane Kim',party:'dem',partyName:'Democrat',short:'Lawyer and consumer advocate',ballot:'Attorney/Consumer Advocate',
+        primary:'27.4% in June (1st)',
+        bio:['San Francisco Board of Supervisors, 2011–2019','San Francisco Board of Education, 2007–2011','California director of the Working Families Party, 2022–2026','California political director for Bernie Sanders, 2020','Lawyer'],
+        issues:[
+          {t:'Disaster insurance for all',kind:'none',
+            says:'A state-run program that covers wildfire and flood for every home, paid for with part of what people already pay. The Legislature would have to pass it.',
+            rec:['She has no record in insurance.','A leader of the group Consumer Watchdog warned the fund would need “tens of billions” of dollars to start.'],
+            src:[L('CalMatters voter guide','https://calmatters.org/california-voter-guide-2026/insurance-commissioner/'),L('LAist','https://laist.com/news/politics/will-california-vote-progressive-in-insurance-commissioner-race')]},
+          {t:'Low-cost car insurance',kind:'none',
+            says:'Open the state’s low-cost car insurance program to all drivers, not only low-income drivers.',
+            rec:['She has no record in insurance. Allen says this would let better-off drivers use help meant for low-income drivers.'],
+            src:[L('CalMatters debate story','https://calmatters.org/economy/2026/10/insurance-commissioner-california-nov-election/')]},
+          {t:'Faster, fairer claims',kind:'none',
+            says:'Freeze rates after a claim. Penalize slow insurers. Post each insurer’s claims record online. Open up the FAIR Plan.',
+            rec:['She has no record in insurance. As a supervisor, she is credited with San Francisco’s free community college and tenant protections.'],
+            src:[L('KQED voter guide','https://www.kqed.org/voterguide/california/insurance-commissioner'),L('CalMatters debate story','https://calmatters.org/economy/2026/10/insurance-commissioner-california-nov-election/')]},
+          {t:'Link car and home insurance',kind:'none',
+            says:'Companies that sell car insurance in California would also have to offer home insurance.',
+            rec:['This is a plan only.'],
+            src:[L('CalMatters voter guide','https://calmatters.org/california-voter-guide-2026/insurance-commissioner/')]}
+        ],
+        backers:'Sen. Bernie Sanders, Rep. Ro Khanna, California Labor Federation, California Teachers Association, SEIU California',
+        money:'About $1.3 million raised as of October 15, 2026. Business groups spent about $1.5 million against her in the primary.'}
+    ],
+    polls:[{who:'Probolsky Research',when:'Released Sep 6',url:'https://www.probolskyresearch.com/?p=9142',v:[18,25],unsure:57}],
+    pollNote:'Most voters had not decided yet.',
+    debate:'They debated on October 8, in an event run by CalMatters.',
+    debateSrc:[L('CalMatters debate story','https://calmatters.org/economy/2026/10/insurance-commissioner-california-nov-election/')],
+    src:[S.sov,S.certList,L('CalMatters voter guide','https://calmatters.org/california-voter-guide-2026/insurance-commissioner/')]
+  },
+  {
+    id:'superintendent',office:'SUPERINTENDENT OF PUBLIC INSTRUCTION · NONPARTISAN',title:'Superintendent of Public Instruction',
+    what:'The superintendent is the state’s elected schools chief. Most school rules are set by the State Board of Education, the Legislature, and local school boards.',
+    note:'This job is changing. A 2026 state law moves day-to-day control of the Department of Education to a leader the governor picks, starting January 15, 2027. The elected superintendent will become a voting member of the State Board of Education. Both candidates oppose the change. Party labels are not on the ballot for this race, but the Democratic Party backs Barrera and the Republican Party backs Shaw.',
+    noteSrc:[L('LAist voter guide','https://laist.com/news/politics/voter-guides/2026-election-california-general-superintendent-of-public-instruction'),L('KALW','https://www.kalw.org/bay-area-news/2026-10-08/state-superintendent-race-ramps-up-despite-ambiguous-responsibilities')],
+    cands:[
+      {name:'Richard Barrera',party:'np',partyName:'Nonpartisan office',short:'Adviser at the state Department of Education; San Diego school board member',ballot:'State Superintendent Advisor',
+        primary:'20.3% in June (2nd)',
+        bio:['San Diego Unified school board, 2008–now (about five years as president)','Senior adviser at the state Department of Education, 2024–now','Earlier a labor union organizer and leader'],
+        issues:[
+          {t:'School funding and teacher pay',kind:'did',
+            says:'More money for schools and higher pay for teachers.',
+            rec:['San Diego Unified raised teacher pay about 50% over 12 years.','The district also faced repeated budget gaps, including a $176 million gap for 2025–26 that the board closed with a plan.'],
+            src:[L('Times of San Diego','https://timesofsandiego.com/education/2026/04/19/state-superintendent-candidates-richard-barrera/'),L('Times of San Diego: budget','https://timesofsandiego.com/education/2025/03/12/san-diego-unified-board-passes-budget-plan-to-erase-projected-deficit/')]},
+          {t:'Reading and math',kind:'did',
+            says:'Bring San Diego’s way of teaching reading and math to the whole state.',
+            rec:['Students meeting state English standards rose from 53% (2022) to 56% (2025); math rose from 41% to 45%.','On the 2024 national test, San Diego had the top reading scores of large city districts. His ballot claim of “First in Reading and Math” is true for reading. In math it ranked 2nd (8th grade) and 6th (4th grade).'],
+            src:[L('LA School Report','https://www.laschoolreport.com/shaw-and-barrera-offer-starkly-different-visions-for-california-schools/'),L('San Diego Unified: national test','https://www.sandiegounified.org/about/newscenter/all_news/2024NAEP')]},
+          {t:'Protect students from federal actions',kind:'did',
+            says:'Protect students from Trump administration actions on immigration and on LGBTQ students.',
+            rec:['In December 2024 his board voted not to help immigration agents without a warrant.','In 2021, as board president, he oversaw a student COVID vaccine rule that a judge struck down.'],
+            src:[L('Axios San Diego','https://www.axios.com/local/san-diego/2025/01/23/san-diego-schools-students-immigration-enforcement-ice-raids'),L('Fox News: vaccine ruling','https://www.foxnews.com/us/san-diego-judge-strikes-down-school-districts-student-vaccination-mandate-after-legal-challenge')]},
+          {t:'Preschool and new teachers',kind:'none',
+            says:'More early childhood education. An easier path to becoming a teacher.',
+            rec:['No specific record was found.'],
+            src:[L('CalMatters voter guide','https://calmatters.org/california-voter-guide-2026/superintendent-of-public-instruction/')]}
+        ],
+        backers:'California Teachers Association, California Democratic Party, California Charter Schools Association Advocates, Superintendent Tony Thurmond',
+        money:'At least $755,000 raised (primary and fall, as reported October 1, 2026). A teachers union group spent about $5 million for him in the primary.'},
+      {name:'Sonja Shaw',party:'np',partyName:'Nonpartisan office',short:'President of the Chino Valley school board',ballot:'School District President',
+        primary:'22.6% in June (1st)',
+        bio:['Chino Valley Unified school board, 2022–now; board president','Small business owner (fitness, photography)','No earlier elected office'],
+        issues:[
+          {t:'Higher standards in reading and math',kind:'did',
+            says:'Raise standards in reading, writing, and math.',
+            rec:['Chino Valley students meeting state English standards rose from 59% (2022) to 62% (2025); math rose from 45% to 50%.','Some of the gains began before she joined the board, and the district credits programs that started earlier.'],
+            src:[L('LA School Report','https://www.laschoolreport.com/shaw-and-barrera-offer-starkly-different-visions-for-california-schools/')]},
+          {t:'Girls’ sports',kind:'did',
+            says:'“Protect Title IX” by keeping transgender girls out of girls’ sports.',
+            rec:['She wrote a 2025 board resolution on this. It passed with every vote. It states a position but is not a binding rule. The board also voted to file complaints against the state.'],
+            src:[L('KVCR','https://www.kvcrnews.org/local-news/2025-04-18/chino-valley-school-board-to-file-complaints-against-state-over-transgender-athletes')]},
+          {t:'Parents’ rights',kind:'did',
+            says:'Schools should tell parents about their child, including if the child changes gender identity at school.',
+            rec:['In 2023 she voted for Chino Valley’s rule to tell parents. The state sued. A court blocked parts of it, the board replaced it with a broader rule in 2024, and a court later ruled the first rule unconstitutional.','She also voted to ban pride flags in classrooms (2023) and backed a rule to remove sexually explicit library books (2023).'],
+            src:[L('ABC7','https://abc7.com/post/chino-valley-unified-school-district-transgender-students-parents-notified/13528606/'),L('Spectrum News','https://spectrumnews1.com/ca/southern-california/education/2025/03/19/parental-notification-policy-chino-valley-'),L('KVCR: library policy','https://www.kvcrnews.org/news/2023-11-16/chino-valley-school-board-approves-policy-to-remove-books-from-libraries')]},
+          {t:'Less red tape',kind:'none',
+            says:'Cut office staff and paperwork. Send more money to classrooms.',
+            rec:['No independent record was found.'],
+            src:[L('Official voter guide statement','https://voterguide.sos.ca.gov/candidates/superintendent-candidate-statements.htm')]}
+        ],
+        backers:'California Republican Party, Moms for Liberty, California Rifle & Pistol Association',
+        money:'At least $586,000 raised (primary and fall, as reported October 1, 2026).'}
+    ],
+    polls:[],noPoll:'No independent poll since the June primary was found.',
+    debate:'They debated in early October in an event hosted by EdSource.',
+    debateSrc:[L('KALW','https://www.kalw.org/bay-area-news/2026-10-08/state-superintendent-race-ramps-up-despite-ambiguous-responsibilities')],
+    src:[S.sov,S.certList,L('Official voter guide statements','https://voterguide.sos.ca.gov/candidates/superintendent-candidate-statements.htm'),L('CalMatters voter guide','https://calmatters.org/california-voter-guide-2026/superintendent-of-public-instruction/')]
+  }
+  ];
+
+  const boe=[
+    ['1',['Nelson Esparza','dem','Teacher/Economist/Councilmember'],['Shannon Grove','rep','State Senator/Businesswoman'],'Grove 34.5%, Esparza 34.0%'],
+    ['2',['John Pimentel','dem','Member, Board of Trustees, San Mateo County Community College District'],['Sally Lieber*','dem','Incumbent'],'Lieber 56.8%, Pimentel 15.8%'],
+    ['3',['Mike Gipson','dem','State Assemblymember/Father'],['Samuel Sukaton','dem','Labor Union Organizer'],'Gipson 27.9%, Sukaton 18.2%'],
+    ['4',['Denis Bilodeau','rep','Councilmember/Civil Engineer'],['Tom Umberg','dem','Small Businessman/Senator'],'Bilodeau 45.1%, Umberg 20.7%']
+  ];
+
+  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const BADGE={did:'Has a record',changed:'Changed position',none:'No record yet',disputed:'Facts disputed',unchecked:'Not reviewed yet'};
+  const partyTag=c=>`<span class="party ${c.party}">${esc(c.partyName)}${c.incumbent?' · Incumbent':''}</span>`;
+  const links=arr=>`<div class="srcs">${arr.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a>`).join('')}</div>`;
+
+  function issueHTML(i){
+    return `<details class="issue"><summary><span class="issue-name">${esc(i.t)}</span><span class="badge ${i.kind}">${BADGE[i.kind]}</span></summary>
+      <div class="issue-body">
+        <div class="says"><b>WHAT THEY SAY</b><p>${esc(i.says)}</p></div>
+        <div class="record"><b>WHAT THEY’VE DONE</b>${i.rec.map(r=>`<p>${esc(r)}</p>`).join('')}</div>
+        ${links(i.src)}
+      </div></details>`;
+  }
+  function candHTML(c){
+    return `<article class="cand ${c.party}">
+      <h3>${esc(c.name)}</h3>${partyTag(c)}
+      ${c.ballot?`<p class="ballot">On the ballot as: “${esc(c.ballot)}”</p>`:''}
+      <h4>WHO THEY ARE</h4><ul class="bio">${c.bio.map(b=>`<li>${esc(b)}</li>`).join('')}</ul>
+      <h4>BIG ISSUES: PROMISE AND RECORD</h4>${c.issues.map(issueHTML).join('')}
+      ${c.know?`<h4>ALSO GOOD TO KNOW</h4><ul class="know">${c.know.map(k=>`<li>${esc(k)}</li>`).join('')}</ul>${links(c.knowSrc)}`:''}
+      <div class="facts" style="margin-top:14px">
+        <div><b>WHO BACKS THEM</b>${esc(c.backers)}</div>
+        <div><b>MONEY RAISED</b>${esc(c.money)}</div>
+        <div><b>JUNE PRIMARY</b>${esc(c.primary)}</div>
+      </div>
+    </article>`;
+  }
+  function pollsHTML(r){
+    const [a,b]=r.cands;
+    const cls=(c,i)=>c.party==='np'?(i?'np2':'np'):c.party;
+    let body;
+    if(!r.polls.length){body=`<p>${esc(r.noPoll)}</p>`;}
+    else{
+      body=`<p>Share of likely voters who picked each candidate. The gray part is undecided or other.${r.pollNote?' '+esc(r.pollNote):''}</p>`+r.polls.map(p=>`<div class="poll">
+        <div class="poll-head"><span><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.who)}</a> · ${esc(p.when)}</span><span>${esc(a.name.split(' ').pop())} ${p.v[0]}% · ${esc(b.name.split(' ').pop())} ${p.v[1]}%</span></div>
+        <div class="pollbar" role="img" aria-label="${esc(a.name)} ${p.v[0]} percent, ${esc(b.name)} ${p.v[1]} percent"><span class="${cls(a,0)}" style="width:${p.v[0]}%"></span><span style="flex:1"></span><span class="${cls(b,1)}" style="width:${p.v[1]}%"></span></div>
+      </div>`).join('');
+    }
+    const debate=r.debate?`<p style="margin-top:12px;color:var(--ink)"><b>Debates:</b> ${esc(r.debate)}</p>${links(r.debateSrc)}`:'';
+    return `<div class="polls"><h4>Polls and debates</h4>${body}${debate}</div>`;
+  }
+  function raceHTML(r,open){
+    const [a,b]=r.cands;
+    const mini=c=>`<div class="mini"><b>${esc(c.name)}</b>${partyTag(c)}<span class="role">${esc(c.short)}</span></div>`;
+    return `<details class="race" id="${r.id}"${open?' open':''}>
+      <summary><div class="race-top"><div><div class="race-office">${esc(r.office)}</div><h2>${esc(r.title)}</h2></div><span class="chev" aria-hidden="true">+</span></div>
+        <p class="race-what">${esc(r.what)}</p>
+        <div class="matchup">${mini(a)}<span class="vs">vs.</span>${mini(b)}</div>
+      </summary>
+      <div class="race-body">
+        ${r.note?`<p class="note">${esc(r.note)}</p>${r.noteSrc?links(r.noteSrc):''}`:''}
+        <div class="cands">${candHTML(a)}${candHTML(b)}</div>
+        ${pollsHTML(r)}
+        <h4 style="margin:18px 0 6px;font-size:1rem">Race sources</h4>${links(r.src)}
+      </div></details>`;
+  }
+
+  const counties=[
+    {c:"Alameda",boe:["2"],url:"https://acvote.alamedacountyca.gov/index"},
+    {c:"Alpine",boe:["1"],url:"https://www.alpinecountyca.gov/388/Election"},
+    {c:"Amador",boe:["1"],url:"https://www.amadorcounty.gov/government/elections"},
+    {c:"Butte",boe:["1"],url:"https://www.buttevotes.ca.gov/35/Elections"},
+    {c:"Calaveras",boe:["1"],url:"https://elections.calaverasgov.us/"},
+    {c:"Colusa",boe:["1"],url:"https://www.countyofcolusaca.gov/197/Elections"},
+    {c:"Contra Costa",boe:["2"],url:"https://www.contracostavote.gov/elections/"},
+    {c:"Del Norte",boe:["2"],url:"https://www.co.del-norte.ca.us/departments/Elections"},
+    {c:"El Dorado",boe:["1"],url:"https://www.eldoradocounty.ca.gov/County-Government/Elections"},
+    {c:"Fresno",boe:["1"],url:"https://www.fresnocountyca.gov/Departments/County-ClerkRegistrar-of-Voters/Elections"},
+    {c:"Glenn",boe:["1"],url:"https://www.countyofglenn.net/dept/elections/welcome"},
+    {c:"Humboldt",boe:["2"],url:"https://humboldtgov.org/890/Elections-Voter-Registration"},
+    {c:"Imperial",boe:["4"],url:"https://elections.imperialcounty.org/"},
+    {c:"Inyo",boe:["1"],url:"https://elections.inyocounty.us/"},
+    {c:"Kern",boe:["1"],url:"https://www.kernvote.com/"},
+    {c:"Kings",boe:["1"],url:"https://www.countyofkingsca.gov/departments/administration/elections"},
+    {c:"Lake",boe:["2"],url:"https://www.lakecountyca.gov/818/Registrar-of-Voters"},
+    {c:"Lassen",boe:["1"],url:"https://www.lassencounty.gov/194/Elections"},
+    {c:"Los Angeles",boe:["3"],url:"https://www.lavote.gov/home/voting-elections"},
+    {c:"Madera",boe:["1"],url:"https://votemadera.com/"},
+    {c:"Marin",boe:["2"],url:"https://www.marincounty.gov/departments/elections"},
+    {c:"Mariposa",boe:["1"],url:"https://www.mariposacounty.gov/87/Elections"},
+    {c:"Mendocino",boe:["2"],url:"https://www.mendocinocounty.gov/government/assessor-county-clerk-recorder-elections/elections"},
+    {c:"Merced",boe:["1"],url:"https://www.countyofmerced.com/3878/Elections"},
+    {c:"Modoc",boe:["1"],url:"https://www.countyofmodoc.gov/554/Elections"},
+    {c:"Mono",boe:["1"],url:"https://monocounty.ca.gov/1910/Elections"},
+    {c:"Monterey",boe:["2"],url:"https://www.countyofmonterey.gov/government/departments-a-h/elections/home"},
+    {c:"Napa",boe:["2"],url:"https://www.napacounty.gov/396/Elections"},
+    {c:"Nevada",boe:["1"],url:"https://www.nevadacountyca.gov/3490/Current-Elections"},
+    {c:"Orange",boe:["4"],url:"https://ocvote.gov/"},
+    {c:"Placer",boe:["1"],url:"https://www.placercountyelections.gov/"},
+    {c:"Plumas",boe:["1"],url:"https://www.plumascounty.us/3427/Elections"},
+    {c:"Riverside",boe:["4"],url:"https://www.voteinfo.net/"},
+    {c:"Sacramento",boe:["1"],url:"https://elections.saccounty.gov/"},
+    {c:"San Benito",boe:["2"],url:"https://www.sanbenitocounty-ca-cre.gov/elections"},
+    {c:"San Bernardino",boe:["1", "4"],url:"https://elections.sbcounty.gov/"},
+    {c:"San Diego",boe:["4"],url:"https://www.sdvote.com/"},
+    {c:"San Francisco",boe:["2"],url:"https://www.sf.gov/departments/department-elections"},
+    {c:"San Joaquin",boe:["1"],url:"https://www.sjgov.org/department/rov/"},
+    {c:"San Luis Obispo",boe:["2"],url:"https://www.slocounty.ca.gov/departments/clerk-recorder"},
+    {c:"San Mateo",boe:["2"],url:"https://smcacre.gov/elections"},
+    {c:"Santa Barbara",boe:["2"],url:"https://www.countyofsb.org/acr-elections"},
+    {c:"Santa Clara",boe:["2"],url:"https://vote.santaclaracounty.gov/home"},
+    {c:"Santa Cruz",boe:["2"],url:"https://votescount.santacruzcountyca.gov/"},
+    {c:"Shasta",boe:["1"],url:"https://elections.shastacounty.gov/"},
+    {c:"Sierra",boe:["1"],url:"https://www.sierracounty.ca.gov/214/Elections"},
+    {c:"Siskiyou",boe:["1"],url:"https://www.siskiyoucounty.gov/elections"},
+    {c:"Solano",boe:["1"],url:"https://www.solanocounty.gov/government/registrar-voters"},
+    {c:"Sonoma",boe:["2"],url:"https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters"},
+    {c:"Stanislaus",boe:["1"],url:"https://www.stanvote.gov/"},
+    {c:"Sutter",boe:["1"],url:"https://www.sutter.gov/government/county-departments/clerk-recorder/elections"},
+    {c:"Tehama",boe:["1"],url:"https://www.tehama.gov/government/departments/elections/"},
+    {c:"Trinity",boe:["2"],url:"https://www.trinitycounty.org/214/Elections"},
+    {c:"Tulare",boe:["1"],url:"https://tularecounty.ca.gov/elections"},
+    {c:"Tuolumne",boe:["1"],url:"https://www.tuolumnecounty.ca.gov/194/Election-Information"},
+    {c:"Ventura",boe:["2"],url:"https://clerkrecorder.venturacounty.gov/elections/"},
+    {c:"Yolo",boe:["1"],url:"https://elections.yolocounty.gov/35/Elections"},
+    {c:"Yuba",boe:["1"],url:"https://www.yuba.gov/departments/elections/index.php"}
+  ];
+  const lastName=n=>n.replace('*','').split(' ').pop();
+  const choiceRow=(key,label,names)=>`<div class="personal-choice"><span id="choice-label-${key}">My choice · ${esc(label)}</span><div class="choice-buttons" role="group" aria-labelledby="choice-label-${key}">${names.map(n=>`<button type="button" data-race="${key}" data-choice="${esc(n)}" aria-pressed="false">${esc(n)}</button>`).join('')}<button type="button" data-race="${key}" data-choice="" aria-pressed="true">Undecided</button></div></div>`;
+
+  document.getElementById('races').innerHTML=races.map((r,i)=>`<div class="race-wrap">${raceHTML(r,i===0)}${choiceRow(r.id,r.title,r.cands.map(c=>c.name))}</div>`).join('');
+  document.getElementById('jump').innerHTML=races.map(r=>`<a href="#${r.id}">${esc(r.title)}</a>`).join('')+'<a href="#boe">Board of Equalization</a><a href="#local">Local races</a>';
+  document.getElementById('county').insertAdjacentHTML('beforeend',counties.map(c=>`<option value="${esc(c.c)}">${esc(c.c)}</option>`).join(''));
+
+  const boeName=([n])=>n.replace('*','');
+  const boeCand=([n,party,job])=>`<b>${esc(n)}</b><span class="party ${party}">${party==='dem'?'Democrat':'Republican'}</span><span class="role">On the ballot as: “${esc(job)}”</span>`;
+  const boeTable=rows=>`<table class="boe"><thead><tr><th>District</th><th>Candidate</th><th>Candidate</th><th>June primary</th></tr></thead><tbody>${rows.map(([d,x,y,pr])=>{
+    const c=([n,party,job])=>`<b>${esc(n)}</b><br><span class="party ${party}">${party==='dem'?'Democrat':'Republican'}</span><br><span style="font-size:.78rem;color:var(--muted)">${esc(job)}</span>`;
+    return `<tr><td>District ${d}</td><td>${c(x)}</td><td>${c(y)}</td><td>${esc(pr)}</td></tr>`}).join('')}</tbody></table>`;
+
+  const ballotKey='ca-2026-candidate-choices-v1';
+  let state={choices:{},county:'',boe:''};
+  const raceKeys=()=>races.map(r=>r.id);
+  const countyData=()=>counties.find(c=>c.c===state.county);
+  function myBoeDistricts(){const c=countyData();if(!c)return[];if(c.boe.length>1&&c.boe.includes(state.boe))return[state.boe];return c.boe}
+  function validChoice(key,v){
+    if(races.some(r=>r.id===key))return races.find(r=>r.id===key).cands.some(c=>c.name===v);
+    const m=/^boe-(\d)$/.exec(key);if(m){const row=boe.find(b=>b[0]===m[1]);return !!row&&[row[1],row[2]].some(x=>boeName(x)===v)}
+    return false;
+  }
+  function readBallot(){
+    try{
+      const saved=JSON.parse(localStorage.getItem(ballotKey)||'{}');
+      state={choices:{},county:'',boe:''};
+      if(saved&&typeof saved==='object'){
+        if(saved.choices&&typeof saved.choices==='object')Object.entries(saved.choices).forEach(([k,v])=>{if(validChoice(k,v))state.choices[k]=v});
+        if(counties.some(c=>c.c===saved.county))state.county=saved.county;
+        if(['1','2','3','4'].includes(saved.boe))state.boe=saved.boe;
+      }
+    }catch(error){document.getElementById('ballot-storage').textContent='Saved choices could not be loaded. You can still make and print a checklist here.'}
+  }
+  function renderBoe(){
+    const ds=myBoeDistricts(),c=countyData(),content=document.getElementById('boe-content'),choice=document.getElementById('boe-choice');
+    if(!c){
+      content.innerHTML=`<p class="note">Pick your county in <a href="#my-ballot">My candidate checklist</a> to see your district and track your choice.</p>${boeTable(boe)}`;
+      choice.innerHTML='';return;
+    }
+    const split=c.boe.length>1;
+    const pick=split?`<div class="boe-pick"><b>${esc(c.c)} County is split between Districts ${c.boe.join(' and ')}.</b> Check your sample ballot, then pick yours: <div class="choice-buttons" role="group" aria-label="My Board of Equalization district" style="margin-top:8px">${c.boe.map(d=>`<button type="button" data-boe-district="${d}" aria-pressed="${state.boe===d}">District ${d}</button>`).join('')}</div></div>`:'';
+    const mine=ds.map(d=>{const row=boe.find(b=>b[0]===d);return `<h3 style="margin-top:16px;font-size:1.25rem">${ds.length>1?'Possible district':'Your district'}: District ${d}</h3><div class="boe-mine"><div class="boe-card">${boeCand(row[1])}</div><div class="boe-card">${boeCand(row[2])}</div></div><p style="font-size:.82rem;color:var(--muted);margin:8px 0 0">June primary: ${esc(row[3])}</p>`}).join('');
+    const others=boe.filter(b=>!ds.includes(b[0]));
+    content.innerHTML=pick+mine+(others.length?`<details class="boe-others"><summary>Other districts (not on your ballot)</summary>${boeTable(others)}</details>`:'');
+    choice.innerHTML=ds.map(d=>{const row=boe.find(b=>b[0]===d);return choiceRow('boe-'+d,`Board of Equalization, District ${d}`,[boeName(row[1]),boeName(row[2])])}).join('');
+  }
+  function renderCounty(){
+    const c=countyData(),info=document.getElementById('county-info');
+    document.getElementById('county').value=state.county;
+    if(!c){info.innerHTML='';return}
+    const ds=myBoeDistricts();
+    info.innerHTML=`<p><b>${esc(c.c)} County.</b> Your ballot has all 8 statewide races below${c.boe.length>1&&ds.length>1?`, plus a Board of Equalization race in District ${c.boe.join(' or ')} (your county is split; your sample ballot shows which)`:`, plus Board of Equalization District ${ds[0]}`}.</p><p>Your local races (U.S. House, State Senate, Assembly, county, city, and school seats) are on your county’s sample ballot: <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.c)} County elections office ↗</a></p>`;
+  }
+  function render(){
+    renderCounty();renderBoe();
+    document.querySelectorAll('[data-race]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.choice===(state.choices[b.dataset.race]||''))));
+    const ds=myBoeDistricts();
+    const rows=races.map(r=>({label:r.title,key:r.id,sub:''})).concat(ds.map(d=>({label:`Board of Equalization, District ${d}`,key:'boe-'+d,sub:ds.length>1?'Only one of these districts is on your ballot.':''})));
+    const decided=rows.filter(x=>state.choices[x.key]).length;
+    document.getElementById('ballot-progress').textContent=`${decided} of ${rows.length} decided · ${rows.length-decided} undecided${state.county?'':' · Pick your county to add your Board of Equalization race'}`;
+    document.getElementById('checklist-caption').textContent=state.county?`My races in ${state.county} County, including any still undecided`:'My statewide races, including any still undecided';
+    document.getElementById('checklist-rows').innerHTML=rows.map(x=>{const v=state.choices[x.key];const race=races.find(r=>r.id===x.key);const cand=race&&v?race.cands.find(c=>c.name===v):null;
+      return `<tr><th scope="row">${esc(x.label)}${x.sub?`<span class="checklist-sub">${esc(x.sub)}</span>`:''}</th><td>${v?esc(v)+(cand?`<span class="checklist-sub">${esc(cand.partyName)}</span>`:''):'Undecided'}</td></tr>`}).join('');
+    const c=countyData();
+    document.getElementById('checklist-local').innerHTML=c?`Local races and propositions are on your ${esc(c.c)} County sample ballot: <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.url)}</a>`:'Local races are on your county sample ballot.';
+  }
+  function save(){
+    try{if(Object.keys(state.choices).length||state.county)localStorage.setItem(ballotKey,JSON.stringify(state));else localStorage.removeItem(ballotKey);document.getElementById('ballot-storage').textContent='Saved on this device. Clearing browser data removes your choices.'}
+    catch(error){document.getElementById('ballot-storage').textContent='Browser storage is unavailable. Choices work for this visit only; print or save a PDF before leaving.'}
+    render();
+  }
+  readBallot();render();
+  document.addEventListener('click',e=>{
+    const b=e.target.closest('[data-race]');
+    if(b){if(b.dataset.choice)state.choices[b.dataset.race]=b.dataset.choice;else delete state.choices[b.dataset.race];save();return}
+    const d=e.target.closest('[data-boe-district]');
+    if(d){state.boe=d.dataset.boeDistrict;save()}
+  });
+  document.getElementById('county').addEventListener('change',e=>{state.county=e.target.value;state.boe='';save()});
+  document.getElementById('ballot-review').addEventListener('click',e=>{const sheet=document.getElementById('checklist-sheet');sheet.hidden=!sheet.hidden;e.currentTarget.setAttribute('aria-expanded',String(!sheet.hidden));e.currentTarget.textContent=sheet.hidden?'View my checklist':'Hide my checklist'});
+  document.getElementById('ballot-print').addEventListener('click',()=>window.print());
+  function showReset(show){document.getElementById('ballot-reset-confirm').hidden=!show;document.getElementById('ballot-reset').setAttribute('aria-expanded',String(show));document.getElementById(show?'ballot-reset-no':'ballot-reset').focus()}
+  document.getElementById('ballot-reset').addEventListener('click',()=>showReset(true));
+  document.getElementById('ballot-reset-no').addEventListener('click',()=>showReset(false));
+  document.getElementById('ballot-reset-yes').addEventListener('click',()=>{state={choices:{},county:'',boe:''};save();showReset(false)});
+  window.addEventListener('storage',e=>{if(e.key===ballotKey||e.key===null){readBallot();render()}});
+  document.getElementById('jump').addEventListener('click',e=>{
+    const a=e.target.closest('a');if(!a)return;
+    const el=document.querySelector(a.getAttribute('href'));
+    if(el&&el.tagName==='DETAILS')el.open=true;
+  });
+  if(location.hash){const el=document.querySelector(location.hash);if(el&&el.tagName==='DETAILS')el.open=true;}
+  </script>
+</body>
+</html>
