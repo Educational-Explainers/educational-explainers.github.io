@@ -49,7 +49,7 @@
     "higher_education": {"page_key": "Higher education", "official": 26691050, "how": "Schedule 9 higher-education section."},
     "corrections": {"page_key": "Corrections", "official": 14447846, "how": "Schedule 9 corrections section. The Department of Finance chart rounds to $14,448 million."},
     "government_courts_executive": {
-      "page_key": "Government, courts & executive",
+      "page_key": "Government operations, courts & other",
       "official": 16553565,
       "parts_thousands": {
         "legislative_judicial_executive_after_secretary_moves": 7083302,

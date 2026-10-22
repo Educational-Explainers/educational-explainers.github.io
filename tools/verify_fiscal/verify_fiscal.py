@@ -230,7 +230,9 @@ def main() -> int:
 
     gov = spend_pin["government_courts_executive"]
     part_sum = sum(gov["parts_thousands"].values()) * 1000
-    if part_sum == gov["official"] * 1000:
+    if part_sum == gov["official"] * 1000 and "Government, courts & executive" not in html:
+        checks.ok("Government bar label", "The $16.554B bar is labeled as more than courts and executive offices")
+    elif part_sum == gov["official"] * 1000:
         checks.warn(
             "Government, courts and executive label",
             "The $16.554B total matches Legislative, Judicial, and Executive plus Government Operations plus General Government. "
@@ -307,7 +309,12 @@ def main() -> int:
             "Operating-deficit arithmetic",
             f"251,477 − (226,754 + 6,388) = {dof_deficit} million dollars",
         )
-    if deficit == gf["operating_deficit"]["lao_prose_billions"]:
+    if deficit == gf["operating_deficit"]["lao_prose_billions"] and "rounds the administration’s $18.3B estimate to $18.5B" in html:
+        checks.ok(
+            "Operating deficit displayed as $18.5B",
+            "The page attributes $18.5B to the LAO's rounding of the administration's $18.3B estimate",
+        )
+    elif deficit == gf["operating_deficit"]["lao_prose_billions"]:
         checks.warn(
             "Operating deficit displayed as $18.5B",
             "The page matches the LAO sentence, which rounds the administration's figure to $18.5 billion. "
@@ -371,14 +378,17 @@ def main() -> int:
         checks.fail("Prop 3 revenue range", f"page {card.get('range')}")
 
     p39 = by_prop[39]
-    checks.warn(
-        "Prop 39 bar endpoints",
-        f"The page draws ${p39['low']*1000:.0f}–${p39['high']*1000:.0f} million and its percent function prints "
-        f"{displayed_pct(p39['low'])}–{displayed_pct(p39['high'])}. "
-        f"Unrounded, ${p39['low']*1000:.0f} million is {p39['low']/spend_sum*100:.4f} percent, which toFixed(2) turns into "
-        f"{displayed_pct(p39['low'])}. The LAO published no dollar endpoints. It says tens to low hundreds of millions "
-        "of state and local costs, less than 0.25 percent of the General Fund.",
-    )
+    if "low" not in p39 and p39.get("approx") and p39.get("pctText"):
+        checks.ok("Prop 39 bar endpoints", "No dollar endpoints are printed; the label quotes LAO wording and the bar is marked approximate")
+    else:
+        checks.warn(
+            "Prop 39 bar endpoints",
+            f"The page draws ${p39['low']*1000:.0f}–${p39['high']*1000:.0f} million and its percent function prints "
+            f"{displayed_pct(p39['low'])}–{displayed_pct(p39['high'])}. "
+            f"Unrounded, ${p39['low']*1000:.0f} million is {p39['low']/spend_sum*100:.4f} percent, which toFixed(2) turns into "
+            f"{displayed_pct(p39['low'])}. The LAO published no dollar endpoints. It says tens to low hundreds of millions "
+            "of state and local costs, less than 0.25 percent of the General Fund.",
+        )
 
     p40 = by_prop[40]
     if p40["high"] == 1 and p40.get("uncertain"):
@@ -391,12 +401,15 @@ def main() -> int:
         checks.fail("Prop 40 ongoing loss", str(p40))
 
     p45 = by_prop[45]
-    checks.warn(
-        "Prop 45 bar endpoints",
-        f"The page draws ${p45['low']*1000:.0f}–${p45['high']*1000:.0f} million. "
-        "The LAO says initial state and local costs likely in the high tens of millions and potentially over $100 million, "
-        "partly fee-funded, with no floor or ceiling. Costs are for the first several years.",
-    )
+    if "low" not in p45 and p45.get("approx") and p45.get("pctText"):
+        checks.ok("Prop 45 bar endpoints", "No dollar endpoints are printed; the label quotes LAO wording and the bar is marked approximate")
+    else:
+        checks.warn(
+            "Prop 45 bar endpoints",
+            f"The page draws ${p45['low']*1000:.0f}–${p45['high']*1000:.0f} million. "
+            "The LAO says initial state and local costs likely in the high tens of millions and potentially over $100 million, "
+            "partly fee-funded, with no floor or ceiling. Costs are for the first several years.",
+        )
 
     if "revenue bond" in html and "Up to $25B" in html:
         checks.ok("Prop 37 instrument", "The $25B authorization is labeled a revenue-bond authority")
